@@ -95,6 +95,11 @@ a {
 .box:active {
   background-color: var(--box-hover-color);
 }
+.box-center {
+  margin-top: 22.5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 .title {
   text-align: center;
 }
