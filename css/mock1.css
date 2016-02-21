@@ -21,6 +21,17 @@ a {
   text-decoration: none;
 }
 
+/* order */
+.jumbotron {
+  order: 0;
+}
+.navkinks {
+  order:1;
+}
+.main {
+  order: 2;
+}
+
 /* navbar */
 .navbar {
   width: 100%;
@@ -40,6 +51,11 @@ a {
 .nlogo {
   height: 40px;
 }
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  fkex-wrap: nowrap;
+}
 .nlink {
   text-decoration: none;
   color: var(--nlink-col);
@@ -55,13 +71,17 @@ a {
   width: 100%; 
   margin-left: 0;
   margin-right: 0;
-  position: static;
+  display: flex;
+  flex-direction: column;
+  fkex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* jumbotron */
 .jumbotron {
   background: var(--jumbotron-bg);
   width: 100%;
+  flex-basis: 100%;
   -webkit-border-bottom-right-radius: var(--box-round);
   -webkit-border-bottom-left-radius: var(--box-round);
   -moz-border-radius-bottomright: var(--box-round);
