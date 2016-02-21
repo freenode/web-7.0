@@ -91,7 +91,8 @@ a {
   -webkit-border-radius: var(--box-round);
   -moz-border-radius: var(--box-round);
 }
-.box:hover, .box:active {
+.box:hover,
+.box:active {
   background-color: var(--box-hover-color);
 }
 .title {
@@ -141,7 +142,8 @@ a.hchild {
   border-left: 1px solid rgba(var(--border-color),.6);
   border-right: 1px solid rgba(var(--border-color),.6);
 }
-a.hchild:hover, a.hchild:active {
+a.hchild:hover,
+a.hchild:active {
   background-color: var(--box-hover-color);
 }
 .hchild:first-child {
