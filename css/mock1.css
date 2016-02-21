@@ -93,13 +93,13 @@ h1 {
   margin: 0;
 }
 div.art {
-  border-top: 1px solid rgba(var(--border-color),.3);
+  border-bottom: 1px solid rgba(var(--border-color),.3);
 }
 div.art:last-child {
   border-bottom: none;
 }
 h3.art {
-  margin: 0;
+  margin-bottom: 0;
 }
 p.art {
   margin: 0;
@@ -110,7 +110,7 @@ p.art-ingress {
 }
 p.art-date {
   color: #ccc;
-  margin-top: 0;
+  margin: 0;
 }
 p.art-link {
   margin-top: 0;
