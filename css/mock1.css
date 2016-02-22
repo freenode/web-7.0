@@ -70,6 +70,10 @@ a {
   margin-right: 0;
   min-height: 100%;
 }
+.main {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
 
 /* jumbotron */
 .jumbotron {
