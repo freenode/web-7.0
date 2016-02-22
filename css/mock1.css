@@ -3,10 +3,12 @@
   --navbar-bg: white;
   --nlink-col: black;
   --jumbotron-bg: rgba(75,235,74,.4);
-  --footer-bg: #eee;
+  --footer-bg: 36,62,22;
   --link-color: #428bca;
   --text-color: #333;
+  --footer-text-color: #fff;
   --border-color: 0,0,0;
+  --footer-border-color: 255,255,255;
   --box-hover-color: #eee;
   --box-round: 10px;
 }
@@ -193,12 +195,13 @@ a.hchild:active {
 
 /* footer */
 .footer {
-  background: var(--footer-bg);
+  background: rgb(var(--footer-bg));
+  color: var(--footer-text-color);
   width: device-width;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
 /*  -webkit-border-top-left-radius: var(--box-round);
@@ -208,10 +211,27 @@ a.hchild:active {
   border-top-left-radius: var(--box-round);
   border-top-right-radius: var(--box-round);*/
 }
+@media all and (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footerchild {
+    width: 100%;
+    border-bottom: 1px solid rgba(var(--footer-border-color),.5);
+  }
+}
+.footerchild ul,
+.footerchild ul ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footerchild ul ul {
+  padding-left: 2em;
+}
+.footer h2, .footer h3 {
+margin: 0;
+}
 .footer .footerchild p {
   margin: 0;
-}
-.footerline {
-  border-right: 1px solid #000;
-  height: 100%;
 }
