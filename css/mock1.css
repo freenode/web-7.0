@@ -24,7 +24,7 @@
 
 /* global */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans';
   color: var(--text-color);
 }
 a {
@@ -99,7 +99,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
 }
 .box {
   text-align: center;
@@ -108,7 +108,7 @@ a {
   margin-bottom: 5px;
   border: 1px solid rgb(var(--border-color));
   flex-basis: 30%;
-  height: 105px;
+  /*height: 105px;*/
   background-color: #fff;
   border-radius: var(--box-round);
   -webkit-border-radius: var(--box-round);
@@ -214,6 +214,7 @@ a.hchild:active {
 .footerchild {
   margin-top: 0.5em;
   padding-left: 0.5em;
+  margin-right: 0.5em;
 }
 .footer a {
   color: rgb(var(--footer-link-color));
@@ -256,6 +257,8 @@ margin: 0;
 }
 a.copyright {
   background: rgba(var(--copyright-bg),.5);
-  padding: 0;
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
