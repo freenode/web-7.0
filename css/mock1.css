@@ -1,7 +1,8 @@
 /* vars */
 :root {
   --navbar-bg: white;
-  --jumbotron-bg: rgba(75,235,74,.4);
+  --jumbotron-bg: 15,75,14;
+  --jumbotron-bg-fall: 65,225,64;
   --footer-bg: 36,62,22;
   --copyright-bg: 0,0,0;
   --link-color: #428bca;
@@ -73,10 +74,7 @@ a {
 
 /* main */
 .container {
-  margin-top: 50px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin: 50px 0 0 0;
   padding: 0;
   width: 100%; 
   margin-left: 0;
@@ -85,12 +83,18 @@ a {
   flex-direction: column;
   fkex-wrap: wrap;
   justify-content: space-between;
+  min-height: 100%;
 }
 
 /* jumbotron */
 .jumbotron {
-  background: var(--jumbotron-bg);
+  position: relative;
+  border-bottom: 1px solid #888;
   width: 100%;
+  background: rgb(var(--jumotron-bg-fall));
+  background: rgba(var(--jumbotron-bg),.6);
+  box-shadow: 0 3px 5px rgba(0,0,0, 0.36);
+  
   flex-basis: 100%;
   -webkit-border-bottom-right-radius: var(--box-round);
   -webkit-border-bottom-left-radius: var(--box-round);
