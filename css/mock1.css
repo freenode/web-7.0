@@ -12,9 +12,11 @@
     --text-color: #333;
     /*--footer-text-color: 255,255,255;*/
     --footer-text-color: 51,51,51;
+    --copyright-text-color: 255,255,255;
     --jumbotron-text-color: #333;
     --border-color: 0,0,0;
-    --footer-border-color: 255,255,255;
+    /*--footer-border-color: 255,255,255;*/
+    --footer-border-color: 51,51,51;
     --box-hover-color: #eee;
     --box-round: 10px;
 }
@@ -293,7 +295,7 @@ a.hchild:hover,a.hchild:active {
     align-items: center;
     background: rgba(var(--copyright-bg),.5);
     height: 31px;
-    color: rgba(var(--footer-text-color),.8);
+    color: rgba(var(--copyright-text-color),.8);
 }
 
 a.copyright {
