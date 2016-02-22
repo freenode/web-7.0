@@ -2,6 +2,7 @@
 
 :root {
   /*--jumbotron-bg: 15,75,14;*/
+  /*--jumbotron-bg: rgba(75,235,74,.4);*/
   /*--footer-link-color: 255,255,255;*/
   /*--footer-text-color: 255,255,255;*/
   /*--footer-border-color: 255,255,255;*/
@@ -95,11 +96,10 @@ a {
 
 .jumbotron {
   position: relative;
-  border-bottom: 1px solid #888;
   width: 100%;
   background: #000;
-  background: rgba(75,235,74,.4);
-  box-shadow: 0 3px 5px rgba(0,0,0,0.36);
+  background: rgb(238,238,238);
+  box-shadow: 0 3px 5px rgba(150,150,150,.36);
   color: #333;
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
@@ -260,7 +260,7 @@ a.hchild:active {
 /* footer */
 
 .footer {
-  background: rgba(75,235,74,.4);
+  background: rgb(238,238,238);
   color: rgba(51,51,51,.9);
   margin-top: 1em;
   display: -webkit-box;
@@ -278,7 +278,7 @@ a.hchild:active {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  box-shadow: 0 -3px 5px rgba(0,0,0,0.36);
+  box-shadow: 0 -3px 5px rgba(150,150,150,.36);
   -webkit-border-top-left-radius: 10px;
   -webkit-border-top-right-radius: 10px;
   -moz-border-radius-topleft: 10px;
@@ -360,13 +360,13 @@ a.hchild:active {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: rgba(0,0,0,.5);
+  background: rgba(170,178,171,.5);
   height: 31px;
-  color: rgba(255,255,255,.8);
+  color: rgba(0,0,0,.8);
 }
 
 a.copyright {
-  background: rgba(0,0,0,.5);
+  background: rgba(170,178,171,.5);
   margin-bottom: 0;
   margin-top: 0;
   margin-left: .5em;
