@@ -7,11 +7,11 @@ The goal is to create a new, modernly responsive, and easily navigated website f
 ## TODO
 []  Get the basic static page up, and how to connect (latest two news about the reformation + about page, kinda) schedulescheduled release: 2016-02-28
 
-	[x]  Design ready
+. 	[x]  Design ready
 
-	[] Preprocessor ready
+. 	[] Preprocessor ready
 
-	[] content ready
+. 	[] content ready
 
 [] FAQ pages structure, start adding FAQ's (note: tagging could be a good thing for searching and finding) 
 
