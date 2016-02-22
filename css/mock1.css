@@ -3,9 +3,9 @@
   --navbar-bg: white;
   --jumbotron-bg: 15,75,14;
   --jumbotron-bg-fall: 65,225,64;
-  --footer-bg: 36,62,22;
   --copyright-bg: 0,0,0;
   --link-color: 66,139,202;
+  --footer-link-color: 32,32,32;
   --nlink-col: black;
   --text-color: #333;
   --footer-text-color: 255,255,255;
@@ -30,17 +30,6 @@ body {
 a {
   color: rgb(var(--link-color));
   text-decoration: none;
-}
-
-/* order */
-.jumbotron {
-  order: 0;
-}
-.navkinks {
-  order:1;
-}
-.main {
-  order: 2;
 }
 
 /* navbar */
@@ -79,10 +68,6 @@ a {
   width: 100%; 
   margin-left: 0;
   margin-right: 0;
-  display: flex;
-  flex-direction: column;
-  fkex-wrap: wrap;
-  justify-content: space-between;
   min-height: 100%;
 }
 
@@ -207,18 +192,21 @@ a.hchild:active {
 
 /* footer */
 .footer {
-  background: rgb(var(--footer-bg));
-  color: rgb(var(--footer-text-color));
-  width: device-width;
-  margin: 0;
-  padding: 0;
+  background: rgba(var(--jumbotron-bg),.6);
+  color: rgba(var(--footer-text-color),.9);
+  margin-top: 1em;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  box-shadow: 0 -3px 5px rgba(0,0,0, 0.36);
+
+}
+.footerchild h2 {
+  margin-top: 1em;
 }
 .footer a {
-  color: rgba(var(--link-color),.9);
+  color: rgb(var(--footer-link-color));
 }
 @media all and (max-width: 500px) {
   .footer {
