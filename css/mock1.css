@@ -92,6 +92,7 @@ a {
 }
 .child {
   text-align: center;
+  margin-bottom: 0.5em;
 }
 .box-container {
   display: flex;
