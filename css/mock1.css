@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* reset css for browser compat */
 * {
     margin: 0;
@@ -9,13 +10,36 @@ body {
   font-family: Verdana, Helvetica, sans-serif;
   font-size: 16px;
   color: #222222;
+=======
+/* vars */
+:root {
+  --navbar-bg: white;
+  --nlink-col: black;
+  --jumbotron-bg: rgba(75,235,74,.4);
+  --footer-bg: #eee;
+  --link-color: #428bca;
+  --text-color: #333;
+  --border-color: 0,0,0;
+  --box-hover-color: #eee;
+  --box-round: 10px;
+}
+
+/* global */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--text-color);
+}
+a {
+  color: var(--link-color);
+  text-decoration: none;
+>>>>>>> a76ce2ec5a7fbf382a09e6e87b16841374fe28a0
 }
 
 /* navbar */
 .navbar {
   width: 100%;
   height: 50px;
-  background-color: white;
+  background-color: var(--navbar-bg);
   position: fixed;
   left: 0;
   right: 0;
@@ -23,7 +47,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgba(var(--border-color),.3);
   z-index: 100;
 }
 .nlogo {
@@ -40,6 +64,7 @@ body {
 
 .navlinks > li {
   text-decoration: none;
+<<<<<<< HEAD
   font-size: 20px;
   color: black;
   float: left;
@@ -48,6 +73,9 @@ body {
   padding-top: 25px;
   transform: translate(0, -25%); /* I have no idea how or why this works but it just does. */
   cursor: pointer; /* for pseudo-links to still feel like links */
+=======
+  color: var(--nlink-col);
+>>>>>>> a76ce2ec5a7fbf382a09e6e87b16841374fe28a0
 }
 
 /* main */
@@ -55,13 +83,20 @@ body {
   margin: 51px 0 0; /* merged margins into one */
   padding: 0;
   width: 100%; 
+<<<<<<< HEAD
   position: relative;
   height: auto;
   min-height: 100%; /* height is needed for some properties */
+=======
+  margin-left: 0;
+  margin-right: 0;
+  position: static;
+>>>>>>> a76ce2ec5a7fbf382a09e6e87b16841374fe28a0
 }
 
 /* jumbotron */
 .jumbotron {
+<<<<<<< HEAD
   color: white;
   height: 50%;
   width: 100%;
@@ -73,6 +108,16 @@ body {
   wrap-flex: wrap;
   justify-content: center;
   align-items: center;
+=======
+  background: var(--jumbotron-bg);
+  width: 100%;
+  -webkit-border-bottom-right-radius: var(--box-round);
+  -webkit-border-bottom-left-radius: var(--box-round);
+  -moz-border-radius-bottomright: var(--box-round);
+  -moz-border-radius-bottomleft: var(--box-round);
+  border-bottom-right-radius: var(--box-round);
+  border-bottom-left-radius: var(--box-round);
+>>>>>>> a76ce2ec5a7fbf382a09e6e87b16841374fe28a0
 }
 .child {
   text-align: center;
@@ -80,6 +125,7 @@ body {
 .box {
   text-align: center;
   text-decoration: none;
+<<<<<<< HEAD
   color: black;
   margin: 0 1%;
   margin-bottom: 5px;
@@ -89,9 +135,20 @@ body {
   border-radius: 10px;
   width: 350px;
   display: inline-block;
+=======
+  color: var(--text-color);
+  margin-bottom: 5px;
+  border: 1px solid rgb(var(--border-color));
+  flex-basis: 30%;
+  height: 105px;
+  background-color: #fff;
+  border-radius: var(--box-round);
+  -webkit-border-radius: var(--box-round);
+  -moz-border-radius: var(--box-round);
+>>>>>>> a76ce2ec5a7fbf382a09e6e87b16841374fe28a0
 }
 .box:hover, .box:active {
-  background-color: #eee;
+  background-color: var(--box-hover-color);
 }
 .title {
   text-align: center;
@@ -155,14 +212,17 @@ body {
 
   }
 /* articles feed */
+h1 {
+  margin: 0;
+}
 div.art {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid rgba(var(--border-color),.3);
 }
 div.art:last-child {
   border-bottom: none;
 }
 h3.art {
-  margin: 0;
+  margin-bottom: 0;
 }
 p.art {
   margin: 0;
@@ -173,18 +233,53 @@ p.art-ingress {
 }
 p.art-date {
   color: #ccc;
-  margin-top: 0;
-}
-a {
-  color: #0645AD;
-  text-decoration: none;
+  margin: 0;
 }
 p.art-link {
   margin-top: 0;
 }
 
+/* help */
+.hmain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+a.hchild {
+  color: var(--text-color);
+  height: 40px;
+  width: 95%;
+  text-align: center;
+  border-top: 1px solid rgba(var(--border-color),.6);
+  border-left: 1px solid rgba(var(--border-color),.6);
+  border-right: 1px solid rgba(var(--border-color),.6);
+}
+a.hchild:hover, a.hchild:active {
+  background-color: var(--box-hover-color);
+}
+.hchild:first-child {
+  margin-top: 10px;
+  -webkit-border-top-left-radius: var(--box-round);
+  -webkit-border-top-right-radius: var(--box-round);
+  -moz-border-radius-topleft: var(--box-round);
+  -moz-border-radius-topright: var(--box-round);
+  border-top-left-radius: var(--box-round);
+  border-top-right-radius: var(--box-round);
+}
+.hchild:last-child {
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(var(--border-color),.6);
+  -webkit-border-bottom-right-radius: var(--box-round);
+  -webkit-border-bottom-left-radius: var(--box-round);
+  -moz-border-radius-bottomright: var(--box-round);
+  -moz-border-radius-bottomleft: var(--box-round);
+  border-bottom-right-radius: var(--box-round);
+  border-bottom-left-radius: var(--box-round);
+}
+
 /* footer */
 .footer {
+<<<<<<< HEAD
   background: #666; /* >:^) */
   width: 100%;
   /* margin and padding are reset at line 1-5 */
@@ -211,3 +306,27 @@ p.art-link {
   right: 0;
   margin-right: 8px;
   }
+=======
+  background: var(--footer-bg);
+  width: device-width;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+/*  -webkit-border-top-left-radius: var(--box-round);
+  -webkit-border-top-right-radius: var(--box-round);
+  -moz-border-radius-topleft: var(--box-round);
+  -moz-border-radius-topright: var(--box-round);
+  border-top-left-radius: var(--box-round);
+  border-top-right-radius: var(--box-round);*/
+}
+.footer .footerchild p {
+  margin: 0;
+}
+.footerline {
+  border-right: 1px solid #000;
+  height: 100%;
+}
+>>>>>>> a76ce2ec5a7fbf382a09e6e87b16841374fe28a0
