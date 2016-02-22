@@ -200,10 +200,16 @@ a.hchild:active {
   justify-content: space-between;
   align-items: flex-start;
   box-shadow: 0 -3px 5px rgba(0,0,0, 0.36);
-
+  -webkit-border-top-left-radius: var(--box-round);
+  -webkit-border-top-right-radius: var(--box-round);
+  -moz-border-radius-topleft: var(--box-round);
+  -moz-border-radius-topright: var(--box-round);
+  border-top-left-radius: var(--box-round);
+  border-top-right-radius: var(--box-round);
 }
-.footerchild h2 {
-  margin-top: 1em;
+.footerchild {
+  margin-top: 0.5em;
+  padding-left: 0.5em;
 }
 .footer a {
   color: rgb(var(--footer-link-color));
