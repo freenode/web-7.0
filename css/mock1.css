@@ -110,7 +110,7 @@ a {
   flex-basis: 30%;
   height: 105px;
   background-color: #fff;
-  border-radius: var(--box-round);
+  border-radius: var(--box-round);
   -webkit-border-radius: var(--box-round);
   -moz-border-radius: var(--box-round);
 }
