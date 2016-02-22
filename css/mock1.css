@@ -26,6 +26,7 @@
 body {
   font-family: 'Open Sans';
   color: var(--text-color);
+  font-size: 14px;
 }
 a {
   color: rgb(var(--link-color));
@@ -254,7 +255,7 @@ a.hchild:active {
   align-items: center;
   background: rgba(var(--copyright-bg),.5);
   height: 31px;
-  color: rgba(var(--footer-text-color),.9);
+  color: rgba(var(--footer-text-color),.8);
 }
 a.copyright {
   background: rgba(var(--copyright-bg),.5);
