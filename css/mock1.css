@@ -244,6 +244,9 @@ a.hchild:active {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+.fkex-right {
+  align-self: flex-end;
+}
 .copyright {
   display: flex;
   flex-wrap: nowrap;
