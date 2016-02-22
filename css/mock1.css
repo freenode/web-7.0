@@ -2,9 +2,10 @@
 :root {
     --navbar-bg: #fff;
     /*--jumbotron-bg: 15,75,14;*/
-    --jumbotron-bg: rgba(75,235,74,.4);
+    /*--jumbotron-bg: rgba(75,235,74,.4);*/
+    --jumbotron-bg: rgb(238,238,238);
     --jumbotron-bg-fall: 65,225,64;
-    --copyright-bg: 0,0,0;
+    --copyright-bg: 170,178,171;
     --link-color: 66,139,202;
     /*--footer-link-color: 255,255,255;*/
     --footer-link-color: 51,51,51;
@@ -12,7 +13,7 @@
     --text-color: #333;
     /*--footer-text-color: 255,255,255;*/
     --footer-text-color: 51,51,51;
-    --copyright-text-color: 255,255,255;
+    --copyright-text-color: 0,0,0;
     --jumbotron-text-color: #333;
     --border-color: 0,0,0;
     /*--footer-border-color: 255,255,255;*/
@@ -88,11 +89,10 @@ a {
 /* jumbotron */
 .jumbotron {
     position: relative;
-    border-bottom: 1px solid #888;
     width: 100%;
     background: #000;
     background: var(--jumbotron-bg);
-    box-shadow: 0 3px 5px rgba(0,0,0,0.36);
+    box-shadow: 0 3px 5px rgba(150,150,150,.36);
     color: var(--jumbotron-text-color);
     flex-basis: 100%;
     -webkit-border-bottom-right-radius: var(--box-round);
@@ -230,7 +230,7 @@ a.hchild:hover,a.hchild:active {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    box-shadow: 0 -3px 5px rgba(0,0,0,0.36);
+    box-shadow: 0 -3px 5px rgba(150,150,150,.36);
     -webkit-border-top-left-radius: var(--box-round);
     -webkit-border-top-right-radius: var(--box-round);
     -moz-border-radius-topleft: var(--box-round);
