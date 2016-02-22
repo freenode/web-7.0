@@ -14,6 +14,13 @@
   --box-round: 10px;
 }
 
+/* reset css for browser compat */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* global */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -66,7 +73,7 @@ a {
 
 /* main */
 .container {
-  margin-top: 51px;
+  margin-top: 50px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
