@@ -119,6 +119,10 @@ a {
 .fa-users {
   margin-top: 5px;
 }
+.fa-comment,
+.fa-question {
+  margin-bottom: 5px;
+}
 .title {
   text-align: center;
 }
