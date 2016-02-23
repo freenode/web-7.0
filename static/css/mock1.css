@@ -38,7 +38,7 @@ body {
 }
 
 a {
-    color: #000;
+    color: rgb(var(--link-color));
     text-decoration: none;
 }
 
@@ -66,7 +66,7 @@ a {
 .navlinks {
     display: flex;
     justify-content: space-around;
-    fkex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 .nlink {
@@ -225,7 +225,7 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
-    margin-top: 0em;
+    margin-top: 1em;
     display: flex;
     flex-wrap: nowrap;
     min-height: 30vh;
@@ -282,19 +282,22 @@ a.hchild:hover,a.hchild:active {
 
 .copyright {
     display: flex;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
+    height: 31px;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     background: rgba(var(--copyright-bg),.5);
-    height: 31px;
     color: rgba(var(--copyright-text-color),.8);
 }
 
 a.copyright {
     background: rgba(var(--copyright-bg),.5);
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.copyright p {
     margin-bottom: 0;
     margin-top: 0;
     margin-left: .5em;
