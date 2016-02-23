@@ -90,6 +90,7 @@ a {
 .jumbotron {
     position: relative;
     width: 100%;
+    margin: 0;
     background: #000;
     background: var(--jumbotron-bg);
     box-shadow: 0 3px 5px rgba(150,150,150,.36);
@@ -262,15 +263,14 @@ a.hchild:hover,a.hchild:active {
     .footerchild ul li:last-child {
         margin-bottom: .5em;
     }
+    .hdn {
+    display: none;
+    }
 }
 
 .footer h2,.footer h3 {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.flex-right {
-    align-self: flex-end;
 }
 
 .copyright {
