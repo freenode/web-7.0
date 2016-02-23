@@ -140,7 +140,7 @@ a {
 
 .box:hover,
 .box:active {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 .fa-users {
@@ -193,14 +193,6 @@ p.heading {
   white-space: nowrap;
 }
 
-/*p.art-links {
-    white-space: nowrap;
-}*/
-
-.art-link:last-child {
-  text-align: right;
-}
-
 p.art-link {
   margin-top: 0;
 }
@@ -245,7 +237,7 @@ a.hchild {
 
 a.hchild:hover,
 a.hchild:active {
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 .hchild:first-child {
