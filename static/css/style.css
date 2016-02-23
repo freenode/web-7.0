@@ -193,6 +193,14 @@ p.heading {
   white-space: nowrap;
 }
 
+/*p.art-links {
+    white-space: nowrap;
+}*/
+
+.art-link:last-child {
+  text-align: right;
+}
+
 p.art-link {
   margin-top: 0;
 }
@@ -203,7 +211,7 @@ p.art-link {
 .art-full h2,
 .art-full h3,
 .art-full h4 {
-  line-height: 1.5em;
+  margin-top: 0.5em;
 }
 
 /* help */

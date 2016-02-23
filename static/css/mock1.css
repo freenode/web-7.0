@@ -171,7 +171,6 @@ p.art-ingress {
 p.heading {
     white-space: nowrap;
 }
-
 p.art-link {
     margin-top: 0;
 }
@@ -181,7 +180,7 @@ p.art-link {
 .art-full h2,
 .art-full h3,
 .art-full h4 {
-    ;
+    margin-top: 0.5em;
 }
 
 /* help */

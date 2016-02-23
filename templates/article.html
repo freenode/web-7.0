@@ -2,6 +2,8 @@
     <p><b class="art">{{ Title }}</b>&nbsp;
     <span class="art-date">{{ Date }} by {{ Author }}</span></p>
     <p class="art-ingress">{% block Content %}{% endblock %}</p>
-    <p class="art-link"><a href="{{ previous }}">Previous</a></p>
-    <p class="art-link"><a href="{{ previous }}">Next</a></p>
+    <p class=art-links">
+        <a href="{{ previous }}" class="art-link">Previous</a>
+        <a href="{{ previous }}" class="art-link">Next</a>
+    </p>
 </div>
