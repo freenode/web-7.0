@@ -15,6 +15,10 @@
     </div>
 </div>
 <div class="main">
-    {{ get_module("news").articles[-1].render() }}
+    {% with article = get_module("news").articles[-1] %}
+    <p><b class="art"><a href="{{ article.url }}">{{ article.title }}</a></b>&nbsp;
+    <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
+    <p class="art-ingress">{{ article.render() }}</p>
+    {% endwith %}
 </div>
 {% endblock content %}
