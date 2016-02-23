@@ -16,6 +16,7 @@
 </div>
 <div class="main">
     {% with article = get_module("news").articles[-1] %}
+    {% set author = article.author %}
     <p><b class="art"><a href="{{ article.url }}">{{ article.title }}</a></b>&nbsp;
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
     <p class="art-ingress">{{ article.render() }}</p>
