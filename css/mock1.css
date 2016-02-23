@@ -130,6 +130,7 @@ a {
     transition: background-color .125s ease;
     -webkit-transition: background-color .125s ease;
     -moz-transition: background-color .125s ease;
+    height: 15vh;
 }
 
 .box:hover,.box:active {
@@ -145,6 +146,9 @@ a {
     margin-bottom: 5px;
 }
 
+.fa-4x {
+    margin: 10px 0;
+    }
 .title {
     text-align: center;
 }
@@ -284,6 +288,10 @@ a.hchild:hover,a.hchild:active {
     }
     .hdn {
     display: none;
+    }
+    .box-container {
+      width: initial;
+      height: initial;
     }
 }
 
