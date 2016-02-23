@@ -78,7 +78,7 @@ a {
 .container {
     padding: 50px 0 0;
     width: 100%;
-    min-height: 70vh;
+    min-height: 68vh;
 }
 
 .main {
@@ -228,7 +228,7 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
-    margin-top: 1em;
+    margin-top: 2vh;
     display: flex;
     flex-wrap: nowrap;
     min-height: 27vh;
@@ -243,6 +243,11 @@ a.hchild:hover,a.hchild:active {
 
 .footer a {
     color: #000;
+}
+
+.footer h2 {
+    margin-bottom: 9px;
+    display: inline-block;
 }
 
 .footerchild ul,
