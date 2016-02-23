@@ -1,7 +1,7 @@
 Title: Recent Events and Future Changes
 Date: 2016-02-19
 Author: spb
-Slug: bew-beginning
+Slug: new-beginning
 
 ---
 
