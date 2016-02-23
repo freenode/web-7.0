@@ -28,12 +28,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* global */
 body {
     font-family: 'Open Sans';
     color: var(--text-color);
     font-size: 14px;
+    min-height: 100vh;
+    height: auto;
 }
 
 a {
@@ -75,10 +76,9 @@ a {
 
 /* main */
 .container {
-    margin: 50px 0 0;
-    padding: 0;
+    padding: 50px 0 0;
     width: 100%;
-    min-height: 100%;
+    min-height: 70vh;
 }
 
 .main {
@@ -90,7 +90,7 @@ a {
 .jumbotron {
     position: relative;
     width: 100%;
-    margin: 0;
+    margin-top: -16px;
     background: #000;
     background: var(--jumbotron-bg);
     box-shadow: 0 3px 5px rgba(150,150,150,.36);
@@ -100,6 +100,8 @@ a {
 .child {
     text-align: center;
     margin: .5em;
+    font-size: 32px;
+    line-height: 48px;
 }
 
 .box-container {
@@ -115,6 +117,7 @@ a {
     color: var(--text-color);
     margin-bottom: 5px;
     flex-basis: 30%;
+    border: 1px solid rgba(var(--border-color), 0.39);
     background-color: #fff;
     border-radius:  var(--box-round);
     -webkit-border-radius: var(--box-round);
@@ -150,8 +153,9 @@ div.art:last-child {
     border-bottom: none;
 }
 
-h3.art {
+b.art {
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 p.art {
@@ -167,7 +171,9 @@ p.art-ingress {
     color: #ccc;
     margin: 0;
 }
-
+p.heading {
+    white-space: nowrap;
+}
 p.art-link {
     margin-top: 0;
 }
@@ -219,9 +225,10 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
-    margin-top: 1em;
+    margin-top: 0em;
     display: flex;
     flex-wrap: nowrap;
+    min-height: 30vh;
     justify-content: space-between;
     align-items: flex-start;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
@@ -275,6 +282,9 @@ a.hchild:hover,a.hchild:active {
 
 .copyright {
     display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
