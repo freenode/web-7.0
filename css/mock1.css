@@ -18,7 +18,7 @@
     --border-color: 0,0,0;
     /*--footer-border-color: 255,255,255;*/
     --footer-border-color: 51,51,51;
-    --box-hover-color: #eee;
+    --box-hover-color: #ddd;
     --box-round: 10px;
 }
 
@@ -102,7 +102,7 @@ a {
     text-align: center;
     margin: .5em;
     font-size: 32px;
-    line-height: 48px;
+    line-height: 68px;
 }
 
 .box-container {
@@ -110,6 +110,10 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
+    padding: 20px;
+    padding-top: 0;
+    width: 50vw;
+    margin: 0 auto;
 }
 
 .box {
@@ -123,10 +127,14 @@ a {
     border-radius:  var(--box-round);
     -webkit-border-radius: var(--box-round);
     -moz-border-radius: var(--box-round);
+    transition: background-color .125s ease;
+    -webkit-transition: background-color .125s ease;
+    -moz-transition: background-color .125s ease;
 }
 
 .box:hover,.box:active {
     background-color: var(--box-hover-color);
+
 }
 
 .fa-users {
@@ -270,7 +278,7 @@ a.hchild:hover,a.hchild:active {
     .footerchild {
         width: 100%;
     }
-}
+
     .footerchild ul li:last-child {
         margin-bottom: .5em;
     }
