@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="#fff" name="theme-color">
+
+    <title>{{ title }}</title>
+    <link href="static/css/open-sans.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index"><img alt="freenode" class="nlogo" src=
+        "static/img/logos/coloured-alphabg.svg"></a> <a href="PIA" target=
+        "_blank"><img alt="Private internet access" class="nlogo" src=
+        "static/img/logos/PIALogo_black.svg"></a>
+    </nav>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="child">Welcome to freenode, the new home of your
+            projects.</h2>
+
+
+            <div class="box-container">
+                <a class="box" href="about"><i class=
+                "fa fa-comment fa-4x"></i><br>
+                Chat</a> <a class="box" href="help"><i class=
+                "fa fa-question fa-4x"></i><br>
+                FAQ</a> <a class="box" href=
+                "contribute"><i class="fa fa-users fa-4x"></i><br>
+                Register a group</a>
+            </div>
+        </div>
+
+
+        <div class="main">
+        {% block content %}{% endblock %}
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footerchild">
+            <h2>About freenode</h2>
+
+
+            <ul>
+                <li>
+                    <a>Vision</a>
+                </li>
+
+
+                <li>
+                    <a>Mission</a>
+                </li>
+
+
+                <li>
+                    <a>Philosophy</a>
+                </li>
+
+
+                <li>
+                    <a>Policies</a>
+                </li>
+
+
+                <li>
+                    <a>Credits</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="footerchild">
+            <h2>Using freenode</h2>
+
+
+            <ul>
+                <li>
+                    <a>Connect</a>
+                </li>
+
+
+                <li>
+                    <a>Clients</a>
+                </li>
+
+
+                <li>
+                    <a>Webchat</a>
+                </li>
+
+
+                <li>
+                    <a>SASL</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="footerchild">
+            <h2>Groups/Projects</h2>
+
+
+            <ul>
+                <li>
+                    <a>Group Management System</a>
+                </li>
+
+
+                <li>
+                    <a>Groups on freenode</a>
+                </li>
+
+
+                <li>
+                    <a>How Groups Work</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="footerchild">
+            <h2>Support freenode</h2>
+
+
+            <ul>
+                <li>
+                    <a>Host a server</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="footerchild hdn">&nbsp;</div>
+
+
+        <div class="footerchild">
+            <h2>Social Media</h2>
+
+
+            <ul>
+                <li>
+                    <a href="https://plus.google.com/104326727082310562426"
+                    target="_blank"><i class="fa fa-google-plus"></i>
+                    Google+</a>
+                </li>
+
+
+                <li>
+                    <a href="https://twitter.com/freenodestaff" target=
+                    "_blank"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+
+
+                <li>
+                    <a href="PIA" target="_blank"><img alt="PIA" height="14px"
+                    src="static/img/logos/pia-robot-original.svg"> Private Internet
+                    Access</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <footer class="copyright">
+        <a class="copyright" href=
+        "https://creativecommons.org/licenses/by-nc-sa/4.0/" target=
+        "_blank"><img alt="CC by-nc-sa" height="31px" src=
+        "static/img/by-nc-sa.svg"></a>
+
+        <p>&copy; Copyright 2002-2016, freenode</p>
+    </footer>
+</body>
+</html>
