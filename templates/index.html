@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% set title = config.name %}
+{% block content %}
+<div class="jumbotron">
+    <h2 class="child">Welcome to freenode, the new home of your
+    projects.</h2>
+    <div class="box-container">
+        <a class="box" href="about"><i class=
+        "fa fa-comment fa-4x"></i><br>
+        Chat</a> <a class="box" href="help"><i class=
+        "fa fa-question fa-4x"></i><br>
+        FAQ</a> <a class="box" href="contribute"><i class=
+        "fa fa-users fa-4x"></i><br>
+        Register a group</a>
+    </div>
+</div>
+<div class="main">
+    {{ get_module("news").articles[-1].render() }}
+</div>
+{% endblock content %}
