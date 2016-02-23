@@ -6,71 +6,19 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta content="#fff" name="theme-color">
-    <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
-    <title>freenode</title>
-<<<<<<< HEAD
-    <link href="css/open-sans.css" rel="stylesheet">
-    <link href="css/mock1.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-=======
-    <link href="static/css/open-sans.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">
-    <link href="static/css/font-awesome.min.css" rel="stylesheet">
->>>>>>> templates
+    <link rel="icon" href="{{ url_for("static/img/logos/coloured-alphabg-sq-120.png") }}">
+    <title>{{ title }}</title>
+    <link href="{{ url_for("static/css/open-sans.css") }}" rel="stylesheet">
+    <link href="{{ url_for("static/css/style.css") }}" rel="stylesheet">
+    <link href="{{ url_for("static/css/font-awesome.min.css") }}" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="index"><img alt="freenode" class="nlogo" src=
-        "static/img/logos/coloured-alphabg.svg"></a> <a href="PIA" target=
-        "_blank"><img alt="Private internet access" class="nlogo" src=
-        "static/img/logos/PIALogo_black.svg"></a>
+        <a href="{{ url_for("index") }}"><img alt="freenode" class="nlogo" src="{{ url_for("static/img/logos/coloured-alphabg.svg") }} "></a>
+        <a href="PIA" target="_blank"><img alt="Private internet access" class="nlogo" src="{{ url_for("static/img/logos/PIALogo_black.svg") }}"></a>
     </nav>
     <div class="container">
-        <div class="jumbotron">
-            <h2 class="child">Welcome to freenode, the new home of your
-            projects.</h2>
-            <div class="box-container">
-                <a class="box" href="about"><i class=
-                "fa fa-comment fa-4x"></i><br>
-                Chat</a> <a class="box" href="help"><i class=
-                "fa fa-question fa-4x"></i><br>
-                FAQ</a> <a class="box" href="contribute"><i class=
-                "fa fa-users fa-4x"></i><br>
-                Register a group</a>
-            </div>
-        </div>
-        <div class="main">
-            <div class="art">
-                <p class="heading"><b class="art">Some News</b>&nbsp;<span class="art-date">2016-02-19 by christel</span></p>
-
-                <p class="art-ingress">Fancy news article's ingress text here.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus placerat ultricies euismod. Maecenas dolor mauris,
-                posuere mollis eros vel, auctor rhoncus quam...</p>
-
-
-                <p class="art-link"><a href="">Read More</a>
-                </p>
-            </div>
-
-
-            <div class="art">
-                <p><b class="art">Another News</b>
-
-
-                <span class="art-date">2016-01-19 by christel</span></p>
-
-
-                <p class="art-ingress">Some other news article's ingress here.
-                Phasellus nec erat rhoncus, pretium orci eget, ullamcorper
-                ipsum. Fusce sit amet felis a augue sodales commodo id eget
-                justo. Phasellus id nisl nec elit porta pellentesque in egestas
-                nibh. Vivamus mollis ligula lectus, in mollis nibh pharetra
-                vitae...</p>
-
-
-                <p class="art-link"><a href="">Read More</a>
-                </p>
+            {% block content %}{% endblock %}
         </div>
     </div>
     <div class="footers">
@@ -157,16 +105,16 @@
                     </li>
                     <li>
                         <a href="PIA" target="_blank"><img alt="PIA" height=
-                        "14px" src="static/img/logos/pia-robot-original.svg">
+                        "14px" src="{{ url_for("static/img/logos/pia-robot-original.svg") }}">
                         Private Internet Access</a>
                     </li>
                 </ul>
             </div>
         </footer>
         <footer class="copyright">
-            <a class="copyright" href=
-            "https://creativecommons.org/licenses/by-nc-sa/4.0/" target=
-            "_blank"><img alt="CC by-nc-sa" src="static/img/by-nc-sa.svg"></a>
+            <a class="copyright" href= "https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+                <img alt="CC by-nc-sa" src="{{ url_for("static/img/by-nc-sa.svg") }}">
+            </a>
             <p>&copy; Copyright 2002-2016, freenode</p>
         </footer>
     </div>
