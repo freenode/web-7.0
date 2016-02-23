@@ -11,7 +11,9 @@ The goal is to create a new, modernly responsive, and easily navigated website f
 
 * - [x] Preprocessor ready
 
-* - [ ] content ready
+* -[ ] Templates ready
+
+* - [ ] Content ready
 
 - [ ] FAQ pages structure, start adding FAQ's (note: tagging could be a good thing for searching and finding) 
 
