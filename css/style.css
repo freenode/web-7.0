@@ -89,7 +89,7 @@ a {
 
 .main {
   margin-left: .5em;
-  /*margin-right: 0.5em;*/
+  margin-top: 1em;
 }
 
 /* jumbotron */
@@ -101,20 +101,11 @@ a {
   background: rgb(238,238,238);
   box-shadow: 0 3px 5px rgba(150,150,150,.36);
   color: #333;
-  -webkit-flex-basis: 100%;
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -webkit-border-bottom-right-radius: 10px;
-  -webkit-border-bottom-left-radius: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 .child {
   text-align: center;
-  margin-bottom: .5em;
+  margin: .5em;
 }
 
 .box-container {
@@ -193,7 +184,7 @@ p.art-ingress {
   margin: 0;
 }
 
-p.art-date {
+.art-date {
   color: #ccc;
   margin: 0;
 }
@@ -279,12 +270,6 @@ a.hchild:active {
   -ms-flex-align: start;
   align-items: flex-start;
   box-shadow: 0 -3px 5px rgba(150,150,150,.36);
-  -webkit-border-top-left-radius: 10px;
-  -webkit-border-top-right-radius: 10px;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .footerchild {
