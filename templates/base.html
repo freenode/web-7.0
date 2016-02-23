@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta content="#fff" name="theme-color">
     <meta name="description"content="freenode IRC network">
-    {% if author %}<meta name="author"content="{% block author %}{% endblock %}">{% endif %}
+    {% if article.author %}<meta name="author"content="{{ article.author }}">{% endif %}
     <link rel="icon" href="{{ url_for("static/img/logos/coloured-alphabg-sq-120.png") }}">
     <title>{{ title }}</title>
     <link href="{{ url_for("static/css/open-sans.css") }}" rel="stylesheet">
