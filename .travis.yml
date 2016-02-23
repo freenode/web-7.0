@@ -1,1 +1,5 @@
-
+language: python
+python:
+  - "3.5"
+install: "pip install -e git+https://github.com/edk0/cms7.git#egg=cms7"
+script: cms7
