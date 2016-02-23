@@ -262,6 +262,10 @@ a.hchild:active {
 
 /* footer */
 
+.footers {
+  min-height: 30vh;
+}
+
 .footer {
   background: rgb(238,238,238);
   color: rgba(51,51,51,.9);
@@ -273,7 +277,7 @@ a.hchild:active {
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  min-height: 30vh;
+  min-height: 27vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -342,7 +346,6 @@ a.hchild:active {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 31px;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
@@ -355,6 +358,7 @@ a.hchild:active {
   -ms-flex-align: center;
   align-items: center;
   background: rgba(170,178,171,.5);
+  height: 3vh;
   color: rgba(0,0,0,.8);
 }
 
@@ -364,6 +368,13 @@ a.copyright {
   margin-top: 0;
   margin-left: .5em;
   margin-right: .5em;
+  width: auto;
+  height: auto;
+}
+
+.copyright a img {
+  height: 3vh;
+  width: auto;
 }
 
 .copyright p {
@@ -371,4 +382,15 @@ a.copyright {
   margin-top: 0;
   margin-left: .5em;
   margin-right: .5em;
+  text-align: right;
+}
+
+@media all and (max-width: 500px) {
+  .copyright {
+    height: 5vh;
+  }
+
+  .copyright a img {
+    height: 5vh;
+  }
 }
