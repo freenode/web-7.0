@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta content="#fff" name="theme-color">
-    <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="icon" href="{{ url_for("static/img/logos/coloured-alphabg-sq-120.png") }}">
     <title>{{ title }}</title>
     <link href="{{ url_for("static/css/open-sans.css") }}" rel="stylesheet">
     <link href="{{ url_for("static/css/style.css") }}" rel="stylesheet">
@@ -105,7 +105,7 @@
                     </li>
                     <li>
                         <a href="PIA" target="_blank"><img alt="PIA" height=
-                        "14px" src="static/img/logos/pia-robot-original.svg">
+                        "14px" src="{{ url_for("static/img/logos/pia-robot-original.svg") }}">
                         Private Internet Access</a>
                     </li>
                 </ul>
