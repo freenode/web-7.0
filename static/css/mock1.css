@@ -270,7 +270,6 @@ a.hchild:hover,a.hchild:active {
     .footerchild {
         width: 100%;
     }
-}
     .footerchild ul li:last-child {
         margin-bottom: .5em;
     }
