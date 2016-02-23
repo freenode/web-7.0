@@ -11,3 +11,14 @@ modules:
     id: 'news'
     source: news
     root: news
+resources:
+  - command: [cat]
+    source: static/fonts
+    output: out/static/fonts
+  - command: [cat]
+    source: static/img
+    output: out/static/img
+    recursive: True
+  - command: [myth, --]
+    source: static/css
+    output: out/static/css

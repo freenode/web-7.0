@@ -12,7 +12,6 @@ git config user.name travis
 git config user.email travis@nowhere
 rm -rf *
 cp -r ../out/* .
-cp -r ../static .
 git add -A
 git commit -m "travis: $TRAVIS_COMMIT"
 git push || exit 1
