@@ -84,6 +84,7 @@ a {
 .main {
     margin-left: .5em;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /* jumbotron */
@@ -228,7 +229,10 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
+<<<<<<< HEAD
     margin-top: 2vh;
+=======
+>>>>>>> 76fe2571937371940ac0e6a9e43561bbe25dafc5
     display: flex;
     flex-wrap: nowrap;
     min-height: 27vh;
@@ -268,13 +272,8 @@ a.hchild:hover,a.hchild:active {
 
     .footerchild {
         width: 100%;
-        border-bottom: 1px solid rgba(var(--footer-border-color),.5);
     }
-
-    .footerchild:last-child {
-        border: none;
-    }
-
+}
     .footerchild ul li:last-child {
         margin-bottom: .5em;
     }
