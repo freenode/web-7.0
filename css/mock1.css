@@ -222,13 +222,15 @@ a.hchild:hover,a.hchild:active {
 }
 
 /* footer */
+.footers {
+    min-height: 30vh;
+}
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
     margin-top: 1em;
     display: flex;
     flex-wrap: nowrap;
-    min-height: 30vh;
     justify-content: space-between;
     align-items: flex-start;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
@@ -302,4 +304,5 @@ a.copyright {
     margin-top: 0;
     margin-left: .5em;
     margin-right: .5em;
+    text-align: right;
 }
