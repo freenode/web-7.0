@@ -1,9 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
 <div class="art">
-    <p><b class="art">{{ Title }}</b>&nbsp;
-    <span class="art-date">{{ Date }} by {{ Author }}</span></p>
-    <p class="art-ingress">{% block Content %}{% endblock %}</p>
-    <p class=art-links">
-        <a href="{{ previous }}" class="art-link">Previous</a>
-        <a href="{{ previous }}" class="art-link">Next</a>
-    </p>
+    <p><b class="art">{{ article.title }}</b>&nbsp;
+    <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
+    <p class="art-ingress">{{ article.content }}</p>
+    {#
+    <p class="art-link"><a href="{{ previous }}">Previous</a></p>
+    <p class="art-link"><a href="{{ previous }}">Next</a></p>
+    #}
 </div>
+{% endblock content %}
