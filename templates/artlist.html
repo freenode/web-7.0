@@ -2,8 +2,8 @@
 {% block content %}
 {% with articles = get_module("news").articles %}
 <div class="art">
-    <p><a href="{{ link }}"><b class="art">{{ Title }}</b></a>&nbsp;
-    <span class="art-date">{{ Date }} by {{ Author }}</span></p>
+    <p><a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
+    <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
     <p class="art-link"><a href="{{ link }}">Read More</a></p>
 </div>
 {% endblock content %}
