@@ -1,5 +1,6 @@
 <div class="art">
-    <p><h3 class="art">{{ header }}</h3><span class="art-date">{{ published }} by {{ author }}</span></p>
-    <p class="art-ingress">{% block ingress %}{% endblock %}</p>
+    <p><b class="art">{{ Title }}</b>&nbsp;
+    <span class="art-date">{{ Date }} by {{ Author }}</span></p>
+    <p class="art-full">{% block ingress %}{% endblock %}</p>
     <p class="art-link"><a href="{{ link }}">Read More</a></p>
 </div>

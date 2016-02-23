@@ -1,4 +1,4 @@
-Title: Recent Events and Future Changes
+Title: New policies
 Date: 2016-02-19
 Author: spb
 Slug: new-policies
