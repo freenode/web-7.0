@@ -229,10 +229,7 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
-<<<<<<< HEAD
     margin-top: 2vh;
-=======
->>>>>>> 76fe2571937371940ac0e6a9e43561bbe25dafc5
     display: flex;
     flex-wrap: nowrap;
     min-height: 27vh;
