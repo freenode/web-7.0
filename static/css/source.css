@@ -256,7 +256,6 @@ a.hchild:hover,a.hchild:active {
     display: inline-block;
 }
 
-
 .footerchild ul,.footerchild ul ul {
     margin-left: 10px;
     margin-right: 10px;
@@ -307,6 +306,7 @@ a.copyright {
     width: auto;
     height: auto;
 }
+
 .copyright a img {
     height: 3vh;
     width: auto;
@@ -318,6 +318,7 @@ a.copyright {
     margin-right: .5em;
     text-align: right;
 }
+
 @media all and (max-width: 500px) {
     .copyright {
         height: 5vh;
