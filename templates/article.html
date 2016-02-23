@@ -4,12 +4,12 @@
     <p><b class="art">{{ article.title }}</b>&nbsp;
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
     <p class="art-ingress">{{ article.content }}</p>
-    {#
     <p class="art-links">
+    {#
         <a href="{{ next }}">Next</a>&nbsp;
         <a href="{{ previous }}">Previous</a>&nbsp;
-        <a href="{{ archive }}">Archive</a>&nbsp;
-    </p>
-    #}
+        #}
+        <a href="{{ url_for("archive.html") }}">Archive</a>&nbsp;
+        </p>
 </div>
 {% endblock content %}
