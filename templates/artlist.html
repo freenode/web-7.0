@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-{% for articles = get_module("news").articles %}
+{% with articles = get_module("news").articles %}
 <div class="art">
     <p><a href="{{ link }}"><b class="art">{{ Title }}</b></a>&nbsp;
     <span class="art-date">{{ Date }} by {{ Author }}</span></p>
