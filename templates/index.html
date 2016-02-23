@@ -20,5 +20,7 @@
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
     <p class="art-ingress">{{ article.render() }}</p>
     {% endwith %}
+    <a href="{{ url_for("archive.html") }}" ckass="art-link"><i class="fa fa-rss"></i>
+                News Archive</a>
 </div>
 {% endblock content %}
