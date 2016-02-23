@@ -83,7 +83,7 @@ a {
 
 .main {
     margin-left: .5em;
-/*margin-right: 0.5em;*/
+    margin-top: 1em;
 }
 
 /* jumbotron */
@@ -94,7 +94,6 @@ a {
     background: var(--jumbotron-bg);
     box-shadow: 0 3px 5px rgba(150,150,150,.36);
     color: var(--jumbotron-text-color);
-    flex-basis: 100%;
 }
 
 .child {
@@ -144,8 +143,8 @@ h1 {
 
 div.art {
     border-bottom: 1px solid rgba(var(--border-color),.3);
+    
 }
-
 div.art:last-child {
     border-bottom: none;
 }
