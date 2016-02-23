@@ -228,7 +228,7 @@ a.hchild:hover,a.hchild:active {
     margin-top: 1em;
     display: flex;
     flex-wrap: nowrap;
-    min-height: 30vh;
+    min-height: 27vh;
     justify-content: space-between;
     align-items: flex-start;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
@@ -282,11 +282,18 @@ a.hchild:hover,a.hchild:active {
 
 .copyright {
     display: flex;
+<<<<<<< HEAD
     height: 31px;
+=======
+>>>>>>> 5d841867f578c6275f3c2f058d4ee7579af22c37
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     background: rgba(var(--copyright-bg),.5);
+<<<<<<< HEAD
+=======
+    height: 3vh;
+>>>>>>> 5d841867f578c6275f3c2f058d4ee7579af22c37
     color: rgba(var(--copyright-text-color),.8);
 }
 
@@ -296,6 +303,8 @@ a.copyright {
     margin-top: 0;
     margin-left: .5em;
     margin-right: .5em;
+    width: auto;
+    height: auto;
 }
 .copyright p {
     margin-bottom: 0;
