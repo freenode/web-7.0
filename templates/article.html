@@ -5,8 +5,11 @@
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
     <p class="art-ingress">{{ article.content }}</p>
     {#
-    <p class="art-link"><a href="{{ previous }}">Previous</a></p>
-    <p class="art-link"><a href="{{ previous }}">Next</a></p>
+    <p class="art-links">
+        <a href="{{ next }}">Next</a>&nbsp;
+        <a href="{{ previous }}">Previous</a>&nbsp;
+        <a href="{{ archive }}">Archive</a>&nbsp;
+    </p>
     #}
 </div>
 {% endblock content %}

@@ -19,6 +19,13 @@
     <p><b class="art"><a href="{{ article.url }}">{{ article.title }}</a></b>&nbsp;
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
     <p class="art-ingress">{{ article.render() }}</p>
+    {#
+    <p class="art-links">
+        <a href="{{ next }}">Next</a>&nbsp;
+        <a href="{{ previous }}">Previous</a>&nbsp;
+        <a href="{{ archive }}">Archive</a>&nbsp;
+    </p>
+    #}
     {% endwith %}
 </div>
 {% endblock content %}

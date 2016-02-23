@@ -6,6 +6,7 @@ modules:
   - name: 'null'
     map:
       index: index.html
+      archive: artlist.html
   - name: 'blog'
     id: 'news'
     source: news
