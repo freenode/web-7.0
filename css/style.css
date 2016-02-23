@@ -282,15 +282,13 @@ a.hchild:active {
 
 .footerchild ul,
 .footerchild ul ul {
-  margin: 0;
-  margin-left: .5em;
-  margin-right: .5em;
-  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   list-style-type: none;
 }
 
 .footerchild ul ul {
-  padding-left: 2em;
+  padding-left: 30px;
 }
 
 @media all and (max-width: 500px) {
@@ -318,12 +316,11 @@ a.hchild:active {
 
 .footer h2,
 .footer h3 {
-  margin: 0;
-  margin-left: .5em;
-  margin-right: .5em;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.fkex-right {
+.flex-right {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
