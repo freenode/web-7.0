@@ -1,5 +1,7 @@
 # web-7.0
 
+Built with love, mainly by edk and swant using [cms7](https://github.com/edk0/cms7)
+
 ## Goals
 
 The goal is to create a new, modernly responsive, and easily navigated website for freenode.net
