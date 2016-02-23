@@ -1,0 +1,12 @@
+name: freenode
+theme: templates
+output: out
+content-root: content
+modules:
+  - name: 'null'
+    map:
+      index: index.html
+  - name: 'blog'
+    id: 'news'
+    source: news
+    root: news
