@@ -150,8 +150,9 @@ div.art:last-child {
     border-bottom: none;
 }
 
-h3.art {
+b.art {
     margin-bottom: 0;
+    font-size: 18px;
 }
 
 p.art {
@@ -167,7 +168,9 @@ p.art-ingress {
     color: #ccc;
     margin: 0;
 }
-
+p.heading {
+    white-space: nowrap;
+}
 p.art-link {
     margin-top: 0;
 }
