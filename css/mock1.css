@@ -228,7 +228,7 @@ a.hchild:hover,a.hchild:active {
     margin-top: 0em;
     display: flex;
     flex-wrap: nowrap;
-    min-height: 30vh;
+    min-height: 27vh;
     justify-content: space-between;
     align-items: flex-start;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
@@ -282,14 +282,11 @@ a.hchild:hover,a.hchild:active {
 
 .copyright {
     display: flex;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     background: rgba(var(--copyright-bg),.5);
-    height: 31px;
+    height: 3vh;
     color: rgba(var(--copyright-text-color),.8);
 }
 
@@ -299,4 +296,6 @@ a.copyright {
     margin-top: 0;
     margin-left: .5em;
     margin-right: .5em;
+    width: auto;
+    height: auto;
 }
