@@ -1,7 +1,8 @@
 #!/bin/sh
 
 if [ -z "$TRAVIS_BRANCH" ]; then exit; fi
-if [ ! "$TRAVIS_BRANCH" = master ]; then exit; fi
+if [ "$TRAVIS_BRANCH" != master ]; then exit; fi
+if [ "$TRAVIS_PULL_REQUEST" != false ]; then exit; fi
 
 export SSH_KEYFILE="$(readlink -f .deploy-key)"
 export GIT_SSH="$(readlink -f ssh.sh)"
