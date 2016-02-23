@@ -1,24 +1,19 @@
 /* vars */
 :root {
     --navbar-bg: #fff;
-    /*--jumbotron-bg: 15,75,14;*/
-    /*--jumbotron-bg: rgba(75,235,74,.4);*/
-    --jumbotron-bg: rgb(238,238,238);
+    --jumbotron-bg: #eee;
     --jumbotron-bg-fall: 65,225,64;
     --copyright-bg: 170,178,171;
     --link-color: 66,139,202;
-    /*--footer-link-color: 255,255,255;*/
     --footer-link-color: 51,51,51;
     --nlink-col: #000;
     --text-color: #333;
-    /*--footer-text-color: 255,255,255;*/
     --footer-text-color: 51,51,51;
     --copyright-text-color: 0,0,0;
     --jumbotron-text-color: #333;
     --border-color: 0,0,0;
-    /*--footer-border-color: 255,255,255;*/
     --footer-border-color: 51,51,51;
-    --box-hover-color: #eee;
+    --box-hover-color: #ddd;
     --box-round: 10px;
 }
 
@@ -120,7 +115,7 @@ a {
     flex-basis: 30%;
    /* border: 1px solid rgba(var(--border-color), 0.39); */
     background-color: #fff;
-    border-radius:  var(--box-round);
+    border-radius: var(--box-round);
     -webkit-border-radius: var(--box-round);
     -moz-border-radius: var(--box-round);
 }
@@ -148,8 +143,8 @@ h1 {
 
 div.art {
     border-bottom: 1px solid rgba(var(--border-color),.3);
-    
 }
+
 div.art:last-child {
     border-bottom: none;
 }
@@ -172,11 +167,20 @@ p.art-ingress {
     color: #ccc;
     margin: 0;
 }
+
 p.heading {
     white-space: nowrap;
 }
 p.art-link {
     margin-top: 0;
+}
+
+/* Article */
+.art-full h1,
+.art-full h2,
+.art-full h3,
+.art-full h4 {
+    margin-top: 0.5em;
 }
 
 /* help */
@@ -226,6 +230,7 @@ a.hchild:hover,a.hchild:active {
 .footers {
     min-height: 30vh;
 }
+
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
@@ -270,12 +275,13 @@ a.hchild:hover,a.hchild:active {
     .footerchild {
         width: 100%;
     }
-}
+
     .footerchild ul li:last-child {
         margin-bottom: .5em;
     }
+
     .hdn {
-    display: none;
+        display: none;
     }
 }
 
@@ -302,10 +308,12 @@ a.copyright {
     width: auto;
     height: auto;
 }
+
 .copyright a img {
     height: 3vh;
     width: auto;
 }
+
 .copyright p {
     margin-bottom: 0;
     margin-top: 0;
@@ -313,10 +321,12 @@ a.copyright {
     margin-right: .5em;
     text-align: right;
 }
+
 @media all and (max-width: 500px) {
     .copyright {
         height: 5vh;
     }
+
     .copyright a img {
         height: 5vh;
     }
