@@ -1,6 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+{% for articles = get_module("news").articles %}
 <div class="art">
-    <p><b class="art">{{ Title }}</b>&nbsp;
+    <p><a href="{{ link }}"><b class="art">{{ Title }}</b></a>&nbsp;
     <span class="art-date">{{ Date }} by {{ Author }}</span></p>
-    <p class="art-full">{% block ingress %}{% endblock %}</p>
     <p class="art-link"><a href="{{ link }}">Read More</a></p>
 </div>
+{% endblock content %}
