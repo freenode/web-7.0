@@ -2,9 +2,7 @@ Title: Recent Events and Future Changes
 Date: 2016-02-19
 Author: spb
 Slug: new-beginning
-
 ---
-
 Many of you have been asking questions about the recent rash of high-profile
 staff resignations, and we feel we owe you all both an explanation and an
 apology.
