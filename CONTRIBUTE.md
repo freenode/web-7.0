@@ -13,6 +13,7 @@
 
 Branches should be tested on both big and small screens.
 No direct merges to master, use Pull Requests.
+except for hotfix- there should be left rich with time (+3h) from PR open to PR merge for discusiion
 
 ## Editing Rules
 
