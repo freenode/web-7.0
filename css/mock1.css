@@ -84,6 +84,7 @@ a {
 .main {
     margin-left: .5em;
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 /* jumbotron */
@@ -228,7 +229,6 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: rgba(var(--footer-text-color),.9);
-    margin-top: 1em;
     display: flex;
     flex-wrap: nowrap;
     min-height: 27vh;
