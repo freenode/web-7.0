@@ -83,6 +83,13 @@ a {
     margin-bottom: 1em;
 }
 
+.main h1,
+.main h2,
+.main h3,
+.main p + p {
+    margin-top: .5em;
+}
+
 /* jumbotron */
 .jumbotron {
     position: relative;
