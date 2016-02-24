@@ -102,8 +102,15 @@ a.nav-light {
 .main h1,
 .main h2,
 .main h3,
-.main p + p {
+.main li,
+.main p + p,
+.main ul + p {
     margin-top: .5em;
+}
+
+.main ul {
+    padding-left: 2em;
+    list-style-type: disc;
 }
 
 /* jumbotron */
@@ -111,7 +118,6 @@ a.nav-light {
     position: relative;
     width: 100%;
     margin-top: -16px;
-    background: #000;
     background: var(--jumbotron-bg);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
@@ -188,6 +194,24 @@ h1 {
 
 div.art {
     clear: right;
+    min-height: 2em;
+    flex-grow: 1;
+}
+
+div.artlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: .5em;
+}
+
+@media all and (min-width: 800px) {
+    div.artlist {
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 div.art:not(:first-child) {
@@ -221,12 +245,6 @@ p.heading {
 p.art-link {
     margin-top: 0;
 }
-
-/* Article */
-.art-full h1,
-.art-full h2,
-.art-full h3,
-.art-full h4 {}
 
 /* help */
 .hmain {
