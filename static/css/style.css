@@ -200,7 +200,7 @@ div.artlist {
     margin-top: .5em;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
     div.artlist {
         max-width: 50%;
         margin-right: auto;
