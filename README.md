@@ -6,13 +6,13 @@
 The goal is to create a new, modernly responsive, and easily navigated website for freenode.net
 
 ## TODO
-- [ ]  Get the basic static page up, and how to connect (latest two news about the reformation + about page, kinda) schedulescheduled release: 2016-02-28
+- [ ]  Get the basic static page up, and how to connect (latest two news about the reformation + about page, kinda) schedulescheduled release: 2016-02-29
 
-* - [x]  Design ready
+* - [x]  Design ready enough 
 
 * - [x] Preprocessor ready
 
-* - [ ] Templates ready
+* - [ ] Templates ready enough
 
 * - [ ] Content ready
 
