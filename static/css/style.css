@@ -15,6 +15,7 @@
     --box-hover-color: #292f2f;
     --box-round: 10px;
     --max-width: 600px;
+    --line-color: 0,0,0, 0.09;
 }
 
 /* reset css for browser compat */
@@ -200,12 +201,16 @@ div.artlist {
 }
 
 div.art:not(:first-child) {
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid rgba(var(--line-color));
 }
 
 b.art {
     margin-bottom: 0;
-    font-size: 18px;
+    font-size: 36px;
+    display: inline-block;
+    padding-bottom: .3em;
+    width: 100%;
+    border-bottom: 1px solid rgba(var(--line-color));
 }
 
 p.art {
