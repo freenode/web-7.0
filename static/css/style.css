@@ -1,18 +1,16 @@
 /* vars */
 :root {
-    --navbar-bg: #fff;
-    --jumbotron-bg: #eee;
-    --jumbotron-bg-fall: 65,225,64;
-    --copyright-bg: 170,178,171;
+    --navbar-bg: #292f2f;
+    --jumbotron-bg: #294848;
+    --copyright-bg: #292f2f;
     --link-color: 66,139,202;
-    --footer-link-color: 51,51,51;
+    --footer-link-color: #ddd;
     --nlink-col: #000;
     --text-color: #333;
-    --footer-text-color: 51,51,51;
-    --copyright-text-color: 0,0,0;
-    --jumbotron-text-color: #333;
-    --border-color: 0,0,0;
-    --footer-border-color: 51,51,51;
+    --footer-text-color: #eee;
+    --copyright-text-color: #ccc;
+    --jumbotron-text-color: #eee;
+    --border-color: #292f2f;
     --box-hover-color: #ddd;
     --box-round: 10px;
 }
@@ -43,6 +41,7 @@ a {
     width: 100%;
     height: 50px;
     background-color: var(--navbar-bg);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
     position: fixed;
     left: 0;
     right: 0;
@@ -51,8 +50,25 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(var(--border-color),.3);
+    border-bottom: 1px solid var(--border-color);
     z-index: 100;
+}
+
+@media all and (max-width: 600px) {
+    .navbar {
+        position: absolute;
+    }
+}
+
+.navbar a {
+    height: 40px;
+}
+
+a.nav-light {
+    background-color: #eee;
+    height: 44px;
+    padding: 2px;
+    margin-right: 3px;
 }
 
 .nlogo {
@@ -79,7 +95,7 @@ a {
 }
 
 .main {
-    margin-left: .5em;
+    margin: 0 .5em;
     margin-top: 1em;
 }
 
@@ -97,8 +113,9 @@ a {
     margin-top: -16px;
     background: #000;
     background: var(--jumbotron-bg);
-    box-shadow: 0 3px 5px rgba(150,150,150,.36);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
+    padding: 2em 0;
 }
 
 .child {
@@ -174,7 +191,7 @@ div.art {
 }
 
 div.art:not(:first-child) {
-    border-top: 1px solid rgba(var(--border-color),.3);
+    border-top: 1px solid var(--border-color);
 }
 
 b.art {
@@ -224,9 +241,9 @@ a.hchild {
 /*height: 40px;*/
     width: 95%;
     text-align: center;
-    border-top: 1px solid rgba(var(--border-color),.6);
-    border-left: 1px solid rgba(var(--border-color),.6);
-    border-right: 1px solid rgba(var(--border-color),.6);
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
 }
 
 a.hchild:hover,a.hchild:active {
@@ -245,7 +262,7 @@ a.hchild:hover,a.hchild:active {
 
 .hchild:last-child {
     margin-bottom: 10px;
-    border-bottom: 1px solid rgba(var(--border-color),.6);
+    border-bottom: 1px solid var(--border-color);
     -webkit-border-bottom-right-radius: var(--box-round);
     -webkit-border-bottom-left-radius: var(--box-round);
     -moz-border-radius-bottomright: var(--box-round);
@@ -263,7 +280,7 @@ a.hchild:hover,a.hchild:active {
 
 .footer {
     background: var(--jumbotron-bg);
-    color: rgba(var(--footer-text-color),.9);
+    color: var(--footer-text-color);
     margin-top: 2vh;
     display: flex;
     flex-wrap: wrap;
@@ -291,7 +308,7 @@ a.hchild:hover,a.hchild:active {
 }
 
 .footer a {
-    color: #000;
+    color: var(--footer-link-color);
 }
 
 .footer h2 {
@@ -368,16 +385,16 @@ a.hchild:hover,a.hchild:active {
 
 .copyright {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background: rgba(var(--copyright-bg),.5);
-    height: 1.5rem;
-    color: rgba(var(--copyright-text-color),.8);
+    background: var(--copyright-bg);
+    min-height: 1.5rem;
+    color: var(--copyright-text-color);
 }
 
 a.copyright {
-    background: rgba(var(--copyright-bg),.5);
+    background: var(--copyright-bg);
     margin-bottom: 0;
     margin-top: 0;
     margin-left: .5em;
@@ -397,14 +414,4 @@ a.copyright {
     margin-left: .5em;
     margin-right: .5em;
     text-align: right;
-}
-
-@media all and (max-width: 600px) {
-    .copyright {
-        height: 5vh;
-    }
-
-    .copyright a img {
-        height: 5vh;
-    }
 }
