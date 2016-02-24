@@ -156,13 +156,13 @@ a.nav-light {
 }
 
 .box div{
-    font-size: 28px;
-    line-height: 28px;
-    padding-left: 8px;
-    font-weight: 700;
     position: relative;
-    display: inline;
-    top: -10px;
+    top: initial;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    padding: 10px 0;
+    display: block;
 }
 
 .fa-users {
@@ -360,6 +360,9 @@ a.hchild:hover,a.hchild:active {
     .fa-4x {
         padding: 0;
         margin: 0;
+        width: 60px;
+        text-align: center;
+        font-size: 28px;
     }
 
     .box-container {
@@ -368,14 +371,22 @@ a.hchild:hover,a.hchild:active {
     }
 
     .box div {
+        font-size: 22px;
+        line-height: 22px;
+        padding-left: 8px;
+        font-weight: 700;
         position: relative;
-        top: initial;
-        font-size: 16px;
-        font-weight: normal;
-        line-height: 16px;
-        padding: 10px 0;
-        display: block;
+        display: inline;
+        text-align: center;
+
     }
+
+    .box {
+        text-align: left;
+        border-radius: calc(var(--box-round) / 2);
+        margin: 5px 0;
+    }
+
 }
 
 .footer h2,.footer h3 {
