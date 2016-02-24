@@ -1,0 +1,19 @@
+author: RichiH
+date: 2013-05-24 21:09:57+00:00
+slug: over-9000-10
+title: Over 9000 * 10
+freenode has been growing slowly and steadily, breaking the next practically-useless-but-still-kinda-neat barrier of more than 90,000 concurrent connections at the same time. It's very nice, and humbling, to know that we are able to enable so many people to communicate with each other.
+
+I shouldn't have added a month of leeway at the last second to my [last prediction](http://blog.freenode.net/2012/04/80k/) so the scary scary 100,000 is officially targeted for May 2014. Yes, the pace at which freenode is growing seems to be increasing ever so slightly.
+
+Historic posts for those of you keeping track:
+
+[http://blog.freenode.net/2007/08/freenode-has-reached-40-000-users/](http://blog.freenode.net/2007/08/freenode-has-reached-40-000-users/)
+
+[http://blog.freenode.net/2008/09/50000-active-users/](http://blog.freenode.net/2008/09/50000-active-users/ )
+
+[http://blog.freenode.net/2009/12/happy-new-year-2010/](http://blog.freenode.net/2009/12/happy-new-year-2010/)
+
+[http://blog.freenode.net/2011/01/freenode-70k/](http://blog.freenode.net/2011/01/freenode-70k/ )
+
+[http://blog.freenode.net/2012/04/80k/](http://blog.freenode.net/2012/04/80k/)

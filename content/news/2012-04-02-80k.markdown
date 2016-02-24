@@ -1,0 +1,24 @@
+author: RichiH
+date: 2012-04-02 21:19:37+00:00
+slug: 80k
+title: 80k...
+As of today, freenode had 81443 concurrent connections. Last Friday, the count lingered around 79987, presumably to make things more interesting for those of us keeping close track.
+
+We passed this milestone one working day later than I [predicted in January 2011](http://blog.freenode.net/2011/01/freenode-70k/ ), more than a year ago. Scary precision, I know. Extrapolation based on graphs and nothing else is a big no-no in the scientific circles, yet we really do grow at an exceptionally steady and predictable pace.
+
+Still remembering the excitement when irc.openprojects.net surpassed 2,000 users, I have always had a knack for those numbers. Meaningless in and as of themselves, they do prove that we are able to provide a valuable service to our users and that more and more people apparently agree. freenode is not without growing pains, but I like to think that we are on a good path.
+
+Once again, all of us would like to thank all our users and all our volunteers. It's a fun ride for us and, hopefully, for you, too!
+
+To make tracking our old posts regarding this easier, here goes:
+
+[http://blog.freenode.net/2007/08/freenode-has-reached-40-000-users/](http://blog.freenode.net/2007/08/freenode-has-reached-40-000-users/)
+
+[http://blog.freenode.net/2008/09/50000-active-users/](http://blog.freenode.net/2008/09/50000-active-users/ )
+
+[http://blog.freenode.net/2009/12/happy-new-year-2010/](http://blog.freenode.net/2009/12/happy-new-year-2010/)
+
+[http://blog.freenode.net/2011/01/freenode-70k/](http://blog.freenode.net/2011/01/freenode-70k/ )
+
+
+See you around July 2013 when we expect to hit 90k.. :)

@@ -1,0 +1,7 @@
+author: christel
+date: 2003-01-01 16:24:19+00:00
+slug: happy-new-year-2003
+title: Happy New Year 2003!
+Have an excellent year!
+
+If your client points to **"irc.openprojects.net"**, you'll be getting notices on an ongoing basis.  Be sure to reconfigure your client to point to **"irc.freenode.net"** and then reconnect to get back to the main rotation; then you'll no longer get notices on the subject. If you were pointed to irc.openprojects.net by a project web page, irc hostname or irc client default, please let the project owners know to change that pointer. Thanks!
