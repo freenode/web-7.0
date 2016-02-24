@@ -113,10 +113,12 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .box {
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     color: var(--text-color);
     margin-bottom: 5px;
@@ -126,6 +128,10 @@ a {
     border-radius: var(--box-round);
     -webkit-border-radius: var(--box-round);
     -moz-border-radius: var(--box-round);
+}
+
+.box span {
+    display: block;
 }
 
 .box:hover,.box:active {
@@ -164,11 +170,11 @@ h1 {
 }
 
 div.art {
-    border-bottom: 1px solid rgba(var(--border-color),.3);
+    clear: right;
 }
 
-div.art:last-child {
-    border-bottom: none;
+div.art:not(:first-child) {
+    border-top: 1px solid rgba(var(--border-color),.3);
 }
 
 b.art {
@@ -186,8 +192,9 @@ p.art-ingress {
 }
 
 .art-date {
+    float: right;
     color: #ccc;
-    margin: 0;
+    margin: 0 .5em;
 }
 
 p.heading {
@@ -257,7 +264,7 @@ a.hchild:hover,a.hchild:active {
     color: rgba(var(--footer-text-color),.9);
     margin-top: 2vh;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     min-height: 27vh;
     justify-content: space-between;
     align-items: flex-start;
@@ -266,6 +273,14 @@ a.hchild:hover,a.hchild:active {
 
 .footerchild {
     margin-top: .5em;
+    flex: 1 1 1px;
+    min-width: 12em;
+}
+
+.footer-push {
+    margin-left: auto;
+    min-width: 12em;
+    max-width: max-content;
 }
 
 .footer a {
@@ -287,13 +302,17 @@ a.hchild:hover,a.hchild:active {
     padding-left: 30px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     .footer {
         flex-direction: column;
     }
 
     .footerchild {
         width: 100%;
+    }
+
+    .footer-push {
+        margin-left: 0;
     }
 
     .footerchild ul li:last-child {
@@ -317,6 +336,11 @@ a.hchild:hover,a.hchild:active {
     .fa-4x {
         padding: 0;
         margin: 0;
+    }
+
+    .box-container {
+        flex-direction: column;
+        margin: 0 .5em;
     }
 
     .box div {
@@ -368,7 +392,7 @@ a.copyright {
     text-align: right;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
     .copyright {
         height: 5vh;
     }
