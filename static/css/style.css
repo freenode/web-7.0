@@ -129,10 +129,12 @@ a {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .box {
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   color: #333;
   margin-bottom: 5px;
@@ -144,6 +146,10 @@ a {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
+}
+
+.box span {
+  display: block;
 }
 
 .box:hover,
@@ -185,11 +191,11 @@ h1 {
 }
 
 div.art {
-  border-bottom: 1px solid rgba(0,0,0,.3);
+  clear: right;
 }
 
-div.art:last-child {
-  border-bottom: none;
+div.art:not(:first-child) {
+  border-top: 1px solid rgba(0,0,0,.3);
 }
 
 b.art {
@@ -207,8 +213,9 @@ p.art-ingress {
 }
 
 .art-date {
+  float: right;
   color: #ccc;
-  margin: 0;
+  margin: 0 .5em;
 }
 
 p.heading {
@@ -290,9 +297,9 @@ a.hchild:active {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   min-height: 27vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -307,6 +314,19 @@ a.hchild:active {
 
 .footerchild {
   margin-top: .5em;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 1px;
+  -ms-flex: 1 1 1px;
+  flex: 1 1 1px;
+  min-width: 12em;
+}
+
+.footer-push {
+  margin-left: auto;
+  min-width: 12em;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 .footer a {
@@ -329,7 +349,7 @@ a.hchild:active {
   padding-left: 30px;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -340,6 +360,10 @@ a.hchild:active {
 
   .footerchild {
     width: 100%;
+  }
+
+  .footer-push {
+    margin-left: 0;
   }
 
   .footerchild ul li:last-child {
@@ -363,6 +387,15 @@ a.hchild:active {
   .fa-4x {
     padding: 0;
     margin: 0;
+  }
+
+  .box-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 .5em;
   }
 
   .box div {
@@ -426,7 +459,7 @@ a.copyright {
   text-align: right;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   .copyright {
     height: 5vh;
   }
