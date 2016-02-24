@@ -189,16 +189,14 @@ h1 {
 div.art {
     clear: right;
     min-height: 2em;
+    flex-grow: 1;
 }
 
 div.artlist {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: stretch;
-}
-
-div.artlist:first-child {
     margin-top: .5em;
 }
 
