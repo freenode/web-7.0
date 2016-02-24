@@ -2,7 +2,7 @@
 {% set title = "archive" %}
 {% block content %}
 {% for article in get_module("news").articles %}
-<div class="art">
+<div class="art artlist">
     <p><a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
 </div>

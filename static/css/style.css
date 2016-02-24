@@ -188,8 +188,15 @@ h1 {
 
 div.art {
     clear: right;
-    margin-top: .5em;
     min-height: 2em;
+}
+
+div.artlist {
+    
+}
+
+div.artlist:first-child {
+    margin-top: .5em;
 }
 
 div.art:not(:first-child) {
