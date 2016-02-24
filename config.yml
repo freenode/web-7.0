@@ -11,6 +11,10 @@ modules:
     id: 'news'
     source: news
     root: news
+  - name: 'pages'
+    id: 'pages'
+    source: pages
+    root: pages
 resources:
   - command: [cat]
     source: static/fonts

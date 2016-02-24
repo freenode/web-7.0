@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% set title = config.name %}
+{% block content %}
+<div class="main">
+    <p><b class="art">{{ page.title }}</b></p>
+    <p class="art-ingress">
+        {{ page.content }}
+    </p>
+</div>
+{% endblock %}
