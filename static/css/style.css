@@ -54,6 +54,7 @@ a {
     align-items: center;
     border-bottom: 1px solid var(--border-color);
     z-index: 100;
+    padding-right: 5px;
 }
 
 @media all and (max-width: 600px) {
@@ -63,14 +64,8 @@ a {
 }
 
 .navbar a {
+    margin-top: 2px;
     height: 40px;
-}
-
-a.nav-light {
-    background-color: #eee;
-    height: 44px;
-    padding: 2px;
-    margin-right: 3px;
 }
 
 .nlogo {
