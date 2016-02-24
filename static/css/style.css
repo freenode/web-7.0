@@ -153,10 +153,6 @@ a.nav-light {
     -moz-border-radius: var(--box-round);
 }
 
-.box span {
-    display: block;
-}
-
 .box:hover,.box:active {
     background-color: var(--box-hover-color);
 }
@@ -164,7 +160,7 @@ a.nav-light {
 .box div{
     position: relative;
     top: initial;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 16px;
     padding: 10px 0;
@@ -177,10 +173,6 @@ a.nav-light {
 
 .fa-comment,.fa-question {
     margin-bottom: 5px;
-}
-
-.fa-4x {
-    padding-left: 8px;
 }
 
 .title {
