@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>Recent Events and Future Changes</title>
+    <title>'Connecting to freenode using Tor: SASL'</title>
     <link href="../static/css/open-sans.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
     <link href="../static/css/style.css" rel="stylesheet">
@@ -21,45 +21,42 @@
     <div class="container">
             
 <div class="main">
-    <p><b class="art">Recent Events and Future Changes</b>&nbsp;
-    <span class="art-date">2016-02-19 13:10:00 by spb</span></p>
-    <p class="art-ingress"><p>Many of you have been asking questions about the recent rash of high-profile
-staff resignations, and we feel we owe you all both an explanation and an
-apology.</p>
-<p>First, the explanation: in short, it’s become clear over recent months that
-freenode has lost its way somewhat, when compared to the ideals and goals that
-we were created with. A growing sense of disillusionment amongst those of us who
-remember the olden days, when we were far more friendly, approachable and
-engaged in the communities we were set up to serve, has recently come to a head.
-Naturally, when some of these people decided they could no longer continue with
-the way things had become, it was time for us to think long and hard about what
-had gone wrong and what we should do about it.</p>
-<p>And so, to the apology. We’re uncomfortably aware that freenode was set up with
-the strong idea that the projects and communities which use it should be the
-first, and often the only, priority. We’ve lost sight of that, and we’re sorry.
-We’ll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.</p>
-<p>This won’t be easy for us, as we’ve got years of bad habits to break, but
-hopefully you should start seeing some improvements in the coming months. If you
-see anything that we’re not doing that would help your communities, please tell
-us and we’ll try our best to find a way to make it happen. You might see a bit
-of chaos or inconsistency while we try to find our way around again, but please
-try to bear with us and we hope you’ll see things get better in time.</p>
-<p>And finally, because we’re conscious that a lack of clarity around our
-leadership structure has not helped matters, we’ve decided to set out
-unambiguously how the staff management structure will work from now on. Our
-activities and operations will be split roughly into four areas, each with a
-designated lead.</p>
+    <p><b class="art">'Connecting to freenode using Tor: SASL'</b>&nbsp;
+    <span class="art-date">2010-01-29 18:55:02+00:00 by Martinp23</span></p>
+    <p class="art-ingress"><p>With our change of ircd to the all new <a href="http://www.freenode.net/seven.shtml">ircd-seven</a>, we are trialling a new method of allowing users to connect to the network via Tor. This method brings a number of changes:</p>
 <ul>
-<li>mist is head of staff, and in charge of day to day network operations and general staff issues.</li>
-<li>kloeri is head of infrastructure, in charge of making sure that the network continues to run in a usable fashion and that we have the right hardware and server platforms in place to provide the services we want to.</li>
-<li>spb is head of development, in charge of the software platforms that we use to run the network.</li>
-<li>christel is head of projects and communities, and also the overall project lead in charge of the other three heads. She’ll be trying to make sure that we get back the levels of engagement that we once had with the projects we’re here to serve.</li>
+<li>
+<p>The only Tor hidden service is: the new <a href="irc://p4fsi4ockecnea7l.onion/">p4fsi4ockecnea7l.onion</a>.</p>
+</li>
+<li>
+<p>You will need to have a registered and verified NickServ account to connect using Tor. Beyond this, no further steps are necessary.</p>
+</li>
+<li>
+<p>You will need to use a SASL mechanism to identify to the server.</p>
+</li>
 </ul>
-<p>These four, together, will take any decisions that affect the future direction
-of freenode. While they each have their own area of focus, feel free to contact
-any of us about any issues you may have — we try to keep an open (virtual) door
-policy.</p></p>
+<p>We have collected together scripts for irssi and mirc, while Conspire supports SASL natively. Scripts may be available for other clients in addition.</p>
+<h3>irssi</h3>
+<p>Download and install <a href="http://www.freenode.net/sasl/cap_sasl.pl">this script</a> (cap_sasl.pl) and, after loading it, configure it using</p>
+<pre><code>/sasl set &lt;network&gt; &lt;username&gt; &lt;password&gt; &lt;mechanism&gt;
+</code></pre>
+<p>Supported mechanisms are PLAIN and DH-BLOWFISH.</p>
+<h3>mirc</h3>
+<p>A mirc script is available, taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">forum post</a> by Kyle Travaglini. You can retrieve the source <a href="http://freenode.net/sasl/sasl-mirc.cpp">here</a>.</p>
+<p>Instructions (adapted from that forum):</p>
+<ul>
+<li>
+<p>Place <a href="http://www.freenode.net/sasl/SASL.dll">SASL.dll</a> and <a href="http://www.freenode.net/sasl/sasl.mrc">sasl.mrc</a> into your $mircdir.</p>
+</li>
+<li>
+<p>Load sasl.mrc into your remotes.</p>
+</li>
+<li>
+<p>Press F2 and configure the network, before connecting as usual.</p>
+</li>
+</ul>
+<p>If you have any problems, either pop into #freenode from a non-torified connection or drop an email to support AT freenode.net.</p>
+<p>This method of connecting to freenode using Tor supersedes all previous methods, including Tor-GPG. We hope that this method of connecting via Tor will help to make it somewhat more accessible to you!</p></p>
     <p class="art-links">
     
         <a href="../archive.html">Archive</a>&nbsp;

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <title>'New Services: Nicknames and Accounts'</title>
+    <link href="../static/css/open-sans.css" rel="stylesheet">
+    <link href="../static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../index.html"><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+    </nav>
+    <div class="container">
+            
+<div class="main">
+    <p><b class="art">'New Services: Nicknames and Accounts'</b>&nbsp;
+    <span class="art-date">2008-05-31 17:56:35+00:00 by skenmy</span></p>
+    <p class="art-ingress"><p>We've noticed a lot of people who are confused (and rightly so!) about the new nickname system - particularly the way that nickname grouping has changed. Hopefully this blog post will clear some of it up.</p>
+<p><strong>Nicknames and Accounts</strong></p>
+<p>freenode now uses a system of ownership that is different to the old nicknames system. Now, when you register a <em>nickname</em> for the first time, that <em>nickname</em> becomes the primary <em>nickname</em> on your <em>account</em> (which has the same name). An example:</p>
+<blockquote>**User1** vists Freenode for the first time. She registers by using the command:
+
+> 
+> <blockquote>/msg NickServ REGISTER myshinypass my@shiny.email</blockquote>
+> 
+> 
+**User1 **now has an _account_. freenode services have automatically assigned the _nickname_ **User1** to the _account_ **User1**. **User1** is now happy.</blockquote>
+
+<p>So, <em>nicknames</em> are now assigned to your <em>account</em>. But what does this actually mean, practically?</p>
+<p><strong>Identification</strong></p>
+<p>When you identify:</p>
+<blockquote> /msg NickServ IDENTIFY <password></blockquote>
+
+<p>freenode services will try and identify you to your <em>account</em>.  It does this by taking your <em>nickname</em>, and looking it up in the database - to find the <em>account</em> associated with it. Let's go back to User1 for a little demonstration:</p>
+<blockquote>**User1** returns to freenode. She identifies using the command:
+
+> 
+> <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+> 
+> 
+freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully.</blockquote>
+
+<p>But what happens when you try and identify with a different nickname?</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She tries to identify using the command:
+
+> 
+> <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+> 
+> 
+freenode services tries to look up an account called **User12** (as this is her current nickname). This nickname is unregistered, and so does not have an account associated with it. The identification fails, and she is not logged in.</blockquote>
+
+<p>With the new accounts system, there is a command that allows you to identify to your account from any nickname!</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
+
+> 
+> <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
+> 
+> 
+freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds.</blockquote>
+
+<p>However, this isn't ideal, as she is now logged in, but is using an unregistered <em>nickname</em>. She may want to consider GROUPing the <em>nickname</em>.</p>
+<p><strong>Grouping</strong></p>
+<p>With the new system, GROUP basically means to add another <em>nickname</em> to your <em>account</em>. <strong>User1</strong> is fed up of being connected as <strong>User12</strong> and using an unregistered <em>nickname</em>, so she has decided to GROUP the <em>nickname</em> to her existing <em>account</em>.</p>
+<p>There are two ways to go about this:</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
+
+> 
+> <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
+> 
+> 
+freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds. She can now GROUP the _nickname_ (**User12**) to her _account_ (**User1**) by typing:
+
+> 
+> <blockquote>/msg NickServ GROUP</blockquote>
+> 
+> 
+The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
+
+> 
+> <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
+> 
+> 
+when connected as **User12**.</blockquote>
+
+<p>Or, she can do this:</p>
+<blockquote>**User1** connects to freenode. She identifies using the command:
+
+> 
+> <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+> 
+> 
+freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully. She can now change her _nickname_:
+
+> 
+> <blockquote>/nick User12</blockquote>
+> 
+> 
+And GROUP her new _nickname_, as freenode services does not log her out of her _account_ when she changes _nickname_.
+
+> 
+> <blockquote>/msg NickServ GROUP</blockquote>
+> 
+> 
+The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
+
+> 
+> <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
+> 
+> 
+when connected as **User12**.</blockquote>
+
+<p><strong>Conclusion</strong></p>
+<p>So, to wrap up, freenode now allows you to register an account, to which you add nicknames as explained above. That's not an easy concept to grasp if you are used to the old system, and if you have any questions, feel free to drop into #freenode and ask away!</p>
+<blockquote></blockquote></p>
+    <p class="art-links">
+    
+        <a href="../archive.html">Archive</a>&nbsp;
+        </p>
+</div>
+
+        </div>
+    </div>
+    <div class="footers">
+            <footer class="footer">
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            <li>
+                <a href="../pages/vision.html">Vision</a>
+            </li>
+            <li>
+                <a href="../pages/mission.html">Mission</a>
+            </li>
+            <li>
+                <a href="../pages/philosophy.html">Philosophy</a>
+            </li>
+            <li>
+                <a href="../pages/policies.html">Policies</a>
+            </li>
+            <li>
+                <a href="../pages/about.html">Credits</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            <li>
+                <a href="../faq/chat">Connect</a>
+            </li>
+            <li>
+                <a href="../faq/clients">Clients</a>
+            </li>
+            <li>
+                <a href="https://webchat.freenode.net/">Webchat</a>
+            </li>
+            <li>
+                <a href="../faq/sasl">SASL</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerchild">
+        <h2>Groups/Projects</h2>
+        <ul>
+            <li>
+                <a href="../pages/soon.html">Group Management System</a>
+            </li>
+            <li>
+                <a href="../pages/soon.html">Groups on freenode</a>
+            </li>
+            <li>
+                <a href="../faq/groups">How Groups Work</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerchild">
+        <h2>Support freenode</h2>
+        <ul>
+            <li>
+                <a href="../faq/host">Host a server</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426"
+                target="_blank"><i class="fa fa-google-plus"></i>
+                Google+</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target=
+                "_blank"><i class="fa fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+                <a href=
+                "https://www.facebook.com/freenode-366911233325305/"
+                target="_blank"><i class="fa fa-facebook"></i>
+                Facebook</a>
+            </li>
+            <li>
+                <a href="../archive.html"><i class="fa fa-rss"></i>
+                News Archive</a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="PIA" height=
+                "14px" src="../static/img/logos/pia-robot-original.svg">
+                Private Internet Access</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    <p>&copy; 1998-2016, freenode</p>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
