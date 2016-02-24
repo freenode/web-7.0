@@ -188,6 +188,24 @@ h1 {
 
 div.art {
     clear: right;
+    min-height: 2em;
+    flex-grow: 1;
+}
+
+div.artlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: .5em;
+}
+
+@media all and (min-width: 800px) {
+    div.artlist {
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 div.art:not(:first-child) {
