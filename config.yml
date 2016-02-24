@@ -19,6 +19,12 @@ resources:
     source: static/img
     output: out/static/img
     recursive: True
+    pattern: '*.png'
+  - command: [svgo, -p, '7', -i, -, -o, -]
+    source: static/img
+    output: out/static/img
+    recursive: True
+    pattern: '*.svg'
   - command: [myth, --]
     source: static/css
     output: out/static/css
