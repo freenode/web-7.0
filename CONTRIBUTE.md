@@ -1,20 +1,19 @@
 ## Dev Requirements:
 
 * [Myth](http://www.myth.io/)
+* [svgo](https://github.com/svg/svgo)
 * [cms7](https://github.com/edk0/cms7)
+
+## Building
+
+With dependencies installed, just run `cms7`.
 
 ## Git
 
-* Master is whats on [freenode](https://freenode.net) please do only merge to this branch with permission from at least two of the following: spb, christel, mist, kloeri, edk or Swant
-* design- prefix is for design changes of the website, ONE CHANGE PER BRANCH
-* template- prefix is for template changes, ONE CHANGE PER BRANCH
-* content- prefix is for new content, blogposts and faq md files, ONE ARTICLE PER BRANCH
-* hotfix- prefix is for urgent bugs, these might be fast forwarded without deeper testing
+`master` is automatically deployed to https://freenode.github.io/web-7.0/. It
+is also configured to reject commits that haven't had a build succeed in a
+branch or pull request; make one and ideally get someone else to confirm.
 
-Branches should be tested on both big and small screens.
-No direct merges to master, use Pull Requests.
-except for hotfix- there should be left rich with time (+3h) from PR open to PR merge for discusiion
+Branches are cheap; use one per feature.
 
-## Editing Rules
-
-Do not edit static/css/style.css as it'll be overwritten on next compile, instead edit static/css/source.css and run myth static/css/source.css static/css/style.css
+Changes should be tested on both big and small screens.
