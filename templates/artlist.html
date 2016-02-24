@@ -2,7 +2,7 @@
 {% set title = "archive" %}
 {% block content %}
 <div class="artlist">
-{% for article in get_module("news").articles %}
+{% for article in get_module("news").articles|reverse %}
 <div class="art">
     <p><a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
     <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
