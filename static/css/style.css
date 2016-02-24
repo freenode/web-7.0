@@ -192,7 +192,10 @@ div.art {
 }
 
 div.artlist {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 div.artlist:first-child {
