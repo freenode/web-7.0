@@ -54,6 +54,7 @@ a {
     align-items: center;
     border-bottom: 1px solid var(--border-color);
     z-index: 100;
+    padding-right: 5px;
 }
 
 @media all and (max-width: 600px) {
@@ -63,14 +64,8 @@ a {
 }
 
 .navbar a {
+    margin-top: 2px;
     height: 40px;
-}
-
-a.nav-light {
-    background-color: #eee;
-    height: 44px;
-    padding: 2px;
-    margin-right: 3px;
 }
 
 .nlogo {
@@ -199,7 +194,7 @@ div.artlist {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: stretch;
-    max-width: 600px;
+    max-width: var(--max-width);
     margin: 0 auto;
     margin-top: .5em;
 }
@@ -397,6 +392,10 @@ a.hchild:hover,a.hchild:active {
         text-align: left;
         border-radius: calc(var(--box-round) / 2);
         margin: 5px 0;
+    }
+
+    div.artlist {
+        padding: 0 .3em;
     }
 }
 
