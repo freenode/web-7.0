@@ -2,9 +2,9 @@
 {% set title = config.name %}
 {% block content %}
 <div class="main">
-    <p><b class="art">{{ title }}</b></p>
+    <p><b class="art">{{ pages.title }}</b></p>
     <p class="art-ingress">
-        {{ content }}
+        {{ pages.content }}
     </p>
 </div>
 {% endblock %}
