@@ -13,6 +13,7 @@
     --border-color: #292f2f;
     --box-hover-color: #ddd;
     --box-round: 10px;
+    --max-width: 800px;
 }
 
 /* reset css for browser compat */
@@ -95,8 +96,9 @@ a.nav-light {
 }
 
 .main {
-    margin: 0 .75em;
+    margin: 0 auto;
     margin-top: .75em;
+    max-width: var(--max-width);
 }
 
 .main h1,
@@ -395,6 +397,10 @@ a.hchild:hover,a.hchild:active {
         text-align: left;
         border-radius: calc(var(--box-round) / 2);
         margin: 5px 0;
+    }
+
+    .main {
+        margin: .75em .75em;
     }
 
 }
