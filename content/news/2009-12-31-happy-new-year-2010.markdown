@@ -1,0 +1,17 @@
+author: christel
+date: 2009-12-31 13:32:59+00:00
+slug: happy-new-year-2010
+title: Happy New Year 2010
+---
+
+The New Year is arriving in various parts of the world, and we'd like to take this opportunity to thank the people who continue making freenode possible.
+
+Our very dedicated and generous hardware and bandwidth sponsors, for whom the tail end of 2009 have been a particularly challenging time, we're very grateful for the extra manpower you've all put in to help with the recent DDoS attacks the network has been experiencing. While we've lost some sponsors due to the costs involved over the attacks, we'd like to thank those for the time they were able to continue supporting our services and express our complete understanding for the decisions they've had to make in choosing to discontinue the support. For those of our sponsors who have been able to continue providing hardware and bandwidth we'd like to thank you for your generousity and for the patience while the attacks have been ongoing.
+
+We'd like to thank all the PDPC supporters for their donations, [Canonical Ltd](http://canonical.com) and the [Gallery project](http://gallery.menalto.com/) for their generous donations, as well as those donations from indiviual users which in 2009 enabled us to purchase some additional hardware and bandwidth and we hope that the support continues throughout 2010 and that we'll be able to start making some progress with the work on our upcoming freenode live conference. Your support is invaluable to us and we're grateful for the continued support. Should you wish to become a donor; you may make a donation [here](http://freenode.net/pdpc_donations.shtml).
+
+We'd also like to thank the freenode staff volunteers, past and present, for administering the network and putting in a lot of time to help both projects and end users with their freenode experience.
+
+And finally, we'd like to thank the most important people of all -- the many projects and users who make freenode what it is. 2009 saw us passing the 60,000 concurrent users mark and it's fantastic to see that so many people use and contribute to the various FOSS projects on the network. Thank you all for using freenode.
+
+We'd like to wish you all 12 months of happiness, 52 weeks of fun, 365 days of success, 8760 hours of good health, 52600 minutes of good luck and 3153600 seconds of joy! Have a very happy New Year!
