@@ -111,7 +111,6 @@ a.nav-light {
     position: relative;
     width: 100%;
     margin-top: -16px;
-    background: #000;
     background: var(--jumbotron-bg);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
