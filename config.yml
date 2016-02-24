@@ -25,6 +25,6 @@ resources:
     output: out/static/img
     recursive: True
     pattern: '*.svg'
-  - command: [myth, --]
+  - command: [myth, --compress, --]
     source: static/css
     output: out/static/css
