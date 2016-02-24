@@ -2,6 +2,7 @@ author: christel
 date: 2013-07-22 19:19:36+00:00
 slug: server-hosting-and-trust
 title: Server hosting and trust
+---
 
 For the purpose of disclosure we have had to make the difficult decision to discontinue a long-standing relationship with a server sponsor.
 

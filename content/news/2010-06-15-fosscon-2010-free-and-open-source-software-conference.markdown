@@ -2,9 +2,6 @@ author: JonathanD
 date: 2010-06-15 13:27:23+00:00
 slug: fosscon-2010-free-and-open-source-software-conference
 title: Fosscon 2010 Free and Open Source Software Conference.
-- pdpc
-- philosophy
-- social
 ---
 
 While talking online is great, meeting in person presents brand new opportunities... and we would like to meet you!

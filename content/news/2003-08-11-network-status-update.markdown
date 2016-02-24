@@ -2,6 +2,12 @@ author: christel
 date: 2003-08-11 17:47:14+00:00
 slug: network-status-update
 title: Network Status Update
+---
+
+Good afternoon to all.  The network is currently experiencing extreme stability problems.  Our lead coder is currently looking over core files is gdb and working on resolving the issue. However, expect the network to be extremely volatile until he has a fix in hand.  Apologies for this inconvenience.  A week after the upgrade, while we've collected a number of noncritical bugs, today's critical problem is our first of the new release.  We'll get the problem resolved as quickly as possible.
+
+Thank you again for your patience, and thank you for using freenode!
+
 **Edit:**
 
  NETWORK STATUS UPDATELatest news: We've got a working upgrade for the server code,  [dancer-ircd 1.0.31+pre24](http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/pre/dancer-ircd-1.0.31+pre24.tar.gz)  and we're preparing to upgrade.  We've installed the new code on the primary hubs to filter out problem state as it travels the network. The next step will be a global restart of the main rotation servers.  We'll follow that with the smaller regional servers and the IPv6 servers.  Please bear with us as we restore the network to more reliable operation.

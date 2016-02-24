@@ -2,6 +2,7 @@ author: christel
 date: 2009-01-05 13:36:18+00:00
 slug: 20082009-fundraiser
 title: 2008/2009 Fundraiser.
+---
 
 ![](http://freenode.net/fundraiser20090105.png)
 

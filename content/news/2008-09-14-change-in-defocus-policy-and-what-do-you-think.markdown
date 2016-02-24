@@ -2,6 +2,7 @@ author: njan
 date: 2008-09-14 19:17:17+00:00
 slug: change-in-defocus-policy-and-what-do-you-think
 title: 'Change in #defocus policy - and what do you think?'
+---
 
 Since rearchitecting freenode's network help and social channels, we've been considering various ways to improve them for our network users, and recently freenode's steering committee has investigated and considered these issues.
 

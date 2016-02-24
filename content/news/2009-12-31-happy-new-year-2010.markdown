@@ -2,7 +2,6 @@ author: christel
 date: 2009-12-31 13:32:59+00:00
 slug: happy-new-year-2010
 title: Happy New Year 2010
-- user count
 ---
 
 The New Year is arriving in various parts of the world, and we'd like to take this opportunity to thank the people who continue making freenode possible.

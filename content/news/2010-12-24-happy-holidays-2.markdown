@@ -2,6 +2,8 @@ author: christel
 date: 2010-12-24 05:00:47+00:00
 slug: happy-holidays-2
 title: Happy Holidays!
+---
+
 Just a quick note to wish each and every one of our users, sponsors, donors, volunteers and projects for making freenode great.
 
 It's amazing being able to communicate and collaborate with such a variety of people and projects. **YOU** make the network what it is and help us provide a fantastic resource for FOSS communities.

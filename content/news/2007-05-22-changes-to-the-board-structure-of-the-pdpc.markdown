@@ -2,6 +2,10 @@ author: christel
 date: 2007-05-22 21:20:41+00:00
 slug: changes-to-the-board-structure-of-the-pdpc
 title: Changes to the board structure of the PDPC
+---
+
+As of the board meeting on May 22nd 2007 a few changes have been made with immediate effect. David Levin has stepped down from his position as President. Christel Dahlskjaer (freenode Head of Staff) replaces him as President by unanimous vote, while David retains a position on the PDPC board.
+
 Phil Stracchino follows in Christel's footsteps, assuming her previous position as secretary pro tem.
 
 Joining the board we have Richard (RichiH) Hartmann in the position as treasurer pro tem, representing freenode staff, and David (cdlu) Graham as a community board member.

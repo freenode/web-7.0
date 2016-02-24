@@ -2,6 +2,12 @@ author: christel
 date: 2005-08-29 12:52:45+00:00
 slug: scheduled-maintenance-ircd-upgrade-2
 title: '[Scheduled Maintenance] IRCD upgrade.'
+---
+
+  By now you've noticed that the      **freenode**    network was upgraded late this morning to hyperion-ircd release 1.0.1. Due   to overwhelming problems with floodbots during the last few days, we've   added an experimental feature to hyperion ircd and we'll be implementing   it this afternoon.
+
+In a few minutes, we'll be reconfiguring the network to prevent   unregistered users from sending private messages. This is an experimental   feature which can be turned on and off at will. In the short term, it   should prevent private message flooding from spambots; in the long term,   combined with changes to authentication, it could make such flooding very   rare.  Please email us at **_policy at freenode dot net_** and let   us know what you think of the feature. You'll also be able to use
+
 
 <blockquote>  **_/stats p_**</blockquote>
 

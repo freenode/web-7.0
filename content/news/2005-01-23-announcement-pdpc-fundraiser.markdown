@@ -2,6 +2,12 @@ author: christel
 date: 2005-01-23 23:34:28+00:00
 slug: announcement-pdpc-fundraiser
 title: '[Announcement] PDPC Fundraiser'
+---
+
+Good evening to everyone.  Here's hoping  you're having an excellent new year.  In the next day or so,  [Peer-Directed Projects Center](http://freenode.net/pdpc.shtml),  the IRS 501(c)(03) parent organization of **freenode**, will begin its fundraising campaign for the fiscal year ending 30 June 2006.  We're still working on budget estimates for FYE 2006, and we begin the campaign with about $2,440 in donations over and above those required for the current year.
+
+The board of directors of PDPC passed the following resolution today, pertaining to fundraising:
+
 
 <blockquote>  _     Whereas Peer-Directed Projects Center is an IRS 501(c)(03) organization,     with a responsibility to contribute to the public welfare, and whereas     donors to PDPC represent a broad range of community participants, and     whereas the recent tsunami has demonstrated a genuine need for public     support for international relief and welfare organizations, and
 

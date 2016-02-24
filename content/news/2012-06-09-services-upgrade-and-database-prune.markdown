@@ -2,6 +2,8 @@ author: mrmist
 date: 2012-06-09 17:38:33+00:00
 slug: services-upgrade-and-database-prune
 title: Services upgrade and database prune
+---
+
 Hi
 The long-awaited upgrade of services which we [blogged about a while ago](http://blog.freenode.net/2012/04/database-prune/) is now planned for this coming weekend, the 16th/17th June. 
 

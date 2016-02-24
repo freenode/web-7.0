@@ -2,6 +2,12 @@ author: Pricey
 date: 2014-10-15 21:27:44+00:00
 slug: server-issues-update
 title: 'Server Issues: Update'
+---
+
+Following up on our [previous blog post](http://blog.freenode.net/2014/09/server-issues-2/), we have continued to investigate the compromise of freenode infrastructure, aided by our sponsors in addition to experts in the field.
+
+NCC Group's Cyber Defence Operations team kindly provided pro bono digital forensic and reverse engineering services to assist our infrastructure team and have recently published a report with some of their findings:
+
 [https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/](https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/)
 
 NCC's support has been invaluable in aiding us in further securing our infrastructure, and we have already made significant changes to ensure that it is more resilient against further attacks. Our investigation into the compromise is ongoing and we will provide further updates as appropriate.

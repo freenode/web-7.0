@@ -2,6 +2,10 @@ author: christel
 date: 2007-03-24 16:13:29+00:00
 slug: pdpc-design-contest
 title: PDPC Design Contest!
+---
+
+A while back we announced on the freenode news page that we are running a design competition for logo + website design for the PDPC (Peer-Directed Projects Center); the not-for-profit organization that owns and operates freenode.
+
 This is a quick reminder about the contest still being on, and anyone interested are encouraged to get in touch with us by e-mailing design@freenode.net
 
 As the PDPC grows and expands it has become clear that we would benefit greatly from a better web presence, and we would like to invite you to participate in our web design and logo contests.

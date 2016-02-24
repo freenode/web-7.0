@@ -2,7 +2,6 @@ author: christel
 date: 2006-09-23 14:46:39+00:00
 slug: '94'
 title: Rob Levin, a man who will be greatly missed
-- social
 ---
 
 As previously announced last week, Rob Levin aka lilo, the father of freenode, passed away on the 16th of September. He had been in a coma after being hit by a car while riding his bicycle.

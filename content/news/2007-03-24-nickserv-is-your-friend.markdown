@@ -2,6 +2,10 @@ author: SportChick
 date: 2007-03-24 22:15:49+00:00
 slug: nickserv-is-your-friend
 title: NickServ Is Your Friend
+---
+
+**UPDATE: This is outdated. See [here](http://freenode.net/faq.shtml#nicksetup) for up-to-date instructions. Note that some commands in this entry have been renamed or have different syntax. If you need help with your NickServ account and can't find information on our website, please ask in #freenode.**
+
 Nickserv, unbeknownst to many, has many useful features. In addition to handling nick registration, it allows you to change your password, hide certain information about your nick and online status, recover your nick from another user who is using it (or a dead computer connection), turn on/off the ability to receive and be notified of new memos.  Here are some of the major features of nickserv.  Don't be afraid to poke around with /msg nickserv help.
 
 **Nick Setup**

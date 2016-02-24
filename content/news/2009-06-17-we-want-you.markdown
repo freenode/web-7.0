@@ -2,6 +2,8 @@ author: christel
 date: 2009-06-17 09:39:25+00:00
 slug: we-want-you
 title: 'We want YOU! '
+---
+
 We are currently looking to expand the freenode volunteer staff team, seeking people involved with the target communities we currently serve.
 
 The freenode network has seen substantial growth in recent times and as such we are looking to add to our existing team of volunteers. freenode volunteers hail from a variety of backgrounds and come in all ages, it's a diverse group of people and we all share a passion for Free and Open Source Software, Free Culture and Peer-Directed Project Communities. We are looking for peoplewho would complement the current set-up and make a refreshing addition to the team.

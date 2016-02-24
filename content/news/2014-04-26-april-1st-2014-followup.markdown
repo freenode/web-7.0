@@ -2,6 +2,9 @@ author: yano
 date: 2014-04-26 18:05:01+00:00
 slug: april-1st-2014-followup
 title: April 1st 2014, Followup
+---
+
+It's been almost too long for this blog post to arrive here after the April Fools quiz this year. Thanks to everyone who participated!
   
   
 
@@ -275,14 +278,12 @@ _
     
     "Dan Brown simply invented the 'Rose Line' linking Rosslyn and Glastonbury. The name 'Roslin' definitely does not derive from any 'hallowed Rose Line'. It has nothing to do with a 'Rose Bloodline' or a 'Rose Line meridian'. There are many medieval spellings of 'Rosslyn'. 'Roslin' is certainly not the 'original spelling': it is now the most common spelling for the village."[18]
 
-- [Source](https://en.wikipedia.org/wiki/Rose_Line#Dan_Brown.27s_The_Da_Vinci_Code)
 
             
     * The "Jules Verne" clue is suppose to reaffirm to contestants that they were on the right track: 
     
     The competition between the Paris and Greenwich meridians is a plot element in Jules Verne's "Twenty Thousand Leagues Under the Sea", published just before the international decision in favor of the British one.
 
-- [Source](https://en.wikipedia.org/wiki/Paris_Meridian#Origin)
 
             
     * The answer: **####roslin**
@@ -349,7 +350,6 @@ _
             
     * The former transmitter[27] was located near Povarovo, Russia[28] at 56°5′0″N 37°6′37″E which is about halfway between Zelenograd and Solnechnogorsk and 40 kilometres (25 mi) northwest of Moscow, near the village of Lozhki.
 
-- [Source](https://en.wikipedia.org/wiki/UVB-76#Location_and_function)
 
             
     * The is.gd link points to a file that has the "No Q" image from a previous level hidden in it.

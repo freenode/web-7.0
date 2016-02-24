@@ -2,6 +2,9 @@ author: RichiH
 date: 2013-03-19 20:14:46+00:00
 slug: bye-bye-pdpc
 title: Bye bye PDPC
+---
+
+Sadly, we were forced to dissolve PDPC, freenode's parent organisation.
 
 When the organisation transferred across from the US to the UK we wanted to keep the organisational structure as close to what it had been before (change is scary, right?) -- however, we made the conscious decision to no longer have any paid employees after Rob Levin passed away. This meant that everyone involved with the organisation were volunteers and we no longer had anyone who could invest the time and effort required to do fundraising and similar tasks, meaning that the organisation was unable to sustain the levels of donations required to obtain and maintain charitable status in the UK.
 

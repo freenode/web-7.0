@@ -2,6 +2,12 @@ author: spb
 date: 2016-02-19 13:11:52+00:00
 slug: the-new-policies
 title: The New Policies
+---
+
+One of the several problems that's become obvious in recent times is that we  have too many policies, they're often not consistent with each other, and we've spent too much time and effort wondering whether something, which is obviously the right thing to do, fits with our published policy. With that in mind, the following stripped-back set of policies will apply in future, with the intention that we can set out a simple set of baselines and apply common sense on top of them.
+
+**Nickname ownership**
+
 Nicknames are allocated on a first-come, first-served basis, to the first person
 who registers the name with NickServ. However, we expect users to act in good
 faith and reserve the right to remove a nickname registration where we believe

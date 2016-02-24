@@ -2,9 +2,6 @@ author: christel
 date: 2010-01-30 08:20:10+00:00
 slug: freenode-is-dead-long-live-freenode
 title: freenode is dead, long live freenode
-- pdpc
-- projects
-- technical
 ---
 
 After much time in development and testing, the move to ircd-seven is finally complete. The migration took place in the early hours of today, Saturday January 30th 2010.

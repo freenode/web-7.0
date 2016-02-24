@@ -2,6 +2,9 @@ author: JonathanD
 date: 2010-01-17 02:36:04+00:00
 slug: javascript-spam
 title: Javascript spam
+---
+
+You may have noticed some unusual amounts of spam over the past few days, which has had an impact on a number of channels.  This spam is the result of some malicious javascript being distributed on a number of webpages which causes visitors to these pages to make a connection to freenode and send spam.  While we are doing what we can to mitigate the spam, we would ask that you take a careful look at any unusual sites or URLs you might visit in the near future to be sure you are not being tricked into visiting such a site.
 
 **If you have been banned** from the network after clicking on one of these links, please email klines@freenode.net with your internet-routeable IP address. Visit [http://myip.dk/](http://myip.dk/) and include both the IP address and hostname provided on this site.  It's also helpful if you let us know what nick you were using at the time.  We will address these requests as quickly as possible, but please be patient.
 

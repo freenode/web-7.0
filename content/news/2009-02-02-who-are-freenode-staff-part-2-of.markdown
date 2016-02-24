@@ -2,6 +2,8 @@ author: SportChick
 date: 2009-02-02 19:19:55+00:00
 slug: who-are-freenode-staff-part-2-of
 title: Who Are freenode Staff? (Part 2 of ?)
+---
+
 It's been a while since we posted Part 1 of our series on "Who Are freenode Staff?" - which makes it about time to post a bit more.
 
 _**Gary** - Since today is Gary's birthday, it's only fitting to discuss his deep-seated desire to be helpful to others!__  Although he has been on numerous irc networks since he first discovered irc in the late 90s, he found himself on freenode and wrangled into doing what he does (and loves) best - helping others.  Luckily, freenode staff had no need to brainwash Gary when he joined up - he was already completely sold on the network and its philosophy.  Gary was, however, christel's biggest proponent in painting the network pink! If he had his choice, Gary would paint all the network trolls pink and then put them on display for others to laugh at them, rather than allowing them to bog things down._

@@ -2,6 +2,7 @@ author: Martinp23
 date: 2010-01-29 18:55:02+00:00
 slug: connecting-to-freenode-using-tor-sasl
 title: 'Connecting to freenode using Tor: SASL'
+---
 
 With our change of ircd to the all new [ircd-seven](http://www.freenode.net/seven.shtml), we are trialling a new method of allowing users to connect to the network via Tor. This method brings a number of changes:
 

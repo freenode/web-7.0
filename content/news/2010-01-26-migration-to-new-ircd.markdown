@@ -2,6 +2,12 @@ author: JonathanD
 date: 2010-01-26 17:40:44+00:00
 slug: migration-to-new-ircd
 title: Migration to ircd-seven.
+---
+
+On the 30th of January, 2010 at around 7:30 UTC, we will be moving to the new ircd-seven.  If you haven't done so already, now is a great time to look at how this may change things for you and what you may need to do as a result.
+
+We covered a few of the changes in [this](http://blog.freenode.net/2010/01/ircd-migration-sat-jan-30th-2010/) article earlier, but this post adds a few things.
+
 If you are a tor user, the way you connect will be slightly different.  Connecting via tor will require you use "username:password" in your server password field instead of just "password" as is the case now.
 
 If you currently have an arrangement with freenode to increase your connection count for a business, school, or other organization (also known as an iline), you may need to verify it is still in place after the migration.  While we have moved the majority of these over to the new ircd, some older ilines where we do not have contact information may need to be updated.  If you find yours is missing, join #freenode and look for any freenode staff to further assist you. All staff are voiced on #freenode.

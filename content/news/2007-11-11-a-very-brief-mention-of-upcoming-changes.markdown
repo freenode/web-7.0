@@ -2,6 +2,8 @@ author: christel
 date: 2007-11-11 12:20:54+00:00
 slug: a-very-brief-mention-of-upcoming-changes
 title: A very brief mention of upcoming changes..
+---
+
 As you are probably aware we are in the process of rehauling the IRCd and Services software running on freenode. While hyperion and theia have served us well for a significant amount of time they are also starting to struggle under the weight of our rapid growth (we recently hit 43,000 users, which is a number we hadn't anticipated -- that's 15,000 more users than we had a year ago).
 
 We are of course pleased that our numbers are growing and that more and more people and projects are finding a use for freenode; it's a fantastic feeling to be able to give something back to the wider FOSS community.

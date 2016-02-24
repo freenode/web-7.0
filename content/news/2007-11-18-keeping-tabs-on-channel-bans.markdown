@@ -2,6 +2,8 @@ author: Xyrael
 date: 2007-11-18 23:49:19+00:00
 slug: keeping-tabs-on-channel-bans
 title: Keeping tabs on channel bans
+---
+
 The channel ban, initiated with a mode change of +b, is perhaps one of the most recognised and well known features of IRC, dating back to the origins of the protocol. freenode has implemented a number of features that extend the basic nick!user@host mask format because we believe that the 'kickban' is outdated and there are better ways of dealing with disruptions to channel activity. On freenode you will find the quiet, where by replacing +b with +q you can stop a user from speaking in a channel but they can still read the contents of it. It has been found that this creates a more positive atmosphere in the channel that means better discussion can take place. There is also the realname ban, used via +d.
 
 There is however a downside to the ease of banning users on freenode from channels and that is that it is easy to lose track of bans set in large channels. There is no feature to auto-expire bans in IRC and in a busy channel it doesn't take long for a large list to build up. With multiple operators in a channel things can very quickly become confused and no-one seems to know why ban x was set and whether or not the user should now be unbanned. This leads to unhappy users and a channel that misses out on potential positive discussion. In addition, channels have a limit of fifty bans set at any one time and bans end up being shed arbitarily in order to set a new set for a new threat. This can lead to obvious problems.

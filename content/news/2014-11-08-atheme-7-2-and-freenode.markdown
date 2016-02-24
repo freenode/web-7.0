@@ -2,6 +2,12 @@ author: tomaw
 date: 2014-11-08 23:18:51+00:00
 slug: atheme-7-2-and-freenode
 title: Atheme 7.2 and freenode
+---
+
+Hello!
+
+We've begun some testing on Atheme's latest release, 7.2, and we'd like to invite interested users to help with that.
+
 Not all changes the Atheme project has included in their new release will be included in our Atheme upgrade, so here's the bulk of the changes that will actually affect our network:
 
 

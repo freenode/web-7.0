@@ -2,6 +2,12 @@ author: spb
 date: 2016-02-19 13:11:54+00:00
 slug: recent-events-and-future-changes
 title: Recent Events and Future Changes
+---
+
+Many of you have been asking questions about the recent rash of high-profile
+staff resignations, and we feel we owe you all both an explanation and an
+apology.
+
 First, the explanation: in short, it's become clear over recent months that
 freenode has lost its way somewhat, when compared to the ideals and goals that
 we were created with. A growing sense of disillusionment amongst those of us who

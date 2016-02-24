@@ -2,6 +2,8 @@ author: Pricey
 date: 2014-04-15 18:52:05+00:00
 slug: heartbleed
 title: Heartbleed
+---
+
 The recently exposed [heartbleed bug](http://heartbleed.com/) in the OpenSSL library has surprised everyone with a [catastrophic](https://www.schneier.com/blog/archives/2014/04/heartbleed.html) vulnerability in many of the world's secure systems.
 
 In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.

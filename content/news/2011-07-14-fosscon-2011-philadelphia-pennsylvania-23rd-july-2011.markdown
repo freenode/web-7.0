@@ -2,6 +2,12 @@ author: JonathanD
 date: 2011-07-14 11:36:40+00:00
 slug: fosscon-2011-philadelphia-pennsylvania-23rd-july-2011
 title: 'Fosscon 2011: Philadelphia Pennsylvania, 23rd July, 2011.'
+---
+
+July 23, 2011 - (All day)
+
+Hi everyone,
+Next Saturday Basekamp will be hosting FOSSCON (Free and Open Source Software Conference), focusing on the community that has grown around Free and Open Source Software (FOSS), and in parallel to both the Free Culture and Open Source cultural movements.
 This is a community-focused live event designed to build and strengthen relationships between Free and Open Source Software (FOSS) developers and users. FOSSCON seeks to raise awareness of and promote FOSS alternatives to proprietary software. Facilitating face-to-face interaction, creative workshops, talks and think tanks, FOSSCON brings developers and users together in a nurturing and dynamic environment stimulating the free exchange of ideas and information while fostering cross-project collaboration and dialogue for innovation.
 
 FOSSCON is organized by Peer-Directed Projects Center (PDPC) – the group responsible for projects like [Freenode](http://basekamp.com/about/events/freenode) and fossevents – FOSSCON (along with Geeknics) is part of PDPC’s desire to bring an already massive online community that has grown around free and open source ideas, out into the world, to meet, connect, support and challenge each other, imagine, plot and co-develop beautiful, possibly useful and unexpected things.

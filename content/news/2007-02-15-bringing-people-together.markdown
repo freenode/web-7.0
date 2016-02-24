@@ -2,6 +2,8 @@ author: christel
 date: 2007-02-15 02:12:17+00:00
 slug: bringing-people-together
 title: Bringing people together?
+---
+
 When I first came on board as [freenode](http://www.freenode.net) staff I had no idea what a incredible experience I was in for.
 
 Over the past few years I've gotten to know some amazing people, both online and in person, become involved with some exciting projects, learned a lot about cool new stuff.. and it's all thanks to the community surrounding the network.

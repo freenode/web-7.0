@@ -2,6 +2,10 @@ author: numist
 date: 2008-03-22 17:46:11+00:00
 slug: helping-others-help-you
 title: Helping others help you.
+---
+
+	From _[The Pragmatic Programmer](http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)_:
+
 
 <blockquote>**Care and Cultivation of Gurus **With the global adoption of the internet, gurus suddenly are as close as your Enter key.  So, how do you find one, and how do you get one to talk with you? We find there are some simple tricks.
 
