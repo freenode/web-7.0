@@ -200,6 +200,14 @@ div.artlist {
     margin-top: .5em;
 }
 
+@media all and (min-width: 600px) {
+    div.artlist {
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 div.art:not(:first-child) {
     border-top: 1px solid var(--border-color);
 }
