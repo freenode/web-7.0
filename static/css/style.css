@@ -3,15 +3,16 @@
     --navbar-bg: #292f2f;
     --jumbotron-bg: #3a4346;
     --copyright-bg: #292f2f;
-    --link-color: 66,139,202;
-    --footer-link-color: #ddd;
+    --link-color: #2fa6bc;
+    --footer-link-color: #ecf7fa;
     --nlink-col: #000;
-    --text-color: #333;
-    --footer-text-color: #eee;
-    --copyright-text-color: #ccc;
-    --jumbotron-text-color: #eee;
+    --text-color: #292f2f;
+    --footer-text-color: #ecf7fa;
+    --copyright-text-color: #ecf7fa;
+    --jumbotron-text-color: #ecf7fa;
     --border-color: #292f2f;
-    --box-hover-color: #ddd;
+    --box-color: #4c5456;
+    --box-hover-color: #292f2f;
     --box-round: 10px;
     --max-width: 800px;
 }
@@ -33,7 +34,7 @@ body {
 }
 
 a {
-    color: rgb(var(--link-color));
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -128,9 +129,10 @@ a.nav-light {
 
 .child {
     text-align: center;
-    margin: .5em;
+    margin: .5em auto;
     font-size: 32px;
     line-height: 48px;
+    max-width: 75%;
 }
 
 .box-container {
@@ -145,14 +147,12 @@ a.nav-light {
 .box {
     text-align: center;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--jumbotron-text-color);
     margin-bottom: 5px;
     padding: 5px;
     flex-basis: 30%;
-    background-color: #fff;
+    background-color: var(--box-color);
     border-radius: var(--box-round);
-    -webkit-border-radius: var(--box-round);
-    -moz-border-radius: var(--box-round);
 }
 
 .box:hover,.box:active {
@@ -163,7 +163,7 @@ a.nav-light {
     position: relative;
     top: initial;
     font-size: 20px;
-    font-weight: normal;
+    font-weight: 600;
     line-height: 16px;
     padding: 10px 0;
     display: block;
@@ -321,6 +321,10 @@ a.hchild:hover,a.hchild:active {
 
 .footer a {
     color: var(--footer-link-color);
+}
+
+.footer a:hover {
+    color: #fff;
 }
 
 .footer h2 {
