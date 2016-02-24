@@ -102,8 +102,15 @@ a.nav-light {
 .main h1,
 .main h2,
 .main h3,
-.main p + p {
+.main li,
+.main p + p,
+.main ul + p {
     margin-top: .5em;
+}
+
+.main ul {
+    padding-left: 2em;
+    list-style-type: disc;
 }
 
 /* jumbotron */
@@ -238,12 +245,6 @@ p.heading {
 p.art-link {
     margin-top: 0;
 }
-
-/* Article */
-.art-full h1,
-.art-full h2,
-.art-full h3,
-.art-full h4 {}
 
 /* help */
 .hmain {
