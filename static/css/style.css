@@ -217,6 +217,11 @@ h1 {
     line-height: 1.6;
 }
 
+.art-info h1 {
+    display: inline;
+    margin-top: 0;
+}
+
 .art-body {
     margin-bottom: 1em;
 }
