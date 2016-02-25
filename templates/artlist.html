@@ -4,8 +4,8 @@
 <div class="artlist main">
 {% for article in get_module("news").articles|reverse %}
 <div class="art">
-    <p><a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
-    <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
+    <a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
+    <span class="art-date">{{ article.author }} on {{ article.datetime.astimezone().date() }}</span>
 </div>
 {% endfor %}
 </div>

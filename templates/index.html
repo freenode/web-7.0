@@ -20,8 +20,8 @@
 </div>
 <div class="main">
     {% with article = get_module("news").articles[-1] %}
-    <p><b class="art"><a href="{{ article.url }}">{{ article.title }}</a></b>&nbsp;
-    <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
+    <b class="art"><a href="{{ article.url }}">{{ article.title }}</a></b>&nbsp;
+    <span class="art-date">{{ article.author }} on {{ article.datetime }}</span>
     <p class="art-ingress">{{ article.render() }}</p>
     {#
     <p class="art-links">
