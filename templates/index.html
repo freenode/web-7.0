@@ -23,11 +23,11 @@
     {% with article = get_module("news").articles[-1] %}
     {{ artinfo.info(article) }}
     <div class="art-body">{{ article.render() }}</div>
-    {#
-    <p class="art-links">
-        <a href="{{ next }}">Next</a>&nbsp;
-        <a href="{{ previous }}">Previous</a>&nbsp;
-    #}
+    <div class="art-nav">
+        <span></span>
+        <a href="{{ url_for("archive") }}">all</a>
+        <span></span>
+    </div>
     {% endwith %}
 </div>
 {% endblock content %}
