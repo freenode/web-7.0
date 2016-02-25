@@ -2,10 +2,9 @@ author: RichiH
 date: 2011-01-30 01:24:40+00:00
 slug: we-are-going-to-fosdem
 title: We are going to FOSDEM
-categories:
-- community
-- different
-- open source
+category: community
+category: different
+category: open source
 ---
 [![going-to-fosdem-2011](http://blog.freenode.net/wp-content/uploads/2011/01/going-to-fosdem-2011.png)](http://blog.freenode.net/wp-content/uploads/2011/01/going-to-fosdem-2011.png)
 

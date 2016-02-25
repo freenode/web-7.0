@@ -2,10 +2,9 @@ author: Martinp23
 date: 2008-12-20 23:32:49+00:00
 slug: new-servers
 title: New servers
-categories:
-- freenode
-- infrastructure
-- technical
+category: freenode
+category: infrastructure
+category: technical
 ---
 Hi all,
 

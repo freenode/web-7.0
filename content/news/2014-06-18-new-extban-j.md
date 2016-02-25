@@ -2,10 +2,9 @@ author: Pricey
 date: 2014-06-18 15:54:08+00:00
 slug: new-extban-j
 title: 'New extban: $j'
-categories:
-- freenode
-- infrastructure
-- technical
+category: freenode
+category: infrastructure
+category: technical
 ---
 We have loaded a new module on the network which provides the $j extban type:
 

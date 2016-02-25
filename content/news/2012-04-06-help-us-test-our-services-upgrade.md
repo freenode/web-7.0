@@ -2,13 +2,12 @@ author: Pricey
 date: 2012-04-06 20:33:08+00:00
 slug: help-us-test-our-services-upgrade
 title: Help us test our services upgrade!
-categories:
-- development
-- freenode
-- infrastructure
-- open source
-- projects
-- technical
+category: development
+category: freenode
+category: infrastructure
+category: open source
+category: projects
+category: technical
 ---
 Very soon we will be upgrading your favourite network helpers... (no not erry…): NickServ, ChanServ, Alis etc. They’re currently connected to our testnet and we need your help with testing, looking for any issues which may affect the production network.
 

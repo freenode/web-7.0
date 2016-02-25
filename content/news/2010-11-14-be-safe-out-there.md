@@ -2,10 +2,9 @@ author: jayne
 date: 2010-11-14 16:22:31+00:00
 slug: be-safe-out-there
 title: Be Safe Out There
-categories:
-- freenode
-- philosophy
-- social
+category: freenode
+category: philosophy
+category: social
 ---
 **freenode **is sometimes a target of spammers, bots, or attempts to trick users into taking action or giving up information they normally would not. One form of spam, popular recently, claims that freenode will require SASL to connect. Others attempt to lure users to a website that may generate revenue for the spammer, attempt to install malicious software, reveal information about the user (such as location, IP address, operating system, and so on), or lead to a shock site intended to offend or disgust. Other spam has no purpose except to cause disruption through channel noise, nick-highlights, and the ensuing complaints from those disrupted.
 

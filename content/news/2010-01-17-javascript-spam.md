@@ -2,9 +2,8 @@ author: JonathanD
 date: 2010-01-17 02:36:04+00:00
 slug: javascript-spam
 title: Javascript spam
-categories:
-- freenode
-- technical
+category: freenode
+category: technical
 ---
 You may have noticed some unusual amounts of spam over the past few days, which has had an impact on a number of channels.  This spam is the result of some malicious javascript being distributed on a number of webpages which causes visitors to these pages to make a connection to freenode and send spam.  While we are doing what we can to mitigate the spam, we would ask that you take a careful look at any unusual sites or URLs you might visit in the near future to be sure you are not being tricked into visiting such a site.
 

@@ -2,10 +2,9 @@ author: SportChick
 date: 2007-02-23 07:49:11+00:00
 slug: the-heart-and-mind-of-a-catalyst
 title: The Heart and Mind of a Catalyst
-categories:
-- community
-- freenode
-- philosophy
+category: community
+category: freenode
+category: philosophy
 ---
 As the staff has so recently begun this blog, I've been carefully thinking about freenode and what make it different from so many other networks.  Ask 10 people and you might get 10 different answers, but I have my own theory, which I thought I'd share with you here.  The difference is, quite simply, the people that populate the network - and their heart and drive to make it something better. For a long time, though I was operating a channel of my own, I never realized that freenode officially encouraged the sort of behavior that I often employ - self-mediation, moderation, arbitration, catalysing, or whatever you want to call it.  But indeed, freenode has an entire section on its website about the importance (and role) of a Catalyst!
 

@@ -2,9 +2,8 @@ author: Martinp23
 date: 2011-02-13 21:19:18+00:00
 slug: sponsorship-roundup
 title: Sponsorship Roundup
-categories:
-- freenode
-- infrastructure
+category: freenode
+category: infrastructure
 ---
 As you may know, the network operations of freenode are fully supported by donations - of hosting and other resources - from both companies and individuals. We acknowledge all sponsors on our [website](http://freenode.net/acknowledgements.shtml), but it is nice from time to time to provide a round-up of recent changes on the sponsorship scene!
 

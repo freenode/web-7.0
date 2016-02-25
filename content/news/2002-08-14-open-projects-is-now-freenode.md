@@ -2,12 +2,11 @@ author: christel
 date: 2002-08-14 00:00:32+00:00
 slug: open-projects-is-now-freenode
 title: Open Projects is now freenode!
-categories:
-- community
-- different
-- freenode
-- social
-- technical
+category: community
+category: different
+category: freenode
+category: social
+category: technical
 ---
 As of today, Open Projects Net has changed its name.  We are now freenode!
 

@@ -2,11 +2,10 @@ author: RichiH
 date: 2012-03-10 23:39:50+00:00
 slug: planet-freenode-net
 title: planet.freenode.net
-categories:
-- community
-- freenode
-- geeknic
-- social
+category: community
+category: freenode
+category: geeknic
+category: social
 ---
 Today, we launched [planet.freenode.net](http://planet.freenode.net).
 

@@ -2,12 +2,11 @@ author: SportChick
 date: 2007-05-26 17:40:38+00:00
 slug: communicating-with-the-irc-community
 title: Communicating with the irc Community
-categories:
-- community
-- different
-- philosophy
-- social
-- technical
+category: community
+category: different
+category: philosophy
+category: social
+category: technical
 ---
 For most of my professional career, I worked in the international arena.  I'm not sure why I have always enjoyed that so much - perhaps as a result of having lived overseas for a portion of my life.  There are, as a result, a lot of things that I take for granted in dealing with others, and I've recently become more aware that others often don't think or don't realize there is a bit of an art to dealing with folks from other cultures, countries, backgrounds and who speak other languages.  On irc, there are **so** many different people, languages, cultures, it's important to realize the need to do things a bit differently than we normally would, even though many of the traditional issues that arise when you're face-to-face don't exist.
 

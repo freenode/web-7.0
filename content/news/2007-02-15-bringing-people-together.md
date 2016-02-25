@@ -2,10 +2,9 @@ author: christel
 date: 2007-02-15 02:12:17+00:00
 slug: bringing-people-together
 title: Bringing people together?
-categories:
-- community
-- fosscon
-- freenode
+category: community
+category: fosscon
+category: freenode
 ---
 When I first came on board as [freenode](http://www.freenode.net) staff I had no idea what a incredible experience I was in for.
 

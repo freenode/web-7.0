@@ -2,8 +2,7 @@ author: christel
 date: 2006-11-11 08:00:49+00:00
 slug: introducing-the-pdpc-board
 title: '[Announcement] Introducing the PDPC board'
-categories:
-- pdpc
+category: pdpc
 ---
 It is with great pleasure that I can finally introduce the new board of directors for PDPC, the not-for-profit entity that runs freenode.
 

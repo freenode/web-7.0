@@ -2,12 +2,11 @@ author: christel
 date: 2014-11-11 10:49:11+00:00
 slug: helping-gnome-defend-its-trademark
 title: Helping GNOME defend its trademark
-categories:
-- community
-- free software
-- open source
-- projects
-- social
+category: community
+category: free software
+category: open source
+category: projects
+category: social
 ---
 The GNOME project will be familiar to the vast majority of our users, what you might not be aware of is that the project is currently facing an expensive trademark battle against Groupon with the latter having allegedly chosen to infringe upon GNOME's trademark by launching a product with the same name (a POS "operating system for merchants to run their entire operation").
 

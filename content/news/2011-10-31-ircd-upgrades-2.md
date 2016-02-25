@@ -2,11 +2,10 @@ author: Martinp23
 date: 2011-10-31 23:04:34+00:00
 slug: ircd-upgrades-2
 title: ircd upgrades
-categories:
-- freenode
-- infrastructure
-- open source
-- technical
+category: freenode
+category: infrastructure
+category: open source
+category: technical
 ---
 We've got some ircd upgrades in the works!
 

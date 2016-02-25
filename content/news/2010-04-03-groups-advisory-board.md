@@ -2,12 +2,11 @@ author: Martinp23
 date: 2010-04-03 18:54:26+00:00
 slug: groups-advisory-board
 title: Groups Advisory Board
-categories:
-- community
-- freenode
-- groups
-- pdpc
-- projects
+category: community
+category: freenode
+category: groups
+category: pdpc
+category: projects
 ---
 For many years now, freenode has offered projects and userbases on the network the option of registering themselves as "Groups".  Each of these groups has one or more designated people as their "Group Contacts", who are the point of contact for freenode-staff<=>group liasion, and are thus able to contact staff to request that cloaks be set, or to request assistance in administering channels.
 

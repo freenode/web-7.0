@@ -2,10 +2,9 @@ author: Xyrael
 date: 2007-02-16 20:25:46+00:00
 slug: group-registration-with-freenode
 title: Group registration with freenode
-categories:
-- freenode
-- infrastructure
-- projects
+category: freenode
+category: infrastructure
+category: projects
 ---
 Hi all. I'd like to talk about a unique feature that freenode has that many are not aware of for my first post to this blog. Sitting quietly in a small corner of our website, the concept of group registration is one of the things that makes freenode unique amongst IRC networks and it is something that I think highlights our commitment to open projects. The process is simple: after submitting a group contact form, a representative of freenode will contact you, usually by telephone, to verify your identity and to help get things set up.
 

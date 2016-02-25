@@ -2,10 +2,9 @@ author: christel
 date: 2010-12-24 05:00:47+00:00
 slug: happy-holidays-2
 title: Happy Holidays!
-categories:
-- community
-- freenode
-- social
+category: community
+category: freenode
+category: social
 ---
 Just a quick note to wish each and every one of our users, sponsors, donors, volunteers and projects for making freenode great.
 

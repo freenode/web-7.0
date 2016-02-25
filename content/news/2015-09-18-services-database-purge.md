@@ -2,12 +2,10 @@ author: mrmist
 date: 2015-09-18 08:58:13+00:00
 slug: services-database-purge
 title: Services database purge
-categories:
-- freenode
-- infrastructure
-tags:
-- expiry
-- nicks
+category: freenode
+category: infrastructure
+tag: expiry
+tag: nicks
 ---
 On or around Friday, October 2nd, we shall be cleaning up the services database.  This involves the bulk removal of expired nicks, channels and accounts.
 

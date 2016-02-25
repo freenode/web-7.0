@@ -2,10 +2,9 @@ author: JonathanD
 date: 2009-03-09 15:32:07+00:00
 slug: 20082009-fundraiser-campaign-update
 title: 2008/2009 fundraiser campaign update
-categories:
-- freenode
-- infrastructure
-- pdpc
+category: freenode
+category: infrastructure
+category: pdpc
 ---
 **[UPDATE]**
 

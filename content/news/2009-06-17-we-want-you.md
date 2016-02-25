@@ -2,10 +2,9 @@ author: christel
 date: 2009-06-17 09:39:25+00:00
 slug: we-want-you
 title: 'We want YOU! '
-categories:
-- community
-- different
-- freenode
+category: community
+category: different
+category: freenode
 ---
 We are currently looking to expand the freenode volunteer staff team, seeking people involved with the target communities we currently serve.
 

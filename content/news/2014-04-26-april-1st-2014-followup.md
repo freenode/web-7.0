@@ -2,9 +2,8 @@ author: yano
 date: 2014-04-26 18:05:01+00:00
 slug: april-1st-2014-followup
 title: April 1st 2014, Followup
-categories:
-- April 1st
-- freenode
+category: April 1st
+category: freenode
 ---
 It's been almost too long for this blog post to arrive here after the April Fools quiz this year. Thanks to everyone who participated!
   

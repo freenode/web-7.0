@@ -2,8 +2,7 @@ author: christel
 date: 2009-04-14 09:52:06+00:00
 slug: php-testfest
 title: PHP TestFest
-categories:
-- community
+category: community
 ---
 Jonathan mentioned in his [blog post](http://blog.freenode.net/2009/04/free-as-in-node-episode-3-released/) about the free-as-in-node podcast yesterday that this weeks guest on "Pimp My Project" was there to talk about **PHP TestFest**.
 

@@ -2,11 +2,10 @@ author: tomaw
 date: 2009-06-22 22:07:52+00:00
 slug: possible-sorbs-closure
 title: Possible SORBS closure
-categories:
-- community
-- free software
-- open source
-- technical
+category: community
+category: free software
+category: open source
+category: technical
 ---
 Short blog post this evening but an important one!
 

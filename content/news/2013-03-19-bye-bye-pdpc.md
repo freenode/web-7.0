@@ -2,9 +2,8 @@ author: RichiH
 date: 2013-03-19 20:14:46+00:00
 slug: bye-bye-pdpc
 title: Bye bye PDPC
-categories:
-- infrastructure
-- pdpc
+category: infrastructure
+category: pdpc
 ---
 Sadly, we were forced to dissolve PDPC, freenode's parent organisation.
 

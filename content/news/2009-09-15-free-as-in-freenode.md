@@ -2,12 +2,11 @@ author: JonathanD
 date: 2009-09-15 18:31:25+00:00
 slug: free-as-in-freenode
 title: Free as in freenode
-categories:
-- community
-- free software
-- freenode
-- philosophy
-- social
+category: community
+category: free software
+category: freenode
+category: philosophy
+category: social
 ---
 Most of you are probably familiar with the various freedoms that are frequently stated, such as freedom of speech or expression.  While freenode does exist to promote communication amongst free and open source projects, it is not an open forum for all to use in any way.
 

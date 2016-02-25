@@ -2,11 +2,10 @@ author: christel
 date: 2008-09-02 11:51:24+00:00
 slug: happy-25th-birthday-gnu
 title: Happy 25th Birthday, GNU!
-categories:
-- community
-- different
-- free software
-- projects
+category: community
+category: different
+category: free software
+category: projects
 ---
 To mark the 25th "birthday" of the [GNU](http://gnu.org) project the [FSF](http://www.fsf.org) have teamed up with a very special man; [Stephen Fry](http://www.stephenfry.com).
 

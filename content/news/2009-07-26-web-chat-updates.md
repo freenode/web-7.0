@@ -2,12 +2,11 @@ author: tomaw
 date: 2009-07-26 19:32:00+00:00
 slug: web-chat-updates
 title: Web chat updates
-categories:
-- development
-- free software
-- freenode
-- open source
-- webchat
+category: development
+category: free software
+category: freenode
+category: open source
+category: webchat
 ---
 Over the last few  weeks we have had quite a bit of feedback from our new web chat client.  As a result of this we've been able to feed back requests to the qwebirc developers who have been able to add many requested features:
 

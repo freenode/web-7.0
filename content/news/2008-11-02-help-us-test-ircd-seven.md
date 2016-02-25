@@ -2,10 +2,9 @@ author: christel
 date: 2008-11-02 20:14:06+00:00
 slug: help-us-test-ircd-seven
 title: Help us test ircd-seven!
-categories:
-- development
-- freenode
-- technical
+category: development
+category: freenode
+category: technical
 ---
 As many of you will have noticed, our current IRC server software, [hyperion](http://freenode.net/hyperion.shtml), has been showing its age for some time now. Expectations for its eventual replacement are nothing if not high -- hyperion contains a great many features not found elsewhere, most of which are fairly unique to the way in which freenode operates, so anything that wants to take over from it must provide all of these, in a more robust, maintainable and future-proof package.
 

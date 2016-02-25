@@ -2,9 +2,8 @@ author: skenmy
 date: 2008-05-31 17:56:35+00:00
 slug: new-services-nicknames-and-accounts
 title: 'New Services: Nicknames and Accounts'
-categories:
-- freenode
-- technical
+category: freenode
+category: technical
 ---
 We've noticed a lot of people who are confused (and rightly so!) about the new nickname system - particularly the way that nickname grouping has changed. Hopefully this blog post will clear some of it up.
 

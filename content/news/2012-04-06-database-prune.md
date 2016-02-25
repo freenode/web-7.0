@@ -2,12 +2,11 @@ author: Martinp23
 date: 2012-04-06 20:33:38+00:00
 slug: database-prune
 title: Database prune
-categories:
-- community
-- development
-- freenode
-- infrastructure
-- technical
+category: community
+category: development
+category: freenode
+category: infrastructure
+category: technical
 ---
 Every couple of years, freenode likes to get out the shears and prune the services database. Recently we broke the 80,000 usercount barrier, but the services stats are way ahead:
 

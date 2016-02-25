@@ -2,9 +2,8 @@ author: christel
 date: 2009-06-09 09:43:51+00:00
 slug: scheduled-maintenance-services-database-clear-out-2
 title: '[Scheduled Maintenance] Services database clear-out.'
-categories:
-- infrastructure
-- technical
+category: infrastructure
+category: technical
 ---
 This is just to let you know that we will soon be performing a fairly substantial cleanup of the NickServ and ChanServ databases.
 

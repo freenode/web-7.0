@@ -2,12 +2,11 @@ author: christel
 date: 2006-02-20 05:38:01+00:00
 slug: good-morning-all
 title: '[Announcement] Group registration and fundraising.'
-categories:
-- community
-- development
-- freenode
-- pdpc
-- social
+category: community
+category: development
+category: freenode
+category: pdpc
+category: social
 ---
   A quick note on a few current topics. First, new manual group   registrations have been, if anything, slower than before. We apologize for   this; we're working on ramping up the freenode-registry project and concentrating on   coding for the moment. The code is in the early prototyping stage and is   going fairly slowly, though it's beginning to pick up speed.  However, the   current manual group registration process is suffering while we work on   the code which will eventually automate our processes. We'll try to pick   off some of the more active projects in the group registration queue and   get them moving again. Thanks in advance for your patience.
 

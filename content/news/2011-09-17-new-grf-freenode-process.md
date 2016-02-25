@@ -2,12 +2,11 @@ author: Martinp23
 date: 2011-09-17 23:19:47+00:00
 slug: new-grf-freenode-process
 title: New GRF-freenode process
-categories:
-- community
-- freenode
-- groups
-- pdpc
-- projects
+category: community
+category: freenode
+category: groups
+category: pdpc
+category: projects
 ---
 As you might know, GRFs ([Group Registration](http://freenode.net/group_registration.shtml) Forms) exist to form a relationship between a project and the [PDPC (Peer Directed Projects Center)](http://pdpc.org.uk). This relationship is relatively formal - personal details (address/tel no./etc) need to be shared by the project. For this reason, a severe backlog of GRFs has built up, since only a few staff have access to them (to protect this personal data). PDPC is the UK-based not-for-profit company which runs freenode. For most groups in our request backlog, their reason for registering is not to work with PDPC, but to gain a channel or cloak namespace on freenode. We've decided that running a separate, freenode-centric groups request system may help to move the system along. By requesting fewer details, we can open up this system to more staff, and hopefully keep on top of the queue of requests.
 
