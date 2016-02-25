@@ -23,14 +23,7 @@
 <div class="main">
     <p><b class="art">freenode webchat changes</b>&nbsp;
     <span class="art-date">2010-06-10 18:30:18+00:00 by JonathanD</span></p>
-    <p class="art-ingress"><ul>
-<li>freenode</li>
-<li>infrastructure</li>
-<li>technical</li>
-<li>webchat</li>
-</ul>
-<hr>
-<p>Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.</p>
+    <p class="art-ingress"><p>Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.</p>
 <p>To begin with, there needs to be a way for network or channel staff to identify individual connections, as well as where they originated from.  The way this has previously been handled is by encoding the IP of the source (the IP someone uses to connect to the webchat) in hexadecimal form in the ident field of the user.  The webchat users are "cloaked" (that is, their real hostname, which would be that of the webchat server, is replaced) with a unique string identifying the connection.  This method allows channel staff to ban or quiet a webchat user via the unique connection string, or via the ident information.</p>
 <p>While this works, it's confusing to many. The unique connection string changes every time a user makes a new connection through webchat. Therefore, we've changed how we do the cloaking so IPs are shown in cloaks. This makes it much simpler for channel staff to see what is going on, and who is who. For now, this change only applies to those using the freenode webchat at <a href="http://webchat.freenode.net">http://webchat.freenode.net</a>. The effect is to change a cloak of the form "<code>gateway/web/freenode/x-iiqzrxiqfnnglqji</code>" to the form "<code>gateway/web/freenode/ip.171.205.239.16</code>".</p>
 <p>We would like to point out that this does not in any way reduce the privacy of users of webchat: it has always been possible for anyone to directly convert the encoded ident string back to an IP address. In addition, the real hostnames of clients have always been visible unencoded in the "whois" output for the user.</p>
