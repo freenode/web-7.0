@@ -23,9 +23,7 @@ Documented in '/help extban' for some time, this has also been enabled and match
 
 
 WEBIRC has been enabled so that behind their hostmask, users can now be considered to be connecting from their real address. This means that a single ban format can apply to both direct connections and webchat connections.
-
 For example, a user connecting from 171.205.18.52 will still appear as 'nickname!abcd1234@gateway/web/freenode/ip.171.205.18.52' but ban masks of the form '*!*@171.205.18.52' will match! This is now the most effective method of matching users using webchat but the realname and hexip username are still available.
-
 Although freenode's webchat is available over SSL, the webchat's localhost connection to the ircd is not SSL, so webchat users do not get user mode +Z. Webchat users will not be able to join a +S channel and will not match the $z extban, even if they are using webchat over SSL.
 
 
@@ -33,7 +31,6 @@ Although freenode's webchat is available over SSL, the webchat's localhost conne
 
 
 These channel modes can not guarantee secure communication in all cases; if you choose to rely on them, please understand what they can and can't do, and what other security considerations there are.
-
 There are a variety of known security problems with SSL, and reasons why the +S mode may not guarantee transport security on freenode. Some of these are:
 
 
@@ -55,9 +52,7 @@ There are a variety of known security problems with SSL, and reasons why the +S 
 
 
 This is not an authoritative list, so before using +S as part of any channel which requires strong anonymity, please ensure you understand what it does and its drawbacks.
-
 There are other security tools you may want to look at - you may want to consider using client plugins that provide additional encryption or route your connection through Tor. Tor also allows you to create spurious traffic to hide real traffic patterns. freenode provides its own hidden Tor node which means you can trust this connection as much as you trust freenode. Your IRC traffic with freenode via Tor is end-to-end encrypted from your Tor client to our Tor node. It does not pass through any third party nodes in unencrypted form.
-
 Finally, unless you can trust everyone in a channel and are sure it is configured properly and you understand the other technical risks, do not rely on these channel modes exclusively. Security is generally layered; ensure you have good defense in depth and don't rely on individual controls which may be a single point of failure.
 
 

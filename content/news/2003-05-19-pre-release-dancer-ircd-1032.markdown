@@ -5,7 +5,6 @@ title: Pre-release -- dancer-ircd 1.0.32
 ---
 
 We're currently prereleases of dancer-ircd 1.0.32, the newest version of our production server code. Please come to the testnet on  [irc.freenode.net, port 9001](irc://irc.freenode.net:9001/)  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to **bugs at freenode dot net**!
-
 Numerous small bugs have been fixed, and the following lists some of the changes:
 
 
@@ -24,14 +23,10 @@ Numerous small bugs have been fixed, and the following lists some of the changes
 
 	
   * **Identified user highlighting.** The CAPAB command has been added to allow client software to register special capabilities.  The first such capability is IDENTIFY-MSG; with it turned on, the text of messages and notices is prefaced with '-' when they come from an unidentified user, and '+' when the user is identified to services.  The purpose of this feature is to make it difficult to spoof someone's identity.
-
 Note:  You can test the feature on most clients via **/quote capab identify-msg**.  Client software can use this information to highlight messages coming from non-identified users. This should normally be done by patching the client code or adding scripting or filtering, since the raw output of IDENTIFY-MSG is readable, but a bit messy.
-
 We recommend that you add an asterisk before the nick, and optionally either highlight or colourize the line in some appropriate fashion, if the user is not identified.  Examples follow:
-
 <fred> I'm an identified user
 <*fred> I'm not an identified user
-
 <fred> I'm an identified user
 **    <*fred> I'm not an identified user**
 

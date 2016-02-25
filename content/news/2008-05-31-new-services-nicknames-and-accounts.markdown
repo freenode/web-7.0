@@ -5,9 +5,7 @@ title: 'New Services: Nicknames and Accounts'
 ---
 
 We've noticed a lot of people who are confused (and rightly so!) about the new nickname system - particularly the way that nickname grouping has changed. Hopefully this blog post will clear some of it up.
-
 **Nicknames and Accounts**
-
 freenode now uses a system of ownership that is different to the old nicknames system. Now, when you register a _nickname_ for the first time, that _nickname_ becomes the primary _nickname_ on your _account_ (which has the same name). An example:
 
 
@@ -21,9 +19,7 @@ freenode now uses a system of ownership that is different to the old nicknames s
 
 
 So, _nicknames_ are now assigned to your _account_. But what does this actually mean, practically?
-
 **Identification**
-
 When you identify:
 
 
@@ -67,11 +63,8 @@ freenode services will now look for an _account_ named **User1**, and log her in
 
 
 However, this isn't ideal, as she is now logged in, but is using an unregistered _nickname_. She may want to consider GROUPing the _nickname_.
-
 **Grouping**
-
 With the new system, GROUP basically means to add another _nickname_ to your _account_. **User1** is fed up of being connected as **User12** and using an unregistered _nickname_, so she has decided to GROUP the _nickname_ to her existing _account_.
-
 There are two ways to go about this:
 
 
@@ -127,7 +120,6 @@ when connected as **User12**.</blockquote>
 
 
 **Conclusion**
-
 So, to wrap up, freenode now allows you to register an account, to which you add nicknames as explained above. That's not an easy concept to grasp if you are used to the old system, and if you have any questions, feel free to drop into #freenode and ask away!
 
 

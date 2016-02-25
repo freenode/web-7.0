@@ -17,7 +17,6 @@ The first ten people who completed the challenges are, in descending order of ap
 
 
 
-
     
   1. 2014-04-02T18:25:17 booto
 
@@ -76,13 +75,11 @@ Out of the 25 additional people that completed the challenge, the following 3 wo
   * jojoa1997
 
 
-
   
   
 
 Here are the riddles and their solutions, in the original order:
   
-
 
 
 
@@ -100,7 +97,6 @@ Here are the riddles and their solutions, in the original order:
 
         
     
-
 
     
   * Level 1
@@ -120,7 +116,6 @@ Here are the riddles and their solutions, in the original order:
         
     
 
-
     
   * Level 2
         
@@ -138,7 +133,6 @@ Here are the riddles and their solutions, in the original order:
 
         
     
-
 
     
   * Level 3
@@ -164,7 +158,6 @@ Here are the riddles and their solutions, in the original order:
         
     
 
-
     
   * Level 4
         
@@ -179,7 +172,6 @@ Here are the riddles and their solutions, in the original order:
 
         
     
-
 
     
   * Level 5
@@ -210,7 +202,6 @@ Here are the riddles and their solutions, in the original order:
 
         
     
-
 
     
   * Level 6
@@ -254,7 +245,6 @@ Here are the riddles and their solutions, in the original order:
         
     
 
-
     
   * Level 7
         
@@ -290,7 +280,6 @@ _
 
         
     
-
 
     
   * Level 8
@@ -328,7 +317,6 @@ _
         
     
 
-
     
   * Level 9
         
@@ -363,7 +351,6 @@ _
         
     
 
-
     
   * Level 10
         
@@ -390,7 +377,6 @@ _
 
         
     
-
 
 
   

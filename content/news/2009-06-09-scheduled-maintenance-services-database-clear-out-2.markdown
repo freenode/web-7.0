@@ -5,9 +5,7 @@ title: '[Scheduled Maintenance] Services database clear-out.'
 ---
 
 This is just to let you know that we will soon be performing a fairly substantial cleanup of the NickServ and ChanServ databases.
-
 We'll be dropping all expired nicknames. As [explained](http://freenode.net/faq.shtml#expirations) in the [FAQ](http://freenode.net/faq.shtml), nicknames on freenode expire after 60 days. Nicks that are at least two weeks old and that were last used less than two hours after their creation are also considered to be expired.
-
 There are a few things you should know about this cleanup process:
 
 

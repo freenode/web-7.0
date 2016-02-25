@@ -17,7 +17,6 @@ As an example...
 
 
 ...would ban users from #here that are banned (+b) in #timbuktu.
-
 Please note that there are a couple of gotchas:
 
 
@@ -42,5 +41,4 @@ Please note that there are a couple of gotchas:
 
 
 We imagine you'll have some more useful use cases than the above.
-
 Thanks for flying freenode!

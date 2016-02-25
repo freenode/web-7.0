@@ -106,7 +106,7 @@ a {
     margin-top: .75em;
     padding: 0 .75em;
     max-width: var(--max-width);
-    line-height: 140%;
+    line-height: 1.3;
 }
 
 .main h1,
@@ -195,7 +195,6 @@ h1 {
 
 div.art {
     clear: right;
-    min-height: 3em;
     flex-grow: 1;
 }
 
@@ -231,6 +230,7 @@ p.art-ingress {
     float: right;
     color: #ccc;
     margin: 0 .5em;
+    line-height: 24px;
 }
 
 p.heading {
@@ -402,10 +402,6 @@ a.hchild:hover,a.hchild:active {
         text-align: left;
         border-radius: calc(var(--box-round) / 2);
         margin: 5px 0;
-    }
-
-    div.artlist {
-        padding: 0 .3em;
     }
 }
 

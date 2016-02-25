@@ -5,7 +5,6 @@ title: The Cat Enigma!
 ---
 
 Hello! Many of you have joined in with our April Fools' activities, including the two challenges injected into the April 1st blogpost. We had several successful winners of the first competition, and a smaller number of the second, but many determined competitors - thanks to everyone who invested so much time and energy into the challenges!
-
 We'd now like to give you the answers! Hopefully you won't kick yourself too much if you competed but didn't get all the way to the end. :)
 
 
@@ -53,12 +52,9 @@ If you want to try this for yourself, there's an online tool for this [here](htt
 
 
 As this challenge had a larger ciphertext and was only lowercase, working out the translation table was relatively easy, and many of you seemed to manage to get it!
-
 The first user to figure this out was **elly **- well done, you! The remaining users in the first ten to complete this challenge also won april-fools/ cloaks, and were the following:
-
 **Jessicah, Snova, hjf2010, Treeki, ttuttle, tonsofpcs, mth, awilcox, gnarf
 **
-
 Well done too to everyone who e-mailed in but came after these guys!**
 **
 
@@ -91,22 +87,16 @@ This seemed to be the step many of you got stuck on - as the final string beginn
     
     <span style="color: #3366ff">My lovely horse, running through the field
     Where are you going, with your fetlocks blowing in the wind?
-    
     I want to shower you with sugar lumps, and ride you over fences
     Polish your hooves every single day, and bring you to the horse dentist
-    
     My lovely horse, you're a pony no more
     Running around with a man on your back, like a train in the night...
-    
     Can you solve the Cat Enigma?</span>
 
 
 But you left the sequence of capital letters at the end unaltered! Whilst many of you guessed that 'Enigma' referred to the infamous German [electromechanical enciphering machine](http://en.wikipedia.org/wiki/Enigma_machine), without the '_WUWKM...'_ ciphertext translated, you had difficulty progressing further!
-
 As this seemed to be where efforts paused, we gave you a little clue, courtesy of njan's enigmacat (whose name is actually _[cinak](http://jeremiad.org/cats.shtml), _but who is generally called Mittens), consisting of the first eight letters of the translation table - _'PQOWIELA_' - filling some of the blanks.
-
 From there, some of you managed to take the next step - working out that the capital letters were entered according to a predictable pattern on a qwerty keyboard. Based on the 'O_I' sequence in the partially complete translation table above, we'd hoped that might not be such a big step, but perhaps it was! Tap the translation table out on a qwerty keyboard and see what we mean.
-
 Still - with a little nudging, this was a step that some of you managed to take together (and many others guessed at or were very close to), and with the complete translation table:
 
     
@@ -133,5 +123,4 @@ As many of you guessed, 'Cat' referred to the enigma rotor settings, which when 
 
 
 Phew! All done! :) The first to complete the second part of the competition were **sbp **and **[bjoern]**. Other successful entrants were **kmdm**, **x0F, ****Tordek**, **Lopmon**, **Gryllida**, ****and **yano**.
-
 Thanks to those of you who participated and we had fun talking to and interacting with - and we'll probably be doing something similar next year! :)

@@ -5,11 +5,8 @@ title: 'We want YOU! '
 ---
 
 We are currently looking to expand the freenode volunteer staff team, seeking people involved with the target communities we currently serve.
-
 The freenode network has seen substantial growth in recent times and as such we are looking to add to our existing team of volunteers. freenode volunteers hail from a variety of backgrounds and come in all ages, it's a diverse group of people and we all share a passion for Free and Open Source Software, Free Culture and Peer-Directed Project Communities. We are looking for peoplewho would complement the current set-up and make a refreshing addition to the team.
-
 Each freenode volunteer has a individual role within the project; utilizing their strengths, experience and interests. No minimum level of privileges are guaranteed. The corner-stones of network operation is that of the role of 'levelone support volunteers,' who build the foundation upon which the rest of the network is based. All volunteers, regardless of seniority are encouraged to spend as much time as possible on levelone duties.
-
 We are currently looking for:
 
 
@@ -25,9 +22,7 @@ We are currently looking for:
 
 
 **Perl Developers** -- are wanted for work on freenodes' Group Management System (GMS), if you want further information or would like to see how you can help, please join us in [#freenode-gms](irc://irc.freenode.net/freenode-gms) or drop a line to **code AT freenode DOT net**.
-
 **Support Volunteers** -- if you want further information prior to applying, please come speak with us in [#freenode](irc://irc.freenode.net/freenode), all current staff are voiced and we would all be happy to answer any questions you may have. Prior experience is not necessary, but familiarity could be a bonus. In particular we would love to hear from you if you are in a time-zone where we are currently short. This [link](http://www.timeanddate.com/worldclock/fixedtime.html?month=6&day=17&year=2009&hour=2&min=0&sec=0&p1=0) gives an indication of grey areas which need covering, 2AM UTC to 6/7AM UTC in particular.
-
 **Community co-ordinators** -- if you want further information about this role, please get in touch with christel, JonathanD or Martinp23 in [#freenode](irc://irc.freenode.net/freenode) or private message.
 
 
