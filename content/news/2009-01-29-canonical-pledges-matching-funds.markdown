@@ -9,9 +9,7 @@ Thanks to all of you for the donations you have contributed so far towards our f
 
 
 
-
 Mark Shuttleworth and the Canonical team have kindly agreed to provide matching funding for up to £1700, which is enough to meet our £5000 goal). Effective immediately, every donation you make will have a matching contribution, thereby doubling in value! This is an extraordinarily kind gesture and we at freenode would like to thank Mark and Canonical, and the Ubuntu community, for directly and indirectly making it happen!
-
 
 
 
