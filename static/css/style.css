@@ -56,6 +56,16 @@ a {
     z-index: 100;
     padding-right: 5px;
 }
+[class*='fn-'] {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    color: #E6E6E6;
+    text-shadow: .5px .5px #000;
+}
+.green {
+    color: #4BEB4A;
+}
 
 @media all and (max-width: 600px) {
     .navbar {
