@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>Heartbleed</title>
+    <title>Heartbleed - freenode</title>
     <link href="../static/css/open-sans.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
     <link href="../static/css/freenode.css" rel="stylesheet">
@@ -20,11 +20,16 @@
         <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
     </nav>
     <div class="container">
-            
+        
 <div class="main">
-    <p><b class="art">Heartbleed</b>&nbsp;
-    <span class="art-date">Pricey on 2014-04-15 18:52:05+00:00</span></p>
-    <p class="art-ingress"><p>The recently exposed <a href="http://heartbleed.com/">heartbleed bug</a> in the OpenSSL library has surprised everyone with a <a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">catastrophic</a> vulnerability in many of the world's secure systems.</p>
+    
+<div class="art-info">
+    <a href="heartbleed.html"><b class="art">Heartbleed</b></a>&nbsp;
+    <span class="art-date">Pricey on 2014-04-15</span>
+</div>
+
+    <div class="art-body">
+    <p>The recently exposed <a href="http://heartbleed.com/">heartbleed bug</a> in the OpenSSL library has surprised everyone with a <a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">catastrophic</a> vulnerability in many of the world's secure systems.</p>
 <p>In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.</p>
 <p>In an unrelated event, due to service disruption &amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.</p>
 <p>Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.</p>
@@ -61,17 +66,19 @@
 <p>Finally, it is worth noting that although probably the least likely attack vector, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">Heartbleed can also be used as client-side attack</a>, i.e. if you are still running a vulnerable client a server could attack you. This could be a viable attack if, for instance, you connect to a malicious IRC server and freenode at the same time; hypothetically the malicious IRC server could then attack your client and steal your IRC password or other data. If affected, you should<strong> ensure your OpenSSL install is updated and not vulnerable then restart your client</strong>.</p>
 </li>
 </ul>
-<p>As ever, staff are available in #freenode to respond to any questions or concerns.</p></p>
-    <p class="art-links">
+<p>As ever, staff are available in #freenode to respond to any questions or concerns.</p>
+    </div>
     
-        <a href="../archive.html">Archive</a>&nbsp;
-        </p>
+<div class="art-nav">
+    <a href="googleplusfreenode.html">older</a><a href="../archive.html">all</a>
+    <a href="april-1st-2014-followup.html">newer</a>
 </div>
 
-        </div>
+</div>
+
     </div>
     <div class="footers">
-            <footer class="footer">
+        <footer class="footer">
     <div class="footerchild">
         <h2>About freenode</h2>
         <ul>

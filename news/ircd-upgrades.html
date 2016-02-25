@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>IRCD Upgrades</title>
+    <title>IRCD Upgrades - freenode</title>
     <link href="../static/css/open-sans.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
     <link href="../static/css/freenode.css" rel="stylesheet">
@@ -20,11 +20,16 @@
         <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
     </nav>
     <div class="container">
-            
+        
 <div class="main">
-    <p><b class="art">IRCD Upgrades</b>&nbsp;
-    <span class="art-date">christel on 2011-09-07 20:48:37+00:00</span></p>
-    <p class="art-ingress"><p>Over the next weeks we will be upgrading our servers to the next version of ircd-seven. This means restarting all our servers. Downtime should be minimal, and as we will not upgrade all servers at the same time this should not be as noisy as the upgrade from hyperion to ircd-seven was. When the server you are on is upgraded you will be disconnected, but should be able to reconnect immediately (most clients will do this automatically).</p>
+    
+<div class="art-info">
+    <a href="ircd-upgrades.html"><b class="art">IRCD Upgrades</b></a>&nbsp;
+    <span class="art-date">christel on 2011-09-07</span>
+</div>
+
+    <div class="art-body">
+    <p>Over the next weeks we will be upgrading our servers to the next version of ircd-seven. This means restarting all our servers. Downtime should be minimal, and as we will not upgrade all servers at the same time this should not be as noisy as the upgrade from hyperion to ircd-seven was. When the server you are on is upgraded you will be disconnected, but should be able to reconnect immediately (most clients will do this automatically).</p>
 <p>The following user-visible changes have been made since the versions in production:</p>
 <ul>
 <li>The channel quiet list is now sent using the new numerics RPL_QUIETLIST(728) and RPL_QUIETLISTEND(729) instead of overloading the same numerics as for ban lists. You may find that clients have to be updated before they will display this in a user-friendly format.</li>
@@ -39,17 +44,19 @@
 <ul>
 <li>It will be possible to identify to services using SSL client certificates.</li>
 <li>ChanServ mode locks will be (mostly) enforced by the server. Instead of setting a mode and having ChanServ revert it immediately, you will not be able to change a locked mode.</li>
-</ul></p>
-    <p class="art-links">
+</ul>
+    </div>
     
-        <a href="../archive.html">Archive</a>&nbsp;
-        </p>
+<div class="art-nav">
+    <a href="fixing-defocus.html">older</a><a href="../archive.html">all</a>
+    <a href="wednesday-server-updates.html">newer</a>
 </div>
 
-        </div>
+</div>
+
     </div>
     <div class="footers">
-            <footer class="footer">
+        <footer class="footer">
     <div class="footerchild">
         <h2>About freenode</h2>
         <ul>

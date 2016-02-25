@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>New TLS/SSL Channel Modes & Webchat Features</title>
+    <title>New TLS/SSL Channel Modes & Webchat Features - freenode</title>
     <link href="../static/css/open-sans.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
     <link href="../static/css/freenode.css" rel="stylesheet">
@@ -20,11 +20,16 @@
         <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
     </nav>
     <div class="container">
-            
+        
 <div class="main">
-    <p><b class="art">New TLS/SSL Channel Modes & Webchat Features</b>&nbsp;
-    <span class="art-date">Pricey on 2013-06-27 09:10:13+00:00</span></p>
-    <p class="art-ingress"><p>We've recently enabled some new functionality in our ircd to further help you manage your channels:</p>
+    
+<div class="art-info">
+    <a href="new-tlsssl-channel-modes-and-webirc.html"><b class="art">New TLS/SSL Channel Modes & Webchat Features</b></a>&nbsp;
+    <span class="art-date">Pricey on 2013-06-27</span>
+</div>
+
+    <div class="art-body">
+    <p>We've recently enabled some new functionality in our ircd to further help you manage your channels:</p>
 <h1>Channel mode +S</h1>
 <p>This ensures only users that have connected via TLS/SSL (and so have user mode +Z) are able to join; you can not /invite them through it. It will not prevent the use of the channel by any non-TLS/SSL users already present.</p>
 <h1>Extended ban $z</h1>
@@ -57,17 +62,19 @@
 <p>There are other security tools you may want to look at - you may want to consider using client plugins that provide additional encryption or route your connection through Tor. Tor also allows you to create spurious traffic to hide real traffic patterns. freenode provides its own hidden Tor node which means you can trust this connection as much as you trust freenode. Your IRC traffic with freenode via Tor is end-to-end encrypted from your Tor client to our Tor node. It does not pass through any third party nodes in unencrypted form.</p>
 <p>Finally, unless you can trust everyone in a channel and are sure it is configured properly and you understand the other technical risks, do not rely on these channel modes exclusively. Security is generally layered; ensure you have good defense in depth and don't rely on individual controls which may be a single point of failure.</p>
 <h2>Using other websites or services via Tor</h2>
-<p>Remember to <strong>always</strong> encrypt your traffic when using Tor as you have no control over who is running exit nodes and if they are doing traffic analysis on them. While your traffic to the exit node is encrypted and the ingress node can not read it, the exit node will always need to be able to remove Tor encryption. If your traffic is clear-text said exit node will be able to read it.</p></p>
-    <p class="art-links">
+<p>Remember to <strong>always</strong> encrypt your traffic when using Tor as you have no control over who is running exit nodes and if they are doing traffic analysis on them. While your traffic to the exit node is encrypted and the ingress node can not read it, the exit node will always need to be able to remove Tor encryption. If your traffic is clear-text said exit node will be able to read it.</p>
+    </div>
     
-        <a href="../archive.html">Archive</a>&nbsp;
-        </p>
+<div class="art-nav">
+    <a href="over-9000-10.html">older</a><a href="../archive.html">all</a>
+    <a href="fosscon-an-open-source-conference-in-philadelphia-pa-saturday-august-10th.html">newer</a>
 </div>
 
-        </div>
+</div>
+
     </div>
     <div class="footers">
-            <footer class="footer">
+        <footer class="footer">
     <div class="footerchild">
         <h2>About freenode</h2>
         <ul>

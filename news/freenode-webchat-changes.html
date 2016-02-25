@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>freenode webchat changes</title>
+    <title>freenode webchat changes - freenode</title>
     <link href="../static/css/open-sans.css" rel="stylesheet">
     <link href="../static/css/font-awesome.min.css" rel="stylesheet">
     <link href="../static/css/freenode.css" rel="stylesheet">
@@ -20,28 +20,35 @@
         <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
     </nav>
     <div class="container">
-            
+        
 <div class="main">
-    <p><b class="art">freenode webchat changes</b>&nbsp;
-    <span class="art-date">JonathanD on 2010-06-10 18:30:18+00:00</span></p>
-    <p class="art-ingress"><p>Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.</p>
+    
+<div class="art-info">
+    <a href="freenode-webchat-changes.html"><b class="art">freenode webchat changes</b></a>&nbsp;
+    <span class="art-date">JonathanD on 2010-06-10</span>
+</div>
+
+    <div class="art-body">
+    <p>Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.</p>
 <p>To begin with, there needs to be a way for network or channel staff to identify individual connections, as well as where they originated from.  The way this has previously been handled is by encoding the IP of the source (the IP someone uses to connect to the webchat) in hexadecimal form in the ident field of the user.  The webchat users are "cloaked" (that is, their real hostname, which would be that of the webchat server, is replaced) with a unique string identifying the connection.  This method allows channel staff to ban or quiet a webchat user via the unique connection string, or via the ident information.</p>
 <p>While this works, it's confusing to many. The unique connection string changes every time a user makes a new connection through webchat. Therefore, we've changed how we do the cloaking so IPs are shown in cloaks. This makes it much simpler for channel staff to see what is going on, and who is who. For now, this change only applies to those using the freenode webchat at <a href="http://webchat.freenode.net">http://webchat.freenode.net</a>. The effect is to change a cloak of the form "<code>gateway/web/freenode/x-iiqzrxiqfnnglqji</code>" to the form "<code>gateway/web/freenode/ip.171.205.239.16</code>".</p>
 <p>We would like to point out that this does not in any way reduce the privacy of users of webchat: it has always been possible for anyone to directly convert the encoded ident string back to an IP address. In addition, the real hostnames of clients have always been visible unencoded in the "whois" output for the user.</p>
 <p>In addition, we have made a small but potentially significant change to how the "ident" is shown. This has become necessary so that, with future versions of our ircd, we can properly limit connections per IP address via webchat. For a typical freenode webchat user, the full hostmask previously had the form "<code>~abcdef1@gateway/web/freenode/...</code>". Many historical webchat bans and quiets are set as "<code>*!~abcdef1@gateway/web/freenode/*</code>". The change that we are making will break these bans. We have removed the <code>~</code> from the ident for <strong>all</strong> webchat connections (not just freenode's webchat), giving a full mask of the form "<code>abcdef1@gateway/web/freenode/ip.171.205.239.16</code>".</p>
 <p>As such, channel ops are advised to adjust their bans into the form of either "<code>*!abcdef1@gateway/web/freenode/*</code>" or "<code>*!*@gateway/web/freenode/ip.171.205.239.16</code>" as soon as possible.</p>
 <p>A further result of this change is that those hosts from which a large number of legitimate users connect to freenode through the webchat service may suffer refused connections due to breaching the limits. If you find youself faced by an error of the form "Too many connections", please email <em>iline at freenode dot net</em> with details of the IP address affected (which can be obtained from <a href="http://www.whatismyip.org">www.whatismyip.org</a>), the name of the organisation, and the number of connections expected, so that we can place a limit exemption. Please note that if you have a message of the form "Gateway connections are currently blocked" or "Gateway connections are currently being throttled", this is a different matter for which an I:line cannot help.</p>
-<p>We hope that these changes make connections through the freenode webchat easier to manage for channel ops and more transparent for all users.</p></p>
-    <p class="art-links">
+<p>We hope that these changes make connections through the freenode webchat easier to manage for channel ops and more transparent for all users.</p>
+    </div>
     
-        <a href="../archive.html">Archive</a>&nbsp;
-        </p>
+<div class="art-nav">
+    <a href="groups-advisory-board.html">older</a><a href="../archive.html">all</a>
+    <a href="group-registration-form-verifications.html">newer</a>
 </div>
 
-        </div>
+</div>
+
     </div>
     <div class="footers">
-            <footer class="footer">
+        <footer class="footer">
     <div class="footerchild">
         <h2>About freenode</h2>
         <ul>
