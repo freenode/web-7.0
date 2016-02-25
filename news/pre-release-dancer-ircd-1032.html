@@ -33,8 +33,8 @@
 <div class="main">
     <p><b class="art">Pre-release -- dancer-ircd 1.0.32</b>&nbsp;
     <span class="art-date">2003-05-19 22:43:34+00:00 by christel</span></p>
-    <p class="art-ingress"><p>We're currently prereleases of dancer-ircd 1.0.32, the newest version of our production server code. Please come to the testnet on  <a href="irc://irc.freenode.net:9001/">irc.freenode.net, port 9001</a>  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to <strong>bugs at freenode dot net</strong>!
-Numerous small bugs have been fixed, and the following lists some of the changes:</p>
+    <p class="art-ingress"><p>We're currently prereleases of dancer-ircd 1.0.32, the newest version of our production server code. Please come to the testnet on  <a href="irc://irc.freenode.net:9001/">irc.freenode.net, port 9001</a>  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to <strong>bugs at freenode dot net</strong>!</p>
+<p>Numerous small bugs have been fixed, and the following lists some of the changes:</p>
 <ul>
 <li>
 <p><strong>Auspex mode separation.</strong> Added a new O: line umode, +A, to separate server-related information from user- and channel-related information in auspex mode.</p>
@@ -49,14 +49,16 @@ Numerous small bugs have been fixed, and the following lists some of the changes
 <p><strong>Dump command.</strong> Added for debugging purposes.</p>
 </li>
 <li>
-<p><strong>Identified user highlighting.</strong> The CAPAB command has been added to allow client software to register special capabilities.  The first such capability is IDENTIFY-MSG; with it turned on, the text of messages and notices is prefaced with '-' when they come from an unidentified user, and '+' when the user is identified to services.  The purpose of this feature is to make it difficult to spoof someone's identity.
-Note:  You can test the feature on most clients via <strong>/quote capab identify-msg</strong>.  Client software can use this information to highlight messages coming from non-identified users. This should normally be done by patching the client code or adding scripting or filtering, since the raw output of IDENTIFY-MSG is readable, but a bit messy.
-We recommend that you add an asterisk before the nick, and optionally either highlight or colourize the line in some appropriate fashion, if the user is not identified.  Examples follow:
-<fred> I'm an identified user
-&lt;*fred&gt; I'm not an identified user
-<fred> I'm an identified user
-<strong>    &lt;*fred&gt; I'm not an identified user</strong></p>
+<p><strong>Identified user highlighting.</strong> The CAPAB command has been added to allow client software to register special capabilities.  The first such capability is IDENTIFY-MSG; with it turned on, the text of messages and notices is prefaced with '-' when they come from an unidentified user, and '+' when the user is identified to services.  The purpose of this feature is to make it difficult to spoof someone's identity.</p>
 </li>
+</ul>
+<p>Note:  You can test the feature on most clients via <strong>/quote capab identify-msg</strong>.  Client software can use this information to highlight messages coming from non-identified users. This should normally be done by patching the client code or adding scripting or filtering, since the raw output of IDENTIFY-MSG is readable, but a bit messy.</p>
+<p>We recommend that you add an asterisk before the nick, and optionally either highlight or colourize the line in some appropriate fashion, if the user is not identified.  Examples follow:</p>
+<p><fred> I'm an identified user
+&lt;*fred&gt; I'm not an identified user</p>
+<p><fred> I'm an identified user
+<strong>    &lt;*fred&gt; I'm not an identified user</strong></p>
+<ul>
 <li>
 <p><strong>Join throttling (channel mode J).</strong> Format:  <strong>+J <frequency>,<limit></strong>.  Users may join this channel once every <frequency> seconds, with an initial burst and limit value of <limit> users.</p>
 </li>
