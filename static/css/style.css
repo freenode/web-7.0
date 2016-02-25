@@ -236,6 +236,25 @@ h1 {
     border-top: 1px solid var(--border-color);
 }
 
+b.art {
+    margin-bottom: 0;
+    font-size: 18px;
+}
+p.art-header {
+    border-bottom: 1px solid rgba(0,0,0, 0.09);
+    padding-bottom: 5px;
+}
+
+p.art-header b.art {
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+p.art-ingress {
+    font-style: italic;
+    margin: 0;
+}
+
 .art-date {
     display: block;
     color: #ccc;
