@@ -212,10 +212,6 @@ div.art {
 }
 
 div.artlist {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
     max-width: var(--max-width);
     margin: 0 auto;
     margin-top: .5em;
@@ -230,10 +226,6 @@ b.art {
     font-size: 18px;
 }
 
-p.art {
-    margin: 0;
-}
-
 p.art-ingress {
     font-style: italic;
     margin: 0;
@@ -242,8 +234,8 @@ p.art-ingress {
 .art-date {
     float: right;
     color: #ccc;
-    margin: 0 .5em;
     line-height: 24px;
+    font-feature-settings: tnum;
 }
 
 p.heading {
@@ -252,6 +244,17 @@ p.heading {
 
 p.art-link {
     margin-top: 0;
+}
+
+@media all and (max-width: 600px) {
+    .main.artlist {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.art {
+        padding: 0 .75em;
+    }
 }
 
 /* help */
