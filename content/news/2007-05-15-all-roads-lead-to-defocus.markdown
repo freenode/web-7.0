@@ -5,20 +5,14 @@ title: 'All roads lead to #defocus'
 ---
 
 Some time ago I used to work as a special projects mentor for a large international company, one of the things I were to try purvey to the people I trained was 'Change is good, change is great'. It took a long time for me to change my internal thought process and face my own fears of giving up security of what's familiar, and as such it took a long time for me to be able to stand there in a room full of people and utter those words while actually believing in and meaning what I said.
-
 This past week the phrase has played on my mind a lot, in regards to our changes to the official freenode help and social channels.
-
 We are certainly hoping that this change will turn out to be good -- and feedback so far has been primarily positive, though, that is not to say there hasn't been those unhappy with the change.
-
 I will try and speak of some of the reasoning behind closing down #freenode-social, and replacing it with respectively #freenode for help and #defocus for social chatter.  The below quotations may help you understand some of the reasoning behind changing the way we operate our social channel, these are just some and not all of the observations made.
 
 
 <blockquote>Over the last little while it has become apparent that running #freenode-social the way we currently do is not working for staff or users, and as such is not working for the network, the community or the visions and goals we possess.
-
 We (freenode staff) propose to close down #freenode-social and replace it with #freenode (focused on user/network support ala #tapthru) and #freenode-offtopic (for general natter), in this regard we would like to extend an invitation to the tapthru staff to come on board and co-manage #freenode with us.
-
 The list of items below should be considered a starting point for conversation rather than any definitive pronouncement of how the world should wag. It's not complete (no such list can ever be) but tries to hit most of the major issues we'll face as we embark on this project. Be blunt about your likes/dislikes of the various suggestions and about suggesting changes/additions/removals! Please note that there is no significance to the ordering of the items in the list below; that's just how they came out. They have numbers only to speed the referencing of them during discussion.
-
 1. What is wrong with #freenode-social? (This isn't the finger of blame! Just a way to get a handle on what we are trying to fix.)
 1. No defined topic (so no way to say: "that's offtopic")
 2. No defined rules
@@ -119,9 +113,6 @@ The list of items below should be considered a starting point for conversation r
 
 
 Having spent some time discussing the situation and mulled over the above channel thoughts it was decided to move forward and start working out some clearer guidelines for the new channels. The name #freenode-offtopic was also replaced by #defocus, we considered keeping the #freenode-social name but decided that it was better to start afresh and sculpt something from the ground up and so we decided to re-name.
-
 The guidelines for the two new channels are far from set in stone, and we will continuously evaluate them and we ask for your help in ensuring that we choose a set of rules which are of the most benefit to the community at large. In this regard I highly encourage you to e-mail staff at freenode dot net with any concerns, comments, questions or ideas you have. We love hearing from you and your feedback is crucial to making freenode what it is.
-
 Like Rome, #defocus won't be built in a day and we expect some fumbling while we try work out which way suits our community best. We're trying something new and we are all learning on our feet.
-
 I hope the above helped clarify some of the motivation behind #defocus and I hope that you will come join us in the channel.

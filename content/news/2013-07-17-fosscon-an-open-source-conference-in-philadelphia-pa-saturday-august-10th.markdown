@@ -25,7 +25,6 @@ Listed below is a just a quick peek at some of our confirmed speakers and their 
 
 
 
-
 	
   * Bhavani Shankar will be speaking on how to bring in new developers to open source projects.
 

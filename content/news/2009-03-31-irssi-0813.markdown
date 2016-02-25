@@ -5,5 +5,4 @@ title: Irssi 0.8.13
 ---
 
 Piping hot and straight from the oven! The Irssi core development team has been hard at work, hunched over their computers for many moons, tapping away till their hearts content! Bruised and blistered, they've just set off to put their sore fingers around a few bottles of cold beer and have a well deserved rest! Thank you all and keep up the good work!
-
 All this, to make _our_ IRC experience better! Everyone's favourite IRC client, Irssi, v 0.8.13 has just been released! Head over to [http://www.irssi.org](http://www.irssi.org) to get your copy now!

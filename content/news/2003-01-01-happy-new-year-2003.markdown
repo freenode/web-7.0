@@ -5,9 +5,6 @@ title: Happy New Year 2003!
 ---
 
 Happy New Year to everyone.  We appreciate your being with us for another year, and hope that 2003 will be a very productive year for all of the projects which live on  freenode.  If you'd like to kick off the New Year on a helpful note, please consider  [hosting a server](http://freenode.net/hosting_ircd.shtml)  or  [making a donation](http://freenode.net/contributions.shtml)  to our parent organization.
-
 It's been about four and a half months since our name change, so we're doing some cleanup for the new year. The **openprojects.net** hostnames have been obsolete for several months and we have removed most of them today. If you're using one, please change it from **"openprojects"** to **"freenode"**.
-
 Have an excellent year!
-
 If your client points to **"irc.openprojects.net"**, you'll be getting notices on an ongoing basis.  Be sure to reconfigure your client to point to **"irc.freenode.net"** and then reconnect to get back to the main rotation; then you'll no longer get notices on the subject. If you were pointed to irc.openprojects.net by a project web page, irc hostname or irc client default, please let the project owners know to change that pointer. Thanks!

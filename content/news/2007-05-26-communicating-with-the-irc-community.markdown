@@ -5,9 +5,7 @@ title: Communicating with the irc Community
 ---
 
 For most of my professional career, I worked in the international arena.  I'm not sure why I have always enjoyed that so much - perhaps as a result of having lived overseas for a portion of my life.  There are, as a result, a lot of things that I take for granted in dealing with others, and I've recently become more aware that others often don't think or don't realize there is a bit of an art to dealing with folks from other cultures, countries, backgrounds and who speak other languages.  On irc, there are **so** many different people, languages, cultures, it's important to realize the need to do things a bit differently than we normally would, even though many of the traditional issues that arise when you're face-to-face don't exist.
-
 The most obvious example is, even though the vast majority of us communicate on irc in English, a good number speak a different native language. This can cause all sorts of interesting (and sometimes humorous) miscommunications.  Regardless of your native language, below is listed a few things that might help you to communicate more clearly with others.
-
 To avoid **causing** miscommunication:
 
 
@@ -35,5 +33,4 @@ To avoid misunderstanding others:
 
 
 Finally, there are a lot of resources on freenode - many people are more than willing to translate when necessary.  Ask what language the person speaks, and then try to find another who speaks the language.  If all else fails, come to #freenode and ask for help or message a staffer ("/stats p" lists all staffers on duty).
-
 The fact is, irc is a fantastic way to get to know other people and to learn more about other cultures - and at a great price!  I challenge and encourage each of you to up your level of communication.

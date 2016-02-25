@@ -5,9 +5,7 @@ title: Atheme 7.2 and freenode
 ---
 
 Hello!
-
 We've begun some testing on Atheme's latest release, 7.2, and we'd like to invite interested users to help with that.
-
 Not all changes the Atheme project has included in their new release will be included in our Atheme upgrade, so here's the bulk of the changes that will actually affect our network:
 
 
@@ -38,7 +36,5 @@ Details of how to do so are [here](https://github.com/atheme/ecdsatool) and [ou
 
 
 You should be able to connect to testnet at testnet.freenode.net Port 9002 for cleartext, and 9003 for SSL. Bear in mind, the database is a couple weeks old, so changes you've recently made on the production network may not be mirrored on the testnet network. Various amounts of staff should be idling in #freenode on testnet at all times, please feel free to poke us with any questions.
-
 Thanks!
-
 
