@@ -2,11 +2,10 @@ author: christel
 date: 2007-08-14 08:56:42+00:00
 slug: were-still-here
 title: We're still here!
-categories:
-- community
-- different
-- freenode
-- pdpc
+category: community
+category: different
+category: freenode
+category: pdpc
 ---
 It's been quiet on the blog front lately, we're mid holiday season so find ourselves somewhat lacking in active staff and this has kept most of those who are around tremendously busy. Both on freenode and with working on new stuff!
 

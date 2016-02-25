@@ -2,11 +2,10 @@ author: christel
 date: 2008-10-30 12:40:18+00:00
 slug: fundraising-for-charity-status
 title: Fundraising for Charity Status!
-categories:
-- community
-- different
-- freenode
-- pdpc
+category: community
+category: different
+category: freenode
+category: pdpc
 ---
 As you may be vaguely aware, we have been working on some structural changes to the operations of the parent organisation behind freenode.  And I am happy to announce that Peer-Directed Projects Center Ltd is now incorporated as a company limited by guarantee in England and Wales.
 

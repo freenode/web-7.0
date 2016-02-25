@@ -2,9 +2,8 @@ author: denny
 date: 2008-04-22 20:57:29+00:00
 slug: registering-a-channel-on-freenode
 title: Registering a channel on freenode
-categories:
-- freenode
-- projects
+category: freenode
+category: projects
 ---
 One of the questions we get asked a lot in #freenode is "What's the command to register my channel?"This being the freenode staff blog, I'd like to answer that question the long way around  ;)
 

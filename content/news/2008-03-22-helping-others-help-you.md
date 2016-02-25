@@ -2,8 +2,7 @@ author: numist
 date: 2008-03-22 17:46:11+00:00
 slug: helping-others-help-you
 title: Helping others help you.
-categories:
-- philosophy
+category: philosophy
 ---
 	From _[The Pragmatic Programmer](http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)_:
 

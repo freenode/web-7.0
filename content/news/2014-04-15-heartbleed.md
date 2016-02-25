@@ -2,10 +2,9 @@ author: Pricey
 date: 2014-04-15 18:52:05+00:00
 slug: heartbleed
 title: Heartbleed
-categories:
-- infrastructure
-- security
-- technical
+category: infrastructure
+category: security
+category: technical
 ---
 The recently exposed [heartbleed bug](http://heartbleed.com/) in the OpenSSL library has surprised everyone with a [catastrophic](https://www.schneier.com/blog/archives/2014/04/heartbleed.html) vulnerability in many of the world's secure systems.
 

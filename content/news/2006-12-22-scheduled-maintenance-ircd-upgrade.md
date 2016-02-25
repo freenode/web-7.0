@@ -2,9 +2,8 @@ author: christel
 date: 2006-12-22 00:00:53+00:00
 slug: scheduled-maintenance-ircd-upgrade
 title: '[Scheduled Maintenance] IRCD upgrade.'
-categories:
-- infrastructure
-- technical
+category: infrastructure
+category: technical
 ---
 In order to upgrade our ircd code to fix various bugs and security issues, it has become necessary to restart a large  portion of freenode network.
 

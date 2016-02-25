@@ -2,10 +2,9 @@ author: JonathanD
 date: 2009-06-19 11:41:04+00:00
 slug: new-freenode-webchat-and-why-to-use-it
 title: New freenode webchat (and why to use it)
-categories:
-- community
-- freenode
-- technical
+category: community
+category: freenode
+category: technical
 ---
 As of today we have disabled access to the freenode irc network via mibbit.  While there are numerous reasons for this, it ultimately comes down to the ability to prevent abuse via this client.  We allow connections from many types of web gateways, and such connections require a certain amount of trust and communication between the server operators and the gateway operators.  While we have tried to maintain a good working relationship with anyone who wishes to provide access to freenode and are lucky that most of our users and projects are very friendly and communicative, we have found it difficult to maintain open communications with mibbit.  This has resulted in a large amount of staff time being spent on managing abuse coming from mibbit, disrupting service for other mibbit users and reducing the quality of the network.  Sadly, we feel that this is ultimately not beneficial to mibbit users or the network as a whole.
 

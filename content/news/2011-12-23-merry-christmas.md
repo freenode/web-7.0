@@ -2,13 +2,12 @@ author: christel
 date: 2011-12-23 23:26:48+00:00
 slug: merry-christmas
 title: Merry Christmas
-categories:
-- community
-- fosscon
-- freenode
-- geeknic
-- pdpc
-- social
+category: community
+category: fosscon
+category: freenode
+category: geeknic
+category: pdpc
+category: social
 ---
 It was the day before Christmas, when all across the network not a creature was stirring, not even a troll...
 

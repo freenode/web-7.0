@@ -2,11 +2,10 @@ author: christel
 date: 2007-05-22 21:42:48+00:00
 slug: so-much-is-happening
 title: So much is happening...
-categories:
-- community
-- freenode
-- pdpc
-- social
+category: community
+category: freenode
+category: pdpc
+category: social
 ---
 Today has been an interesting day in 'freenodia', a day of reflection, and a day where both myself and my incredible staff got a feel of what it means to be surrounded and embraced by so many large and vibrant communities as those who choose to use the freenode network. We are proud and happy to host the projects we host, and we are tremendously grateful that by using freenode you allow us to get a peek behind the curtains on how your project operates, which is always refreshing.
 

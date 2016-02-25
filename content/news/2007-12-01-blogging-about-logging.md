@@ -2,11 +2,10 @@ author: christel
 date: 2007-12-01 23:00:55+00:00
 slug: blogging-about-logging
 title: Blogging about logging..
-categories:
-- community
-- different
-- freenode
-- social
+category: community
+category: different
+category: freenode
+category: social
 ---
 After [this](http://www.techcrunch.com/2007/11/30/will-irseek-have-a-chilling-effect-on-irc-chat/) recent article on [techcrunch.com](http://www.techcrunch.com) many of our users have contacted freenode staff to express their concern, shock, surprise and unease that IRseeK have for some time now been operating covert clients in various channels on freenode (and other IRC Networks) logging all communication and publishing it on their website.
 

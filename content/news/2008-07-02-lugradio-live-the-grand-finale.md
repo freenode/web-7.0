@@ -2,10 +2,9 @@ author: christel
 date: 2008-07-02 18:58:46+00:00
 slug: lugradio-live-the-grand-finale
 title: 'Lugradio Live: The grand finale'
-categories:
-- community
-- projects
-- social
+category: community
+category: projects
+category: social
 ---
 I, for one, was saddened to hear that my favourite FOSS podcast; Lugradio is coming to an end. If you are in the UK, heck, if you're anywhere and don't mind traveling a bit you may want to catch the grand finale at this years Lugradio Live.
 

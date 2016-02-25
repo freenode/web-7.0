@@ -2,10 +2,9 @@ author: SportChick
 date: 2009-02-02 19:19:55+00:00
 slug: who-are-freenode-staff-part-2-of
 title: Who Are freenode Staff? (Part 2 of ?)
-categories:
-- community
-- freenode
-- social
+category: community
+category: freenode
+category: social
 ---
 It's been a while since we posted Part 1 of our series on "Who Are freenode Staff?" - which makes it about time to post a bit more.
 

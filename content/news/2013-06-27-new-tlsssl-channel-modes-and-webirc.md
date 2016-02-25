@@ -2,10 +2,9 @@ author: Pricey
 date: 2013-06-27 09:10:13+00:00
 slug: new-tlsssl-channel-modes-and-webirc
 title: New TLS/SSL Channel Modes & Webchat Features
-categories:
-- infrastructure
-- technical
-- webchat
+category: infrastructure
+category: technical
+category: webchat
 ---
 We've recently enabled some new functionality in our ircd to further help you manage your channels:
 

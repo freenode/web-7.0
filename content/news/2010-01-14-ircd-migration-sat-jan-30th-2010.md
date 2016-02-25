@@ -2,9 +2,8 @@ author: JonathanD
 date: 2010-01-14 14:28:35+00:00
 slug: ircd-migration-sat-jan-30th-2010
 title: ircd Migration Sat Jan 30th 2010
-categories:
-- development
-- freenode
+category: development
+category: freenode
 ---
 In the coming weeks, we will be migrating freenode to our new ircd, ircd-seven.  Presently, freenode uses hyperion and efforts have been underway for some time move us off this platform for reasons of stability and functionality.  We are now almost there.
 

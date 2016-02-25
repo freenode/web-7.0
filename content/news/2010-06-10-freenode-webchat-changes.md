@@ -2,11 +2,10 @@ author: JonathanD
 date: 2010-06-10 18:30:18+00:00
 slug: freenode-webchat-changes
 title: freenode webchat changes
-categories:
-- freenode
-- infrastructure
-- technical
-- webchat
+category: freenode
+category: infrastructure
+category: technical
+category: webchat
 ---
 Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.
 

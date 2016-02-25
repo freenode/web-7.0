@@ -2,9 +2,8 @@ author: skenmy
 date: 2008-08-28 11:00:51+00:00
 slug: freenode-autovoice-trial
 title: '#freenode: Autovoice Trial'
-categories:
-- community
-- freenode
+category: community
+category: freenode
 ---
 It's been a while since we touched the layout of #freenode - we are generally quite pleased with how things run in there! However, we believe that it needs to be easier for a user to identify a member of staff when they join the channel - our current system of using a mixture of
 

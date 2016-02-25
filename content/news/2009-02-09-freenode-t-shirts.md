@@ -2,10 +2,9 @@ author: JonathanD
 date: 2009-02-09 14:40:19+00:00
 slug: freenode-t-shirts
 title: freenode t-shirts
-categories:
-- community
-- freenode
-- pdpc
+category: community
+category: freenode
+category: pdpc
 ---
 As you are probably aware, the PDPC re-incorporated in the UK and to that end we are trying to meet the threshold for being registered as a charity through the charity commission -- a status which would allow us to continue offering tax relief to hardware and bandwith sponsors, in addition to cutting our costs.  To this end, we are in the process of designing several cool t-shirts which will be available on the pdpc's website for purchase.  The proceeds from these sales will help supplement donations which we already receive from some of our users.
 

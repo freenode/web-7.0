@@ -2,11 +2,10 @@ author: Martinp23
 date: 2011-02-14 00:00:16+00:00
 slug: pdpc-fundraiser-2011
 title: PDPC Fundraiser 2011
-categories:
-- community
-- different
-- free software
-- pdpc
+category: community
+category: different
+category: free software
+category: pdpc
 ---
 Hello everyone and Happy St Valentine's Day!
 

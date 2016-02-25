@@ -2,10 +2,9 @@ author: christel
 date: 2007-12-11 00:38:03+00:00
 slug: we-are-recruiting
 title: We are recruiting!
-categories:
-- community
-- different
-- freenode
+category: community
+category: different
+category: freenode
 ---
 We are currently looking to expand the freenode volunteer staff team – seeking people from across the target communities we serve.
 

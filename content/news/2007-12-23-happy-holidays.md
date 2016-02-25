@@ -2,14 +2,13 @@ author: christel
 date: 2007-12-23 18:07:24+00:00
 slug: happy-holidays
 title: Happy holidays!
-categories:
-- community
-- different
-- fosscon
-- freenode
-- pdpc
-- projects
-- social
+category: community
+category: different
+category: fosscon
+category: freenode
+category: pdpc
+category: projects
+category: social
 ---
 It's been just over a year since freenode saw it's biggest shake-up yet, the passing of founder Rob 'lilo' Levin. It has been a challenging and interesting year both for freenode and Peer-Directed Projects Center, the not-for-profit organisation which owns and operates the network. There have been changes within the staff, there have been technical changes and soon we will see the change-over of both our Services package and our IRC daemon.
 
