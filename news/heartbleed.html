@@ -23,18 +23,22 @@
 <div class="main">
     <p><b class="art">Heartbleed</b>&nbsp;
     <span class="art-date">2014-04-15 18:52:05+00:00 by Pricey</span></p>
-    <p class="art-ingress"><p>The recently exposed <a href="http://heartbleed.com/">heartbleed bug</a> in the OpenSSL library has surprised everyone with a <a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">catastrophic</a> vulnerability in many of the world's secure systems.</p>
+    <p class="art-ingress"><ul>
+<li>infrastructure</li>
+<li>security</li>
+<li>technical</li>
+</ul>
+<hr>
+<p>The recently exposed <a href="http://heartbleed.com/">heartbleed bug</a> in the OpenSSL library has surprised everyone with a <a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">catastrophic</a> vulnerability in many of the world's secure systems.</p>
 <p>In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.</p>
 <p>In an unrelated event, due to service disruption &amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.</p>
 <p>Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.</p>
 <ul>
-<li>
-<p>Though we are not aware of any evidence that we have been targeted, or our private key compromised, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">this is inevitably a possibility</a>. SSL sessions established prior to 2014/04/12 may be vulnerable. If your current connection was established prior to this date via ssl then you should<strong> consider reconnecting to the network.
-</strong></p>
-</li>
-<li>
-<p><strong>We would advise that users reset their password</strong> (after reconnecting) using instructions returned by the following command:</p>
-</li>
+<li>Though we are not aware of any evidence that we have been targeted, or our private key compromised, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">this is inevitably a possibility</a>. SSL sessions established prior to 2014/04/12 may be vulnerable. If your current connection was established prior to this date via ssl then you should** consider reconnecting to the network.</li>
+</ul>
+<p>**</p>
+<ul>
+<li><strong>We would advise that users reset their password</strong> (after reconnecting) using instructions returned by the following command:</li>
 </ul>
 <blockquote>/msg nickserv help set password</blockquote>
 
