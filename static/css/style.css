@@ -27,6 +27,8 @@
 /* global */
 body {
     font-family: 'Open Sans';
+    font-feature-settings: "lnum";
+    font-variant-numeric: lining-nums;
     color: var(--text-color);
     font-size: 14px;
     min-height: 100vh;
@@ -207,7 +209,11 @@ h1 {
 }
 
 .art-info {
-    clear: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     line-height: 1.6;
 }
 
@@ -226,9 +232,11 @@ h1 {
 }
 
 .art-date {
-    float: right;
+    display: block;
     color: #ccc;
-    font-feature-settings: tnum;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+    min-width: max-content;
 }
 
 .art-nav {
@@ -244,7 +252,7 @@ h1 {
         padding-right: 0;
     }
 
-    div.art {
+    .artlist .art-info {
         padding: 0 .75em;
     }
 }
