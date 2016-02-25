@@ -1,12 +1,10 @@
+{% import "artinfo.html" as artinfo %}
 {% extends "base.html" %}
 {% set title = "archive" %}
 {% block content %}
 <div class="artlist main">
 {% for article in get_module("news").articles|reverse %}
-<div class="art">
-    <a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
-    <span class="art-date">{{ article.author }} on {{ article.datetime.astimezone().date() }}</span>
-</div>
+    {{ artinfo.info(article) }}
 {% endfor %}
 </div>
 {% endblock content %}
