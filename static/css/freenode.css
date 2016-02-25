@@ -18,6 +18,7 @@
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale
 }
+.fn-d:before{content:'\0044';}
 .fn-e:before{content:'\0045';}
 .fn-f:before{content:'\0046';}
 .fn-n:before{content:'\004e';}
