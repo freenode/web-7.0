@@ -201,27 +201,27 @@ hr {
     text-align: center;
 }
 
-/* articles feed */
+/* articles */
 h1 {
     margin: 0;
 }
 
-div.art {
+.art-info {
     clear: right;
-    flex-grow: 1;
+    line-height: 1.6;
 }
 
-div.artlist {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
+.art-body {
+    margin-bottom: 1em;
+}
+
+.artlist {
     max-width: var(--max-width);
     margin: 0 auto;
     margin-top: .5em;
 }
 
-div.art:not(:first-child) {
+.artlist .art-info:not(:first-child) {
     border-top: 1px solid var(--border-color);
 }
 
@@ -247,16 +247,25 @@ p.art-ingress {
 .art-date {
     float: right;
     color: #ccc;
-    margin: 0 .5em;
-    line-height: 24px;
+    font-feature-settings: tnum;
 }
 
-p.heading {
-    white-space: nowrap;
+.art-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
-p.art-link {
-    margin-top: 0;
+@media all and (max-width: 600px) {
+    .main.artlist {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.art {
+        padding: 0 .75em;
+    }
 }
 
 /* help */

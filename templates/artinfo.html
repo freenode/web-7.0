@@ -1,0 +1,22 @@
+{% macro info(article) %}
+<div class="art-info">
+    <a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
+    <span class="art-date">{{ article.author }} on {{ article.datetime.astimezone().date() }}</span>
+</div>
+{% endmacro %}
+
+{% macro nav(article) %}
+<div class="art-nav">
+    {% if article.older -%}
+    <a href="{{ article.older.url }}">older</a>
+    {%- else -%}
+    <span></span>
+    {%- endif -%}
+    <a href="{{ url_for("archive") }}">all</a>
+    {%- if article.newer %}
+    <a href="{{ article.newer.url }}">newer</a>
+    {%- else %}
+    <span></span>
+    {%- endif %}
+</div>
+{% endmacro %}

@@ -1,15 +1,12 @@
 {% extends "base.html" %}
+{% import "artinfo.html" as artinfo with context %}
+{% set title=article.title %}
 {% block content %}
 <div class="main">
-    <p class="art-header"><b class="art">{{ article.title }}</b>&nbsp;
-    <span class="art-date">{{ article.datetime }} by {{ article.author }}</span></p>
-    <p class="art-ingress">{{ article.content }}</p>
-    <p class="art-links">
-    {#
-        <a href="{{ next }}">Next</a>&nbsp;
-        <a href="{{ previous }}">Previous</a>&nbsp;
-        #}
-        <a href="{{ url_for("archive") }}">Archive</a>&nbsp;
-        </p>
+    {{ artinfo.info(article) }}
+    <div class="art-body">
+    {{ article.render() }}
+    </div>
+    {{ artinfo.nav(article) }}
 </div>
 {% endblock content %}
