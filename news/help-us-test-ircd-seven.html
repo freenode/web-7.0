@@ -33,13 +33,7 @@
 <div class="main">
     <p><b class="art">Help us test ircd-seven!</b>&nbsp;
     <span class="art-date">2008-11-02 20:14:06+00:00 by christel</span></p>
-    <p class="art-ingress"><ul>
-<li>development</li>
-<li>freenode</li>
-<li>technical</li>
-</ul>
-<hr>
-<p>As many of you will have noticed, our current IRC server software, <a href="http://freenode.net/hyperion.shtml">hyperion</a>, has been showing its age for some time now. Expectations for its eventual replacement are nothing if not high -- hyperion contains a great many features not found elsewhere, most of which are fairly unique to the way in which freenode operates, so anything that wants to take over from it must provide all of these, in a more robust, maintainable and future-proof package.</p>
+    <p class="art-ingress"><p>As many of you will have noticed, our current IRC server software, <a href="http://freenode.net/hyperion.shtml">hyperion</a>, has been showing its age for some time now. Expectations for its eventual replacement are nothing if not high -- hyperion contains a great many features not found elsewhere, most of which are fairly unique to the way in which freenode operates, so anything that wants to take over from it must provide all of these, in a more robust, maintainable and future-proof package.</p>
 <p><a href="http://hg.atheme.org/charybdis">Charybdis</a> looks like a good start -- it's a modern, modular IRC daemon supporting many of hyperion's strange features, and built on top of <a href="http://ircd-ratbox.org/">ircd-ratbox</a>, which gives it a good heritage of stability and scalability. ircd-ratbox is perhaps best known for powering the majority of EFNet, which seems to make it an excellent base on which to build.</p>
 <p>However, neither ratbox nor Charybdis implements freenode's more unique features, such as ban-forwarding or hidden IRC operators. So, some work is needed.</p>
 <p>Enter <a href="http://freenode.net/seven.shtml">ircd-seven</a>. Seven is based on Charybdis, with the features freenode needs added in. Channel operators and network operators alike should recognise most of the useful, and heretofore unique, features of hyperion, without many of the bugs and oddities that have become an unfortunate fact of life.</p>
