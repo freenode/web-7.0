@@ -4,7 +4,7 @@
 {% block content %}
 <div class="artlist main">
 {% for article in get_module("news").articles|reverse %}
-    {{ artinfo.info(article) }}
+    {{ artinfo.info(article, "b") }}
 {% endfor %}
 </div>
 {% endblock content %}

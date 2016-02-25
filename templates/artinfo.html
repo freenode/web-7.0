@@ -1,6 +1,6 @@
-{% macro info(article) %}
+{% macro info(article, what="h1") %}
 <div class="art-info">
-    <a href="{{ article.url }}"><b class="art">{{ article.title }}</b></a>&nbsp;
+    <a href="{{ article.url }}"><{{what}} class="art">{{ article.title }}</{{what}}></a>
     <span class="art-date">{{ article.author }} on {{ article.datetime.astimezone().date() }}</span>
 </div>
 {% endmacro %}
