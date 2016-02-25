@@ -201,49 +201,41 @@ hr {
     text-align: center;
 }
 
-/* articles feed */
+/* articles */
 h1 {
     margin: 0;
 }
 
-div.art {
+.art-info {
     clear: right;
-    flex-grow: 1;
+    line-height: 1.6;
 }
 
-div.artlist {
+.art-body {
+    margin-bottom: 1em;
+}
+
+.artlist {
     max-width: var(--max-width);
     margin: 0 auto;
     margin-top: .5em;
 }
 
-div.art:not(:first-child) {
+.artlist .art-info:not(:first-child) {
     border-top: 1px solid var(--border-color);
-}
-
-b.art {
-    margin-bottom: 0;
-    font-size: 18px;
-}
-
-p.art-ingress {
-    font-style: italic;
-    margin: 0;
 }
 
 .art-date {
     float: right;
     color: #ccc;
-    line-height: 24px;
     font-feature-settings: tnum;
 }
 
-p.heading {
-    white-space: nowrap;
-}
-
-p.art-link {
-    margin-top: 0;
+.art-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 @media all and (max-width: 600px) {
