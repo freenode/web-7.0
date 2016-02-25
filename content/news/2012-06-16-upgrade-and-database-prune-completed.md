@@ -6,7 +6,8 @@ categories:
 - infrastructure
 - technical
 ---
-
 The planned services upgrade and database prune went ahead today as planned and has completed successfully. Approximately 300000 nicks were removed from the database, and we've moved to Atheme 7, so hopefully response times from services should be improved, with less of the lag that was sometimes noticeable before.
+
 In addition, certificate based authentication is now available.  We'll hopefully get the docs for this up online shortly.
+
 

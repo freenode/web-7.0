@@ -8,9 +8,10 @@ categories:
 - infrastructure
 - social
 ---
-
 As you have undoubtedly noticed by now, freenode recently changed services. Along with this new look, we thought it would be a good time to formally (and perhaps not-so-formally) announce the addition of new staff.  You’ll find below a list of all our current staff, and in this post and some that follow, we’ll give you a tiny snapshot of the new (and some of the old) members of our circus^Wteam.
+
 Current freenode staff:
+
 ** AndrewB
 chb
 christel
@@ -50,6 +51,7 @@ weasel
 werdan7
 wimt
 Yaakov**
+
 And now, for a little insight on a couple of individuals:_
 _
 

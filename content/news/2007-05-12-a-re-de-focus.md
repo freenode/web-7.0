@@ -8,7 +8,6 @@ categories:
 - infrastructure
 - social
 ---
-
 freenode is pleased to announce a few changes effective May 12, 2007 at 12:55 UTC:
 
 

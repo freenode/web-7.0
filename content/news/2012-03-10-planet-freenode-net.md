@@ -8,6 +8,6 @@ categories:
 - geeknic
 - social
 ---
-
 Today, we launched [planet.freenode.net](http://planet.freenode.net).
+
 It aggregates this here staffblog, the Geeknic blog, and various personal blogs of the people behind and around freenode. Simply point your favourite RSS reader towards [this feed](http://planet.freenode.net/atom.xml) and you're good to go :)

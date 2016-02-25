@@ -5,7 +5,6 @@ title: Helping others help you.
 categories:
 - philosophy
 ---
-
 	From _[The Pragmatic Programmer](http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)_:
 
 

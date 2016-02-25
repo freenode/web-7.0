@@ -5,7 +5,6 @@ title: Fosscon, an open source conference in Philadelphia PA, Saturday August 10
 categories:
 - fosscon
 ---
-
 FOSSCON 2013 will be held on August 10th, 2013.  Several of our very own staff here at freenode will be attending this year and we are really looking forward to it.
 
 
@@ -22,6 +21,7 @@ We are very excited about this year’s keynote speaker, Philadelphia’s own Jo
 
 
 Listed below is a just a quick peek at some of our confirmed speakers and their topics:
+
 
 
 

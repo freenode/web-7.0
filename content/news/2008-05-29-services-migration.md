@@ -7,7 +7,6 @@ categories:
 - projects
 - technical
 ---
-
 The time has come for freenode to migrate from our old, legacy services 		package to a much newer, actively maintained package known as 		[Atheme](http://www.atheme.net/), developed by the  		[Atheme Project](http://www.atheme.org/).  Although we,  		with the help of the Atheme developers, have tried to make the 		migration process as painless as possible, there are still a 		few interface differences that you will need to be aware of. 		This guide, prepared by tomaw, will attempt to walk you through the main changes, grouped by service.
 
 

@@ -3,12 +3,16 @@ date: 2004-07-05 17:38:14+00:00
 slug: pdpc-fundraiser-event
 title: PDPC Fundraiser Event
 ---
-
 Well, the fundraiser is almost done.  We're $1,000.00 US away from our goal of $18,000.  (Actually, $988.56---thanks, **Luigi30!** :) We're almost there, and it seems to be a good time to go that extra mile to finish up.  So, lock up your pets and small children, turn off your WALLOPS, today is **Silly Cloaks Day** on freenode. 8)
+
 Today's contributors will get to wear **the silly cloak of their choice for 24 hours.** Just  [donate](http://freenode.net/news-2004-07-05.shtml#donate)  and message a staffer on **#fundraiser** with the details. You get up to 52 characters of the text of your choice, and the cloaks will end in **.fundraiser.pdpc**. You'll get to wear your cloak for 24 hours!
+
 And for those of you who would like to help us move things along even further, it's....
 
+
+
 Embarrass Your Friend DayThis is where you get to wear an embarrassing cloak for 24 hours, to help us finish up the fundraiser with a "bang." Scary, huh? :) Here's how it works.
+
 **Victims (erm, participants :) should:**
 
 

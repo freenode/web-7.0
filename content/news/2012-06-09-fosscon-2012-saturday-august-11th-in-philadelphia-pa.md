@@ -7,8 +7,8 @@ categories:
 - fosscon
 - pdpc
 ---
-
 August 11th, 2012 (All day)
+
 Hi everyone,
 In just a couple of months we will be hosting FOSSCON (Free and Open Source Software Conference), focusing on the community that has grown around Free and Open Source Software (FOSS), and in parallel to both the Free Culture and Open Source cultural movements.
 This is a community-focused live event designed to build and strengthen relationships between Free and Open Source Software (FOSS) developers and users. FOSSCON seeks to raise awareness of and promote FOSS alternatives to proprietary software. Facilitating face-to-face interaction, creative workshops, talks and think tanks, FOSSCON brings developers and users together in a nurturing and dynamic environment stimulating the free exchange of ideas and information while fostering cross-project collaboration and dialogue for innovation.
@@ -18,6 +18,7 @@ This is a community-focused live event designed to build and strengthen relation
 
 
 FOSSCON is a Peer-Directed Projects Center (PDPC) project, organized by the foss community.  FOSSCON (along with [Geeknics](http://geeknic.org)) is part of PDPC’s desire to bring an already massive online community, [freenode ](http://freenode.net)that has grown around free and open source ideas, out into the world, to meet, connect, support and challenge each other, imagine, plot and co-develop beautiful, possibly useful and unexpected things.
+
 The people behind FOSSCON are free software enthusiasts, user group members, coders and users – just like you! Free software is all about community and this is a very grassroots event, organized by the community and for the community. Our common goal is to provide a space for us to all come together in the northeast. We hope you’ll join us as an attendee, a volunteer or an exhibitor.
 
 
@@ -31,7 +32,9 @@ Admission is free and open to the public, but RSVP is required. If you’re able
 
 
 FOSSCON will last all day. See the regularly updated schedule of presentations (and proposal guidelines) here: [http://fosscon.org/speakers](http://fosscon.org/speakers)
+
 Anyone in the FOSS community with interesting and exciting topics is invited to submit a talk to speak at this event.  As a general event built for the community at large, the range of acceptable topics is broad, however FOSSCON traditionally favors topics with an immediate real world use in home, work, or education environments and broadly categorizes talks under one of these headings.
+
 The program committee invites proposals for paper presentations, demonstrations and poster contributions on any topic relevant to FOSS awareness, accessibility and application. We want to offer something for beginning, intermediate, and advanced learning levels with particular emphasis on the following topics:
 
 
@@ -121,6 +124,9 @@ If you would like to help out with FOSSCON, let us know!  We need help with thi
 
 
 You can join us on the IRC network “chat.freenode.net” and join the channel “#fosscon” to talk with the planning team and others interested in FOSSCON, ask questions, or volunteer to help us out.  You can easily join the channel using webchat by clicking here: [http://webchat.freenode.net/?channels=fosscon](http://webchat.freenode.net/?channels=fosscon).
+
 You can also check out our [facebook](https://www.facebook.com/FOSSCON) page, or our [twitter](https://twitter.com/#!/fossconne) feed.
+
 See you all then!
+
 ![](http://fosscon.org/wp-content/uploads/2011/03/4717286265_0d9a249623_z-300x199.jpg)

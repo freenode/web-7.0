@@ -5,8 +5,8 @@ title: April 1st 2013, the aftermath
 categories:
 - April 1st
 ---
-
 It’s been a little more than a week since we started our April Fools quiz this year; thanks to everybody who participated.
+
 The first ten people who completed all three tracks are, in descending order of aprilness:
 
 
@@ -40,6 +40,7 @@ The first ten people who completed all three tracks are, in descending order of 
 
 	
   * PyroPeter
+
 
 
 
@@ -547,7 +548,9 @@ The list number references the level number of the listed question.
 
 
 The topic in **##K&R** was: _Congratulations! You have completed freenode's crypto challenge! | Make sure to also play the other quizzes, and take this with you ###est | [http://git.io/TLfWTg](http://git.io/TLfWTg) _
+
 With **###the** and **###best** and **###est** you are expected to put these pieces together to find **###thebestest**
+
 Congratulations to those who have completed all the tracks and levels!
 
 

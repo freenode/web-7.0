@@ -8,12 +8,16 @@ categories:
 - freenode
 - pdpc
 ---
-
 As you may be vaguely aware, we have been working on some structural changes to the operations of the parent organisation behind freenode.  And I am happy to announce that Peer-Directed Projects Center Ltd is now incorporated as a company limited by guarantee in England and Wales.
+
 This makes the administrative and organisational side of things a lot easier and manageable for us and will not in any way disturb the services we provide to our users currently.
+
 However, we wish to register as a charity with the Charity Commission, but in order to do this we will need some help! We need to be able to meet a minimum support threshold of £5,000.00 per annum in order to be eligible for charity status.
+
 While we historically raised a fair amount of money through various online fund raisers, we have not actively solicited for donations in the last two years, causing a massive drop in donation levels leaving us well below the threshold.
+
 Now, there are several reasons for us not actively soliciting, for one our outgoings have over the past two years been a lot lower than previously as we no longer have any paid staff -- all members of freenode and the PDPC are involved on a volunteer basis.
+
 If you are considering donating, you will no doubt have some questions, some of which we will try to answer here:
 
 
@@ -38,5 +42,7 @@ If you are considering donating, you will no doubt have some questions, some of 
 
 
 You can make your donation [here.](http://freenode.net/pdpc_donations.shtml)
+
 While we only mention "freenode live" as a future program above, we do have other irons in the fire and if you're curious about them, or have a suggestion for how we can better help our communities, why not come have a chat with us either over in #defocus or drop us an e-mail to ideas at freenode net
+
 Any help, however big or small will be gratefully received! Thank you for considering donating, and to those of you who have supported us in the past and those continuing to support us a massive thanks for helping us help the community! If you have any questions, or want to discuss other levels of donating or other ways of helping out freenode and the PDPC -- or getting involved with future programs, why don't you drop me a message on IRC? You can find me online as christel.

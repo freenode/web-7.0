@@ -7,10 +7,12 @@ categories:
 - security
 - technical
 ---
-
 The recently exposed [heartbleed bug](http://heartbleed.com/) in the OpenSSL library has surprised everyone with a [catastrophic](https://www.schneier.com/blog/archives/2014/04/heartbleed.html) vulnerability in many of the world's secure systems.
+
 In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.
+
 In an unrelated event, due to service disruption & the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.
+
 Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.
 
 
@@ -33,6 +35,7 @@ Because of these two recent issues, we would like to make the following recommen
 
 
 This should help ensure that if your password was compromised through an exploitation of the Heartbleed vulnerability, the damage is limited.
+
 
 
 
