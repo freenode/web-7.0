@@ -2,12 +2,6 @@ author: njan
 date: 2008-09-15 18:49:43+00:00
 slug: 50000-active-users
 title: 50,000 Active Users
-categories:
-- community
-- freenode
-- infrastructure
-- technical
-- user count
 ---
 
 Howdy, folks! At 19:40 UTC+1 today, freenode reached 50,000 active users online, which is a record for us!
@@ -15,9 +9,7 @@ Howdy, folks! At 19:40 UTC+1 today, freenode reached 50,000 active users online,
 
 
 
-
 Freenode reached 40,000 users [a little over a year ago](http://blog.freenode.net/?cat=11), so we're really going from strength to strength! Thanks to all of you who've helped us build our community over the last year, and we'd like to invite you to #defocus to help us celebrate. :)
-
 
 
 
