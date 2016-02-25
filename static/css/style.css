@@ -106,21 +106,34 @@ a {
     margin-top: .75em;
     padding: 0 .75em;
     max-width: var(--max-width);
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
 .main h1,
 .main h2,
 .main h3,
+.main h4,
 .main li,
-.main p + p,
-.main ul + p {
+.main pre,
+.main p {
     margin-top: .7em;
+}
+
+.main h1 + p,
+.main h2 + p,
+.main h3 + p,
+.main h3 + p {
+    margin-top: 0;
 }
 
 .main ul {
     padding-left: 2em;
     list-style-type: disc;
+}
+
+hr {
+    margin-top: .8em;
+    margin-bottom: .8em;
 }
 
 /* jumbotron */
