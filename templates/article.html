@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% import "artinfo.html" as artinfo with context %}
+{% set title=article.title %}
 {% block content %}
 <div class="main">
     {{ artinfo.info(article) }}

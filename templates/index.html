@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% set title = config.name %}
+{% block title %}{{ config.name }}{% endblock %}
 {% import "artinfo.html" as artinfo %}
 {% block content %}
 <div class="jumbotron">
@@ -21,16 +21,13 @@
 </div>
 <div class="main">
     {% with article = get_module("news").articles[-1] %}
-    <b class="art"><a href="{{ article.url }}">{{ article.title }}</a></b>&nbsp;
-    <span class="art-date">{{ article.author }} on {{ article.datetime }}</span>
-    <p class="art-ingress">{{ article.render() }}</p>
+    {{ artinfo.info(article) }}
+    <div class="art-body">{{ article.render() }}</div>
     {#
     <p class="art-links">
         <a href="{{ next }}">Next</a>&nbsp;
         <a href="{{ previous }}">Previous</a>&nbsp;
     #}
     {% endwith %}
-    <a href="{{ url_for("archive") }}" ckass="art-link">
-                News Archive</a>
 </div>
 {% endblock content %}
