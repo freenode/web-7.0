@@ -1,4 +1,5 @@
 <footer class="footer">
+    <div class="footer-container">
     <div class="footerchild">
         <h2>About freenode</h2>
         <ul>
@@ -80,11 +81,12 @@
         </ul>
         </div>
     </div>
+    </div>
 </footer>
 <footer class="copyright">
     <div>
     {%- if config.GITHUB_URL is defined %}
-    <a class="footer-link" href="{{ config.GITHUB_URL }}"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a href="{{ config.GITHUB_URL }}"><i class="fa fa-github fa-lg"></i></a>&nbsp;
     {% endif -%}
     <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
         <img alt="CC by-nc-sa" src="{{ url_for("static/img/by-nc-sa.svg") }}">
