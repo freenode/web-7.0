@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% set title = entry.title %}
+{% block content %}
+<div class="main">
+    <h1>{{ entry.title }}</h1>
+    <p class="art-ingress">
+        {{ entry.render() }}
+    </p>
+</div>
+{% endblock %}
