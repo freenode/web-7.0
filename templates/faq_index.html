@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% set title = index.title %}
+{% block content %}
+{% if index.promote %}
+<div class="jumbotron">
+    <h1 class="child">{{ index.title }}</h1>
+    <div class="box-container">
+    {% for button in index.promote %}
+        <a class="box" href="{{ button.entry.url }}">
+            <i class="fa fa-{{ button.icon }} fa-4x"></i>
+            <div>{{ button.caption }}</div>
+        </a>
+    {% endfor %}
+    </div>
+</div>
+<div class="main">
+{% else %}
+<div class="main">
+<h1>{{ index.title }}</h1>
+{% endif %}
+<ul class="faq-index">
+    {%- for entry in index.entries -%}
+    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    {%- endfor %}
+</ul>
+</div>
+{% endblock content %}
