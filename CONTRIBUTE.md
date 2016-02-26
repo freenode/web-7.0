@@ -6,6 +6,9 @@
 
 ## Building
 
+Python 3 is needed for `cms7` to work. Run `pip install -r requirements.txt`
+to install `cms7`
+
 With dependencies installed, just run `cms7`.
 
 ## Git
