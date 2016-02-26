@@ -1,5 +1,8 @@
 /* vars */
 :root {
+    /* wanted */
+    --bg: #3a4346;
+    
     /* backgrounds */
     --navbar-bg: #292f2f;
     --jumbotron-bg: #3a4346;
@@ -87,7 +90,7 @@ a {
     color: var(--fn-green);
 }
 
-@media (--max-sm) {
+@media (--max-sm); {
     .navbar {
    position: absolute;
     }
@@ -125,7 +128,7 @@ a {
     margin: 0 auto;
     margin-top: .75em;
     padding: 0 .75em;
-    max-width: var(--max-md);
+    max-width: var(--max-width);
     line-height: 1.4;
 }
 
@@ -274,12 +277,12 @@ h1 {
 
 @media (--max-md) {
     .main.artlist {
-   padding-left: 0;
-   padding-right: 0;
+       padding-left: 0;
+       padding-right: 0;
     }
 
     .artlist .art-info {
-   padding: 0 .75em;
+       padding: 0 .75em;
     }
 }
 
