@@ -1,4 +1,4 @@
 Title: Mission
 Slug: mission
 ---
-{% extends soon.html %}
+{% extends "soon.html" %}
