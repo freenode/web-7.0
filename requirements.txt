@@ -1,0 +1,1 @@
+-e git+https://github.com/edk0/cms7.git#egg=cms7

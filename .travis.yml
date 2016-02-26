@@ -1,7 +1,7 @@
 language: python
 python:
 - '3.5'
-install: pip install -e git+https://github.com/edk0/cms7.git#egg=cms7
+install: pip install -r requirements.txt
 script: cms7
 before_install:
 - . $HOME/.nvm/nvm.sh
