@@ -19,33 +19,6 @@ modules:
     root: 'faq/answer'
     index_root: 'faq'
     indexes:
-      chat:
-        title: 'Chat'
-        cats: [connect]
-        promote:
-          - name: faq/connect/chat
-            caption: Chat
-            icon: comment
-          - name: faq/connect/chat
-            caption: Chat
-            icon: comment
-          - name: faq/connect/chat
-            caption: Chat
-            icon: comment
+      !include config/faq.yml
 resources:
-  - command: [cat]
-    source: static/fonts
-    output: out/static/fonts
-  - command: [cat]
-    source: static/img
-    output: out/static/img
-    recursive: True
-    pattern: '*.png'
-  - command: [svgo, -p, '7', -i, -, -o, -]
-    source: static/img
-    output: out/static/img
-    recursive: True
-    pattern: '*.svg'
-  - command: [myth, --compress, --]
-    source: static/css
-    output: out/static/css
+  !include config/build.yml

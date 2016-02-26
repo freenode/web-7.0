@@ -1,0 +1,13 @@
+chat:
+  title: 'Chat'
+  cats: [connect]
+  promote:
+    - name: faq/connect/chat
+      caption: Chat
+      icon: comment
+    - name: faq/connect/chat
+      caption: Chat
+      icon: comment
+    - name: faq/connect/chat
+      caption: Chat
+      icon: comment
