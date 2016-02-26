@@ -12,7 +12,7 @@ The goal is to create a new, modernly responsive, and easily navigated website f
 
 * - [x] Preprocessor ready
 
-* - [ ] Templates ready enough
+* - [x] Templates ready enough
 
 * - [ ] Content ready
 
