@@ -1,37 +1,34 @@
 /* vars */
 :root {
-    /* wanted */
-    --bg: #3a4346;
-    
     /* backgrounds */
-    --navbar-bg: #292f2f;
+    --navbar-bg:    #292f2f;
     --jumbotron-bg: #3a4346;
     --copyright-bg: #292f2f;
     
     /* link colors */
-    --link-color: #2fa6bc;
+    --link-color:        #2fa6bc;
     --footer-link-color: #ecf7fa;
-    --nlink-col: #000;
+    --nlink-col:         #000000;
     
     /* text colors */
-    --text-color: #292f2f;
-    --footer-text-color: #ecf7fa;
+    --text-color:           #292f2f;
+    --footer-text-color:    #ecf7fa;
     --copyright-text-color: #ecf7fa;
     --jumbotron-text-color: #ecf7fa;
-    --fn-grey: #e6e6e6;
-    --fn-green: #4beb4a;
-    --art-date-color: #bdbcbc;
-    --footer-hover-color: #fff;
+    --fn-grey:              #e6e6e6;
+    --fn-green:             #4beb4a;
+    --art-date-color:       #bdbcbc;
+    --footer-hover-color:   #ffffff;
     
     /* box colors */
-    --border-color: #292f2f;
-    --box-color: #4c5456;
+    --border-color:    #292f2f;
+    --box-color:       #4c5456;
     --box-hover-color: #292f2f;
-    --box-round: 10px;
+    --box-round:       10px;
     
     /* other */
-    --max-width: 800px;
-    --max-width-box: 600px;
+    --max-width:     600px;
+    --max-width-box: 800px;
     --margin-box-fa: 5px;
 }
 @custom-media --max-sm all and (max-width: 600px);
