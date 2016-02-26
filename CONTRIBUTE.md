@@ -6,10 +6,14 @@
 
 ## Building
 
-Python 3 is needed for `cms7` to work. Run `pip install -r requirements.txt`
-to install `cms7`
+Install `myth` and `svgo` globally by running `npm install -g myth svgo`.
 
-With dependencies installed, just run `cms7`.
+Python 3 is needed for `cms7` to work. Make a virtualenv with `pyvenv env`,
+then run `pip install -r requirements.txt` to install `cms7`.
+
+With dependencies installed, just run `cms7` to build. The output files are in
+the `out/` folder. You can run `python -m http.server` in the `out/` folder to
+serve the compiled files, and go to `http://localhost:8000` to see the files.
 
 ## Git
 
