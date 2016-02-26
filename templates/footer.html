@@ -62,28 +62,19 @@
         <div class="footer-push">
         <h2>Social Media</h2>
         <ul>
+            {%- for link in config.SOCIAL %}
             <li>
-                <a href="https://plus.google.com/104326727082310562426"
-                target="_blank"><i class="fa fa-google-plus"></i>
-                Google+</a>
+                <a href="{{ link.link }}" target="_blank">
+                    <i class="fa fa-{{ link.icon }} fa-fw"></i> {{ link.name }}</a>
             </li>
+            {%- endfor %}
             <li>
-                <a href="https://twitter.com/freenodestaff" target=
-                "_blank"><i class="fa fa-twitter"></i> Twitter</a>
-            </li>
-            <li>
-                <a href=
-                "https://www.facebook.com/freenode-366911233325305/"
-                target="_blank"><i class="fa fa-facebook"></i>
-                Facebook</a>
-            </li>
-            <li>
-                <a href="{{ url_for("archive") }}"><i class="fa fa-rss"></i>
+                <a href="{{ url_for("archive") }}"><i class="fa fa-rss fa-fw"></i>
                 News Archive</a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="PIA" height=
-                "14px" src="{{ url_for("static/img/logos/pia-robot-original.svg") }}">
+                "14px" class="fa-fw" src="{{ url_for("static/img/logos/pia-robot-original.svg") }}">
                 Private Internet Access</a>
             </li>
         </ul>
@@ -91,8 +82,15 @@
     </div>
 </footer>
 <footer class="copyright">
+    <div>
+    {%- if config.GITHUB_URL is defined %}
+    <a class="footer-link" href="{{ config.GITHUB_URL }}"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    {% endif -%}
     <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
         <img alt="CC by-nc-sa" src="{{ url_for("static/img/by-nc-sa.svg") }}">
     </a>
-    <p>&copy; 1998-2016, freenode</p>
+    </div>
+    <div>
+        {{ config.COPYRIGHT|safe }}
+    </div>
 </footer>

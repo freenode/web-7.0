@@ -1,4 +1,17 @@
 name: freenode
+COPYRIGHT: "&copy; 2016, freenode"
+DESCRIPTION: "freenode IRC network"
+GITHUB_URL: "https://github.com/freenode/web-7.0"
+SOCIAL:
+  - name: Google+
+    icon: google-plus
+    link: 'https://plus.google.com/104326727082310562426'
+  - name: Twitter
+    icon: twitter
+    link: 'https://twitter.com/freenodestaff'
+  - name: Facebook
+    icon: facebook
+    link: 'https://www.facebook.com/freenode-366911233325305/'
 theme: templates
 output: out
 content-root: content
