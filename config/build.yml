@@ -1,0 +1,16 @@
+- command: [cat]
+  source: static/fonts
+  output: out/static/fonts
+- command: [cat]
+  source: static/img
+  output: out/static/img
+  recursive: True
+  pattern: '*.png'
+- command: [svgo, -p, '7', -i, -, -o, -]
+  source: static/img
+  output: out/static/img
+  recursive: True
+  pattern: '*.svg'
+- command: [myth, --compress, --]
+  source: static/css
+  output: out/static/css
