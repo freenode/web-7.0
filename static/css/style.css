@@ -328,19 +328,23 @@ a.hchild:hover,a.hchild:active {
 .footer {
     background: var(--jumbotron-bg);
     color: var(--footer-text-color);
+    width: 100%;
     margin-top: 2vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
     min-height: 9.5rem;
 }
 
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
 .footerchild {
+    margin: 0 2em;
     margin-top: .5em;
-    flex: 1 1 1px;
-    min-width: 12rem;
 }
 
 .footerchild:last-child {
@@ -354,12 +358,11 @@ a.hchild:hover,a.hchild:active {
     }
 }
 
-.footer-link,
-.footer a {
+footer a {
     color: var(--footer-link-color);
 }
 
-.footer a:hover {
+footer a:hover {
     color: #fff;
 }
 
@@ -441,7 +444,7 @@ a.hchild:hover,a.hchild:active {
     }
 }
 
-.footer h2,.footer h3 {
+.footer h2, .footer h3 {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -470,6 +473,10 @@ footer.copyright div {
     margin: 0;
     height: 1.5rem;
     line-height: 1.5rem;
+}
+
+.copyright .fa {
+    height: 100%;
 }
 
 .copyright .footer-link {
