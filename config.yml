@@ -19,18 +19,6 @@ modules:
     root: 'faq/answer'
     index_root: 'faq'
     indexes:
-      chat:
-        title: 'Chat'
-        cats: [connect]
-        promote:
-          - name: faq/connect/chat
-            caption: Chat
-            icon: comment
-          - name: faq/connect/chat
-            caption: Chat
-            icon: comment
-          - name: faq/connect/chat
-            caption: Chat
-            icon: comment
+      !include config/faq.yml
 resources:
   !include config/build.yml
