@@ -361,17 +361,16 @@ h1 {
 .footerchild {
     margin: 0 2em;
     margin-top: .5em;
+    flex: 1 1 1px;
 }
 
 .footerchild:last-child {
     margin-bottom: 1em;
 }
 
-@media (--max-rem) {
-    .footer-push {
-        margin-left: auto;
-        width: max-content;
-    }
+.footer-push {
+    margin-left: auto;
+    width: max-content;
 }
 
 footer a {
@@ -405,10 +404,6 @@ footer a:hover {
 
     .footerchild {
         width: 100%;
-    }
-
-    .footer-push {
-        margin-left: 0;
     }
 
     .footerchild ul li:last-child {
