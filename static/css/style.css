@@ -128,7 +128,7 @@ a {
     margin-top: 0;
 }
 
-.main ul {
+ul {
     padding-left: 2em;
     list-style-type: disc;
 }
@@ -171,10 +171,11 @@ hr {
     text-decoration: none;
     color: var(--jumbotron-text-color);
     margin-bottom: 5px;
-    padding: 5px;
     flex-basis: 30%;
+    min-width: 26%;
     background-color: var(--box-color);
     border-radius: var(--box-round);
+    padding: 1em;
 }
 
 .box:hover,.box:active {
@@ -187,8 +188,8 @@ hr {
     font-size: 20px;
     font-weight: 600;
     line-height: 16px;
-    padding: 10px 0;
     display: block;
+    margin-top: .75em;
 }
 
 .fa-users {
@@ -307,6 +308,16 @@ a.hchild:hover,a.hchild:active {
     border-bottom-left-radius: var(--box-round);
 }
 
+/* faq */
+.faq-index {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.faq-index li {
+    font-size: 120%;
+}
+
 /* footer */
 .footers {
     /*min-height: 30vh;*/
@@ -343,6 +354,7 @@ a.hchild:hover,a.hchild:active {
     }
 }
 
+.footer-link,
 .footer a {
     color: var(--footer-link-color);
 }
@@ -356,7 +368,8 @@ a.hchild:hover,a.hchild:active {
     display: inline-block;
 }
 
-.footerchild ul,.footerchild ul ul {
+.footerchild ul, .footerchild ul ul {
+    padding-left: 0;
     margin-left: 10px;
     margin-right: 10px;
     list-style-type: none;
@@ -433,35 +446,38 @@ a.hchild:hover,a.hchild:active {
     margin-right: 10px;
 }
 
-.copyright {
+footer.copyright {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     background: var(--copyright-bg);
     min-height: 1.5rem;
     color: var(--copyright-text-color);
+    padding-left: .5em;
+    padding-right: .5em;
+    overflow: hidden;
 }
 
-a.copyright {
-    background: var(--copyright-bg);
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: .5em;
+footer.copyright div {
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    vertical-align: top;
+}
+
+.copyright * {
+    margin: 0;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.copyright .footer-link {
+    height: 28px;
     margin-right: .5em;
-    width: auto;
-    height: auto;
 }
 
-.copyright a img {
+.copyright img {
     height: 1.5rem;
     width: auto;
-}
-
-.copyright p {
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: .5em;
-    margin-right: .5em;
-    text-align: right;
 }
