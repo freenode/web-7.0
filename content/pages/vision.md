@@ -1,4 +1,4 @@
 Title: Vision
 Slug: vision
 ---
-{% extends soon.html %}
+{% extends "soon.html" %}
