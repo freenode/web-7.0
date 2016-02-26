@@ -1,4 +1,4 @@
 Title: Philosophy
 Slug: philosophy
 ---
-{% extends soon.html %}
+{% extends "soon.html" %}
