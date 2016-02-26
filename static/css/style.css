@@ -398,12 +398,12 @@ footer a:hover {
 }
 
 @media (--max-md) {
-    .footer {
+    .footer-container {
         flex-direction: column;
     }
 
-    .footerchild {
-        width: 100%;
+    .footer-push {
+        margin-left: 0;
     }
 
     .footerchild ul li:last-child {
