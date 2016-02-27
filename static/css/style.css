@@ -66,6 +66,9 @@ a {
 a:hover {
     color: var(--link-hover-color);
 }
+img {
+    max-width: 100%;
+}
 
 /* navbar */
 .navbar {

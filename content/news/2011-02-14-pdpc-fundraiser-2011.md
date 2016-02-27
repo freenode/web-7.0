@@ -9,7 +9,7 @@ category: pdpc
 ---
 Hello everyone and Happy St Valentine's Day!
 
-[![Love PDPC! 2011 Fundraiser](http://blog.freenode.net/wp-content/uploads/2011/02/pdpc-heart.png)](http://blog.freenode.net/wp-content/uploads/2011/02/pdpc-heart.png)
+![Love PDPC! 2011 Fundraiser](../static/img/pdpc-heart.png)
 
 We here at freenode and PDPC love Free and Open Source Software (FOSS), and we know that at least 70,000 of you do too.
 

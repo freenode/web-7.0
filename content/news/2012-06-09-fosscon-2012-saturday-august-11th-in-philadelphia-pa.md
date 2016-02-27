@@ -13,7 +13,7 @@ In just a couple of months we will be hosting FOSSCON (Free and Open Source Soft
 This is a community-focused live event designed to build and strengthen relationships between Free and Open Source Software (FOSS) developers and users. FOSSCON seeks to raise awareness of and promote FOSS alternatives to proprietary software. Facilitating face-to-face interaction, creative workshops, talks and think tanks, FOSSCON brings developers and users together in a nurturing and dynamic environment stimulating the free exchange of ideas and information while fostering cross-project collaboration and dialogue for innovation.
 
 
-![](http://fosscon.org/wp-content/uploads/2011/03/4717295603_5a06b15985_z1-300x199.jpg)
+[This image does no longer exist]
 
 
 FOSSCON is a Peer-Directed Projects Center (PDPC) project, organized by the foss community.  FOSSCON (along with [Geeknics](http://geeknic.org)) is part of PDPC’s desire to bring an already massive online community, [freenode ](http://freenode.net)that has grown around free and open source ideas, out into the world, to meet, connect, support and challenge each other, imagine, plot and co-develop beautiful, possibly useful and unexpected things.
@@ -128,4 +128,4 @@ You can also check out our [facebook](https://www.facebook.com/FOSSCON) page, or
 
 See you all then!
 
-![](http://fosscon.org/wp-content/uploads/2011/03/4717286265_0d9a249623_z-300x199.jpg)
+[This image does no longer exist]

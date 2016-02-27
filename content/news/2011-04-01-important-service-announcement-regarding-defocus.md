@@ -13,7 +13,7 @@ If you have any questions about this policy, feel free to ask any member of staf
 
 GURER VF N CEVMR. VG'F JBEGU VG. UVAG: ZBGQ.
 
-[![enigma_cat_says_PQOWIELA](http://blog.freenode.net/wp-content/uploads/2011/04/enigma-cat.jpg)](http://blog.freenode.net/wp-content/uploads/2011/04/enigma-cat.jpg)
+![enigma_cat_says_PQOWIELA](../static/img/enigma-cat.jpg)
 
 
 
