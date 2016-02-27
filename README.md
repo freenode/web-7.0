@@ -1,25 +1,84 @@
-# web-7.0
-[![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0)
+# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0)
 
-## Goals
+A shiny replacement for http://freenode.net.
 
-The goal is to create a new, modernly responsive, and easily navigated website for freenode.net
+
+## Architecture / Orientation
+
+The site is statically generated from
+[Markdown](https://daringfireball.net/projects/markdown/) sources and
+[Jinja2](http://jinja.pocoo.org/) templates, found in `content/` and
+`templates/` respectively. The Travis build deploys to GitHub Pages
+automatically on every push to master.
+
+Various modules convert the sources to a useful output structure. Eventually
+cms7 will document this process, but for now:
+
+- `content/pages/` contains plain pages which are rendered in `out/` using
+  `page.html`.
+- `content/news/` contains blog/news posts which are rendered in `out/news/`
+  using `article.html`.
+- `content/faq/` contains FAQ categories: each directory `content/faq/X/`
+  has the entries for category `X`. These are rendered in `out/faq/answers/`
+  with `faq.html`.
+
+  Indexes of these entries are rendered in `out/faq/` with `faq_index.html`,
+  according to a list in `config/faq.yml`.
+
+
+### Markdown metadata
+
+cms7 uses the markdown metadata extension, and recognises some special keys:
+
+- `title` sets the page title
+- `slug` overrides the target URL: `pages/hello` with `slug: banana` would
+  become `out/banana.html`
+- `template` overrides the template with which to render this Markdown file
+
+Blog-specific:
+
+- `author`
+- `date`
+
+
+### Internal linking
+
+Everything that ends up in the final output has a name that identifies it to
+the rest of the website. If a file is derived directly from an input file,
+generally its name is derived from the name of the *input*.
+
+- Markdown files like `content/pages/hello.md` are named their own name
+  relative to the content directory, minus their extension: `pages/hello`.
+- static resources like `static/img/cat.jpg` are named their own name
+  relative to the repository root: `static/img/cat.jpg`.
+- Templates that are rendered from nothing (e.g. to make the index page) are
+  named whatever the config file says to name them.
+- FAQ indexes are named `faq/index/X`, where X is the name of the index in
+  `config/faq.yml`.
+
+cms7 can generate a relative URL to anything with a name from any page. This
+should always be preferred over manually writing links. To generate a relative
+link from a Markdown template, just link to a name:
+
+```markdown
+[A page about frogs](pages/frog)
+```
+
+To do the same from a template, call `url_for`:
+
+```html+jinja
+<a href="{{ url_for('pages/frog') }}">A page about frogs</a>
+```
+
 
 ## TODO
-- [ ]  Get the basic static page up, and how to connect (latest two news about the reformation + about page, kinda) schedulescheduled release: 2016-02-29
-
-* - [x]  Design ready enough 
-
-* - [x] Preprocessor ready
-
-* - [x] Templates ready enough
-
-* - [ ] Content ready
-
-- [ ] FAQ pages structure, start adding FAQ's (note: tagging could be a good thing for searching and finding) 
-
+- [ ] Get the basic static page up, and how to connect (latest two news about
+  the reformation + about page, kinda) scheduled release: 2016-02-29
+  - [x]  Design ready enough
+  - [x] Preprocessor ready
+  - [x] Templates ready enough
+  - [ ] Content ready
+- [ ] FAQ pages structure, start adding FAQ's (note: tagging could be a good thing for searching and finding)
 - [ ] Add possibility to edit on-site integrated with services (log in with your nickserv acc)
-
 - [ ] Gms integration
-
 - [ ] Further development TODO: TODO
