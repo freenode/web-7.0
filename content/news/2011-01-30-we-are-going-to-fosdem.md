@@ -6,7 +6,7 @@ category: community
 category: different
 category: open source
 ---
-![going-to-fosdem-2011](../static/img/going-to-fosdem-2011.png)
+![going-to-fosdem-2011](static/img/going-to-fosdem-2011.png)
 
 As every year, some of freenode staff will attend FOSDEM. If you have any concerns, praise, criticism or free beer you want to share with us, you are more than welcome to meat us. The best way to coordinate meatings is to simply join ﻿﻿#freenode-fosdem and poke us.
 

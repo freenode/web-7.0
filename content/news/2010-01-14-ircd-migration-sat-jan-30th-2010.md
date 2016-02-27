@@ -9,9 +9,9 @@ In the coming weeks, we will be migrating freenode to our new ircd, ircd-seven.�
 
 As users please be aware that during the migration all clients will be temporarily disconnected and will need to reconnect in order to move over to the new servers. For most of you this will happen as the old servers are shut down.
 
-**Please Note:** While we will copy over channel modes and topics for registered channels (there will be no changes to the services database, all nick and channel settings with services will stay the same) we are unable to do so for channels NOT registered with ChanServ. If your project utilises non-registered channels for whatever reason, please make note of the topics and modes so you can make a manual transfer of these yourselves. For more information on registering a channel, see this [post](../2008/04/registering-a-channel-on-freenode/).
+**Please Note:** While we will copy over channel modes and topics for registered channels (there will be no changes to the services database, all nick and channel settings with services will stay the same) we are unable to do so for channels NOT registered with ChanServ. If your project utilises non-registered channels for whatever reason, please make note of the topics and modes so you can make a manual transfer of these yourselves. For more information on registering a channel, see this [post](news/2008-04-22-registering-a-channel-on-freenode).
 
-If you operate a channel on freenode and have any concerns, feel free to stop by #freenode to discuss any issues you might have.  If you run any channel utility bots, you may want to test them on the current testnet.  More information can be found [here](http://blog.freenode.net/2009/11/testing-the-nets/).
+If you operate a channel on freenode and have any concerns, feel free to stop by #freenode to discuss any issues you might have.  If you run any channel utility bots, you may want to test them on the current testnet.  More information can be found [here](news/2009-11-09-testing-the-nets).
 
 **Important Changes**
 
@@ -29,16 +29,16 @@ A brief summary:
 
 
 
-	
+
   * The CAP LS command will list all client capabilities that are available to the client.
 
-	
+
   * The CAP REQ :<cap1> <cap2> <...> command can be used to request one or more capabilities. The response to this will be either CAP ACK :<cap> <...>, or CAP NAK :<cap> <...>, depending on whether the request was successful.
 
-	
+
   * A CAP name token can be prefixed by - to disable that capability. This was not available with hyperion's CAPAB command.
 
-	
+
   * CAP negotiation can take place either during connection and registration (as is required for SASL), or afterwards, to enable identify-msg.
 
 
