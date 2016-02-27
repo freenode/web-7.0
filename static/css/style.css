@@ -442,6 +442,8 @@ footer.copyright div {
 
 .copyright .fa {
     height: 100%;
+    vertical-align: top;
+    font-size: 1.4em;
 }
 
 .copyright .footer-link {
