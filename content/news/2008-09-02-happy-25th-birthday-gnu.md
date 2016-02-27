@@ -15,4 +15,4 @@ So who better to mark the anniversary of a project for which I also have a great
 
 So without further ado -- Happy Birthday [GNU](http://www.gnu.org)!
 
-[![Freedom Fry](../static/img/fry720.jpg)](http://www.gnu.org/fry/happy-birthday-to-gnu.html)
+![Freedom Fry](../static/img/fry720.jpg)](http://www.gnu.org/fry/happy-birthday-to-gnu.html)
