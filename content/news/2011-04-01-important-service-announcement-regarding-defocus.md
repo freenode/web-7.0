@@ -3,7 +3,7 @@ date: 2011-04-01 00:01:08+00:00
 slug: important-service-announcement-regarding-defocus
 title: 'Important service announcement regarding #defocus'
 ---
-As many of you are aware, [back in 2008](../2008/09/change-in-defocus-policy-and-what-do-you-think/) we changed our policy in #defocus and the method in which the channel works to require users have voice to speak. For the past few years we've been using a combination of manual action, scripts and bots to voice users as needed to control when and how and when they are voiced.
+As many of you are aware, [back in 2008](news/2008-09-14-change-in-defocus-policy-and-what-do-you-think) we changed our policy in #defocus and the method in which the channel works to require users have voice to speak. For the past few years we've been using a combination of manual action, scripts and bots to voice users as needed to control when and how and when they are voiced.
 
 Starting today, we are changing the policy to one we believe is fairly balanced and which gives users much more control over gaining and keeping voice in the channel.
 
@@ -13,7 +13,7 @@ If you have any questions about this policy, feel free to ask any member of staf
 
 GURER VF N CEVMR. VG'F JBEGU VG. UVAG: ZBGQ.
 
-![enigma_cat_says_PQOWIELA](../static/img/enigma-cat.jpg)
+![enigma_cat_says_PQOWIELA](static/img/enigma-cat.jpg)
 
 
 
