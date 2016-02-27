@@ -11,3 +11,6 @@ chat:
     - name: faq/connect/chat
       caption: Chat
       icon: comment
+tech:
+  title: 'Technical FAQ'
+  cats: []
