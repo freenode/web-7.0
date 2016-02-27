@@ -1,31 +1,36 @@
 /* vars */
 :root {
+    --c-dark:     #292f2f;
+    --c-bg-dark:  #3a4346;
+    --c-bg-light: #4c5456;
+    --c-light:    #ecf7fa;
+    --c-hl-dark:  #008499;
+    --c-hl-light: #3baec4;
+
     /* backgrounds */
-    --navbar-bg:    #292f2f;
-    --jumbotron-bg: #3a4346;
-    --copyright-bg: #292f2f;
-    
+    --navbar-bg:    var(--c-dark);
+    --jumbotron-bg: var(--c-bg-dark);
+    --copyright-bg: var(--c-dark);
+
     /* link colors */
-    --link-color:        #2fa6bc;
-    --footer-link-color: #ecf7fa;
-    --nlink-col:         #000000;
-    
+    --link-color:         var(--c-hl-dark);
+    --link-hover-color:   var(--c-hl-light);
+    --footer-link-color:  var(--c-light);
+    --footer-hover-color: #fff;
+
     /* text colors */
-    --text-color:           #292f2f;
-    --footer-text-color:    #ecf7fa;
-    --copyright-text-color: #ecf7fa;
-    --jumbotron-text-color: #ecf7fa;
-    --fn-grey:              #e6e6e6;
-    --fn-green:             #4beb4a;
-    --art-date-color:       #bdbcbc;
-    --footer-hover-color:   #ffffff;
-    
+    --text-color:           var(--c-dark);
+    --footer-text-color:    var(--c-light);
+    --copyright-text-color: var(--c-light);
+    --jumbotron-text-color: var(--c-light);
+    --art-date-color:       color(var(--c-dark) tint(50%));
+
     /* box colors */
-    --border-color:    #292f2f;
-    --box-color:       #4c5456;
-    --box-hover-color: #292f2f;
+    --border-color:    var(--c-dark);
+    --box-color:       var(--c-bg-light);
+    --box-hover-color: var(--c-dark);;
     --box-round:       10px;
-    
+
     /* other */
     --max-width:     600px;
     --max-width-box: 800px;
@@ -58,6 +63,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--link-hover-color);
+}
+
 /* navbar */
 .navbar {
     width: 100%;
@@ -76,16 +85,6 @@ a {
     z-index: 100;
     padding-right: 5px;
 }
-[class*='fn-'] {
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 30px;
-    color: var(--fn-grey);
-    text-shadow: .5px .5px #000;
-}
-.green {
-    color: var(--fn-green);
-}
 
 @media (--max-sm); {
     .navbar {
@@ -100,17 +99,6 @@ a {
 
 .nlogo {
     height: 40px;
-}
-
-.navlinks {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
-
-.nlink {
-    text-decoration: none;
-    color: var(--nlink-col);
 }
 
 /* main */
@@ -197,6 +185,7 @@ hr {
 }
 
 .box:hover,.box:active {
+    color: var(--jumbotron-text-color);
     background-color: var(--box-hover-color);
 }
 
