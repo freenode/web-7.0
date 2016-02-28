@@ -108,13 +108,12 @@ img {
 .container {
     width: 100%;
     min-height: 98vh;
-    padding-top: 50px;
     padding-bottom: 11.5rem;
 }
 
 .main {
     margin: 0 auto;
-    margin-top: .75em;
+    margin-top: 3.75em;
     padding: 0 .75em;
     max-width: var(--max-width);
     line-height: 1.4;
@@ -155,7 +154,7 @@ hr {
     background: var(--jumbotron-bg);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
-    padding: 2em 0;
+    padding: 8em 0 4em 0;
 }
 
 .child {
@@ -272,6 +271,7 @@ h1 {
 .art-info h1 {
     margin-top: 0;
     display: inline;
+    margin-right: 2em;
 }
 
 .art-body {
@@ -290,7 +290,7 @@ h1 {
 
 .art-date {
     display: inline-block;
-    text-align: baseline;
+    vertical-align: baseline;
     line-height: 1;
     white-space: nowrap;
     color: var(--art-date-color);
@@ -340,12 +340,14 @@ h1 {
     margin-top: 2vh;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
     min-height: 9.5rem;
+
+    padding: 3em 0;
 }
 
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     margin: 0 auto;
 }
@@ -353,7 +355,8 @@ h1 {
 .footerchild {
     margin: 0 2em;
     margin-top: .5em;
-    flex: 1 1 1px;
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .footerchild:last-child {
