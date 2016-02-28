@@ -3,9 +3,45 @@
 A shiny replacement for http://freenode.net.
 
 
+## Building
+
+You'll need our node.js dependencies:
+
+```console
+$ npm install -g myth svgo
+```
+
+Then, assuming a Python 3.4 (or later) installation:
+
+```console
+$ python3 -m venv env
+$ . env/bin/activate
+$ pip install -r requirements.txt
+$ cms7
+```
+
+If everything went well, you should see a lot of log output, and `out/` will
+have the website in it.
+
+Because we generate the site statically, you'll need to re-run `cms7` each
+time you change something. If your editor likes compile commands that can run
+from any directory, you can also use `cms7 -c /path/to/config.yml`.
+
+
+## Contributing
+
+- Whenever possible, one commit per feature.
+- If feature/pull-request branches have only one developer, please regularly
+  rebase them onto master until they are merged in.
+- Don't merge branches with meaningless commit messages; always squash them
+  instead.
+- Wait for discussion of big changes. Your branches will still be here
+  tomorrow.
+
+
 ## Architecture / Orientation
 
-The site is statically generated from
+The site is generated from
 [Markdown](https://daringfireball.net/projects/markdown/) sources and
 [Jinja2](http://jinja.pocoo.org/) templates, found in `content/` and
 `templates/` respectively. The Travis build deploys to GitHub Pages
