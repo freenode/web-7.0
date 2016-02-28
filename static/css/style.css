@@ -285,7 +285,7 @@ h1 {
 }
 
 .artlist.heading {
-    margin: 8em 0 2em 0;
+    margin: 8em auto 2em auto;
     padding: 0 0.75em;
 }
 
