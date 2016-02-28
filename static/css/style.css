@@ -198,7 +198,7 @@ img.icon {
     background-color: var(--box-hover-color);
 }
 
-.box div{
+.box span {
     position: relative;
     top: initial;
     font-size: 20px;
