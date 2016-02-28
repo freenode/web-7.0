@@ -5,7 +5,7 @@
 <div class="jumbotron">
     <h2 class="child">Welcome to freenode&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
     <div class="box-container">
-        <a class="box" href="#">
+        <a class="box" href="{{ url_for("faq/index/chat") }}">
             <i class="fa fa-comment fa-4x"></i>
             <div>Chat</div>
         </a>
@@ -13,9 +13,9 @@
             <i class="fa fa-users fa-4x"></i>
             <div>Register a group</div>
         </a>
-        <a class="box" href="#">
+        <a class="box" href="{{ url_for("faq/index/tech") }}">
             <i class="fa fa-question fa-4x"></i>
-            <div href="#">FAQ</div>
+            <div>FAQ</div>
         </a>
     </div>
 </div>
