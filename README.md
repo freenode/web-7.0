@@ -38,6 +38,14 @@ from any directory, you can also use `cms7 -c /path/to/config.yml`.
 - Wait for discussion of big changes. Your branches will still be here
   tomorrow.
 
+Helpful tip for those merging PRs: you can browse the tree a merge would
+result in by navigating to
+`https://github.com/freenode/web-7.0/tree/pull/XYZ/merge`, where `XYZ` is the
+pull request number.
+
+You can also go to `https://freenode.github.io/web-7.0/BRANCHNAME/` to see a
+build of any particular branch. This also works for *internal* pull requests
+(they are named `pull-X`).
 
 ## Architecture / Orientation
 
@@ -45,7 +53,7 @@ The site is generated from
 [Markdown](https://daringfireball.net/projects/markdown/) sources and
 [Jinja2](http://jinja.pocoo.org/) templates, found in `content/` and
 `templates/` respectively. The Travis build deploys to GitHub Pages
-automatically on every push to master.
+automatically on every push.
 
 Various modules convert the sources to a useful output structure. Eventually
 cms7 will document this process, but for now:
