@@ -2,6 +2,9 @@
 {% extends "base.html" %}
 {% set title = "archive" %}
 {% block content %}
+<div class="artlist heading">
+    <h1>Blog Archive</h1>
+</div>
 <div class="artlist main">
 {% for article in get_module("news").articles|reverse %}
     {{ artinfo.info(article, "b") }}
