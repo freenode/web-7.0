@@ -3,7 +3,8 @@
 {% import "artinfo.html" as artinfo %}
 {% block content %}
 <div class="jumbotron">
-    <img src="static/img/logos/coloured-alphabg.svg" alt="freenode" class="icon">
+    <img class="pia_logo" src="{{ url_for("static/img/logos/PIALogo_white.svg") }}">
+    <img src="{{ url_for("static/img/logos/coloured-alphabg.svg") }}" alt="freenode" class="icon">
     <p class="tagline">Supporting free and open source communities since 1998</h2>
     <div class="box-container">
         <a class="box" href="{{ url_for("faq/index/chat") }}">

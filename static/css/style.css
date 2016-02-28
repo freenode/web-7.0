@@ -151,11 +151,25 @@ hr {
     position: relative;
     z-index: 100;
     width: 100%;
-    margin-top: -16px;
     background: var(--jumbotron-bg);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
     padding: 2em 0;
+}
+
+.jumbotron .pia_logo {
+    position: absolute;
+    height: 40px;
+    right: 0; 
+    top: 0;
+    margin: 25px;
+}
+
+
+@media (--max-sm) {
+    .jumbotron .icon {
+        margin-top: 60px;
+    }
 }
 
 .tagline {
