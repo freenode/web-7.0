@@ -3,13 +3,57 @@
 A shiny replacement for http://freenode.net.
 
 
+## Building
+
+You'll need our node.js dependencies:
+
+```console
+$ npm install -g myth svgo
+```
+
+Then, assuming a Python 3.4 (or later) installation:
+
+```console
+$ python3 -m venv env
+$ . env/bin/activate
+$ pip install -r requirements.txt
+$ cms7
+```
+
+If everything went well, you should see a lot of log output, and `out/` will
+have the website in it.
+
+Because we generate the site statically, you'll need to re-run `cms7` each
+time you change something. If your editor likes compile commands that can run
+from any directory, you can also use `cms7 -c /path/to/config.yml`.
+
+
+## Contributing
+
+- Whenever possible, one commit per feature.
+- If feature/pull-request branches have only one developer, please regularly
+  rebase them onto master until they are merged in.
+- Don't merge branches with meaningless commit messages; always squash them
+  instead.
+- Wait for discussion of big changes. Your branches will still be here
+  tomorrow.
+
+Helpful tip for those merging PRs: you can browse the tree a merge would
+result in by navigating to
+`https://github.com/freenode/web-7.0/tree/pull/XYZ/merge`, where `XYZ` is the
+pull request number.
+
+You can also go to `https://freenode.github.io/web-7.0/BRANCHNAME/` to see a
+build of any particular branch. This also works for *internal* pull requests
+(they are named `pull-X`).
+
 ## Architecture / Orientation
 
-The site is statically generated from
+The site is generated from
 [Markdown](https://daringfireball.net/projects/markdown/) sources and
 [Jinja2](http://jinja.pocoo.org/) templates, found in `content/` and
 `templates/` respectively. The Travis build deploys to GitHub Pages
-automatically on every push to master.
+automatically on every push.
 
 Various modules convert the sources to a useful output structure. Eventually
 cms7 will document this process, but for now:

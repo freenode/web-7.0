@@ -20,7 +20,10 @@
 {% endif %}
 <ul class="faq-index">
     {%- for entry in index.entries -%}
-    <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+    <li><a href="{{ entry.url }}">
+        <h2>{{ entry.title }}</h2>
+        <span class="faq-description">text text text</span>
+    </a></li>
     {%- endfor %}
 </ul>
 </div>
