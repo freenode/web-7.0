@@ -237,13 +237,13 @@ hr {
         margin: 0 .5em;
     }
 
-    .box div {
+    .box span {
         font-size: 22px;
         line-height: 22px;
         padding-left: 8px;
-        font-weight: 700;
+        font-weight: bold;
         position: relative;
-        display: inline;
+        display: inline-block;
         text-align: center;
     }
 
