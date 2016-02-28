@@ -16,7 +16,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="../index"><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
         <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
     </nav>
     <div class="container">
@@ -55,7 +55,7 @@ Changes in Dancer IRCD 1.0.32Numerous small bugs have been fixed, and the follow
 <p>In addition, we've provided another capability, IDENTIFY-CTCP, which similarly formats the output of CTCPs other than ACTION.</p>
 <ul>
 <li>
-<p><strong>Join throttling (channel mode J).</strong> Format:  <strong>+J <frequency>,<limit></strong>.  Users may join this channel once every <frequency> seconds, with an initial burst and limit value of <limit> users. <strong>NOTE</strong>: If +Ff is turned on in the channel, users who are throttled will be sent to another channel instead of being sent an error message.</p>
+<p><strong>Join throttling (channel mode J).</strong> Format:  <strong>+J <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:frequency></html:frequency></html:body></html:html>,<html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:limit></html:limit></html:body></html:html></strong>.  Users may join this channel once every <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:frequency></html:frequency></html:body></html:html> seconds, with an initial burst and limit value of <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:limit></html:limit></html:body></html:html> users. <strong>NOTE</strong>: If +Ff is turned on in the channel, users who are throttled will be sent to another channel instead of being sent an error message.</p>
 </li>
 <li>
 <p><strong>Identified-only mode (channel mode r).</strong> With +r set, only users identified to services (user mode +e) can join the channel.  <strong>NOTE:</strong> If +Ff is turned on in the channel, users who are denied access because they are not identified to services will be sent to another channel instead of being sent an error message.</p>
