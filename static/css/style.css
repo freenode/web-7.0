@@ -260,7 +260,7 @@ h1 {
 }
 
 .art-info {
-    line-height: 1.6;
+    line-height: 2.1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -282,6 +282,11 @@ h1 {
     max-width: var(--max-width);
     margin: 0 auto;
     margin-top: .5em;
+}
+
+.artlist.heading {
+    margin: 8em 0 2em 0;
+    padding: 0 0.75em;
 }
 
 .artlist .art-info:not(:first-child) {
