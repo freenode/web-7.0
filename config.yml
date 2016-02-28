@@ -12,6 +12,8 @@ SOCIAL:
   - name: Facebook
     icon: facebook
     link: 'https://www.facebook.com/freenode-366911233325305/'
+FOOTER:
+  !include config/footer.yml
 theme: templates
 output: out
 content-root: content

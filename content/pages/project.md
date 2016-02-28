@@ -1,3 +1,3 @@
-Title: The Philosophy
+Title: The Project
 template: soon.html
 ---

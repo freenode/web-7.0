@@ -1,0 +1,32 @@
+- heading: About freenode
+  links:
+    - name: The project
+      link: pages/project
+    - name: The people
+      link: pages/people
+    - name: The philosohy
+      link: pages/philosophy
+    - name: freenode live!
+      link: pages/live
+    - name: Acknowledgements
+      link: pages/acknowledgements
+- heading: Using freenode
+  links:
+    - name: Connect (webchat)
+      link: '//webchat.freenode.net'
+    - name: Channel guidelines
+      link: pages/changuide
+    - name: Catalyst guidelines
+      link: pages/cataguide
+    - name: Knowledge base
+      link: '#kb/index/kb'
+    - name: Supporting the project
+      link: pages/support
+- heading: Groups
+  links:
+    - name: Group registration
+      link: pages/groupreg
+    - name: Register as a group
+      link: '#'  #XXX  link to gms
+    - name: Existing groups
+      link: '#'  #XXX  gms integration

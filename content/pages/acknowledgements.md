@@ -1,3 +1,3 @@
-Title: The Philosophy
+Title: Acknowledgements
 template: soon.html
 ---

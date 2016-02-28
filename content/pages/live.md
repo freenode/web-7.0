@@ -1,3 +1,3 @@
-Title: The Philosophy
+Title: freenode live!
 template: soon.html
 ---
