@@ -150,6 +150,7 @@ hr {
 /* jumbotron */
 .jumbotron {
     position: relative;
+    z-index: 100;
     width: 100%;
     margin-top: -16px;
     background: var(--jumbotron-bg);
@@ -158,12 +159,18 @@ hr {
     padding: 2em 0;
 }
 
-.child {
+.tagline {
     text-align: center;
     margin: .5em auto;
     font-size: 32px;
     line-height: 48px;
     max-width: 75%;
+    margin-bottom: 2em;
+}
+
+img.icon {
+    display: block;
+    margin: 25px auto;
 }
 
 .box-container {
