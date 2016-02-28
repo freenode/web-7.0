@@ -32,9 +32,9 @@ modules:
     source: pages
     root: ''
   - name: 'faq'
-    source: faq
-    root: 'faq/answer'
-    index_root: 'faq'
+    source: kb
+    root: 'kb/answer'
+    index_root: 'kb'
     indexes:
       !include config/faq.yml
 resources:

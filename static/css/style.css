@@ -317,7 +317,7 @@ h1 {
 }
 
 /* faq */
-.faq-index {
+.kb-index {
     list-style-type: none;
     padding-left: 0;
     display: flex;
@@ -326,27 +326,27 @@ h1 {
     justify-content: stretch;
 }
 
-.faq-index li {
+.kb-index li {
     display: block;
     flex: 1 1 15em;
     height: 7em;
     margin: 1em;
 }
 
-.faq-index li h2 {
+.kb-index li h2 {
     margin-top: 0;
 }
 
-.faq-index a {
+.kb-index a {
     display: block;
     color: var(--text-color);
     width: 100%;
     height: 100%;
 }
-.faq-index a h2 {
+.kb-index a h2 {
     color: var(--link-color);
 }
-.faq-index a:hover h2 {
+.kb-index a:hover h2 {
     color: var(--link-hover-color);
 }
 

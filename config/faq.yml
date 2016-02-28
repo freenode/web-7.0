@@ -2,15 +2,15 @@ chat:
   title: 'Chat'
   cats: [connect]
   promote:
-    - name: faq/connect/chat
+    - name: kb/connect/chat
       caption: Chat
       icon: comment
-    - name: faq/connect/chat
-      caption: Chat
+    - name: kb/connect/chat
+      caption: chat
       icon: comment
-    - name: faq/connect/chat
+    - name: kb/connect/chat
       caption: Chat
       icon: comment
 tech:
-  title: 'Technical FAQ'
+  title: 'Technical'
   cats: []

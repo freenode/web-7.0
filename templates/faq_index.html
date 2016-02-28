@@ -18,11 +18,11 @@
 <div class="main">
 <h1>{{ index.title }}</h1>
 {% endif %}
-<ul class="faq-index">
+<ul class="kb-index">
     {%- for entry in index.entries -%}
     <li><a href="{{ entry.url }}">
         <h2>{{ entry.title }}</h2>
-        <span class="faq-description">text text text</span>
+        <span class="kb-description">text text text</span>
     </a></li>
     {%- endfor %}
 </ul>
