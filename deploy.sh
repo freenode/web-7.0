@@ -17,9 +17,9 @@ git clone -b gh-pages git@github.com:freenode/web-7.0.git .deploy || exit 1
 cd .deploy || exit 1
 git config user.name travis
 git config user.email travis@nowhere
+git rm -r "$BRANCH_DIR/*"
 mkdir -p "$BRANCH_DIR"
 cd "$BRANCH_DIR" || exit 1
-git rm '*'
 cp -r ../../out/* .
 git add -A
 git commit -m "travis: $TRAVIS_COMMIT"
