@@ -1,12 +1,13 @@
 Title: The People
 ---
-The freenode project is run entirely by volunteers. All of the current volunteers came to the project through involvement with one or more of the projects that use freenode. 
+The freenode project is run entirely by volunteers. All of the current volunteers came to the project through involvement with one or more of the projects that use freenode.
 
 The organisational structure of the freenode project can be split roughly into four areas, each with a designated lead.
+
 - **David McFarlane (mist)** is head of staff and in charge of day to day network operations and general staff issues.
 - **Bryan Østergaard (kloeri)** is head of infrastructure, in charge of making sure that the network continues to run in a usable fashion and that we have the right hardware and server platforms in place to provide the services we want.
 - **Stephen Bennett (spb)** is head of development, in charge of the software platforms that we use to run the network.
-- **Christel Dahlskjaer (christel)** is head of projects and communities and also the overall project lead in charge of the other three heads. 
+- **Christel Dahlskjaer (christel)** is head of projects and communities and also the overall project lead in charge of the other three heads.
 
 Together, these four take any decisions that affect the future direction of freenode. The project also benefits greatly from the ongoing support and enthusiasm from its contributors and volunteers, both official and unofficial, and is grateful for the time and efforts invested in the project by past and present volunteers.
 
