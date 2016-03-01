@@ -141,6 +141,11 @@ ul {
     list-style-type: disc;
 }
 
+ol {
+    padding-left: 2em;
+    list-style-type: decimal;
+}
+
 hr {
     margin-top: .8em;
     margin-bottom: .8em;
