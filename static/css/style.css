@@ -107,13 +107,13 @@ img {
 /* main */
 .container {
     width: 100%;
-    min-height: 98vh;
-    padding-bottom: 11.5rem;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 17rem;
 }
 
 .main {
-    margin: 0 auto;
-    margin-top: 3.75em;
+    margin: 2em auto;
     padding: 0 .75em;
     max-width: var(--max-width);
     line-height: 1.4;
@@ -155,7 +155,7 @@ hr {
 .jumbotron {
     position: relative;
     width: 100%;
-    margin-top: -16px;
+    margin-top: -50px;
     background: var(--jumbotron-bg);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
@@ -364,17 +364,16 @@ h1 {
 /* footer */
 .footers {
     /*min-height: 30vh;*/
-    margin-top: -11rem;
-    min-height: 11rem;
+    margin-top: -17rem;
+    min-height: 17rem;
 }
 
 .footer {
     background: var(--jumbotron-bg);
     color: var(--footer-text-color);
     width: 100%;
-    margin-top: 2vh;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
-    min-height: 9.5rem;
+    min-height: 15.5rem;
 
     padding: 3em 0;
 }
