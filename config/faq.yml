@@ -4,13 +4,13 @@ chat:
   promote:
     - name: kb/connect/chat
       caption: Chat
-      icon: comment
+      icon: comments
     - name: kb/connect/chat
       caption: chat
-      icon: comment
+      icon: comments
     - name: kb/connect/chat
       caption: Chat
-      icon: comment
+      icon: comments
 tech:
   title: 'Technical'
   cats: []
