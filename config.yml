@@ -24,7 +24,6 @@ modules:
     map:
       index: index.html
       archive: artlist.html
-      '404': 404.html
   - name: 'blog'
     id: 'news'
     source: news
