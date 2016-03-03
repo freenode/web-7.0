@@ -109,7 +109,7 @@ img {
     width: 100%;
     min-height: 100vh;
     padding-top: 50px;
-    padding-bottom: 17rem;
+    padding-bottom: 12.5rem;
 }
 
 .main {
@@ -159,7 +159,33 @@ hr {
     background: var(--jumbotron-bg);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
     color: var(--jumbotron-text-color);
-    padding: 8em 0 4em 0;
+    padding: 4em 0 4em 0;
+}
+
+.jindex {
+    z-index: 102;
+}
+
+.jlogo {
+    display: block;
+    margin: 25px auto;
+}
+
+.jpia {
+    position: absolute;
+    height: 40px;
+    right: 0; 
+    top: 0;
+    margin: 25px;
+}
+
+@media (--max-sm) {
+    .jlogo {
+        margin: 2em auto -2em auto;
+    }
+    .jumbotron {
+        padding-bottom: 2em;
+    }
 }
 
 .child {
@@ -266,7 +292,7 @@ h1 {
 }
 
 .art-info {
-    line-height: 2.1;
+    margin-top: 2.1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -364,8 +390,8 @@ h1 {
 /* footer */
 .footers {
     /*min-height: 30vh;*/
-    margin-top: -17rem;
-    min-height: 17rem;
+    margin-top: -12rem;
+    min-height: 12rem;
 }
 
 .footer {
@@ -373,8 +399,7 @@ h1 {
     color: var(--footer-text-color);
     width: 100%;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
-    min-height: 15.5rem;
-
+    min-height: 10.5rem;
     padding: 3em 0;
 }
 
@@ -394,7 +419,7 @@ h1 {
 }
 
 .footerchild:last-child {
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 .footer-push {
@@ -426,21 +451,44 @@ footer a:hover {
     padding-left: 30px;
 }
 
-@media (--max-md) {
+@media (--max-sm) {
     .footer-container {
         flex-direction: column;
     }
 
     .footer-push {
         margin-left: 0;
+        width: 100%;
     }
 
     .footerchild ul li:last-child {
         margin-bottom: .5em;
     }
 
+    .footer-push ul li:last-child {
+        margin-bottom: .1em;
+    }
+
     .hdn {
         display: none;
+    }
+    .footer {
+        padding: .5em 0;
+    }
+    .footer-push ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .footer-push ul li {
+        display: inline-block;
+        font-size: 12vw;
+    }
+    .footer-push ul li img {
+        height: 12vw;
     }
 }
 
