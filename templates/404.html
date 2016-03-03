@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% set title = "404" %}
+{% block content %}
+<div class="jumbotron">
+    <h2 class="child">Welcome to freenode&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
+    <div class="box-container">
+        <a class="box" href="{{ url_for("kb/index/chat") }}">
+            <i class="fa fa-comment fa-4x"></i>
+            <span>Chat</span>
+        </a>
+        <a class="box" href="#">
+            <i class="fa fa-users fa-4x"></i>
+            <span>Register a group</span>
+        </a>
+        <a class="box" href="{{ url_for("kb/index/tech") }}">
+            <i class="fa fa-question fa-4x"></i>
+            <span>FAQ</span>
+        </a>
+    </div>
+</div>
+<div class="main">
+    <div class="art-info">
+        <h1 class="art">404 - Not found</h1>
+    </div>
+    <div class="art-body">
+        <p>
+            Sorry, the staff ran away with this page.<br />
+            Try kindly asking them at <a href="irc://chat.freenode.net:6667/freenode">#freenode</a> to bring it back.
+        </p>
+        <p>
+            That didn't suit you apparently as you kept reading, but don't worry here's some steps you can take from here:
+            <ul>
+                <li><a onclick="window.history.back();">Go back to where you came from</a></li>
+                <li><a href="{{ url_for("index") }}">Go to the start page</a></li>
+                <li><a href="{{ url_for("kb/connect/chat") }}">Learn how to connect to freenode</a></li>
+                <li><a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">Use internet protection</a></li>
+            </ul>
+            Choose wisely, this choice is final.
+        </p>
+    </div>
+</div>
+{% endblock %}
