@@ -20,17 +20,17 @@
             {%- for link in config.SOCIAL %}
             <li>
                 <a href="{{ link.link }}" target="_blank">
-                    <i class="fa fa-{{ link.icon }} fa-fw"></i> {{ link.name }}</a>
+                    <i class="fa fa-{{ link.icon }} fa-fw"></i> <span class="hdn">{{ link.name }}</span></a>
             </li>
             {%- endfor %}
             <li>
                 <a href="{{ url_for("archive") }}"><i class="fa fa-rss fa-fw"></i>
-                News Archive</a>
+                <span class="hdn">News Archive</span></a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="PIA" height=
                 "14px" class="fa-fw" src="{{ url_for("static/img/logos/pia-robot-original.svg") }}">
-                Private Internet Access</a>
+                <span class="hdn">Private Internet Access</span></a>
             </li>
         </ul>
         </div>
