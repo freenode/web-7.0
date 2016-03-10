@@ -8,13 +8,13 @@
 {% macro nav(article) %}
 <div class="art-nav">
     {% if article.older -%}
-    <a href="{{ article.older.url }}">older</a>
+    <a href="{{ article.older.url }}">previous article</a>
     {%- else -%}
     <span></span>
     {%- endif -%}
-    <a href="{{ url_for("archive") }}">all</a>
+    <a href="{{ url_for("archive") }}">view archive</a>
     {%- if article.newer %}
-    <a href="{{ article.newer.url }}">newer</a>
+    <a href="{{ article.newer.url }}">next article</a>
     {%- else %}
     <span></span>
     {%- endif %}
