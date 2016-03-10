@@ -3,9 +3,7 @@
 {% import "artinfo.html" as artinfo %}
 {% block content %}
 <div class="jumbotron jindex">
-    <a href="{{ url_for("index") }}"><img alt="freenode" class="jlogo" src="{{ url_for("static/img/logos/coloured-alphabg.svg") }} "/></a>
-    <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private internet access" class="jpia" src="{{ url_for("static/img/logos/PIALogo_white.svg") }}"></a>
-    <h2 class="child">Welcome to freenode&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
+    <h2 class="child">Welcome to <img alt="freenode" class="tlogo" src="{{ url_for("static/img/logos/coloured-alphabg.svg") }}" />&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
     <div class="box-container">
         <a class="box" href="{{ url_for("kb/index/chat") }}">
             <i class="fa fa-comments fa-4x"></i>
