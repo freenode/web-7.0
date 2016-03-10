@@ -32,7 +32,7 @@
     --box-round:       10px;
 
     /* other */
-    --max-width:     600px;
+    --max-width:     1200px;
     --max-width-box: 800px;
     --margin-box-fa: 5px;
 }
@@ -123,7 +123,7 @@ img {
     margin: 2em auto;
     padding: 0 .75em;
     max-width: var(--max-width);
-    line-height: 1.4;
+    line-height: 1.8;
 }
 
 .main h1,
