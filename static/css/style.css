@@ -104,6 +104,13 @@ img {
     height: 40px;
 }
 
+.tlogo {
+    height: 40px;
+    margin-bottom: -9px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
 /* main */
 .container {
     width: 100%;
@@ -163,7 +170,7 @@ hr {
 }
 
 .jindex {
-    z-index: 102;
+    z-index: 99;
 }
 
 .jlogo {
