@@ -32,7 +32,7 @@
     --box-round:       10px;
 
     /* other */
-    --max-width:     1200px;
+    --max-width:     800px;
     --max-width-box: 800px;
     --margin-box-fa: 5px;
 }
@@ -121,7 +121,7 @@ img {
 
 .main {
     margin: 2em auto;
-    padding: 0 .75em;
+    padding: 0 1.75em;
     max-width: var(--max-width);
     line-height: 1.8;
 }
