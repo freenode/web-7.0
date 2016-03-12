@@ -7,34 +7,34 @@ While they may not always be visible to our userbase, we would like to send mass
 
 If you don't see your name on this page, and you should, please email us at <b>support at freenode dot net</b> and we'll be happy to add you to the page.
 
-<a href="http://osuosl.org/">Oregon State University Open Source Lab</a>
-<a href="http://www.gentoo.org/">Gentoo</a>
-<a href="http://developers.google.com/open-source/">Google Open Source Programming Office</a>
-<a href="http://www.gnu.org/">The GNU Project</a>
-<a href="http://www.acc.umu.se/">Umeå University ACC</a>
-<a href="http://www.ubuntu.com/">Ubuntu</a>
-<a href="http://www.kde.org/">The K Desktop Environment</a>
-<a href="http://www.freebsd.org/">FreeBSD</a>
-<a href="http://www.linux.org/">Linux Online</a>
-<a href="http://www.redhat.com/">Red Hat Software</a>
-<a href="http://www.ghostscript.com/">ghostscript.com</a>
-<a href="http://www.mcbans.com/">MCBans</a>
-<a href="http://www.vel.net/">Velocity Networks</a>
-<a href="http://www.a1.net/">ATnet</a>
-<a href="http://www.hispalinux.es/">HispaLiNUX</a>
-<a href="http://www.progsoc.uts.edu.au/">The Programmers' Society</a>
-<a href="http://www.rcs-rds.ro/">RCS &amp; RDS</a>
-<a href="http://www.choopa.com/">Choopa</a>
-<a href="http://www.ndchost.com/">NDC</a>
-<a href="http://www.probe-networks.de/">Probe Networks</a>
-<a href="http://www.team-cymru.org/">Team Cymru</a>
-<a href="http://www.exoware.net/">Exoware</a>
-<a href="http://www.gandi.net/">Gandi</a>
-<a href="http://www.uk2.net/vps-cloud-hosting/">VPS Cloud Hosting</a>
-<a href="https://www.privateinternetaccess.com/">Private Internet Access</a>
-<a href="https://www.skynet.lt/">Sky.net</a>
-<a href="https://www.cloudflare.com/">CloudFlare</a>
-<a href="http://www.hyperfilter.com/">HyperFilter</a>
-<a href="https://www.cubecraftgames.net/">Cubecraft Games</a>
-<a href="http://www.portlane.com/">Portlane IP services</a>
-<a href="https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring">CloudSigma IaaS Provider</a>
+[Oregon State University Open Source Lab](http://osuosl.org)
+[Gentoo](http://www.gentoo.org)
+[Google Open Source Programming Office](http://developers.google.com/open-source/)
+[GNU](http://www.gnu.org/)
+[Umeå University ACC](http://www.acc.umu.se/)
+[Ubuntu](http://www.ubuntu.com/)
+[KDE](http://www.kde.org/)
+[FreeBSD](http://www.freebsd.org/)
+[Linux Online](http://www.linux.org/)
+[Red Hat](http://www.redhat.com)
+[ghostscript.com](http://www.ghostscript.com/)
+[MCBans](http://www.mcbans.com/)
+[Velocity Networks](http://www.vel.net/)
+[ATnet](http://www.a1.net/)
+[HispaLiNUX](http://www.hispalinux.es/)
+[The Programmers' Society](http://www.progsoc.uts.edu.au/)
+[RCS &amp; RDS](http://www.rcs-rds.ro/)
+[Choopa](http://www.choopa.com/)
+[NDC](http://www.ndchost.com/)
+[Probe Networks](http://www.probe-networks.de/)
+[Team Cymru](http://www.team-cymru.org/)
+[Exoware](http://www.exoware.net/)
+[Gandi](http://www.gandi.net/)
+[VPS Cloud Hosting](http://www.uk2.net/vps-cloud-hosting/)
+[Private Internet Access](https://www.privateinternetaccess.com/)
+[Sky.net](https://www.skynet.lt/)
+[CloudFlare](https://www.cloudflare.com/)
+[HyperFilter](http://www.hyperfilter.com/)
+[Cubecraft Games](https://www.cubecraftgames.net/)
+[Portlane IP Services](http://www.portlane.com/)
+[CloudSigma IaaS Provider](https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring)
