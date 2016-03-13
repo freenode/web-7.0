@@ -7,6 +7,7 @@ While they may not always be visible to our userbase, we would like to send mass
 
 If you don't see your name on this page, and you should, please email us at <b>support at freenode dot net</b> and we'll be happy to add you to the page.
 
+[Bytemark](http://www.bytemark.co.uk)
 [Oregon State University Open Source Lab](http://osuosl.org)
 [Gentoo](http://www.gentoo.org)
 [Google Open Source Programming Office](http://developers.google.com/open-source/)
@@ -30,11 +31,11 @@ If you don't see your name on this page, and you should, please email us at <b>s
 [Team Cymru](http://www.team-cymru.org/)
 [Exoware](http://www.exoware.net/)
 [Gandi](http://www.gandi.net/)
-[VPS Cloud Hosting](http://www.uk2.net/vps-cloud-hosting/)
+[UK2](http://www.uk2.net/vps-cloud-hosting/)
 [Private Internet Access](https://www.privateinternetaccess.com/)
 [Sky.net](https://www.skynet.lt/)
 [CloudFlare](https://www.cloudflare.com/)
 [HyperFilter](http://www.hyperfilter.com/)
 [Cubecraft Games](https://www.cubecraftgames.net/)
 [Portlane IP Services](http://www.portlane.com/)
-[CloudSigma IaaS Provider](https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring)
+[CloudSigma](https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring)
