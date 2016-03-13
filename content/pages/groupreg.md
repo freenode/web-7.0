@@ -6,15 +6,15 @@ This page describes group registration and the use of the freenode group contact
 
 **Represents an official relationship between freenode and your project or organisation.**
     
->By registering your group, you're indicating that you are maintaining an official presence on the network. If your group is a legal entity, we want to make sure that management has approved your registration.
+> By registering your group, you're indicating that you are maintaining an official presence on the network. If your group is a legal entity, we want to make sure that management has approved your registration.
  
 **Requires no special type or level of participation.**
 
->You may maintain as little or as much control over your channels as desired. You may cloak your members, employees or participants, or not, as you decide. You may apply to sponsor a server if that's something you wish to do.
+> You may maintain as little or as much control over your channels as desired. You may cloak your members, employees or participants, or not, as you decide. You may apply to sponsor a server if that's something you wish to do.
 
 **Is accomplished by submitting one or more group registration forms via the Group Management System (GMS).**
    
->Group contacts represent your project or organisation when dealing with freenode volunteers. Forms may be submitted by the group contact or on behalf of that person ("proxy submittal") with his or her permission. The group verification process differs depending on the project structure.
+> Group contacts represent your project or organisation when dealing with freenode volunteers. Forms may be submitted by the group contact or on behalf of that person ("proxy submittal") with his or her permission. The group verification process differs depending on the project structure.
     
 
 ### Two types of group contacts exist for freenode:
