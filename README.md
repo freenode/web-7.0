@@ -102,7 +102,7 @@ generally its name is derived from the name of the *input*.
 
 cms7 can generate a relative URL to anything with a name from any page. This
 should always be preferred over manually writing links. To generate a relative
-link from a Markdown template, just link to a name:
+link from a Markdown document, just link to a name:
 
 ```markdown
 [A page about frogs](pages/frog)
