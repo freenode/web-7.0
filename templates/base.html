@@ -5,11 +5,11 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="theme-color" content="#292f2f">
+    <meta name="theme-color" content="#bd3e7f">
     <meta name="description" content="{{ config.DESCRIPTION }}">
     <link rel="icon" href="{{ url_for("static/img/logos/coloured-alphabg-sq-120.png") }}">
     <title>{% block title %}{{ title }} - {{ config.name }}{% endblock %}</title>
-    {%- for stylesheet in ['open-sans.css', 'font-awesome.css', 'style.css'] %}
+    {%- for stylesheet in ['open-sans.css', 'font-awesome.css', 'april.css'] %}
     <link href="{{ url_for("static/css/" + stylesheet) }}?{{ git_hash }}" rel="stylesheet">
     {%- endfor %}
 </head>
