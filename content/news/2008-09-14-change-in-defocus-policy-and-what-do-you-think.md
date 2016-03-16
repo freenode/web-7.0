@@ -1,7 +1,7 @@
 author: njan
 date: 2008-09-14 19:17:17+00:00
 slug: change-in-defocus-policy-and-what-do-you-think
-title: 'Change in #defocus policy - and what do you think?'
+title: Change in #defocus policy - and what do you think?
 category: community
 category: freenode
 category: philosophy

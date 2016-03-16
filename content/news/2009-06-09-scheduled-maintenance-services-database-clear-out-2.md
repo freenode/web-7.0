@@ -1,7 +1,7 @@
 author: christel
 date: 2009-06-09 09:43:51+00:00
 slug: scheduled-maintenance-services-database-clear-out-2
-title: '[Scheduled Maintenance] Services database clear-out.'
+title: [Scheduled Maintenance] Services database clear-out.
 category: infrastructure
 category: technical
 ---

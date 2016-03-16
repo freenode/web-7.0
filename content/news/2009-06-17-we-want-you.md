@@ -1,7 +1,7 @@
 author: christel
 date: 2009-06-17 09:39:25+00:00
 slug: we-want-you
-title: 'We want YOU! '
+title: We want YOU! 
 category: community
 category: different
 category: freenode

@@ -1,7 +1,7 @@
 author: christel
 date: 2006-02-20 05:38:01+00:00
 slug: good-morning-all
-title: '[Announcement] Group registration and fundraising.'
+title: [Announcement] Group registration and fundraising.
 category: community
 category: development
 category: freenode

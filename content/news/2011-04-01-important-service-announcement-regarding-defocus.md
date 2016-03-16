@@ -1,7 +1,7 @@
 author: RichiH
 date: 2011-04-01 00:01:08+00:00
 slug: important-service-announcement-regarding-defocus
-title: 'Important service announcement regarding #defocus'
+title: Important service announcement regarding #defocus
 ---
 As many of you are aware, [back in 2008](news/2008-09-14-change-in-defocus-policy-and-what-do-you-think) we changed our policy in #defocus and the method in which the channel works to require users have voice to speak. For the past few years we've been using a combination of manual action, scripts and bots to voice users as needed to control when and how and when they are voiced.
 

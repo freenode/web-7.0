@@ -1,7 +1,7 @@
 author: SportChick
 date: 2007-05-02 17:24:56+00:00
 slug: silence-is-golden-handling-trolls-and-spammers
-title: 'Silence is Golden: Handling trolls and spammers'
+title: Silence is Golden: Handling trolls and spammers
 category: community
 category: freenode
 category: philosophy

@@ -1,7 +1,7 @@
 author: christel
 date: 2006-09-16 10:47:55+00:00
 slug: announcement-rob-levin-has-passed-away
-title: '[Announcement] Rob Levin has passed away'
+title: [Announcement] Rob Levin has passed away
 category: community
 category: different
 category: freenode

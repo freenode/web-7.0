@@ -1,7 +1,7 @@
 author: christel
 date: 2005-12-22 01:10:59+00:00
 slug: good-morning-all-2
-title: '[Announcement] Network problems'
+title: [Announcement] Network problems
 ---
   Yesterday evening, freenode had network   problems related to the recent spambot infestation. Despite the recent   server patch, the underlying infestation continues and has created some   temporary resource issues. Several servers restarts ensued and network   staff rearranged the main server rotation to compensate for the problem.
 

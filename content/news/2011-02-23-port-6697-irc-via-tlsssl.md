@@ -1,7 +1,7 @@
 author: RichiH
 date: 2011-02-23 17:46:04+00:00
 slug: port-6697-irc-via-tlsssl
-title: 'Default port for IRC via TLS/SSL (hint: it''s 6697)'
+title: Default port for IRC via TLS/SSL (hint: it''s 6697)
 ---
 As some of you might be aware, there has been a push to ﻿﻿﻿[standardize](http://tools.ietf.org/html/draft-hartmann-default-port-for-irc-via-tls-ssl) on a common port for IRC via SSL/TLS. Same as you can reasonably expect any public ircd for plain text connections to listen on port 6667, you should be able to expect any public ircd for IRC via SSL/TLS to listen on port 6697.
 

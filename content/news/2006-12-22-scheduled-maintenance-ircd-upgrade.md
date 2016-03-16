@@ -1,7 +1,7 @@
 author: christel
 date: 2006-12-22 00:00:53+00:00
 slug: scheduled-maintenance-ircd-upgrade
-title: '[Scheduled Maintenance] IRCD upgrade.'
+title: [Scheduled Maintenance] IRCD upgrade.
 category: infrastructure
 category: technical
 ---

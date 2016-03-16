@@ -1,7 +1,7 @@
 author: SportChick
 date: 2009-01-30 19:41:25+00:00
 slug: the-beauty-of-freenode
-title: 'The Beauty of #freenode'
+title: The Beauty of #freenode
 ---
 #freenode channel, as it currently exists, is a veritable work of art - people who come to the channel are nearly always provided help or referred somewhere for the answer.  The really beautiful thing about #freenode, though, is that at least 50% of the help provided comes from network users (rather than freenode staff).
 

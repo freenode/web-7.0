@@ -1,7 +1,7 @@
 author: christel
 date: 2011-08-31 08:46:35+00:00
 slug: fixing-defocus
-title: 'Fixing #defocus'
+title: Fixing #defocus
 ---
 We want #defocus, the network social channel, to be a welcoming place for relaxed, easy conversation. Of late, we're seeing that staff are acting in a policing role more than we are able to take an active part in the flow of the channel. This is something of a circle, as the more we are seen to be police, the harder it is for us to achieve what we want with the channel.
 

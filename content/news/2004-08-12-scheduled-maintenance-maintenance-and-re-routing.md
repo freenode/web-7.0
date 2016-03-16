@@ -1,7 +1,7 @@
 author: christel
 date: 2004-08-12 19:52:26+00:00
 slug: scheduled-maintenance-maintenance-and-re-routing
-title: '[Scheduled Maintenance] Maintenance and Re-routing'
+title: [Scheduled Maintenance] Maintenance and Re-routing
 ---
 Hi, all.  Main rotation servers will be coming down for maintenance and rerouting on two occasions this month:
 

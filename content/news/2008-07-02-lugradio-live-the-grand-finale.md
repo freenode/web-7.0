@@ -1,7 +1,7 @@
 author: christel
 date: 2008-07-02 18:58:46+00:00
 slug: lugradio-live-the-grand-finale
-title: 'Lugradio Live: The grand finale'
+title: Lugradio Live: The grand finale
 category: community
 category: projects
 category: social

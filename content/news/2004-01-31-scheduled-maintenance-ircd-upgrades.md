@@ -1,7 +1,7 @@
 author: christel
 date: 2004-01-31 22:05:38+00:00
 slug: scheduled-maintenance-ircd-upgrades
-title: '[Scheduled Maintenance] IRCD Upgrades'
+title: [Scheduled Maintenance] IRCD Upgrades
 ---
 Hi all.  It's time again for an upgrade. In about 7 hours, at 05:00 UTC, we'll be upgrading the servers to  [dancer-ircd v1.0.34](http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/releases/dancer-ircd-1.0.34.tar.gz).  The upgrade process is likely to be fairly disruptive, as we are doing to be doing our best to get it done as quickly as possible. This time, we're hoping to get the IPv6 servers upgraded at the same time, rather than holding that upgrade till later.
 

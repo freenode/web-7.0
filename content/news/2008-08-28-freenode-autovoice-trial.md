@@ -1,7 +1,7 @@
 author: skenmy
 date: 2008-08-28 11:00:51+00:00
 slug: freenode-autovoice-trial
-title: '#freenode: Autovoice Trial'
+title: #freenode: Autovoice Trial
 category: community
 category: freenode
 ---

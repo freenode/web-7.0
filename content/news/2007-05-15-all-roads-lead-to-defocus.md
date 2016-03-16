@@ -1,7 +1,7 @@
 author: christel
 date: 2007-05-15 03:49:56+00:00
 slug: all-roads-lead-to-defocus
-title: 'All roads lead to #defocus'
+title: All roads lead to #defocus
 category: community
 category: freenode
 category: philosophy

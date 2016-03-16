@@ -1,7 +1,7 @@
 author: christel
 date: 2004-07-12 04:30:50+00:00
 slug: announcement-fundraising-update-scheduled-maintenance
-title: '[Announcement] Fundraising Update & Scheduled Maintenance'
+title: [Announcement] Fundraising Update & Scheduled Maintenance
 ---
 As you're probably aware, the March-July 2004 fundraiser for  [Peer-Directed Projects Center](http://freenode.net/pdpc.shtml)  is officially at a close.  We've met our fundraising goal, with donations totaling $18,119.42.  Thanks to our corporate sponsor  [Digium](http://www.digium.com/)  and to all of the users of freenode.  We appreciate your help!
 
