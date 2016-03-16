@@ -50,13 +50,13 @@
 </ul>
 <p>Note:  You can test the feature on most clients via <strong>/quote capab identify-msg</strong>.  Client software can use this information to highlight messages coming from non-identified users. This should normally be done by patching the client code or adding scripting or filtering, since the raw output of IDENTIFY-MSG is readable, but a bit messy.</p>
 <p>We recommend that you add an asterisk before the nick, and optionally either highlight or colourize the line in some appropriate fashion, if the user is not identified.  Examples follow:</p>
-<p><html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:fred></html:fred></html:body></html:html> I'm an identified user
+<p><fred></fred> I'm an identified user
 &lt;*fred&gt; I'm not an identified user</p>
-<p><html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:fred></html:fred></html:body></html:html> I'm an identified user
+<p><fred></fred> I'm an identified user
 <strong>    &lt;*fred&gt; I'm not an identified user</strong></p>
 <ul>
 <li>
-<p><strong>Join throttling (channel mode J).</strong> Format:  <strong>+J <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:frequency></html:frequency></html:body></html:html>,<html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:limit></html:limit></html:body></html:html></strong>.  Users may join this channel once every <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:frequency></html:frequency></html:body></html:html> seconds, with an initial burst and limit value of <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:limit></html:limit></html:body></html:html> users.</p>
+<p><strong>Join throttling (channel mode J).</strong> Format:  <strong>+J <frequency></frequency>,<limit></limit></strong>.  Users may join this channel once every <frequency></frequency> seconds, with an initial burst and limit value of <limit></limit> users.</p>
 </li>
 <li>
 <p><strong>Identified-only mode (channel mode r).</strong> With +r set, only users identified to services (user mode +e) can join the channel.</p>
