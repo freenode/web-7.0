@@ -36,6 +36,6 @@ modules:
     root: 'kb/answer'
     index_root: 'kb'
     indexes:
-      !include config/faq.yml
+      !include config/kb.yml
 resources:
   !include config/build.yml
