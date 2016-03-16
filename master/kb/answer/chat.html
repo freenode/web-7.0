@@ -24,22 +24,41 @@
 <div class="main">
     <h1>Connect</h1>
     <p class="art-ingress">
-        <p>To access the <html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body><html:span class="freenode"></html:span></html:body></html:html>freenode<html:html xmlns:html="http://www.w3.org/1999/xhtml"><html:head></html:head><html:body></html:body></html:html> IRC servers, you'll first
-need an IRC client.  Text clients include irssi, WeeChat, and ERC.  Graphical
-clients include XChat, Smuxi, and Quassel for Unix and GNU/Linux, and mIRC for
-Windows. There is also the <a href="//webchat.freenode.net">freenode webchat</a>.
-Packages for various IRC clients may be included on your operating system
-install CDs and links to web sites for the client software can be found
-<a href="http://www.irc.org/links.html">here</a>.</p>
-<p>Once you have a client, you'll need a server.  You can simply use
-<code>chat.freenode.net</code> to reach our main rotation of servers; or, you can find a
-more geographically-local server <a href="#">here</a>.</p>
-<p>After you've obtained your client and the name of a server, you may still need
-a bit of help in getting connected.  Take a look at this
-<a href="http://www.irchelp.org/irchelp/irctutorial.html">tutorial</a> or this <a href="http://www.irchelp.org/irchelp/ircprimer.html">IRC
-primer</a> on
-<a href="http://www.irchelp.org/">irchelp.org</a> which contains a variety of other useful
-information as well.</p>
+        <p>The freenode network can be accessed via the <a href="//webchat.freenode.net">freenode
+webchat</a> or using an IRC client such as irssi, WeeChat,
+ERC, HexChat, Smuxi, Quassel or mIRC to name but a few.</p>
+<p>You can connect to freenode by pointing your IRC client at <code>chat.freenode.net</code>.</p>
+<h2>Accessing freenode Via SSL</h2>
+<p>freenode provides SSL client access on all servers. If your client is not
+configured to verify SSL certificates, then you can simply connect, with SSL
+enabled, on port 6697, 7000 or 7070. Users connecting over SSL will be given
+user mode +Z, and <em>is using a secure connection</em> will appear in WHOIS (a 671
+numeric). Webchat users will not appear with +Z or the 671 numeric, even if
+they connect to webchat via SSL.</p>
+<p>If you wish to verify the server certificates on connection, some additional
+work may be required. First, ensure that your system has an up-to-date set of
+root CA certificates. On most linux distributions this will be in a package
+named something like ca-certificates. Many systems install these by default,
+but some do not (such as FreeBSD, on which the package you wish to install is
+ca_root_nss, and the cafile to use would be
+/usr/local/share/certs/ca-root-nss.crt). For most clients this should be
+sufficient. If not, you can download the required intermediate cert from
+<a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gandi</a> and the root cert from
+<a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">Instant
+SSL</a>.</p>
+<p>Those of you using irssi will find that it has some oddities in SSL certificate
+verification, and will not find the root certificates on its own. To work
+around this, use</p>
+<p><em>/connect -ssl_verify -ssl_capath /etc/ssl/certs chat.freenode.net 6697</em></p>
+<p>or on FreeBSD</p>
+<p><em>/connect -ssl_cafile /usr/local/share/certs/ca-root-nss.crt chat.freenode.net 6697</em></p>
+<p>Once you tell irssi where to find the root certificates, it should be able to
+verify the certificate correctly.</p>
+<p>Client SSL certificates are also supported, and may be used for identification
+to services via <a href="#">CertFP</a>. If you have connected with a client certificate,
+<em>has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</em>
+(showing your certificate's SHA1 fingerprint in place of <em>f1ecf46...</em>) will
+appear in WHOIS (a 276 numeric).</p>
     </p>
 </div>
 
