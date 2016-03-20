@@ -6,6 +6,8 @@
       link: pages/people
     - name: The philosophy
       link: pages/philosophy
+    - name: The policies
+      link: pages/policies
     - name: freenode live!
       link: pages/live
     - name: Acknowledgements
