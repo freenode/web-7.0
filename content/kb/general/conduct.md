@@ -1,6 +1,6 @@
 Title: General Expectations for Conduct
 ---
-In addition to the general [policies](pages/policy) governing behaviour when using freenode, we strongly encourage all participants to adopt the [channel
+In addition to the general [policies](pages/policies) governing behaviour when using freenode, we strongly encourage all participants to adopt the [channel
 guidelines](pages/changuide) and [philosophy](pages/philosophy) to help keep the network a friendly and productive place.
 
 In particular, we would urge all users to keep the following in mind:
