@@ -10,9 +10,9 @@ The freenode project needs solid, well-connected hidden hub and public leaf serv
 
 We appreciate your interest in helping the network grow and your willingness to contribute to that process. The freenode network is not a conventional IRC network. Servers are hosted, not linked. They are maintained remotely from central sites. New configuration files are generated via an automated script at a central location, and new servers are either staged as binary files or recompiled on the server account, depending on architecture and other factors.
 
-While we will happily acknowledge your contribution publicly, we don't, as a general rule, provide O-lines or operator privileges to our server hosts. Hosting candidates are reminded that the utility of any given server depends on ping latencies and other factors which may be beyond our control. Servers may need to be delinked or rehubbed at any time and we cannot always provide notice before a server is delinked.
+While we will happily acknowledge your contribution publicly, we do not, as a general rule, provide O-lines or operator privileges to our server hosts. Hosting candidates are reminded that the utility of any given server depends on ping latencies and other factors which may be beyond our control. Servers may need to be delinked or rehubbed at any time and we cannot always provide notice before a server is delinked.
 
-Regardless, hosting a server helps the freenode project and the communities and we are grateful that you're considering it.
+Regardless, hosting a server helps the freenode project and the communities and we are grateful that you are considering it.
 
 ### System Specifications
 
@@ -42,7 +42,7 @@ The following table lists minimum system requirements, and, where applicable des
 We manage and update software using a centralized configuration management, for which we will need root access.  We may create user(s) for the ircd, change core file limits, file descriptor limits, and other modifications as necessary to sustain IRC connections from thousands of users.  We also need servers for non-ircd roles.
 
 ### Other Requirements
-While the servers are configured and maintained by the freenode infrastructure team and we don't require active involvement from facilities sponsors for the day to day running of the network, we ask that:
+While the servers are configured and maintained by the freenode infrastructure team and we do not require active involvement from facilities sponsors for the day to day running of the network, we ask that:
 
 * Sponsors ensure that we have up-to-date contact information, on and offline
 * Sponsors stay subscribed to the freenode-sponsors mailing list (low traffic, announcements only)
@@ -55,7 +55,7 @@ Before applying to host a server, you may find it helpful to speak with network 
 * <b>Geographical location of the server</b> &mdash; City, principality and country. Include any "local colour" (nearby landmarks and sites) that seem pertinent.
 * <b>Hosting Entity</b> &mdash; Who should we credit for the server? Provide the name of organisation and URL as appropriate.
 * <b>Contact Information</b> &mdash; Please include names and email addresses of contacts, as well as telephone numbers, snail mail addresses and contact hours (including time zones).
-* <b>Hardware, Software, Bandwidth and Hosting</b> &mdash; Please describe the system you're offering for hosting. Please go into as much detail as possible, providing us with details of routing and NOC availability.
+* <b>Hardware, Software, Bandwidth and Hosting</b> &mdash; Please describe the system you are offering for hosting. Please go into as much detail as possible, providing us with details of routing and NOC availability.
 * <b>IP address</b> &mdash; this will allow us to perform latency and route checking.
 * <b>You and freenode</b> &mdash; please explain what makes you/your company want to provide hosting for freenode, and what, if anything, you wish to get back from sponsorship.
 * <b>Server Name Preference</b> &mdash; The server naming motif is "science fiction and fantasy authors". Vanity names may be provided, but canonical server names and standardised geographical names will be used exclusively by freenode. If you have preferred authors, let us know and we will try to honour your preference.
