@@ -1,16 +1,9 @@
 chat:
   title: 'Chat'
-  cats: [connect]
-  promote:
-    - name: kb/connect/chat
-      caption: Chat
-      icon: comments
-    - name: kb/connect/chat
-      caption: chat
-      icon: comments
-    - name: kb/connect/chat
-      caption: Chat
-      icon: comments
+  cats: [connect,general]
+all:
+  title: 'Knowledge Base'
+  cats: [connect,general,using]
 tech:
   title: 'Technical'
   cats: []
