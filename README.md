@@ -62,12 +62,12 @@ cms7 will document this process, but for now:
   `page.html`.
 - `content/news/` contains blog/news posts which are rendered in `out/news/`
   using `article.html`.
-- `content/faq/` contains FAQ categories: each directory `content/faq/X/`
-  has the entries for category `X`. These are rendered in `out/faq/answers/`
-  with `faq.html`.
+- `content/kb/` contains KB categories: each directory `content/kb/X/`
+  has the entries for category `X`. These are rendered in `out/kb/answers/`
+  with `kb.html`.
 
-  Indexes of these entries are rendered in `out/faq/` with `faq_index.html`,
-  according to a list in `config/faq.yml`.
+  Indexes of these entries are rendered in `out/kb/` with `kb_index.html`,
+  according to a list in `config/kb.yml`.
 
 
 ### Markdown metadata
@@ -97,8 +97,8 @@ generally its name is derived from the name of the *input*.
   relative to the repository root: `static/img/cat.jpg`.
 - Templates that are rendered from nothing (e.g. to make the index page) are
   named whatever the config file says to name them.
-- FAQ indexes are named `faq/index/X`, where X is the name of the index in
-  `config/faq.yml`.
+- KB indexes are named `kb/index/X`, where X is the name of the index in
+  `config/kb.yml`.
 
 cms7 can generate a relative URL to anything with a name from any page. This
 should always be preferred over manually writing links. To generate a relative
@@ -121,8 +121,8 @@ To do the same from a template, call `url_for`:
   - [x]  Design ready enough
   - [x] Preprocessor ready
   - [x] Templates ready enough
-  - [ ] Content ready
-- [ ] FAQ pages structure, start adding FAQ's (note: tagging could be a good thing for searching and finding)
+  - [x] Content ready
+- [x] KB pages structure, start adding KB's (note: tagging could be a good thing for searching and finding)
 - [ ] Add possibility to edit on-site integrated with services (log in with your nickserv acc)
 - [ ] Gms integration
 - [ ] Further development TODO: TODO
