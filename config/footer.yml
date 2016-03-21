@@ -21,7 +21,7 @@
     - name: Catalyst guidelines
       link: pages/cataguide
     - name: Knowledge base
-      link: '#kb/index/kb'
+      link: 'kb/index/all'
     - name: Supporting the project
       link: pages/support
 - heading: Groups
