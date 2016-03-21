@@ -16,5 +16,5 @@ as FreeBSD) do not.  For FreeBSD, the package is named ca_root_nss, which will i
  For most clients this should be sufficient. If not, you can download the required intermediate cert from [Gandi](http://crt.gandi.net/GandiStandardSSLCA.crt)
 and the root cert from [Instant SSL](http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt).
 
-Client SSL certificates are also supported, and may be used for identification to services via [CertFP](certfp/). If you have connected with a client certificate, _has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195_ (showing
+Client SSL certificates are also supported, and may be used for identification to services via [CertFP](#XXX). If you have connected with a client certificate, _has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195_ (showing
 your certificate's SHA1 fingerprint in place of _f1ecf46..._) will appear in WHOIS (a 276 numeric).

@@ -1,7 +1,7 @@
 Title: Nickname Registration
 ---
 Your nick is how people on freenode know you. If you register it, you'll be able to use the same nick over and over. If you don't register, someone else may end
-up registering the nick you want. If you register and use the same nick, people will begin to know you by reputation. 
+up registering the nick you want. If you register and use the same nick, people will begin to know you by reputation.
 
 If a channel is set to mode +r, you won't be able to join it unless you are registered and identified to NickServ. If you try to join, you might be forwarded to
 a different channel. If a channel is set to quiet unregistered users (mode `+q $~a`), you won't be able to speak while on that channel unless you are registered
@@ -31,9 +31,9 @@ staff will be happy to discuss it and answer any questions you may have.
 3.  It's useful, but not required, to have an alternate nick grouped to your account. For example, if your primary nick is foo:
 
         /nick foo_
-    
+
     then identify to your primary account:
-    
+
         /msg NickServ IDENTIFY foo password
 
     and finally, group the new nick to your account
@@ -55,14 +55,14 @@ Logging In
 
 You'll need to log in to your nickname each time you reconnect to freenode.
 
-The simplest, and most robust, way to do this is to configure [SASL](/kb/using/sasl), if your client supports it. If not, you can supply your login details, in
+The simplest, and most robust, way to do this is to configure [SASL](#XXXkb/using/sasl), if your client supports it. If not, you can supply your login details, in
 the form `<account>:<password>`, as a server password and they will be forwarded to NickServ when you finish connecting.
 
 Nickname Expiry
 ===============
 
 Registered nicknames and accounts will expire if they're not used for a long time, after which they'll be available for another user to take over. See our
-[policies](/pages/policies) for details of when this occurs.
+[policies](pages/policies) for details of when this occurs.
 
 While nicknames and accounts do not automatically get deleted when they expire -- only when another user requests to take over the registration -- we do
 occasionally perform clean-up runs on the services database, in which we will automatically drop all registrations which have been idle for a long time. When we
