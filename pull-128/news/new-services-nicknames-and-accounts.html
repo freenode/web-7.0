@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <title>New Services: Nicknames and Accounts - freenode</title>
+    <link href="../static/css/open-sans.css" rel="stylesheet">
+    <link href="../static/css/font-awesome.css" rel="stylesheet">
+    <link href="../static/css/freenode.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    
+<div class="art-info">
+    <a href="new-services-nicknames-and-accounts"><h1 class="art">New Services: Nicknames and Accounts</h1></a>
+    <span class="art-date">skenmy on 2008-05-31</span>
+</div>
+
+    <div class="art-body">
+    <p>We've noticed a lot of people who are confused (and rightly so!) about the new nickname system - particularly the way that nickname grouping has changed. Hopefully this blog post will clear some of it up.</p>
+<p><strong>Nicknames and Accounts</strong></p>
+<p>freenode now uses a system of ownership that is different to the old nicknames system. Now, when you register a <em>nickname</em> for the first time, that <em>nickname</em> becomes the primary <em>nickname</em> on your <em>account</em> (which has the same name). An example:</p>
+<blockquote>**User1** vists Freenode for the first time. She registers by using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ REGISTER myshinypass my@shiny.email</blockquote>
+&gt; 
+&gt; 
+**User1 **now has an _account_. freenode services have automatically assigned the _nickname_ **User1** to the _account_ **User1**. **User1** is now happy.</blockquote>
+
+<p>So, <em>nicknames</em> are now assigned to your <em>account</em>. But what does this actually mean, practically?</p>
+<p><strong>Identification</strong></p>
+<p>When you identify:</p>
+<blockquote> /msg NickServ IDENTIFY <password></password></blockquote>
+
+<p>freenode services will try and identify you to your <em>account</em>.  It does this by taking your <em>nickname</em>, and looking it up in the database - to find the <em>account</em> associated with it. Let's go back to User1 for a little demonstration:</p>
+<blockquote>**User1** returns to freenode. She identifies using the command:
+
+&gt; 
+&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully.</blockquote>
+
+<p>But what happens when you try and identify with a different nickname?</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She tries to identify using the command:
+
+&gt; 
+&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services tries to look up an account called **User12** (as this is her current nickname). This nickname is unregistered, and so does not have an account associated with it. The identification fails, and she is not logged in.</blockquote>
+
+<p>With the new accounts system, there is a command that allows you to identify to your account from any nickname!</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds.</blockquote>
+
+<p>However, this isn't ideal, as she is now logged in, but is using an unregistered <em>nickname</em>. She may want to consider GROUPing the <em>nickname</em>.</p>
+<p><strong>Grouping</strong></p>
+<p>With the new system, GROUP basically means to add another <em>nickname</em> to your <em>account</em>. <strong>User1</strong> is fed up of being connected as <strong>User12</strong> and using an unregistered <em>nickname</em>, so she has decided to GROUP the <em>nickname</em> to her existing <em>account</em>.</p>
+<p>There are two ways to go about this:</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds. She can now GROUP the _nickname_ (**User12**) to her _account_ (**User1**) by typing:
+
+&gt; 
+&gt; <blockquote>/msg NickServ GROUP</blockquote>
+&gt; 
+&gt; 
+The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+when connected as **User12**.</blockquote>
+
+<p>Or, she can do this:</p>
+<blockquote>**User1** connects to freenode. She identifies using the command:
+
+&gt; 
+&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully. She can now change her _nickname_:
+
+&gt; 
+&gt; <blockquote>/nick User12</blockquote>
+&gt; 
+&gt; 
+And GROUP her new _nickname_, as freenode services does not log her out of her _account_ when she changes _nickname_.
+
+&gt; 
+&gt; <blockquote>/msg NickServ GROUP</blockquote>
+&gt; 
+&gt; 
+The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+when connected as **User12**.</blockquote>
+
+<p><strong>Conclusion</strong></p>
+<p>So, to wrap up, freenode now allows you to register an account, to which you add nicknames as explained above. That's not an easy concept to grasp if you are used to the old system, and if you have any questions, feel free to drop into #freenode and ask away!</p>
+<blockquote></blockquote>
+    </div>
+    
+<div class="art-nav">
+    <a href="services-migration">previous article</a><a href="../archive">view archive</a>
+    <a href="who-are-freenode-staff-part-1-of">next article</a>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Connect (webchat)</a>
+            </li>
+            
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            
+            <li>
+                <a href="../cataguide">Catalyst guidelines</a>
+            </li>
+            
+            <li>
+                <a href="#kb/index/kb">Knowledge base</a>
+            </li>
+            
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            
+            <li>
+                <a href="#">Register as a group</a>
+            </li>
+            
+            <li>
+                <a href="#">Existing groups</a>
+            </li>
+            
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="PIA" height=
+                "14px" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
