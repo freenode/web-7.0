@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>Connect - freenode</title>
+    <title>Connecting to freenode - freenode</title>
     <link href="../../static/css/open-sans.css" rel="stylesheet">
     <link href="../../static/css/font-awesome.css" rel="stylesheet">
     <link href="../../static/css/freenode.css" rel="stylesheet">
@@ -22,43 +22,20 @@
     <div class="container">
         
 <div class="main">
-    <h1>Connect</h1>
+    <h1>Connecting to freenode</h1>
     <p class="art-ingress">
-        <p>The freenode network can be accessed via the <a href="//webchat.freenode.net">freenode
-webchat</a> or using an IRC client such as irssi, WeeChat,
-ERC, HexChat, Smuxi, Quassel or mIRC to name but a few.</p>
+        <p>The freenode network can be accessed via the <a href="//webchat.freenode.net">freenode webchat</a> or using an IRC client such as irssi, WeeChat, ERC, HexChat, Smuxi, Quassel or mIRC.</p>
 <p>You can connect to freenode by pointing your IRC client at <code>chat.freenode.net</code>.</p>
 <h2>Accessing freenode Via SSL</h2>
-<p>freenode provides SSL client access on all servers. If your client is not
-configured to verify SSL certificates, then you can simply connect, with SSL
-enabled, on port 6697, 7000 or 7070. Users connecting over SSL will be given
-user mode +Z, and <em>is using a secure connection</em> will appear in WHOIS (a 671
-numeric). Webchat users will not appear with +Z or the 671 numeric, even if
-they connect to webchat via SSL.</p>
-<p>If you wish to verify the server certificates on connection, some additional
-work may be required. First, ensure that your system has an up-to-date set of
-root CA certificates. On most linux distributions this will be in a package
-named something like ca-certificates. Many systems install these by default,
-but some do not (such as FreeBSD, on which the package you wish to install is
-ca_root_nss, and the cafile to use would be
-/usr/local/share/certs/ca-root-nss.crt). For most clients this should be
-sufficient. If not, you can download the required intermediate cert from
-<a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gandi</a> and the root cert from
-<a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">Instant
-SSL</a>.</p>
-<p>Those of you using irssi will find that it has some oddities in SSL certificate
-verification, and will not find the root certificates on its own. To work
-around this, use</p>
-<p><em>/connect -ssl_verify -ssl_capath /etc/ssl/certs chat.freenode.net 6697</em></p>
-<p>or on FreeBSD</p>
-<p><em>/connect -ssl_cafile /usr/local/share/certs/ca-root-nss.crt chat.freenode.net 6697</em></p>
-<p>Once you tell irssi where to find the root certificates, it should be able to
-verify the certificate correctly.</p>
-<p>Client SSL certificates are also supported, and may be used for identification
-to services via <a href="#">CertFP</a>. If you have connected with a client certificate,
-<em>has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</em>
-(showing your certificate's SHA1 fingerprint in place of <em>f1ecf46...</em>) will
-appear in WHOIS (a 276 numeric).</p>
+<p>freenode provides SSL client access on all servers, on ports 6697, 7000 and 7070. Users connecting over SSL will be given user mode +Z, and <em>is using a secure
+connection</em> will appear in WHOIS (a 671 numeric). Webchat users will not currently appear with +Z or the 671 numeric, even if they connect to webchat via SSL.</p>
+<p>In order to verify the server certificates on connection, some additional work may be required. First, ensure that your system has an up-to-date set of root CA
+certificates. On most linux distributions this will be in a package named something like ca-certificates. Many systems install these by default, but some (such
+as FreeBSD) do not.  For FreeBSD, the package is named ca_root_nss, which will install the appropriate root certificates in /usr/local/share/certs/ca-root-nss.crt.</p>
+<p>For most clients this should be sufficient. If not, you can download the required intermediate cert from <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gandi</a>
+and the root cert from <a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">Instant SSL</a>.</p>
+<p>Client SSL certificates are also supported, and may be used for identification to services via <a href="#XXX">CertFP</a>. If you have connected with a client certificate, <em>has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</em> (showing
+your certificate's SHA1 fingerprint in place of <em>f1ecf46...</em>) will appear in WHOIS (a 276 numeric).</p>
     </p>
 </div>
 
@@ -81,6 +58,10 @@ appear in WHOIS (a 276 numeric).</p>
             
             <li>
                 <a href="../../philosophy">The philosophy</a>
+            </li>
+            
+            <li>
+                <a href="../../policies">The policies</a>
             </li>
             
             <li>
