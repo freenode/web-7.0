@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FREENODE</title><link>FREENODE</link><description>FREENODE</description><lastBuildDate>Wed, 16 Mar 2016 13:46:23 -0000</lastBuildDate><item><title>Server hosting and trust</title><link>FREENODE</link><description>author: christel
+date: 2013-07-22 19:19:36+00:00
+slug: server-hosting-and-trust
+title: Server hosting and trust
+category: community
+category: different
+category: freenode
+category: infrastructure
+---
+For the purpose of disclosure we have had to make the difficult decision to discontinue a long-standing relationship with a server sponsor.
+
+As a freenode user you may be aware that our set-up is somewhat untraditional and differs from that of many other IRC networks; servers are sponsored by various companies and educational institutions across the globe and all our infrastructure is centrally managed by the freenode infrastructure team. Generally speaking we do not provide o:lines or other privileges to server sponsors. Whilst it is possible for a sponsor contact to also volunteer as a staffer on the network such recruitment is independent of any server hosting.
+
+Our staff are expected to work together closely and communication is key in any freenode relationship, be that with users, among staff or with sponsor contacts. It is important to us to be consistent in the way we provide support and apply policy and we expect all volunteers to be intimately familiar with our policies, procedures and philosophies -- which in turn means that senior staff invest a lot of time in ensuring that any new recruits are given adequate support when getting to know the ins and outs of the network and what being a freenode volunteer entails.
+
+Unfortunately one of our server sponsors added an o:line for themselves on the server they sponsored and whilst we do not believe that this was done with any malicious intent, more through thoughtlessness/negligence and having forgotten the expectations set out on our "Hosting a Server" page we feel that we are unable to comfortably and confidently continue the relationship.
+
+Our number one priority has to be our target communities, the Free and Open Source Software communities that have chosen to make use of freenode in their internet activities.
+
+Whilst we do not believe and have no evidence to indicate that any user traffic or data has been compromised, we would of course encourage you to change your passwords if you feel that this would make you more comfortable in continuing to use our services.
+
+We can only apologise for this happening and we'd like to assure you that trust is incredibly important to us and that we are incredibly embarassed that this situation arose in the first place.
+
+As a result of this we have just replaced our SSL certificates, so if you notice that these have changed then this is the reason why.
+
+We will of course take this opportunity to remind all our sponsors of our expectations when it comes to providing services to freenode and our target communities.
+
+Again, we apologise for any inconvenience and we hope that any loss of trust in the network that may have resulted from this incidence can be restored and that your projects will continue to feel comfortable using the network in future.
+
+
+
+
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator></item><item><title>'Reminder: Keep your NickServ email up to date.'</title><link>FREENODE</link><description>author: Pricey
+date: 2013-08-09 08:50:14+00:00
+slug: check-your-nickserv-email
+title: 'Reminder: Keep your NickServ email up to date.'
+---
+If you've registered with NickServ within the last few years then you'll have used an email address and we'll have sent you a mail to verify it. That will probably be the last time you heard from us...
+
+...until you forget your password and find yourself unable to identify to your account. When that happens we can send an email (only to that same address) to verify your identify and reset your password.
+
+You aren't stuck with the email you originally used though! We'd very strongly recommend you take 5 minutes to double check the set email address is current, especially in light of recent [service](http://www.theguardian.com/technology/2013/aug/08/lavabit-email-shut-down-edward-snowden) [closures](http://silentcircle.wordpress.com/2013/08/09/to-our-customers/). You don't need access to your old inbox to change your registered email, just your NickServ password.
+
+To view the current state of your account, while identified type:
+
+    
+    /msg nickserv info
+
+
+If you'd like to then change the registered email address, first...
+
+    
+    /msg nickserv set email youraddress@example.com
+
+
+... then check your email inbox. We'll have sent you another email with instructions to verify this new address.
+
+Your email address is hidden from other users by default. You can ensure this by setting:
+
+    
+    /msg nickserv set hidemail on
+
+
+Thanks for using freenode!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pricey</dc:creator></item><item><title>Turbulence</title><link>FREENODE</link><description>author: njan
+date: 2014-02-03 17:43:16+00:00
+slug: turbulence
+title: Turbulence
+---
+As many of you will be aware, freenode has been experiencing intermittent instability today, as the network has been under attack. Whilst we have network services back online, the network continues to be a little unreliable and users are continuing to report issues in connecting to the network.
+
+We appreciate the patience of our many wonderful users whilst we continue to work to mitigate the effects this has on the network.
+
+We also greatly appreciate our many sponsors who work with us to help minimise the impact and who are themselves affected by attacks against the network.
+
+We've [posted on this subject before](http://blog.freenode.net/2013/05/the-good-the-bad-and-the-ugly/), and what we said then remains as true as ever - and for those of you who didn't read the earlier blogpost first time round, it's definitely worth perusing it now if this subject interests or affects you.
+
+Thank you all for your patience as we continue to work to restore normal service!
+
+**[UPDATE 04/02/2014]**
+
+_At the moment SASL authentication works only on PLAINTEXT, *not* BLOWFISH. We've checked and TOR should be working too. Sadly wolfe.freenode.net will be taken off the rotation, so those users who've connected specifically to it, please make sure that your client points to our recommended roundrobin of chat.freenode.net!_
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">njan</dc:creator></item><item><title>+freenode</title><link>FREENODE</link><description>author: Pricey
+date: 2014-04-01 00:01:17+00:00
+slug: googleplusfreenode
+title: +freenode
+category: April 1st
+---
+UPDATE: This was of course an April Fool... you can "/msg nickserv set property GOOGLE+" to remove the property from your account. There might still be other secrets within the message though...
+
+![freenode4](static/img/freenode41.png)
+
+Edit: Previous versions of the post contained an incorrect NickServ command. We have corrected this and apologise for the inconvenience.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pricey</dc:creator></item><item><title>Heartbleed</title><link>FREENODE</link><description>author: Pricey
+date: 2014-04-15 18:52:05+00:00
+slug: heartbleed
+title: Heartbleed
+category: infrastructure
+category: security
+category: technical
+---
+The recently exposed [heartbleed bug](http://heartbleed.com/) in the OpenSSL library has surprised everyone with a [catastrophic](https://www.schneier.com/blog/archives/2014/04/heartbleed.html) vulnerability in many of the world's secure systems.
+
+In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.
+
+In an unrelated event, due to service disruption &amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.
+
+Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.
+
+
+
+	
+  * Though we are not aware of any evidence that we have been targeted, or our private key compromised, [this is inevitably a possibility](https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013). SSL sessions established prior to 2014/04/12 may be vulnerable. If your current connection was established prior to this date via ssl then you should** consider reconnecting to the network.
+**
+
+
+
+	
+  * **We would advise that users reset their password** (after reconnecting) using instructions returned by the following command:
+
+
+
+
+&lt;blockquote&gt;/msg nickserv help set password&lt;/blockquote&gt;
+
+
+
+
+This should help ensure that if your password was compromised through an exploitation of the Heartbleed vulnerability, the damage is limited.
+
+
+
+
+
+
+	
+  * In line with general best practice, we would always recommend using separate passwords on separate systems - if you shared your freenode services password with other systems, you should **change your password on all of these systems**; preferably into individual ones.
+
+
+
+	
+  * If you use CertFP, you should **regenerate your client certificate** ([instructions](http://freenode.net/certfp/makecert.shtml)) ****and ensure that you update NickServ with the new certificate hash. You can find out how to do this using the following command:
+
+
+
+
+&lt;blockquote&gt;/msg nickserv help cert&lt;/blockquote&gt;
+
+
+
+
+
+	
+  * Having changed passwords and/or certificate hashes, it cannot hurt to **verify your other authentication methods** (such as [email](http://blog.freenode.net/2013/08/check-your-nickserv-email/), ACCESS or CERT). It is possible you have additional access methods configured either from past use or (less likely) due to an account compromise.
+
+
+
+	
+  * At the recommendation of the Tor Project, we have regenerated private keys for our hidden services. [The new list of addresses is now available on our website](http://freenode.net/irc_servers.shtml#tor). **Please update your tor configuration!**
+
+
+
+	
+  * Finally, it is worth noting that although probably the least likely attack vector, [Heartbleed can also be used as client-side attack](https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013), i.e. if you are still running a vulnerable client a server could attack you. This could be a viable attack if, for instance, you connect to a malicious IRC server and freenode at the same time; hypothetically the malicious IRC server could then attack your client and steal your IRC password or other data. If affected, you should** ensure your OpenSSL install is updated and not vulnerable then restart your client**.
+
+
+As ever, staff are available in #freenode to respond to any questions or concerns.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pricey</dc:creator></item><item><title>April 1st 2014, Followup</title><link>FREENODE</link><description>author: yano
+date: 2014-04-26 18:05:01+00:00
+slug: april-1st-2014-followup
+title: April 1st 2014, Followup
+category: April 1st
+category: freenode
+---
+It's been almost too long for this blog post to arrive here after the April Fools quiz this year. Thanks to everyone who participated!
+  
+  
+
+The first ten people who completed the challenges are, in descending order of aprilness:
+  
+(times are listed in UTC)
+  
+  
+
+
+
+
+
+    
+  1. 2014-04-02T18:25:17 booto
+
+    2014-04-02T23:36:53 Fuchs *
+    
+  2. 2014-04-03T00:29:29 furry
+
+    
+  3. 2014-04-03T01:34:18 mniip
+
+    
+  4. 2014-04-03T09:41:38 jojo
+
+    
+  5. 2014-04-03T16:29:51 redi
+
+    
+  6. 2014-04-03T18:57:21 BlueShark
+
+    
+  7. 2014-04-04T15:33:24 larinadavid
+
+    
+  8. 2014-04-04T22:27:20 Omniflux
+
+    
+  9. 2014-04-04T23:02:19 apoc
+
+    
+  10. 2014-04-04T23:13:02 thommey
+
+
+  
+
+_(*) user opted out of any prizes_  
+
+There were 25 additional nicks who completed the quiz and made it to the winner's circle but weren't fast enough to place in the top 10.
+  
+  
+
+The prizes were cloaks for those in the top-10. In addition to the top-10 cloaks everyone else who finished the challenge that 'opted-in' were eligible for the _cloak lottery_. This was a lottery for 3 runnerup cloaks.
+  
+  
+
+Out of the 25 additional people that completed the challenge, the following 3 won a cloak through the cloak lottery:
+
+
+
+    
+  * skasturi
+
+    
+  * danielg4
+
+    
+  * jojoa1997
+
+
+
+  
+  
+
+Here are the riddles and their solutions, in the original order:
+  
+
+
+
+
+
+    
+  * Level 0
+        
+            
+    * The clue was given in the [April 1st blog post](http://blog.freenode.net/wp-content/uploads/2014/04/freenode41.png): _IyMjI3hrY2Q=_
+
+            
+    * That is the string `"####xkcd"` encoded using [base64](https://en.wikipedia.org/wiki/Base64).
+            
+    * The answer: **####xkcd**, which was the first channel in the quiz.
+
+        
+    
+
+
+    
+  * Level 1
+        
+            
+    * Clue: _Tnl2cHItbmFxLU9iby1qbnl4LXZhZ2Itbi1vbmU=_
+
+            
+    * This is a [rot13](https://en.wikipedia.org/wiki/ROT13)'ed and base64'ed string.
+
+            
+    * In [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29): `"Tnl2cHItbmFxLU9iby1qbnl4LXZhZ2Itbi1vbmU=".decode('base64').decode('rot13')`
+
+            
+    * The answer: **####Alice-and-Bob-walk-into-a-bar**
+
+        
+    
+
+
+    
+  * Level 2
+        
+            
+    * Clue: _MKWkpKMa_
+
+            
+    * This is another string that is encoded with a series of base64 and rot13 transformations.
+
+            
+    * In Python: `"MKWkpKMa".decode('rot13').decode('base64').decode('rot13')`
+
+            
+    * The answer: **####reddit**
+
+        
+    
+
+
+    
+  * Level 3
+        
+            
+    * Clue: _SHg5RkR4SUpIeHFGSnlXVUlJSVFJeHFKCg== | Save this for a later level: [https://i.imgur.com/87cX9y4.jpg](https://i.imgur.com/87cX9y4.jpg) | 4 decodes needed_
+
+            
+    * Yet another string encoded with a series of base64 and rot13 transformations.
+
+            
+    * In Python: `"SHg5RkR4SUpIeHFGSnlXVUlJSVFJeHFKCg==".decode('base64').decode('rot13').decode('base64').decode('rot13')`
+
+            
+    * This yields: EBEORIETEMETHHPITI
+
+            
+    * Contestants were expected to do a web search for this and find out it is the end of the [Zodiac Killer's infamous message](https://en.wikipedia.org/wiki/File:Zodiac_cipher.png).
+
+            
+    * The answer: **####zodiac**
+
+        
+    
+
+
+    
+  * Level 4
+        
+            
+    * Clue: _[https://i.imgur.com/x4nejBh.png](https://i.imgur.com/x4nejBh.png) | LaTeX right direction | [Google!](https://lmsptfy.com/?q=alternatives%20to%20Google%20searching) | No maths needed_
+
+            
+    * The topic changed several times as contestants seemed pretty stumped on this level, the topic line above was its final form.
+
+            
+    * The answer: **####exner** - this was expected from figuring out what the equation is. Simply put, the equation in the image is [Exner's Equation](https://en.wikipedia.org/wiki/File:PaolaExnerEqnRock.jpg).
+
+        
+    
+
+
+    
+  * Level 5
+        
+            
+    * Clue: _[https://i.imgur.com/SandvWX.gif](https://i.imgur.com/SandvWX.gif) | Save this for a later level: [https://i.imgur.com/QpTubts.jpg](https://i.imgur.com/QpTubts.jpg)_
+
+            
+    * This level was pretty tricky. This is an image that has more to it than meets the eye.
+
+            
+    * Steps for recovering useful information:
+                
+                    
+      * Un[zip](https://en.wikipedia.org/wiki/Zip_%28file_format%29) the [.gif](https://en.wikipedia.org/wiki/Graphics_Interchange_Format)
+
+                    
+      * Open the secret.txt file.
+
+                
+            
+
+            
+    * Inside secret.txt is: ####Kolmogorov
+
+            
+    * The answer: **####Kolmogorov**
+
+        
+    
+
+
+    
+  * Level 6
+        
+            
+    * Clue: _[https://www.dropbox.com/s/emz7xy3p9r2ivxe/wat.unknown](https://www.dropbox.com/s/emz7xy3p9r2ivxe/wat.unknown) (verify the file, sha256sum: 0efade1bb29d1b7fdd65e5612159e262cbd41a2e27ed89a0144701a5556da68f)_
+
+            
+    * This file is more stenography:
+                
+                    
+      * Use '[file](https://en.wikipedia.org/wiki/File_%28command%29)' to determine what the file type is.
+
+                    
+      * Un-[7zip](https://en.wikipedia.org/wiki/7-Zip) the .unknown file
+
+                    
+      * Base64 decode the output
+
+                    
+      * Use 'file' to determine that the output is a [.jpg](https://en.wikipedia.org/wiki/JPEG)
+
+                    
+      * Unzip the .jpg
+
+                    
+      * Un[tar](https://en.wikipedia.org/wiki/Tar_%28computing%29) two.tar.[gz](https://en.wikipedia.org/wiki/Gzip)
+
+                    
+      * Open the surprised.txt file.
+
+                
+            
+
+            
+    * The content of surprised.txt is: ####ImSoMetaEvenThisAcronym
+
+            
+    * The answer: **####ImSoMetaEvenThisAcronym**
+
+        
+    
+
+
+    
+  * Level 7
+        
+            
+    * Clue: _AQwPfPN1ZBXNfvNj4bPmVR4fVQYPfPNlZBXNfvNkAP4jZhXNflOS and "Da Vinci" | Jules Verne | s/.02/.03/ in the decrypted text
+_
+            
+    * The clue is base64'ed and rot13'ed. To decode it in Python: `print "AQwPfPN1ZBXNfvNj4bPmVR4fVQYPfPNlZBXNfvNkAP4jZhXNflOS".decode('rot13').decode('base64')`
+
+            
+    * This yields: 48° 50′ 0″ N, 2° 20′ 14.02″ E
+
+            
+    * These are GPS coordinates for the [Paris meridian](https://en.wikipedia.org/wiki/Paris_Meridian).
+
+            
+    * From this and the "Da Vinci" clue contestants were expected to find the [Wikipedia](https://www.wikipedia.org/) page about the [Rose Line](https://en.wikipedia.org/wiki/Rose_Line).
+
+            
+    * The specific quote that contestants were suppose to find: 
+    
+    "Dan Brown simply invented the 'Rose Line' linking Rosslyn and Glastonbury. The name 'Roslin' definitely does not derive from any 'hallowed Rose Line'. It has nothing to do with a 'Rose Bloodline' or a 'Rose Line meridian'. There are many medieval spellings of 'Rosslyn'. 'Roslin' is certainly not the 'original spelling': it is now the most common spelling for the village."[18]
+
+- [Source](https://en.wikipedia.org/wiki/Rose_Line#Dan_Brown.27s_The_Da_Vinci_Code)
+
+            
+    * The "Jules Verne" clue is suppose to reaffirm to contestants that they were on the right track: 
+    
+    The competition between the Paris and Greenwich meridians is a plot element in Jules Verne's "Twenty Thousand Leagues Under the Sea", published just before the international decision in favor of the British one.
+
+- [Source](https://en.wikipedia.org/wiki/Paris_Meridian#Origin)
+
+            
+    * The answer: **####roslin**
+
+        
+    
+
+
+    
+  * Level 8
+        
+            
+    * Original topic: Clue: _ZANKNMEPAXULMJCAGLKHKTOLUPSRDD | [https://i.imgur.com/6ayrOMq.png](https://i.imgur.com/6ayrOMq.png)_
+
+            
+    * New topic: _UIVXUJZIULMJCAGLKHKTOLUPSRDD | [https://i.imgur.com/6ayrOMq.png](https://i.imgur.com/6ayrOMq.png)_
+
+            
+    * The string in both topics is encoded with a [Four-square cipher](https://en.wikipedia.org/wiki/Four-square_cipher).
+
+            
+    * Here are two scripts that were built for Four-square:
+                
+                    
+      * encrypt, [http://git.io/Y6JIww](http://git.io/Y6JIww)
+
+                    
+      * decrypt, [http://git.io/CQuh8g](http://git.io/CQuh8g)
+
+                
+            
+
+            
+    * Using "IRC" and "xkcd" - the keys saved earlier, the text decrypts to: POVAROVOSOLNECHNOGORSKRUSSIA
+
+            
+    * Originally it was: ZELENOGRADSOLNECHNOGORSKRUSSIA
+
+            
+    * The answer: **####POVAROVOSOLNECHNOGORSKRUSSIA**
+
+        
+    
+
+
+    
+  * Level 9
+        
+            
+    * Clue: _ZCLVLLCOIUTKKJSCEKHHHSMKTOOPBA | OGUCSSGAPVGVLUMBTVOGICUNJDHSTB | RUTJJGNXUNTY | Letters that would repeat in a typical word do not repeat in the key(s), example 'freenode' would be 'frenod' | [https://i.imgur.com/pGIBjEE.png](https://i.imgur.com/pGIBjEE.png) | [http://is.gd/TgNsvm](http://is.gd/TgNsvm)_
+
+            
+    * Alright this one is really really really tricky. The topic changed _several_ times.
+
+            
+    * The three strings are encoded with [Four-square](https://en.wikipedia.org/wiki/Four-square_cipher) from the previous level with the same keys.
+
+            
+    * Contestants were expected to use 'UVB' and 'RUSSIA' as keys for the Four-square cipher.
+
+            
+    * It was expected that contestants arrive at 'UVB' from the channel name, ####POVAROVOSOLNECHNOGORSKRUSSIA
+
+            
+    * The former transmitter[27] was located near Povarovo, Russia[28] at 56°5′0″N 37°6′37″E which is about halfway between Zelenograd and Solnechnogorsk and 40 kilometres (25 mi) northwest of Moscow, near the village of Lozhki.
+
+- [Source](https://en.wikipedia.org/wiki/UVB-76#Location_and_function)
+
+            
+    * The is.gd link points to a file that has the "No Q" image from a previous level hidden in it.
+
+            
+    * The "RUTJJGNXUNTY" decrypts to [AaronHSwartz](https://en.wikipedia.org/wiki/Aaron_Swartz)
+
+            
+    * The answer: **####AaronHSwartz**
+
+        
+    
+
+
+    
+  * Level 10
+        
+            
+    * Clue: _HKGJSUOJVRLGSBELAUHOUIGLVRURWMGTUGJGWTKN_
+
+            
+    * Originally this channel (####AaronHSwartz) was suppose to be the winner's circle, however due to too many people leaking answers and channel names, one more challenge was added.
+
+            
+    * Same cipher as before, this time the keys were 'DEMAND' and 'PROGRESS'
+
+            
+    * [_Demand Progress_](http://www.demandprogress.org/) is an Internet activist-related organization specializing in petitions to help gain traction for legal movements against Internet censorship and related subjects, started by Aaron Swartz, [source](https://en.wikipedia.org/wiki/Demand_Progress).
+
+            
+    * The clue decrypts to JOINUSNOWANDSHARETHESOFTWAREWRITTENBYRMS
+
+            
+    * RMS is [Richard Matthew Stallman](https://en.wikipedia.org/wiki/Richard_Stallman), and [_'Join Us Now and Share the Software'_](https://www.gnu.org/music/free-software-song.html) is an openly licensed song by Richard Stallman.
+
+            
+    * The answer: **####JOINUSNOWANDSHARETHESOFTWAREWRITTENBYRMS**
+
+        
+    
+
+
+
+  
+  
+
+The topic in ####JOINUSNOWANDSHARETHESOFTWAREWRITTENBYRMS was: _Congratulations on solving the freenode's April Fools 2014 Crypto Challenge | Want MOAR? #ircpuzzles_
+  
+
+Congratulations to those who participated this year!
+  
+  
+  
+  
+
+The 25 additional people that completed the challenge:
+  
+
+
+
+
+    
+  * 2014-04-05T04:06:53 knivey
+
+    
+  * 2014-04-05T10:00:12 Tordek
+
+    
+  * 2014-04-05T15:40:50 jacob1 *
+
+    
+  * 2014-04-05T15:48:48 stac
+
+    
+  * 2014-04-05T16:24:01 Changaco *
+
+    
+  * 2014-04-05T17:30:01 Arch-TK *
+
+    
+  * 2014-04-05T17:35:05 ar *
+
+    
+  * 2014-04-05T18:16:20 Weetos *
+
+    
+  * 2014-04-05T18:38:39 nyuszika7h
+
+    
+  * 2014-04-05T18:56:26 vi[NLR]
+
+    
+  * 2014-04-05T19:06:38 tkd *
+
+    
+  * 2014-04-05T21:54:56 Chiyo
+
+    
+  * 2014-04-05T22:46:01 slidercrank
+
+    
+  * 2014-04-05T22:54:10 jojoa1997
+
+    
+  * 2014-04-06T00:55:51 Pixelz *
+
+    
+  * 2014-04-06T02:53:25 Transfusion
+
+    
+  * 2014-04-06T02:58:15 DonkeyHotei
+
+    
+  * 2014-04-06T03:04:01 sdamashek *
+
+    
+  * 2014-04-06T03:07:49 Cypi *
+
+    
+  * 2014-04-06T03:36:03 FXOR
+
+    
+  * 2014-04-06T13:44:35 pad
+
+    
+  * 2014-04-06T19:22:06 skasturi
+
+    
+  * 2014-04-06T19:37:13 Bloodhound
+
+    
+  * 2014-04-07T08:16:22 molly *
+
+    
+  * 2014-04-07T14:42:32 Bijan-E
+
+
+  
+
+_(*) user opted out of the cloak lottery_
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">yano</dc:creator></item><item><title>'New extban: $j'</title><link>FREENODE</link><description>author: Pricey
+date: 2014-06-18 15:54:08+00:00
+slug: new-extban-j
+title: 'New extban: $j'
+category: freenode
+category: infrastructure
+category: technical
+---
+We have loaded a new module on the network which provides the $j extban type:
+
+
+&lt;blockquote&gt;$j:&lt;chan&gt; - matches users who are or are not banned from a specified channel&lt;/blockquote&gt;
+
+
+As an example...
+
+
+&lt;blockquote&gt;/mode #here +b $j:#timbuktu&lt;/blockquote&gt;
+
+
+...would ban users from #here that are banned (+b) in #timbuktu.
+
+Please note that there are a couple of gotchas:
+
+
+
+	
+  * Only matching +b list entries are checked. Quiets (+q) Exemptions (+e) &amp; invexes (+I) are NOT then considered. As such, the following mode change would not alter the behaviour of the first example:
+
+
+
+
+&lt;blockquote&gt;/mode #timbuktu +e *!*@*&lt;/blockquote&gt;
+
+
+
+
+
+	
+  * Quiets and the quieting effect of bans may not immediately take effect on #here when #timbuktu's ban list changes due to caching by the ircd.
+
+	
+  * $j isn't recursive. Any $j extbans set in #timbuktu are ignored when matching in #here.
+
+
+We imagine you'll have some more useful use cases than the above.
+
+Thanks for flying freenode!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pricey</dc:creator></item><item><title>Server issues</title><link>FREENODE</link><description>author: mrmist
+date: 2014-09-13 14:47:51+00:00
+slug: server-issues-2
+title: Server issues
+---
+Earlier today the freenode infra team noticed an anomaly on a single IRC server. We have since identified that this was indicative of the server being compromised by an unknown third party. We immediately started an investigation to map the extent of the problem and located similar issues with several other machines and have taken those offline. For now, since network traffic may have been sniffed, we recommend that everyone change their NickServ password as a precaution.
+
+Before changing your password, please check your email address in /msg nickserv info and, if needed, update it - see /msg nickserv help set email (remember to check your new email for the verification key).  This will ensure that we can send you a password reset email should, for whatever reason, your password change not work properly. If you have no email set on your account or an email set that you cannot access, we cannot send password resets to you, so do please keep this up-to-date.
+
+To change your password use /msg nickserv set password newpasshere
+
+
+
+Since traffic may have been sniffed, you may also wish to consider any channel keys or similar secret information exchanged over the network.
+
+We'll issue more updates as WALLOPS and via social media!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mrmist</dc:creator></item><item><title>'Server Issues: Update'</title><link>FREENODE</link><description>author: Pricey
+date: 2014-10-15 21:27:44+00:00
+slug: server-issues-update
+title: 'Server Issues: Update'
+---
+Following up on our [previous blog post](http://blog.freenode.net/2014/09/server-issues-2/), we have continued to investigate the compromise of freenode infrastructure, aided by our sponsors in addition to experts in the field.
+
+NCC Group's Cyber Defence Operations team kindly provided pro bono digital forensic and reverse engineering services to assist our infrastructure team and have recently published a report with some of their findings:
+
+[https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/](https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/)
+
+NCC's support has been invaluable in aiding us in further securing our infrastructure, and we have already made significant changes to ensure that it is more resilient against further attacks. Our investigation into the compromise is ongoing and we will provide further updates as appropriate.
+
+In the mean time, if you haven't updated your password, we would advise you do so as some traffic may have been sniffed. Simply "/msg nickserv set password newpasshere" and don't forget to update your client's saved password.
+
+Whilst we endeavour to provide a robust service, it is worth bearing in mind that no computer system is ever perfectly secure and many are inevitably breached. For this reason we do not suggest relying entirely on freenode (or any infrastructure) to protect sensitive data, and encourage our users to take further steps (e.g. unique passwords per service, encryption) as part of a defence in depth strategy to safeguard it.
+
+We are extremely grateful to NCC in addition to our many other sponsors for their assistance and continued support. Without the ongoing support of our generous sponsors and wonderful infrastructure team, freenode would quite literally not have a network!
+
+We will be continuing to work with our sponsors in addition to other relevant authorities regarding this breach and any further incidents.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pricey</dc:creator></item><item><title>User-enabled sendpass</title><link>FREENODE</link><description>author: njan
+date: 2014-10-29 21:20:17+00:00
+slug: user-enabled-sendpass
+title: User-enabled sendpass
+category: freenode
+category: philosophy
+category: technical
+---
+As a network, we feel it is hugely important to maintain close relationships with our many communities and users. Our interactions with users in #freenode and elsewhere on the network, fielding support requests and assisting users, help build and maintain these relationships.
+
+But we're constantly looking for things to change and make better, and one of the pieces of feedback we've had is that users would like a little automation - and the ability to be able to resolve some of their own support requests.
+
+We recognise that allowing users to generate their own password reset e-mails brings us in line with other registration systems online and may provide a higher quality of service.
+
+So for now, if you are having difficulties accessing your account, you can generate your own password reset e-mail using the following command:
+
+    
+    /msg NickServ SENDPASS &lt;account&gt;
+
+
+This command will only work with an offline account (i.e. it won't work if a client is logged into your account via NickServ), and should obviously only be used on an account that you believe is yours.
+
+We will be keeping an eye on how this feature is used, and may retain it permanently if it proves to be helpful and non-harmful!
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">njan</dc:creator></item><item><title>Atheme 7.2 and freenode</title><link>FREENODE</link><description>author: tomaw
+date: 2014-11-08 23:18:51+00:00
+slug: atheme-7-2-and-freenode
+title: Atheme 7.2 and freenode
+---
+Hello!
+
+We've begun some testing on Atheme's latest release, 7.2, and we'd like to invite interested users to help with that.
+
+Not all changes the Atheme project has included in their new release will be included in our Atheme upgrade, so here's the bulk of the changes that will actually affect our network:
+
+
+
+	
+  * /msg NickServ DROP will require confirmations from the user similar
+to the ChanServ variant. This is to prevent people DROPping when they
+should be GHOSTing or similar.
+
+	
+  *  We've loaded two exttargets:
+
+	
+    * $registered to grant flags to all people who are identified to
+NickServ
+
+	
+    * $chanacs to grant flags to people who have flags in another
+channel. Please read /msg ChanServ HELP FLAGS for details on how they work.
+
+
+
+
+	
+  * The SASL mechanism DH-BLOWFISH has been removed. People using it
+can connect via SSL and use PLAIN or upgrade to ECDSA-NIST256P-CHALLENGE.
+Details of how to do so are [here](https://github.com/atheme/ecdsatool) and [our SASL page](https://freenode.net/sasl/) will be updated with the relevant documentation soonish.
+
+
+You should be able to connect to testnet at testnet.freenode.net Port 9002 for cleartext, and 9003 for SSL. Bear in mind, the database is a couple weeks old, so changes you've recently made on the production network may not be mirrored on the testnet network. Various amounts of staff should be idling in #freenode on testnet at all times, please feel free to poke us with any questions.
+
+Thanks!
+
+
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tomaw</dc:creator></item><item><title>Helping GNOME defend its trademark</title><link>FREENODE</link><description>author: christel
+date: 2014-11-11 10:49:11+00:00
+slug: helping-gnome-defend-its-trademark
+title: Helping GNOME defend its trademark
+category: community
+category: free software
+category: open source
+category: projects
+category: social
+---
+The GNOME project will be familiar to the vast majority of our users, what you might not be aware of is that the project is currently facing an expensive trademark battle against Groupon with the latter having allegedly chosen to infringe upon GNOME's trademark by launching a product with the same name (a POS "operating system for merchants to run their entire operation").
+
+I am not going to go into the details here, as they have been explained by the GNOME project over at [http://www.gnome.org/groupon/](http://www.gnome.org/groupon/) and the GNOME folk are in a much better position than me to provide more detailed information on the matter.
+
+What I am going to do is appeal for your help. The GNOME project is looking to raise $80,000 to cover the legal costs involved in defending their trademark. At the time of writing this post the freenode network has 89,998 connected users. Users who are passionate about FOSS.
+
+If each of us donated just ONE DOLLAR to the GNOME project they would cover the anticipated legal costs AND have some spare change leftover for a pint when the proceedings conclude.
+
+Even if you do not use GNOME, please consider helping them out. This is bigger than just GNOME and I think would be fantastic if the FOSS communities could drum together to support our own.
+
+If you head over to [http://www.gnome.org/groupon/](http://www.gnome.org/groupon/) you can make a donation directly via PayPal by clicking on the "Help us by donating today" button.
+
+Update: Due to the controversial nature of PayPal, GNOME is now also offering [ other ways to donate ](https://www.gnome.org/friends/other-ways-to-donate).
+
+Thank you!
+
+Update #2: According to the Groupon blog and [this article over at Engadget ](http://www.engadget.com/2014/11/11/groupon-gnome-foundation-trademark-war/)Groupon has issued the following statement: "Groupon is a strong and consistent supporter of the open source community, and our developers are active contributors to a number of open source projects. We've been communicating with the Foundation for months to try to come to a mutually satisfactory resolution, including alternative branding options, and we're happy to continue those conversations. Our relationship with the open source community is more important to us than a product name. And if we can't come up with a mutually acceptable solution, we'll be glad to look for another name."
+
+I am assuming that this means that the trademarks filed will be retracted and that the GNOME project can go about business as usual. I am certain they will be releasing a statement with further details before long.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator></item><item><title>Services database purge</title><link>FREENODE</link><description>author: mrmist
+date: 2015-09-18 08:58:13+00:00
+slug: services-database-purge
+title: Services database purge
+category: freenode
+category: infrastructure
+tag: expiry
+tag: nicks
+---
+On or around Friday, October 2nd, we shall be cleaning up the services database.  This involves the bulk removal of expired nicks, channels and accounts.
+
+Therefore, please remember to identify to services when you connect ( /msg nickserv help identify ) and to use your grouped nicks whilst identified - remember, they all expire separately.  
+
+Nicks that are past the expiry threshold of 120 days unidentified on October 2nd will be freed from the database and available for others to register.
+
+If you have a nick grouped to your account that you'd prefer to use as your main nick, you can change your account name - see /msg nickserv help set accountname  for information.
+
+Remember you can use sendpass to recover lost passwords - see /msg nickserv help sendpass.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mrmist</dc:creator></item><item><title>The New Policies</title><link>FREENODE</link><description>author: spb
+date: 2016-02-19 13:11:52+00:00
+slug: the-new-policies
+title: The New Policies
+---
+One of the several problems that's become obvious in recent times is that we  have too many policies, they're often not consistent with each other, and we've spent too much time and effort wondering whether something, which is obviously the right thing to do, fits with our published policy. With that in mind, the following stripped-back set of policies will apply in future, with the intention that we can set out a simple set of baselines and apply common sense on top of them.
+
+**Nickname ownership**
+
+Nicknames are allocated on a first-come, first-served basis, to the first person
+who registers the name with NickServ. However, we expect users to act in good
+faith and reserve the right to remove a nickname registration where we believe
+that this has not been the case.
+**Nickname and account registrations expire ten weeks after they are last used.
+For nicknames, 'used' means that you were using the nickname while logged in to
+the account which owns it. For accounts, 'used' means that you logged in to the
+account, regardless of the nickname you used to do so. Nicknames which are the
+primary account name only expire when the entire account is expired.**
+In some cases, such as for very old accounts, we may, at our discretion, extend
+the expiry time of a nickname or account. We will not normally do this beyond 15
+weeks past the last use.
+
+Some nicknames and accounts, including but not limited to some of those owned by
+current or former network staff, do not expire at all. These accounts can be
+identified by the 'Hold' flag in their NickServ info output.
+
+Nicknames and accounts which are expired will not automatically be dropped.
+Please contact network staff if you would like to take over an expired nickname.
+
+**Channel ownership**
+
+Channels on freenode fall into one of two categories. Primary channels, which
+begin with a single # character, are reserved for on-topic projects. If you'd
+like to take over one of these channels, then you'll need to be associated in
+some way with the project in question. Topical, or 'about' channels, begin with
+two # characters, and these are allocated on a first-come, first-served basis to
+the first person who registers it with ChanServ. As with nicknames, however, we
+reserve the right to remove or alter registrations where we believe they have
+not been made in good faith.
+
+Primary channels do not expire with inactivity, though they can be claimed at
+any time by a representative of an on-topic project with the appropriate name.
+Topical channels expire after 60 days in which no user on the access list for
+the channel has joined it.
+
+**On-topic Use**
+
+freenode's primary goal is to encourage and foster the development and use of
+free and open source software projects and other peer-directed communities
+producing broadly licensed creative output. Any project falling under this broad
+description is likely to be considered on-topic for the purposes of primary
+channel naming and other project services which we may provide, but individual
+decisions may be made at the discretion of staff.
+
+**Off-topic Use**
+
+We expect all users of the network, whether affiliated with a project or not, to
+act in good faith and in accordance with both their local laws and those
+applicable where freenode operates. Use of freenode and its facilities is a
+privilege, not a right, and may be withdrawn where we believe that this has not
+been the case.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator></item><item><title>Recent Events and Future Changes</title><link>FREENODE</link><description>author: spb
+date: 2016-02-19 13:11:54+00:00
+slug: recent-events-and-future-changes
+title: Recent Events and Future Changes
+---
+Many of you have been asking questions about the recent rash of high-profile
+staff resignations, and we feel we owe you all both an explanation and an
+apology.
+
+First, the explanation: in short, it's become clear over recent months that
+freenode has lost its way somewhat, when compared to the ideals and goals that
+we were created with. A growing sense of disillusionment amongst those of us who
+remember the olden days, when we were far more friendly, approachable and
+engaged in the communities we were set up to serve, has recently come to a head.
+Naturally, when some of these people decided they could no longer continue with
+the way things had become, it was time for us to think long and hard about what
+had gone wrong and what we should do about it.
+
+And so, to the apology. We're uncomfortably aware that freenode was set up with
+the strong idea that the projects and communities which use it should be the
+first, and often the only, priority. We've lost sight of that, and we're sorry.
+We'll be doing our best, from now on, to get back in touch with the ideals that
+made freenode such a great place.
+
+This won't be easy for us, as we've got years of bad habits to break, but
+hopefully you should start seeing some improvements in the coming months. If you
+see anything that we're not doing that would help your communities, please tell
+us and we'll try our best to find a way to make it happen. You might see a bit
+of chaos or inconsistency while we try to find our way around again, but please
+try to bear with us and we hope you'll see things get better in time.
+
+And finally, because we're conscious that a lack of clarity around our
+leadership structure has not helped matters, we've decided to set out
+unambiguously how the staff management structure will work from now on. Our
+activities and operations will be split roughly into four areas, each with a
+designated lead.
+
+
+
+	
+  * mist is head of staff, and in charge of day to day network operations and general staff issues.
+
+	
+  * kloeri is head of infrastructure, in charge of making sure that the network continues to run in a usable fashion and that we have the right hardware and server platforms in place to provide the services we want to.
+
+	
+  * spb is head of development, in charge of the software platforms that we use to run the network.
+
+	
+  * christel is head of projects and communities, and also the overall project lead in charge of the other three heads. She'll be trying to make sure that we get back the levels of engagement that we once had with the projects we're here to serve.
+
+
+These four, together, will take any decisions that affect the future direction
+of freenode. While they each have their own area of focus, feel free to contact
+any of us about any issues you may have -- we try to keep an open (virtual) door
+policy.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator></item></channel></rss>
