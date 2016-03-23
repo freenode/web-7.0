@@ -116,7 +116,7 @@ img {
     width: 100%;
     min-height: 100vh;
     padding-top: 50px;
-    padding-bottom: 12.5rem;
+    padding-bottom: 17.5rem;
 }
 
 .main {
@@ -181,7 +181,7 @@ hr {
 .jpia {
     position: absolute;
     height: 40px;
-    right: 0; 
+    right: 0;
     top: 0;
     margin: 25px;
 }
@@ -397,8 +397,8 @@ h1 {
 /* footer */
 .footers {
     /*min-height: 30vh;*/
-    margin-top: -12rem;
-    min-height: 12rem;
+    margin-top: -17rem;
+    min-height: 17rem;
 }
 
 .footer {
@@ -406,7 +406,7 @@ h1 {
     color: var(--footer-text-color);
     width: 100%;
     box-shadow: 0 -3px 5px rgba(150,150,150,.36);
-    min-height: 10.5rem;
+    min-height: 15.4rem;
     padding: 3em 0;
 }
 
@@ -519,15 +519,15 @@ footer.copyright {
 footer.copyright div {
     display: flex;
     align-items: center;
-    height: 1.5rem;
-    line-height: 1.5rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
     vertical-align: top;
 }
 
 .copyright * {
     margin: 0;
-    height: 1.5rem;
-    line-height: 1.5rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
 }
 
 .copyright .fa {
