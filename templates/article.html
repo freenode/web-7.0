@@ -3,7 +3,9 @@
 {% set title=article.title %}
 {% block content %}
 <div class="main">
-    {{ artinfo.info(article) }}
+    <div class="art-info">
+        {{ artinfo.info(article) }}
+    </div>
     <div class="art-body">
     {{ article.render() }}
     </div>

@@ -21,7 +21,7 @@
 </div>
 <div class="main">
     {% with article = get_module("news").articles[-1] %}
-    {{ artinfo.info(article) }}
+    <div class="art-info">{{ artinfo.info(article) }}</div>
     <div class="art-body">{{ article.render() }}</div>
     <div class="art-nav">
         <span></span>

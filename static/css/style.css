@@ -130,7 +130,7 @@ img {
 .main h2,
 .main h3,
 .main h4,
-.main li,
+.main li:not(.artlist *),
 .main pre,
 .main p {
     margin-top: .7em;
@@ -298,8 +298,11 @@ h1 {
     margin: 0;
 }
 
+ul.artlist {
+    list-style-type: none;
+}
+
 .art-info {
-    margin-top: 2.1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -328,8 +331,13 @@ h1 {
     padding: 0 0.75em;
 }
 
-.artlist .art-info:not(:first-child) {
+.artlist li:not(:first-child) {
     border-top: 1px solid var(--border-color);
+}
+
+.art-info .art {
+    font-weight: bold;
+    font-size: 120%;
 }
 
 .art-date {
@@ -342,10 +350,15 @@ h1 {
     font-variant-numeric: tabular-nums;
 }
 
+.artlist .art-date {
+    margin-bottom: .5em;
+}
+
 .art-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-basis: 30%;
     width: 100%;
 }
 

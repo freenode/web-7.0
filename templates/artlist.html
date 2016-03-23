@@ -5,9 +5,9 @@
 <div class="artlist heading">
     <h1>Blog Archive</h1>
 </div>
-<div class="artlist main">
+<ul class="artlist main">
 {% for article in get_module("news").articles|reverse %}
-    {{ artinfo.info(article, "b") }}
+    <li class="art-info">{{ artinfo.info(article, "span") }}</li>
 {% endfor %}
-</div>
+</ul>
 {% endblock content %}
