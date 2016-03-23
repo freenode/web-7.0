@@ -423,6 +423,10 @@ ul.artlist {
     padding: 3em 0;
 }
 
+.footer .fa-fw {
+    height: 14px;
+}
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
