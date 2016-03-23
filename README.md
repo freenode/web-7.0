@@ -43,7 +43,7 @@ result in by navigating to
 `https://github.com/freenode/web-7.0/tree/pull/XYZ/merge`, where `XYZ` is the
 pull request number.
 
-You can also go to `https://freenode.github.io/web-7.0/BRANCHNAME/` to see a
+You can also go to `https://freenode.net/web-7.0/BRANCHNAME/` to see a
 build of any particular branch. This also works for *internal* pull requests
 (they are named `pull-X`).
 
@@ -113,16 +113,3 @@ To do the same from a template, call `url_for`:
 ```html+jinja
 <a href="{{ url_for('pages/frog') }}">A page about frogs</a>
 ```
-
-
-## TODO
-- [ ] Get the basic static page up, and how to connect (latest two news about
-  the reformation + about page, kinda) scheduled release: 2016-02-29
-  - [x]  Design ready enough
-  - [x] Preprocessor ready
-  - [x] Templates ready enough
-  - [x] Content ready
-- [x] KB pages structure, start adding KB's (note: tagging could be a good thing for searching and finding)
-- [ ] Add possibility to edit on-site integrated with services (log in with your nickserv acc)
-- [ ] Gms integration
-- [ ] Further development TODO: TODO
