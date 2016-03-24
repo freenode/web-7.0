@@ -5,9 +5,21 @@
         <h2>{{ footer.heading }}</h2>
         <ul>
             {% for link in footer.links %}
+            {%- if link is mapping %}
             <li>
                 <a href="{{ url_for(link.link, ignore_absolute=True) }}">{{ link.name }}</a>
             </li>
+            {%- else %}
+            <li>
+                {% for item in link %}
+                {% if item.link is defined %}
+                    <a href="{{ url_for(item.link, ignore_absolute=True) }}">{{ item.name }}</a>
+                {% else %}
+                    {{ item.name }}
+                {% endif %}
+                {% endfor %}
+            </li>
+            {%- endif -%}
             {% endfor %}
         </ul>
     </div>

@@ -14,8 +14,13 @@
       link: pages/acknowledgements
 - heading: Using freenode
   links:
-    - name: Connect (webchat)
-      link: '//webchat.freenode.net'
+    -
+      - name: Connect
+        link: 'ircs://chat.freenode.net:6697'
+      - name: (insecure)
+        link: 'irc://chat.freenode.net:6667'
+      - name: (webchat)
+        link: '//webchat.freenode.net'
     - name: Channel guidelines
       link: pages/changuide
     - name: Catalyst guidelines
