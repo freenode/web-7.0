@@ -18,10 +18,10 @@ Regardless, hosting a server helps the freenode project and the communities and 
 
 The following table lists minimum system requirements, and, where applicable desired specifications.
 
-<table style="background-color: #e6e6e6; border: 1px solid black">
+<table>
 <tr>
-<th style="width: 50%; background-color: #cdcdcd">Required</th>
-<th style="width: 50%; background-color: #cdcdcd">Desired</th>
+<th>Required</th>
+<th>Desired</th>
 </tr>
 <tr>
 <td>Pentium 4 or better dedicated server</td>
