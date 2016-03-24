@@ -2,12 +2,14 @@
 {% extends "base.html" %}
 {% set title = "archive" %}
 {% block content %}
-<div class="artlist heading">
+<div class="artlist main">
+<div class="heading">
     <h1>Blog Archive</h1>
 </div>
-<ul class="artlist main">
+<ul>
 {% for article in get_module("news").articles|reverse %}
     <li class="art-info">{{ artinfo.info(article, "span") }}</li>
 {% endfor %}
 </ul>
+</div>
 {% endblock content %}
