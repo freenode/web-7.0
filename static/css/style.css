@@ -89,7 +89,7 @@ img {
     padding-right: 5px;
 }
 
-@media (--max-sm); {
+@media (--max-sm) {
     .navbar {
         position: absolute;
     }
