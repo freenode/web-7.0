@@ -499,6 +499,9 @@ footer a:hover {
     .footer {
         padding: .5em 0;
     }
+    .footer li a {
+        line-height: 1.8;
+    }
     .footer-push ul {
         display: flex;
         flex-wrap: wrap;
@@ -509,10 +512,11 @@ footer a:hover {
     }
     .footer-push ul li {
         display: inline-block;
-        font-size: 12vw;
+        font-size: 2.5rem;
     }
-    .footer-push ul li img {
-        height: 12vw;
+    .footerchild ul li img,
+    .footerchild ul li .fa-fw {
+        height: 2.5rem;
     }
 }
 
