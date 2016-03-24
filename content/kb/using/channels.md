@@ -21,7 +21,7 @@ correcntly display that information to you, so it's useful to be able to check f
 *  Check whether mode `+j` is set. This is a join throttle, which prevents lots of users from joining in a short period of time. If this is the case, it might be worth trying again after a minute or two, to see whether the join throttle is the reason.
 *  If you are logged in to services, check the channel ban list -- you can do this using `/mode #channel b`.
 
-If you've not been in the channel in question recently, it's possible that you're affected by a wide-ranging ban, so pay attention to any bans that include `*` or `?` wildcards. Bans that begin with a `$` sign are extended ban types; you can see more information about these by sending the `HELP EXTBAN` command on IRC.
+If you've not been in the channel in question recently, it's possible that you're affected by a wide-ranging ban, so pay attention to any bans that include `*` or `?` wildcards. Bans that begin with a `$` sign are extended ban types; you can see more information about these by sending the `/quote HELP EXTBAN` command on IRC.
 
 If you find a ban which matches you but you feel wasn't intended to keep you out, then talk to one of the channel operators to see about having it removed.
 You can find a list of channel operators via the `/msg ChanServ ACCESS #channel LIST` command.
