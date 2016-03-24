@@ -130,10 +130,14 @@ img {
 .main h2,
 .main h3,
 .main h4,
-.main li:not(.artlist *),
+.main li,
 .main pre,
 .main p {
     margin-top: .7em;
+}
+
+.artlist li {
+    margin-top: 0;
 }
 
 .main h1 + p,
