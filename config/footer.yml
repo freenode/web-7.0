@@ -14,14 +14,14 @@
       link: pages/acknowledgements
 - heading: Using freenode
   links:
-    -
-      - name: Connect with SSL
-        link: 'ircs://chat.freenode.net:6697'
-      - name: '/'
-      - name: without SSL
-        link: 'irc://chat.freenode.net:6667'
     - name: Webchat
       link: '//webchat.freenode.net'
+    -
+      - name: 'chat.freenode.net:6697'
+        link: 'ircs://chat.freenode.net:6697'
+      - name: '/'
+      - name: 'non-SSL: 6667'
+        link: 'irc://chat.freenode.net:6667'
     - name: Channel guidelines
       link: pages/changuide
     - name: Catalyst guidelines
