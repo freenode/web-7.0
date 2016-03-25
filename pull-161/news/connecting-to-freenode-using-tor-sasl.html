@@ -9,14 +9,15 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Connecting to freenode using Tor: SASL - freenode</title>
-    <link href="../static/css/open-sans.css?a755c6d" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?a755c6d" rel="stylesheet">
-    <link href="../static/css/style.css?a755c6d" rel="stylesheet">
+    <link href="../static/css/open-sans.css?4173d46" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?4173d46" rel="stylesheet">
+    <link href="../static/css/style.css?4173d46" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private internet access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <a class="invisible" href="#navigation">Jump to navigation</a>
     </nav>
     <div class="container">
         
@@ -41,12 +42,12 @@
 </li>
 </ul>
 <p>We have collected together scripts for irssi and mirc, while Conspire supports SASL natively. Scripts may be available for other clients in addition.</p>
-<h3>irssi</h3>
+<h4 id="irssi">irssi</h4>
 <p>Download and install <a href="http://www.freenode.net/sasl/cap_sasl.pl">this script</a> (cap_sasl.pl) and, after loading it, configure it using</p>
 <pre><code>/sasl set &lt;network&gt; &lt;username&gt; &lt;password&gt; &lt;mechanism&gt;
 </code></pre>
 <p>Supported mechanisms are PLAIN and DH-BLOWFISH.</p>
-<h3>mirc</h3>
+<h4 id="mirc">mirc</h4>
 <p>A mirc script is available, taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">forum post</a> by Kyle Travaglini. You can retrieve the source <a href="http://freenode.net/sasl/sasl-mirc.cpp">here</a>.</p>
 <p>Instructions (adapted from that forum):</p>
 <ul>
@@ -65,14 +66,14 @@
     </div>
     
 <div class="art-nav">
-    <a href="migration-to-new-ircd">previous article</a><a href="../archive">view archive</a>
-    <a href="freenode-is-dead-long-live-freenode">next article</a>
+    <span><a href="migration-to-new-ircd">previous article</a><span class="invisible">, </span></span><a href="../archive">all</a><span><span class="invisible">, </span><a href="freenode-is-dead-long-live-freenode">next article</a></span>
 </div>
 
 </div>
 
     </div>
     <div class="footers">
+        <a name="navigation"/>
         <footer class="footer">
     <div class="footer-container">
     
