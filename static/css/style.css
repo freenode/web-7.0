@@ -59,6 +59,10 @@ body {
     height: auto;
 }
 
+.invisible {
+    display: none;
+}
+
 a {
     color: var(--link-color);
     text-decoration: none;
