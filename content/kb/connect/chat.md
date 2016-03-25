@@ -13,6 +13,8 @@ In order to verify the server certificates on connection, some additional work m
 certificates. On most linux distributions this will be in a package named something like ca-certificates. Many systems install these by default, but some (such
 as FreeBSD) do not.  For FreeBSD, the package is named ca_root_nss, which will install the appropriate root certificates in /usr/local/share/certs/ca-root-nss.crt.
 
+Certificate verification will generally only work when connecting to **`freenode.net`**. If your client thinks the server's certificate is invalid, make sure you are connecting to `chat.freenode.net` rather than any other name that leads to freenode.
+
  For most clients this should be sufficient. If not, you can download the required intermediate cert from [Gandi](http://crt.gandi.net/GandiStandardSSLCA.crt)
 and the root cert from [Instant SSL](http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt).
 

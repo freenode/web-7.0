@@ -10,7 +10,7 @@
     {%- else -%}
     <span></span>
     {%- endif -%}
-    <a href="{{ url_for("archive") }}">all</a>
+    <span><a href="{{ url_for("archive") }}">all</a></span>
     {%- if article.newer -%}
     <span><span class="invisible">, </span><a href="{{ article.newer.url }}">next article</a></span>
     {%- else -%}
