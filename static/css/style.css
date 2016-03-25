@@ -372,7 +372,7 @@ h1 {
     border-top: 1px solid var(--border-color);
 }
 
-.art-info .art {
+.artlist .art {
     font-weight: bold;
     font-size: 120%;
 }
