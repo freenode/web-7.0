@@ -1,7 +1,8 @@
 Title: The Policies
 ---
 
-**Nickname ownership**
+Nickname ownership
+==================
 
 Nicknames are allocated on a first-come, first-served basis, to the first person
 who registers the name with NickServ. However, we expect users to act in good
@@ -24,7 +25,8 @@ identified by the ‘Hold’ flag in their NickServ info output.
 Nicknames and accounts which are expired will not automatically be dropped.
 Please contact network staff if you would like to take over an expired nickname.
 
-**Channel ownership**
+Channel ownership
+=================
 
 Channels on freenode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. If you’d
@@ -40,7 +42,8 @@ any time by a representative of an on-topic project with the appropriate name.
 Topical channels expire after 60 days in which no user on the access list for
 the channel has joined it.
 
-**On-topic Use**
+On-topic Use
+============
 
 freenode’s primary goal is to encourage and foster the development and use of
 free and open source software projects and other peer-directed communities
@@ -49,7 +52,8 @@ description is likely to be considered on-topic for the purposes of primary
 channel naming and other project services which we may provide, but individual
 decisions may be made at the discretion of staff.
 
-**Off-topic Use**
+Off-topic Use
+=============
 
 We expect all users of the network, whether affiliated with a project or not, to
 act in good faith and in accordance with both their local laws and those
