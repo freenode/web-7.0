@@ -9,10 +9,9 @@
     <meta name="description" content="{{ config.DESCRIPTION }}">
     <link rel="icon" href="{{ url_for("static/img/logos/coloured-alphabg-sq-120.png") }}">
     <title>{% block title %}{{ title }} - {{ config.name }}{% endblock %}</title>
-    <link href="{{ url_for("static/css/open-sans.css") }}" rel="stylesheet">
-    <link href="{{ url_for("static/css/font-awesome.css") }}" rel="stylesheet">
-    <link href="{{ url_for("static/css/freenode.css") }}" rel="stylesheet">
-    <link href="{{ url_for("static/css/style.css") }}" rel="stylesheet">
+    {%- for stylesheet in ['open-sans.css', 'font-awesome.css', 'style.css'] %}
+    <link href="{{ url_for("static/css/" + stylesheet) }}?{{ git_hash }}" rel="stylesheet">
+    {%- endfor %}
 </head>
 <body>
     <nav class="navbar">
