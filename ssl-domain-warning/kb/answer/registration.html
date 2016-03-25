@@ -9,14 +9,15 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Nickname Registration - freenode</title>
-    <link href="../../static/css/open-sans.css?560eb07" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?560eb07" rel="stylesheet">
-    <link href="../../static/css/style.css?560eb07" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?debd708" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?debd708" rel="stylesheet">
+    <link href="../../static/css/style.css?debd708" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private internet access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <a href="../.."><img alt="freenode logo" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <a class="invisible" href="#navigation">Jump to navigation</a>
     </nav>
     <div class="container">
         
@@ -28,7 +29,7 @@ up registering the nick you want. If you register and use the same nick, people 
 <p>If a channel is set to mode +r, you won't be able to join it unless you are registered and identified to NickServ. If you try to join, you might be forwarded to
 a different channel. If a channel is set to quiet unregistered users (mode <code>+q $~a</code>), you won't be able to speak while on that channel unless you are registered
 and identified. Both of these modes are used by some channels to reduce channel harassment and abuse.</p>
-<h1>Nickname Setup</h1>
+<h2 id="nickname-setup">Nickname Setup</h2>
 <p>The following steps are the recommended method to register and set up a new freenode account. If you have questions or doubts about the process, a member of
 staff will be happy to discuss it and answer any questions you may have.</p>
 <ol>
@@ -68,11 +69,11 @@ run a bot. You should register a separate account for your bot.</p>
     regardless of the nickname you are using when you connect. For example: /connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</p>
 </li>
 </ol>
-<h1>Logging In</h1>
+<h2 id="logging-in">Logging In</h2>
 <p>You'll need to log in to your nickname each time you reconnect to freenode.</p>
 <p>The simplest, and most robust, way to do this is to configure <a href="#XXXkb/using/sasl">SASL</a>, if your client supports it. If not, you can supply your login details, in
 the form <code>&lt;account&gt;:&lt;password&gt;</code>, as a server password and they will be forwarded to NickServ when you finish connecting.</p>
-<h1>Nickname Expiry</h1>
+<h2 id="nickname-expiry">Nickname Expiry</h2>
 <p>Registered nicknames and accounts will expire if they're not used for a long time, after which they'll be available for another user to take over. See our
 <a href="../../policies">policies</a> for details of when this occurs.</p>
 <p>While nicknames and accounts do not automatically get deleted when they expire -- only when another user requests to take over the registration -- we do
@@ -83,6 +84,7 @@ do this, we set the threshold for deletion considerably higher than the document
 
     </div>
     <div class="footers">
+        <a name="navigation"/>
         <footer class="footer">
     <div class="footer-container">
     
