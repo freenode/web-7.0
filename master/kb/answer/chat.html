@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Connecting to freenode - freenode</title>
-    <link href="../../static/css/open-sans.css?76f0d8e" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?76f0d8e" rel="stylesheet">
-    <link href="../../static/css/style.css?76f0d8e" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?26d368f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?26d368f" rel="stylesheet">
+    <link href="../../static/css/style.css?26d368f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -32,6 +32,7 @@ connection</em> will appear in WHOIS (a 671 numeric). Webchat users will not cur
 <p>In order to verify the server certificates on connection, some additional work may be required. First, ensure that your system has an up-to-date set of root CA
 certificates. On most linux distributions this will be in a package named something like ca-certificates. Many systems install these by default, but some (such
 as FreeBSD) do not.  For FreeBSD, the package is named ca_root_nss, which will install the appropriate root certificates in /usr/local/share/certs/ca-root-nss.crt.</p>
+<p>Certificate verification will generally only work when connecting to <strong><code>freenode.net</code></strong>. If your client thinks the server's certificate is invalid, make sure you are connecting to <code>chat.freenode.net</code> rather than any other name that leads to freenode.</p>
 <p>For most clients this should be sufficient. If not, you can download the required intermediate cert from <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gandi</a>
 and the root cert from <a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">Instant SSL</a>.</p>
 <p>Client SSL certificates are also supported, and may be used for identification to services via <a href="#XXX">CertFP</a>. If you have connected with a client certificate, <em>has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195</em> (showing
