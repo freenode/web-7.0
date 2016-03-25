@@ -6,6 +6,7 @@
     --c-light:    #ecf7fa;
     --c-hl-dark:  #008499;
     --c-hl-light: #3baec4;
+    --c-shadow:   #dae5e2;
 
     /* backgrounds */
     --navbar-bg:    var(--c-dark);
@@ -182,6 +183,10 @@ td {
 
 td:not(:first-child), th:not(:first-child) {
     border-left: 1px solid var(--c-dark);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--c-shadow);
 }
 
 /* jumbotron */
