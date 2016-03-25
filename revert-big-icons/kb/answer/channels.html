@@ -9,27 +9,27 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Channels - freenode</title>
-    <link href="../../static/css/open-sans.css" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css" rel="stylesheet">
-    <link href="../../static/css/freenode.css" rel="stylesheet">
-    <link href="../../static/css/style.css" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?650e94b" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?650e94b" rel="stylesheet">
+    <link href="../../static/css/style.css?650e94b" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private internet access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <a href="../.."><img alt="freenode logo" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <a class="invisible" href="#navigation">Jump to navigation</a>
     </nav>
     <div class="container">
         
 <div class="main">
     <h1>Channels</h1>
     <p class="art-ingress">
-        <h1>Channel Policies</h1>
+        <h2 id="channel-policies">Channel Policies</h2>
 <p>In general, local policy and rules for each channel are set by that channel's operators. While we encourage all channel operators to adopt our <a href="../../changuide">channel
 guidelines</a>, if a project or community decides to operate otherwise then we respect their decisions. If you believe that the way in which a
 particular channel is run contravenes our <a href="../../policies">ground rules</a> or runs counter to the freenode <a href="../../philosophy">philosophy</a> then you should raise
 your concerns first with the channel owners, and then with freenode staff who will address cases on an individual basis.</p>
-<h1>Why can't I join a channel?</h1>
+<h2 id="why-cant-i-join-a-channel">Why can't I join a channel?</h2>
 <p>There are several things that might prevent you from joining a particular channel. In most cases the server will tell you the reason, but some clients do not
 correcntly display that information to you, so it's useful to be able to check for yourself. Some of the common causes, in no particular order, are:</p>
 <ul>
@@ -39,17 +39,18 @@ correcntly display that information to you, so it's useful to be able to check f
 <li>Check whether mode <code>+j</code> is set. This is a join throttle, which prevents lots of users from joining in a short period of time. If this is the case, it might be worth trying again after a minute or two, to see whether the join throttle is the reason.</li>
 <li>If you are logged in to services, check the channel ban list -- you can do this using <code>/mode #channel b</code>.</li>
 </ul>
-<p>If you've not been in the channel in question recently, it's possible that you're affected by a wide-ranging ban, so pay attention to any bans that include <code>*</code> or <code>?</code> wildcards. Bans that begin with a <code>$</code> sign are extended ban types; you can see more information about these by sending the <code>HELP EXTBAN</code> command on IRC.</p>
+<p>If you've not been in the channel in question recently, it's possible that you're affected by a wide-ranging ban, so pay attention to any bans that include <code>*</code> or <code>?</code> wildcards. Bans that begin with a <code>$</code> sign are extended ban types; you can see more information about these by sending the <code>/quote HELP EXTBAN</code> command on IRC.</p>
 <p>If you find a ban which matches you but you feel wasn't intended to keep you out, then talk to one of the channel operators to see about having it removed.
 You can find a list of channel operators via the <code>/msg ChanServ ACCESS #channel LIST</code> command.</p>
 <p>If you're still stuck, feel free to ask a staff member for help in working out what's preventing you from joining.</p>
-<h1>Why can't I talk in a channel?</h1>
+<h2 id="why-cant-i-talk-in-a-channel">Why can't I talk in a channel?</h2>
 <p>The two most common causes for this are either a quiet mask -- use <code>/mode #channel q</code> to see the list and then check the advice above regarding bans -- or mode <code>+m</code>, which prevents anyone who isn't voiced from talking. If you're still unsure, again, feel free to ask staff for help in working out what the problem might be.</p>
     </p>
 </div>
 
     </div>
     <div class="footers">
+        <a name="navigation"/>
         <footer class="footer">
     <div class="footer-container">
     
@@ -60,27 +61,21 @@ You can find a list of channel operators via the <code>/msg ChanServ ACCESS #cha
             <li>
                 <a href="../../project">The project</a>
             </li>
-            
             <li>
                 <a href="../../people">The people</a>
             </li>
-            
             <li>
                 <a href="../../philosophy">The philosophy</a>
             </li>
-            
             <li>
                 <a href="../../policies">The policies</a>
             </li>
-            
             <li>
                 <a href="../../live">freenode live!</a>
             </li>
-            
             <li>
                 <a href="../../acknowledgements">Acknowledgements</a>
             </li>
-            
         </ul>
     </div>
     
@@ -89,25 +84,35 @@ You can find a list of channel operators via the <code>/msg ChanServ ACCESS #cha
         <ul>
             
             <li>
-                <a href="//webchat.freenode.net">Connect (webchat)</a>
+                <a href="//webchat.freenode.net">Webchat</a>
             </li>
-            
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
             <li>
                 <a href="../../changuide">Channel guidelines</a>
             </li>
-            
             <li>
                 <a href="../../catalysts">Catalyst guidelines</a>
             </li>
-            
             <li>
                 <a href="../all">Knowledge base</a>
             </li>
-            
             <li>
                 <a href="../../support">Supporting the project</a>
             </li>
-            
         </ul>
     </div>
     
@@ -118,15 +123,12 @@ You can find a list of channel operators via the <code>/msg ChanServ ACCESS #cha
             <li>
                 <a href="../../groupreg">Group registration</a>
             </li>
-            
             <li>
                 <a href="#">Register as a group</a>
             </li>
-            
             <li>
                 <a href="#">Existing groups</a>
             </li>
-            
         </ul>
     </div>
     
@@ -152,9 +154,9 @@ You can find a list of channel operators via the <code>/msg ChanServ ACCESS #cha
                 News Archive</a>
             </li>
             <li>
-                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="PIA" height=
-                "14px" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
-                Private Internet Access</a>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
             </li>
         </ul>
         </div>
