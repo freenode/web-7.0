@@ -137,7 +137,8 @@ img {
 .main h4,
 .main li,
 .main pre,
-.main p {
+.main p,
+.main blockquote{
     margin-top: .7em;
 }
 
@@ -405,6 +406,14 @@ h1 {
 .art-nav *:nth-child(1) { text-align: left; }
 .art-nav *:nth-child(2) { text-align: center; }
 .art-nav *:nth-child(3) { text-align: right; }
+
+blockquote {
+    padding-left: 1em;
+    max-width: calc(var(--max-width) - .7em);
+    display: inline-block;
+    border-left: .5em solid var(--c-shadow);
+    font-style: italic;
+}
 
 @media (--max-md) {
     .main.artlist {
