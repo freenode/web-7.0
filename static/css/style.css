@@ -50,7 +50,7 @@
 
 /* global */
 body {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-feature-settings: "lnum";
     font-variant-numeric: lining-nums;
     color: var(--text-color);
@@ -137,7 +137,8 @@ img {
 .main h4,
 .main li,
 .main pre,
-.main p {
+.main p,
+.main blockquote{
     margin-top: .7em;
 }
 
@@ -406,6 +407,14 @@ h1 {
 .art-nav *:nth-child(2) { text-align: center; }
 .art-nav *:nth-child(3) { text-align: right; }
 
+blockquote {
+    padding-left: 1em;
+    max-width: calc(var(--max-width) - .7em);
+    display: inline-block;
+    border-left: .5em solid var(--c-shadow);
+    font-style: italic;
+}
+
 @media (--max-md) {
     .main.artlist {
         padding-left: 0;
@@ -430,7 +439,7 @@ h1 {
 .kb-index li {
     display: block;
     flex: 1 1 15em;
-    height: 7em;
+    height: 3em;
     margin: 1em;
 }
 
