@@ -50,7 +50,7 @@
 
 /* global */
 body {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-feature-settings: "lnum";
     font-variant-numeric: lining-nums;
     color: var(--text-color);
