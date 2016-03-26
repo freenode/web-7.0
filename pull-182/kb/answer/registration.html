@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <title>Nickname Registration - freenode</title>
+    <link href="../../static/css/open-sans.css?c268a2d" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?c268a2d" rel="stylesheet">
+    <link href="../../static/css/style.css?c268a2d" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="../.."><img alt="freenode logo" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <a class="invisible" href="#navigation">Jump to navigation</a>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>Nickname Registration</h1>
+    <p class="art-ingress">
+        <p>Your nick is how people on freenode know you. If you register it, you'll be able to use the same nick over and over. If you don't register, someone else may end
+up registering the nick you want. If you register and use the same nick, people will begin to know you by reputation.</p>
+<p>If a channel is set to mode +r, you won't be able to join it unless you are registered and identified to NickServ. If you try to join, you might be forwarded to
+a different channel. If a channel is set to quiet unregistered users (mode <code>+q $~a</code>), you won't be able to speak while on that channel unless you are registered
+and identified. Both of these modes are used by some channels to reduce channel harassment and abuse.</p>
+<h2 id="nickname-setup">Nickname Setup</h2>
+<p>The following steps are the recommended method to register and set up a new freenode account. If you have questions or doubts about the process, a member of
+staff will be happy to discuss it and answer any questions you may have.</p>
+<ol>
+<li>
+<p>Select a permanent, master nickname. If the nickname you want is registered but has expired, just ask a staffer and in most cases, we will be happy to drop
+    it for you. Please avoid using the name of a community project or trademarked entity, to avoid conflicts. Write down your password and be sure to keep the
+    sheet of paper in a safe place.</p>
+</li>
+<li>
+<p>Register your IRC nick:</p>
+<pre><code>/msg NickServ REGISTER password youremail@example.com
+</code></pre>
+<p>Replace password with a secure, unguessable password that you keep secret.</p>
+<p>The email address that you select will not be given out by staff, and is mainly used to allow us to help you recover the account in the event that you forget
+your password. For this reason, you are required to use a real, non-disposable, email address. Upon registering, you will receive an email with a
+verification command that you will need to run to complete the registration process. Failure to verify the account will cause it to be automatically dropped
+after about 24 hours.</p>
+</li>
+<li>
+<p>It's useful, but not required, to have an alternate nick grouped to your account. For example, if your primary nick is foo:</p>
+<pre><code>/nick foo_
+</code></pre>
+<p>then identify to your primary account:</p>
+<pre><code>/msg NickServ IDENTIFY foo password
+</code></pre>
+<p>and finally, group the new nick to your account</p>
+<pre><code>/msg NickServ GROUP
+</code></pre>
+<p>We prefer you to use just one account, and group nicks to it as described above, rather than registering for multiple accounts. Grouping nicks in this way
+gives you the benefit of having all your nicks covered by the same cloak, should you choose to wear a cloak. The exception to this is where you might want to
+run a bot. You should register a separate account for your bot.</p>
+</li>
+<li>
+<p>Configure your client to identify itself to NickServ automatically whenever it connects to freenode so that it's less likely you'll connect to the network
+    without being identified to NickServ. The easiest approach is to specify your NickServ password as a server password.  If your client supports server
+    password, please set this up as accountname:password. Make sure to include the colon. This will allow you to identify to your services account on connect,
+    regardless of the nickname you are using when you connect. For example: /connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</p>
+</li>
+</ol>
+<h2 id="logging-in">Logging In</h2>
+<p>You'll need to log in to your nickname each time you reconnect to freenode.</p>
+<p>The simplest, and most robust, way to do this is to configure <a href="#XXXkb/using/sasl">SASL</a>, if your client supports it. If not, you can supply your login details, in
+the form <code>&lt;account&gt;:&lt;password&gt;</code>, as a server password and they will be forwarded to NickServ when you finish connecting.</p>
+<h2 id="nickname-expiry">Nickname Expiry</h2>
+<p>Registered nicknames and accounts will expire if they're not used for a long time, after which they'll be available for another user to take over. See our
+<a href="../../policies">policies</a> for details of when this occurs.</p>
+<p>While nicknames and accounts do not automatically get deleted when they expire -- only when another user requests to take over the registration -- we do
+occasionally perform clean-up runs on the services database, in which we will automatically drop all registrations which have been idle for a long time. When we
+do this, we set the threshold for deletion considerably higher than the documented expiry time, to ensure that users close to the limit do not lose out.</p>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"/>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="#">Register as a group</a>
+            </li>
+            <li>
+                <a href="#">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
