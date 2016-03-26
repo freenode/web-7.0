@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Services Migration - freenode</title>
-    <link href="../static/css/open-sans.css?4c7b579" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?4c7b579" rel="stylesheet">
-    <link href="../static/css/style.css?4c7b579" rel="stylesheet">
+    <link href="../static/css/open-sans.css?4c011fc" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?4c011fc" rel="stylesheet">
+    <link href="../static/css/style.css?4c011fc" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -30,7 +30,7 @@
     </div>
     <div class="art-body">
     <p>The time has come for freenode to migrate from our old, legacy services         package to a much newer, actively maintained package known as       <a href="http://www.atheme.net/">Atheme</a>, developed by the          <a href="http://www.atheme.org/">Atheme Project</a>.  Although we,         with the help of the Atheme developers, have tried to make the      migration process as painless as possible, there are still a        few interface differences that you will need to be aware of.        This guide, prepared by tomaw, will attempt to walk you through the main changes, grouped by service.</p>
-<h3 id="nickserv">NickServ</h3>
+<h2 id="nickserv">NickServ</h2>
 <ul>
 <li>
 <p>NickServ will now require a valid, verified email           address to register new nicks.  Because of this the             registration command has changed to</p>
@@ -65,7 +65,7 @@
 <p>/msg NickServ HELP SET ENFORCE</p>
 </li>
 </ul>
-<h3 id="chanserv">ChanServ</h3>
+<h2 id="chanserv">ChanServ</h2>
 <ul>
 <li>
 <p>Channel access is now controlled by a series of flags,          rather than levels.  This will allow channel owners and             Group Contacts to better control the access they grant          users, and to see more clearly what access those users          will have.  Channel Access now also includes a powerful             templating system, making it easier to manage large and             complicated access lists.  For more information on          these features, please see:</p>
@@ -97,14 +97,14 @@
 <p>LIST <em>pattern</em> has been replaced by a new service           called ALIS.  See below for details.</p>
 </li>
 </ul>
-<h3 id="alis">ALIS</h3>
+<h2 id="alis">ALIS</h2>
 <ul>
 <li>
 <p>ALIS provides a more useful channel list facility than what         was previously available.  It will list matching channels, but      will filter out channels that are not currently in use.  Its        use is similar to the functionality that was previously built       into ChanServ:</p>
 <p>/msg ALIS LIST #freenode-*</p>
 </li>
 </ul>
-<h3 id="memoserv">MemoServ</h3>
+<h2 id="memoserv">MemoServ</h2>
 <ul>
 <li>
 <p>Memos can now be replied to and forwarded to other users</p>
