@@ -135,6 +135,8 @@ img {
 .main h2,
 .main h3,
 .main h4,
+.main h5,
+.main h6,
 .main li,
 .main pre,
 .main p,
@@ -149,7 +151,9 @@ img {
 .main h1 + p,
 .main h2 + p,
 .main h3 + p,
-.main h3 + p,
+.main h4 + p,
+.main h5 + p,
+.main h6 + p,
 .main blockquote > p:first-child {
     margin-top: 0;
 }
@@ -410,7 +414,6 @@ h1 {
 
 blockquote {
     padding-left: 1em;
-    max-width: calc(var(--max-width) - .7em);
     display: inline-block;
     border-left: .5em solid var(--c-shadow);
     font-style: italic;
