@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>When bots go bad.. - freenode</title>
-    <link href="../static/css/open-sans.css?a29a683" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?a29a683" rel="stylesheet">
-    <link href="../static/css/style.css?a29a683" rel="stylesheet">
+    <link href="../static/css/open-sans.css?5134cef" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?5134cef" rel="stylesheet">
+    <link href="../static/css/style.css?5134cef" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -32,7 +32,7 @@
     <p>First off, al­low me to apol­o­gise to all users af­fect­ed by the re­cent "client  killing" ram­page of our util­i­ty bot; Syn. She ap­pears to have got­ten into the  Hal­loween spir­it a bit too much!</p>
 <p>You may have no­ticed a large num­ber of peo­ple dis­con­nect­ing from freen­ode with the rea­son 'Nick col­li­sion from syn.' We feel we should ex­plain what hap­pened.</p>
 <p>For those of you not al­ready fa­mil­iar with her, syn is a util­i­ty bot that, amongst oth­er du­ties, reg­u­lates gate­way ac­cess to the net­work. This could be web gate­ways such as CGI:IRC or our own we­bchat, NAT gate­ways, or some con­fer­ences and shell ser­vices. One of the things that she does, for web gate­ways in par­tic­u­lar, is to match the re­port­ed IP ad­dress (hex-en­cod­ed in the ident field) against net­work bans, and deny the con­nec­tion if a match is found.</p>
-<p>It was this par­tic­u­lar part that had an un­for­tu­nate pair of bugs re­sult­ing in the in­ci­dent you ob­served. First­ly, in us­ing ss­canf() to de­tect a hex-en­cod­ed IP ad­dress in the ident field, the val­i­da­tion was not quite strict enough -- any ident that <em>be­gan</em> with a series of valid hexadecimal characters (the digits 0-9 and letters a-f) would result in a number being decoded. In normal circumstances, this would be relatively harmless as the resulting IP is clearly invalid -- in most cases, it would begin 0.0.0., and not match any network bans.</p>
+<p>It was this par­tic­u­lar part that had an un­for­tu­nate pair of bugs re­sult­ing in the in­ci­dent you ob­served. First­ly, in us­ing ss­canf() to de­tect a hex-en­cod­ed IP ad­dress in the ident field, the val­i­da­tion was not quite strict enough -- any ident that <em>be­gan</em> with a se­ries of valid hexa­dec­i­mal char­ac­ters (the dig­its 0-9 and let­ters a-f) would re­sult in a num­ber be­ing de­cod­ed. In nor­mal cir­cum­stances, this would be rel­a­tive­ly harm­less as the re­sult­ing IP is clear­ly in­valid -- in most cas­es, it would be­gin 0.0.0., and not match any net­work bans.</p>
 <p>Un­for­tu­nate­ly, there was a sec­ond bug in­tro­duced more re­cent­ly as part of a per­for­mance fix. This meant that in cer­tain cas­es, a K:line whose host part con­tained wild­cards would in­cor­rect­ly match against these in­valid IP ad­dress­es.</p>
 <p>Each of these, tak­en in iso­la­tion, would be rel­a­tive­ly in­nocu­ous, and so they slipped un­der the radar and made it into pro­duc­tion. The com­bi­na­tion of the two, how­ev­er, had rather dis­as­trous re­sults.</p>
 <p>We apol­o­gise, and wel­come you to cas­ti­gate our de­vel­op­ers and staff for our  in­com­pe­tence and for al­low­ing these bugs to make it into pro­duc­tion.</p>
