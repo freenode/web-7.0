@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Database prune - freenode</title>
-    <link href="../static/css/open-sans.css?5134cef" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?5134cef" rel="stylesheet">
-    <link href="../static/css/style.css?5134cef" rel="stylesheet">
+    <link href="../static/css/open-sans.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/style.css?fbcf402" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -30,7 +38,10 @@
     </div>
     <div class="art-body">
     <p>Every cou­ple of years, freen­ode likes to get out the shears and prune the ser­vices data­base. Re­cent­ly we broke the 80,000 user­count bar­ri­er, but the ser­vices stats are way ahead:</p>
-<p>wzx­hzdk:0</p>
+<blockquote>Sat 13:35:46 -OperServ(OperServ@services.)- Registered accounts: 446777
+Sat 13:35:46 -OperServ(OperServ@services.)- Registered nicknames: 557497
+Sat 13:35:47 -OperServ(OperServ@services.)- Registered channels: 141373</blockquote>
+
 <p>We've no­ticed that near­ly half of the ac­counts shown there haven't been used in the past 6 months! More im­por­tant­ly, over the past few months many peo­ple have no­ticed sig­nif­i­cant waits when is­su­ing cer­tain ser­vices com­mands - and we'd like to fix that.</p>
 <p>Hope­ful­ly, the <a href="http://blog.freenode.net/2012/04/help-us-test-our-services-upgrade/">ser­vices up­grade</a> should help with this, but we're go­ing to co­in­cide this with a data­base prune.</p>
 <p>As of the ser­vices up­grade date, any nicks un­used for &gt; 150 days are at risk of be­ing dropped. This in­cludes grouped nicks. The easy way to avoid this hap­pen­ing is to use each of your grouped nicks (while iden­ti­fied to the ap­pro­pri­ate ac­count) with­in the next few weeks - and to drop those that you don't need any­more!</p>

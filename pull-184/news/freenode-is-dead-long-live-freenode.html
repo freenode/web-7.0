@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>freenode is dead, long live freenode - freenode</title>
-    <link href="../static/css/open-sans.css?5134cef" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?5134cef" rel="stylesheet">
-    <link href="../static/css/style.css?5134cef" rel="stylesheet">
+    <link href="../static/css/open-sans.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/style.css?fbcf402" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -32,19 +40,19 @@
     <p>Af­ter much time in de­vel­op­ment and test­ing, the move to ir­cd-­sev­en is fi­nal­ly com­plete. The mi­gra­tion took place in the ear­ly hours of to­day, Sat­ur­day Jan­u­ary 30th 2010.</p>
 <p>I would like to ex­press thanks to every­one who has helped us get here -- those staff and users who have helped find and squash bugs, those who have done ex­ten­sive load test­ing and those who have helped fi­nal­is­ing doc­u­men­ta­tion in prepa­ra­tion for the mi­gra­tion ear­li­er to­day.</p>
 <p>In par­tic­u­lar I would like to thank the Charyb­dis de­vel­op­ment team and the rat­box con­trib­u­tors whose work left us with a bril­liant ircd plat­form to build upon to cre­ate the more freen­ode spe­cif­ic ir­cd-­sev­en. In no par­tic­u­lar or­der my thanks go to:</p>
-<p>dwr, Valery Yatsko wzx­hzdk:0
-gxti, Michael Tharp wzx­hzdk:1
-jilles, Jilles Tjoelk­er wzx­hzdk:2
-nenolod, William Pit­cock wzx­hzdk:3
-An­droSyn, Aaron Seth­man wzx­hzdk:4
-anfl, Lee Hardy wzx­hzdk:5
-beu, Elfyn McBrat­ney wzx­hzdk:6
-En­trope, Michael Poole wzx­hzdk:7
-ThaPrince, Jon Christo­pher­son wzx­hzdk:8
-twincest, Riv­er Tar­nell wzx­hzdk:9
-w00t, Robin Burchell wzx­hzdk:10</p>
+<p>dwr, Valery Yatsko <dwr -at-="" shadowircd.net=""></dwr>
+gxti, Michael Tharp <gxti -at-="" partiallystapled.com=""></gxti>
+jilles, Jilles Tjoelk­er <jilles -at-="" stack.nl=""></jilles>
+nenolod, William Pit­cock <nenolod -at-="" nenolod.net=""></nenolod>
+An­droSyn, Aaron Seth­man <androsyn -at-="" ratbox.org=""></androsyn>
+anfl, Lee Hardy <lee -at-="" leeh.co.uk=""></lee>
+beu, Elfyn McBrat­ney <elfyn.mcbratney -at-="" gmail.com=""></elfyn.mcbratney>
+En­trope, Michael Poole <mdpoole -at-="" trolius.org=""></mdpoole>
+ThaPrince, Jon Christo­pher­son <jon -at-="" vile.com=""></jon>
+twincest, Riv­er Tar­nell <river -at-="" attenuate.org=""></river>
+w00t, Robin Burchell <surreal.w00t -at-="" gmail.com=""></surreal.w00t></p>
 <p>And for lead­ing the de­vel­op­ment ef­forts of ir­cd-­sev­en, for putting up with my many quirky and of­ten un­rea­son­able re­quests:
-spb, Stephen Ben­nett wzx­hzdk:11</p>
+spb, Stephen Ben­nett <stephen -at-="" freenode.net=""></stephen></p>
 <p>I'd also like to ex­press my grat­i­tude to the fol­low­ing freen­ode vol­un­teers for the hard work they've put in to make the mi­gra­tion go as smooth­ly as pos­si­ble. I've been amazed at the ini­tia­tive and re­spon­si­bil­i­ty shown in this last phase. Your help has been in­valu­able and I feel priv­i­leged to work with you:</p>
 <p>klo­eri, Bryan Øster­gaard
 Lorez, Mike Mat­tice

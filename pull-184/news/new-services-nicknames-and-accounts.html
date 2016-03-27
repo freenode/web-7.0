@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New Services: Nicknames and Accounts - freenode</title>
-    <link href="../static/css/open-sans.css?5134cef" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?5134cef" rel="stylesheet">
-    <link href="../static/css/style.css?5134cef" rel="stylesheet">
+    <link href="../static/css/open-sans.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/style.css?fbcf402" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -32,27 +40,100 @@
     <p>We've no­ticed a lot of peo­ple who are con­fused (and right­ly so!) about the new nick­name sys­tem - par­tic­u­lar­ly the way that nick­name group­ing has changed. Hope­ful­ly this blog post will clear some of it up.</p>
 <p><strong>Nick­names and Ac­counts</strong></p>
 <p>freen­ode now uses a sys­tem of own­er­ship that is dif­fer­ent to the old nick­names sys­tem. Now, when you reg­is­ter a <em>nick­name</em> for the first time, that <em>nick­name</em> be­comes the pri­ma­ry <em>nick­name</em> on your <em>ac­count</em> (which has the same name). An ex­am­ple:</p>
-<p>wzx­hzdk:0</p>
+<blockquote>**User1** vists Freenode for the first time. She registers by using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ REGISTER myshinypass my@shiny.email</blockquote>
+&gt; 
+&gt; 
+**User1 **now has an _account_. freenode services have automatically assigned the _nickname_ **User1** to the _account_ **User1**. **User1** is now happy.</blockquote>
+
 <p>So, <em>nick­names</em> are now as­signed to your <em>ac­count</em>. But what does this ac­tu­al­ly mean, prac­ti­cal­ly?</p>
 <p><strong>Iden­ti­fi­ca­tion</strong></p>
 <p>When you iden­ti­fy:</p>
-<p>wzx­hzdk:1</p>
+<blockquote> /msg NickServ IDENTIFY <password></password></blockquote>
+
 <p>freen­ode ser­vices will try and iden­ti­fy you to your <em>ac­count</em>.  It does this by tak­ing your <em>nick­name</em>, and look­ing it up in the data­base - to find the <em>ac­count</em> as­so­ci­at­ed with it. Let's go back to User1 for a lit­tle demon­stra­tion:</p>
-<p>wzx­hzdk:2</p>
+<blockquote>**User1** returns to freenode. She identifies using the command:
+
+&gt; 
+&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully.</blockquote>
+
 <p>But what hap­pens when you try and iden­ti­fy with a dif­fer­ent nick­name?</p>
-<p>wzx­hzdk:3</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She tries to identify using the command:
+
+&gt; 
+&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services tries to look up an account called **User12** (as this is her current nickname). This nickname is unregistered, and so does not have an account associated with it. The identification fails, and she is not logged in.</blockquote>
+
 <p>With the new ac­counts sys­tem, there is a com­mand that al­lows you to iden­ti­fy to your ac­count from any nick­name!</p>
-<p>wzx­hzdk:4</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds.</blockquote>
+
 <p>How­ev­er, this is­n't ide­al, as she is now logged in, but is us­ing an un­reg­is­tered <em>nick­name</em>. She may want to con­sid­er GROUP­ing the <em>nick­name</em>.</p>
 <p><strong>Group­ing</strong></p>
 <p>With the new sys­tem, GROUP ba­si­cal­ly means to add an­oth­er <em>nick­name</em> to your <em>ac­count</em>. <strong>User1</strong> is fed up of be­ing con­nect­ed as <strong>User12</strong> and us­ing an un­reg­is­tered <em>nick­name</em>, so she has de­cid­ed to GROUP the <em>nick­name</em> to her ex­ist­ing <em>ac­count</em>.</p>
 <p>There are two ways to go about this:</p>
-<p>wzx­hzdk:5</p>
+<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds. She can now GROUP the _nickname_ (**User12**) to her _account_ (**User1**) by typing:
+
+&gt; 
+&gt; <blockquote>/msg NickServ GROUP</blockquote>
+&gt; 
+&gt; 
+The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+when connected as **User12**.</blockquote>
+
 <p>Or, she can do this:</p>
-<p>wzx­hzdk:6</p>
+<blockquote>**User1** connects to freenode. She identifies using the command:
+
+&gt; 
+&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully. She can now change her _nickname_:
+
+&gt; 
+&gt; <blockquote>/nick User12</blockquote>
+&gt; 
+&gt; 
+And GROUP her new _nickname_, as freenode services does not log her out of her _account_ when she changes _nickname_.
+
+&gt; 
+&gt; <blockquote>/msg NickServ GROUP</blockquote>
+&gt; 
+&gt; 
+The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
+
+&gt; 
+&gt; <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
+&gt; 
+&gt; 
+when connected as **User12**.</blockquote>
+
 <p><strong>Con­clu­sion</strong></p>
 <p>So, to wrap up, freen­ode now al­lows you to reg­is­ter an ac­count, to which you add nick­names as ex­plained above. That's not an easy con­cept to grasp if you are used to the old sys­tem, and if you have any ques­tions, feel free to drop into #freen­ode and ask away!</p>
-<p>wzx­hzdk:7</p>
+<blockquote></blockquote>
     </div>
     
 <div class="art-nav">

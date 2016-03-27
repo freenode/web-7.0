@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>ircd Migration Sat Jan 30th 2010 - freenode</title>
-    <link href="../static/css/open-sans.css?5134cef" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?5134cef" rel="stylesheet">
-    <link href="../static/css/style.css?5134cef" rel="stylesheet">
+    <link href="../static/css/open-sans.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?fbcf402" rel="stylesheet">
+    <link href="../static/css/style.css?fbcf402" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -45,7 +53,7 @@
 <p>The CAP LS com­mand will list all client ca­pa­bil­i­ties that are avail­able to the client.</p>
 </li>
 <li>
-<p>The CAP REQ :wzx­hzdk:0 wzx­hzdk:1 &lt;...&gt; com­mand can be used to re­quest one or more ca­pa­bil­i­ties. The re­sponse to this will be ei­ther CAP ACK :wzx­hzdk:2 &lt;...&gt;, or CAP NAK :wzx­hzdk:3 &lt;...&gt;, de­pend­ing on whether the re­quest was suc­cess­ful.</p>
+<p>The CAP REQ :<cap1></cap1> <cap2></cap2> &lt;...&gt; com­mand can be used to re­quest one or more ca­pa­bil­i­ties. The re­sponse to this will be ei­ther CAP ACK :<cap></cap> &lt;...&gt;, or CAP NAK :<cap></cap> &lt;...&gt;, de­pend­ing on whether the re­quest was suc­cess­ful.</p>
 </li>
 <li>
 <p>A CAP name to­ken can be pre­fixed by - to dis­able that ca­pa­bil­i­ty. This was not avail­able with hy­pe­r­i­on's CA­PAB com­mand.</p>
