@@ -138,7 +138,7 @@ img {
 .main li,
 .main pre,
 .main p,
-.main blockquote{
+.main blockquote {
     margin-top: .7em;
 }
 
@@ -149,7 +149,8 @@ img {
 .main h1 + p,
 .main h2 + p,
 .main h3 + p,
-.main h3 + p {
+.main h3 + p,
+.main blockquote > p:first-child {
     margin-top: 0;
 }
 
