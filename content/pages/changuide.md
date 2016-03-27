@@ -1,6 +1,5 @@
 Title: Channel Guidelines
 ---
-### Channel Guidelines
 IRC is a low-bandwidth method of communication, in comparison with physical presence. Many of the cues of physical communication, tone of voice, facial expression, hand movements, etc., are missing in IRC, since only text is transmitted back and forth.
 Speakers in physical proximity with each other communicate quite a bit of emotional context via this extra bandwidth. This context enables them to avoid misjudging the intent of their conversational partners. It also functions as an unconscious negative feedback mechanism to reduce the incidence of emotional "firestorms" which tend to disrupt the efficient flow of conversation. Human beings look for this feedback, and indeed they may have evolved to require it. In the low-bandwidth world of IRC, they must instead rely on emotional feedback from the text they receive.
 
