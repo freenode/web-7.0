@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Pre-release -- dancer-ircd 1.0.32 - freenode</title>
-    <link href="../static/css/open-sans.css?f7fd165" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?f7fd165" rel="stylesheet">
-    <link href="../static/css/style.css?f7fd165" rel="stylesheet">
+    <link href="../static/css/open-sans.css?87a3010" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?87a3010" rel="stylesheet">
+    <link href="../static/css/style.css?87a3010" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -29,26 +29,26 @@
 
     </div>
     <div class="art-body">
-    <p>We're cur­rent­ly pre­re­leas­es of dancer-ir­cd 1.0.32, the newest ver­sion of our pro­duc­tion serv­er code. Please come to the test­net on  <a href="irc://irc.freenode.net:9001/">irc.freen­ode.net, port 9001</a>  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to <strong>bugs at freen­ode dot net</strong>!</p>
+    <p>We're cur­rent­ly pre­re­leas­es of dancer-ir­cd 1.0.32, the newest ver­sion of our pro­duc­tion serv­er code. Please come to the test­net on  <a href="irc://irc.freenode.net:9001/">irc.freen­ode.net, port 9001</a>  and help us find bugs!  Ser­vices has not yet been mod­i­fied to take into ac­count the new fea­tures, but we'll do it as we go.  Help us out by thrash­ing the code a bit, and send your bug re­ports to <strong>bugs at freen­ode dot net</strong>!</p>
 <p>Nu­mer­ous small bugs have been fixed, and the fol­low­ing lists some of the changes:</p>
 <ul>
 <li>
-<p><strong>Aus­pex mode sep­a­ra­tion.</strong> Added a new O: line umode, +A, to separate server-related information from user- and channel-related information in auspex mode.</p>
+<p><strong>Aus­pex mode sep­a­ra­tion.</strong> Added a new O: line umode, +A, to sep­a­rate server-re­lat­ed in­for­ma­tion from user- and chan­nel-re­lat­ed in­for­ma­tion in aus­pex mode.</p>
 </li>
 <li>
-<p><strong>COL­LIDE mes­sage.</strong> An alternate, quieter KILL for use by services in GHOSTing nicks.</p>
+<p><strong>COL­LIDE mes­sage.</strong> An al­ter­nate, qui­eter KILL for use by ser­vices in GHOST­ing nicks.</p>
 </li>
 <li>
-<p><strong>CTCP AC­TION treat­ed as a mes­sage.</strong> For the purposes of user mode C (and everywhere else we can manage), CTCP ACTION will be treated as a normal message, rather than as a client control/status command.</p>
+<p><strong>CTCP AC­TION treat­ed as a mes­sage.</strong> For the pur­pos­es of user mode C (and every­where else we can man­age), CTCP AC­TION will be treat­ed as a nor­mal mes­sage, rather than as a client con­trol/sta­tus com­mand.</p>
 </li>
 <li>
-<p><strong>Dump com­mand.</strong> Added for debugging purposes.</p>
+<p><strong>Dump com­mand.</strong> Added for de­bug­ging pur­pos­es.</p>
 </li>
 <li>
-<p><strong>Iden­ti­fied user high­light­ing.</strong> The CAPAB command has been added to allow client software to register special capabilities.  The first such capability is IDENTIFY-MSG; with it turned on, the text of messages and notices is prefaced with '-' when they come from an unidentified user, and '+' when the user is identified to services.  The purpose of this feature is to make it difficult to spoof someone's identity.</p>
+<p><strong>Iden­ti­fied user high­light­ing.</strong> The CA­PAB com­mand has been added to al­low client soft­ware to reg­is­ter spe­cial ca­pa­bil­i­ties.  The first such ca­pa­bil­i­ty is IDEN­TI­FY-MSG; with it turned on, the text of mes­sages and no­tices is pref­aced with '-' when they come from an uniden­ti­fied user, and '+' when the user is iden­ti­fied to ser­vices.  The pur­pose of this fea­ture is to make it dif­fi­cult to spoof some­one's iden­ti­ty.</p>
 </li>
 </ul>
-<p>Note:  You can test the fea­ture on most clients via <strong>/quote ca­pab iden­ti­fy-msg</strong>.  Client software can use this information to highlight messages coming from non-identified users. This should normally be done by patching the client code or adding scripting or filtering, since the raw output of IDENTIFY-MSG is readable, but a bit messy.</p>
+<p>Note:  You can test the fea­ture on most clients via <strong>/quote ca­pab iden­ti­fy-msg</strong>.  Client soft­ware can use this in­for­ma­tion to high­light mes­sages com­ing from non-i­den­ti­fied users. This should nor­mal­ly be done by patch­ing the client code or adding script­ing or fil­ter­ing, since the raw out­put of IDEN­TI­FY-MSG is read­able, but a bit messy.</p>
 <p>We rec­om­mend that you add an as­ter­isk be­fore the nick, and op­tion­al­ly ei­ther high­light or colour­ize the line in some ap­pro­pri­ate fash­ion, if the user is not iden­ti­fied.  Ex­am­ples fol­low:</p>
 <p>wzx­hzdk:0 I'm an iden­ti­fied user
 &lt;*fred&gt; I'm not an iden­ti­fied user</p>
@@ -56,28 +56,28 @@
 <strong>    &lt;*fred&gt; I'm not an iden­ti­fied user</strong></p>
 <ul>
 <li>
-<p><strong>Join throt­tling (chan­nel mode J).</strong> Format:  <strong>+J wzx­hzdk:2,wzx­hzdk:3</strong>.  Users may join this channel once every <frequency></frequency> seconds, with an initial burst and limit value of <limit></limit> users.</p>
+<p><strong>Join throt­tling (chan­nel mode J).</strong> For­mat:  <strong>+J wzx­hzdk:2,wzx­hzdk:3</strong>.  Users may join this chan­nel once every wzx­hzdk:4 sec­onds, with an ini­tial burst and lim­it val­ue of wzx­hzdk:5 users.</p>
 </li>
 <li>
-<p><strong>Iden­ti­fied-on­ly mode (chan­nel mode r).</strong> With +r set, only users identified to services (user mode +e) can join the channel.</p>
+<p><strong>Iden­ti­fied-on­ly mode (chan­nel mode r).</strong> With +r set, only users iden­ti­fied to ser­vices (user mode +e) can join the chan­nel.</p>
 </li>
 <li>
-<p><strong>No­For­ward modes.</strong> Added channel mode +Q to prevent forwarding to a channel.  Added user mode +Q to prevent forwarding of a user.</p>
+<p><strong>No­For­ward modes.</strong> Added chan­nel mode +Q to pre­vent for­ward­ing to a chan­nel.  Added user mode +Q to pre­vent for­ward­ing of a user.</p>
 </li>
 <li>
-<p><strong>Op­mod­er­ate mode (chan­nel mode z).</strong> With +z set, quieted/banned/moderated users' comments still appear to channel operators.  This can be helpful during seminars and special functions.</p>
+<p><strong>Op­mod­er­ate mode (chan­nel mode z).</strong> With +z set, qui­et­ed/banned/mod­er­at­ed user­s' com­ments still ap­pear to chan­nel op­er­a­tors.  This can be help­ful dur­ing sem­i­nars and spe­cial func­tions.</p>
 </li>
 <li>
 <p><strong>Re­hash throt­tling.</strong></p>
 </li>
 <li>
-<p><strong>SCAN com­mand en­hance­ments.</strong> SCAN CMODES, KLINES and UNKLINES have been added.</p>
+<p><strong>SCAN com­mand en­hance­ments.</strong> SCAN CMODES, KLINES and UN­KLINES have been added.</p>
 </li>
 <li>
-<p><strong>Serv­er ca­pa­bil­i­ties mes­sage.</strong> The quasi-standard numeric 005 (declare server capabilities) has been added.</p>
+<p><strong>Serv­er ca­pa­bil­i­ties mes­sage.</strong> The qua­si­-­s­tan­dard nu­mer­ic 005 (de­clare serv­er ca­pa­bil­i­ties) has been added.</p>
 </li>
 <li>
-<p><strong>STATS z fixed.</strong> The output should now be accurate.</p>
+<p><strong>STATS z fixed.</strong> The out­put should now be ac­cu­rate.</p>
 </li>
 </ul>
     </div>

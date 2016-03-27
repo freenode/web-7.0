@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New TLS/SSL Channel Modes &amp; Webchat Features - freenode</title>
-    <link href="../static/css/open-sans.css?f7fd165" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?f7fd165" rel="stylesheet">
-    <link href="../static/css/style.css?f7fd165" rel="stylesheet">
+    <link href="../static/css/open-sans.css?87a3010" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?87a3010" rel="stylesheet">
+    <link href="../static/css/style.css?87a3010" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -36,7 +36,7 @@
 <p>Doc­u­ment­ed in '/help extban' for some time, this has also been en­abled and match­es all TLS/SSL users. Us­age is sim­i­lar to the '$a' type (which match­es all iden­ti­fied users) and could for ex­am­ple be set as '+q $~z' to to qui­et any users not con­nect­ed over an ssl con­nec­tion.</p>
 <h2 id="webchat">Webchat</h2>
 <p>WE­BIRC has been en­abled so that be­hind their host­mask, users can now be con­sid­ered to be con­nect­ing from their real ad­dress. This means that a sin­gle ban for­mat can ap­ply to both di­rect con­nec­tions and we­bchat con­nec­tions.</p>
-<p>For ex­am­ple, a user con­nect­ing from 171.205.18.52 will still ap­pear as 'nick­name!abcd1234@gate­way/web/freen­ode/ip.171.205.18.52' but ban masks of the form '<em>!</em>@171.205.18.52' will match! This is now the most effective method of matching users using webchat but the realname and hexip username are still available.</p>
+<p>For ex­am­ple, a user con­nect­ing from 171.205.18.52 will still ap­pear as 'nick­name!abcd1234@gate­way/web/freen­ode/ip.171.205.18.52' but ban masks of the form '<em>!</em>@171.205.18.52' will match! This is now the most ef­fec­tive method of match­ing users us­ing we­bchat but the re­al­name and hex­ip user­name are still avail­able.</p>
 <p>Al­though freen­ode's we­bchat is avail­able over SSL, the we­bchat's lo­cal­host con­nec­tion to the ircd is not SSL, so we­bchat users do not get user mode +Z. We­bchat users will not be able to join a +S chan­nel and will not match the $z extban, even if they are us­ing we­bchat over SSL.</p>
 <h2 id="security-considerations">Security considerations</h2>
 <p>These chan­nel modes can not guar­an­tee se­cure com­mu­ni­ca­tion in all cas­es; if you choose to rely on them, please un­der­stand what they can and can't do, and what oth­er se­cu­ri­ty con­sid­er­a­tions there are.</p>
@@ -62,7 +62,7 @@
 <p>There are oth­er se­cu­ri­ty tools you may want to look at - you may want to con­sid­er us­ing client plu­g­ins that pro­vide ad­di­tion­al en­cryp­tion or route your con­nec­tion through Tor. Tor also al­lows you to cre­ate spu­ri­ous traf­fic to hide real traf­fic pat­terns. freen­ode pro­vides its own hid­den Tor node which means you can trust this con­nec­tion as much as you trust freen­ode. Your IRC traf­fic with freen­ode via Tor is end-­to-end en­crypt­ed from your Tor client to our Tor node. It does not pass through any third par­ty nodes in un­en­crypt­ed form.</p>
 <p>Fi­nal­ly, un­less you can trust every­one in a chan­nel and are sure it is con­fig­ured prop­er­ly and you un­der­stand the oth­er tech­ni­cal risks, do not rely on these chan­nel modes ex­clu­sive­ly. Se­cu­ri­ty is gen­er­al­ly lay­ered; en­sure you have good de­fense in depth and don't rely on in­di­vid­ual con­trols which may be a sin­gle point of fail­ure.</p>
 <h3 id="using-other-websites-or-services-via-tor">Using other websites or services via Tor</h3>
-<p>Re­mem­ber to <strong>al­ways</strong> encrypt your traffic when using Tor as you have no control over who is running exit nodes and if they are doing traffic analysis on them. While your traffic to the exit node is encrypted and the ingress node can not read it, the exit node will always need to be able to remove Tor encryption. If your traffic is clear-text said exit node will be able to read it.</p>
+<p>Re­mem­ber to <strong>al­ways</strong> en­crypt your traf­fic when us­ing Tor as you have no con­trol over who is run­ning exit nodes and if they are do­ing traf­fic analy­sis on them. While your traf­fic to the exit node is en­crypt­ed and the ingress node can not read it, the exit node will al­ways need to be able to re­move Tor en­cryp­tion. If your traf­fic is clear-­text said exit node will be able to read it.</p>
     </div>
     
 <div class="art-nav">
