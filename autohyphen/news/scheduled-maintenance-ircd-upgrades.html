@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>[Scheduled Maintenance] IRCD Upgrades - freenode</title>
-    <link href="../static/css/open-sans.css?87a3010" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?87a3010" rel="stylesheet">
-    <link href="../static/css/style.css?87a3010" rel="stylesheet">
+    <link href="../static/css/open-sans.css?03ac6fc" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?03ac6fc" rel="stylesheet">
+    <link href="../static/css/style.css?03ac6fc" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -32,7 +32,27 @@
     <p>Hi all.  It's time again for an up­grade. In about 7 hours, at 05:00 UTC, we'll be up­grad­ing the servers to  <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/releases/dancer-ircd-1.0.34.tar.gz">dancer-ir­cd v1.0.34</a>.  The up­grade process is like­ly to be fair­ly dis­rup­tive, as we are do­ing to be do­ing our best to get it done as quick­ly as pos­si­ble. This time, we're hop­ing to get the IPv6 servers up­grad­ed at the same time, rather than hold­ing that up­grade till lat­er.</p>
 <p>Your ed­i­tor notes that this is a main­te­nance re­lease, so in the­o­ry it should con­sist en­tire­ly of mi­nor changes and bug­fix­es; but un­til dancer 1.1 (with its au­to­mat­ed test­ing frame­work) is in place, up­grades are al­ways go­ing to be a bit ner­vous-­mak­ing.  When­ev­er we up­grade the net­work, there's a pos­si­bil­i­ty that new prob­lems will be un­cov­ered, re­quir­ing fur­ther up­grades. Bear with us, and help us if you can by stay­ing with the net­work dur­ing the process and giv­ing the new code a good thump­ing to make sure it's okay. :)</p>
 <p>Ex­cerpts from the NEWS file fol­low:</p>
-<p>wzx­hzdk:0</p>
+<blockquote>
+
+&gt;     
+&gt;     Various bug fixes. Highlights include:
+&gt;     
+&gt;       Bans of the form *!*@!* are now corrected properly, rather
+&gt;       than placing a confusing ban on remote servers.
+&gt;     
+&gt;       Kill reasons work again
+&gt;     
+&gt;       Bans are no longer broadcast to channel members while being
+&gt;       synchronised on burst. This could potentially hide an
+&gt;       unexpected ban, but the amount of data makes the broadcast
+&gt;       largely useless anyway.
+&gt;     
+&gt;       Remove cmode +F. Forwarding finally appears safe for general
+&gt;       use.
+&gt; 
+&gt; 
+</blockquote>
+
 <p>Thanks for your pa­tience and un­der­stand­ing, and thank you for us­ing freen­ode!</p>
     </div>
     
