@@ -8,7 +8,7 @@ title: [Scheduled Maintenance] IRCD upgrade.
 In a few minutes, we'll be reconfiguring the network to prevent   unregistered users from sending private messages. This is an experimental   feature which can be turned on and off at will. In the short term, it   should prevent private message flooding from spambots; in the long term,   combined with changes to authentication, it could make such flooding very   rare.  Please email us at **_policy at freenode dot net_** and let   us know what you think of the feature. You'll also be able to use
 
 
-<blockquote>  **_/stats p_**</blockquote>
+> **_/stats p_**
 
 
 to locate a staffer if you wish to comment, and staffers will be able to   see your comments, whether or not you are registered and identified.    Please take the opportunity to register your IRC nickname if you need the   ability to send private messages. If you've already registered your   nickname and have not set auto-identification on, please configure your   client accordingly. Remember that the easiest way to auto-identify is to   connect with your registered nick and specify your nickserv password as   your server password.

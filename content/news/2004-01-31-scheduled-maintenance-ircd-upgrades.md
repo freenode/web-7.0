@@ -10,9 +10,6 @@ Your editor notes that this is a maintenance release, so in theory it should con
 Excerpts from the NEWS file follow:
 
 
-<blockquote>
-
->     
 >     Various bug fixes. Highlights include:
 >     
 >       Bans of the form *!*@!* are now corrected properly, rather
@@ -27,9 +24,6 @@ Excerpts from the NEWS file follow:
 >     
 >       Remove cmode +F. Forwarding finally appears safe for general
 >       use.
-> 
-> 
-</blockquote>
 
 
 Thanks for your patience and understanding, and thank you for using freenode!
