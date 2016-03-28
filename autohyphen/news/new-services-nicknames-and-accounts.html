@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New Services: Nicknames and Accounts - freenode</title>
-    <link href="../static/css/open-sans.css?bb28ab4" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?bb28ab4" rel="stylesheet">
-    <link href="../static/css/style.css?bb28ab4" rel="stylesheet">
+    <link href="../static/css/open-sans.css?5eb14ff" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?5eb14ff" rel="stylesheet">
+    <link href="../static/css/style.css?5eb14ff" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -38,102 +38,101 @@
     </div>
     <div class="art-body">
     <p>We've no­ticed a lot of peo­ple who are con­fused (and right­ly so!) about the new nick­name sys­tem - par­tic­u­lar­ly the way that nick­name group­ing has changed. Hope­ful­ly this blog post will clear some of it up.</p>
-<p><strong>Nick­names and Ac­counts</strong></p>
+<h2 id="nicknames-and-accounts">Nicknames and Accounts</h2>
 <p>freen­ode now uses a sys­tem of own­er­ship that is dif­fer­ent to the old nick­names sys­tem. Now, when you reg­is­ter a <em>nick­name</em> for the first time, that <em>nick­name</em> be­comes the pri­ma­ry <em>nick­name</em> on your <em>ac­count</em> (which has the same name). An ex­am­ple:</p>
-<blockquote>**User1** vists Freenode for the first time. She registers by using the command:
-
-&gt; 
-&gt; <blockquote>/msg NickServ REGISTER myshinypass my@shiny.email</blockquote>
-&gt; 
-&gt; 
-**User1 **now has an _account_. freenode services have automatically assigned the _nickname_ **User1** to the _account_ **User1**. **User1** is now happy.</blockquote>
-
+<blockquote>
+<p><strong>User1</strong> vists Freen­ode for the first time. She reg­is­ters by us­ing the
+com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv REG­IS­TER myshiny­pass my@shiny.email</p>
+</blockquote>
+<p><strong>User1 </strong>now has an <em>ac­count</em>. freen­ode ser­vices have au­to­mat­i­cal­ly as­signed
+the <em>nick­name</em> <strong>User1</strong> to the <em>ac­count</em> <strong>User1</strong>. <strong>User1</strong> is now
+hap­py.</p>
+</blockquote>
 <p>So, <em>nick­names</em> are now as­signed to your <em>ac­count</em>. But what does this ac­tu­al­ly mean, prac­ti­cal­ly?</p>
-<p><strong>Iden­ti­fi­ca­tion</strong></p>
+<h2 id="identification">Identification</h2>
 <p>When you iden­ti­fy:</p>
-<blockquote> /msg NickServ IDENTIFY <password></password></blockquote>
-
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY &lt;pass­word&gt;</p>
+</blockquote>
 <p>freen­ode ser­vices will try and iden­ti­fy you to your <em>ac­count</em>.  It does this by tak­ing your <em>nick­name</em>, and look­ing it up in the data­base - to find the <em>ac­count</em> as­so­ci­at­ed with it. Let's go back to User1 for a lit­tle demon­stra­tion:</p>
-<blockquote>**User1** returns to freenode. She identifies using the command:
-
-&gt; 
-&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
-&gt; 
-&gt; 
-freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully.</blockquote>
-
+<blockquote>
+<p><strong>User1</strong> re­turns to freen­ode. She iden­ti­fies us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY myshiny­pass</p>
+</blockquote>
+<p>freen­ode ser­vices finds an <em>ac­count</em> (<strong>User1</strong>) with the same <em>nick­name</em> as
+her (<strong>User1</strong>), and so iden­ti­fies her suc­ces­ful­ly.</p>
+</blockquote>
 <p>But what hap­pens when you try and iden­ti­fy with a dif­fer­ent nick­name?</p>
-<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She tries to identify using the command:
-
-&gt; 
-&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
-&gt; 
-&gt; 
-freenode services tries to look up an account called **User12** (as this is her current nickname). This nickname is unregistered, and so does not have an account associated with it. The identification fails, and she is not logged in.</blockquote>
-
+<blockquote>
+<p><strong>User1 </strong>con­nects to freen­ode, but her client de­cides to con­nect with the
+<em>nick­name</em> <strong>User12.</strong> She tries to iden­ti­fy us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY myshiny­pass</p>
+</blockquote>
+<p>freen­ode ser­vices tries to look up an ac­count called <strong>User12</strong> (as this is
+her cur­rent nick­name). This nick­name is un­reg­is­tered, and so does not have an
+ac­count as­so­ci­at­ed with it. The iden­ti­fi­ca­tion fails, and she is not logged
+in.</p>
+</blockquote>
 <p>With the new ac­counts sys­tem, there is a com­mand that al­lows you to iden­ti­fy to your ac­count from any nick­name!</p>
-<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
-
-&gt; 
-&gt; <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
-&gt; 
-&gt; 
-freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds.</blockquote>
-
+<blockquote>
+<p><strong>User1 </strong>con­nects to freen­ode, but her client de­cides to con­nect with the
+<em>nick­name</em> <strong>User12.</strong> She can iden­ti­fy us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY User1 myshiny­pass</p>
+</blockquote>
+<p>freen­ode ser­vices will now look for an <em>ac­count</em> named <strong>User1</strong>, and log her
+into that. Since she al­ready reg­is­tered this, the iden­ti­fi­ca­tion suc­ceeds.</p>
+</blockquote>
 <p>How­ev­er, this is­n't ide­al, as she is now logged in, but is us­ing an un­reg­is­tered <em>nick­name</em>. She may want to con­sid­er GROUP­ing the <em>nick­name</em>.</p>
-<p><strong>Group­ing</strong></p>
+<h2 id="grouping">Grouping</h2>
 <p>With the new sys­tem, GROUP ba­si­cal­ly means to add an­oth­er <em>nick­name</em> to your <em>ac­count</em>. <strong>User1</strong> is fed up of be­ing con­nect­ed as <strong>User12</strong> and us­ing an un­reg­is­tered <em>nick­name</em>, so she has de­cid­ed to GROUP the <em>nick­name</em> to her ex­ist­ing <em>ac­count</em>.</p>
 <p>There are two ways to go about this:</p>
-<blockquote>**User1 **connects to freenode, but her client decides to connect with the _nickname_ **User12.** She can identify using the command:
-
-&gt; 
-&gt; <blockquote>/msg NickServ IDENTIFY User1 myshinypass</blockquote>
-&gt; 
-&gt; 
-freenode services will now look for an _account_ named **User1**, and log her into that. Since she already registered this, the identification succeeds. She can now GROUP the _nickname_ (**User12**) to her _account_ (**User1**) by typing:
-
-&gt; 
-&gt; <blockquote>/msg NickServ GROUP</blockquote>
-&gt; 
-&gt; 
-The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
-
-&gt; 
-&gt; <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
-&gt; 
-&gt; 
-when connected as **User12**.</blockquote>
-
+<blockquote>
+<p><strong>User1 </strong>con­nects to freen­ode, but her client de­cides to con­nect with the
+<em>nick­name</em> <strong>User12.</strong> She can iden­ti­fy us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY User1 myshiny­pass</p>
+</blockquote>
+<p>freen­ode ser­vices will now look for an <em>ac­count</em> named <strong>User1</strong>, and log her
+into that. Since she al­ready reg­is­tered this, the iden­ti­fi­ca­tion suc­ceeds.
+She can now GROUP the <em>nick­name</em> (<strong>User12</strong>) to her <em>ac­count</em> (<strong>User1</strong>) by
+typ­ing:</p>
+<blockquote>
+<p>/msg Nick­Serv GROUP</p>
+</blockquote>
+<p>The com­mand takes the cur­rent <em>nick­name</em>, and adds it to the cur­rent­ly logged
+in <em>ac­count</em>. She can now, in the fu­ture, iden­ti­fy us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY myshiny­pass</p>
+</blockquote>
+<p>when con­nect­ed as <strong>User12</strong>.</p>
+</blockquote>
 <p>Or, she can do this:</p>
-<blockquote>**User1** connects to freenode. She identifies using the command:
-
-&gt; 
-&gt; <blockquote>  /msg NickServ IDENTIFY myshinypass</blockquote>
-&gt; 
-&gt; 
-freenode services finds an _account_ (**User1**) with the same _nickname_ as her (**User1**), and so identifies her succesfully. She can now change her _nickname_:
-
-&gt; 
-&gt; <blockquote>/nick User12</blockquote>
-&gt; 
-&gt; 
-And GROUP her new _nickname_, as freenode services does not log her out of her _account_ when she changes _nickname_.
-
-&gt; 
-&gt; <blockquote>/msg NickServ GROUP</blockquote>
-&gt; 
-&gt; 
-The command takes the current _nickname_, and adds it to the currently logged in _account_. She can now, in the future, identify using the command:
-
-&gt; 
-&gt; <blockquote>/msg NickServ IDENTIFY myshinypass</blockquote>
-&gt; 
-&gt; 
-when connected as **User12**.</blockquote>
-
-<p><strong>Con­clu­sion</strong></p>
+<blockquote>
+<p><strong>User1</strong> con­nects to freen­ode. She iden­ti­fies us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY myshiny­pass</p>
+</blockquote>
+<p>freen­ode ser­vices finds an <em>ac­count</em> (<strong>User1</strong>) with the same <em>nick­name</em> as her (<strong>User1</strong>), and so iden­ti­fies her suc­ces­ful­ly. She can now change her <em>nick­name</em>:</p>
+<blockquote>
+<p>/nick User12</p>
+</blockquote>
+<p>And GROUP her new <em>nick­name</em>, as freen­ode ser­vices does not log her out of her <em>ac­count</em> when she changes <em>nick­name</em>.</p>
+<blockquote>
+<p>/msg Nick­Serv GROUP</p>
+</blockquote>
+<p>The com­mand takes the cur­rent <em>nick­name</em>, and adds it to the cur­rent­ly logged in <em>ac­count</em>. She can now, in the fu­ture, iden­ti­fy us­ing the com­mand:</p>
+<blockquote>
+<p>/msg Nick­Serv IDEN­TI­FY myshiny­pass</p>
+</blockquote>
+<p>when con­nect­ed as <strong>User12</strong>.</p>
+</blockquote>
+<h2 id="conclusion">Conclusion</h2>
 <p>So, to wrap up, freen­ode now al­lows you to reg­is­ter an ac­count, to which you add nick­names as ex­plained above. That's not an easy con­cept to grasp if you are used to the old sys­tem, and if you have any ques­tions, feel free to drop into #freen­ode and ask away!</p>
-<blockquote></blockquote>
     </div>
     
 <div class="art-nav">

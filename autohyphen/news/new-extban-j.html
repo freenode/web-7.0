@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New extban: $j - freenode</title>
-    <link href="../static/css/open-sans.css?bb28ab4" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?bb28ab4" rel="stylesheet">
-    <link href="../static/css/style.css?bb28ab4" rel="stylesheet">
+    <link href="../static/css/open-sans.css?5eb14ff" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?5eb14ff" rel="stylesheet">
+    <link href="../static/css/style.css?5eb14ff" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -38,19 +38,22 @@
     </div>
     <div class="art-body">
     <p>We have loaded a new mod­ule on the net­work which pro­vides the $j extban type:</p>
-<blockquote>$j:<chan> - matches users who are or are not banned from a specified channel</chan></blockquote>
-
+<blockquote>
+<p>$j:&lt;chan&gt; - match­es users who are or are not banned from a spec­i­fied chan­nel</p>
+</blockquote>
 <p>As an ex­am­ple...</p>
-<blockquote>/mode #here +b $j:#timbuktu</blockquote>
-
+<blockquote>
+<p>/mode #here +b $j:#tim­buk­tu</p>
+</blockquote>
 <p>...would ban users from #here that are banned (+b) in #tim­buk­tu.</p>
 <p>Please note that there are a cou­ple of gotchas:</p>
 <ul>
-<li>Only match­ing +b list en­tries are checked. Qui­ets (+q) Ex­emp­tions (+e) &amp; in­vex­es (+I) are NOT then con­sid­ered. As such, the fol­low­ing mode change would not al­ter the be­hav­iour of the first ex­am­ple:</li>
-</ul>
-<blockquote>/mode #timbuktu +e *!*@*</blockquote>
-
-<ul>
+<li>
+<p>Only match­ing +b list en­tries are checked. Qui­ets (+q) Ex­emp­tions (+e) &amp; in­vex­es (+I) are NOT then con­sid­ered. As such, the fol­low­ing mode change would not al­ter the be­hav­iour of the first ex­am­ple:</p>
+<blockquote>
+<p>/mode #tim­buk­tu +e *!*@*</p>
+</blockquote>
+</li>
 <li>
 <p>Qui­ets and the qui­et­ing ef­fect of bans may not im­me­di­ate­ly take ef­fect on #here when #tim­buk­tu's ban list changes due to caching by the ircd.</p>
 </li>
