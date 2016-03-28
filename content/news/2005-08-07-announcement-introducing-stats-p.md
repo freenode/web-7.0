@@ -8,7 +8,7 @@ title: [Announcement] Introducing /stats p
 Hyperion represents the return to active maintenance of our source tree,   and provides    [a number of bug   fixes and operational enhancements.](http://svn.freenode.net/hyperion/trunk/NEWS)    There will be a few visible enhancements, such as the use of the
 
 
-<blockquote>**   /stats p **</blockquote>
+> **/stats p**
 
 
 command, which will allow the user to get a list of    freenode    staffers who have marked themselves as "available to handle problems" with   a new user mode, +T. We'll make another new umode, +u, available to group   members to allow them to bypass channel join limits. And one more major   new feature, NOIDPREFIX support, may affect registered nickname formats.   Nothing will be implemented for at least two months, but you're urged to   read the    [draft policy](http://freenode.net/policy_draft_1123442180.shtml#usernames)     and comment to email address **policy at freenode dot net**.
