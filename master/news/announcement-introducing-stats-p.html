@@ -9,9 +9,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>[Announcement] Introducing /stats p - freenode</title>
-    <link href="../static/css/open-sans.css?e46a0cc" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?e46a0cc" rel="stylesheet">
-    <link href="../static/css/style.css?e46a0cc" rel="stylesheet">
+    <link href="../static/css/open-sans.css?951245f" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?951245f" rel="stylesheet">
+    <link href="../static/css/style.css?951245f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -39,8 +39,9 @@
     <div class="art-body">
     <p>Late-scheduled sponsor power outages between 9am and 10am UTC on Monday, 8   August 2005 (a bit over a day from now) will impact network use for most   of our users. We'll take the opportunity at that time to do software   updates on several of our servers, and we'll also schedule a test upgrade   to Hyperion 1.0.  Hyperion is a fork of our current dancer-ircd 1.0 ircd   server software.</p>
 <p>Hyperion represents the return to active maintenance of our source tree,   and provides    <a href="http://svn.freenode.net/hyperion/trunk/NEWS">a number of bug   fixes and operational enhancements.</a>    There will be a few visible enhancements, such as the use of the</p>
-<blockquote>**   /stats p **</blockquote>
-
+<blockquote>
+<p><strong>/stats p</strong></p>
+</blockquote>
 <p>command, which will allow the user to get a list of    freenode    staffers who have marked themselves as "available to handle problems" with   a new user mode, +T. We'll make another new umode, +u, available to group   members to allow them to bypass channel join limits. And one more major   new feature, NOIDPREFIX support, may affect registered nickname formats.   Nothing will be implemented for at least two months, but you're urged to   read the    <a href="http://freenode.net/policy_draft_1123442180.shtml#usernames">draft policy</a>     and comment to email address <strong>policy at freenode dot net</strong>.</p>
 <p>As a convenience to our users, you can now identify to NickServ as you   connect to the network. Just connect with your registered nickname and   specify your NickServ password as a server password. We hope this will   make identifying to NickServ easier.</p>
 <p>Channel staffers will notice that usernames appear in WHOIS as "I=foo" or   "N=foo" to indicate whether identd was successful or not. Channel   forwarding has been cleaned up and should work properly with most clients.    Channel forwarding bans now show the target channel. Various commands no   longer break idle time. Channel quiet mask requests (+q) are now always   reflected as '+b %foo' mode changes to help keep clients synchronized.    Hostname cloaks have been changed; where they previously appeared as   right-major hierarchical names using '.' to separate tokens, they will now   be left-major, using '/' as token separator. They'll be extremely easy to   distinguish from actual DNS hostnames and to ban or exempt as required.   And a variety of operational and protocol changes under the covers should   help the network to function more smoothly.</p>
