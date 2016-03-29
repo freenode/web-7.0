@@ -1,4 +1,4 @@
-author: Xyrael
+author: seanw
 date: 2007-08-28 19:12:18+00:00
 slug: freenode-has-reached-40-000-users
 title: freenode has reached 40 000 users
