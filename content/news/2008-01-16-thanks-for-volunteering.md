@@ -1,4 +1,4 @@
-author: Xyrael
+author: seanw
 date: 2008-01-16 20:36:46+00:00
 slug: thanks-for-volunteering
 title: Thanks for volunteering!
