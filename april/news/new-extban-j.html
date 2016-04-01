@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New extban: $j - freenode</title>
-    <link href="../static/css/open-sans.css?fe6539c" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?fe6539c" rel="stylesheet">
-    <link href="../static/css/april.css?fe6539c" rel="stylesheet">
+    <link href="../static/css/open-sans.css?bcfdef6" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?bcfdef6" rel="stylesheet">
+    <link href="../static/css/april.css?bcfdef6" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -30,19 +38,22 @@
     </div>
     <div class="art-body">
     <p>We have loaded a new module on the network which provides the $j extban type:</p>
-<blockquote>$j:<chan> - matches users who are or are not banned from a specified channel</chan></blockquote>
-
+<blockquote>
+<p>$j:&lt;chan&gt; - matches users who are or are not banned from a specified channel</p>
+</blockquote>
 <p>As an example...</p>
-<blockquote>/mode #here +b $j:#timbuktu</blockquote>
-
+<blockquote>
+<p>/mode #here +b $j:#timbuktu</p>
+</blockquote>
 <p>...would ban users from #here that are banned (+b) in #timbuktu.</p>
 <p>Please note that there are a couple of gotchas:</p>
 <ul>
-<li>Only matching +b list entries are checked. Quiets (+q) Exemptions (+e) &amp; invexes (+I) are NOT then considered. As such, the following mode change would not alter the behaviour of the first example:</li>
-</ul>
-<blockquote>/mode #timbuktu +e *!*@*</blockquote>
-
-<ul>
+<li>
+<p>Only matching +b list entries are checked. Quiets (+q) Exemptions (+e) &amp; invexes (+I) are NOT then considered. As such, the following mode change would not alter the behaviour of the first example:</p>
+<blockquote>
+<p>/mode #timbuktu +e *!*@*</p>
+</blockquote>
+</li>
 <li>
 <p>Quiets and the quieting effect of bans may not immediately take effect on #here when #timbuktu's ban list changes due to caching by the ircd.</p>
 </li>
@@ -55,7 +66,7 @@
     </div>
     
 <div class="art-nav">
-    <span><a href="april-1st-2014-followup">previous article</a><span class="invisible">, </span></span><a href="../archive">all</a><span><span class="invisible">, </span><a href="server-issues-2">next article</a></span>
+    <span><a href="april-1st-2014-followup">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="server-issues-2">next article</a></span>
 </div>
 
 </div>

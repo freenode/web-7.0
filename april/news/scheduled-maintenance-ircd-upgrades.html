@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>[Scheduled Maintenance] IRCD Upgrades - freenode</title>
-    <link href="../static/css/open-sans.css?fe6539c" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?fe6539c" rel="stylesheet">
-    <link href="../static/css/april.css?fe6539c" rel="stylesheet">
+    <link href="../static/css/open-sans.css?bcfdef6" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?bcfdef6" rel="stylesheet">
+    <link href="../static/css/april.css?bcfdef6" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -33,31 +41,27 @@
 <p>Your editor notes that this is a maintenance release, so in theory it should consist entirely of minor changes and bugfixes; but until dancer 1.1 (with its automated testing framework) is in place, upgrades are always going to be a bit nervous-making.  Whenever we upgrade the network, there's a possibility that new problems will be uncovered, requiring further upgrades. Bear with us, and help us if you can by staying with the network during the process and giving the new code a good thumping to make sure it's okay. :)</p>
 <p>Excerpts from the NEWS file follow:</p>
 <blockquote>
+<pre><code>Various bug fixes. Highlights include:
 
-&gt;     
-&gt;     Various bug fixes. Highlights include:
-&gt;     
-&gt;       Bans of the form *!*@!* are now corrected properly, rather
-&gt;       than placing a confusing ban on remote servers.
-&gt;     
-&gt;       Kill reasons work again
-&gt;     
-&gt;       Bans are no longer broadcast to channel members while being
-&gt;       synchronised on burst. This could potentially hide an
-&gt;       unexpected ban, but the amount of data makes the broadcast
-&gt;       largely useless anyway.
-&gt;     
-&gt;       Remove cmode +F. Forwarding finally appears safe for general
-&gt;       use.
-&gt; 
-&gt; 
+  Bans of the form *!*@!* are now corrected properly, rather
+  than placing a confusing ban on remote servers.
+
+  Kill reasons work again
+
+  Bans are no longer broadcast to channel members while being
+  synchronised on burst. This could potentially hide an
+  unexpected ban, but the amount of data makes the broadcast
+  largely useless anyway.
+
+  Remove cmode +F. Forwarding finally appears safe for general
+  use.
+</code></pre>
 </blockquote>
-
 <p>Thanks for your patience and understanding, and thank you for using freenode!</p>
     </div>
     
 <div class="art-nav">
-    <span><a href="happy-birthday-freenode">previous article</a><span class="invisible">, </span></span><a href="../archive">all</a><span><span class="invisible">, </span><a href="scheduled-maintenance-bug-fixes-expected-network-disturbances">next article</a></span>
+    <span><a href="happy-birthday-freenode">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="scheduled-maintenance-bug-fixes-expected-network-disturbances">next article</a></span>
 </div>
 
 </div>

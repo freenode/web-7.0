@@ -9,15 +9,23 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Heartbleed - freenode</title>
-    <link href="../static/css/open-sans.css?fe6539c" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?fe6539c" rel="stylesheet">
-    <link href="../static/css/april.css?fe6539c" rel="stylesheet">
+    <link href="../static/css/open-sans.css?bcfdef6" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?bcfdef6" rel="stylesheet">
+    <link href="../static/css/april.css?bcfdef6" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <label for="search" class="invisible">Search:</label>
+            <input id="nav-searchbox" type="text" name="q"/>
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search" />
+        </form>
     </nav>
     <div class="container">
         
@@ -42,8 +50,9 @@
 <p><strong>We would advise that users reset their password</strong> (after reconnecting) using instructions returned by the following command:</p>
 </li>
 </ul>
-<blockquote>/msg nickserv help set password</blockquote>
-
+<blockquote>
+<p>/msg nickserv help set password</p>
+</blockquote>
 <p>This should help ensure that if your password was compromised through an exploitation of the Heartbleed vulnerability, the damage is limited.</p>
 <ul>
 <li>
@@ -53,8 +62,9 @@
 <p>If you use CertFP, you should <strong>regenerate your client certificate</strong> (<a href="http://freenode.net/certfp/makecert.shtml">instructions</a>) ****and ensure that you update NickServ with the new certificate hash. You can find out how to do this using the following command:</p>
 </li>
 </ul>
-<blockquote>/msg nickserv help cert</blockquote>
-
+<blockquote>
+<p>/msg nickserv help cert</p>
+</blockquote>
 <ul>
 <li>
 <p>Having changed passwords and/or certificate hashes, it cannot hurt to <strong>verify your other authentication methods</strong> (such as <a href="http://blog.freenode.net/2013/08/check-your-nickserv-email/">email</a>, ACCESS or CERT). It is possible you have additional access methods configured either from past use or (less likely) due to an account compromise.</p>
@@ -70,7 +80,7 @@
     </div>
     
 <div class="art-nav">
-    <span><a href="googleplusfreenode">previous article</a><span class="invisible">, </span></span><a href="../archive">all</a><span><span class="invisible">, </span><a href="april-1st-2014-followup">next article</a></span>
+    <span><a href="googleplusfreenode">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="april-1st-2014-followup">next article</a></span>
 </div>
 
 </div>
