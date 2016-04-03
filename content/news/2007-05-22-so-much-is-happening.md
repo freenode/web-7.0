@@ -81,8 +81,8 @@ And we saw some changes to the structure of the PDPC board.
 >
 > On behalf of the PDPC board,
 >
-> Christel Dahlskjaer - President, Head of Staff - freenode<br/> Phil
-> Stracchino - Secretary<br/> David Graham - Community Board Member
+> Christel Dahlskjaer - President, Head of Staff - freenode<br> Phil
+> Stracchino - Secretary<br> David Graham - Community Board Member
 
 
 The above is copied from the news announcement made

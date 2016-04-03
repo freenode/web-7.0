@@ -10,9 +10,9 @@ category: technical
 ---
 Every couple of years, freenode likes to get out the shears and prune the services database. Recently we broke the 80,000 usercount barrier, but the services stats are way ahead:
 
-> Sat 13:35:46 -OperServ(OperServ@services.)- Registered accounts: 446777<br/>
-> Sat 13:35:46 -OperServ(OperServ@services.)- Registered nicknames: 557497<br/>
-> Sat 13:35:47 -OperServ(OperServ@services.)- Registered channels: 141373<br/>
+> Sat 13:35:46 -OperServ(OperServ@services.)- Registered accounts: 446777<br>
+> Sat 13:35:46 -OperServ(OperServ@services.)- Registered nicknames: 557497<br>
+> Sat 13:35:47 -OperServ(OperServ@services.)- Registered channels: 141373<br>
 
 We've noticed that nearly half of the accounts shown there haven't been used in
 the past 6 months! More importantly, over the past few months many people have
