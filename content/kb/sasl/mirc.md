@@ -4,7 +4,7 @@ The most recent solution for enabling SASL in mIRC appears to be with sasl.mrc, 
 
 # Configuring SASL for mIRC: sasl.mrc
 
-The mirc script is written by Kyle Travaglini and was originally taken from a [SwiftIRC forum post](http://forum.swiftirc.net/viewtopic.php?f=34&t=23101). The SwiftIRC version has been replaced by a version that does not require the DLL. The instructions have been updated by KindOne.
+The mirc script is written by Kyle Travaglini and was originally taken from a [SwiftIRC forum post <i class="fa fa-external-link" aria-hidden="true"></i>](http://forum.swiftirc.net/viewtopic.php?f=34&t=23101). The SwiftIRC version has been replaced by a version that does not require the DLL. The instructions have been updated by KindOne.
 
 1. Start mIRC and where you would type text to send to a channel, type `/run` and hit Enter. A folder will open. Take note of this location.
 2. Download sasl.mrc and save it in the folder from above. You may need to right click and select `Save Link As...`
