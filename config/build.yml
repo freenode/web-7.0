@@ -16,6 +16,6 @@
   output: out/static/img
   recursive: True
   pattern: '*.svg'
-- command: [postcss, -c, postcss.json]
+- command: [myth, --compress, --]
   source: static/css
   output: out/static/css
