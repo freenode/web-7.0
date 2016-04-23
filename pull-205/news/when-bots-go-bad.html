@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <title>When bots go bad.. - freenode</title>
+    <link href="../static/css/open-sans.css?90d36d5" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?90d36d5" rel="stylesheet">
+    <link href="../static/css/style.css?90d36d5" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-info">
+        
+<a href="when-bots-go-bad"><h1 class="art">When bots go bad..</h1></a>
+<span class="art-date">christel on 2009-11-01</span>
+
+    </div>
+    <div class="art-body">
+    <p>First off, allow me to apologise to all users affected by the recent "client  killing" rampage of our utility bot; Syn. She appears to have gotten into the  Halloween spirit a bit too much!</p>
+<p>You may have noticed a large number of people disconnecting from freenode with the reason 'Nick collision from syn.' We feel we should explain what happened.</p>
+<p>For those of you not already familiar with her, syn is a utility bot that, amongst other duties, regulates gateway access to the network. This could be web gateways such as CGI:IRC or our own webchat, NAT gateways, or some conferences and shell services. One of the things that she does, for web gateways in particular, is to match the reported IP address (hex-encoded in the ident field) against network bans, and deny the connection if a match is found.</p>
+<p>It was this particular part that had an unfortunate pair of bugs resulting in the incident you observed. Firstly, in using sscanf() to detect a hex-encoded IP address in the ident field, the validation was not quite strict enough -- any ident that <em>began</em> with a series of valid hexadecimal characters (the digits 0-9 and letters a-f) would result in a number being decoded. In normal circumstances, this would be relatively harmless as the resulting IP is clearly invalid -- in most cases, it would begin 0.0.0., and not match any network bans.</p>
+<p>Unfortunately, there was a second bug introduced more recently as part of a performance fix. This meant that in certain cases, a K:line whose host part contained wildcards would incorrectly match against these invalid IP addresses.</p>
+<p>Each of these, taken in isolation, would be relatively innocuous, and so they slipped under the radar and made it into production. The combination of the two, however, had rather disastrous results.</p>
+<p>We apologise, and welcome you to castigate our developers and staff for our  incompetence and for allowing these bugs to make it into production.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="free-as-in-freenode">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="testing-the-nets">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="#">Register as a group</a>
+            </li>
+            <li>
+                <a href="#">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
