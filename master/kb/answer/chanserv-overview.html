@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <title>ChanServ commands and control flags - freenode</title>
+    <link href="../../static/css/open-sans.css?8102be9" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?8102be9" rel="stylesheet">
+    <link href="../../static/css/style.css?8102be9" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>ChanServ commands and control flags</h1>
+    <p class="art-ingress">
+        <p>ChanServ is the part of ser­vices re­spon­si­ble for chan­nels. It can be used to reg­is­ter chan­nels, trans­fer them, set­ting flags for cer­tain users and set­ting var­i­ous chan­nel flags and modes.</p>
+<p>It has an in­built help which can be seen by is­su­ing <code>/msg chanserv help</code>. Most com­mands have spe­cif­ic and more de­tailed in­struc­tions which can be seen by is­su­ing <code>/msg chanserv help com­mand</code>, e.g. <code>/msg chanserv help set</code>.</p>
+<h2 id="chanserv-commands">ChanServ Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>REGISTER</td>
+<td>Registers a channel. Takes a channel as argument. Read the <a href="../../policies">policies</a> on owning channels first.</td>
+</tr>
+<tr>
+<td>DROP</td>
+<td>Unregisters a channel. Takes a channel as argument. Can't be undone, all settings and flags are lost. If you want to transfer a channel, see SET FOUNDER or FLAGS instead.</td>
+</tr>
+<tr>
+<td>INFO</td>
+<td>Prints information about a channel, Takes a channel as argument</td>
+</tr>
+<tr>
+<td>FLAGS</td>
+<td>Manipulates specific permissions (flags) on a channel.</td>
+</tr>
+<tr>
+<td>ACCESS</td>
+<td>Manipulates and shows permissions (flags) on a channel.</td>
+</tr>
+<tr>
+<td>TEMPLATE</td>
+<td>Manipulates and shows templates for channel permissions.</td>
+</tr>
+<tr>
+<td>SET</td>
+<td>Sets various control flags. See below for a list and what they do.</td>
+</tr>
+<tr>
+<td>OP</td>
+<td>Gives channel ops (+o) to a user. Takes a channel and user as arguments, e.g. <code>/msg chanserv op #mychannel user</code>. Requires the +o flag.</td>
+</tr>
+<tr>
+<td>DEOP</td>
+<td>Takes channel ops (+o) from a user. Takes a channel and user as arguments, e.g. <code>/msg chanserv deop #mychannel user</code>. Requires the +o flag.</td>
+</tr>
+<tr>
+<td>VOICE</td>
+<td>Gives voice (+v) to a user. Takes a channel and user as arguments, e.g. <code>/msg chanserv voice #mychannel user</code>. Requires the +v flag.</td>
+</tr>
+<tr>
+<td>DEVOICE</td>
+<td>Takes voice (+v) from a user. Takes a channel and user as arguments, e.g. <code>/msg chanserv devoice #mychannel user</code>. Requires the +v flag.</td>
+</tr>
+<tr>
+<td>QUIET</td>
+<td>Quiets a user on a channel. Takes a channel and either user or mask as arguments. Note that the user will still see who issued the command, but on the quiet list chanserv will be listed as the user setting the quiet. Requires the +r flag.</td>
+</tr>
+<tr>
+<td>UNQUIET</td>
+<td>Removes quiets matching a user on a channel. Takes a channel and either user or mask as arguments. Note that the user will see who issued the command. Requires the +r flag.</td>
+</tr>
+<tr>
+<td>AKICK</td>
+<td>Maintains the banlist. Users on this list will be kickbanned when joining the channel, removing all ban exceptions matching them first. This command is discouraged.</td>
+</tr>
+<tr>
+<td>INVITE</td>
+<td>Invites you to a channel. Takes a channel as argument. Helpful if you set your channel to invite only (+i) and can't join. Requires the +i flag.</td>
+</tr>
+<tr>
+<td>UNBAN</td>
+<td>Unbans you on a channel by removing all bans matching you. Takes a channel as argument. Requires the +r flag.</td>
+</tr>
+<tr>
+<td>GETKEY</td>
+<td>Prints the key of a channel. Takes a channel as argument. Requires the +i flag.</td>
+</tr>
+<tr>
+<td>TOPIC</td>
+<td>Replaces the channel topic. Takes the channel and topic as arguments. Requires the +t flag.</td>
+</tr>
+<tr>
+<td>TOPICAPPEND</td>
+<td>Appends text to the channel topic. Takes the channel and the text to add as arguments. Requires the +t flag.</td>
+</tr>
+<tr>
+<td>TOPICPREPEND</td>
+<td>Prepends text to the channel topic. Takes the channel and the text to add as arguments. Requires the +t flag.</td>
+</tr>
+<tr>
+<td>TOPICSWAP</td>
+<td>Replaces parts of the channel topic. Takes the channel, the text to search and the replacement as arguments. E.g. <code>/msg chanserv topicswap #mychannel foo:bar</code> would replace foo with bar in the channel topic. Requires the +t flag.</td>
+</tr>
+<tr>
+<td>CLEAR</td>
+<td>Can be used to clear ban lists, permissions or remove all users from a channel. See <code>/msg chanserv help clear</code> for the various options, use carefully as it can't be undone. Requires the +R flag.</td>
+</tr>
+<tr>
+<td>STATUS</td>
+<td>Prints information about whether you are identified if used without arguments. Takes a channel as optional argument and will then show your flags in the specified channel.</td>
+</tr>
+<tr>
+<td>TAXONOMY</td>
+<td>Lists metadata information associated with a channel. Takes a channel as argument.</td>
+</tr>
+<tr>
+<td>SYNC</td>
+<td>Gives and takes operator and voice from users to match channel flags. Takes a channel as argument. Requires the +R flag.</td>
+</tr>
+<tr>
+<td>RECOVER</td>
+<td>Regain control of your channel. Takes a channel as argument. Use with caution, as it clears out the channel and sets various modes that prevent users from participating in it. Do not use this to regain operator status, see the OP command above. Requires the +R flag.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="channel-control-flags-set-command">Channel control flags (SET command)</h2>
+<p>There are var­i­ous con­trol flags that can be mod­fied with the SET com­mand. This re­quires the +s flag.
+Avail­able con­trol flags are:</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EMAIL</td>
+<td>Sets the channel e-mail address. Takes text as argument. This is optional and will be displayed in <code>/msg ChanServ INFO</code>.</td>
+</tr>
+<tr>
+<td>URL</td>
+<td>Sets the channel URL. Takes text as argument. This is optional and will be displayed in <code>/msg ChanServ INFO</code>.</td>
+</tr>
+<tr>
+<td>ENTRYMSG</td>
+<td>Sets the channel's entry message. Takes text as argument. All users joining the channel will receive this message.</td>
+</tr>
+<tr>
+<td>FOUNDER</td>
+<td>Transfers foundership of a channel. Takes a registered user as argument. The recipient has to confirm the transfer by issuing the same command. Requires the +F flag.</td>
+</tr>
+<tr>
+<td>GUARD</td>
+<td>Sets whether or not services will inhabit the channel. Takes ON or OFF as argument. If enabled, ChanServ is placed in the channel, preventing it from becoming empty, which would lead to all modes being lost. Note that in the rare case of a service reboot or splits ChanServ might still be absent.</td>
+</tr>
+<tr>
+<td>KEEPTOPIC</td>
+<td>Enables topic retention. Takes ON or OFF as argument. If enabled, ChanServ will recover a channel topic after the channel became empty. Note that in cases of netsplits or service outages unwanted topic changes could occur, so it is not recommended to enable this unless your channel potentially becomes empty. See GUARD above to prevent that.</td>
+</tr>
+<tr>
+<td>MLOCK</td>
+<td>Sets channel mode lock. Takes a list of modes to set or unset as an argument. Modes not mentioned will be removed from the current MLOCK setting, so specifying no modes removes all currently MLOCKed modes. E.g. <code>/msg chanserv set #mychannel MLOCK +nt-sc</code> would ensure that the channel modes n and + are set and s and c are unset. All other channel modes can be changed by channel operators at will.</td>
+</tr>
+<tr>
+<td>PRIVATE</td>
+<td>Hides information about a channel. Takes ON or OFF as argument. If enabled, information like the channel founder, successor and entrymessage are hidden in ChanServ's INFO. Also the channel access list is only available to users with the +A flag.</td>
+</tr>
+<tr>
+<td>PROPERTY</td>
+<td>Manipulates channel metadata. Can be used to add additional information to ChanServ's INFO. Takes a name and value as arguments, e.g. <code>/msg chanserv set #mychannel PROPERTY GitHub https://github.com/freenode/atheme</code>.</td>
+</tr>
+<tr>
+<td>RESTRICTED</td>
+<td>Restricts access to the channel to users on the access list. Takes ON or OFF as argument. All users not matching an entry on the access list are kickbanned when trying to join.</td>
+</tr>
+<tr>
+<td>SECURE</td>
+<td>Prevents unauthorized users from gaining operator status. Takes ON or OFF as argument. People not having the needed flags can't be opped up in the channel.</td>
+</tr>
+<tr>
+<td>TOPICLOCK</td>
+<td>Restricts who can change the topic. Takes ON or OFF as argument. If enabled, only users with the +f flag are able to modify the topic with the <code>/topic</code> command. Requires KEEPTOPIC which will be enforced if not already enabled.</td>
+</tr>
+<tr>
+<td>VERBOSE</td>
+<td>Notifies channel about access list modifications. Takes ON or OFF as argument.</td>
+</tr>
+</tbody>
+</table>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="#">Register as a group</a>
+            </li>
+            <li>
+                <a href="#">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
