@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New TLS/SSL Channel Modes &amp; Webchat Features - freenode</title>
-    <link href="../static/css/open-sans.css?46e25db" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?46e25db" rel="stylesheet">
-    <link href="../static/css/style.css?46e25db" rel="stylesheet">
+    <link href="../static/css/open-sans.css?5ad99a3" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?5ad99a3" rel="stylesheet">
+    <link href="../static/css/style.css?5ad99a3" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -43,7 +43,7 @@
 <p>Documented in '/help extban' for some time, this has also been enabled and matches all TLS/SSL users. Usage is similar to the '$a' type (which matches all identified users) and could for example be set as '+q $~z' to to quiet any users not connected over an ssl connection.</p>
 <h2 id="webchat">Webchat</h2>
 <p>WEBIRC has been enabled so that behind their hostmask, users can now be considered to be connecting from their real address. This means that a single ban format can apply to both direct connections and webchat connections.</p>
-<p>For example, a user connecting from 171.205.18.52 will still appear as 'nickname!abcd1234@gateway/web/freenode/ip.171.205.18.52' but ban masks of the form '<em>!</em>@171.205.18.52' will match! This is now the most effective method of matching users using webchat but the realname and hexip username are still available.</p>
+<p>For example, a user connecting from 171.205.18.52 will still appear as 'nickname!abcd1234@gateway/web/freenode/ip.171.205.18.52' but ban masks of the form '*!*@171.205.18.52' will match! This is now the most effective method of matching users using webchat but the realname and hexip username are still available.</p>
 <p>Although freenode's webchat is available over SSL, the webchat's localhost connection to the ircd is not SSL, so webchat users do not get user mode +Z. Webchat users will not be able to join a +S channel and will not match the $z extban, even if they are using webchat over SSL.</p>
 <h2 id="security-considerations">Security considerations</h2>
 <p>These channel modes can not guarantee secure communication in all cases; if you choose to rely on them, please understand what they can and can't do, and what other security considerations there are.</p>
