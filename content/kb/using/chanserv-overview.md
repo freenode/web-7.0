@@ -36,8 +36,8 @@ It has an inbuilt help which can be seen by issuing `/msg chanserv help`. Most c
 
 
 ### Channel control flags (SET command)
-There are various control flags that can be modfied with the SET command. This requires the +s flag. 
-Available control flags are: 
+There are various control flags that can be modfied with the SET command. This requires the +s flag.
+Available control flags are:
 
 | Command      | Description |
 | -------      | ----------- |
