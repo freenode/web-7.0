@@ -35,6 +35,6 @@
     - name: Group registration
       link: pages/groupreg
     - name: Register as a group
-      link: '#'  #XXX  link to gms
+      link: pages/groupreg #XXX  link to gms
     - name: Existing groups
-      link: '#'  #XXX  gms integration
+      link: pages/groupreg #XXX  gms integration
