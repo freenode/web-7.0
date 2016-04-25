@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>New TLS/SSL Channel Modes &amp; Webchat Features - freenode</title>
-    <link href="../static/css/open-sans.css?c9f6946" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?c9f6946" rel="stylesheet">
-    <link href="../static/css/style.css?c9f6946" rel="stylesheet">
+    <link href="../static/css/open-sans.css?9a4bb95" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?9a4bb95" rel="stylesheet">
+    <link href="../static/css/style.css?9a4bb95" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -43,7 +43,7 @@
 <p>Doc­u­ment­ed in '/help extban' for some time, this has also been en­abled and match­es all TLS/SSL users. Us­age is sim­i­lar to the '$a' type (which match­es all iden­ti­fied users) and could for ex­am­ple be set as '+q $~z' to to qui­et any users not con­nect­ed over an ssl con­nec­tion.</p>
 <h2 id="webchat">Webchat</h2>
 <p>WE­BIRC has been en­abled so that be­hind their host­mask, users can now be con­sid­ered to be con­nect­ing from their real ad­dress. This means that a sin­gle ban for­mat can ap­ply to both di­rect con­nec­tions and we­bchat con­nec­tions.</p>
-<p>For ex­am­ple, a user con­nect­ing from 171.205.18.52 will still ap­pear as 'nick­name!abcd1234@gate­way/web/freen­ode/ip.171.205.18.52' but ban masks of the form '<em>!</em>@171.205.18.52' will match! This is now the most ef­fec­tive method of match­ing users us­ing we­bchat but the re­al­name and hex­ip user­name are still avail­able.</p>
+<p>For ex­am­ple, a user con­nect­ing from 171.205.18.52 will still ap­pear as 'nick­name!abcd1234@gate­way/web/freen­ode/ip.171.205.18.52' but ban masks of the form '*!*@171.205.18.52' will match! This is now the most ef­fec­tive method of match­ing users us­ing we­bchat but the re­al­name and hex­ip user­name are still avail­able.</p>
 <p>Al­though freen­ode's we­bchat is avail­able over SSL, the we­bchat's lo­cal­host con­nec­tion to the ircd is not SSL, so we­bchat users do not get user mode +Z. We­bchat users will not be able to join a +S chan­nel and will not match the $z extban, even if they are us­ing we­bchat over SSL.</p>
 <h2 id="security-considerations">Security considerations</h2>
 <p>These chan­nel modes can not guar­an­tee se­cure com­mu­ni­ca­tion in all cas­es; if you choose to rely on them, please un­der­stand what they can and can't do, and what oth­er se­cu­ri­ty con­sid­er­a­tions there are.</p>
