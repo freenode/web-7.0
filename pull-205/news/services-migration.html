@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Services Migration - freenode</title>
-    <link href="../static/css/open-sans.css?90d36d5" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?90d36d5" rel="stylesheet">
-    <link href="../static/css/style.css?90d36d5" rel="stylesheet">
+    <link href="../static/css/open-sans.css?a7588a3" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?a7588a3" rel="stylesheet">
+    <link href="../static/css/style.css?a7588a3" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -36,92 +36,92 @@
 
     </div>
     <div class="art-body">
-    <p>The time has come for freenode to migrate from our old, legacy services         package to a much newer, actively maintained package known as       <a href="http://www.atheme.net/">Atheme</a>, developed by the          <a href="http://www.atheme.org/">Atheme Project</a>.  Although we,         with the help of the Atheme developers, have tried to make the      migration process as painless as possible, there are still a        few interface differences that you will need to be aware of.        This guide, prepared by tomaw, will attempt to walk you through the main changes, grouped by service.</p>
+    <p>The time has come for freen­ode to mi­grate from our old, lega­cy ser­vices         pack­age to a much new­er, ac­tive­ly main­tained pack­age known as       <a href="http://www.atheme.net/">Ath­eme</a>, de­vel­oped by the          <a href="http://www.atheme.org/">Ath­eme Project</a>.  Al­though we,         with the help of the Ath­eme de­vel­op­ers, have tried to make the      mi­gra­tion process as pain­less as pos­si­ble, there are still a        few in­ter­face dif­fer­ences that you will need to be aware of.        This guide, pre­pared by tomaw, will at­tempt to walk you through the main changes, grouped by ser­vice.</p>
 <h2 id="nickserv">NickServ</h2>
 <ul>
 <li>
-<p>NickServ will now require a valid, verified email           address to register new nicks.  Because of this the             registration command has changed to</p>
-<p>/msg NickServ REGISTER <password></password> <email address=""></email></p>
+<p>Nick­Serv will now re­quire a valid, ver­i­fied email           ad­dress to reg­is­ter new nicks.  Be­cause of this the             reg­is­tra­tion com­mand has changed to</p>
+<p>/msg Nick­Serv REG­IS­TER <password></password> <email address=""></email></p>
 </li>
 </ul>
-<p>You will the receive a confirmation email with          instructions on how to confirm your account             registration.  Accounts that have been migrated from            theia that did not have an email address set will find          that their address is set to 'nomail'.  <strong>These users           should set an email address as soon as possible.</strong></p>
+<p>You will the re­ceive a con­fir­ma­tion email with          in­struc­tions on how to con­firm your ac­count             reg­is­tra­tion.  Ac­counts that have been mi­grat­ed from            theia that did not have an email ad­dress set will find          that their ad­dress is set to 'no­mail'.  <strong>These users           should set an email ad­dress as soon as pos­si­ble.</strong></p>
 <ul>
 <li>
-<p>New NickServ accounts that are registered but not           confirmed will be <strong>automatically</strong> dropped after 24            hours.</p>
+<p>New Nick­Serv ac­counts that are reg­is­tered but not           con­firmed will be <strong>au­to­mat­i­cal­ly</strong> dropped af­ter 24            hours.</p>
 </li>
 <li>
-<p>What was Nick Linking has now been replaced with            Nick Grouping.  This means that you have just one           account (including one password, one email address etc.)            but potentially multiple Nicks associated with that             account.   For more information please issue the            following command:</p>
-<p>/msg NickServ HELP GROUP</p>
+<p>What was Nick Link­ing has now been re­placed with            Nick Group­ing.  This means that you have just one           ac­count (in­clud­ing one pass­word, one email ad­dress etc.)            but po­ten­tial­ly mul­ti­ple Nicks as­so­ci­at­ed with that             ac­count.   For more in­for­ma­tion please is­sue the            fol­low­ing com­mand:</p>
+<p>/msg Nick­Serv HELP GROUP</p>
 </li>
 </ul>
-<p>Migrated accounts will have the password associated to          the master nick, but will have the first valid email            address found when searching all linked nicks.</p>
+<p>Mi­grat­ed ac­counts will have the pass­word as­so­ci­at­ed to          the mas­ter nick, but will have the first valid email            ad­dress found when search­ing all linked nicks.</p>
 <ul>
 <li>
-<p>SET UNFILTERED has been removed and the global          block on messages from users that have not identified           to NickServ has been removed.  This was only ever           intended to be a temporary measure to combat spam and           we're hopeful that we can deal with those events in             different, less intrusive ways.  UMODE +E remains an            alternative for any users who wish to block such messages.</p>
+<p>SET UN­FIL­TERED has been re­moved and the glob­al          block on mes­sages from users that have not iden­ti­fied           to Nick­Serv has been re­moved.  This was only ever           in­tend­ed to be a tem­po­rary mea­sure to com­bat spam and           we're hope­ful that we can deal with those events in             dif­fer­ent, less in­tru­sive ways.  UMODE +E re­mains an            al­ter­na­tive for any users who wish to block such mes­sages.</p>
 </li>
 <li>
-<p>SET GSM, PHONE, and the like have been removed and              replaced with a SET PROPERTY feature.  For more information,            see:</p>
-<p>/msg NickServ HELP SET PROPERTY</p>
+<p>SET GSM, PHONE, and the like have been re­moved and              re­placed with a SET PROP­ER­TY fea­ture.  For more in­for­ma­tion,            see:</p>
+<p>/msg Nick­Serv HELP SET PROP­ER­TY</p>
 </li>
 <li>
-<p>INFO will no long return a list of channels where you have access.  Instead use:</p>
-<p>/msg NickServ LISTCHANS</p>
+<p>INFO will no long re­turn a list of chan­nels where you have ac­cess.  In­stead use:</p>
+<p>/msg Nick­Serv LISTCHANS</p>
 </li>
 <li>
-<p>A new SET ENFORCE feature replaces the un-used SET KILL             feature. For details, see</p>
-<p>/msg NickServ HELP SET ENFORCE</p>
+<p>A new SET EN­FORCE fea­ture re­places the un-used SET KILL             fea­ture. For de­tails, see</p>
+<p>/msg Nick­Serv HELP SET EN­FORCE</p>
 </li>
 </ul>
 <h2 id="chanserv">ChanServ</h2>
 <ul>
 <li>
-<p>Channel access is now controlled by a series of flags,          rather than levels.  This will allow channel owners and             Group Contacts to better control the access they grant          users, and to see more clearly what access those users          will have.  Channel Access now also includes a powerful             templating system, making it easier to manage large and             complicated access lists.  For more information on          these features, please see:</p>
+<p>Chan­nel ac­cess is now con­trolled by a se­ries of flags,          rather than lev­els.  This will al­low chan­nel own­ers and             Group Con­tacts to bet­ter con­trol the ac­cess they grant          users, and to see more clear­ly what ac­cess those users          will have.  Chan­nel Ac­cess now also in­cludes a pow­er­ful             tem­plat­ing sys­tem, mak­ing it eas­i­er to man­age large and             com­pli­cat­ed ac­cess lists.  For more in­for­ma­tion on          these fea­tures, please see:</p>
 <p>/msg ChanServ HELP FLAGS</p>
-<p>/msg ChanServ HELP TEMPLATE</p>
-<p>/msg ChanServ HELP ACCESS</p>
+<p>/msg ChanServ HELP TEM­PLATE</p>
+<p>/msg ChanServ HELP AC­CESS</p>
 </li>
 <li>
-<p>Channel access can now be manipulated using two             different commands.</p>
-<p>/msg ChanServ ACCESS #channel</p>
+<p>Chan­nel ac­cess can now be ma­nip­u­lat­ed us­ing two             dif­fer­ent com­mands.</p>
+<p>/msg ChanServ AC­CESS #chan­nel</p>
 </li>
 </ul>
-<p>behaves similarly to our previous services, but the             standard Atheme command is to use</p>
+<p>be­haves sim­i­lar­ly to our pre­vi­ous ser­vices, but the             stan­dard Ath­eme com­mand is to use</p>
 <pre><code>/msg ChanServ FLAGS
 </code></pre>
-<p>Note that viewing FLAGS             requires you to have flag +A on the channel in          question, but ACCESS does not.  This can be useful if           you're trying to locate channel operators.</p>
+<p>Note that view­ing FLAGS             re­quires you to have flag +A on the chan­nel in          ques­tion, but AC­CESS does not.  This can be use­ful if           you're try­ing to lo­cate chan­nel op­er­a­tors.</p>
 <ul>
 <li>
-<p>ChanServ can no longer be used to OP or VOICE multiple users, though it is still possibly to OP/VOICE individual users:</p>
-<p>/msg ChanServ OP #channel nick</p>
+<p>ChanServ can no longer be used to OP or VOICE mul­ti­ple users, though it is still pos­si­bly to OP/VOICE in­di­vid­ual users:</p>
+<p>/msg ChanServ OP #chan­nel nick</p>
 </li>
 <li>
-<p>A new RECOVER command is now available, which           can be used by the founder to regain control of a           channel which has been "taken over".</p>
+<p>A new RE­COV­ER com­mand is now avail­able, which           can be used by the founder to re­gain con­trol of a           chan­nel which has been "tak­en over".</p>
 </li>
 <li>
-<p>Channel passwords are no longer used for            registration as all channel access is control by the            access flags.</p>
+<p>Chan­nel pass­words are no longer used for            reg­is­tra­tion as all chan­nel ac­cess is con­trol by the            ac­cess flags.</p>
 </li>
 <li>
-<p>LIST <em>pattern</em> has been replaced by a new service           called ALIS.  See below for details.</p>
+<p>LIST <em>pat­tern</em> has been re­placed by a new ser­vice           called ALIS.  See be­low for de­tails.</p>
 </li>
 </ul>
 <h2 id="alis">ALIS</h2>
 <ul>
 <li>
-<p>ALIS provides a more useful channel list facility than what         was previously available.  It will list matching channels, but      will filter out channels that are not currently in use.  Its        use is similar to the functionality that was previously built       into ChanServ:</p>
-<p>/msg ALIS LIST #freenode-*</p>
+<p>ALIS pro­vides a more use­ful chan­nel list fa­cil­i­ty than what         was pre­vi­ous­ly avail­able.  It will list match­ing chan­nels, but      will fil­ter out chan­nels that are not cur­rent­ly in use.  Its        use is sim­i­lar to the func­tion­al­i­ty that was pre­vi­ous­ly built       into ChanServ:</p>
+<p>/msg ALIS LIST #freen­ode-*</p>
 </li>
 </ul>
 <h2 id="memoserv">MemoServ</h2>
 <ul>
 <li>
-<p>Memos can now be replied to and forwarded to other users</p>
+<p>Mem­os can now be replied to and for­ward­ed to oth­er users</p>
 </li>
 <li>
-<p>Optional email forwarding to your registered email          address.  To enable this feature, issue the following           command:</p>
-<p>/msg NickServ SET EMAILMEMOS ON</p>
+<p>Op­tion­al email for­ward­ing to your reg­is­tered email          ad­dress.  To en­able this fea­ture, is­sue the fol­low­ing           com­mand:</p>
+<p>/msg Nick­Serv SET EMAILMEM­OS ON</p>
 </li>
 </ul>
-<p>Hopefully that covers most of the differences that you will         come across during day to day life on freenode.  Of course, if      you have any questions, suggestions or comments, please feel        free to drop by <a href="irc://irc.freenode.net/freenode">#freenode</a>, email support (at) freenode (dot) net         or message a member of staff.</p>
+<p>Hope­ful­ly that cov­ers most of the dif­fer­ences that you will         come across dur­ing day to day life on freen­ode.  Of course, if      you have any ques­tions, sug­ges­tions or com­ments, please feel        free to drop by <a href="irc://irc.freenode.net/freenode">#freen­ode</a>, email sup­port (at) freen­ode (dot) net         or mes­sage a mem­ber of staff.</p>
     </div>
     
 <div class="art-nav">

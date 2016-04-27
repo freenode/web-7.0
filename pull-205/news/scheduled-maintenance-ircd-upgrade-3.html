@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <title>[Scheduled Maintenance] IRCD Upgrade - freenode</title>
-    <link href="../static/css/open-sans.css?90d36d5" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?90d36d5" rel="stylesheet">
-    <link href="../static/css/style.css?90d36d5" rel="stylesheet">
+    <link href="../static/css/open-sans.css?a7588a3" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?a7588a3" rel="stylesheet">
+    <link href="../static/css/style.css?a7588a3" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -36,14 +36,14 @@
 
     </div>
     <div class="art-body">
-    <p>Hi, all.  Yesterday at about 10pm UTC we posted a global notice to let people know that we were considering an upgrade this weekend to pre-1.0.32 dancer-ircd.  We continue to experience clonebot attacks, and the additional features in the new release will be helpful. We directed people to channel <strong>#upgrade</strong> and asked for questions and feedback. After answering questions and taking comments for about an hour, it seemed that the response to the idea of trying the upgrade was pretty favorable.</p>
-<p>The release candidate code can be found  <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/pre/dancer-ircd-1.0.31+pre23.tar.gz">here</a>,  and we provided information on new server features in a  <a href="http://freenode.net/news-2003-05-28.shtml">previous news item</a>.  It seems from our experience in this and other development cycles that the only real way to get production-load testing in dancer-ircd 1.0 is to go ahead and try the conversion, once we're pretty certain we have reliable code.  The code looks fine in the test environment, and delaying will not help us with kiddie attacks.</p>
-<p>The plan is to try today (Sunday in most venues), converting the small European servers and Australia and a couple of small servers in the US, and then the larger servers in the main rotation. The old protocol is not fully-compatible with the new protocol, so servers which have been converted will be connected to other converted servers, but we'll have two networks until the conversion is complete.  It could take a couple of hours if all goes well.</p>
-<p>Obviously, there is no guarantee we'll be successful.  If need be, we'll back up to the 1.0 environment, which should take about a half hour. If we're able to stay up using pre-1.0.32, we'll just do a bit of cleanup next weekend, which may involve restarting the servers one at a time, but should not require a partition of the network.</p>
-<p>It's suggested that you not change nickname and channel configuration in NickServ and ChanServ while the conversion is going on.  Please stay tuned for global and server notices, and we'll probably provide more detail still on wallops (<strong>/mode yournick +w</strong>). Thanks, and thank you for using freenode!</p>
+    <p>Hi, all.  Yes­ter­day at about 10pm UTC we post­ed a glob­al no­tice to let peo­ple know that we were con­sid­er­ing an up­grade this week­end to pre-1.0.32 dancer-ir­cd.  We con­tin­ue to ex­pe­ri­ence clonebot at­tacks, and the ad­di­tion­al fea­tures in the new re­lease will be help­ful. We di­rect­ed peo­ple to chan­nel <strong>#up­grade</strong> and asked for ques­tions and feed­back. Af­ter an­swer­ing ques­tions and tak­ing com­ments for about an hour, it seemed that the re­sponse to the idea of try­ing the up­grade was pret­ty fa­vor­able.</p>
+<p>The re­lease can­di­date code can be found  <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/pre/dancer-ircd-1.0.31+pre23.tar.gz">here</a>,  and we pro­vid­ed in­for­ma­tion on new serv­er fea­tures in a  <a href="http://freenode.net/news-2003-05-28.shtml">pre­vi­ous news item</a>.  It seems from our ex­pe­ri­ence in this and oth­er de­vel­op­ment cy­cles that the only real way to get pro­duc­tion-load test­ing in dancer-ir­cd 1.0 is to go ahead and try the con­ver­sion, once we're pret­ty cer­tain we have re­li­able code.  The code looks fine in the test en­vi­ron­ment, and de­lay­ing will not help us with kid­die at­tacks.</p>
+<p>The plan is to try to­day (Sun­day in most venues), con­vert­ing the small Eu­ro­pean servers and Aus­tralia and a cou­ple of small servers in the US, and then the larg­er servers in the main ro­ta­tion. The old pro­to­col is not ful­ly-­com­pat­i­ble with the new pro­to­col, so servers which have been con­vert­ed will be con­nect­ed to oth­er con­vert­ed servers, but we'll have two net­works un­til the con­ver­sion is com­plete.  It could take a cou­ple of hours if all goes well.</p>
+<p>Ob­vi­ous­ly, there is no guar­an­tee we'll be suc­cess­ful.  If need be, we'll back up to the 1.0 en­vi­ron­ment, which should take about a half hour. If we're able to stay up us­ing pre-1.0.32, we'll just do a bit of cleanup next week­end, which may in­volve restart­ing the servers one at a time, but should not re­quire a par­ti­tion of the net­work.</p>
+<p>It's sug­gest­ed that you not change nick­name and chan­nel con­fig­u­ra­tion in Nick­Serv and ChanServ while the con­ver­sion is go­ing on.  Please stay tuned for glob­al and serv­er no­tices, and we'll prob­a­bly pro­vide more de­tail still on wal­lops (<strong>/mode your­nick +w</strong>). Thanks, and thank you for us­ing freen­ode!</p>
 <p>Edit:</p>
-<p>Hi all.  Update was successful.  One known bug; +q quietly supersedes +b.  We'll get a fix out for that as soon as possible, please bear with us.  Thanks to everyone for their patience and understanding.</p>
-<p>With the usual abominable timing exhibited by the real world, one of our US hubs will need to reboot this morning to patch a security hole. We believe this will occur at about 07:00 UTC this morning.  Apologies for the inconvenience, and thank you again for your patience.</p>
+<p>Hi all.  Up­date was suc­cess­ful.  One known bug; +q qui­et­ly su­per­sedes +b.  We'll get a fix out for that as soon as pos­si­ble, please bear with us.  Thanks to every­one for their pa­tience and un­der­stand­ing.</p>
+<p>With the usu­al abom­inable tim­ing ex­hib­it­ed by the real world, one of our US hubs will need to re­boot this morn­ing to patch a se­cu­ri­ty hole. We be­lieve this will oc­cur at about 07:00 UTC this morn­ing.  Apolo­gies for the in­con­ve­nience, and thank you again for your pa­tience.</p>
     </div>
     
 <div class="art-nav">
