@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Channels - freenode</title>
-    <link href="../../static/css/open-sans.css?719e583" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?719e583" rel="stylesheet">
-    <link href="../../static/css/style.css?719e583" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -32,26 +32,26 @@
     <h1>Channels</h1>
     <p class="art-ingress">
         <h2 id="channel-policies">Channel Policies</h2>
-<p>In general, local policy and rules for each channel are set by that channel's operators. While we encourage all channel operators to adopt our <a href="../../changuide">channel
-guidelines</a>, if a project or community decides to operate otherwise then we respect their decisions. If you believe that the way in which a
-particular channel is run contravenes our <a href="../../policies">ground rules</a> or runs counter to the freenode <a href="../../philosophy">philosophy</a> then you should raise
-your concerns first with the channel owners, and then with freenode staff who will address cases on an individual basis.</p>
+<p>In gen­er­al, lo­cal pol­i­cy and rules for each chan­nel are set by that chan­nel's op­er­a­tors. While we en­cour­age all chan­nel op­er­a­tors to adopt our <a href="../../changuide">chan­nel
+guide­lines</a>, if a project or com­mu­ni­ty de­cides to op­er­ate oth­er­wise then we re­spect their de­ci­sions. If you be­lieve that the way in which a
+par­tic­u­lar chan­nel is run con­tra­venes our <a href="../../policies">ground rules</a> or runs counter to the freen­ode <a href="../../philosophy">phi­los­o­phy</a> then you should raise
+your con­cerns first with the chan­nel own­ers, and then with freen­ode staff who will ad­dress cas­es on an in­di­vid­ual ba­sis.</p>
 <h2 id="why-cant-i-join-a-channel">Why can't I join a channel?</h2>
-<p>There are several things that might prevent you from joining a particular channel. In most cases the server will tell you the reason, but some clients do not
-correcntly display that information to you, so it's useful to be able to check for yourself. Some of the common causes, in no particular order, are:</p>
+<p>There are sev­er­al things that might pre­vent you from join­ing a par­tic­u­lar chan­nel. In most cas­es the serv­er will tell you the rea­son, but some clients do not
+cor­rec­nt­ly dis­play that in­for­ma­tion to you, so it's use­ful to be able to check for your­self. Some of the com­mon caus­es, in no par­tic­u­lar or­der, are:</p>
 <ul>
-<li>Check that you're logged in with services. You can log in by running <code>/msg NickServ IDENTIFY YourNickname YourPassword</code>.
-   Some channels use mode <code>+r</code>, which prevents unregistered users, or users who aren't logged in, from joining.</li>
-<li>Check whether the channel has modes <code>+i</code> or <code>+k</code> set. These will prevent anyone from joining who isn't explicitly invited or doesn't know the channel password.</li>
-<li>Check whether mode <code>+j</code> is set. This is a join throttle, which prevents lots of users from joining in a short period of time. If this is the case, it might be worth trying again after a minute or two, to see whether the join throttle is the reason.</li>
-<li>If you are logged in to services, check the channel ban list -- you can do this using <code>/mode #channel b</code>.</li>
+<li>Check that you're logged in with ser­vices. You can log in by run­ning <code>/msg Nick­Serv IDEN­TI­FY Your­Nick­name Your­Pass­word</code>.
+   Some chan­nels use mode <code>+r</code>, which pre­vents un­reg­is­tered users, or users who aren't logged in, from join­ing.</li>
+<li>Check whether the chan­nel has modes <code>+i</code> or <code>+k</code> set. These will pre­vent any­one from join­ing who is­n't ex­plic­it­ly in­vit­ed or does­n't know the chan­nel pass­word.</li>
+<li>Check whether mode <code>+j</code> is set. This is a join throt­tle, which pre­vents lots of users from join­ing in a short pe­ri­od of time. If this is the case, it might be worth try­ing again af­ter a minute or two, to see whether the join throt­tle is the rea­son.</li>
+<li>If you are logged in to ser­vices, check the chan­nel ban list -- you can do this us­ing <code>/mode #chan­nel b</code>.</li>
 </ul>
-<p>If you've not been in the channel in question recently, it's possible that you're affected by a wide-ranging ban, so pay attention to any bans that include <code>*</code> or <code>?</code> wildcards. Bans that begin with a <code>$</code> sign are extended ban types; you can see more information about these by sending the <code>/quote HELP EXTBAN</code> command on IRC.</p>
-<p>If you find a ban which matches you but you feel wasn't intended to keep you out, then talk to one of the channel operators to see about having it removed.
-You can find a list of channel operators via the <code>/msg ChanServ ACCESS #channel LIST</code> command.</p>
-<p>If you're still stuck, feel free to ask a staff member for help in working out what's preventing you from joining.</p>
+<p>If you've not been in the chan­nel in ques­tion re­cent­ly, it's pos­si­ble that you're af­fect­ed by a wide-rang­ing ban, so pay at­ten­tion to any bans that in­clude <code>*</code> or <code>?</code> wild­cards. Bans that be­gin with a <code>$</code> sign are ex­tend­ed ban types; you can see more in­for­ma­tion about these by send­ing the <code>/quote HELP EXTBAN</code> com­mand on IRC.</p>
+<p>If you find a ban which match­es you but you feel was­n't in­tend­ed to keep you out, then talk to one of the chan­nel op­er­a­tors to see about hav­ing it re­moved.
+You can find a list of chan­nel op­er­a­tors via the <code>/msg ChanServ AC­CESS #chan­nel LIST</code> com­mand.</p>
+<p>If you're still stuck, feel free to ask a staff mem­ber for help in work­ing out what's pre­vent­ing you from join­ing.</p>
 <h2 id="why-cant-i-talk-in-a-channel">Why can't I talk in a channel?</h2>
-<p>The two most common causes for this are either a quiet mask -- use <code>/mode #channel q</code> to see the list and then check the advice above regarding bans -- or mode <code>+m</code>, which prevents anyone who isn't voiced from talking. If you're still unsure, again, feel free to ask staff for help in working out what the problem might be.</p>
+<p>The two most com­mon caus­es for this are ei­ther a qui­et mask -- use <code>/mode #chan­nel q</code> to see the list and then check the ad­vice above re­gard­ing bans -- or mode <code>+m</code>, which pre­vents any­one who is­n't voiced from talk­ing. If you're still un­sure, again, feel free to ask staff for help in work­ing out what the prob­lem might be.</p>
     </p>
 </div>
 

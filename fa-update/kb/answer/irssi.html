@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Configuring SASL for irssi - freenode</title>
-    <link href="../../static/css/open-sans.css?719e583" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?719e583" rel="stylesheet">
-    <link href="../../static/css/style.css?719e583" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -31,21 +31,21 @@
 <div class="main">
     <h1>Configuring SASL for irssi</h1>
     <p class="art-ingress">
-        <p>This script, originally by Michael Tharp and Jilles Tjoelker has been further developed by Mantas Mikulėnas (grawity) and lives on scripts.irssi.org. Authentication information may be stored in ~/.irssi/sasl.auth.</p>
+        <p>This script, orig­i­nal­ly by Michael Tharp and Jilles Tjoelk­er has been fur­ther de­vel­oped by Man­tas Mikulėnas (graw­ity) and lives on scripts.irssi.org. Au­then­ti­ca­tion in­for­ma­tion may be stored in ~/.irssi/sasl.auth.</p>
 <ol>
-<li>Copy the script, <a href="http://scripts.irssi.org/scripts/cap_sasl.pl">cap_sasl.pl <i aria-hidden="true" class="fa fa-external-link"></i></a>, into your ~/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.</li>
-<li>The script requires at least the Perl module <a href="https://metacpan.org/module/MIME::Base64">MIME::Base64 <i aria-hidden="true" class="fa fa-external-link"></i></a>. If you're using Linux, Perl modules are generally in distribution repositories, or you can get them directly from CPAN. If you cannot install them for the whole system, you may be able to use <a href="https://metacpan.org/module/local::lib">local::lib <i aria-hidden="true" class="fa fa-external-link"></i></a>.</li>
-<li>Load the script using <code>/script load autorun/cap_sasl.pl</code>.</li>
-<li>The script needs to be configured with <code>/sasl set network nick password mechanism</code>.</li>
+<li>Copy the script, <a href="http://scripts.irssi.org/scripts/cap_sasl.pl">cap_sasl.pl <i aria-hidden="true" class="fa fa-external-link"></i></a>, into your ~/.irssi/scripts/au­torun di­rec­to­ry or from wher­ev­er irssi loads start­up scripts.</li>
+<li>The script re­quires at least the Perl mod­ule <a href="https://metacpan.org/module/MIME::Base64">MIME::Base64 <i aria-hidden="true" class="fa fa-external-link"></i></a>. If you're us­ing Lin­ux, Perl mod­ules are gen­er­al­ly in dis­tri­b­u­tion repos­i­to­ries, or you can get them di­rect­ly from CPAN. If you can­not in­stall them for the whole sys­tem, you may be able to use <a href="https://metacpan.org/module/local::lib">lo­cal::lib <i aria-hidden="true" class="fa fa-external-link"></i></a>.</li>
+<li>Load the script us­ing <code>/script load au­torun/cap_sasl.pl</code>.</li>
+<li>The script needs to be con­fig­ured with <code>/sasl set net­work nick pass­word mech­a­nism</code>.</li>
 </ol>
-<p><code>network</code> is the (case-sensitive) name of the network specified with <code>/network add</code></p>
-<p><code>nick</code> is your registered nickname</p>
-<p><code>password</code> is your NickServ password</p>
-<p><code>mechanism</code> should be <code>PLAIN</code>. <code>PLAIN</code> sends your password unprotected, as plain text (which is fine when connecting over SSL, as the entire exchange is encrypted already).
-5. Save the settings with <code>/sasl save</code>
-6. If everything has been configured correctly, the next time you connect you should see the message:
-<code>SASL authentication successful</code></p>
-<p>The script also supports <code>/sasl show</code> and <code>/sasl load</code>. Show lists currently-configured networks and the saved credentials. Load re-reads the sasl.auth file. A <code>/sasl set network</code> command with no other arguments will delete the configuration for that network.</p>
+<p><code>net­work</code> is the (case-sen­si­tive) name of the net­work spec­i­fied with <code>/net­work add</code></p>
+<p><code>nick</code> is your reg­is­tered nick­name</p>
+<p><code>pass­word</code> is your Nick­Serv pass­word</p>
+<p><code>mech­a­nism</code> should be <code>PLAIN</code>. <code>PLAIN</code> sends your pass­word un­pro­tect­ed, as plain text (which is fine when con­nect­ing over SSL, as the en­tire ex­change is en­crypt­ed al­ready).
+5. Save the set­tings with <code>/sasl save</code>
+6. If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage:
+<code>SASL au­then­ti­ca­tion suc­cess­ful</code></p>
+<p>The script also sup­ports <code>/sasl show</code> and <code>/sasl load</code>. Show lists cur­rent­ly-­con­fig­ured net­works and the saved cre­den­tials. Load re-reads the sasl.auth file. A <code>/sasl set net­work</code> com­mand with no oth­er ar­gu­ments will delete the con­fig­u­ra­tion for that net­work.</p>
     </p>
 </div>
 
