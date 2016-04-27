@@ -3,7 +3,7 @@ chat:
   cats: [connect,general]
 all:
   title: 'Knowledge Base'
-  cats: [connect,general]
+  cats: [connect,general,using]
 tech:
   title: 'Technical'
   cats: []
