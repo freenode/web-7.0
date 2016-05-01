@@ -8,9 +8,9 @@
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <title>Configuring SASL for Epic5 - freenode</title>
-    <link href="../../static/css/open-sans.css?bd15ea4" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?bd15ea4" rel="stylesheet">
-    <link href="../../static/css/style.css?bd15ea4" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?cfe1ff2" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?cfe1ff2" rel="stylesheet">
+    <link href="../../static/css/style.css?cfe1ff2" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -36,13 +36,13 @@
 Add the fol­low­ing lines:</p>
 <ul>
 <li><code>load sasl_auth</code></li>
-<li><code>sasl_auth *.freen­ode.net plain user­name pass­word</code></li>
+<li><code>sasl_auth *.freenode.net plain username password</code></li>
 </ul>
 <p>Re­place user­name with your pri­ma­ry nick. The pass­word may be re­placed with your pass­word or omit­ted, in which case EPIC5 will prompt for the pass­word when it con­nects.
-You may change <code>*.freen­ode.net</code> to some­thing more spe­cif­ic if de­sired, but the * means SASL au­then­ti­ca­tion will be at­tempt­ed for any freen­ode.net serv­er.
+You may change <code>*.freenode.net</code> to some­thing more spe­cif­ic if de­sired, but the * means SASL au­then­ti­ca­tion will be at­tempt­ed for any freen­ode.net serv­er.
 Only <code>plain</code> is sup­port­ed as the au­then­ti­ca­tion mech­a­nism. You may want to use SSL to pro­tect your pass­word.</p>
 <p>If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage:
-  <code>SASL au­then­ti­ca­tion suc­cess­ful</code></p>
+  <code>SASL authentication successful</code></p>
     </p>
 </div>
 
