@@ -15,8 +15,8 @@ as FreeBSD) do not.  For FreeBSD, the package is named ca_root_nss, which will i
 
 Certificate verification will generally only work when connecting to **`freenode.net`**. If your client thinks the server's certificate is invalid, make sure you are connecting to `chat.freenode.net` rather than any other name that leads to freenode.
 
- For most clients this should be sufficient. If not, you can download the required intermediate cert from [Gandi](http://crt.gandi.net/GandiStandardSSLCA.crt)
-and the root cert from [Instant SSL](http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt).
+ For most clients this should be sufficient. If not, you can download the required intermediate cert from [Gandi <i class="fa fa-external-link" aria-hidden="true"></i>](http://crt.gandi.net/GandiStandardSSLCA.crt)
+and the root cert from [Instant SSL <i class="fa fa-external-link" aria-hidden="true"></i>](http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt).
 
 Client SSL certificates are also supported, and may be used for identification to services via [CertFP](#XXX). If you have connected with a client certificate, _has client certificate fingerprint f1ecf46714198533cda14cccc76e5d7114be4195_ (showing
 your certificate's SHA1 fingerprint in place of _f1ecf46..._) will appear in WHOIS (a 276 numeric).
