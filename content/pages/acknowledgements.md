@@ -39,5 +39,5 @@ If you don't see your name on this page, and you should, please email us at <b>s
 [Cubecraft Games](https://www.cubecraftgames.net/), 
 [Portlane IP Services](http://www.portlane.com/), 
 [CloudSigma](https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring),
-[Kevan Kay] (https://twitter.com/kevank),
-[N-Tech Consulting] (https://ntech.io)
+[Kevan Kay](https://twitter.com/kevank),
+[N-Tech Consulting](https://ntech.io)
