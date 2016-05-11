@@ -13,7 +13,7 @@ We have instructions on how to configure SASL for some client, below. If asked t
 * [Chatzilla](kb/sasl/chatzilla)
 * [EPIC5](kb/sasl/epic5)
 * [HexChat](kb/sasl/hexchat)
-* [irssi](kb/sasl/irssi)
+* [irssi <i class="fa fa-external-link" aria-hidden="true"></i>](https://nullroute.eu.org/~grawity/irssi-connect.html)
 * [Konversation <i class="fa fa-external-link" aria-hidden="true"></i>](http://userbase.kde.org/Konversation/Configuring_SASL_authentication)
 * [KVIrc](kb/sasl/kvirc)
 * [mirc](kb/sasl/mirc)
