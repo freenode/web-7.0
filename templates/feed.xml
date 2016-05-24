@@ -8,8 +8,8 @@
       {% for article in get_module("news").articles|reverse %}
       <item>
          <title>{{ article.title }}</title>
-         <link>{{ article.url }}</link>
-         <guid>{{ article.url }}</guid>
+         <link>http://freenode.net/{{ article.url }}</link>
+         <guid>http://freenode.net/{{ article.url }}</guid>
          <pubDate>{{ article.datetime.strftime("%a, %d %b %Y %H:%M:%S %Z") }}</pubDate>
          <description>{{ article.render()|forceescape }}</description>
       </item>
