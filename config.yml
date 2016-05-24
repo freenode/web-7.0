@@ -24,6 +24,7 @@ modules:
     map:
       index: index.html
       archive: artlist.html
+      feed: feed.xml
   - name: 'blog'
     id: 'news'
     source: news
