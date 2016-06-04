@@ -1,4 +1,5 @@
 name: freenode
+absolute-url: 'https://freenode.net/'
 COPYRIGHT: "&copy; 2016, freenode"
 DESCRIPTION: "freenode IRC network"
 GITHUB_URL: "https://github.com/freenode/web-7.0"
@@ -28,6 +29,11 @@ modules:
     id: 'news'
     source: news
     root: news
+  - name: 'feed'
+    title: 'Freenode News'
+    description: ''
+    module: 'news'
+    output: 'news'
   - name: 'pages'
     source: pages
     root: ''

@@ -83,6 +83,7 @@ Blog-specific:
 
 - `author`
 - `date`
+- `enclosure` sets the podcast URL of an article
 
 
 ### Internal linking
