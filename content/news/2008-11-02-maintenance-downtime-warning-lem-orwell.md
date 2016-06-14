@@ -6,6 +6,7 @@ category: community
 category: freenode
 category: infrastructure
 category: technical
+imported: yes
 ---
 Hi all,
 

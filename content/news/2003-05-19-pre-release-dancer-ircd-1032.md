@@ -2,6 +2,7 @@ author: christel
 date: 2003-05-19 22:43:34+00:00
 slug: pre-release-dancer-ircd-1032
 title: Pre-release -- dancer-ircd 1.0.32
+imported: yes
 ---
 We're currently prereleases of dancer-ircd 1.0.32, the newest version of our production server code. Please come to the testnet on  [irc.freenode.net, port 9001](irc://irc.freenode.net:9001/)  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to **bugs at freenode dot net**!
 

@@ -2,6 +2,7 @@ author: christel
 date: 2011-09-07 20:48:37+00:00
 slug: ircd-upgrades
 title: IRCD Upgrades
+imported: yes
 ---
 Over the next weeks we will be upgrading our servers to the next version of ircd-seven. This means restarting all our servers. Downtime should be minimal, and as we will not upgrade all servers at the same time this should not be as noisy as the upgrade from hyperion to ircd-seven was. When the server you are on is upgraded you will be disconnected, but should be able to reconnect immediately (most clients will do this automatically).
 

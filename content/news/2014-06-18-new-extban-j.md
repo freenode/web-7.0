@@ -5,6 +5,7 @@ title: New extban: $j
 category: freenode
 category: infrastructure
 category: technical
+imported: yes
 ---
 We have loaded a new module on the network which provides the $j extban type:
 

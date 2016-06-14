@@ -5,6 +5,7 @@ title: We are going to FOSDEM
 category: community
 category: different
 category: open source
+imported: yes
 ---
 ![going-to-fosdem-2011](static/img/going-to-fosdem-2011.png)
 

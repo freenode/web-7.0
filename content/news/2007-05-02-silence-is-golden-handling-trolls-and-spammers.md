@@ -7,6 +7,7 @@ category: freenode
 category: philosophy
 category: social
 category: technical
+imported: yes
 ---
 **The Issue **
 

@@ -6,6 +6,7 @@ category: community
 category: freenode
 category: geeknic
 category: social
+imported: yes
 ---
 Today, we launched [planet.freenode.net](http://planet.freenode.net).
 

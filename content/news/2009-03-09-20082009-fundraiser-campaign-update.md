@@ -5,6 +5,7 @@ title: 2008/2009 fundraiser campaign update
 category: freenode
 category: infrastructure
 category: pdpc
+imported: yes
 ---
 **[UPDATE]**
 

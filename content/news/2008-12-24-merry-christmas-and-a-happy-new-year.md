@@ -7,6 +7,7 @@ category: different
 category: freenode
 category: pdpc
 category: social
+imported: yes
 ---
 Another year is coming to an end, for freenode and the PDPC it has been a year of change. We've made a lot of progress on development, the NFP is branching out and starting to slowly move towards providing more services to the FOSS communities and we've grown in size and now peak at a whooping 51,000 users! It feels amazing to see so many FOSS enthusiasts together in one place.
 

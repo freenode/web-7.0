@@ -6,6 +6,7 @@ category: community
 category: different
 category: freenode
 category: infrastructure
+imported: yes
 ---
 For the purpose of disclosure we have had to make the difficult decision to discontinue a long-standing relationship with a server sponsor.
 

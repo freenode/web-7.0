@@ -10,6 +10,7 @@ category: infrastructure
 category: pdpc
 category: projects
 category: technical
+imported: yes
 ---
 After much time in development and testing, the move to ircd-seven is finally complete. The migration took place in the early hours of today, Saturday January 30th 2010.
 

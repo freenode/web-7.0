@@ -440,6 +440,13 @@ h1 {
     margin-right: 2em;
 }
 
+.art-warning {
+    margin-bottom: 2em;
+    padding: .5em;
+    border: 1px solid var(--border-color);
+    color: red;
+}
+
 .art-body {
     margin-bottom: 1em;
 }

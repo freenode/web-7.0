@@ -5,6 +5,7 @@ title: freenode Network Services Cleanup and Changes.
 category: freenode
 category: infrastructure
 category: technical
+imported: yes
 ---
 As announced previously, we have recently (as of Thursday, June 10th) pruned our nickserv and chanserv databases.  We also performed some additional updates and modifications.  While the most obvious change of this will be that any nicks older than 60 days have been dropped, there have been some additional changes implemented as well.  In addition, we have added a new webchat service for users who wish to irc from behind a firewall disallowing a more direct connection.  You can try it out [here](http://webchat.freenode.net/)!
 

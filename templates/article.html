@@ -3,6 +3,14 @@
 {% set title=article.title %}
 {% block content %}
 <div class="main">
+    {%- if article.source.meta.imported is defined %}
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    {%- endif %}
     <div class="art-info">
         {{ artinfo.info(article) }}
     </div>

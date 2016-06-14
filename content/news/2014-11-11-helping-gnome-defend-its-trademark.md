@@ -7,6 +7,7 @@ category: free software
 category: open source
 category: projects
 category: social
+imported: yes
 ---
 The GNOME project will be familiar to the vast majority of our users, what you might not be aware of is that the project is currently facing an expensive trademark battle against Groupon with the latter having allegedly chosen to infringe upon GNOME's trademark by launching a product with the same name (a POS "operating system for merchants to run their entire operation").
 

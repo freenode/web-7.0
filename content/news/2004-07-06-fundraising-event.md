@@ -2,6 +2,7 @@ author: christel
 date: 2004-07-06 12:32:06+00:00
 slug: fundraising-event
 title: Fundraising Event
+imported: yes
 ---
 Yesterday's fundraising event went well.  Things started out a bit slowly, so much so that your editor ended up sending some global notices---apologies to those of our users who find such messages noisy.  But at the end of the day, we raised a total of $355.54, which means we are now $633.02 away from our fundraising goal of $18,000.
 

@@ -5,6 +5,7 @@ title: Heartbleed
 category: infrastructure
 category: security
 category: technical
+imported: yes
 ---
 The recently exposed [heartbleed bug](http://heartbleed.com/) in the OpenSSL library has surprised everyone with a [catastrophic](https://www.schneier.com/blog/archives/2014/04/heartbleed.html) vulnerability in many of the world's secure systems.
 

@@ -5,6 +5,7 @@ title: Happy Holidays!
 category: community
 category: freenode
 category: social
+imported: yes
 ---
 Just a quick note to wish each and every one of our users, sponsors, donors, volunteers and projects for making freenode great.
 

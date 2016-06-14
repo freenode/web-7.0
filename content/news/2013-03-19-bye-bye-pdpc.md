@@ -4,6 +4,7 @@ slug: bye-bye-pdpc
 title: Bye bye PDPC
 category: infrastructure
 category: pdpc
+imported: yes
 ---
 Sadly, we were forced to dissolve PDPC, freenode's parent organisation.
 

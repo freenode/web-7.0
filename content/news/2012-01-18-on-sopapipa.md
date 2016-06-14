@@ -2,6 +2,7 @@ author: RichiH
 date: 2012-01-18 15:32:14+00:00
 slug: on-sopapipa
 title: On SOPA/PIPA
+imported: yes
 ---
 Today, January 18th 2012, a number of websites, organisations and institutions along with countless individuals have chosen to take a stance to protest the proposed SOPA and PIPA legislations.
 

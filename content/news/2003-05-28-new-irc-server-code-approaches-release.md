@@ -2,6 +2,7 @@ author: christel
 date: 2003-05-28 23:20:45+00:00
 slug: new-irc-server-code-approaches-release
 title: New IRC Server Code Approaches Release
+imported: yes
 ---
 Hi all. As you probably know, we're in the process of testing release candidates for dancer-ircd 1.0.32, the next production IRC server code for  freenode.  Since the last news item, we've continued to test and debug, and we've made some progress.  [The change list is here](http://freenode.net/news-2003-05-28.shtml#changes).
 

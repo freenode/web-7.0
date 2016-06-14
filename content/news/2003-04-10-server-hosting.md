@@ -2,6 +2,7 @@ author: christel
 date: 2003-04-10 15:48:58+00:00
 slug: server-hosting
 title: Server Hosting
+imported: yes
 ---
 Good morning to everyone.  Once again, we need to talk to you very seriously about the issue of server hosting. The network ran very well yesterday, and it's been running pretty well so far today. But we have a problem.
 

@@ -6,6 +6,7 @@ category: freenode
 category: infrastructure
 category: open source
 category: technical
+imported: yes
 ---
 We've got some ircd upgrades in the works!
 

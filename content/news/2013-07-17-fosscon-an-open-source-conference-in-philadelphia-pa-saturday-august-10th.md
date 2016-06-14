@@ -3,6 +3,7 @@ date: 2013-07-17 21:51:27+00:00
 slug: fosscon-an-open-source-conference-in-philadelphia-pa-saturday-august-10th
 title: Fosscon, an open source conference in Philadelphia PA, Saturday August 10th
 category: fosscon
+imported: yes
 ---
 FOSSCON 2013 will be held on August 10th, 2013.  Several of our very own staff here at freenode will be attending this year and we are really looking forward to it.
 

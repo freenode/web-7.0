@@ -6,6 +6,7 @@ category: community
 category: different
 category: freenode
 category: pdpc
+imported: yes
 ---
 As you may be vaguely aware, we have been working on some structural changes to the operations of the parent organisation behind freenode.  And I am happy to announce that Peer-Directed Projects Center Ltd is now incorporated as a company limited by guarantee in England and Wales.
 

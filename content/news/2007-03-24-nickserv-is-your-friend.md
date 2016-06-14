@@ -3,6 +3,7 @@ date: 2007-03-24 22:15:49+00:00
 slug: nickserv-is-your-friend
 title: NickServ Is Your Friend
 category: freenode
+imported: yes
 ---
 **UPDATE: This is outdated. See [here](http://freenode.net/faq.shtml#nicksetup) for up-to-date instructions. Note that some commands in this entry have been renamed or have different syntax. If you need help with your NickServ account and can't find information on our website, please ask in #freenode.**
 

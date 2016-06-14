@@ -2,6 +2,7 @@ author: christel
 date: 2005-08-29 12:52:45+00:00
 slug: scheduled-maintenance-ircd-upgrade-2
 title: [Scheduled Maintenance] IRCD upgrade.
+imported: yes
 ---
   By now you've noticed that the      **freenode**    network was upgraded late this morning to hyperion-ircd release 1.0.1. Due   to overwhelming problems with floodbots during the last few days, we've   added an experimental feature to hyperion ircd and we'll be implementing   it this afternoon.
 

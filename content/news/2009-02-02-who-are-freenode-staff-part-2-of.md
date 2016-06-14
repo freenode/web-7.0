@@ -5,6 +5,7 @@ title: Who Are freenode Staff? (Part 2 of ?)
 category: community
 category: freenode
 category: social
+imported: yes
 ---
 It's been a while since we posted Part 1 of our series on "Who Are freenode Staff?" - which makes it about time to post a bit more.
 

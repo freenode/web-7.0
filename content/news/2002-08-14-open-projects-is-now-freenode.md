@@ -7,6 +7,7 @@ category: different
 category: freenode
 category: social
 category: technical
+imported: yes
 ---
 As of today, Open Projects Net has changed its name.  We are now freenode!
 

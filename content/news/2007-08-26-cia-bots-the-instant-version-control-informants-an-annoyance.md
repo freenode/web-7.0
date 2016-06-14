@@ -5,6 +5,7 @@ title: CIA Bots - 'The Instant Version Control Informants' -- an annoyance?
 category: community
 category: freenode
 category: projects
+imported: yes
 ---
 While most FOSS contributors will be familiar with [CIA](http://cia.vc) and likely to utilize it for tracking commits for their project(s) and contributors, we occasionally have concerns raised from projects who find that CIA-* joined their channel unexpectedly and not on their request, this may be because someone typoed a channel name when setting things up over at the CIA page, or because someone decided to be helpful and share the joys of CIA with a new project/channel but forgot to ask the project admins/channel owners whether this would be a-ok.. and occasionally we find ourselves getting a bunch of notices alerting us to a CIA-* bot as a potential spambot as it tries rejoin a channel from which it has been banned, or when its been misconfigured and cycle a channel which has a forward set (this tends to confuse most bots!).
 

@@ -2,6 +2,7 @@ author: JonathanD
 date: 2011-07-14 11:36:40+00:00
 slug: fosscon-2011-philadelphia-pennsylvania-23rd-july-2011
 title: Fosscon 2011: Philadelphia Pennsylvania, 23rd July, 2011.
+imported: yes
 ---
 July 23, 2011 - (All day)
 

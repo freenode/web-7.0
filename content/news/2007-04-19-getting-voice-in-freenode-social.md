@@ -4,6 +4,7 @@ slug: getting-voice-in-freenode-social
 title: Getting voice in #freenode-social
 category: community
 category: freenode
+imported: yes
 ---
 If you've been on the network for a little while you'll probably have noticed that #freenode presently forwards you to #freenode-social, a moderated channel. This is officially our "staff social channel", but it oftens confuses people how it can seem to take a long time to get a voice, when most of the channel are happily chattering away. I thought I'd have a go at clearing up this mysterious situation a little, in the hope that the channel will cause less angst in the future. At the moment, we get a lot of requests for voice, and I hope that by explaining the situation here it will be easier for people to understand what policies we are implementing.
 

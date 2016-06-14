@@ -2,6 +2,7 @@ author: christel
 date: 2004-07-05 17:38:14+00:00
 slug: pdpc-fundraiser-event
 title: PDPC Fundraiser Event
+imported: yes
 ---
 Well, the fundraiser is almost done.  We're $1,000.00 US away from our goal of $18,000.  (Actually, $988.56---thanks, **Luigi30!** :) We're almost there, and it seems to be a good time to go that extra mile to finish up.  So, lock up your pets and small children, turn off your WALLOPS, today is **Silly Cloaks Day** on freenode. 8)
 

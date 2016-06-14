@@ -5,6 +5,7 @@ title: We want YOU!
 category: community
 category: different
 category: freenode
+imported: yes
 ---
 We are currently looking to expand the freenode volunteer staff team, seeking people involved with the target communities we currently serve.
 

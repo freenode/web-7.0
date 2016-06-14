@@ -8,6 +8,7 @@ category: infrastructure
 category: open source
 category: projects
 category: technical
+imported: yes
 ---
 Very soon we will be upgrading your favourite network helpers... (no not erry…): NickServ, ChanServ, Alis etc. They’re currently connected to our testnet and we need your help with testing, looking for any issues which may affect the production network.
 

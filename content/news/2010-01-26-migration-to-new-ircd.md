@@ -2,6 +2,7 @@ author: JonathanD
 date: 2010-01-26 17:40:44+00:00
 slug: migration-to-new-ircd
 title: Migration to ircd-seven.
+imported: yes
 ---
 On the 30th of January, 2010 at around 7:30 UTC, we will be moving to the new ircd-seven.  If you haven't done so already, now is a great time to look at how this may change things for you and what you may need to do as a result.
 
