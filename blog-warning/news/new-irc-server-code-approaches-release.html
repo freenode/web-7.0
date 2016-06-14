@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>New IRC Server Code Approaches Release - freenode</title>
+    <link href="../static/css/open-sans.css?df8e576" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?df8e576" rel="stylesheet">
+    <link href="../static/css/style.css?df8e576" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="new-irc-server-code-approaches-release"><h1 class="art">New IRC Server Code Approaches Release</h1></a>
+<span class="art-date">christel on 2003-05-28</span>
+
+    </div>
+    <div class="art-body">
+    <p>Hi all. As you prob­a­bly know, we're in the process of test­ing re­lease can­di­dates for dancer-ir­cd 1.0.32, the next pro­duc­tion IRC serv­er code for  freen­ode.  Since the last news item, we've con­tin­ued to test and de­bug, and we've made some progress.  <a href="http://freenode.net/news-2003-05-28.shtml#changes">The change list is here</a>.</p>
+<p>In ad­di­tion to some bug-squash­ing, we've now mod­i­fied ser­vices to al­low us to mlock +Jrz and -Jrz, as well as +PF and -PF with the help of net­work staff.  Ben Reser has kind­ly pro­duced a  <a href="http://ben.reser.org/irssi/format_identify.pl">script</a>  for  <a href="http://www.irssi.org/">irssi</a>  which takes ad­van­tage of the new CA­PAB IDEN­TI­FY-MSG sup­port to dis­play an un­am­bigu­ous in­di­ca­tion in each line whether the per­son speak­ing (or do­ing an AC­TION) is iden­ti­fied to ser­vices.  <strong>This should make it quite a bit hard­er to spoof nick­names.</strong> To use the script in irssi, sim­ply fol­low the in­struc­tions in the com­ments sec­tion.</p>
+<p><strong>We could use your help</strong> in cre­at­ing sim­i­lar scripts for <strong>xchat</strong> and the oth­er <strong>free soft­ware</strong> IRC clients, and even for <strong>mIRC</strong>, to help those who are stuck us­ing Mi­crosoft prod­ucts to con­nect to the net­work.</p>
+<p>We're ap­proach­ing re­lease and, again, <strong>we need your help.</strong> <strong>Please come to the test­net</strong> on  <a href="irc://irc.freenode.net:9001/">irc.freen­ode.net, port 9001</a>  and help us find bugs!  Stop by #kline-me if you'd like to help us thrash the bugs out of our KLINE/UN­KLINE/RE­HASH changes.  Or just take a look at the fol­low­ing (slight­ly up­dat­ed) change list, and at our old­er   <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-oper-guide/dancer-oper-guide/">ref­er­ence man­u­al</a>,  not yet up­dat­ed, to look for fea­tures to test.</p>
+<p><strong>Thanks in ad­vance for any help you can pro­vide!</strong>
+Changes in Dancer IRCD 1.0.32Nu­mer­ous small bugs have been fixed, and the fol­low­ing lists some of the changes:</p>
+<ul>
+<li>
+<p><strong>Aus­pex mode sep­a­ra­tion.</strong> Added a new O: line umode, +A, to sep­a­rate server-re­lat­ed in­for­ma­tion from user- and chan­nel-re­lat­ed in­for­ma­tion in aus­pex mode.</p>
+</li>
+<li>
+<p><strong>COL­LIDE mes­sage.</strong> An al­ter­nate, qui­eter KILL for use by ser­vices in GHOST­ing nicks.</p>
+</li>
+<li>
+<p><strong>CTCP AC­TION treat­ed as a mes­sage.</strong> For the pur­pos­es of user mode C (and every­where else we can man­age), CTCP AC­TION will be treat­ed as a nor­mal mes­sage, rather than as a client con­trol/sta­tus com­mand.</p>
+</li>
+<li>
+<p><strong>Dump com­mand.</strong> Added for de­bug­ging pur­pos­es.</p>
+</li>
+<li>
+<p><strong>Iden­ti­fied user high­light­ing.</strong> The CA­PAB com­mand has been added to al­low client soft­ware to reg­is­ter spe­cial ca­pa­bil­i­ties.  The first such ca­pa­bil­i­ty is IDEN­TI­FY-MSG; with it turned on, the text of mes­sages, no­tices and CTCP AC­TIONs will be pref­aced with '-' when they come from an uniden­ti­fied user, and '+' when the user is iden­ti­fied to ser­vices.  The pur­pose of this fea­ture is to make it dif­fi­cult to spoof some­one's iden­ti­ty.  If you're run­ning  <a href="http://www.irssi.org/">irssi</a>,  there's al­ready a   <a href="http://ben.reser.org/irssi/format_identify.pl">script</a>  avail­able to for­mat the out­put of this fea­ture for your con­ve­nience.</p>
+</li>
+</ul>
+<p>In ad­di­tion, we've pro­vid­ed an­oth­er ca­pa­bil­i­ty, IDEN­TI­FY-CTCP, which sim­i­lar­ly for­mats the out­put of CTCPs oth­er than AC­TION.</p>
+<ul>
+<li>
+<p><strong>Join throt­tling (chan­nel mode J).</strong> For­mat:  <strong>+J <frequency></frequency>,<limit></limit></strong>.  Users may join this chan­nel once every <frequency></frequency> sec­onds, with an ini­tial burst and lim­it val­ue of <limit></limit> users. <strong>NOTE</strong>: If +Ff is turned on in the chan­nel, users who are throt­tled will be sent to an­oth­er chan­nel in­stead of be­ing sent an er­ror mes­sage.</p>
+</li>
+<li>
+<p><strong>Iden­ti­fied-on­ly mode (chan­nel mode r).</strong> With +r set, only users iden­ti­fied to ser­vices (user mode +e) can join the chan­nel.  <strong>NOTE:</strong> If +Ff is turned on in the chan­nel, users who are de­nied ac­cess be­cause they are not iden­ti­fied to ser­vices will be sent to an­oth­er chan­nel in­stead of be­ing sent an er­ror mes­sage.</p>
+</li>
+<li>
+<p><strong>No­For­ward modes.</strong> Added chan­nel mode +Q to pre­vent for­ward­ing to a chan­nel.  Added user mode +Q to pre­vent for­ward­ing of a user.</p>
+</li>
+<li>
+<p><strong>Op­mod­er­ate mode (chan­nel mode z).</strong> With +z set, qui­et­ed/banned/mod­er­at­ed user­s' com­ments still ap­pear to chan­nel op­er­a­tors.  This can be help­ful dur­ing sem­i­nars and spe­cial func­tions.</p>
+</li>
+<li>
+<p><strong>Re­hash throt­tling.</strong></p>
+</li>
+<li>
+<p><strong>SCAN com­mand en­hance­ments.</strong> SCAN CMODES, KLINES and UN­KLINES have been added.</p>
+</li>
+<li>
+<p><strong>Serv­er ca­pa­bil­i­ties mes­sage.</strong> The qua­si­-­s­tan­dard nu­mer­ic 005 (de­clare serv­er ca­pa­bil­i­ties) has been added.</p>
+</li>
+<li>
+<p><strong>STATS z fixed.</strong> The out­put should now be ac­cu­rate.</p>
+</li>
+</ul>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="pre-release-dancer-ircd-1032">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="announcement-polling-for-statistics">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
