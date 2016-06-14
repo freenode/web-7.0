@@ -55,7 +55,7 @@ Logging In
 
 You'll need to log in to your nickname each time you reconnect to freenode.
 
-The simplest, and most robust, way to do this is to configure [SASL](#XXXkb/using/sasl), if your client supports it. If not, you can supply your login details, in
+The simplest, and most robust, way to do this is to configure [SASL](kb/using/sasl), if your client supports it. If not, you can supply your login details, in
 the form `<account>:<password>`, as a server password and they will be forwarded to NickServ when you finish connecting.
 
 Nickname Expiry
