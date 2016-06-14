@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Help us test ircd-seven! - freenode</title>
+    <link href="../static/css/open-sans.css?7eb7149" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?7eb7149" rel="stylesheet">
+    <link href="../static/css/style.css?7eb7149" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="help-us-test-ircd-seven"><h1 class="art">Help us test ircd-seven!</h1></a>
+<span class="art-date">christel on 2008-11-02</span>
+
+    </div>
+    <div class="art-body">
+    <p>As many of you will have no­ticed, our cur­rent IRC serv­er soft­ware, <a href="http://freenode.net/hyperion.shtml">hy­pe­r­i­on</a>, has been show­ing its age for some time now. Ex­pec­ta­tions for its even­tu­al re­place­ment are noth­ing if not high -- hy­pe­r­i­on con­tains a great many fea­tures not found else­where, most of which are fair­ly unique to the way in which freen­ode op­er­ates, so any­thing that wants to take over from it must pro­vide all of these, in a more ro­bust, main­tain­able and fu­ture-proof pack­age.</p>
+<p><a href="http://hg.atheme.org/charybdis">Charyb­dis</a> looks like a good start -- it's a mod­ern, mod­u­lar IRC dae­mon sup­port­ing many of hy­pe­r­i­on's strange fea­tures, and built on top of <a href="http://ircd-ratbox.org/">ir­cd-rat­box</a>, which gives it a good her­itage of sta­bil­i­ty and scal­a­bil­i­ty. ir­cd-rat­box is per­haps best known for pow­er­ing the ma­jor­i­ty of EFNet, which seems to make it an ex­cel­lent base on which to build.</p>
+<p>How­ev­er, nei­ther rat­box nor Charyb­dis im­ple­ments freen­ode's more unique fea­tures, such as ban-­for­ward­ing or hid­den IRC op­er­a­tors. So, some work is need­ed.</p>
+<p>En­ter <a href="http://freenode.net/seven.shtml">ir­cd-­sev­en</a>. Sev­en is based on Charyb­dis, with the fea­tures freen­ode needs added in. Chan­nel op­er­a­tors and net­work op­er­a­tors alike should recog­nise most of the use­ful, and hereto­fore unique, fea­tures of hy­pe­r­i­on, with­out many of the bugs and odd­i­ties that have be­come an un­for­tu­nate fact of life.</p>
+<p>De­vel­op­ment and in­ter­nal test­ing of sev­en has been on­go­ing for some time, and we're now ready to open up test­ing to a wider au­di­ence. The test net­work is cur­rent­ly run­ning on <em>test­net.freen­ode.net</em>, port 9002 for nor­mal con­nec­tions or 9003 for SSL con­nec­tions. This is a new serv­er, shar­ing no code with the cur­rent soft­ware, so all as­pects of it need thor­ough test­ing, both that it works, and be­haves in a way con­sis­tent with how most peo­ple want to use it -- this last as­pect is par­tic­u­lar­ly dif­fi­cult to do in smal­l­-s­cale pri­vate test­ing.</p>
+<p>ir­cd-­sev­en is de­signed to be ca­pa­ble of every­thing hy­pe­r­i­on is, but not nec­es­sar­i­ly as a drop-in re­place­ment. Some func­tion­al­i­ty is still avail­able in a dif­fer­ent form, or with a dif­fer­ent in­ter­face. The most no­table dif­fer­ences for users are sum­marised be­low:</p>
+<p><strong>SSL sup­port</strong>
+sev­en sup­ports SSL, for client and serv­er con­nec­tions. Users con­nect­ing via SSL will get user mode +Z to de­note this.</p>
+<p><strong> Chan­nel bans and qui­ets</strong>
+Chan­nel mode +q (qui­et) is now sent as a sep­a­rate mode -- hy­pe­r­i­on's trans­la­tion of +q foo to +b %foo is gone. Ex­tend­ed ban types are sup­port­ed for all ban-­like modes (+bqeI). These ex­tend­ed masks be­gin with $, fol­lowed by an op­tion­al ~, to negate the match, and a sin­gle let­ter de­not­ing the type of match to do. For ex­am­ple:</p>
+<ul>
+<li>
+<p>+b $r:Lee* will ban any client whose re­al­name (gecos) field be­gins 'Lee'. This is equiv­a­lent to hy­pe­r­i­on's +d mode.</p>
+</li>
+<li>
+<p>+I $a:spb will set an in­vite ex­cep­tion for any client logged in to ser­vices as spb.</p>
+</li>
+<li>
+<p>+q $~a will pre­vent any user not logged in to ser­vices from speak­ing. This is rough­ly equiv­a­lent to hy­pe­r­i­on's mode +R.</p>
+</li>
+</ul>
+<p>For­ward chan­nels for bans are now de­lim­it­ed with $ in­stead of hy­pe­r­i­on's !, and can be used with ex­tend­ed ban masks as well. Set­ting and un­set­ting of bans via the hy­pe­r­i­on syn­tax (nick!user@host!#chan­nel) is sup­port­ed -- it will be trans­lat­ed to nick!user@host$#chan­nel.</p>
+<p><strong> Iden­ti­fied sta­tus</strong>
+There is no user mode +e. The IRCd keeps track of the ac­count name of every user who is iden­ti­fied to ser­vices, and uses this to de­ter­mine whether a user is iden­ti­fied or not. The 'is iden­ti­fied to ser­vices' line in WHOIS out­put is no longer present; there is, how­ev­er, a line con­tain­ing the ac­count name if the user is logged in.</p>
+<p><strong> Iden­ti­fy­ing on con­nect</strong>
+Us­ing a Nick­Serv pass­word as a serv­er pass­word still works as it does in hy­pe­r­i­on. How­ev­er, there are two new mech­a­nisms:</p>
+<ul>
+<li>
+<p>You can spec­i­fy : in the serv­er pass­word field, to log in to a spe­cif­ic ac­count. This re­moves the re­quire­ment to con­nect us­ing a nick­name that is grouped to your ser­vices ac­count.</p>
+</li>
+<li>
+<p>sev­en sup­ports SASL au­then­ti­ca­tion, to log in to ser­vices dur­ing the con­nec­tion process. This re­quires client sup­port; a script for Irssi to do so is lo­cat­ed <a href="http://freenode.net/sasl">here</a>. Con­spire sup­ports this na­tive­ly. Oth­er clients, as far as I'm aware, do not.</p>
+</li>
+</ul>
+<p><strong>User­name pre­fix­es</strong>
+The n= and i= pre­fix­es are not used; in­stead ~ is pre­fixed to a non-i­dentd user­name, as in most oth­er dae­mons.</p>
+<p><strong>IDEN­TI­FY-MSG</strong>
+The iden­ti­fy-msg ca­pa­bil­i­ty is still present, but the way to en­able it has changed -- it is now part of the same CAP mech­a­nism that is used to con­trol SASL and mul­ti­-pre­fix ca­pa­bil­i­ties. A script for irssi that un­der­stands both hy­pe­r­i­on's and sev­en's iden­ti­fy-msg ca­pa­bil­i­ty is avail­able <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">here</a>. Con­spire will also sup­port this na­tive­ly once w00t re­mem­bers to ap­ply the patch.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="maintenance-downtime-warning-lem-orwell">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="new-servers">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-646096-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
