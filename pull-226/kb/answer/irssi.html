@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Configuring SASL for Irssi - freenode</title>
-    <link href="../../static/css/open-sans.css?c788e43" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?c788e43" rel="stylesheet">
-    <link href="../../static/css/style.css?c788e43" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?d5e9fc1" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?d5e9fc1" rel="stylesheet">
+    <link href="../../static/css/style.css?d5e9fc1" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -41,7 +41,7 @@ find out by run­ning <code>irssi -v</code> in your near­est shell).</p>
 /server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
 </code></pre>
 <h2 id="older-versions">Older versions</h2>
-<p>These ver­sions need a sep­a­rate script in or­der to sup­pot SASL: <code>cap_sasl.pl</code>.
+<p>These ver­sions need a sep­a­rate script in or­der to sup­port SASL: <code>cap_sasl.pl</code>.
 You can in­stall it from <a href="https://scripts.irssi.org">https://scripts.irssi.org</a>:</p>
 <pre><code>mkdir -p ~/.irssi/scripts/autorun
 wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ~/.irssi/scripts/cap_sasl.pl
@@ -49,6 +49,7 @@ ln -sf ../cap_sasl.pl ~/.irssi/scripts/autorun/
 </code></pre>
 <p>Now load and con­fig­ure it in­side Irssi:</p>
 <pre><code>/script load cap_sasl
+/server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
 /sasl set Freenode &lt;login&gt; &lt;password&gt; PLAIN
 /sasl save
 </code></pre>
