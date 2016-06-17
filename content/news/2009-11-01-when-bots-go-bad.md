@@ -2,6 +2,7 @@ author: christel
 date: 2009-11-01 21:12:26+00:00
 slug: when-bots-go-bad
 title: When bots go bad..
+imported: yes
 ---
 First off, allow me to apologise to all users affected by the recent "client  killing" rampage of our utility bot; Syn. She appears to have gotten into the  Halloween spirit a bit too much!
 

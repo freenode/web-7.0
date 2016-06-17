@@ -6,6 +6,7 @@ category: community
 category: different
 category: freenode
 category: social
+imported: yes
 ---
 On the 12th September Rob Levin, known to many as freenode's lilo, was hit by a car while riding his bike. He suffered head injuries and was in a coma. Rob was being treated at the Neuro Trauma Intensive Care Unit at a local hospital in Houston, Texas where he passed away on Sept 16th.
 

@@ -8,6 +8,10 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="{{ config.DESCRIPTION }}">
     <link rel="icon" href="{{ url_for("static/img/logos/coloured-alphabg-sq-120.png") }}">
+    {%- block links %}
+    <link rel="alternate" type="application/rss+xml" href="{{ url_for("news/rss") }}" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="{{ url_for("news/atom") }}" title="news (atom)">
+    {%- endblock %}
     <title>{% block title %}{{ title }} - {{ config.name }}{% endblock %}</title>
     {%- for stylesheet in ['open-sans.css', 'font-awesome.css', 'style.css'] %}
     <link href="{{ url_for("static/css/" + stylesheet) }}?{{ git_hash }}" rel="stylesheet">

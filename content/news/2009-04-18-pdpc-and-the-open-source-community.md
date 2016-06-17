@@ -3,6 +3,7 @@ date: 2009-04-18 10:27:07+00:00
 slug: pdpc-and-the-open-source-community
 title: pdpc and the open source community
 category: community
+imported: yes
 ---
 As we've mentioned in previous blog posts, pdpc, the parent organization that operates freenode, is very interested in offering more to the community.  To this end we've begun a number of other projects such as the new free-as-in-node [podcast](http://podcast.freenode.net/)and "[geeknics](http://geeknic.org)", but this is just a small part of the level of involvement we aspire to.  We want to do more for the projects and users that use freenode every day, and for the community they represent.
 

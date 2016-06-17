@@ -5,6 +5,7 @@ title: User-enabled sendpass
 category: freenode
 category: philosophy
 category: technical
+imported: yes
 ---
 As a network, we feel it is hugely important to maintain close relationships with our many communities and users. Our interactions with users in #freenode and elsewhere on the network, fielding support requests and assisting users, help build and maintain these relationships.
 

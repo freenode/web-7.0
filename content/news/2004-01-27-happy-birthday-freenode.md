@@ -2,6 +2,7 @@ author: christel
 date: 2004-01-27 15:36:27+00:00
 slug: happy-birthday-freenode
 title: Happy Birthday freenode!
+imported: yes
 ---
 It's **freenode**'s birthday party.  Please come celebrate with us.
 

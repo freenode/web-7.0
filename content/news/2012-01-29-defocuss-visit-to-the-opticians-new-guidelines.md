@@ -2,6 +2,7 @@ author: Martinp23
 date: 2012-01-29 22:14:36+00:00
 slug: defocuss-visit-to-the-opticians-new-guidelines
 title: Defocus''s visit to the opticians: new guidelines
+imported: yes
 ---
 A couple of months ago, mrmist posted about the #defocus-focus channel, which was looking to improve the atmosphere in #defocus.
 

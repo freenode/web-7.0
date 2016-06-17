@@ -5,6 +5,7 @@ title: Fosscon 2012, Saturday August 11th in Philadelphia PA
 category: community
 category: fosscon
 category: pdpc
+imported: yes
 ---
 August 11th, 2012 (All day)
 

@@ -6,6 +6,7 @@ category: freenode
 category: infrastructure
 tag: expiry
 tag: nicks
+imported: yes
 ---
 On or around Friday, October 2nd, we shall be cleaning up the services database.  This involves the bulk removal of expired nicks, channels and accounts.
 

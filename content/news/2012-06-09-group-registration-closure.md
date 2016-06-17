@@ -2,6 +2,7 @@ author: mrmist
 date: 2012-06-09 20:42:48+00:00
 slug: group-registration-closure
 title: Group Registration Closure
+imported: yes
 ---
 Our group registration system has been around for some time, in various guises.  Over that time, our small but dedicated team of staff has attempted to keep up with demand for groups.  Unfortunately, in the early years of GRF, this generated a substantial backlog of processing, since the system was very manual, a lot of data was processed (restricting the staff who had access) and each group can take some time to properly investigate.  To address this issue, we've tried a number of alternatives, such as priority group emails, and, lately, a streamlined group registration system known as "grf-f".
 

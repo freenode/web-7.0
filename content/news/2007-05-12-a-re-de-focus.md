@@ -6,6 +6,7 @@ category: community
 category: freenode
 category: infrastructure
 category: social
+imported: yes
 ---
 freenode is pleased to announce a few changes effective May 12, 2007 at 12:55 UTC:
 

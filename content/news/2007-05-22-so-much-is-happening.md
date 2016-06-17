@@ -6,6 +6,7 @@ category: community
 category: freenode
 category: pdpc
 category: social
+imported: yes
 ---
 
 Today has been an interesting day in 'freenodia', a day of reflection, and a

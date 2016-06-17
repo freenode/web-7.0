@@ -3,6 +3,7 @@ date: 2009-04-14 09:53:24+00:00
 slug: community-leadership-summit-july-18-19th-2009-san-jose-ca
 title: Community Leadership Summit - July 18-19th 2009, San Jose, CA.
 category: community
+imported: yes
 ---
 
 [![](static/img/3432437765_914490f5e9.jpg)](http://www.communityleadershipsummit.com/)

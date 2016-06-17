@@ -7,6 +7,7 @@ category: freenode
 category: groups
 category: pdpc
 category: projects
+imported: yes
 ---
 For many years now, freenode has offered projects and userbases on the network the option of registering themselves as "Groups".  Each of these groups has one or more designated people as their "Group Contacts", who are the point of contact for freenode-staff<=>group liasion, and are thus able to contact staff to request that cloaks be set, or to request assistance in administering channels.
 

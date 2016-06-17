@@ -5,6 +5,7 @@ title: New TLS/SSL Channel Modes & Webchat Features
 category: infrastructure
 category: technical
 category: webchat
+imported: yes
 ---
 We've recently enabled some new functionality in our ircd to further help you manage your channels:
 
@@ -26,7 +27,7 @@ Documented in '/help extban' for some time, this has also been enabled and match
 
 WEBIRC has been enabled so that behind their hostmask, users can now be considered to be connecting from their real address. This means that a single ban format can apply to both direct connections and webchat connections.
 
-For example, a user connecting from 171.205.18.52 will still appear as 'nickname!abcd1234@gateway/web/freenode/ip.171.205.18.52' but ban masks of the form '*!*@171.205.18.52' will match! This is now the most effective method of matching users using webchat but the realname and hexip username are still available.
+For example, a user connecting from 171.205.18.52 will still appear as 'nickname!abcd1234@gateway/web/freenode/ip.171.205.18.52' but ban masks of the form '\*!\*@171.205.18.52' will match! This is now the most effective method of matching users using webchat but the realname and hexip username are still available.
 
 Although freenode's webchat is available over SSL, the webchat's localhost connection to the ircd is not SSL, so webchat users do not get user mode +Z. Webchat users will not be able to join a +S channel and will not match the $z extban, even if they are using webchat over SSL.
 

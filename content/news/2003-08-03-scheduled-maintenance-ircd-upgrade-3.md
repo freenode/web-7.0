@@ -2,6 +2,7 @@ author: christel
 date: 2003-08-03 21:12:49+00:00
 slug: scheduled-maintenance-ircd-upgrade-3
 title: [Scheduled Maintenance] IRCD Upgrade
+imported: yes
 ---
 Hi, all.  Yesterday at about 10pm UTC we posted a global notice to let people know that we were considering an upgrade this weekend to pre-1.0.32 dancer-ircd.  We continue to experience clonebot attacks, and the additional features in the new release will be helpful. We directed people to channel **#upgrade** and asked for questions and feedback. After answering questions and taking comments for about an hour, it seemed that the response to the idea of trying the upgrade was pretty favorable.
 

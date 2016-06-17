@@ -5,6 +5,7 @@ title: We are recruiting!
 category: community
 category: different
 category: freenode
+imported: yes
 ---
 We are currently looking to expand the freenode volunteer staff team – seeking people from across the target communities we serve.
 

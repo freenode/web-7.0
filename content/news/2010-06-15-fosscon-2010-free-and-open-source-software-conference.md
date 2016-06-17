@@ -10,6 +10,7 @@ category: open source
 category: pdpc
 category: philosophy
 category: social
+imported: yes
 ---
 While talking online is great, meeting in person presents brand new opportunities... and we would like to meet you!
 

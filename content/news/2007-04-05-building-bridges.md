@@ -4,6 +4,7 @@ slug: building-bridges
 title: Building Bridges
 category: community
 category: freenode
+imported: yes
 ---
 For the last few months, some of freenode's staff have been doing overtime as 'observers' on another IRC network for FOSS developers; hanging out in their staff channels, watching how they do things.  At the same time, some of their staff have been watching how we work.  It's been interesting.
 

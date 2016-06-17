@@ -8,6 +8,7 @@ category: freenode
 category: geeknic
 category: pdpc
 category: social
+imported: yes
 ---
 It was the day before Christmas, when all across the network not a creature was stirring, not even a troll...
 

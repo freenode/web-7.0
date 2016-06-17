@@ -7,6 +7,7 @@ category: freenode
 category: infrastructure
 category: projects
 category: webchat
+imported: yes
 ---
 Following our successful switch of cloaking on our web gateway ([http://webchat.freenode.net](http://webchat.freenode.net)) to show the full IP address of connecting users (see [this blog post](http://blog.freenode.net/2010/06/freenode-webchat-changes/)), we have decided to transition our old and relatively unused Java client ([pjIRC](http://www.pjirc.com/main.php)) to our webchat service. This will be done via a HTTP redirect.
 

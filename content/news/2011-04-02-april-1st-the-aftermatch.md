@@ -2,6 +2,7 @@ author: RichiH
 date: 2011-04-02 14:47:08+00:00
 slug: april-1st-the-aftermatch
 title: April 1st, the aftermatch
+imported: yes
 ---
 Some of you might have remembered the wolfgame bot in #defocus from 2008-04-01. Reception was even better this time and people really liked it. We might even make this a tradition. Feedback in comments, please.
 

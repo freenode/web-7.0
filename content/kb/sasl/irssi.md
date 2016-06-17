@@ -1,21 +1,29 @@
-Title: Configuring SASL for irssi
+Title: Configuring SASL for Irssi
 ---
-This script, originally by Michael Tharp and Jilles Tjoelker has been further developed by Mantas Mikulėnas (grawity) and lives on scripts.irssi.org. Authentication information may be stored in ~/.irssi/sasl.auth.
+The setup for SASL on Irssi differs depending on the version you have (you can
+find out by running `irssi -v` in your nearest shell).
 
-1. Copy the script, [cap_sasl.pl <i class="fa fa-external-link" aria-hidden="true"></i>](http://scripts.irssi.org/scripts/cap_sasl.pl), into your ~/.irssi/scripts/autorun directory or from wherever irssi loads startup scripts.
-2. The script requires at least the Perl module [MIME::Base64 <i class="fa fa-external-link" aria-hidden="true"></i>](https://metacpan.org/module/MIME::Base64). If you're using Linux, Perl modules are generally in distribution repositories, or you can get them directly from CPAN. If you cannot install them for the whole system, you may be able to use [local::lib <i class="fa fa-external-link" aria-hidden="true"></i>](https://metacpan.org/module/local::lib).
-3. Load the script using `/script load autorun/cap_sasl.pl`.
-4. The script needs to be configured with `/sasl set network nick password mechanism`.
 
-   `network` is the (case-sensitive) name of the network specified with `/network add`
+# Irssi 0.8.18 or later
 
-   `nick` is your registered nickname
+Recent Irssi versions include built-in SASL support via `/network`:
 
-   `password` is your NickServ password
+    /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN Freenode
+    /server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
 
-   `mechanism` should be `PLAIN`. `PLAIN` sends your password unprotected, as plain text (which is fine when connecting over SSL, as the entire exchange is encrypted already).
-5. Save the settings with `/sasl save`
-6. If everything has been configured correctly, the next time you connect you should see the message:
-`SASL authentication successful`
 
-The script also supports `/sasl show` and `/sasl load`. Show lists currently-configured networks and the saved credentials. Load re-reads the sasl.auth file. A `/sasl set network` command with no other arguments will delete the configuration for that network.
+# Older versions
+
+These versions need a separate script in order to support SASL: `cap_sasl.pl`.
+You can install it from <https://scripts.irssi.org>:
+
+    mkdir -p ~/.irssi/scripts/autorun
+    wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ~/.irssi/scripts/cap_sasl.pl
+    ln -sf ../cap_sasl.pl ~/.irssi/scripts/autorun/
+
+Now load and configure it inside Irssi:
+
+    /script load cap_sasl
+    /server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
+    /sasl set Freenode <login> <password> PLAIN
+    /sasl save

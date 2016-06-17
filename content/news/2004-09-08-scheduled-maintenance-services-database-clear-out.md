@@ -2,6 +2,7 @@ author: christel
 date: 2004-09-08 02:38:24+00:00
 slug: scheduled-maintenance-services-database-clear-out
 title: [Scheduled Maintenance] Services database clear-out.
+imported: yes
 ---
 This is just to let you know that we will soon be performing a fairly massive cleanup of the NickServ database, and through it the ChanServ database.  We're hoping to clear out a lot of the dead nicks and channels in order to make our next services upgrade a simpler process.
 

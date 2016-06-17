@@ -5,6 +5,7 @@ title: freenode t-shirts
 category: community
 category: freenode
 category: pdpc
+imported: yes
 ---
 As you are probably aware, the PDPC re-incorporated in the UK and to that end we are trying to meet the threshold for being registered as a charity through the charity commission -- a status which would allow us to continue offering tax relief to hardware and bandwith sponsors, in addition to cutting our costs.  To this end, we are in the process of designing several cool t-shirts which will be available on the pdpc's website for purchase.  The proceeds from these sales will help supplement donations which we already receive from some of our users.
 

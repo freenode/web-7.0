@@ -2,6 +2,7 @@ author: JonathanD
 date: 2010-03-16 14:11:39+00:00
 slug: fosscon-2010-and-northeast-us-geeknic-camping-trip
 title: fosscon 2010 and Northeast US geeknic++ camping trip
+imported: yes
 ---
 There are two pdpc-related events coming up in the Northeast US we'd like to make you aware of. The first is the second "geeknic++" camping trip, to be held May 21st-23rd in Worthington State Forest, NJ.  Last year, there was much fun to be had as geeks (and their families) from all over the Northest gathered for 2 nights of camping in a New Jersey State forest.  This year there is a new location, but more of the same fun.  See [http://geeknic.org/?p=91](http://geeknic.org/?p=91) for details. The trip is only $20 for adults, and kids under 18 are free.
 

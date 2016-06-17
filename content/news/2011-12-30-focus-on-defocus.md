@@ -2,6 +2,7 @@ author: mrmist
 date: 2011-12-30 11:50:37+00:00
 slug: focus-on-defocus
 title: Focus on #defocus
+imported: yes
 ---
 We've been working on improving the environment in #defocus for a while now.  We think we're on the right track with opening up channel moderation to more than @freenode/staff/ but we need your help to get to where we want to be.
 

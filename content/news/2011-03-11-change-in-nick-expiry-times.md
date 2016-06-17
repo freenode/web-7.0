@@ -2,6 +2,7 @@ author: RichiH
 date: 2011-03-11 15:59:21+00:00
 slug: change-in-nick-expiry-times
 title: Change in nick expiry times
+imported: yes
 ---
 Up to now, the expiry time of nicks has been 60 days. As you know, Services compress timespans into years, weeks, and days. 60 days are 8 weeks and 4 days. Easy enough to convert, but still unnecessary. Also, a nick that has been registered for a long time should get a little bit more protection than a new one. In the past, we have sometimes asked users to wait a bit longer before requesting old nicks to be dropped.  To make things easier and fairer, we have decided to change and simplify our official policy.
 

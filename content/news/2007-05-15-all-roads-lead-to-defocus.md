@@ -6,6 +6,7 @@ category: community
 category: freenode
 category: philosophy
 category: social
+imported: yes
 ---
 Some time ago I used to work as a special projects mentor for a large international company, one of the things I were to try purvey to the people I trained was 'Change is good, change is great'. It took a long time for me to change my internal thought process and face my own fears of giving up security of what's familiar, and as such it took a long time for me to be able to stand there in a room full of people and utter those words while actually believing in and meaning what I said.
 

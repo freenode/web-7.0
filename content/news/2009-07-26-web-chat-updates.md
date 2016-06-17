@@ -7,6 +7,7 @@ category: free software
 category: freenode
 category: open source
 category: webchat
+imported: yes
 ---
 Over the last few  weeks we have had quite a bit of feedback from our new web chat client.  As a result of this we've been able to feed back requests to the qwebirc developers who have been able to add many requested features:
 

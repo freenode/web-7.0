@@ -5,6 +5,7 @@ title: A very brief mention of upcoming changes..
 category: community
 category: freenode
 category: infrastructure
+imported: yes
 ---
 As you are probably aware we are in the process of rehauling the IRCd and Services software running on freenode. While hyperion and theia have served us well for a significant amount of time they are also starting to struggle under the weight of our rapid growth (we recently hit 43,000 users, which is a number we hadn't anticipated -- that's 15,000 more users than we had a year ago).
 

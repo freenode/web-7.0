@@ -2,6 +2,7 @@ author: christel
 date: 2003-06-05 21:05:48+00:00
 slug: dropping-unused-and-expired-nick-and-channel-registrations
 title: Dropping unused and expired nick and channel registrations.
+imported: yes
 ---
 Hi, all.  In about a day, we'll be dropping expired nicks and channels, registered with NickServ and ChanServ, which have been unused for at least 120 days.  This is a semi-automated process; we do it every so often to clear out the deadwood in the services databases. If you don't regularly IDENTIFY to NickServ, please start as soon as you can.  Remember that this is the only way we can determine that your IRC nicknames and channels are used.
 

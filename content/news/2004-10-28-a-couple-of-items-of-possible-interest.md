@@ -2,6 +2,7 @@ author: christel
 date: 2004-10-28 19:58:15+00:00
 slug: a-couple-of-items-of-possible-interest
 title: A couple of items of possible interest. 
+imported: yes
 ---
 **First,** if you're involved with bookkeeping or accounting for a small not-for-profit entity, particularly in the FOSS community, please consider maintaining a presence on the new **#accounting** channel on **freenode**.  This channel was set up to provide mutual support for small not-for-profit entities in the area of bookkeeping and accounting.  Examples: use of UCoA for general ledger and reporting, accrual-based accounting techniques, basic bookkeeping.  Please   [stop by the **freenode** IRC network](http://freenode.net/using_the_network.shtml),  channel **#accounting**.
 
