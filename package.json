@@ -1,0 +1,19 @@
+{
+  "name": "web-7.0",
+  "version": "0.0.1",
+  "description": "Website for http://freenode.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freenode/web-7.0.git"
+  },
+  "author": "",
+  "license": "CC-BY-NC-SA",
+  "bugs": {
+    "url": "https://github.com/freenode/web-7.0/issues"
+  },
+  "homepage": "http://freenode.net",
+  "devDependencies": {
+    "postcss-cssnext": "^2.6.0",
+    "postcss-csso": "^1.1.2"
+  }
+}

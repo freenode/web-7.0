@@ -8,7 +8,8 @@ A shiny replacement for http://freenode.net.
 You'll need our node.js dependencies:
 
 ```console
-$ sudo npm install -g myth svgo
+$ sudo npm install -g postcss-cli svgo
+$ npm install
 ```
 
 Then, assuming a Python 3.4 (or later) installation:
