@@ -44,19 +44,15 @@ staff will be happy to discuss it and answer any questions you may have.
     gives you the benefit of having all your nicks covered by the same cloak, should you choose to wear a cloak. The exception to this is where you might want to
     run a bot. You should register a separate account for your bot.
 
-4.  Configure your client to identify itself to NickServ automatically whenever it connects to freenode so that it's less likely you'll connect to the network
-    without being identified to NickServ. The easiest approach is to specify your NickServ password as a server password.  If your client supports server
-    password, please set this up as accountname:password. Make sure to include the colon. This will allow you to identify to your services account on connect,
-    regardless of the nickname you are using when you connect. For example: /connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p
-
-
 Logging In
 ==========
 
 You'll need to log in to your nickname each time you reconnect to freenode.
 
 The simplest, and most robust, way to do this is to configure [SASL](kb/using/sasl), if your client supports it. If not, you can supply your login details, in
-the form `<account>:<password>`, as a server password and they will be forwarded to NickServ when you finish connecting.
+the form `<account>:<password>`, as a server password and they will be forwarded to NickServ when you finish connecting. For example:
+
+    /connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p
 
 Nickname Expiry
 ===============
