@@ -40,6 +40,7 @@
 @custom-media --max-sm all and (max-width: 600px);
 @custom-media --max-md all and (max-width: 800px);
 @custom-media --max-rem all and (max-width: 60rem);
+@custom-media --sm-md (--max-md) and (min-width: 600px);
 
 /* reset css for browser compat */
 * {
@@ -663,6 +664,24 @@ footer a:hover {
     .footerchild ul li img,
     .footerchild ul li .fa-fw {
         height: 2.5rem;
+    }
+}
+
+@media (--sm-md) {
+    .footer-container {
+        flex-flow: row wrap;
+        position: relative;
+        width: 75vw;
+    }
+
+    .footerchild {
+        flex-basis: 40%;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+
+    .footer-push {
+        margin-left: 0;
     }
 }
 
