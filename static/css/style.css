@@ -671,7 +671,7 @@ footer a:hover {
     .footer-container {
         flex-flow: row wrap;
         position: relative;
-        width: 75vw;
+        width: 95vw;
     }
 
     .footerchild {
