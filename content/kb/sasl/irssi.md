@@ -8,8 +8,8 @@ find out by running `irssi -v` in your nearest shell).
 
 Recent Irssi versions include built-in SASL support via `/network`:
 
-    /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN Freenode
-    /server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
+    /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN freenode
+    /server add -auto -net freenode -ssl -ssl_verify irc.freenode.net 6697
 
 
 # Older versions
@@ -24,6 +24,6 @@ You can install it from <https://scripts.irssi.org>:
 Now load and configure it inside Irssi:
 
     /script load cap_sasl
-    /server add -auto -net Freenode -ssl -ssl_verify irc.freenode.net 6697
-    /sasl set Freenode <login> <password> PLAIN
+    /server add -auto -net freenode -ssl -ssl_verify irc.freenode.net 6697
+    /sasl set freenode <login> <password> PLAIN
     /sasl save
