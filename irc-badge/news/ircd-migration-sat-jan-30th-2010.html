@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>ircd Migration Sat Jan 30th 2010 - freenode</title>
+    <link href="../static/css/open-sans.css?237ffd7" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?237ffd7" rel="stylesheet">
+    <link href="../static/css/style.css?237ffd7" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="ircd-migration-sat-jan-30th-2010"><h1 class="art">ircd Migration Sat Jan 30th 2010</h1></a>
+<span class="art-date">JonathanD on 2010-01-14</span>
+
+    </div>
+    <div class="art-body">
+    <p>In the com­ing weeks, we will be mi­grat­ing freen­ode to our new ircd, ir­cd-­sev­en.  Present­ly, freen­ode uses hy­pe­r­i­on and ef­forts have been un­der­way for some time move us off this plat­form for rea­sons of sta­bil­i­ty and func­tion­al­i­ty.  We are now al­most there.</p>
+<p>As users please be aware that dur­ing the mi­gra­tion all clients will be tem­porar­i­ly dis­con­nect­ed and will need to re­con­nect in or­der to move over to the new servers. For most of you this will hap­pen as the old servers are shut down.</p>
+<p><strong>Please Note:</strong> While we will copy over chan­nel modes and top­ics for reg­is­tered chan­nels (there will be no changes to the ser­vices data­base, all nick and chan­nel set­tings with ser­vices will stay the same) we are un­able to do so for chan­nels NOT reg­is­tered with ChanServ. If your project utilis­es non-reg­is­tered chan­nels for what­ev­er rea­son, please make note of the top­ics and modes so you can make a man­u­al trans­fer of these your­selves. For more in­for­ma­tion on reg­is­ter­ing a chan­nel, see this <a href="registering-a-channel-on-freenode">post</a>.</p>
+<p>If you op­er­ate a chan­nel on freen­ode and have any con­cerns, feel free to stop by #freen­ode to dis­cuss any is­sues you might have.  If you run any chan­nel util­i­ty bots, you may want to test them on the cur­rent test­net.  More in­for­ma­tion can be found <a href="testing-the-nets">here</a>.</p>
+<p><strong>Im­por­tant Changes</strong></p>
+<p>There are sev­er­al sig­nif­i­cant changes users should be aware of in ir­cd-­sev­en:</p>
+<p>Chan­nel qui­ets are no longer a mod­i­fied ver­sion of bans but are now on their own list, queried with "mode #chan­nel q", and as such do not ap­pear on the nor­mal ban­list.</p>
+<p>Af­ter the mi­gra­tion, we will have ssl ac­cess avail­able on the pro­duc­tion net­work.</p>
+<p>Iden­ti­fy­ing upon con­nec­tion works as be­fore but there are two new ways to do so: spec­i­fy­ing user­name:pass­word in the serv­er pass­word field will al­low you to lo­gin to a spe­cif­ic ac­count, and SASL au­then­ti­ca­tion is also avail­able.  Us­ing SASL varies by client and is not sup­port­ed in all clients.</p>
+<p>The CAP com­mand:</p>
+<p>A brief sum­ma­ry:</p>
+<ul>
+<li>
+<p>The CAP LS com­mand will list all client ca­pa­bil­i­ties that are avail­able to the client.</p>
+</li>
+<li>
+<p>The CAP REQ :<cap1></cap1> <cap2></cap2> &lt;...&gt; com­mand can be used to re­quest one or more ca­pa­bil­i­ties. The re­sponse to this will be ei­ther CAP ACK :<cap></cap> &lt;...&gt;, or CAP NAK :<cap></cap> &lt;...&gt;, de­pend­ing on whether the re­quest was suc­cess­ful.</p>
+</li>
+<li>
+<p>A CAP name to­ken can be pre­fixed by - to dis­able that ca­pa­bil­i­ty. This was not avail­able with hy­pe­r­i­on's CA­PAB com­mand.</p>
+</li>
+<li>
+<p>CAP ne­go­ti­a­tion can take place ei­ther dur­ing con­nec­tion and reg­is­tra­tion (as is re­quired for SASL), or af­ter­wards, to en­able iden­ti­fy-msg.</p>
+</li>
+</ul>
+<p>For those im­ple­ment­ing sup­port for it, a full spec­i­fi­ca­tion is at <a href="http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html">http://www.leeh.co.uk/draft-mitchel­l-ir­c-­ca­pa­bil­i­ties-02.html</a>.</p>
+<p>The IDEN­TI­FY-MSG ca­pa­bil­i­ty still ex­ists but there is a new way to ac­ti­vate it.  It is now part of the CAP mech­a­nism.   A script for irssi that un­der­stands both hy­pe­r­i­on's and sev­en's iden­ti­fy-msg ca­pa­bil­i­ty is avail­able at <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">http://adi­pose.at­ten­u­ate.org/~stephen/ir­cd-­sev­en/for­mat_iden­ti­fy.pl</a>.</p>
+<p>The n= and i= pre­fix­es are not used, in­stead ~ is pre­fixed to a non-i­dentd user­name as is com­mon in most oth­er ir­cds.</p>
+<p>For fur­ther in­for­ma­tion on changes that might im­pact you please vis­it <a href="http://freenode.net/seven-for-hyperion-users.html">http://freen­ode.net/sev­en-­for-hy­pe­r­i­on-users.html</a></p>
+<p>As al­ways, thank you for us­ing freen­ode, and see you on the oth­er side!</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="happy-new-year-2010">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="javascript-spam">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
