@@ -1,4 +1,4 @@
-# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0)
+# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0) [![irc: #freenode-website](https://img.shields.io/badge/irc-%23freenode--website-brightgreen.svg)](https://webchat.freenode.net/?channels=freenode-website)
 
 A shiny replacement for http://freenode.net.
 
