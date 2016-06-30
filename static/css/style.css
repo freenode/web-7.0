@@ -106,6 +106,9 @@ img {
     height: 40px;
 }
 
+/* nav = navbar
+ * pia = Private Internet access
+ */
 #nav-logo { order: 10; }
 #nav-pia  { order: 30; }
 
@@ -187,10 +190,10 @@ img {
     }
 }
 
-.nlogo {
-    height: 40px;
-}
+/* n = nav */
+.nlogo { height: 40px; }
 
+/* t = text (used in jumbotron for small logo as text) */
 .tlogo {
     height: 2.4ex;
     margin-bottom: -.47ex;
@@ -292,6 +295,7 @@ tr:nth-child(odd) {
     padding: 4em 0 4em 0;
 }
 
+/* j = jumbotron */
 .jindex {
     z-index: 99;
 }
@@ -362,6 +366,7 @@ tr:nth-child(odd) {
     margin-top: .75em;
 }
 
+/* fa = font awesome */
 .fa-users {
     margin-top: var(--margin-box-fa);
 }
@@ -420,7 +425,7 @@ tr:nth-child(odd) {
 h1 {
     margin: 0;
 }
-
+/* art = article */
 .artlist ul {
     padding: 0;
     list-style-type: none;
@@ -520,6 +525,7 @@ blockquote {
 }
 
 /* faq */
+/* kb = knowledge base */
 .kb-index {
     list-style-type: none;
     padding-left: 0;
@@ -639,6 +645,7 @@ footer a:hover {
         margin-bottom: .1em;
     }
 
+    /* hdn = hidden */
     .hdn {
         display: none;
     }
