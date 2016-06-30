@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Connecting to freenode - freenode</title>
+    <link href="../../static/css/open-sans.css?1a56a9a" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?1a56a9a" rel="stylesheet">
+    <link href="../../static/css/style.css?1a56a9a" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>Connecting to freenode</h1>
+    <p class="art-ingress">
+        <p>The freen­ode net­work can be ac­cessed via the <a href="//webchat.freenode.net">freen­ode we­bchat</a> or us­ing an IRC client such as irssi, WeeChat, ERC, Hex­Chat, Smuxi, Quas­sel or mIRC.</p>
+<p>You can con­nect to freen­ode by point­ing your IRC client at <code>chat.freenode.net</code> on ports 6665-6667 and 8000-8002.</p>
+<h2 id="accessing-freenode-via-ssl">Accessing freenode Via SSL</h2>
+<p>freen­ode pro­vides SSL client ac­cess on all servers, on ports 6697, 7000 and 7070. Users con­nect­ing over SSL will be giv­en user mode +Z, and <em>is us­ing a se­cure
+con­nec­tion</em> will ap­pear in WHOIS (a 671 nu­mer­ic). We­bchat users will not cur­rent­ly ap­pear with +Z or the 671 nu­mer­ic, even if they con­nect to we­bchat via SSL.</p>
+<p>In or­der to ver­i­fy the serv­er cer­tifi­cates on con­nec­tion, some ad­di­tion­al work may be re­quired. First, en­sure that your sys­tem has an up­-­to-­date set of root CA
+cer­tifi­cates. On most lin­ux dis­tri­b­u­tions this will be in a pack­age named some­thing like ca-cer­tifi­cates. Many sys­tems in­stall these by de­fault, but some (such
+as FreeB­SD) do not.  For FreeB­SD, the pack­age is named ca_root_nss, which will in­stall the ap­pro­pri­ate root cer­tifi­cates in /usr/lo­cal/share/certs/ca-­root-nss.crt.</p>
+<p>Cer­tifi­cate ver­i­fi­ca­tion will gen­er­al­ly only work when con­nect­ing to <strong><code>freenode.net</code></strong>. If your client thinks the server's cer­tifi­cate is in­valid, make sure you are con­nect­ing to <code>chat.freenode.net</code> rather than any oth­er name that leads to freen­ode.</p>
+<p>For most clients this should be suf­fi­cient. If not, you can down­load the re­quired in­ter­me­di­ate cert from <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gan­di</a>
+and the root cert from <a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">In­stant SSL</a>.</p>
+<p>Client SSL cer­tifi­cates are also sup­port­ed, and may be used for iden­ti­fi­ca­tion to ser­vices via <a href="#XXX">CertFP</a>. If you have con­nect­ed with a client cer­tifi­cate, <em>has client cer­tifi­cate fin­ger­print f1ecf46714198533c­da14c­c­c­c76e5d7114be4195</em> (show­ing
+your cer­tifi­cate's SHA1 fin­ger­print in place of <em>f1ecf46...</em>) will ap­pear in WHOIS (a 276 nu­mer­ic).</p>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
