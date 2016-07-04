@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-04-01T12:00:00+00:00</updated><entry><title>AFD quiz</title><link href="https://freenode.net/news/afd-2016" rel="alternate"></link><published>2016-04-01T12:00:00+00:00</published><author><name>mniip</name></author><id>tag:freenode.net,2016-04-01:/news/afd-2016/</id><summary type="html">&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-07-04T14:58:00+00:00</updated><entry><title>Help protect net neutrality in the EU</title><link href="https://freenode.net/news/eu-net-neutrality" rel="alternate"></link><published>2016-07-04T14:58:00+00:00</published><author><name>edk</name></author><id>tag:freenode.net,2016-07-04:/news/eu-net-neutrality/</id><summary type="html">&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+intended to protect
+&lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
+However, it contained
+&lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
+which many people believe will allow European ISPs to prioritise paying
+partners' traffic. Among other things, this is potentially quite scary for
+FOSS projects—most of which don't have the kind of funding necessary to enter
+into such arrangements.&lt;/p&gt;
+&lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
+&lt;a href="https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications"&gt;BEREC&lt;/a&gt;
+to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
+&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+intended to protect
+&lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
+However, it contained
+&lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
+which many people believe will allow European ISPs to prioritise paying
+partners' traffic. Among other things, this is potentially quite scary for
+FOSS projects—most of which don't have the kind of funding necessary to enter
+into such arrangements.&lt;/p&gt;
+&lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
+&lt;a href="https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications"&gt;BEREC&lt;/a&gt;
+to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
+&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>AFD quiz</title><link href="https://freenode.net/news/afd-2016" rel="alternate"></link><published>2016-04-01T12:00:00+00:00</published><author><name>mniip</name></author><id>tag:freenode.net,2016-04-01:/news/afd-2016/</id><summary type="html">&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
 &lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
@@ -681,12 +705,4 @@ Details of how to do so are &lt;a href="https://github.com/atheme/ecdsatool"&gt;
 &lt;p&gt;&lt;img alt="freenode4" src="../static/img/freenode41.png"&gt;&lt;/p&gt;
 &lt;p&gt;Edit: Previous versions of the post contained an incorrect NickServ command. We have corrected this and apologise for the inconvenience.&lt;/p&gt;</summary><content type="html">&lt;p&gt;UPDATE: This was of course an April Fool... you can "/msg nickserv set property GOOGLE+" to remove the property from your account. There might still be other secrets within the message though...&lt;/p&gt;
 &lt;p&gt;&lt;img alt="freenode4" src="../static/img/freenode41.png"&gt;&lt;/p&gt;
-&lt;p&gt;Edit: Previous versions of the post contained an incorrect NickServ command. We have corrected this and apologise for the inconvenience.&lt;/p&gt;</content></entry><entry><title>Turbulence</title><link href="https://freenode.net/news/turbulence" rel="alternate"></link><published>2014-02-03T17:43:16+00:00</published><author><name>njan</name></author><id>tag:freenode.net,2014-02-03:/news/turbulence/</id><summary type="html">&lt;p&gt;As many of you will be aware, freenode has been experiencing intermittent instability today, as the network has been under attack. Whilst we have network services back online, the network continues to be a little unreliable and users are continuing to report issues in connecting to the network.&lt;/p&gt;
-&lt;p&gt;We appreciate the patience of our many wonderful users whilst we continue to work to mitigate the effects this has on the network.&lt;/p&gt;
-&lt;p&gt;We also greatly appreciate our many sponsors who work with us to help minimise the impact and who are themselves affected by attacks against the network.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As many of you will be aware, freenode has been experiencing intermittent instability today, as the network has been under attack. Whilst we have network services back online, the network continues to be a little unreliable and users are continuing to report issues in connecting to the network.&lt;/p&gt;
-&lt;p&gt;We appreciate the patience of our many wonderful users whilst we continue to work to mitigate the effects this has on the network.&lt;/p&gt;
-&lt;p&gt;We also greatly appreciate our many sponsors who work with us to help minimise the impact and who are themselves affected by attacks against the network.&lt;/p&gt;
-&lt;p&gt;We've &lt;a href="http://blog.freenode.net/2013/05/the-good-the-bad-and-the-ugly/"&gt;posted on this subject before&lt;/a&gt;, and what we said then remains as true as ever - and for those of you who didn't read the earlier blogpost first time round, it's definitely worth perusing it now if this subject interests or affects you.&lt;/p&gt;
-&lt;p&gt;Thank you all for your patience as we continue to work to restore normal service!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[UPDATE 04/02/2014]&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;At the moment SASL authentication works only on PLAINTEXT, &lt;em&gt;not&lt;/em&gt; BLOWFISH. We've checked and TOR should be working too. Sadly wolfe.freenode.net will be taken off the rotation, so those users who've connected specifically to it, please make sure that your client points to our recommended roundrobin of chat.freenode.net!&lt;/em&gt;&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Edit: Previous versions of the post contained an incorrect NickServ command. We have corrected this and apologise for the inconvenience.&lt;/p&gt;</content></entry></feed>
