@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 04 Jul 2016 11:15:00 +0000</lastBuildDate><item><title>Help protect net neutrality in the EU</title><link>https://freenode.net/news/eu-net-neutrality</link><description>&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
-intended to protect
-&lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
-However, it contained
-&lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
-which many people believe will allow European ISPs to prioritise paying
-partners' traffic. Among other things, this is potentially quite scary for
-FOSS projects—most of which don't have the kind of funding necessary to enter
-into such arrangements.&lt;/p&gt;
-&lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
-&lt;a href="https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications"&gt;BEREC&lt;/a&gt;
-to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
-&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Mon, 04 Jul 2016 11:15:00 +0000</pubDate></item><item><title>AFD quiz</title><link>https://freenode.net/news/afd-2016</link><description>&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 04 Jul 2016 11:15:00 +0000</lastBuildDate><item><title>Help protect net neutrality in the EU</title><link>https://freenode.net/news/eu-net-neutrality</link><description>&lt;p&gt;Freenode users, in a few days the EU will decide on net neutrality,
+the outcome will affect all of us, not only Europeans, and it will definitely harm FOSS.&lt;/p&gt;
+&lt;p&gt;As many of you no doubt know, the Eu­ro­pean Union passed leg­is­la­tion last year
+in­tend­ed to pro­tect &lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neu­tral­i­ty&lt;/a&gt;.
+How­ev­er, it con­tained &lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;sig­nif­i­cant loop­holes&lt;/a&gt;
+which many peo­ple be­lieve will al­low Eu­ro­pean ISPs to pri­ori­tise
+pay­ing part­ner­s' traf­fic.&lt;/p&gt;
+&lt;p&gt;This will benefit those willing, and able, to pay.
+Many FOSS projects doesn't have an income, and those who does have often gains just enough to cover hosting costs,
+in comparison to multi billionaire for-profit corporates that have hundreds, if not thousands of dollars to pay
+your ISP's to prioritize their content, FOSS will soon be marginalised, because in the end,
+people will choose a fast service over a slow one.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk and Swant</dc:creator><pubDate>Mon, 04 Jul 2016 11:15:00 +0000</pubDate></item><item><title>AFD quiz</title><link>https://freenode.net/news/afd-2016</link><description>&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
 &lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mniip</dc:creator><pubDate>Fri, 01 Apr 2016 12:00:00 +0000</pubDate></item><item><title>New Website</title><link>https://freenode.net/news/new-website</link><description>&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
 &lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 22 Mar 2016 23:25:00 +0000</pubDate></item><item><title>Recent Events and Future Changes</title><link>https://freenode.net/news/recent-events-and-future-changes</link><description>&lt;p&gt;Many of you have been asking questions about the recent rash of high-profile
