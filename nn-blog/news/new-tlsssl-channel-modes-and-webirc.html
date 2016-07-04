@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>New TLS/SSL Channel Modes &amp; Webchat Features - freenode</title>
+    <link href="../static/css/open-sans.css?a943b16" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?a943b16" rel="stylesheet">
+    <link href="../static/css/style.css?a943b16" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="new-tlsssl-channel-modes-and-webirc"><h1 class="art">New TLS/SSL Channel Modes &amp; Webchat Features</h1></a>
+<span class="art-date">Pricey on 2013-06-27</span>
+
+    </div>
+    <div class="art-body">
+    <p>We've re­cent­ly en­abled some new func­tion­al­i­ty in our ircd to fur­ther help you man­age your chan­nels:</p>
+<h2 id="channel-mode-s">Channel mode +S</h2>
+<p>This en­sures only users that have con­nect­ed via TLS/SSL (and so have user mode +Z) are able to join; you can not /in­vite them through it. It will not pre­vent the use of the chan­nel by any non-TLS/SSL users al­ready present.</p>
+<h2 id="extended-ban-z">Extended ban $z</h2>
+<p>Doc­u­ment­ed in '/help extban' for some time, this has also been en­abled and match­es all TLS/SSL users. Us­age is sim­i­lar to the '$a' type (which match­es all iden­ti­fied users) and could for ex­am­ple be set as '+q $~z' to to qui­et any users not con­nect­ed over an ssl con­nec­tion.</p>
+<h2 id="webchat">Webchat</h2>
+<p>WE­BIRC has been en­abled so that be­hind their host­mask, users can now be con­sid­ered to be con­nect­ing from their real ad­dress. This means that a sin­gle ban for­mat can ap­ply to both di­rect con­nec­tions and we­bchat con­nec­tions.</p>
+<p>For ex­am­ple, a user con­nect­ing from 171.205.18.52 will still ap­pear as 'nick­name!abcd1234@gate­way/web/freen­ode/ip.171.205.18.52' but ban masks of the form '*!*@171.205.18.52' will match! This is now the most ef­fec­tive method of match­ing users us­ing we­bchat but the re­al­name and hex­ip user­name are still avail­able.</p>
+<p>Al­though freen­ode's we­bchat is avail­able over SSL, the we­bchat's lo­cal­host con­nec­tion to the ircd is not SSL, so we­bchat users do not get user mode +Z. We­bchat users will not be able to join a +S chan­nel and will not match the $z extban, even if they are us­ing we­bchat over SSL.</p>
+<h2 id="security-considerations">Security considerations</h2>
+<p>These chan­nel modes can not guar­an­tee se­cure com­mu­ni­ca­tion in all cas­es; if you choose to rely on them, please un­der­stand what they can and can't do, and what oth­er se­cu­ri­ty con­sid­er­a­tions there are.</p>
+<p>There are a va­ri­ety of known se­cu­ri­ty prob­lems with SSL, and rea­sons why the +S mode may not guar­an­tee trans­port se­cu­ri­ty on freen­ode. Some of these are:</p>
+<ul>
+<li>
+<p>These modes may be un­set by chan­nel op­er­a­tors at any time, al­low­ing non-TLS/SSL users to join, and the mode may sub­se­quent­ly be reap­plied;</p>
+</li>
+<li>
+<p>If net­work splits oc­cur it may also be pos­si­ble for users to by­pass +S in­ten­tion­al­ly or by chance;</p>
+</li>
+<li>
+<p>Clients may be com­pro­mised or ma­li­cious, or us­ing a ma­li­cious shared host;</p>
+</li>
+<li>
+<p>Clients may have traf­fic in­ter­cept­ed as part of a Man In The Mid­dle (MITM) at­tack and then trans­par­ent­ly for­ward­ed via SSL, in­vis­i­bly to chan­nel users;</p>
+</li>
+<li>
+<p>There may be is­sues with TLS/SSL it­self in serv­er or client con­fig­u­ra­tion or ar­chi­tec­ture which com­pro­mise its abil­i­ty to pro­vide ef­fec­tive trans­port se­cu­ri­ty at the net­work lev­el (there have been sev­er­al pub­lished at­tacks against SSL re­cent­ly - <a href="http://en.wikipedia.org/wiki/Secure_Socket_Layer#Security">see here</a>).</p>
+</li>
+</ul>
+<p>This is not an au­thor­i­ta­tive list, so be­fore us­ing +S as part of any chan­nel which re­quires strong anonymi­ty, please en­sure you un­der­stand what it does and its draw­backs.</p>
+<p>There are oth­er se­cu­ri­ty tools you may want to look at - you may want to con­sid­er us­ing client plu­g­ins that pro­vide ad­di­tion­al en­cryp­tion or route your con­nec­tion through Tor. Tor also al­lows you to cre­ate spu­ri­ous traf­fic to hide real traf­fic pat­terns. freen­ode pro­vides its own hid­den Tor node which means you can trust this con­nec­tion as much as you trust freen­ode. Your IRC traf­fic with freen­ode via Tor is end-­to-end en­crypt­ed from your Tor client to our Tor node. It does not pass through any third par­ty nodes in un­en­crypt­ed form.</p>
+<p>Fi­nal­ly, un­less you can trust every­one in a chan­nel and are sure it is con­fig­ured prop­er­ly and you un­der­stand the oth­er tech­ni­cal risks, do not rely on these chan­nel modes ex­clu­sive­ly. Se­cu­ri­ty is gen­er­al­ly lay­ered; en­sure you have good de­fense in depth and don't rely on in­di­vid­ual con­trols which may be a sin­gle point of fail­ure.</p>
+<h3 id="using-other-websites-or-services-via-tor">Using other websites or services via Tor</h3>
+<p>Re­mem­ber to <strong>al­ways</strong> en­crypt your traf­fic when us­ing Tor as you have no con­trol over who is run­ning exit nodes and if they are do­ing traf­fic analy­sis on them. While your traf­fic to the exit node is en­crypt­ed and the ingress node can not read it, the exit node will al­ways need to be able to re­move Tor en­cryp­tion. If your traf­fic is clear-­text said exit node will be able to read it.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="over-9000-10">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="fosscon-an-open-source-conference-in-philadelphia-pa-saturday-august-10th">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a name="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
