@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 04 Jul 2016 11:15:00 +0000</lastBuildDate><item><title>Help protect net neutrality in the EU</title><link>https://freenode.net/news/eu-net-neutrality</link><description>&lt;p&gt;Hello all,&lt;/p&gt;
-&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 04 Jul 2016 11:15:00 +0000</lastBuildDate><item><title>Help protect net neutrality in the EU</title><link>https://freenode.net/news/eu-net-neutrality</link><description>&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
 intended to protect
 &lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
 However, it contained
 &lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
 which many people believe will allow European ISPs to prioritise paying
-partners' traffic. Amongst other things, this is potentially quite scary for
+partners' traffic. Among other things, this is potentially quite scary for
 FOSS projects—most of which don't have the kind of funding necessary to enter
 into such arrangements.&lt;/p&gt;
 &lt;p&gt;If this is something that concerns you, campaigns aimed at convincing

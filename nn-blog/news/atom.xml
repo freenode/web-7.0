@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-07-04T11:15:00+00:00</updated><entry><title>Help protect net neutrality in the EU</title><link href="https://freenode.net/news/eu-net-neutrality" rel="alternate"></link><published>2016-07-04T11:15:00+00:00</published><author><name>edk</name></author><id>tag:freenode.net,2016-07-04:/news/eu-net-neutrality/</id><summary type="html">&lt;p&gt;Hello all,&lt;/p&gt;
-&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-07-04T11:15:00+00:00</updated><entry><title>Help protect net neutrality in the EU</title><link href="https://freenode.net/news/eu-net-neutrality" rel="alternate"></link><published>2016-07-04T11:15:00+00:00</published><author><name>edk</name></author><id>tag:freenode.net,2016-07-04:/news/eu-net-neutrality/</id><summary type="html">&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
 intended to protect
 &lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
 However, it contained
 &lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
 which many people believe will allow European ISPs to prioritise paying
-partners' traffic. Amongst other things, this is potentially quite scary for
+partners' traffic. Among other things, this is potentially quite scary for
 FOSS projects—most of which don't have the kind of funding necessary to enter
 into such arrangements.&lt;/p&gt;
 &lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
 &lt;a href="https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications"&gt;BEREC&lt;/a&gt;
 to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
-&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello all,&lt;/p&gt;
-&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
 intended to protect
 &lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
 However, it contained
 &lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
 which many people believe will allow European ISPs to prioritise paying
-partners' traffic. Amongst other things, this is potentially quite scary for
+partners' traffic. Among other things, this is potentially quite scary for
 FOSS projects—most of which don't have the kind of funding necessary to enter
 into such arrangements.&lt;/p&gt;
 &lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
