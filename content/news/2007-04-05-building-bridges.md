@@ -1,3 +1,4 @@
+---
 author: denny
 date: 2007-04-05 10:58:35+00:00
 slug: building-bridges

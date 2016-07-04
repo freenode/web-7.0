@@ -1,3 +1,4 @@
+---
 author: njan
 date: 2011-04-03 15:38:12+00:00
 slug: the-cat-enigma

@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-09-15 18:31:25+00:00
 slug: free-as-in-freenode

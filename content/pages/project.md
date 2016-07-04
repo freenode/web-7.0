@@ -1,3 +1,4 @@
+---
 Title: The Project
 ---
 The freenode project began as _#linuxneo_, a tiny GNU/Linux support channel, created by Rob Levin in 1994 on EFNet IRC. The channel soon changed its name to _#LinPeople_. By 1995, after moving to Undernet and then DALnet, _#LinPeople_ became a small network, _irc.linpeople.org_. In early 1998, it became _Open Projects Net_, with about 200 users and fewer than 20 channels.

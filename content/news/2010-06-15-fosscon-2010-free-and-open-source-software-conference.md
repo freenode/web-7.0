@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2010-06-15 13:27:23+00:00
 slug: fosscon-2010-free-and-open-source-software-conference

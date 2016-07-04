@@ -1,3 +1,4 @@
+---
 author: SportChick
 date: 2007-03-24 22:15:49+00:00
 slug: nickserv-is-your-friend

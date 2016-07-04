@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2010-03-16 14:11:39+00:00
 slug: fosscon-2010-and-northeast-us-geeknic-camping-trip

@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2009-01-05 13:34:32+00:00
 slug: nickserv-access-module-loaded

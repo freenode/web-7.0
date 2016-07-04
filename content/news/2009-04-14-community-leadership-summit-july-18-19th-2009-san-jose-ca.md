@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2009-04-14 09:53:24+00:00
 slug: community-leadership-summit-july-18-19th-2009-san-jose-ca

@@ -1,3 +1,4 @@
+---
 Title: Group registration
 ---
 This page describes group registration and the use of the freenode group contact. Group registration allows your project or organisation to maintain unambiguous contact with the freenode project volunteers and group registration represents an official relationship with freenode.

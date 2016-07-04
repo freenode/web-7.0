@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2006-09-16 10:47:55+00:00
 slug: announcement-rob-levin-has-passed-away

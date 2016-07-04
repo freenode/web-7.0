@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2007-05-22 21:20:41+00:00
 slug: changes-to-the-board-structure-of-the-pdpc

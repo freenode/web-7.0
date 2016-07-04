@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2003-06-05 21:05:48+00:00
 slug: dropping-unused-and-expired-nick-and-channel-registrations

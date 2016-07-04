@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2014-11-11 10:49:11+00:00
 slug: helping-gnome-defend-its-trademark

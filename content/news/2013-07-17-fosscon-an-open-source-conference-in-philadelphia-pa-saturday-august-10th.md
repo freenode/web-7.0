@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2013-07-17 21:51:27+00:00
 slug: fosscon-an-open-source-conference-in-philadelphia-pa-saturday-august-10th

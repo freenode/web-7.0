@@ -1,3 +1,4 @@
+---
 Title: Catalyst Guidelines
 ---
 The "catalyst" role is critical to freenode and an essential building block of effective communities. No one is required to be a catalyst, but the users who perform this role ensure the smooth and efficient functioning of the network.

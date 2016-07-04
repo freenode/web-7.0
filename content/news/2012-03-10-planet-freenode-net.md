@@ -1,3 +1,4 @@
+---
 author: RichiH
 date: 2012-03-10 23:39:50+00:00
 slug: planet-freenode-net

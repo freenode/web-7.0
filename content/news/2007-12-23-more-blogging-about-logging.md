@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2007-12-23 18:06:00+00:00
 slug: more-blogging-about-logging

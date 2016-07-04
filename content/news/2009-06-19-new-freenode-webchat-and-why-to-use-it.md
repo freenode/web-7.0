@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-06-19 11:41:04+00:00
 slug: new-freenode-webchat-and-why-to-use-it

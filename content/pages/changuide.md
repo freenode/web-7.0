@@ -1,3 +1,4 @@
+---
 Title: Channel Guidelines
 ---
 IRC is a low-bandwidth method of communication, in comparison with physical presence. Many of the cues of physical communication, tone of voice, facial expression, hand movements, etc., are missing in IRC, since only text is transmitted back and forth.

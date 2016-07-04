@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-04-13 13:32:45+00:00
 slug: free-as-in-node-episode-3-released

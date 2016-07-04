@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2007-08-26 19:20:55+00:00
 slug: cia-bots-the-instant-version-control-informants-an-annoyance

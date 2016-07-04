@@ -1,3 +1,4 @@
+---
 author: Martinp23
 date: 2010-01-29 18:55:02+00:00
 slug: connecting-to-freenode-using-tor-sasl

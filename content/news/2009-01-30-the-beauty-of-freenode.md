@@ -1,3 +1,4 @@
+---
 author: SportChick
 date: 2009-01-30 19:41:25+00:00
 slug: the-beauty-of-freenode

@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-02-09 14:40:19+00:00
 slug: freenode-t-shirts

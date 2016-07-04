@@ -1,3 +1,4 @@
+---
 Title: Supporting the project
 ---
 The freenode project exists to provide an interactive environment for coordination and support of peer-directed projects, including those of free software and open source. Our network is currently implemented using Internet Relay Chat (IRC). Our aim is to help improve the communicative and collaborative skills of our participants and to maintain a friendly, efficient environment for project coordination and technical support.

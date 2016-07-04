@@ -1,3 +1,4 @@
+---
 author: mrmist
 date: 2012-06-09 20:42:48+00:00
 slug: group-registration-closure

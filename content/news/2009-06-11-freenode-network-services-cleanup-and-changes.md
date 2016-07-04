@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-06-11 11:22:18+00:00
 slug: freenode-network-services-cleanup-and-changes

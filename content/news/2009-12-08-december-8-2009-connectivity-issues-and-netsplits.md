@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-12-08 17:58:35+00:00
 slug: december-8-2009-connectivity-issues-and-netsplits

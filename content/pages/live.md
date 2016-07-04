@@ -1,3 +1,4 @@
+---
 Title: freenode live!
 ---
 freenode live is a community-focused live event designed to **build** and **strengthen** relationships between Free and Open Source Software (FOSS) developers and users. freenode live seeks to raise awareness of and promote FOSS alternatives to proprietary software. Facilitating face-to-face interaction, creative workshops, talks and think tanks, freenode live will bring developers and users together in a nurturing and dynamic environment stimulating the free exchange of ideas and information while fostering cross-project collaboration and dialogue for innovation. 

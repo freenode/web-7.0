@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2009-04-14 09:52:41+00:00
 slug: wikipedia-licensing-change

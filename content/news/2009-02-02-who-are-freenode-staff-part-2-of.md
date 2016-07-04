@@ -1,3 +1,4 @@
+---
 author: SportChick
 date: 2009-02-02 19:19:55+00:00
 slug: who-are-freenode-staff-part-2-of

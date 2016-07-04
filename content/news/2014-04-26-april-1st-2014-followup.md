@@ -1,3 +1,4 @@
+---
 author: yano
 date: 2014-04-26 18:05:01+00:00
 slug: april-1st-2014-followup

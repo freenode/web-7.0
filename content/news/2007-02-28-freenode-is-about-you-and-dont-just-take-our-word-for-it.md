@@ -1,3 +1,4 @@
+---
 author: RichiH
 date: 2007-02-28 00:58:33+00:00
 slug: freenode-is-about-you-and-dont-just-take-our-word-for-it

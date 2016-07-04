@@ -1,3 +1,4 @@
+---
 author: tomaw
 date: 2014-11-08 23:18:51+00:00
 slug: atheme-7-2-and-freenode

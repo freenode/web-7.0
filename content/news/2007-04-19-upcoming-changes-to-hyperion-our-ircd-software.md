@@ -1,3 +1,4 @@
+---
 author: nenolod
 date: 2007-04-19 14:03:09+00:00
 slug: upcoming-changes-to-hyperion-our-ircd-software

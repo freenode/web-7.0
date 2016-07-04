@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2005-08-29 12:52:45+00:00
 slug: scheduled-maintenance-ircd-upgrade-2

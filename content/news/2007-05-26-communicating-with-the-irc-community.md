@@ -1,3 +1,4 @@
+---
 author: SportChick
 date: 2007-05-26 17:40:38+00:00
 slug: communicating-with-the-irc-community

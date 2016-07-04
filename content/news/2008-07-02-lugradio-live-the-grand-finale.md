@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2008-07-02 18:58:46+00:00
 slug: lugradio-live-the-grand-finale

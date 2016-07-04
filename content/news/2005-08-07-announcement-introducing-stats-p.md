@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2005-08-07 07:11:46+00:00
 slug: announcement-introducing-stats-p

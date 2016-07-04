@@ -1,3 +1,4 @@
+---
 author: seanw
 date: 2007-02-16 20:25:46+00:00
 slug: group-registration-with-freenode

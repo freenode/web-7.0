@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2003-04-10 15:48:58+00:00
 slug: server-hosting

@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2012-06-09 10:39:38+00:00
 slug: fosscon-2012-saturday-august-11th-in-philadelphia-pa

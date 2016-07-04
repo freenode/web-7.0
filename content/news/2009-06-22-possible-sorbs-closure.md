@@ -1,3 +1,4 @@
+---
 author: tomaw
 date: 2009-06-22 22:07:52+00:00
 slug: possible-sorbs-closure
