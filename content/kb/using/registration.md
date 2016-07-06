@@ -54,6 +54,17 @@ the form `<account>:<password>`, as a server password and they will be forwarded
 
     /connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p
 
+Regaining your nickname
+=======================
+
+Sometimes you may find that after being disconnected, your nickname is still in use for a period of time, or that another user
+is using your nickname. In either case, you can drop the existing connection and recove yse of your nickname with the nickserv
+ghost command.  This command takes the form '/msg nickserv ghost <nick> <password>', for example:
+
+    /msg nickserv ghost joe secret123
+
+The other connection will be dropped, and you can change back to your nickname.
+
 Nickname Expiry
 ===============
 
