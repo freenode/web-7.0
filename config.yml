@@ -30,7 +30,7 @@ modules:
     source: news
     root: news
   - name: 'feed'
-    title: 'freenode news'
+    title: 'Freenode News'
     description: ''
     module: 'news'
     output: 'news'
