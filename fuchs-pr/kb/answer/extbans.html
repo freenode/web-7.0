@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Extbans - freenode</title>
-    <link href="../../static/css/open-sans.css?0231222" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?0231222" rel="stylesheet">
-    <link href="../../static/css/style.css?0231222" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?c97f219" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?c97f219" rel="stylesheet">
+    <link href="../../static/css/style.css?c97f219" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -33,14 +33,11 @@
 <div class="main">
     <h1>Extbans</h1>
     <p class="art-ingress">
-        <p>Usu­al­ly en­tries on bans (+b), qui­ets (+q), in­vite-on­ly ex­emp­tion (+I) and ban ex­emp­tion (+e) are for­mat­ted nick!ident@host.
-There is a sec­ond form, called extban, which is more flex­i­ble. These en­tries have a $type or $type:data form. The type is a sin­gle char­ac­ter (case in­sen­si­tive) in­di­cat­ing the type of match. It is op­tion­al­ly pre­ced­ed by a tilde (~) to negate the com­par­i­son, see ex­am­ples be­low. The data de­pends on extban type.</p>
-<h2 id="setting-extban-entries">Setting extban entries</h2>
-<p>En­tries in the extban form are set the same way as reg­u­lar +beIq en­tries and re­quire the same priv­i­leges.
-See <a href="channelmodes">the en­try on chan­nel modes</a> for ex­am­ples. The only dif­fer­ence is the form of the pa­ra­me­ter passed.</p>
-<p>Most extban types should also be ex­plained by the built in help of our net­work, use <code>/help umode</code>  or <code>/quote help umode</code> if your client does not pass through <code>/help</code>.</p>
+        <p>Bans, qui­ets and in­vite and ban ex­emp­tions con­ven­tion­al­ly ac­cept the for­mat
+<code>nick!user@host</code>. On freen­ode an­oth­er syn­tax, known as "extban", is ac­cept­ed.
+These en­tries have the gen­er­al for­mat <code>$X</code> or <code>$X:data</code>. Op­tion­al­ly, they can
+be negat­ed with a ~: <code>$~T</code>.</p>
 <h2 id="available-extban-types">Available extban types</h2>
-<p>The fol­low­ing extban types are avail­able:</p>
 <table>
 <thead>
 <tr>
@@ -51,28 +48,26 @@ See <a href="channelmodes">the en­try on chan­nel modes</a> for ex­am­ples. 
 <tbody>
 <tr>
 <td>$a<br>(account name)</td>
-<td>This type will match on, and ban, all users identified to the account specified in the data parameter. This parameter accepts wildcards, and a lack of data is interpreted as an implicit wildcard. Common use cases include $a, which matches all users identified with services, and $~a, which matches all unidentified users.</td>
+<td>Match users identified to the account specified in the parameter. Accepts wildcards; an empty $a matches any logged-in user.</td>
 </tr>
 <tr>
 <td>$j<br>(cannot join other channel)</td>
-<td>This entry takes an exact channel name (no wildcards or globbing) as its data and matches any user who can not join that channel. For example: <code>/mode #channel1 +b $j:#channel2</code> will ban any user from #channel1 who cannot join #channel2. Due to caching by the server, a change to the ban list of #channel2 may not immediately alter a user's ability to speak in #channel.</td>
+<td>Takes an exact channel name (no wildcards or globbing) as its parameter and matches any user who is banned from that channel. Due to caching by the server, a change to the target channel's ban list may not immediately affect a user's ability to send to the channel using $j.</td>
 </tr>
 <tr>
-<td>$r<br>(realname)</td>
-<td>This type matches on a client's realname, or gecos. This parameter accepts wildcards. For example: <code>/mode #channel +b $r:Foo*</code> will ban any user whose gecos begins with Foo.</td>
+<td>$r<br>(ircname)</td>
+<td>Matches on a client's ircname, or gecos. The parameter accepts wildcards. For example: <code>/mode #channel +b $r:Foo*</code> will ban any user whose gecos begins with "Foo".</td>
 </tr>
 <tr>
 <td>$x<br>(full match)</td>
-<td>This type takes a string parameter that is matched against a client's full nick!username@host#gecos. If a match is found, the user is banned. This parameter accepts wildcards. For example: <code>/mode #channel +b $x:*#Foo*</code> will ban any user whose gecos begins with Foo, or whose gecos contains "#Foo".</td>
+<td>Takes a parameter that is matched against a client's full nick!username@host#gecos. The parameter accepts wildcards. For example, <code>/mode #channel +b $x:*#Foo*</code> will ban any user whose gecos begins with Foo, or whose gecos contains "#Foo".</td>
 </tr>
 <tr>
-<td>$z<br>(using SSL)</td>
-<td>This type does not accept a data parameter. It simply matches users who are connected via SSL. For example: <code>/mode #channel +b $~z$#channel-nossl</code> will forward non-SSL users to #channel-nossl.</td>
+<td>$z<br>(connected securely)</td>
+<td>Accepts no parameters. Matches users who are connected via SSL/TLS.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="channel-forwards-in-bans">Channel forwards in bans</h2>
-<p>The suf­fix $#tar­getchan­nel can be ap­pend­ed to any of the above ban masks to cause a user to be for­ward­ed to #tar­getchan­nel. The ban set­ter will only be able to set this ban if they are an op in #tar­getchan­nel, or if it has <a href="channelmodes">chan­nel mode</a> +F set. In this case, in all sit­u­a­tions where the user would pre­vi­ous­ly have been told they could not join, they will in­stead join the chan­nel named in the ban mask and be sent a 470 nu­mer­ic de­scrib­ing the for­ward.</p>
     </p>
 </div>
 

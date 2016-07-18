@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>User modes - freenode</title>
-    <link href="../../static/css/open-sans.css?0231222" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?0231222" rel="stylesheet">
-    <link href="../../static/css/style.css?0231222" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?c97f219" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?c97f219" rel="stylesheet">
+    <link href="../../static/css/style.css?c97f219" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -33,14 +33,13 @@
 <div class="main">
     <h1>User modes</h1>
     <p class="art-ingress">
-        <p>There are var­i­ous modes that can be set on users. Some of them can be set by the users, oth­ers are set by the net­work.
-You can list your cur­rent user modes with the <code>/mode yourname</code> com­mand.</p>
-<h2 id="setting-user-modes">Setting user modes</h2>
-<p>For those that can be set by users, <code>/mode yourname +mode</code> will work. Most clients have the alias of <code>/umode +mode</code> for that.
-Most modes should also be ex­plained by the built in help of our net­work, use <code>/help umode</code>  or <code>/quote help umode</code> if your client does not pass through <code>/help</code>.</p>
-<p>Keep in mind that all user modes are per ses­sion, so you have to set them again every time you con­nect. Most clients can au­to­mate that for you.</p>
+        <p>Var­i­ous modes can be set on users. Some of them can be set by the users, oth­ers
+are set by the net­work. You can list your cur­rent user modes with the <code>/mode
+yourname</code> com­mand.</p>
+<p>For those that can be set by users, <code>/mode yourname +mode</code> will work.</p>
+<p>Keep in mind that all user modes are per ses­sion, so you have to set them again
+every time you con­nect—most clients can au­to­mate this for you.</p>
 <h2 id="available-user-modes">Available user modes</h2>
-<p>The fol­low­ing user modes are avail­able:</p>
 <table>
 <thead>
 <tr>
@@ -50,32 +49,28 @@ Most modes should also be ex­plained by the built in help of our net­work, use
 </thead>
 <tbody>
 <tr>
-<td>D<br>(deaf)</td>
-<td>This prevents you from receiving channel messages. You will probably not want to set this in most cases. (It is used by services.)</td>
-</tr>
-<tr>
 <td>g<br>(caller-id)</td>
-<td>You can set this umode to prevent you from receiving private messages from anyone not on a whitelist. We would suggest only using this user mode if you have problems with volumes of spam via private message. The content of the whitelist can be controlled using the <code>/accept</code> command. When a user not on the whitelist attempts to contact you, you will receive a notice informing you of the fact and you can then use <code>/accept user</code> to speak to them. Note that the initial message to you is lost and the sender has to repeat it. Users can be removed from the whitelist using <code>/accept -user</code>. Finally, <code>/accept *</code> will print the whitelist. Keep in mind that the whitelist is per session and has to be set again after you disconnect.</td>
+<td>Ignores private messages from unknown users, instead informing you someone is attempting to message you. You can choose to receive messages with the <code>/accept</code> command. Messaging a user automatically accepts them.</td>
 </tr>
 <tr>
 <td>i<br>(invisible)</td>
-<td>This prevents you from appearing in global WHO/WHOIS by normal users, and hides which channels you are on. It is enabled by default.</td>
+<td>Hides you from global WHO/WHOIS by normal users, and shows only shared channels in /WHOIS output.</td>
 </tr>
 <tr>
 <td>Q<br>(disable forwarding)</td>
-<td>This user mode prevents you from being forwarded to another channel because of channel mode +f or by a ban, <a href="channelmodes">see the page on channel modes for details</a>. Instead of being forwarded to another channel, you'll be given a message as to why you could not join.</td>
+<td>Prevents channel forwards from affecting you. If a channel's modes prevent you from joining, you will receive the relevant error message regardless of any forwards.</td>
 </tr>
 <tr>
 <td>R<br>(block unidentified)</td>
-<td>This user mode prevents users who are not identified to NickServ from sending you private messages. It is suggested that you might want to temporarily set this user mode if you suffer problems with unidentified users sending you unwanted messages.</td>
+<td>Ignores private messages from users who are not identified with services.</td>
 </tr>
 <tr>
 <td>w<br>(see wallops)</td>
-<td>This user mode lets you see the wallops announcement system. Important network messages will be sent out via global notices and are not affected by this setting; this is only for non-critical announcements and comments which may be of interest.</td>
+<td>Subscribes you to /wallops messages from freenode staff. Used infrequently to highlight interesting announcements from the FOSS community. You will receive important network announcements irrespective of this setting.</td>
 </tr>
 <tr>
-<td>Z<br>(connected via SSL)</td>
-<td>This user mode can't be set by yourself. You will have it set when you connect to freenode using SSL.</td>
+<td>Z<br>(connected securely)</td>
+<td>Set automatically by the network when you connect via SSL/TLS.</td>
 </tr>
 </tbody>
 </table>
