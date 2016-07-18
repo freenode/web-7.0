@@ -1,5 +1,6 @@
 ---
 title: A Reminder
+author: edk
 date: 2016-07-18 22:06+00:00
 slug: a-reminder
 ---
