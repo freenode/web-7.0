@@ -33,7 +33,8 @@ Group Management System (GMS).**
 
 ### Two types of group contacts exist for freenode:
 
-#### The Primary contact.  This contact registers to establish that your group
+#### The Primary contact.
+This contact registers to establish that your group
 intends to create a relationship with freenode. The primary contact should have
 the authority to make the determination that your group intends to register,
 with the specifics depending on the type of group:
@@ -54,7 +55,8 @@ larger core group or by voting across the project, the voting group should make
 a collective decision to register and should appoint one of their number as
 primary contact.
 
-#### The secondary contact.  Secondary (or approved) contacts are appointed by
+#### The secondary contact.
+Secondary (or approved) contacts are appointed by
 the primary contact. A secondary contact may be assigned limited access and/or
 privileges. They need no special level of authority; delegate whatever level of
 authority seems appropriate.  We will not expect them to make policy decisions,
