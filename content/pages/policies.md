@@ -61,3 +61,10 @@ act in good faith and in accordance with both their local laws and those
 applicable where freenode operates. Use of freenode and its facilities is a
 privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.
+
+freenode and financial transactions
+=============
+
+We appreciate that end users may sometimes wish to reward a project or a project contributor after having had a positive support experience in a project channel and it is great when this results in a donation to the project in question or perhaps a micropayment to the contributor concerned or the purchase of an item from the contributor's wish list. 
+
+Nevertheless, we would urge our users to carry out their own due diligence before entering into financial transactions of any kind and stress that any financial transactions entered into on the freenode network must be undertaken entirely at the user's risk and freenode accepts no liability for any losses incurred as the result of such transactions. 
