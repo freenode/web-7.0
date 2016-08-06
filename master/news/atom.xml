@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-07-18T22:06:00+00:00</updated><entry><title>A Reminder</title><link href="https://freenode.net/news/a-reminder" rel="alternate"></link><published>2016-07-18T22:06:00+00:00</published><author><name>edk</name></author><id>tag:freenode.net,2016-07-18:/news/a-reminder/</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-08-06T22:06:00+00:00</updated><entry><title>Happy Birthday to the World Wide Web</title><link href="https://freenode.net/news/www25" rel="alternate"></link><published>2016-08-06T22:06:00+00:00</published><author><name>Swant</name></author><id>tag:freenode.net,2016-08-06:/news/www25/</id><summary type="html">&lt;p&gt;25 years ago - On the 6'th of August 1991 - the world's first website went live,
+and it's living still. (&lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;proof&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;In other words the world wide web is celebrating silver jubilee today.&lt;/p&gt;
+&lt;p&gt;Imagine were we would've been without it. Would your project exist? Would freenode exist?&lt;/p&gt;</summary><content type="html">&lt;p&gt;25 years ago - On the 6'th of August 1991 - the world's first website went live,
+and it's living still. (&lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;proof&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;In other words the world wide web is celebrating silver jubilee today.&lt;/p&gt;
+&lt;p&gt;Imagine were we would've been without it. Would your project exist? Would freenode exist?&lt;/p&gt;
+&lt;p&gt;On behalf of freenode, I'd like to give all our sponsors a big shoutout, for making freenode possible, read more about who they are on our &lt;a href="https://freenode.net/acknowledgements"&gt;acknowledgements page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And lastly We would like to thank YOU, the people that visit freenode, the people who use freenode for your projects, the people that contribute to keeping the internet full of Free Open Source Software and Peer Directed Projects. You are a part of what took the internet this far and a part of what keep it, and a lot of other tech related things, evolving. &lt;/p&gt;
+&lt;p&gt;Stay with us, it's freenode's porcelain jubilee this year, keep chatting, keep the internet open.&lt;/p&gt;</content></entry><entry><title>A Reminder</title><link href="https://freenode.net/news/a-reminder" rel="alternate"></link><published>2016-07-18T22:06:00+00:00</published><author><name>edk</name></author><id>tag:freenode.net,2016-07-18:/news/a-reminder/</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
 &lt;p&gt;In the distant past, freenode fairly frequently sent /wallops about news of
 conferences, releases or anything else that might be of interest to the FOSS
 community. We'd quite like to do more of that, so… if you know of anything that
@@ -677,45 +686,4 @@ Details of how to do so are &lt;a href="https://github.com/atheme/ecdsatool"&gt;
 &lt;p&gt;2014-04-07T14:42:32 Bijan-E&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;(*) user opted out of the cloak lottery&lt;/em&gt;&lt;/p&gt;</content></entry><entry><title>Heartbleed</title><link href="https://freenode.net/news/heartbleed" rel="alternate"></link><published>2014-04-15T18:52:05+00:00</published><author><name>Pricey</name></author><id>tag:freenode.net,2014-04-15:/news/heartbleed/</id><summary type="html">&lt;p&gt;The recently exposed &lt;a href="http://heartbleed.com/"&gt;heartbleed bug&lt;/a&gt; in the OpenSSL library has surprised everyone with a &lt;a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html"&gt;catastrophic&lt;/a&gt; vulnerability in many of the world's secure systems.&lt;/p&gt;
-&lt;p&gt;In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.&lt;/p&gt;
-&lt;p&gt;In an unrelated event, due to service disruption &amp;amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The recently exposed &lt;a href="http://heartbleed.com/"&gt;heartbleed bug&lt;/a&gt; in the OpenSSL library has surprised everyone with a &lt;a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html"&gt;catastrophic&lt;/a&gt; vulnerability in many of the world's secure systems.&lt;/p&gt;
-&lt;p&gt;In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.&lt;/p&gt;
-&lt;p&gt;In an unrelated event, due to service disruption &amp;amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.&lt;/p&gt;
-&lt;p&gt;Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Though we are not aware of any evidence that we have been targeted, or our private key compromised, &lt;a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013"&gt;this is inevitably a possibility&lt;/a&gt;. SSL sessions established prior to 2014/04/12 may be vulnerable. If your current connection was established prior to this date via ssl then you should&lt;strong&gt; consider reconnecting to the network.
-&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;We would advise that users reset their password&lt;/strong&gt; (after reconnecting) using instructions returned by the following command:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;/msg nickserv help set password&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This should help ensure that if your password was compromised through an exploitation of the Heartbleed vulnerability, the damage is limited.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;In line with general best practice, we would always recommend using separate passwords on separate systems - if you shared your freenode services password with other systems, you should &lt;strong&gt;change your password on all of these systems&lt;/strong&gt;; preferably into individual ones.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you use CertFP, you should &lt;strong&gt;regenerate your client certificate&lt;/strong&gt; (&lt;a href="http://freenode.net/certfp/makecert.shtml"&gt;instructions&lt;/a&gt;) ****and ensure that you update NickServ with the new certificate hash. You can find out how to do this using the following command:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;/msg nickserv help cert&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Having changed passwords and/or certificate hashes, it cannot hurt to &lt;strong&gt;verify your other authentication methods&lt;/strong&gt; (such as &lt;a href="http://blog.freenode.net/2013/08/check-your-nickserv-email/"&gt;email&lt;/a&gt;, ACCESS or CERT). It is possible you have additional access methods configured either from past use or (less likely) due to an account compromise.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;At the recommendation of the Tor Project, we have regenerated private keys for our hidden services. &lt;a href="http://freenode.net/irc_servers.shtml#tor"&gt;The new list of addresses is now available on our website&lt;/a&gt;. &lt;strong&gt;Please update your tor configuration!&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Finally, it is worth noting that although probably the least likely attack vector, &lt;a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013"&gt;Heartbleed can also be used as client-side attack&lt;/a&gt;, i.e. if you are still running a vulnerable client a server could attack you. This could be a viable attack if, for instance, you connect to a malicious IRC server and freenode at the same time; hypothetically the malicious IRC server could then attack your client and steal your IRC password or other data. If affected, you should&lt;strong&gt; ensure your OpenSSL install is updated and not vulnerable then restart your client&lt;/strong&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As ever, staff are available in #freenode to respond to any questions or concerns.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;&lt;em&gt;(*) user opted out of the cloak lottery&lt;/em&gt;&lt;/p&gt;</content></entry></feed>
