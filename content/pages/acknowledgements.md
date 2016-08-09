@@ -8,6 +8,7 @@ While they may not always be visible to our userbase, we would like to send mass
 
 If you don't see your name on this page, and you should, please email us at <b>support at freenode dot net</b> and we will be happy to add you to the page.
 
+[Aalto University](http://www.aalto.fi/en/),
 [ATnet](http://www.a1.net/),
 [Bytemark](http://www.bytemark.co.uk),
 [Choopa](http://www.choopa.com/),
