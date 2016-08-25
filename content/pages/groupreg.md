@@ -115,7 +115,7 @@ relevant issues.
 If you are a current Group Contact and wish to get involved with GAB, please
 contact staff on IRC or email groups at freenode dot net for instructions on
 how to subscribe to the freenode-groups mailing list and for an invite to the
-#freenode-gab channel.
+\#freenode-gab channel.
 
 Thanks in advance for any help you can provide!
 
