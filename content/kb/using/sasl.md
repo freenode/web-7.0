@@ -19,6 +19,6 @@ We have instructions on how to configure SASL for some client, below. If asked t
 * [mirc](kb/sasl/mirc)
 * [Textual](kb/sasl/textual)
 * [Weechat <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication)
-* [ZNC](http://wiki.znc.in/Sasl#example)
+* [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#example)
 
 If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us on IRC.
