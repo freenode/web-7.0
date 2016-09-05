@@ -8,7 +8,7 @@ gateway. We've made one important change: password-based SASL authentication is
 disabled over the Tor gateway, so you'll need to generate a client certificate
 and add its fingerprint (&lt;code&gt;/msg NickServ CERT ADD&lt;/code&gt;) over a regular connection
 before connecting.&lt;/p&gt;
-&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://test.net.freenode.net:9003"&gt;our
+&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://testnet.freenode.net:9003"&gt;our
 testnet&lt;/a&gt;. Further instructions can be found
 in &lt;code&gt;#freenode&lt;/code&gt; there. (if you already have a certificate set, the hidden
 service is at
@@ -21,7 +21,7 @@ gateway. We've made one important change: password-based SASL authentication is
 disabled over the Tor gateway, so you'll need to generate a client certificate
 and add its fingerprint (&lt;code&gt;/msg NickServ CERT ADD&lt;/code&gt;) over a regular connection
 before connecting.&lt;/p&gt;
-&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://test.net.freenode.net:9003"&gt;our
+&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://testnet.freenode.net:9003"&gt;our
 testnet&lt;/a&gt;. Further instructions can be found
 in &lt;code&gt;#freenode&lt;/code&gt; there. (if you already have a certificate set, the hidden
 service is at
