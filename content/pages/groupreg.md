@@ -22,11 +22,10 @@ organisation.**
 > You may cloak your members, employees or participants, or not, as you decide.
 > You may apply to sponsor a server if that is something you wish to do.
 
-**Is accomplished by submitting one or more group registration forms via the
-Group Management System (GMS).**
+**Is accomplished by submitting one or more group registration applications via email.**
 
 > Group contacts represent your project or organisation when dealing with
-> freenode volunteers. Forms may be submitted by the group contact or on behalf
+> freenode volunteers. Applications may be submitted by the group contact or on behalf
 > of that person ("proxy submittal") with their permission. The group
 > verification process differs depending on the project structure.
 
@@ -106,7 +105,7 @@ which we have relationships.
 
 We invite all current (and future) Group Contacts to join GAB, the freenode
 Group Advisory Board. While we hope to see many Group Contacts involved with
-GAB in an advisory  capacity, GAB membership is of course optional.
+GAB in an advisory capacity, GAB membership is of course optional.
 
 freenode will consult the GAB on matters relating to services given to
 groups/projects, any addition to, or change of, group specific policy and other
@@ -125,9 +124,9 @@ The Group Management & Community Team comprises **nhandler**, **e**, **tomaw**
 and **christel**, together they will act as your liaisons during the group
 registration process and throughout your tenure on the freenode network. If you
 wish to discuss the group registration process, find out if freenode could be a
-good fit for your project or register your project as a group before the launch
-of GMS, please feel free to drop any of the team members a line on IRC or send
-us an e-mail to projects at freenode dot net.
+good fit for your project or register your project as a group, please feel free
+to drop any of the team members a line on IRC or send us an e-mail to
+projects at freenode dot net.
 
 If you're a PGP user, feel free to encrypt to:
 
