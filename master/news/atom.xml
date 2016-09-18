@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-09-05T16:09:00+01:00</updated><entry><title>Resurrecting tor-sasl</title><link href="https://freenode.net/news/resurrecting-tor" rel="alternate"></link><published>2016-09-05T16:09:00+01:00</published><updated>2016-09-05T16:09:00+01:00</updated><author><name>edk</name></author><id>tag:freenode.net,2016-09-05:/news/resurrecting-tor</id><summary type="html">&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-09-18T20:18:00+01:00</updated><entry><title>Resurrecting Tor, continued</title><link href="https://freenode.net/news/tor-online" rel="alternate"></link><published>2016-09-18T20:18:00+01:00</published><updated>2016-09-18T20:18:00+01:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-09-18:/news/tor-online</id><summary type="html">&lt;p&gt;Following an embarassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
+&lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
+service address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Following an embarassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
+&lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
+service address is&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;freenodeok2gncmy.onion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The hidden service requires SASL authentication, as before. In addition, due to
+the abuse that led Tor access to be disabled in the first place, we have
+unfortunately had to add another couple of restrictions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You must log in using SASL's &lt;code&gt;EXTERNAL&lt;/code&gt; or &lt;code&gt;ECDSA-NIST25P-CHALLENGE&lt;/code&gt; (more
+    below)&lt;/li&gt;
+&lt;li&gt;If you log out while connected via Tor, you will not be able to log in without
+    reconnecting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you haven't set up the requisite SASL authentication, we recommend SASL
+EXTERNAL. You'll need to generate a client certificate:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;openssl req -x509 -new -newkey rsa:4096 -nodes -out freenode.pem -keyout freenode.pem
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and consult your IRC client's documentation to find out how to use it to
+connect. Connect to freenode over TLS on the plain Internet and &lt;code&gt;/msg NickServ
+CERT ADD&lt;/code&gt; to authorise it to your account.&lt;/p&gt;
+&lt;p&gt;You'll then want to tell your client to try the &lt;code&gt;EXTERNAL&lt;/code&gt; mechanism. We lack
+comprehensive documentation for this, but it's a feature in most modern
+clients—check their docs for instructions for now.&lt;/p&gt;
+&lt;p&gt;It's currently not possible to register an account for use with Tor without
+connecting at least once over the Internet. We're investigating our options, and
+would like to provide a solution to this in the future.&lt;/p&gt;</content></entry><entry><title>Resurrecting tor-sasl</title><link href="https://freenode.net/news/resurrecting-tor" rel="alternate"></link><published>2016-09-05T16:09:00+01:00</published><updated>2016-09-05T16:09:00+01:00</updated><author><name>edk</name></author><id>tag:freenode.net,2016-09-05:/news/resurrecting-tor</id><summary type="html">&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden
 service, providing anonymous access to the network. Unfortunately, this had to
 be disabled due to concerns about abuse.&lt;/p&gt;
 &lt;p&gt;We regret that it has taken some time to resolve this issue but we are now
@@ -283,29 +313,4 @@ Details of how to do so are &lt;a href="https://github.com/atheme/ecdsatool"&gt;
 &lt;p&gt;Before changing your password, please check your email address in /msg nickserv info and, if needed, update it - see /msg nickserv help set email (remember to check your new email for the verification key).  This will ensure that we can send you a password reset email should, for whatever reason, your password change not work properly. If you have no email set on your account or an email set that you cannot access, we cannot send password resets to you, so do please keep this up-to-date.&lt;/p&gt;
 &lt;p&gt;To change your password use /msg nickserv set password newpasshere&lt;/p&gt;
 &lt;p&gt;Since traffic may have been sniffed, you may also wish to consider any channel keys or similar secret information exchanged over the network.&lt;/p&gt;
-&lt;p&gt;We'll issue more updates as WALLOPS and via social media!&lt;/p&gt;</content></entry><entry><title>New extban: $j</title><link href="https://freenode.net/news/new-extban-j" rel="alternate"></link><published>2014-06-18T15:54:08+00:00</published><updated>2014-06-18T15:54:08+00:00</updated><author><name>Pricey</name></author><id>tag:freenode.net,2014-06-18:/news/new-extban-j</id><summary type="html">&lt;p&gt;We have loaded a new module on the network which provides the $j extban type:&lt;/p&gt;</summary><content type="html">&lt;p&gt;We have loaded a new module on the network which provides the $j extban type:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$j:&amp;lt;chan&amp;gt; - matches users who are or are not banned from a specified channel&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As an example...&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;/mode #here +b $j:#timbuktu&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;...would ban users from #here that are banned (+b) in #timbuktu.&lt;/p&gt;
-&lt;p&gt;Please note that there are a couple of gotchas:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Only matching +b list entries are checked. Quiets (+q) Exemptions (+e) &amp;amp; invexes (+I) are NOT then considered. As such, the following mode change would not alter the behaviour of the first example:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;/mode #timbuktu +e *!*@*&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Quiets and the quieting effect of bans may not immediately take effect on #here when #timbuktu's ban list changes due to caching by the ircd.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$j isn't recursive. Any $j extbans set in #timbuktu are ignored when matching in #here.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We imagine you'll have some more useful use cases than the above.&lt;/p&gt;
-&lt;p&gt;Thanks for flying freenode!&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;We'll issue more updates as WALLOPS and via social media!&lt;/p&gt;</content></entry></feed>
