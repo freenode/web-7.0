@@ -12,14 +12,14 @@ service address is&lt;/p&gt;
 the abuse that led Tor access to be disabled in the first place, we have
 unfortunately had to add another couple of restrictions:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;You must log in using SASL's &lt;code&gt;EXTERNAL&lt;/code&gt; or &lt;code&gt;ECDSA-NIST25P-CHALLENGE&lt;/code&gt; (more
+&lt;li&gt;You must log in using SASL's &lt;code&gt;EXTERNAL&lt;/code&gt; or &lt;code&gt;ECDSA-NIST256P-CHALLENGE&lt;/code&gt; (more
     below)&lt;/li&gt;
 &lt;li&gt;If you log out while connected via Tor, you will not be able to log in without
     reconnecting.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;openssl req -x509 -new -newkey rsa:4096 -nodes -out freenode.pem -keyout freenode.pem
+&lt;pre&gt;&lt;code&gt;openssl req -x509 -sha256 -new -newkey rsa:4096 -nodes -out freenode.pem -keyout freenode.pem
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;and consult your IRC client's documentation to find out how to use it to
 connect. Connect to freenode over TLS on the plain Internet and &lt;code&gt;/msg NickServ
