@@ -1,5 +1,5 @@
 Title: NickServ and certificates
-Slug: nickcerts
+Slug: certfp
 ---
 
 You can add a certificate fingerprint to your NickServ account in order to identify via CertFP or via SASL external. 
@@ -12,15 +12,20 @@ First you need generate a self-signed certificate. We will be using OpenSSL whic
 
 To generate a certificate and key, the `openssl` command can be used with the 'req' option.
 
-    openssl req -nodes -newkey rsa:2048 -keyout nick.key -x509 -days 365 -out nick.crt
+    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -out freenode.pem -keyout freenode.pem
 
 Fill out the fields as you wish, it does not matter whether you put in correct address information or not.
 
-    cat nick.crt nick.key > nick.pem
-
-Note that these files should be placed on secure storage, with correct permissions 
-(e.g. `chmod 400` for the .key and .pem file on unix like systems) and not given to third parties. 
+Note that the resulting file should be placed on secure storage, with correct permissions 
+(e.g. `chmod 400` for on unix like systems) and not given to third parties. 
 You can also protect your key with a password if your client can handle that.
+
+If you want to already perform the steps on adding the information to your NickServ account, 
+which are described at the end of this article, you need to get the fingerprint. The command
+
+    openssl x509 -in .irssi/certs/freenode.pem -outform der | sha1sum | cut -d' ' -f1
+
+will list the fingerprint so you can write it down or copy it.
 
 
 Connecting to freenode with your certificate
@@ -62,6 +67,8 @@ Move the certificates you created above to ~/.weechat/certs
 
 Now disconnect and remove the current freenode server(s).
 Re-add it with the SSL flag, using your newly generated certificate.
+Note that these commands are just examples, 
+you have to adapt them to your current servers.
 
     /disconnect freenode
     /server del freenode
@@ -93,7 +100,12 @@ This means that your certificate is working.
 To allow NickServ to identify you based on this certificate, you need to add the fingerprint to your account.
 If you are not identified with NickServ, then do so now. See `/msg nickserv help identify` if needed. 
 
-Afterwards you can add the fingerprint with the `CERT ADD` command:
+Afterwards you can add the fingerprint with the `CERT ADD` command. 
+If you are connected using the certificate and the correct fingerprint shows in `whois`, you can just issue
+
+    /msg NickServ CERT ADD
+    
+Otherwise you have to specify the fingerprint as parameter
 
     /msg NickServ CERT ADD f3a1aad46ca88e180c25c9c7021a4b3a
 
