@@ -44,7 +44,7 @@ irssi
 Move the certificates you created above to ~/.irssi/certs
 
     mkdir ~/.irssi/certs
-    mv nick.{key,crt,pem} ~/.irssi/certs
+    mv nick.pem ~/.irssi/certs
 
 Now remove the current freenode server(s) and re-add it with the SSL flag,
 using your newly generated certificate. Note that these commands are just examples, 
@@ -63,7 +63,7 @@ weechat
 Move the certificates you created above to ~/.weechat/certs
 
     mkdir ~/.weechat/certs  
-    mv nick.{key,crt,pem} ~/.weechat/certs
+    mv nick.pem ~/.weechat/certs
 
 Now disconnect and remove the current freenode server(s).
 Re-add it with the SSL flag, using your newly generated certificate.
