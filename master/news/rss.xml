@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sun, 18 Sep 2016 20:18:00 +0100</lastBuildDate><item><title>Resurrecting Tor, continued</title><link>https://freenode.net/news/tor-online</link><description>&lt;p&gt;Following an embarassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sun, 18 Sep 2016 20:18:00 +0100</lastBuildDate><item><title>Resurrecting Tor, continued</title><link>https://freenode.net/news/tor-online</link><description>&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
 blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
 &lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
 service address is&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sun, 18 Sep 2016 20:18:00 +0100</pubDate></item><item><title>Resurrecting tor-sasl</title><link>https://freenode.net/news/resurrecting-tor</link><description>&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden

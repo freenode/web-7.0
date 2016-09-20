@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-09-18T20:18:00+01:00</updated><entry><title>Resurrecting Tor, continued</title><link href="https://freenode.net/news/tor-online" rel="alternate"></link><published>2016-09-18T20:18:00+01:00</published><updated>2016-09-18T20:18:00+01:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-09-18:/news/tor-online</id><summary type="html">&lt;p&gt;Following an embarassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-09-18T20:18:00+01:00</updated><entry><title>Resurrecting Tor, continued</title><link href="https://freenode.net/news/tor-online" rel="alternate"></link><published>2016-09-18T20:18:00+01:00</published><updated>2016-09-18T20:18:00+01:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-09-18:/news/tor-online</id><summary type="html">&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
 blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
 &lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
-service address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Following an embarassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+service address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
 blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
 &lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
 service address is&lt;/p&gt;
