@@ -5,7 +5,7 @@ Date: 2016-09-18T20:18+01:00
 Slug: tor-online
 ---
 
-Following an embarassingly long period of no Tor support, we [recently
+Following an embarrassingly long period of no Tor support, we [recently
 blogged](news/2016-09-05-tor-sasl) about resurrecting Tor.
 
 As of today, Tor users can once more connect to freenode over Tor; the hidden
