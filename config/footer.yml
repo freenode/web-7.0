@@ -9,7 +9,7 @@
     - name: The policies
       link: pages/policies
     - name: freenode live!
-      link: pages/live
+      link: pages/fn-live
     - name: Acknowledgements
       link: pages/acknowledgements
 - heading: Using freenode
