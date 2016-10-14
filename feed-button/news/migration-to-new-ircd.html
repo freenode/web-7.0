@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Migration to ircd-seven. - freenode</title>
+    <link href="../static/css/open-sans.css?e1bbc7b" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?e1bbc7b" rel="stylesheet">
+    <link href="../static/css/style.css?e1bbc7b" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="migration-to-new-ircd"><h1 class="art">Migration to ircd-seven.</h1></a>
+<span class="art-date">JonathanD on 2010-01-26</span>
+
+    </div>
+    <div class="art-body">
+    <p>On the 30th of Jan­u­ary, 2010 at around 7:30 UTC, we will be mov­ing to the new ir­cd-­sev­en.  If you haven't done so al­ready, now is a great time to look at how this may change things for you and what you may need to do as a re­sult.</p>
+<p>We cov­ered a few of the changes in <a href="http://blog.freenode.net/2010/01/ircd-migration-sat-jan-30th-2010/">this</a> ar­ti­cle ear­li­er, but this post adds a few things.</p>
+<p>If you are a tor user, the way you con­nect will be slight­ly dif­fer­ent.  Con­nect­ing via tor will re­quire you use "user­name:pass­word" in your serv­er pass­word field in­stead of just "pass­word" as is the case now.</p>
+<p>If you cur­rent­ly have an arrange­ment with freen­ode to in­crease your con­nec­tion count for a busi­ness, school, or oth­er or­ga­ni­za­tion (also known as an iline), you may need to ver­i­fy it is still in place af­ter the mi­gra­tion.  While we have moved the ma­jor­i­ty of these over to the new ircd, some old­er ilines where we do not have con­tact in­for­ma­tion may need to be up­dat­ed.  If you find yours is miss­ing, join #freen­ode and look for any freen­ode staff to fur­ther as­sist you. All staff are voiced on #freen­ode.</p>
+<p>If you are cur­rent­ly us­ing dircbot, be aware that dircbot will be re­placed along with the ircd as it has tech­ni­cal is­sues that make it un­us­able on the new ircd.  Dircbots func­tion­al­i­ty will in­stead be in­clud­ed in the freen­ode util­i­ty bot "eir." Doc­u­men­ta­tion for the re­place­ment is avail­able <a href="http://freenode.net/eir.shtml">here</a>.</p>
+<p>To men­tion one last time a few things:</p>
+<ul>
+<li>
+<p>User­mode +u is no longer present. You are able to join more chan­nels with­out it.</p>
+</li>
+<li>
+<p>Chan­nel mode +R is no longer present. "/mode #chan­nel +q $~a" will have the same ef­fect. If you find, post-mi­gra­tion, that your chan­nel which was pre­vi­ous­ly +R no longer has that mode, please check your qui­ets list: "/mode #chan­nel +q"</p>
+</li>
+<li>
+<p>SSL will be on ports 7000 and 7070. You can grab the root ca cer­tifi­cate <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">here</a>.</p>
+</li>
+<li>
+<p>Post-mi­gra­tion, ChanServ may be in some chan­nels she nor­mal­ly does not in­hab­it. This will be a hang-over from the mode trans­fer, and will be tem­po­rary un­til ser­vices is restart­ed.</p>
+</li>
+</ul>
+<p>Fi­nal­ly, if you are in­ter­est­ed in sup­port­ing the pdpc and freen­ode, have a look <a href="http://freenode.net/pdpc_seven.shtml">here </a>for a spe­cial fundrais­er we're run­ning along with the ir­cd-­sev­en launch.</p>
+<p>Thanks every­one, and we'll see you on the oth­er side.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="javascript-spam">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="connecting-to-freenode-using-tor-sasl">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="rss.xml"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
