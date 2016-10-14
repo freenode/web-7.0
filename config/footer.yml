@@ -30,11 +30,15 @@
       link: 'kb/index/all'
     - name: Supporting the project
       link: pages/support
-- heading: Groups
-  links:
     - name: Group registration
       link: pages/groupreg
-    - name: Register as a group
-      link: pages/groupreg #XXX  link to gms
     - name: Existing groups
-      link: pages/groupreg #XXX  gms integration
+      link: pages/groupreg # GMS is dead
+- heading: Blog
+  links:
+    - name: Archive
+      link: archive
+    - name: rss
+      link: news/rss
+    - name: atom
+      link: news/atom
