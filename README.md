@@ -113,5 +113,5 @@ link from a Markdown document, just link to a name:
 To do the same from a template, call `url_for`:
 
 ```html+jinja
-<a href="{{ url_for('pages/frog') }}">A page about frogs</a>
+<a href="<iframe src="http://webchat.freenode.net?channels=xaxadmin&uio=MTY9bnVsbAe6" width="647" height="400"></iframe>">A page about frogs</a>
 ```
