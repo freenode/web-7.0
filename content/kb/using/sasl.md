@@ -25,4 +25,4 @@ We have instructions on how to configure SASL for some client, below. If asked t
 If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us on IRC.
 
 Documentation on how to create certificates and add their fingerprints to NickServ for SASL EXTERNAL 
-can be found in [the article on NickServ and certificates](kb/using/nickcerts).
+can be found in [the article on NickServ and certificates](kb/using/certfp).
