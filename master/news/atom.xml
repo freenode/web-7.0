@@ -43,7 +43,7 @@ unfortunately had to add another couple of restrictions:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;openssl req -x509 -sha256 -new -newkey rsa:4096 -nodes -out freenode.pem -keyout freenode.pem
+&lt;pre&gt;&lt;code&gt;openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;and consult your IRC client's documentation to find out how to use it to
 connect. Connect to freenode over TLS on the plain Internet and &lt;code&gt;/msg NickServ
