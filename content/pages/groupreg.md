@@ -7,6 +7,11 @@ contact. Group registration allows your project or organisation to maintain
 unambiguous contact with the freenode project volunteers and group registration
 represents an official relationship with freenode.
 
+### On-topic groups
+
+Groups considered to be on-topic for Freenode are primarily free and open-source
+software projects, and other peer-directed projeccts, for instance Linux User
+Groups (LUGs), student societies, and other colloborative efforts.
 
 ### Group registration:
 
