@@ -11,7 +11,8 @@ represents an official relationship with freenode.
 
 Groups considered to be on-topic for Freenode are primarily free and open-source
 software projects, and other peer-directed projeccts, for instance Linux User
-Groups (LUGs), student societies, and other colloborative efforts.
+Groups (LUGs), student societies, and other colloborative efforts, or projects/companies
+of general interest to our user base.
 
 ### Group registration:
 
