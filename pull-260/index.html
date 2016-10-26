@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?8fecaa8" rel="stylesheet">
-    <link href="static/css/font-awesome.css?8fecaa8" rel="stylesheet">
-    <link href="static/css/style.css?8fecaa8" rel="stylesheet">
+    <link href="static/css/open-sans.css?c5733f1" rel="stylesheet">
+    <link href="static/css/font-awesome.css?c5733f1" rel="stylesheet">
+    <link href="static/css/style.css?c5733f1" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,37 +50,23 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/tor-online"><h1 class="art">Resurrecting Tor, continued</h1></a>
-<span class="art-date">christel on 2016-09-18</span>
+<a href="news/community"><h1 class="art">freenode Community Team</h1></a>
+<span class="art-date">Swant on 2016-10-18</span>
 </div>
-    <div class="art-body"><p>Fol­low­ing an em­bar­rass­ing­ly long pe­ri­od of no Tor sup­port, we <a href="news/resurrecting-tor">re­cent­ly
-blogged</a> about res­ur­rect­ing Tor.</p>
-<p>As of to­day, Tor users can once more con­nect to freen­ode over Tor; the hid­den
-ser­vice ad­dress is</p>
-<pre><code>freenodeok2gncmy.onion
-</code></pre>
-<p>The hid­den ser­vice re­quires SASL au­then­ti­ca­tion, as be­fore. In ad­di­tion, due to
-the abuse that led Tor ac­cess to be dis­abled in the first place, we have
-un­for­tu­nate­ly had to add an­oth­er cou­ple of re­stric­tions:</p>
-<ul>
-<li>You must log in us­ing SASL's <code>EXTERNAL</code> or <code>ECDSA-NIST256P-CHALLENGE</code> (more
-    be­low)</li>
-<li>If you log out while con­nect­ed via Tor, you will not be able to log in with­out
-    re­con­nect­ing.</li>
-</ul>
-<p>If you haven't set up the req­ui­site SASL au­then­ti­ca­tion, we rec­om­mend SASL
-EX­TER­NAL. You'll need to gen­er­ate a client cer­tifi­cate:</p>
-<pre><code>openssl req -x509 -sha256 -new -newkey rsa:4096 -nodes -out freenode.pem -keyout freenode.pem
-</code></pre>
-<p>and con­sult your IRC clien­t's doc­u­men­ta­tion to find out how to use it to
-con­nect. Con­nect to freen­ode over TLS on the plain In­ter­net and <code>/msg NickServ
-CERT ADD</code> to au­tho­rise it to your ac­count.</p>
-<p>You'll then want to tell your client to try the <code>EXTERNAL</code> mech­a­nism. We lack
-com­pre­hen­sive doc­u­men­ta­tion for this, but it's a fea­ture in most mod­ern
-clients—check their docs for in­struc­tions for now.</p>
-<p>It's cur­rent­ly not pos­si­ble to reg­is­ter an ac­count for use with Tor with­out
-con­nect­ing at least once over the In­ter­net. We're in­ves­ti­gat­ing our op­tions, and
-would like to pro­vide a so­lu­tion to this in the fu­ture.</p></div>
+    <div class="art-body"><p>Hi,</p>
+<p>You might not be aware that freen­ode has a ded­i­cat­ed com­mu­ni­ty team and that we
+would be de­light­ed to help your projects get the most from freen­ode. The
+freen­ode com­mu­ni­ty team con­sists of chris­tel, edk, Jonat­hanD, mquin, Myrt­ti,
+nhan­dler, Swant and tomaw, and we would love to help you spread the word about
+re­leas­es and launch­es, con­fer­ences or events and any oth­er project mile­stones
+that may be of in­ter­est to our shared com­mu­ni­ties. We are hap­py to make
+an­nounce­ments on IRC, re­share your so­cial me­dia posts and we would love for you
+to guest au­thor or co-au­thor a blog post for the freen­ode web­site.</p>
+<p>If you think this is some­thing that would be use­ful for your project, please do
+not hes­i­tate to get in touch with us! You can find us in <code>#freenode-community</code>
+or drop us a line to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#109;&#109;&#117;&#110;&#105;&#116;&#121;&#64;&#102;&#114;&#101;&#101;&#110;&#111;&#100;&#101;&#46;&#110;&#101;&#116;">&#99;&#111;&#109;&#109;&#117;&#110;&#105;&#116;&#121;&#64;&#102;&#114;&#101;&#101;&#110;&#111;&#100;&#101;&#46;&#110;&#101;&#116;</a>.</p>
+<p>Make sure not to miss any in­ter­est­ing news by set­ting <code>/umode +w</code> (or <code>/mode
+yournick +w</code>).</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>
