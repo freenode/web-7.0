@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>IRCD Upgrades - freenode</title>
+    <link href="../static/css/open-sans.css?e7e51a7" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?e7e51a7" rel="stylesheet">
+    <link href="../static/css/style.css?e7e51a7" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="ircd-upgrades"><h1 class="art">IRCD Upgrades</h1></a>
+<span class="art-date">christel on 2011-09-07</span>
+
+    </div>
+    <div class="art-body">
+    <p>Over the next weeks we will be up­grad­ing our servers to the next ver­sion of ir­cd-­sev­en. This means restart­ing all our servers. Down­time should be min­i­mal, and as we will not up­grade all servers at the same time this should not be as noisy as the up­grade from hy­pe­r­i­on to ir­cd-­sev­en was. When the serv­er you are on is up­grad­ed you will be dis­con­nect­ed, but should be able to re­con­nect im­me­di­ate­ly (most clients will do this au­to­mat­i­cal­ly).</p>
+<p>The fol­low­ing user-vis­i­ble changes have been made since the ver­sions in pro­duc­tion:</p>
+<ul>
+<li>The chan­nel qui­et list is now sent us­ing the new nu­mer­ics RPL_QUI­ETLIST(728) and RPL_QUI­ETLIS­TEND(729) in­stead of over­load­ing the same nu­mer­ics as for ban lists. You may find that clients have to be up­dat­ed be­fore they will dis­play this in a user-friend­ly for­mat.</li>
+<li>Users who can­not send to a chan­nel are now pre­vent­ed from chang­ing its top­ic, even when mode +t is not set.</li>
+<li>Send­ing a pri­vate mes­sage to an­oth­er user while user mode +g is ac­tive will now au­to­mat­i­cal­ly add an ac­cep­t-list en­try so that they can re­ply.</li>
+<li>Ac­count names are now dis­played in WHOWAS en­tries.</li>
+<li>Two new client ca­pa­bil­i­ties are avail­able: AC­COUN­T-NO­TI­FY and EX­TEND­ED-JOIN. These two to­geth­er with the ex­ist­ing ex­tend­ed WHO syn­tax al­low clients to track ac­count names of oth­er users who share a chan­nel.</li>
+<li>Client flood con­trol set­tings have been made con­fig­urable; you may no­tice them be­ing stricter than be­fore.</li>
+</ul>
+<p>Once all ir­cds have up­grad­ed we also plan to re-en­able the +S chan­nel mode, which only al­lows users con­nect­ed us­ing SSL to join.</p>
+<p>Some more fea­tures will be­come avail­able once we up­grade ser­vices, which will hap­pen at some point af­ter we have up­grad­ed all irc servers:</p>
+<ul>
+<li>It will be pos­si­ble to iden­ti­fy to ser­vices us­ing SSL client cer­tifi­cates.</li>
+<li>ChanServ mode locks will be (most­ly) en­forced by the serv­er. In­stead of set­ting a mode and hav­ing ChanServ re­vert it im­me­di­ate­ly, you will not be able to change a locked mode.</li>
+</ul>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="fixing-defocus">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="wednesday-server-updates">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>

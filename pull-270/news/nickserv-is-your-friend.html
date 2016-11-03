@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>NickServ Is Your Friend - freenode</title>
+    <link href="../static/css/open-sans.css?e7e51a7" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?e7e51a7" rel="stylesheet">
+    <link href="../static/css/style.css?e7e51a7" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
+    <div class="art-info">
+        
+<a href="nickserv-is-your-friend"><h1 class="art">NickServ Is Your Friend</h1></a>
+<span class="art-date">SportChick on 2007-03-24</span>
+
+    </div>
+    <div class="art-body">
+    <p><strong>UP­DATE: This is out­dat­ed. See <a href="http://freenode.net/faq.shtml#nicksetup">here</a> for up­-­to-­date in­struc­tions. Note that some com­mands in this en­try have been re­named or have dif­fer­ent syn­tax. If you need help with your Nick­Serv ac­count and can't find in­for­ma­tion on our web­site, please ask in #freen­ode.</strong></p>
+<p>Nick­serv, un­be­knownst to many, has many use­ful fea­tures. In ad­di­tion to han­dling nick reg­is­tra­tion, it al­lows you to change your pass­word, hide cer­tain in­for­ma­tion about your nick and on­line sta­tus, re­cov­er your nick from an­oth­er user who is us­ing it (or a dead com­put­er con­nec­tion), turn on/off the abil­i­ty to re­ceive and be no­ti­fied of new mem­os.  Here are some of the ma­jor fea­tures of nick­serv.  Don't be afraid to poke around with /msg nick­serv help.</p>
+<p><strong>Nick Set­up</strong></p>
+<p>Many peo­ple on freen­ode have spent the time to reg­is­ter their nick­names. If you are plan­ning on spend­ing much time at all on freen­ode, it makes sense. How­ev­er, it ap­pears that many stop short of the <a href="http://freenode.net/faq.shtml#nicksetup">op­ti­mal con­fig­u­ra­tion</a>. It's a lit­tle more time-­con­sum­ing, but not much. It's rather sim­ple and per­haps if we were to ex­plain why we sug­gest a par­tic­u­lar con­fig­u­ra­tion, more peo­ple would com­plete the en­tire process.</p>
+<p>The most ob­vi­ous bit, of course, is to reg­is­ter your nick, which is done sim­ply with /msg nick­serv reg­is­ter $pass­word (from the nick you want to reg­is­ter, of course). Next, /nick $al­t­nick to an­oth­er nick­name and reg­is­ter this nick as well, again with /msg nick­serv reg­is­ter $pass­word. Then, link the two names by do­ing /msg nick­serv link $orig­i­nal­nick $orig­i­nal­nick­pass­word from the sec­ondary nick. This will doc­u­ment that both nicks are owned by the same per­son, and will al­low ser­vices to leave you iden­ti­fied if you switch from your pri­ma­ry nick to your al­ter­nate and vice-ver­sa. We en­cour­age you to set your nick up in this fash­ion be­cause, if con­fig­ured cor­rect­ly, it al­lows you to con­nect from your sec­ondary nick in the event that you try to con­nect to freen­ode when your pri­ma­ry nick is in use. If you gen­er­al­ly au­to-i­den­ti­fy, you will still be able to iden­ti­fy, re­ceive your cloak and oth­er rel­e­vant set­tings.  Tra­di­tion­al­ly, the sec­ondary nick is mas­ter_ (note the trail­ing un­der­score), but feel free to use what­ev­er you like.</p>
+<p>Next, freen­ode rec­om­mends set­ting an email ad­dress. First of all, why... No, we are not plan­ning to send you spam or sign you up for spam lists. The email ad­dress pro­tects you in the event you lose your pass­word. If you <strong>do not</strong> set an email ad­dress and you lose your pass­word, then you'll be un­able to re­trieve your nick - in­stead will have to wait un­til the nick­name is <a href="http://freenode.net/faq.shtml#userexpirations">drop­pable</a>. If you want to to set your email ad­dress but not not want it vis­i­ble to oth­ers, then use the /msg nick­serv set hide­mail on fea­ture.</p>
+<p>The fi­nal step in freen­ode's rec­om­mend­ed set­up is to set your client to au­to-i­den­ti­fy to nick­serv when you join freen­ode. The eas­i­est ap­proach is to spec­i­fy your nick­serv pass­word as a serv­er pass­word. It's less like­ly that you'll con­nect to the net­work with­out be­ing iden­ti­fied to nick­serv this way. Ad­di­tion­al­ly, it re­duces the chance that you might ac­ci­den­tal­ly type your pass­word where oth­ers might see it.</p>
+<p>In the event you want to change the nick you are us­ing as your mas­ter nick, rather than chang­ing each link in­di­vid­u­al­ly, just /nick $de­sired­mas­ter­n­ick and type /msg nick­serv set mas­ter $nick $pass­word.  This com­mand will au­to­mat­i­cal­ly set that as the new mas­ter for your en­tire chain of linked nicks.</p>
+<p><strong>Re­gain­ing Con­trol of a Nick</strong></p>
+<p>There are three com­mands that al­low you to re­gain con­trol of a nick, for what­ev­er rea­son - ghost, re­cov­er and re­lease.  The first, and most com­mon­ly used is "ghost".  From time to time, you'll lose your con­nec­tion to the net and/or freen­ode, but your nick will re­main on­line as far as the net­work can tell.  In this case, a ghost com­mand is ef­fec­tive: /msg nick­serv ghost $nick $pass­word.  This com­mand will "kill" your nick, al­low­ing you to change to that nick (/nick $nick) and iden­ti­fy to nick­serv (/msg nick­serv iden­ti­fy $pass­word).</p>
+<p>In the event your nick is be­ing used by an­oth­er per­son or from a ma­chine that au­to­con­nects when dis­con­nect­ed, you may need to use the re­cov­er com­mand (/msg nick­serv re­cov­er $nick $pass­word).  Re­cov­er per­forms a nick col­lide on your nick.  Once this com­mand is em­ployed, the nick will be held un­til you use the 're­lease' com­mand or un­til the re­lease times out.  If you are iden­ti­fied to a linked nick­name, you do not need to sup­ply a pass­word. Oth­er­wise, you have to sup­ply the cor­rect pass­word.</p>
+<p>The re­lease com­mand sim­ply al­lows you to re­gain con­trol of your nick af­ter per­form­ing a re­cov­er com­mand.  To re­lease the nick, type /msg nick­serv re­lease $nick $pass­word.</p>
+<p><strong>Pri­va­cy &amp; Se­cu­ri­ty</strong></p>
+<p>Turn­ing on the "se­cure" fea­ture (/msg nick­serv set se­cure on) re­quires any­one us­ing your nick to iden­ti­fy be­fore be­ing able to re­cov­er/re­lease your nick, among oth­er things.</p>
+<p>If you have set your nick to "pri­vate" (/msg nick­serv set pri­vate on), then if any­one per­forms a "list" com­mand, your nick will not be list­ed.</p>
+<p>There are a num­ber of things you can "hide" re­lat­ing to your nick and on­line in­for­ma­tion.  When you use "hide", oth­ers will not be able to see cer­tain in­for­ma­tion when they do an "info" on your nick.  Hide email was cov­ered ear­li­er.  In ad­di­tion, you can hide your URL, your last seen ad­dress and your last seen quit mes­sage.  Al­ter­na­tive­ly, you can hide every­thing.  To hide your in­for­ma­tion, sim­ply type /msg nick­serv set hide all|email|url|addr|quit on|off.</p>
+<p><strong>Mis­cel­la­neous</strong></p>
+<p>Nick­serv will help you find nicks that uti­lize a cer­tain string.  For ex­am­ple, if you want­ed a list of any nicks on freen­ode that con­tain "chick", you could type /msg nick­serv list <em>chick</em>.  Nick­serv would then re­turn a list of all non-pri­vate nicks that con­tain the string "chick".</p>
+<p>You can ob­tain ba­sic in­for­ma­tion about a nick­name if the own­er of the nick has not set the nick to pri­va­cy.  By us­ing /msg nick­serv info $nick, you can see when a user reg­is­tered, when he/she last iden­ti­fied to nick­serv, what ad­dress/host­mask the user last con­nect­ed from, the user's last quit mes­sage and what nick­name op­tions the user has set.  If you run the com­mand on your own nick, you'll also see what cloak you have set (if any), any linked nicks you have, a list­ing of any chan­nels you've reg­is­tered, and a list­ing of any chan­nels on which you are on the ac­cess list (and your ac­cess lev­el for the chan­nel).</p>
+<p>You can re­set your pass­word.  How­ev­er, you must first iden­ti­fy to nick­serv us­ing the ex­ist­ing pass­word. Once you have iden­ti­fied, sim­ply type /msg nick­serv set pass­word $new­pass.</p>
+<p>Fi­nal­ly, freen­ode has a memo ser­vice (through mem­o­serv).  You can set cer­tain things re­lat­ing to mem­os through nick­serv.  The de­fault set­tings for each of these op­tions is "on", so un­less you wish to turn some­thing off, you need do noth­ing. To al­low your­self to re­ceive (or not re­ceive) mem­os on a par­tic­u­lar nick (or their linked nicks), sim­ply type /msg nick­serv set mem­os on|off.  If some­one does send you a memo and you have mem­os off, they will re­ceive a no­ti­fi­ca­tion that you are not ac­cept­ing mem­os.  If you have mem­os set to "on", then you must de­cide whether you want to re­ceive no­ti­fi­ca­tion that you've re­ceived a new memo.  To re­ceive no­ti­fi­ca­tion when the memo is sent, /msg nick­serv set no­ti­fy on. You will also re­ceive no­ti­fi­ca­tion about new mem­os when­ev­er you iden­ti­fy to nick­serv.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="pdpc-design-contest">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="building-bridges">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Groups</h2>
+        <ul>
+            
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Register as a group</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
+                <span class="hdn">News Archive</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
