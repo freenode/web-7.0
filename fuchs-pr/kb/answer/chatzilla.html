@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Configuring SASL for Chatzilla - freenode</title>
-    <link href="../../static/css/open-sans.css?c97f219" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?c97f219" rel="stylesheet">
-    <link href="../../static/css/style.css?c97f219" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?6878eca" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?6878eca" rel="stylesheet">
+    <link href="../../static/css/style.css?6878eca" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -35,18 +35,19 @@
     <p class="art-ingress">
         <p>This script is by Gryl­l­i­da, for the <a href="https://addons.mozilla.org/addon/16">ChatZil­la ad­d-on <i aria-hidden="true" class="fa fa-external-link"></i></a> to Fire­fox.</p>
 <ol>
-<li>In­stall <a href="http://freenode-dev.net/sasl/cz_sasl.js">cz_sasl.js <i aria-hidden="true" class="fa fa-external-link"></i></a> as you would any oth­er script, fol­low­ing the <a href="http://chatzilla.hacksrus.com/faq/#install-script">in­struc­tions here <i aria-hidden="true" class="fa fa-external-link"></i></a>.</li>
-<li>En­ter the com­mands be­low. Re­place <code>YOUR_USERNAME</code> with your reg­is­tered nick­name and <code>YOUR_PASSWORD</code> with your Nick­Serv pass­word.</li>
-<li>If you want to con­tin­ue con­nect­ing when SASL au­then­ti­ca­tion fails, en­ter: <code>/plugin-pref cz_sasl sasl.proceed_on_fail true</code></li>
-<li>If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage:</li>
+<li>In­stall <a href="../../static/files/cz_sasl.js">the cz_sasl script</a> as you would any oth­er script, fol­low­ing the <a href="http://chatzilla.hacksrus.com/faq/#install-script">in­struc­tions here <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
+<li>En­ter <code>/plugin-pref cz_sasl</code></li>
+<li>En­ter <code>/plugin-pref cz_sasl sasl.username YOUR_USERNAME</code> re­plac­ing <code>YOUR_USERNAME</code> with your reg­is­tered nick­name</li>
+<li>En­ter <code>/plugin-pref cz_sasl sasl.password YOUR_PASSWORD</code> re­plac­ing <code>YOUR_PASSWORD</code> with your Nick­Serv pass­word</li>
+<li>If you want to con­tin­ue con­nect­ing when SASL au­then­ti­ca­tion fails, en­ter <code>/plugin-pref cz_sasl sasl.proceed_on_fail true</code></li>
 </ol>
-<p><code>SASL authentication successful</code></p>
+<p>If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage "SASL au­then­ti­ca­tion suc­cess­ful".</p>
     </p>
 </div>
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
