@@ -44,11 +44,19 @@ should *not* be relied upon for that purpose, as they are not reliable:
   unaffiliated cloaks (see the "gateway cloaks" section above)
 - Due to the nature of IRC services, there are some tricks which can cause
   services to reveal a cloaked user's IP/hostname.
+- Accepting a DCC chat/file transfer session, or clicking a link someone sends
+  you could reveal your IP to them
 
 For these reasons, we advise you to consider cloaks very basic protection from
 casual observers, and a way to stop your IP/hostname being passively logged in
 most cases, but caution that they cannot be relied upon to hide your IP/hostname
 robustly - if you want that, you should consider an IRC bouncer, VPN or Tor.
+
+Do consider, however, just how much you need to hide your IP address; it's
+disclosed routinely during normal Internet usage - for instance, every website
+you visit will necessarily see your IP address, unless you are using a VPN or
+Tor.  Many, many users happily use IRC for decades, never hiding their IP
+address, and do not have any problems.
 
 Requesting a cloak
 ==================
