@@ -8,6 +8,7 @@ SASL Client Configuration
 
 We have instructions on how to configure SASL for some client, below. If asked to choose an authentication mechanism, be aware that freenode does not support `DH-BLOWFISH`
 
+* [AdiIRC <i class="fa fa-external-link" aria-hidden="true"></i>](https://dev.adiirc.com/projects/adiirc/wiki/SASL)
 * [AndChat <i class="fa fa-external-link" aria-hidden="true"></i>](http://www.andchat.net/page/misc_doc)
 * [AndroIRC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.androirc.com/nickserv_sasl)
 * [Chatzilla](kb/sasl/chatzilla)
