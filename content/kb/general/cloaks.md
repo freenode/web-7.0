@@ -19,8 +19,10 @@ freenode staff to request that a user be given a project cloak.
 
 Unaffiliated cloaks
 ===================
-Unaffiliated cloaks take the form `unaffiliated/accountname`.  They obscure your 
-IP from casual observers, to a degree - but see the weaknesses section below.
+Unaffiliated cloaks take the form `unaffiliated/accountname`.  They indicate that
+you are not affiliated with any specific project on freenode.  They can also
+help obscure your IP from casual observers, to a certain degree - but see the
+weaknesses section below.
 
 
 Gateway cloaks
@@ -57,6 +59,10 @@ disclosed routinely during normal Internet usage - for instance, every website
 you visit will necessarily see your IP address, unless you are using a VPN or
 Tor.  Many, many users happily use IRC for decades, never hiding their IP
 address, and do not have any problems.
+
+To re-iterate, the primary purpose of cloaks is to show your project affiliation,
+or lack thereof.  "Hiding your IP" is not their primary purpose, and they cannot
+be fully relied upon to do that.
 
 Requesting a cloak
 ==================
