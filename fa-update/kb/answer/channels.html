@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Channels - freenode</title>
-    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -40,24 +42,24 @@ your con­cerns first with the chan­nel own­ers, and then with freen­ode staf
 <p>There are sev­er­al things that might pre­vent you from join­ing a par­tic­u­lar chan­nel. In most cas­es the serv­er will tell you the rea­son, but some clients do not
 cor­rec­nt­ly dis­play that in­for­ma­tion to you, so it's use­ful to be able to check for your­self. Some of the com­mon caus­es, in no par­tic­u­lar or­der, are:</p>
 <ul>
-<li>Check that you're logged in with ser­vices. You can log in by run­ning <code>/msg Nick­Serv IDEN­TI­FY Your­Nick­name Your­Pass­word</code>.
+<li>Check that you're logged in with ser­vices. You can log in by run­ning <code>/msg NickServ IDENTIFY YourNickname YourPassword</code>.
    Some chan­nels use mode <code>+r</code>, which pre­vents un­reg­is­tered users, or users who aren't logged in, from join­ing.</li>
 <li>Check whether the chan­nel has modes <code>+i</code> or <code>+k</code> set. These will pre­vent any­one from join­ing who is­n't ex­plic­it­ly in­vit­ed or does­n't know the chan­nel pass­word.</li>
 <li>Check whether mode <code>+j</code> is set. This is a join throt­tle, which pre­vents lots of users from join­ing in a short pe­ri­od of time. If this is the case, it might be worth try­ing again af­ter a minute or two, to see whether the join throt­tle is the rea­son.</li>
-<li>If you are logged in to ser­vices, check the chan­nel ban list -- you can do this us­ing <code>/mode #chan­nel b</code>.</li>
+<li>If you are logged in to ser­vices, check the chan­nel ban list -- you can do this us­ing <code>/mode #channel b</code>.</li>
 </ul>
 <p>If you've not been in the chan­nel in ques­tion re­cent­ly, it's pos­si­ble that you're af­fect­ed by a wide-rang­ing ban, so pay at­ten­tion to any bans that in­clude <code>*</code> or <code>?</code> wild­cards. Bans that be­gin with a <code>$</code> sign are ex­tend­ed ban types; you can see more in­for­ma­tion about these by send­ing the <code>/quote HELP EXTBAN</code> com­mand on IRC.</p>
 <p>If you find a ban which match­es you but you feel was­n't in­tend­ed to keep you out, then talk to one of the chan­nel op­er­a­tors to see about hav­ing it re­moved.
-You can find a list of chan­nel op­er­a­tors via the <code>/msg ChanServ AC­CESS #chan­nel LIST</code> com­mand.</p>
+You can find a list of chan­nel op­er­a­tors via the <code>/msg ChanServ ACCESS #channel LIST</code> com­mand.</p>
 <p>If you're still stuck, feel free to ask a staff mem­ber for help in work­ing out what's pre­vent­ing you from join­ing.</p>
 <h2 id="why-cant-i-talk-in-a-channel">Why can't I talk in a channel?</h2>
-<p>The two most com­mon caus­es for this are ei­ther a qui­et mask -- use <code>/mode #chan­nel q</code> to see the list and then check the ad­vice above re­gard­ing bans -- or mode <code>+m</code>, which pre­vents any­one who is­n't voiced from talk­ing. If you're still un­sure, again, feel free to ask staff for help in work­ing out what the prob­lem might be.</p>
+<p>The two most com­mon caus­es for this are ei­ther a qui­et mask -- use <code>/mode #channel q</code> to see the list and then check the ad­vice above re­gard­ing bans -- or mode <code>+m</code>, which pre­vents any­one who is­n't voiced from talk­ing. If you're still un­sure, again, feel free to ask staff for help in work­ing out what the prob­lem might be.</p>
     </p>
 </div>
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -131,10 +133,10 @@ You can find a list of chan­nel op­er­a­tors via the <code>/msg ChanServ AC�
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -145,7 +147,7 @@ You can find a list of chan­nel op­er­a­tors via the <code>/msg ChanServ AC�
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -182,15 +184,5 @@ You can find a list of chan­nel op­er­a­tors via the <code>/msg ChanServ AC�
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

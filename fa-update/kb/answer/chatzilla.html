@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Configuring SASL for Chatzilla - freenode</title>
-    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -33,18 +35,19 @@
     <p class="art-ingress">
         <p>This script is by Gryl­l­i­da, for the <a href="https://addons.mozilla.org/addon/16">ChatZil­la ad­d-on <i aria-hidden="true" class="fa fa-external-link"></i></a> to Fire­fox.</p>
 <ol>
-<li>In­stall <a href="http://freenode-dev.net/sasl/cz_sasl.js">cz_sasl.js <i aria-hidden="true" class="fa fa-external-link"></i></a> as you would any oth­er script, fol­low­ing the <a href="http://chatzilla.hacksrus.com/faq/#install-script">in­struc­tions here <i aria-hidden="true" class="fa fa-external-link"></i></a>.</li>
-<li>En­ter the com­mands be­low. Re­place <code>YOUR_USER­NAME</code> with your reg­is­tered nick­name and <code>YOUR_PASS­WORD</code> with your Nick­Serv pass­word.</li>
-<li>If you want to con­tin­ue con­nect­ing when SASL au­then­ti­ca­tion fails, en­ter: <code>/plug­in-pref cz_sasl sasl.pro­ceed_on_fail true</code></li>
-<li>If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage:</li>
+<li>In­stall <a href="../../static/files/cz_sasl.js">the cz_sasl script</a> as you would any oth­er script, fol­low­ing the <a href="http://chatzilla.hacksrus.com/faq/#install-script">in­struc­tions here <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
+<li>En­ter <code>/plugin-pref cz_sasl</code></li>
+<li>En­ter <code>/plugin-pref cz_sasl sasl.username YOUR_USERNAME</code> re­plac­ing <code>YOUR_USERNAME</code> with your reg­is­tered nick­name</li>
+<li>En­ter <code>/plugin-pref cz_sasl sasl.password YOUR_PASSWORD</code> re­plac­ing <code>YOUR_PASSWORD</code> with your Nick­Serv pass­word</li>
+<li>If you want to con­tin­ue con­nect­ing when SASL au­then­ti­ca­tion fails, en­ter <code>/plugin-pref cz_sasl sasl.proceed_on_fail true</code></li>
 </ol>
-<p><code>SASL au­then­ti­ca­tion suc­cess­ful</code></p>
+<p>If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage "SASL au­then­ti­ca­tion suc­cess­ful".</p>
     </p>
 </div>
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -118,10 +121,10 @@
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -132,7 +135,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -169,15 +172,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

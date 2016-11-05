@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>Configuring SASL for irssi - freenode</title>
-    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Configuring SASL for Irssi - freenode</title>
+    <link href="../../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,37 +23,42 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
         
 <div class="main">
-    <h1>Configuring SASL for irssi</h1>
+    <h1>Configuring SASL for Irssi</h1>
     <p class="art-ingress">
-        <p>This script, orig­i­nal­ly by Michael Tharp and Jilles Tjoelk­er has been fur­ther de­vel­oped by Man­tas Mikulėnas (graw­ity) and lives on scripts.irssi.org. Au­then­ti­ca­tion in­for­ma­tion may be stored in ~/.irssi/sasl.auth.</p>
-<ol>
-<li>Copy the script, <a href="http://scripts.irssi.org/scripts/cap_sasl.pl">cap_sasl.pl <i aria-hidden="true" class="fa fa-external-link"></i></a>, into your ~/.irssi/scripts/au­torun di­rec­to­ry or from wher­ev­er irssi loads start­up scripts.</li>
-<li>The script re­quires at least the Perl mod­ule <a href="https://metacpan.org/module/MIME::Base64">MIME::Base64 <i aria-hidden="true" class="fa fa-external-link"></i></a>. If you're us­ing Lin­ux, Perl mod­ules are gen­er­al­ly in dis­tri­b­u­tion repos­i­to­ries, or you can get them di­rect­ly from CPAN. If you can­not in­stall them for the whole sys­tem, you may be able to use <a href="https://metacpan.org/module/local::lib">lo­cal::lib <i aria-hidden="true" class="fa fa-external-link"></i></a>.</li>
-<li>Load the script us­ing <code>/script load au­torun/cap_sasl.pl</code>.</li>
-<li>The script needs to be con­fig­ured with <code>/sasl set net­work nick pass­word mech­a­nism</code>.</li>
-</ol>
-<p><code>net­work</code> is the (case-sen­si­tive) name of the net­work spec­i­fied with <code>/net­work add</code></p>
-<p><code>nick</code> is your reg­is­tered nick­name</p>
-<p><code>pass­word</code> is your Nick­Serv pass­word</p>
-<p><code>mech­a­nism</code> should be <code>PLAIN</code>. <code>PLAIN</code> sends your pass­word un­pro­tect­ed, as plain text (which is fine when con­nect­ing over SSL, as the en­tire ex­change is en­crypt­ed al­ready).
-5. Save the set­tings with <code>/sasl save</code>
-6. If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage:
-<code>SASL au­then­ti­ca­tion suc­cess­ful</code></p>
-<p>The script also sup­ports <code>/sasl show</code> and <code>/sasl load</code>. Show lists cur­rent­ly-­con­fig­ured net­works and the saved cre­den­tials. Load re-reads the sasl.auth file. A <code>/sasl set net­work</code> com­mand with no oth­er ar­gu­ments will delete the con­fig­u­ra­tion for that net­work.</p>
+        <p>The set­up for SASL on Irssi dif­fers de­pend­ing on the ver­sion you have (you can
+find out by run­ning <code>irssi -v</code> in your near­est shell).</p>
+<h2 id="irssi-0818-or-later">Irssi 0.8.18 or later</h2>
+<p>Re­cent Irssi ver­sions in­clude built-in SASL sup­port via <code>/network</code>:</p>
+<pre><code>/network add -sasl_username &lt;login&gt; -sasl_password &lt;password&gt; -sasl_mechanism PLAIN freenode
+/server add -auto -net freenode -ssl -ssl_verify irc.freenode.net 6697
+</code></pre>
+<h2 id="older-versions">Older versions</h2>
+<p>These ver­sions need a sep­a­rate script in or­der to sup­port SASL: <code>cap_sasl.pl</code>.
+You can in­stall it from <a href="https://scripts.irssi.org">https://scripts.irssi.org</a>:</p>
+<pre><code>mkdir -p ~/.irssi/scripts/autorun
+wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ~/.irssi/scripts/cap_sasl.pl
+ln -sf ../cap_sasl.pl ~/.irssi/scripts/autorun/
+</code></pre>
+<p>Now load and con­fig­ure it in­side Irssi:</p>
+<pre><code>/script load cap_sasl
+/server add -auto -net freenode -ssl -ssl_verify irc.freenode.net 6697
+/sasl set freenode &lt;login&gt; &lt;password&gt; PLAIN
+/sasl save
+</code></pre>
     </p>
 </div>
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -125,10 +132,10 @@
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -139,7 +146,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -176,15 +183,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Nickname Registration - freenode</title>
-    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -47,7 +49,7 @@ staff will be hap­py to dis­cuss it and an­swer any ques­tions you may have.
 </li>
 <li>
 <p>Reg­is­ter your IRC nick:</p>
-<pre><code>/msg Nick­Serv REG­IS­TER pass­word youre­mail@ex­am­ple.com
+<pre><code>/msg NickServ REGISTER password youremail@example.com
 </code></pre>
 <p>Re­place pass­word with a se­cure, unguess­able pass­word that you keep se­cret.</p>
 <p>The email ad­dress that you se­lect will not be giv­en out by staff, and is main­ly used to al­low us to help you re­cov­er the ac­count in the event that you for­get
@@ -60,26 +62,22 @@ af­ter about 24 hours.</p>
 <pre><code>/nick foo_
 </code></pre>
 <p>then iden­ti­fy to your pri­ma­ry ac­count:</p>
-<pre><code>/msg Nick­Serv IDEN­TI­FY foo pass­word
+<pre><code>/msg NickServ IDENTIFY foo password
 </code></pre>
 <p>and fi­nal­ly, group the new nick to your ac­count</p>
-<pre><code>/msg Nick­Serv GROUP
+<pre><code>/msg NickServ GROUP
 </code></pre>
 <p>We pre­fer you to use just one ac­count, and group nicks to it as de­scribed above, rather than reg­is­ter­ing for mul­ti­ple ac­counts. Group­ing nicks in this way
 gives you the ben­e­fit of hav­ing all your nicks cov­ered by the same cloak, should you choose to wear a cloak. The ex­cep­tion to this is where you might want to
 run a bot. You should reg­is­ter a sep­a­rate ac­count for your bot.</p>
 </li>
-<li>
-<p>Con­fig­ure your client to iden­ti­fy it­self to Nick­Serv au­to­mat­i­cal­ly when­ev­er it con­nects to freen­ode so that it's less like­ly you'll con­nect to the net­work
-    with­out be­ing iden­ti­fied to Nick­Serv. The eas­i­est ap­proach is to spec­i­fy your Nick­Serv pass­word as a serv­er pass­word.  If your client sup­ports serv­er
-    pass­word, please set this up as ac­count­name:pass­word. Make sure to in­clude the colon. This will al­low you to iden­ti­fy to your ser­vices ac­count on con­nect,
-    re­gard­less of the nick­name you are us­ing when you con­nect. For ex­am­ple: /con­nect chat.freen­ode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</p>
-</li>
 </ol>
 <h2 id="logging-in">Logging In</h2>
 <p>You'll need to log in to your nick­name each time you re­con­nect to freen­ode.</p>
-<p>The sim­plest, and most ro­bust, way to do this is to con­fig­ure <a href="#XXXkb/using/sasl">SASL</a>, if your client sup­ports it. If not, you can sup­ply your lo­gin de­tails, in
-the form <code>&lt;ac­count&gt;:&lt;pass­word&gt;</code>, as a serv­er pass­word and they will be for­ward­ed to Nick­Serv when you fin­ish con­nect­ing.</p>
+<p>The sim­plest, and most ro­bust, way to do this is to con­fig­ure <a href="sasl">SASL</a>, if your client sup­ports it. If not, you can sup­ply your lo­gin de­tails, in
+the form <code>&lt;account&gt;:&lt;password&gt;</code>, as a serv­er pass­word and they will be for­ward­ed to Nick­Serv when you fin­ish con­nect­ing. For ex­am­ple:</p>
+<pre><code>/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p
+</code></pre>
 <h2 id="nickname-expiry">Nickname Expiry</h2>
 <p>Reg­is­tered nick­names and ac­counts will ex­pire if they're not used for a long time, af­ter which they'll be avail­able for an­oth­er user to take over. See our
 <a href="../../policies">poli­cies</a> for de­tails of when this oc­curs.</p>
@@ -91,7 +89,7 @@ do this, we set the thresh­old for dele­tion con­sid­er­ably high­er than 
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -165,10 +163,10 @@ do this, we set the thresh­old for dele­tion con­sid­er­ably high­er than 
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -179,7 +177,7 @@ do this, we set the thresh­old for dele­tion con­sid­er­ably high­er than 
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -216,15 +214,5 @@ do this, we set the thresh­old for dele­tion con­sid­er­ably high­er than 
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

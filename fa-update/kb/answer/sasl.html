@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Connecting with SASL - freenode</title>
-    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -34,8 +36,9 @@
         <p>SASL is a method that al­lows iden­ti­fi­ca­tion to ser­vices (Nick­Serv) dur­ing the con­nec­tion process, be­fore any­thing else hap­pens - there­fore elim­i­nat­ing the need to
 /msg nick­serv iden­ti­fy. To use SASL, you must <a href="registration">reg­is­ter your nick­name</a>.</p>
 <h2 id="sasl-client-configuration">SASL Client Configuration</h2>
-<p>We have in­struc­tions on how to con­fig­ure SASL for some client, be­low. If asked to choose an au­then­ti­ca­tion mech­a­nism, be aware that freen­ode does not sup­port <code>DH-BLOW­FISH</code> or <code>EX­TER­NAL</code></p>
+<p>We have in­struc­tions on how to con­fig­ure SASL for some client, be­low. If asked to choose an au­then­ti­ca­tion mech­a­nism, be aware that freen­ode does not sup­port <code>DH-BLOWFISH</code></p>
 <ul>
+<li><a href="https://dev.adiirc.com/projects/adiirc/wiki/SASL">Adi­IRC <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
 <li><a href="http://www.andchat.net/page/misc_doc">And­Chat <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
 <li><a href="http://wiki.androirc.com/nickserv_sasl">An­droIRC <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
 <li><a href="chatzilla">Chatzil­la</a></li>
@@ -47,7 +50,7 @@
 <li><a href="mirc">mirc</a></li>
 <li><a href="textual">Tex­tu­al</a></li>
 <li><a href="https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication">Weechat <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
-<li><a href="znc">ZNC</a></li>
+<li><a href="http://wiki.znc.in/Sasl#example">ZNC <i aria-hidden="true" class="fa fa-external-link"></i></a></li>
 </ul>
 <p>If you know of any ad­di­tions or cor­rec­tions to the lists above, or would like to con­tribute a script or (bet­ter) doc­u­men­ta­tion, con­tact us on IRC.</p>
     </p>
@@ -55,7 +58,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -129,10 +132,10 @@
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -143,7 +146,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -180,15 +183,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

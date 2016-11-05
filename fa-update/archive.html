@@ -8,10 +8,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>archive - freenode</title>
-    <link href="static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -22,9 +24,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -34,6 +36,36 @@
     <h1>Blog Archive</h1>
 </div>
 <ul>
+
+    <li class="art-info">
+<a href="news/community"><span class="art">freenode Community Team</span></a>
+<span class="art-date">Swant on 2016-10-18</span>
+</li>
+
+    <li class="art-info">
+<a href="news/tor-online"><span class="art">Resurrecting Tor, continued</span></a>
+<span class="art-date">christel on 2016-09-18</span>
+</li>
+
+    <li class="art-info">
+<a href="news/resurrecting-tor"><span class="art">Resurrecting tor-sasl</span></a>
+<span class="art-date">edk on 2016-09-05</span>
+</li>
+
+    <li class="art-info">
+<a href="news/www25"><span class="art">Happy Birthday to the World Wide Web</span></a>
+<span class="art-date">Swant on 2016-08-06</span>
+</li>
+
+    <li class="art-info">
+<a href="news/a-reminder"><span class="art">A Reminder</span></a>
+<span class="art-date">edk on 2016-07-18</span>
+</li>
+
+    <li class="art-info">
+<a href="news/eu-net-neutrality"><span class="art">Help protect net neutrality in the EU</span></a>
+<span class="art-date">edk on 2016-07-04</span>
+</li>
 
     <li class="art-info">
 <a href="news/afd-2016"><span class="art">AFD quiz</span></a>
@@ -1120,7 +1152,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -1194,10 +1226,10 @@
                 <a href="groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -1208,7 +1240,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -1245,15 +1277,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

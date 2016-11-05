@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
-    <title>Configuring SASL for ZNC - freenode</title>
-    <link href="../../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../../static/css/style.css?ff402f2" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>User modes - freenode</title>
+    <link href="../../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,37 +23,63 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
         
 <div class="main">
-    <h1>Configuring SASL for ZNC</h1>
+    <h1>User modes</h1>
     <p class="art-ingress">
-        <p>ZNC ≥1.0 in­cludes an of­fi­cial SASL mod­ule. De­tails can be found on the <a href="http://wiki.znc.in/Sasl">ZNC wiki <i aria-hidden="true" class="fa fa-external-link"></i></a>.</p>
-<ol>
-<li>
-<p>Load the SASL mod­ule as you would any oth­er mod­ule, fol­low­ing the in­struc­tions here.</p>
-</li>
-<li>
-<p>Con­fig­ure the sup­port­ed mech­a­nisms:
-    <code>/msg *sasl Mech­a­nism PLAIN</code></p>
-</li>
-<li>
-<p>Con­fig­ure your au­then­ti­ca­tion cre­den­tials. Ac­count­Name should be the pri­ma­ry nick. Re­place Pass­word with your Nick­serv pass­word.
-<code>/msg *sasl Set Ac­count­Name Pass­word</code></p>
-</li>
-</ol>
-<p>The next time ZNC re­con­nects, it should iden­ti­fy au­to­mat­i­cal­ly.</p>
+        <p>Var­i­ous modes can be set on users. Some of them can be set by the users, oth­ers
+are set by the net­work. You can list your cur­rent user modes with the <code>/mode
+yourname</code> com­mand.</p>
+<p>For those that can be set by users, <code>/mode yourname +mode</code> will work.</p>
+<p>Keep in mind that all user modes are per ses­sion, so you have to set them again
+every time you con­nect—most clients can au­to­mate this for you.</p>
+<h2 id="available-user-modes">Available user modes</h2>
+<table>
+<thead>
+<tr>
+<th>Mode (name)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>g<br>(caller-id)</td>
+<td>Ignores private messages from unknown users, instead informing you someone is attempting to message you. You can choose to receive messages with the <code>/accept</code> command. Messaging a user automatically accepts them.</td>
+</tr>
+<tr>
+<td>i<br>(invisible)</td>
+<td>Hides you from global WHO/WHOIS by normal users, and shows only shared channels in /WHOIS output.</td>
+</tr>
+<tr>
+<td>Q<br>(disable forwarding)</td>
+<td>Prevents channel forwards from affecting you. If a channel's modes prevent you from joining, you will receive the relevant error message regardless of any forwards.</td>
+</tr>
+<tr>
+<td>R<br>(block unidentified)</td>
+<td>Ignores private messages from users who are not identified with services.</td>
+</tr>
+<tr>
+<td>w<br>(see wallops)</td>
+<td>Subscribes you to /wallops messages from freenode staff. Used infrequently to highlight interesting announcements from the FOSS community. You will receive important network announcements irrespective of this setting.</td>
+</tr>
+<tr>
+<td>Z<br>(connected securely)</td>
+<td>Set automatically by the network when you connect via SSL/TLS.</td>
+</tr>
+</tbody>
+</table>
     </p>
 </div>
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -125,10 +153,10 @@
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -139,7 +167,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -176,15 +204,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

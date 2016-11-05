@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
     <title>April 1st 2014, Followup - freenode</title>
-    <link href="../static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="../static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="../static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="../static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,14 +23,20 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
         
 <div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context.
+    </div>
     <div class="art-info">
         
 <a href="april-1st-2014-followup"><h1 class="art">April 1st 2014, Followup</h1></a>
@@ -113,7 +121,7 @@
 <p>This is a <a href="https://en.wikipedia.org/wiki/ROT13">rot13</a>'ed and base64'ed string.</p>
 </li>
 <li>
-<p>In <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a>: <code>"Tnl2­cHItbm­FxLU9iby1qbn­l4LXZhZ2It­bi1vb­mU=".de­code('base64').de­code('rot13')</code></p>
+<p>In <a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a>: <code>"Tnl2cHItbmFxLU9iby1qbnl4LXZhZ2Itbi1vbmU=".decode('base64').decode('rot13')</code></p>
 </li>
 <li>
 <p>The an­swer: <strong>####Al­ice-and-Bob-walk-in­to-a-bar</strong></p>
@@ -130,7 +138,7 @@
 <p>This is an­oth­er string that is en­cod­ed with a se­ries of base64 and rot13 trans­for­ma­tions.</p>
 </li>
 <li>
-<p>In Python: <code>"MK­Wkp­KMa".de­code('rot13').de­code('base64').de­code('rot13')</code></p>
+<p>In Python: <code>"MKWkpKMa".decode('rot13').decode('base64').decode('rot13')</code></p>
 </li>
 <li>
 <p>The an­swer: <strong>####red­dit</strong></p>
@@ -147,7 +155,7 @@
 <p>Yet an­oth­er string en­cod­ed with a se­ries of base64 and rot13 trans­for­ma­tions.</p>
 </li>
 <li>
-<p>In Python: <code>"SHg5RkR4­SUpIeHFGSnlXVUlJSVF­Je­HFKCg==".de­code('base64').de­code('rot13').de­code('base64').de­code('rot13')</code></p>
+<p>In Python: <code>"SHg5RkR4SUpIeHFGSnlXVUlJSVFJeHFKCg==".decode('base64').decode('rot13').decode('base64').decode('rot13')</code></p>
 </li>
 <li>
 <p>This yields: EBE­ORI­ETEMETHH­PI­TI</p>
@@ -246,7 +254,7 @@
 </em></p>
 </li>
 <li>
-<p>The clue is base64'ed and rot13'ed. To de­code it in Python: <code>print "AQw­Pf­P­N1ZBXN­fvN­j4bP­mVR4fVQYPf­PN­lZBXN­fvNkAP4jZhXN­f­lOS".de­code('rot13').de­code('base64')</code></p>
+<p>The clue is base64'ed and rot13'ed. To de­code it in Python: <code>print "AQwPfPN1ZBXNfvNj4bPmVR4fVQYPfPNlZBXNfvNkAP4jZhXNflOS".decode('rot13').decode('base64')</code></p>
 </li>
 <li>
 <p>This yields: 48° 50′ 0″ N, 2° 20′ 14.02″ E</p>
@@ -463,7 +471,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -537,10 +545,10 @@
                 <a href="../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="../groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -551,7 +559,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -588,15 +596,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

@@ -7,10 +7,12 @@
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode IRC network">
     <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>Supporting the project - freenode</title>
-    <link href="static/css/open-sans.css?ff402f2" rel="stylesheet">
-    <link href="static/css/font-awesome.css?ff402f2" rel="stylesheet">
-    <link href="static/css/style.css?ff402f2" rel="stylesheet">
+    <link href="static/css/open-sans.css?0e3a57f" rel="stylesheet">
+    <link href="static/css/font-awesome.css?0e3a57f" rel="stylesheet">
+    <link href="static/css/style.css?0e3a57f" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -21,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -40,10 +42,13 @@
 <h2 id="system-specifications">System Specifications</h2>
 <p>The fol­low­ing ta­ble lists min­i­mum sys­tem re­quire­ments, and, where ap­plic­a­ble de­sired spec­i­fi­ca­tions.</p>
 <table>
-<tbody><tr>
+<thead>
+<tr>
 <th>Required</th>
 <th>Desired</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>Pentium 4 or better dedicated server</td>
 <td>64-bit multi-core</td>
@@ -56,8 +61,8 @@
 <td>Debian stable</td>
 <td></td>
 </tr>
-</tbody></table>
-
+</tbody>
+</table>
 <h2 id="system-software">System Software</h2>
 <p>We man­age and up­date soft­ware us­ing a cen­tral­ized con­fig­u­ra­tion man­age­ment, for which we will need root ac­cess.  We may cre­ate user(s) for the ircd, change core file lim­its, file de­scrip­tor lim­its, and oth­er mod­i­fi­ca­tions as nec­es­sary to sus­tain IRC con­nec­tions from thou­sands of users.  We also need servers for non-ir­cd roles.</p>
 <h2 id="other-requirements">Other Requirements</h2>
@@ -69,7 +74,7 @@
 <li>Spon­sors com­mu­ni­cate rea­sons for un­ex­pect­ed down­time/main­te­nance ASAP.</li>
 </ul>
 <h2 id="applying-to-host-a-server">Applying to Host a Server</h2>
-<p>Be­fore ap­ply­ing to host a serv­er, you may find it help­ful to speak with net­work staff. Feel free to mes­sage a freen­ode staffer with your ques­tions. Re­gard­less, the for­mal ap­pli­ca­tion process be­gins when you sub­mit an email con­tain­ing the fol­low­ing in­for­ma­tion to email ad­dress host­ing at freen­ode net:</p>
+<p>Be­fore ap­ply­ing to host a serv­er, you may find it help­ful to speak with net­work staff. Feel free to mes­sage a freen­ode staffer with your ques­tions. Re­gard­less, the for­mal ap­pli­ca­tion process be­gins when you sub­mit an email con­tain­ing the fol­low­ing in­for­ma­tion to email ad­dress <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#111;&#115;&#116;&#105;&#110;&#103;&#64;&#102;&#114;&#101;&#101;&#110;&#111;&#100;&#101;&#46;&#110;&#101;&#116;">&#104;&#111;&#115;&#116;&#105;&#110;&#103;&#64;&#102;&#114;&#101;&#101;&#110;&#111;&#100;&#101;&#46;&#110;&#101;&#116;</a>:</p>
 <ul>
 <li><b></b>Ge­o­graph­i­cal lo­ca­tion of the serv­er — City, prin­ci­pal­i­ty and coun­try. In­clude any "lo­cal colour" (near­by land­marks and sites) that seem per­ti­nent.</li>
 <li><b></b>Host­ing En­ti­ty — Who should we cred­it for the serv­er? Pro­vide the name of or­gan­i­sa­tion and URL as ap­pro­pri­ate.</li>
@@ -85,7 +90,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -159,10 +164,10 @@
                 <a href="groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
+                <a href="groupreg">Register as a group</a>
             </li>
             <li>
-                <a href="#">Existing groups</a>
+                <a href="groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -173,7 +178,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -210,15 +215,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
