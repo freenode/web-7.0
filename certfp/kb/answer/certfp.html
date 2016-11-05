@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?6878eca" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?6878eca" rel="stylesheet">
-    <link href="../../static/css/style.css?6878eca" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?56f0662" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?56f0662" rel="stylesheet">
+    <link href="../../static/css/style.css?56f0662" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -73,10 +73,11 @@ mv nick.pem ~/.weechat/certs
 <p>Now dis­con­nect and re­move the cur­rent freen­ode serv­er(s). Re-add it with the
 SSL flag, us­ing your new­ly gen­er­at­ed cer­tifi­cate. Note that these com­mands are
 just ex­am­ples, you have to adapt them to your cur­rent servers.</p>
-<pre><code>/disconnect freenode
-/server del freenode
-/server add freenode chat.freenode.net/6697 -ssl -ssl_verify -autoconnect
+<pre><code>/set irc.server.freenode.addresses chat.freenode.net/6697
+/set irc.server.freenode.ssl on
+/set irc.server.freenode.ssl_verify on
 /set irc.server.freenode.ssl_cert %h/certs/nick.pem
+/set irc.server.freenode.sasl_mechanism external
 </code></pre>
 <p>and then re­con­nect to freen­ode.</p>
 <h3 id="znc">znc</h3>
