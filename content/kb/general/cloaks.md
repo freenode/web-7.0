@@ -73,6 +73,9 @@ To re-iterate, the primary purpose of cloaks is to show your project affiliation
 or lack thereof.  "Hiding your IP" is not their primary purpose, and they cannot
 be fully relied upon to do that.
 
+Also, even when you are cloaked, you will see your own IP if you /whois
+yourself.
+
 Requesting a cloak
 ==================
 Once you've read and understood the above, if you would like an unaffiliated
