@@ -11,10 +11,10 @@ you are identified to NickServ, and which override unaffiliated cloaks..
 Project cloaks
 ==============
 Project cloaks typically take the form `project/role/user`, for instance
-`freenode/staff/bigpresh`, and are designed to demonstrate that the user is
-connected to the project in some way.  Different projects use cloaks for various
-roles - some only use them for their "core" team, some will assign "user" cloaks
-as well.
+`freenode/staff/bigpresh` (however, some take othe forms).  They are designed to
+demonstrate that the user is connected to the project in some way.  Different
+projects use cloaks for various roles - some only use them for their "core"
+team, some will assign "user" cloaks as well.
 
 Project cloaks can only be requested by a registered group contact of an
 already [registered group](pages/groupreg) - they should contact a member of
