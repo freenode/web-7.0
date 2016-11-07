@@ -36,6 +36,11 @@ webchat, or KiwiIRC, or some bouncer/shell providers) then you will receive an
 automatic gateway cloak - for instance `gateway/web/freenode/ip.1.2.3.4` - these
 gateway cloaks override unaffiliated cloaks, but do not override project cloaks.
 
+There are also gateway cloaks which may denote that the host the user is coming
+from is recognised as a large-scale NAT gateway (where the public IP is being
+shared by many individual customers behind it) or conferences, where many users
+are at one location temporarily.
+
 
 Cloaks do not effectively hide your IP
 ======================================
