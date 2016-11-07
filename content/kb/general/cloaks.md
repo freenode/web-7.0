@@ -1,8 +1,12 @@
 Title: User and project cloaks
 ---
-There are two types of "cloak" available on freenode; both replace the
-hostname/IP displayed when you are connected (but only when you're identified to
-NickServ - see below).
+There are two types of "cloak" which can be set on accounts on freenode; both 
+replace the hostname/IP displayed when you are connected (but only when you're
+identified to NickServ - see below).
+
+There are also gateway cloaks, which are automatically applied if you're
+connecting from certain providers, gateways or web IRC clients, whether or not
+you are identified to NickServ, and which override unaffiliated cloaks..
 
 Project cloaks
 ==============
