@@ -12,7 +12,7 @@ Project cloaks
 ==============
 Project cloaks typically take the form `project/role/user`, for instance
 `freenode/staff/bigpresh` (however, some take othe forms).  They are designed to
-demonstrate that the user is connected to the project in some way.  Different
+demonstrate that the user is connected to a project in some way.  Different
 projects use cloaks for various roles - some only use them for their core
 team, some will assign user cloaks as well.
 
@@ -62,10 +62,11 @@ should *not* be relied upon for that purpose, as they are not reliable:
 - Accepting a DCC chat/file transfer session, or clicking a link someone sends
   you could reveal your IP to them
 
-For these reasons, we advise you to consider cloaks only very basic protection from
-casual observers, and a way to stop your IP/hostname being passively logged in
-most cases, but caution that they cannot be relied upon to hide your IP/hostname
-robustly - if you want that, you should consider an IRC bouncer, VPN or Tor.
+For these reasons, we advise you to consider cloaks as only very basic
+protection from casual observers, and a way to stop your IP/hostname being
+passively logged in most cases, but caution that they cannot be relied upon to
+hide your IP/hostname robustly - if you want that, you should consider an IRC
+bouncer, VPN or Tor.
 
 Do consider, however, just how much you need to hide your IP address; it's
 disclosed routinely during normal Internet usage - for instance, every website
