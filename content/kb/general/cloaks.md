@@ -1,20 +1,20 @@
 Title: User and project cloaks
 ---
-There are two types of "cloak" which can be set on accounts on freenode; both 
+There are two types of cloak which can be set on accounts on freenode; both 
 replace the hostname/IP displayed when you are connected (but only when you're
 identified to NickServ - see below).
 
 There are also gateway cloaks, which are automatically applied if you're
 connecting from certain providers, gateways or web IRC clients, whether or not
-you are identified to NickServ, and which override unaffiliated cloaks..
+you are identified to NickServ, and which override unaffiliated cloaks.
 
 Project cloaks
 ==============
 Project cloaks typically take the form `project/role/user`, for instance
 `freenode/staff/bigpresh` (however, some take othe forms).  They are designed to
 demonstrate that the user is connected to the project in some way.  Different
-projects use cloaks for various roles - some only use them for their "core"
-team, some will assign "user" cloaks as well.
+projects use cloaks for various roles - some only use them for their core
+team, some will assign user cloaks as well.
 
 Project cloaks can only be requested by a registered group contact of an
 already [registered group](pages/groupreg) - they should contact a member of
@@ -62,7 +62,7 @@ should *not* be relied upon for that purpose, as they are not reliable:
 - Accepting a DCC chat/file transfer session, or clicking a link someone sends
   you could reveal your IP to them
 
-For these reasons, we advise you to consider cloaks very basic protection from
+For these reasons, we advise you to consider cloaks only very basic protection from
 casual observers, and a way to stop your IP/hostname being passively logged in
 most cases, but caution that they cannot be relied upon to hide your IP/hostname
 robustly - if you want that, you should consider an IRC bouncer, VPN or Tor.
@@ -74,7 +74,7 @@ Tor.  Many, many users happily use IRC for decades, never hiding their IP
 address, and do not have any problems.
 
 To re-iterate, the primary purpose of cloaks is to show your project affiliation,
-or lack thereof.  "Hiding your IP" is not their primary purpose, and they cannot
+or lack thereof.  Hiding your IP is not their primary purpose, and they cannot
 be fully relied upon to do that.
 
 Also, even when you are cloaked, you will see your own IP if you /whois
