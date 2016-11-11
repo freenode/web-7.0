@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Connecting to freenode - freenode</title>
-    <link href="../../static/css/open-sans.css?29ed667" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?29ed667" rel="stylesheet">
-    <link href="../../static/css/style.css?29ed667" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?6bdaaea" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?6bdaaea" rel="stylesheet">
+    <link href="../../static/css/style.css?6bdaaea" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -44,8 +44,30 @@ as FreeB­SD) do not.  For FreeB­SD, the pack­age is named ca_root_nss, which 
 <p>Cer­tifi­cate ver­i­fi­ca­tion will gen­er­al­ly only work when con­nect­ing to <strong><code>freenode.net</code></strong>. If your client thinks the server's cer­tifi­cate is in­valid, make sure you are con­nect­ing to <code>chat.freenode.net</code> rather than any oth­er name that leads to freen­ode.</p>
 <p>For most clients this should be suf­fi­cient. If not, you can down­load the re­quired in­ter­me­di­ate cert from <a href="http://crt.gandi.net/GandiStandardSSLCA.crt">Gan­di</a>
 and the root cert from <a href="http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt">In­stant SSL</a>.</p>
-<p>Client SSL cer­tifi­cates are also sup­port­ed, and may be used for iden­ti­fi­ca­tion to ser­vices via <a href="#XXX">CertFP</a>. If you have con­nect­ed with a client cer­tifi­cate, <em>has client cer­tifi­cate fin­ger­print f1ecf46714198533c­da14c­c­c­c76e5d7114be4195</em> (show­ing
+<p>Client SSL cer­tifi­cates are also sup­port­ed, and may be used for iden­ti­fi­ca­tion to ser­vices. See <a href="certfp">this kb ar­ti­cle</a>. If you have con­nect­ed with a client cer­tifi­cate, <em>has client cer­tifi­cate fin­ger­print f1ecf46714198533c­da14c­c­c­c76e5d7114be4195</em> (show­ing
 your cer­tifi­cate's SHA1 fin­ger­print in place of <em>f1ecf46...</em>) will ap­pear in WHOIS (a 276 nu­mer­ic).</p>
+<h2 id="accessing-freenode-via-tor">Accessing freenode Via Tor</h2>
+<p>freen­ode is also reach­able via <a href="https://www.torproject.org/">Tor<i aria-hidden="true" class="fa fa-external-link"></i></a>, bound to some re­stric­tions. You can't di­rect­ly con­nect to chat.freen­ode.net via Tor
+but rather have to use the fol­low­ing hid­den ser­vice as serv­er ad­dress:</p>
+<pre><code>freenodeok2gncmy.onion
+</code></pre>
+<p>The hid­den ser­vice re­quires SASL au­then­ti­ca­tion. In ad­di­tion, due to
+the abuse that led Tor ac­cess to be dis­abled in the past, we have
+un­for­tu­nate­ly had to add an­oth­er cou­ple of re­stric­tions:</p>
+<ul>
+<li>You must log in us­ing SASL's <code>EXTERNAL</code> or <code>ECDSA-NIST256P-CHALLENGE</code> (more
+    be­low)</li>
+<li>If you log out while con­nect­ed via Tor, you will not be able to log in with­out
+    re­con­nect­ing.</li>
+</ul>
+<p>If you haven't set up the req­ui­site SASL au­then­ti­ca­tion, we rec­om­mend SASL
+EX­TER­NAL. You'll need to gen­er­ate a client cer­tifi­cate and add that to your
+Nick­Serv ac­count. This is doc­u­ment­ed <a href="certfp">in our knowl­edge base</a>.
+Note that due to the SSL cer­tifi­cates not match­ing the hid­den ser­vice, 
+you might have to dis­able the ver­i­fi­ca­tion in your client.</p>
+<p>You'll then want to tell your client to try the <code>EXTERNAL</code> mech­a­nism. We lack
+com­pre­hen­sive doc­u­men­ta­tion for this, but it's a fea­ture in most mod­ern
+clients, so please check their docs for in­struc­tions for now.</p>
     </p>
 </div>
 
