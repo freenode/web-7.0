@@ -28,9 +28,8 @@ indicate that you are not affiliated with any specific project on freenode.
 They can also help obscure your IP from casual observers, to a certain degree
 - but see the weaknesses section below.
 
-Bots can also be cloaked to indicate their owner - unaffiliated bot cloaks take
-the form `unaffiliated/bot/accountname`, where the accountname in that case is
-the bot owner's account name, not the bot's account.
+Bots can also be cloaked to indicate their owner - unaffiliated bot cloaks
+typically take the form `unaffiliated/owneraccountname/bot/botaccountname`.
 
 
 Gateway cloaks
