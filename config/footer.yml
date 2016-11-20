@@ -12,6 +12,14 @@
       link: pages/live
     - name: Acknowledgements
       link: pages/acknowledgements
+    - name: Archive
+      link: archive
+    -
+      - name: rss
+        link: news/rss
+      - name: '/'
+      - name: atom
+        link: news/atom
 - heading: Using freenode
   links:
     - name: Webchat
@@ -34,11 +42,3 @@
       link: pages/groupreg
     - name: Existing groups
       link: pages/groupreg # GMS is dead
-- heading: Blog
-  links:
-    - name: Archive
-      link: archive
-    - name: rss
-      link: news/rss
-    - name: atom
-      link: news/atom
