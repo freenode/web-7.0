@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?15d6a75" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?15d6a75" rel="stylesheet">
-    <link href="../../static/css/style.css?15d6a75" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?fde2b0c" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?fde2b0c" rel="stylesheet">
+    <link href="../../static/css/style.css?fde2b0c" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -39,7 +39,7 @@ with a TLS cer­tifi­cate and have ser­vices recog­nise it au­to­mat­i­ca
 <p>In or­der to fol­low these in­struc­tions, you will need the <code>openssl</code> util­i­ty. If
 you are us­ing Win­dows and do not have a copy, you might con­sid­er us­ing Cyg­win.</p>
 <p>You can gen­er­ate a cer­tifi­cate with the fol­low­ing com­mand:</p>
-<pre><code>openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -out freenode.pem -keyout freenode.pem
+<pre><code>openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
 </code></pre>
 <p>You will be prompt­ed for var­i­ous pieces of in­for­ma­tion about the cer­tifi­cate.
 The con­tents do not mat­ter for our pur­pos­es, but <code>openssl</code> needs at least one of
@@ -130,12 +130,13 @@ via Tor, you can en­able SASL with the <code>EXTERNAL</code> mech­a­nism.</p>
                 <a href="../../acknowledgements">Acknowledgements</a>
             </li>
             <li>
-                <a href="../../archive">Archive</a>
-            </li>
-            <li>
                 
                 
-                    <a href="../../news/rss.xml">rss</a>
+                    <a href="../../archive">Archive</a>
+                
+                
+                
+                    <a href="../../news/rss.xml">(rss</a>
                 
                 
                 
@@ -143,7 +144,7 @@ via Tor, you can en­able SASL with the <code>EXTERNAL</code> mech­a­nism.</p>
                 
                 
                 
-                    <a href="../../news/atom.xml">atom</a>
+                    <a href="../../news/atom.xml">atom)</a>
                 
                 
             </li>
