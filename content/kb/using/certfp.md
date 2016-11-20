@@ -14,7 +14,7 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 
 You can generate a certificate with the following command:
 
-    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -out freenode.pem -keyout freenode.pem
+    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one of
