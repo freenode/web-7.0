@@ -12,13 +12,13 @@
       link: pages/live
     - name: Acknowledgements
       link: pages/acknowledgements
-    - name: Archive
-      link: archive
-    -
-      - name: rss
+    - 
+      - name: Archive
+        link: archive
+      - name: '(rss'
         link: news/rss
       - name: '/'
-      - name: atom
+      - name: 'atom)'
         link: news/atom
 - heading: Using freenode
   links:
