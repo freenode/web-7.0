@@ -39,6 +39,8 @@ from any directory, you can also use `cms7 -c /path/to/config.yml`.
 - Wait for discussion of big changes. Your branches will still be here
   tomorrow.
 
+Please comply with the [contribution guidelines](CONTRIBUTING.md)
+
 Helpful tip for those merging PRs: you can browse the tree a merge would
 result in by navigating to
 `https://github.com/freenode/web-7.0/tree/pull/XYZ/merge`, where `XYZ` is the
