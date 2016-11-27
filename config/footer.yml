@@ -13,15 +13,14 @@
     - name: Acknowledgements
       link: pages/acknowledgements
     - 
-      - name: News archive
+      - name: News Archive
         link: archive
-      - name: '('
-      - name: rss
+      - name: '/'
+      - name: RSS
         link: news/rss
       - name: '/'
-      - name: atom
+      - name: Atom
         link: news/atom
-      - name: ')'
 - heading: Using freenode
   links:
     - name: Webchat
