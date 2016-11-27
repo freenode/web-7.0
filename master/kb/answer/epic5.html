@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Configuring SASL for Epic5 - freenode</title>
-    <link href="../../static/css/open-sans.css?d8e3b57" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?d8e3b57" rel="stylesheet">
-    <link href="../../static/css/style.css?d8e3b57" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?f95e0a2" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?f95e0a2" rel="stylesheet">
+    <link href="../../static/css/style.css?f95e0a2" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -33,17 +33,17 @@
 <div class="main">
     <h1>Configuring SASL for Epic5</h1>
     <p class="art-ingress">
-        <p>EPIC5 has the sasl_auth script built-in. Mikhail con­tributed this ex­pla­na­tion of how to use it.</p>
-<p>Open your EPIC5 con­fig­u­ra­tion file, ~/.epi­crc or ~/.ir­crc, in your pre­ferred ed­i­tor.
-Add the fol­low­ing lines:</p>
+        <p>EPIC5 has the sasl_auth script built-in. Mikhail contributed this explanation of how to use it.</p>
+<p>Open your EPIC5 configuration file, ~/.epicrc or ~/.ircrc, in your preferred editor.
+Add the following lines:</p>
 <ul>
 <li><code>load sasl_auth</code></li>
 <li><code>sasl_auth *.freenode.net plain username password</code></li>
 </ul>
-<p>Re­place user­name with your pri­ma­ry nick. The pass­word may be re­placed with your pass­word or omit­ted, in which case EPIC5 will prompt for the pass­word when it con­nects.
-You may change <code>*.freenode.net</code> to some­thing more spe­cif­ic if de­sired, but the * means SASL au­then­ti­ca­tion will be at­tempt­ed for any freen­ode.net serv­er.
-Only <code>plain</code> is sup­port­ed as the au­then­ti­ca­tion mech­a­nism. You may want to use SSL to pro­tect your pass­word.</p>
-<p>If every­thing has been con­fig­ured cor­rect­ly, the next time you con­nect you should see the mes­sage:
+<p>Replace username with your primary nick. The password may be replaced with your password or omitted, in which case EPIC5 will prompt for the password when it connects.
+You may change <code>*.freenode.net</code> to something more specific if desired, but the * means SASL authentication will be attempted for any freenode.net server.
+Only <code>plain</code> is supported as the authentication mechanism. You may want to use SSL to protect your password.</p>
+<p>If everything has been configured correctly, the next time you connect you should see the message:
   <code>SASL authentication successful</code></p>
     </p>
 </div>

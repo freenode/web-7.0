@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
     <title>New IRC Server Code Approaches Release - freenode</title>
-    <link href="../static/css/open-sans.css?d8e3b57" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?d8e3b57" rel="stylesheet">
-    <link href="../static/css/style.css?d8e3b57" rel="stylesheet">
+    <link href="../static/css/open-sans.css?f95e0a2" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?f95e0a2" rel="stylesheet">
+    <link href="../static/css/style.css?f95e0a2" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -44,54 +44,54 @@
 
     </div>
     <div class="art-body">
-    <p>Hi all. As you prob­a­bly know, we're in the process of test­ing re­lease can­di­dates for dancer-ir­cd 1.0.32, the next pro­duc­tion IRC serv­er code for  freen­ode.  Since the last news item, we've con­tin­ued to test and de­bug, and we've made some progress.  <a href="http://freenode.net/news-2003-05-28.shtml#changes">The change list is here</a>.</p>
-<p>In ad­di­tion to some bug-squash­ing, we've now mod­i­fied ser­vices to al­low us to mlock +Jrz and -Jrz, as well as +PF and -PF with the help of net­work staff.  Ben Reser has kind­ly pro­duced a  <a href="http://ben.reser.org/irssi/format_identify.pl">script</a>  for  <a href="http://www.irssi.org/">irssi</a>  which takes ad­van­tage of the new CA­PAB IDEN­TI­FY-MSG sup­port to dis­play an un­am­bigu­ous in­di­ca­tion in each line whether the per­son speak­ing (or do­ing an AC­TION) is iden­ti­fied to ser­vices.  <strong>This should make it quite a bit hard­er to spoof nick­names.</strong> To use the script in irssi, sim­ply fol­low the in­struc­tions in the com­ments sec­tion.</p>
-<p><strong>We could use your help</strong> in cre­at­ing sim­i­lar scripts for <strong>xchat</strong> and the oth­er <strong>free soft­ware</strong> IRC clients, and even for <strong>mIRC</strong>, to help those who are stuck us­ing Mi­crosoft prod­ucts to con­nect to the net­work.</p>
-<p>We're ap­proach­ing re­lease and, again, <strong>we need your help.</strong> <strong>Please come to the test­net</strong> on  <a href="irc://irc.freenode.net:9001/">irc.freen­ode.net, port 9001</a>  and help us find bugs!  Stop by #kline-me if you'd like to help us thrash the bugs out of our KLINE/UN­KLINE/RE­HASH changes.  Or just take a look at the fol­low­ing (slight­ly up­dat­ed) change list, and at our old­er   <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-oper-guide/dancer-oper-guide/">ref­er­ence man­u­al</a>,  not yet up­dat­ed, to look for fea­tures to test.</p>
-<p><strong>Thanks in ad­vance for any help you can pro­vide!</strong>
-Changes in Dancer IRCD 1.0.32Nu­mer­ous small bugs have been fixed, and the fol­low­ing lists some of the changes:</p>
+    <p>Hi all. As you probably know, we're in the process of testing release candidates for dancer-ircd 1.0.32, the next production IRC server code for  freenode.  Since the last news item, we've continued to test and debug, and we've made some progress.  <a href="http://freenode.net/news-2003-05-28.shtml#changes">The change list is here</a>.</p>
+<p>In addition to some bug-squashing, we've now modified services to allow us to mlock +Jrz and -Jrz, as well as +PF and -PF with the help of network staff.  Ben Reser has kindly produced a  <a href="http://ben.reser.org/irssi/format_identify.pl">script</a>  for  <a href="http://www.irssi.org/">irssi</a>  which takes advantage of the new CAPAB IDENTIFY-MSG support to display an unambiguous indication in each line whether the person speaking (or doing an ACTION) is identified to services.  <strong>This should make it quite a bit harder to spoof nicknames.</strong> To use the script in irssi, simply follow the instructions in the comments section.</p>
+<p><strong>We could use your help</strong> in creating similar scripts for <strong>xchat</strong> and the other <strong>free software</strong> IRC clients, and even for <strong>mIRC</strong>, to help those who are stuck using Microsoft products to connect to the network.</p>
+<p>We're approaching release and, again, <strong>we need your help.</strong> <strong>Please come to the testnet</strong> on  <a href="irc://irc.freenode.net:9001/">irc.freenode.net, port 9001</a>  and help us find bugs!  Stop by #kline-me if you'd like to help us thrash the bugs out of our KLINE/UNKLINE/REHASH changes.  Or just take a look at the following (slightly updated) change list, and at our older   <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-oper-guide/dancer-oper-guide/">reference manual</a>,  not yet updated, to look for features to test.</p>
+<p><strong>Thanks in advance for any help you can provide!</strong>
+Changes in Dancer IRCD 1.0.32Numerous small bugs have been fixed, and the following lists some of the changes:</p>
 <ul>
 <li>
-<p><strong>Aus­pex mode sep­a­ra­tion.</strong> Added a new O: line umode, +A, to sep­a­rate server-re­lat­ed in­for­ma­tion from user- and chan­nel-re­lat­ed in­for­ma­tion in aus­pex mode.</p>
+<p><strong>Auspex mode separation.</strong> Added a new O: line umode, +A, to separate server-related information from user- and channel-related information in auspex mode.</p>
 </li>
 <li>
-<p><strong>COL­LIDE mes­sage.</strong> An al­ter­nate, qui­eter KILL for use by ser­vices in GHOST­ing nicks.</p>
+<p><strong>COLLIDE message.</strong> An alternate, quieter KILL for use by services in GHOSTing nicks.</p>
 </li>
 <li>
-<p><strong>CTCP AC­TION treat­ed as a mes­sage.</strong> For the pur­pos­es of user mode C (and every­where else we can man­age), CTCP AC­TION will be treat­ed as a nor­mal mes­sage, rather than as a client con­trol/sta­tus com­mand.</p>
+<p><strong>CTCP ACTION treated as a message.</strong> For the purposes of user mode C (and everywhere else we can manage), CTCP ACTION will be treated as a normal message, rather than as a client control/status command.</p>
 </li>
 <li>
-<p><strong>Dump com­mand.</strong> Added for de­bug­ging pur­pos­es.</p>
+<p><strong>Dump command.</strong> Added for debugging purposes.</p>
 </li>
 <li>
-<p><strong>Iden­ti­fied user high­light­ing.</strong> The CA­PAB com­mand has been added to al­low client soft­ware to reg­is­ter spe­cial ca­pa­bil­i­ties.  The first such ca­pa­bil­i­ty is IDEN­TI­FY-MSG; with it turned on, the text of mes­sages, no­tices and CTCP AC­TIONs will be pref­aced with '-' when they come from an uniden­ti­fied user, and '+' when the user is iden­ti­fied to ser­vices.  The pur­pose of this fea­ture is to make it dif­fi­cult to spoof some­one's iden­ti­ty.  If you're run­ning  <a href="http://www.irssi.org/">irssi</a>,  there's al­ready a   <a href="http://ben.reser.org/irssi/format_identify.pl">script</a>  avail­able to for­mat the out­put of this fea­ture for your con­ve­nience.</p>
+<p><strong>Identified user highlighting.</strong> The CAPAB command has been added to allow client software to register special capabilities.  The first such capability is IDENTIFY-MSG; with it turned on, the text of messages, notices and CTCP ACTIONs will be prefaced with '-' when they come from an unidentified user, and '+' when the user is identified to services.  The purpose of this feature is to make it difficult to spoof someone's identity.  If you're running  <a href="http://www.irssi.org/">irssi</a>,  there's already a   <a href="http://ben.reser.org/irssi/format_identify.pl">script</a>  available to format the output of this feature for your convenience.</p>
 </li>
 </ul>
-<p>In ad­di­tion, we've pro­vid­ed an­oth­er ca­pa­bil­i­ty, IDEN­TI­FY-CTCP, which sim­i­lar­ly for­mats the out­put of CTCPs oth­er than AC­TION.</p>
+<p>In addition, we've provided another capability, IDENTIFY-CTCP, which similarly formats the output of CTCPs other than ACTION.</p>
 <ul>
 <li>
-<p><strong>Join throt­tling (chan­nel mode J).</strong> For­mat:  <strong>+J <frequency></frequency>,<limit></limit></strong>.  Users may join this chan­nel once every <frequency></frequency> sec­onds, with an ini­tial burst and lim­it val­ue of <limit></limit> users. <strong>NOTE</strong>: If +Ff is turned on in the chan­nel, users who are throt­tled will be sent to an­oth­er chan­nel in­stead of be­ing sent an er­ror mes­sage.</p>
+<p><strong>Join throttling (channel mode J).</strong> Format:  <strong>+J <frequency></frequency>,<limit></limit></strong>.  Users may join this channel once every <frequency></frequency> seconds, with an initial burst and limit value of <limit></limit> users. <strong>NOTE</strong>: If +Ff is turned on in the channel, users who are throttled will be sent to another channel instead of being sent an error message.</p>
 </li>
 <li>
-<p><strong>Iden­ti­fied-on­ly mode (chan­nel mode r).</strong> With +r set, only users iden­ti­fied to ser­vices (user mode +e) can join the chan­nel.  <strong>NOTE:</strong> If +Ff is turned on in the chan­nel, users who are de­nied ac­cess be­cause they are not iden­ti­fied to ser­vices will be sent to an­oth­er chan­nel in­stead of be­ing sent an er­ror mes­sage.</p>
+<p><strong>Identified-only mode (channel mode r).</strong> With +r set, only users identified to services (user mode +e) can join the channel.  <strong>NOTE:</strong> If +Ff is turned on in the channel, users who are denied access because they are not identified to services will be sent to another channel instead of being sent an error message.</p>
 </li>
 <li>
-<p><strong>No­For­ward modes.</strong> Added chan­nel mode +Q to pre­vent for­ward­ing to a chan­nel.  Added user mode +Q to pre­vent for­ward­ing of a user.</p>
+<p><strong>NoForward modes.</strong> Added channel mode +Q to prevent forwarding to a channel.  Added user mode +Q to prevent forwarding of a user.</p>
 </li>
 <li>
-<p><strong>Op­mod­er­ate mode (chan­nel mode z).</strong> With +z set, qui­et­ed/banned/mod­er­at­ed user­s' com­ments still ap­pear to chan­nel op­er­a­tors.  This can be help­ful dur­ing sem­i­nars and spe­cial func­tions.</p>
+<p><strong>Opmoderate mode (channel mode z).</strong> With +z set, quieted/banned/moderated users' comments still appear to channel operators.  This can be helpful during seminars and special functions.</p>
 </li>
 <li>
-<p><strong>Re­hash throt­tling.</strong></p>
+<p><strong>Rehash throttling.</strong></p>
 </li>
 <li>
-<p><strong>SCAN com­mand en­hance­ments.</strong> SCAN CMODES, KLINES and UN­KLINES have been added.</p>
+<p><strong>SCAN command enhancements.</strong> SCAN CMODES, KLINES and UNKLINES have been added.</p>
 </li>
 <li>
-<p><strong>Serv­er ca­pa­bil­i­ties mes­sage.</strong> The qua­si­-­s­tan­dard nu­mer­ic 005 (de­clare serv­er ca­pa­bil­i­ties) has been added.</p>
+<p><strong>Server capabilities message.</strong> The quasi-standard numeric 005 (declare server capabilities) has been added.</p>
 </li>
 <li>
-<p><strong>STATS z fixed.</strong> The out­put should now be ac­cu­rate.</p>
+<p><strong>STATS z fixed.</strong> The output should now be accurate.</p>
 </li>
 </ul>
     </div>
