@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode IRC network">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Channel modes - freenode</title>
+    <link href="../../static/css/open-sans.css?3de32eb" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?3de32eb" rel="stylesheet">
+    <link href="../../static/css/style.css?3de32eb" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>Channel modes</h1>
+    <p class="art-ingress">
+        <p>Various modes can be set on channels. Use <code>/mode #channel</code> to list current
+channel modes and <code>/msg chanserv info #channel</code> to list modes set with MLOCK.</p>
+<p>All channel modes will be lost when a channel becomes empty. Enable GUARD to
+preserve modes.</p>
+<h2 id="available-channel-modes">Available channel modes</h2>
+<table>
+<thead>
+<tr>
+<th>Mode (name)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>b<br>(channel ban)</td>
+<td>Prevent users from joining or speaking. Sending <code>/mode #channel +b</code> alone will return the current ban list. While on the channel, banned users will be unable to send to the channel or change nick.<br>The most common form for a ban is <code>+b nick!user@host</code>. The wildcards * and ? are allowed, matching zero-or-more and exactly-one characters, respectively. Bans set on IP addresses will apply even if the affected user joins with a resolved or cloaked hostname. <a href="https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation">CIDR notation</a> is supported in bans.<br>The <a href="extbans">second form</a> can be used for bans based on user data. You can append <code>$#channel</code> to any ban to redirect banned users to another channel.</td>
+</tr>
+<tr>
+<td>c<br>(colour filter)</td>
+<td>Strip colour and formatting codes from channel messages.</td>
+</tr>
+<tr>
+<td>C<br>(block CTCPs)</td>
+<td>Blocks CTCP commands (other than <code>/me</code> actions).</td>
+</tr>
+<tr>
+<td>e<br>(ban exemption)</td>
+<td>Takes one parameter, just like ban (above). Wildcards and <a href="extbans">extbans</a> can be used, like ban. Ban exemption matches override +b and +q bans for all clients it matches, allowing the exempted user to join/speak as if they were not banned or quieted. This can be useful if it is necessary to ban an entire ISP due to persistent abuse, but some users from that ISP should still be allowed in. For example: <code>/mode #channel +bee *!*@*.example.com *!*someuser@host3.example.com $a:JohnDoe</code> would block all users from example.com, while still allowing someuser from host3 and JohnDoe to join.</td>
+</tr>
+<tr>
+<td>f<br>(forward)</td>
+<td>Takes a channel name as a parameter. Users who cannot join the channel (because of +i, +j, +r, see below) are instead sent to the given channel. Clients are notified when the forward takes effect.<br>An operator can set mode +f #channel2 only if they are an op in #channel2 or if #channel2 has mode +F set (see below).<br>Usually you want to set forwards with MLOCK, because the channel will become empty over time and the channel modes are lost. You might also want to set GUARD to prevent the channel from becoming empty. An operator can use MLOCK with +f only if they have access flag +s in both channels, or if the channel to be forwarded to is +F and they have +s in the original channel.</td>
+</tr>
+<tr>
+<td>F<br>(enable forwarding)</td>
+<td>Allow operators in other channels to forward clients to this channel, without requiring ops in the target channel.</td>
+</tr>
+<tr>
+<td>g<br>(free invite)</td>
+<td>Anybody in the channel may invite others (using the <code>/invite</code> command) to the channel.</td>
+</tr>
+<tr>
+<td>i<br>(invite only)</td>
+<td>Users are unable to join invite-only channels unless they are invited or match a +I entry.</td>
+</tr>
+<tr>
+<td>I<br>(invite exemption)</td>
+<td>Takes a ban parameter. <a href="extbans">Extbans</a> are supported and common, e.g. for setting an exemption for a specific registered user. Matching clients do not need to be invited to join the channel when it is invite-only (+i). Unlike the <code>/invite</code> command, this does not override +j, +l and +r. Only channel operators can see +I changes or see the list with <code>/mode #channel +I</code>.</td>
+</tr>
+<tr>
+<td>j<br>(join throttle)</td>
+<td>This mode takes one parameter of the form n:t, where n and t are positive integers. Only n users may join in each period of t seconds, so with e.g. 3:10 only 3 users could join within 10 seconds. Invited users can join regardless of +j, but are counted as normal. You can use this mode to prevent bot attacks. Observe the average join rate of your channel and pick a good value for +j. This mode could be combined with +f to forward throttled users to an overflow channel.</td>
+</tr>
+<tr>
+<td>k<br>(password)</td>
+<td>To enter the channel, you must specify the password on your <code>/join</code> command. Keep in mind that modes locked with ChanServ's MLOCK command can be seen by anyone recreating the channel; this includes keys. Also keep in mind that users being on the channel when +k is set will see the key as well.</td>
+</tr>
+<tr>
+<td>l<br>(join limit)</td>
+<td>Takes a positive integer parameter. Limits the number of users who can be in the channel at the same time.</td>
+</tr>
+<tr>
+<td>m<br>(moderated)</td>
+<td>Only opped and voiced users can send to the channel. This mode does not prevent users from changing nicks.</td>
+</tr>
+<tr>
+<td>n<br>(prevent external send)</td>
+<td>Users outside the channel may not send messages to it. Keep in mind that bans and quiets will not apply to external users.</td>
+</tr>
+<tr>
+<td>p<br>(private)</td>
+<td>The KNOCK command cannot be used on the channel, and users will not be shown the channel in whois output unless they share the channel with the requestor.</td>
+</tr>
+<tr>
+<td>q<br>(quiet)</td>
+<td>Works like +b (ban user), but allows matching users to join the channel.</td>
+</tr>
+<tr>
+<td>Q<br>(block forwarded users)</td>
+<td>Users cannot be forwarded (see +f above) to a channel with +Q.</td>
+</tr>
+<tr>
+<td>r<br>(block unidentified)</td>
+<td>Prevents users who are not identified to services from joining the channel.</td>
+</tr>
+<tr>
+<td>s<br>(secret)</td>
+<td>This channel will not appear on channel lists or WHO or WHOIS output unless you are on it.</td>
+</tr>
+<tr>
+<td>S<br>(SSL-only)</td>
+<td>Only users connected via SSL may join the channel while this mode is set. Users already in the channel are not affected. Keep in mind that this also blocks all webchat users, as they are not marked as connected via SSL.</td>
+</tr>
+<tr>
+<td>t<br>(ops topic)</td>
+<td>Only channel operators may set the channel topic.</td>
+</tr>
+<tr>
+<td>z<br>(reduced moderation)</td>
+<td>The effects of +b, +q, and +m are relaxed. For each message, if that message would normally be blocked by one of these modes, it is instead sent to channel operators (+o).</td>
+</tr>
+</tbody>
+</table>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="../../live">freenode live!</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
