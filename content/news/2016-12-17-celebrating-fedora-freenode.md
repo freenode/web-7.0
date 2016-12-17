@@ -5,7 +5,7 @@ Date: 2016-12-17T14:49-05:00
 Slug: celebrating-fedora-freenode
 ---
 
-![Celebrating Fedora 25 with freenode](../../static/img/celebrating-fedora-freenode.png)
+![Celebrating Fedora 25 with freenode](https://i.imgur.com/yMLgxZp.png)
 
 On November 22nd, 2016, the [Fedora
 Project](https://fedoraproject.org/wiki/Overview) released Fedora 25,
