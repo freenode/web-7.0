@@ -1,7 +1,7 @@
 ---
 Title: Celebrating Fedora 25 with freenode
 Author: Justin W. Flory (jflory7)
-Date: 2016-12-20T12:00-05:00
+Date: 2016-12-21T12:00-05:00
 Slug: celebrating-fedora-freenode
 ---
 
@@ -20,8 +20,7 @@ Friends, Features, First*. *Freedom* is representative of Fedora's
 commitment to championing free and open source software and contributing
 back to upstream projects for the benefit of the open source community.
 *Features* stands for Fedora's commitment to driving some of the newest
-features *First* before anyone else. Some of these examples include the
-[Wayland display
+features *First*. Some of these examples include the [Wayland display
 server](https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)),
 [systemd](https://en.wikipedia.org/wiki/Systemd), and [GNOME
 3](https://en.wikipedia.org/wiki/GNOME#GNOME_3). Perhaps most
