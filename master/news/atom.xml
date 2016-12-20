@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-10-18T21:34:00+01:00</updated><entry><title>freenode Community Team</title><link href="https://freenode.net/news/community" rel="alternate"></link><published>2016-10-18T21:34:00+01:00</published><updated>2016-10-18T21:34:00+01:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2016-10-18:/news/community</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-12-20T05:30:34+00:00</updated><entry><title>A brief security pdate from the infrastructure team</title><link href="https://freenode.net/news/PSA-brief-update-infra" rel="alternate"></link><published>2016-12-20T05:30:34+00:00</published><updated>2016-12-20T05:30:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-20:/news/PSA-brief-update-infra</id><summary type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
+internal communications).&lt;/p&gt;
+&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
+infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
+was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
+been affected.&lt;/p&gt;
+&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
+suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
+especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
+so that it can be reset!).&lt;/p&gt;</summary><content type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
+internal communications).&lt;/p&gt;
+&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
+infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
+was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
+been affected.&lt;/p&gt;
+&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
+suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
+especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
+so that it can be reset!).&lt;/p&gt;
+&lt;p&gt;We will provide further updates if it becomes appropriate to do so; please rest assured that we take the security and privacy 
+of our users very seriously, and work with industry experts and law enforcement where appropriate to investigate and respond 
+to possible security breaches.&lt;/p&gt;</content></entry><entry><title>freenode Community Team</title><link href="https://freenode.net/news/community" rel="alternate"></link><published>2016-10-18T21:34:00+01:00</published><updated>2016-10-18T21:34:00+01:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2016-10-18:/news/community</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
 &lt;p&gt;You might not be aware that freenode has a dedicated community team and that we
 would be delighted to help your projects get the most from freenode. The
 freenode community team consists of christel, edk, JonathanD, mquin, Myrtti,
@@ -322,13 +345,4 @@ Details of how to do so are &lt;a href="https://github.com/atheme/ecdsatool"&gt;
 &lt;pre&gt;&lt;code&gt;/msg NickServ SENDPASS &amp;lt;account&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This command will only work with an offline account (i.e. it won't work if a client is logged into your account via NickServ), and should obviously only be used on an account that you believe is yours.&lt;/p&gt;
-&lt;p&gt;We will be keeping an eye on how this feature is used, and may retain it permanently if it proves to be helpful and non-harmful!&lt;/p&gt;</content></entry><entry><title>Server Issues: Update</title><link href="https://freenode.net/news/server-issues-update" rel="alternate"></link><published>2014-10-15T21:27:44+00:00</published><updated>2014-10-15T21:27:44+00:00</updated><author><name>Pricey</name></author><id>tag:freenode.net,2014-10-15:/news/server-issues-update</id><summary type="html">&lt;p&gt;Following up on our &lt;a href="http://blog.freenode.net/2014/09/server-issues-2/"&gt;previous blog post&lt;/a&gt;, we have continued to investigate the compromise of freenode infrastructure, aided by our sponsors in addition to experts in the field.&lt;/p&gt;
-&lt;p&gt;NCC Group's Cyber Defence Operations team kindly provided pro bono digital forensic and reverse engineering services to assist our infrastructure team and have recently published a report with some of their findings:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/"&gt;https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Following up on our &lt;a href="http://blog.freenode.net/2014/09/server-issues-2/"&gt;previous blog post&lt;/a&gt;, we have continued to investigate the compromise of freenode infrastructure, aided by our sponsors in addition to experts in the field.&lt;/p&gt;
-&lt;p&gt;NCC Group's Cyber Defence Operations team kindly provided pro bono digital forensic and reverse engineering services to assist our infrastructure team and have recently published a report with some of their findings:&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/"&gt;https://www.nccgroup.com/en/blog/2014/10/analysis-of-the-linux-backdoor-used-in-freenode-irc-network-compromise/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;NCC's support has been invaluable in aiding us in further securing our infrastructure, and we have already made significant changes to ensure that it is more resilient against further attacks. Our investigation into the compromise is ongoing and we will provide further updates as appropriate.&lt;/p&gt;
-&lt;p&gt;In the mean time, if you haven't updated your password, we would advise you do so as some traffic may have been sniffed. Simply "/msg nickserv set password newpasshere" and don't forget to update your client's saved password.&lt;/p&gt;
-&lt;p&gt;Whilst we endeavour to provide a robust service, it is worth bearing in mind that no computer system is ever perfectly secure and many are inevitably breached. For this reason we do not suggest relying entirely on freenode (or any infrastructure) to protect sensitive data, and encourage our users to take further steps (e.g. unique passwords per service, encryption) as part of a defence in depth strategy to safeguard it.&lt;/p&gt;
-&lt;p&gt;We are extremely grateful to NCC in addition to our many other sponsors for their assistance and continued support. Without the ongoing support of our generous sponsors and wonderful infrastructure team, freenode would quite literally not have a network!&lt;/p&gt;
-&lt;p&gt;We will be continuing to work with our sponsors in addition to other relevant authorities regarding this breach and any further incidents.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;We will be keeping an eye on how this feature is used, and may retain it permanently if it proves to be helpful and non-harmful!&lt;/p&gt;</content></entry></feed>
