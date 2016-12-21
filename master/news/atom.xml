@@ -1,5 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-12-20T05:30:34+00:00</updated><entry><title>A brief security update from the infrastructure team</title><link href="https://freenode.net/news/PSA-brief-update-infra" rel="alternate"></link><published>2016-12-20T05:30:34+00:00</published><updated>2016-12-20T05:30:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-20:/news/PSA-brief-update-infra</id><summary type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2016-12-21T12:00:00-05:00</updated><entry><title>Celebrating Fedora 25 with freenode</title><link href="https://freenode.net/news/celebrating-fedora-freenode" rel="alternate"></link><published>2016-12-21T12:00:00-05:00</published><updated>2016-12-21T12:00:00-05:00</updated><author><name>Justin W. Flory (jflory7)</name></author><id>tag:freenode.net,2016-12-21:/news/celebrating-fedora-freenode</id><summary type="html">&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;
+&lt;h2 id="how-fedora-uses-freenode"&gt;How Fedora uses freenode&lt;/h2&gt;
+&lt;p&gt;As a large open source project, there are many different teams and
+sub-projects in Fedora that help move us toward a new release. Just like
+there are many parts to a car's engine, there are many parts to Fedora's
+engine. Some of these groups are officially recognized sub-projects like
+the &lt;a href="https://fedoraproject.org/wiki/Design"&gt;Design team&lt;/a&gt;, &lt;a href="https://fedoraproject.org/wiki/CommOps"&gt;Community
+Operations&lt;/a&gt;, or &lt;a href="https://fedoraproject.org/wiki/Docs_Project"&gt;Docs
+team&lt;/a&gt;. Other times, they
+are informal &lt;a href="https://fedoraproject.org/wiki/Category:SIGs"&gt;Special Interest
+Groups&lt;/a&gt; (SIGs) that bring
+contributors together to focus on specific topics like programming
+languages or desktop environments, like the &lt;a href="https://fedoraproject.org/wiki/SIGs/Python"&gt;Python
+SIG&lt;/a&gt; or &lt;a href="https://fedoraproject.org/wiki/SIGs/KDE"&gt;KDE
+SIG&lt;/a&gt;. Usually, each of these
+groups or teams will have their own IRC channel to coordinate in. The
+Design team uses &lt;code&gt;#fedora-design&lt;/code&gt;, the Python SIG uses &lt;code&gt;#fedora-python&lt;/code&gt;…
+and so on. In total, Fedora has over 175 registered channels to its
+name. Frequently, teams will hold public meetings in the freenode
+channels to work through tickets, plan ahead on upcoming tasks, or
+discuss important topics for their team. There are a series of special
+meeting channels used for this purpose. Using the
+&lt;a href="http://meetbot.debian.net/Manual.html"&gt;MeetBot&lt;/a&gt; plugin, Fedora uses our
+own &lt;a href="https://github.com/fedora-infra/supybot-fedora"&gt;zodbot&lt;/a&gt; to help run
+meetings, mark up links or important ideas, and create a pretty HTML
+summary at the end of the meeting. All of these summaries and full logs
+are found at
+&lt;a href="https://meetbot.fedoraproject.org/"&gt;meetbot.fedoraproject.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="tips-to-using-irc-effectively"&gt;Tips to using IRC effectively&lt;/h2&gt;
+&lt;p&gt;There are countless different workflows, IRC clients, and handy plugins
+available to customize the IRC experience. In the spirit of the
+&lt;em&gt;Friends&lt;/em&gt; Foundation and the Code of Conduct, Fedora contributors are
+encouraged to &lt;a href="https://getfedora.org/code-of-conduct"&gt;always be excellent to one
+another&lt;/a&gt;. It's important to
+follow good manners in any IRC channel, Fedora or any other. Having good
+manners in IRC are as important as it is in real life. Be courteous to
+others, and if in doubt, it's good to assume the best intentions by
+others. IRC is important for Fedora, and many contributors have put
+together guides of our own as well. You can read more tips from the
+Fedora team in our &lt;a href="https://fedoramagazine.org/beginners-guide-irc/"&gt;IRC Beginner's
+Guide&lt;/a&gt; on the &lt;a href="https://fedoramagazine.org/"&gt;Fedora
+Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="whats-next-for-fedora"&gt;What's next for Fedora?&lt;/h2&gt;
+&lt;p&gt;As 2016 comes to an end, we're wrapping up on our own new release of
+Fedora 25. The Fedora community is looking forward to helping drive open
+source innovation and contributing to the Linux community for many years
+to come. Feodra currently has more than 2,000 contributors, and in the
+tenth percentile of active contributors, 65% of them are from the
+community (&lt;a href="https://mattdm.org/fedora/2016flock/StateofFedoraAugust2016-v160731a.pdf"&gt;State of Fedora, Flock
+2016&lt;/a&gt;).
+The Fedora steam engine is chugging ahead, and we're excited to see
+where it takes us next. We're happy to be able to have shared past,
+current, and future milestones together with the freenode community.
+Keep an eye out for Fedora Ambassadors in Europe during
+&lt;a href="https://devconf.cz/"&gt;DevConf&lt;/a&gt; and &lt;a href="https://fosdem.org/2017/"&gt;FOSDEM&lt;/a&gt;.
+You can also find us in North America at &lt;a href="https://brickhack.io/"&gt;BrickHack
+2017&lt;/a&gt;. And there will be more events all through
+the year you can keep an eye out for us at!&lt;/p&gt;</content></entry><entry><title>A brief security update from the infrastructure team</title><link href="https://freenode.net/news/PSA-brief-update-infra" rel="alternate"></link><published>2016-12-20T05:30:34+00:00</published><updated>2016-12-20T05:30:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-20:/news/PSA-brief-update-infra</id><summary type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
 an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
 internal communications).&lt;/p&gt;
 &lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
@@ -336,13 +449,4 @@ Details of how to do so are &lt;a href="https://github.com/atheme/ecdsatool"&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You should be able to connect to testnet at testnet.freenode.net Port 9002 for cleartext, and 9003 for SSL. Bear in mind, the database is a couple weeks old, so changes you've recently made on the production network may not be mirrored on the testnet network. Various amounts of staff should be idling in #freenode on testnet at all times, please feel free to poke us with any questions.&lt;/p&gt;
-&lt;p&gt;Thanks!&lt;/p&gt;</content></entry><entry><title>User-enabled sendpass</title><link href="https://freenode.net/news/user-enabled-sendpass" rel="alternate"></link><published>2014-10-29T21:20:17+00:00</published><updated>2014-10-29T21:20:17+00:00</updated><author><name>njan</name></author><id>tag:freenode.net,2014-10-29:/news/user-enabled-sendpass</id><summary type="html">&lt;p&gt;As a network, we feel it is hugely important to maintain close relationships with our many communities and users. Our interactions with users in #freenode and elsewhere on the network, fielding support requests and assisting users, help build and maintain these relationships.&lt;/p&gt;
-&lt;p&gt;But we're constantly looking for things to change and make better, and one of the pieces of feedback we've had is that users would like a little automation - and the ability to be able to resolve some of their own support requests.&lt;/p&gt;
-&lt;p&gt;We recognise that allowing users to generate their own password reset e-mails brings us in line with other registration systems online and may provide a higher quality of service.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a network, we feel it is hugely important to maintain close relationships with our many communities and users. Our interactions with users in #freenode and elsewhere on the network, fielding support requests and assisting users, help build and maintain these relationships.&lt;/p&gt;
-&lt;p&gt;But we're constantly looking for things to change and make better, and one of the pieces of feedback we've had is that users would like a little automation - and the ability to be able to resolve some of their own support requests.&lt;/p&gt;
-&lt;p&gt;We recognise that allowing users to generate their own password reset e-mails brings us in line with other registration systems online and may provide a higher quality of service.&lt;/p&gt;
-&lt;p&gt;So for now, if you are having difficulties accessing your account, you can generate your own password reset e-mail using the following command:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;/msg NickServ SENDPASS &amp;lt;account&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This command will only work with an offline account (i.e. it won't work if a client is logged into your account via NickServ), and should obviously only be used on an account that you believe is yours.&lt;/p&gt;
-&lt;p&gt;We will be keeping an eye on how this feature is used, and may retain it permanently if it proves to be helpful and non-harmful!&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Thanks!&lt;/p&gt;</content></entry></feed>

@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 20 Dec 2016 05:30:34 +0000</lastBuildDate><item><title>A brief security update from the infrastructure team</title><link>https://freenode.net/news/PSA-brief-update-infra</link><description>&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 21 Dec 2016 12:00:00 -0500</lastBuildDate><item><title>Celebrating Fedora 25 with freenode</title><link>https://freenode.net/news/celebrating-fedora-freenode</link><description>&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Justin W. Flory (jflory7)</dc:creator><pubDate>Wed, 21 Dec 2016 12:00:00 -0500</pubDate></item><item><title>A brief security update from the infrastructure team</title><link>https://freenode.net/news/PSA-brief-update-infra</link><description>&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
 an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
 internal communications).&lt;/p&gt;
 &lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
@@ -97,6 +125,4 @@ weeks past the last use.&lt;/p&gt;</description><dc:creator xmlns:dc="http://pur
 &lt;p&gt;I am not going to go into the details here, as they have been explained by the GNOME project over at &lt;a href="http://www.gnome.org/groupon/"&gt;http://www.gnome.org/groupon/&lt;/a&gt; and the GNOME folk are in a much better position than me to provide more detailed information on the matter.&lt;/p&gt;
 &lt;p&gt;What I am going to do is appeal for your help. The GNOME project is looking to raise $80,000 to cover the legal costs involved in defending their trademark. At the time of writing this post the freenode network has 89,998 connected users. Users who are passionate about FOSS.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 11 Nov 2014 10:49:11 +0000</pubDate></item><item><title>Atheme 7.2 and freenode</title><link>https://freenode.net/news/atheme-7-2-and-freenode</link><description>&lt;p&gt;Hello!&lt;/p&gt;
 &lt;p&gt;We've begun some testing on Atheme's latest release, 7.2, and we'd like to invite interested users to help with that.&lt;/p&gt;
-&lt;p&gt;Not all changes the Atheme project has included in their new release will be included in our Atheme upgrade, so here's the bulk of the changes that will actually affect our network:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tomaw</dc:creator><pubDate>Sat, 08 Nov 2014 23:18:51 +0000</pubDate></item><item><title>User-enabled sendpass</title><link>https://freenode.net/news/user-enabled-sendpass</link><description>&lt;p&gt;As a network, we feel it is hugely important to maintain close relationships with our many communities and users. Our interactions with users in #freenode and elsewhere on the network, fielding support requests and assisting users, help build and maintain these relationships.&lt;/p&gt;
-&lt;p&gt;But we're constantly looking for things to change and make better, and one of the pieces of feedback we've had is that users would like a little automation - and the ability to be able to resolve some of their own support requests.&lt;/p&gt;
-&lt;p&gt;We recognise that allowing users to generate their own password reset e-mails brings us in line with other registration systems online and may provide a higher quality of service.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">njan</dc:creator><pubDate>Wed, 29 Oct 2014 21:20:17 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Not all changes the Atheme project has included in their new release will be included in our Atheme upgrade, so here's the bulk of the changes that will actually affect our network:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tomaw</dc:creator><pubDate>Sat, 08 Nov 2014 23:18:51 +0000</pubDate></item></channel></rss>
