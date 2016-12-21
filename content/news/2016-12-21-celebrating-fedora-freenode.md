@@ -89,7 +89,7 @@ What's next for Fedora?
 As 2016 comes to an end, we're wrapping up on our own new release of
 Fedora 25. The Fedora community is looking forward to helping drive open
 source innovation and contributing to the Linux community for many years
-to come. Feodra currently has more than 2,000 contributors, and in the
+to come. Fedora currently has more than 2,000 contributors, and in the
 tenth percentile of active contributors, 65% of them are from the
 community ([State of Fedora, Flock
 2016](https://mattdm.org/fedora/2016flock/StateofFedoraAugust2016-v160731a.pdf)).
