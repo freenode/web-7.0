@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 21 Dec 2016 12:00:00 -0500</lastBuildDate><item><title>Celebrating Fedora 25 with freenode</title><link>https://freenode.net/news/celebrating-fedora-freenode</link><description>&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sat, 31 Dec 2016 12:34:56 +0000</lastBuildDate><item><title>Happy New Year!</title><link>https://freenode.net/news/2016-is-finally-dead</link><description>&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+of. For many the year has been dominated by uncertainty, by fear, and by
+sadness—a year dominated, in no small part, by the political shift on both
+sides of the Atlantic.&lt;/p&gt;
+&lt;p&gt;And a year dominated by death. We have looked on in surprise as icon after icon
+has passed away throughout the course of the year. We have looked on in sadness
+as masses of people have succumbed to terror and war. We have looked on as
+people try to flee, in search of a better life, often not succeeding. And as a
+project based in the UK we look on as the government tries to do its best to
+put an end to our digital rights, to our privacy.&lt;/p&gt;
+&lt;p&gt;Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
+They came out of nowhere and there were lots of them. Their arrival caused some
+distress to the existing communities on the network at the time; freenode
+predominantly caters to free and open source software developers and users and
+we were all somewhat perplexed when our network was overrun by teenagers
+wanting to chat about girls and football. They all seemed to be connecting from
+Syria.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sat, 31 Dec 2016 12:34:56 +0000</pubDate></item><item><title>Celebrating Fedora 25 with freenode</title><link>https://freenode.net/news/celebrating-fedora-freenode</link><description>&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
 &lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
 Project&lt;/a&gt; released Fedora 25,
 the latest and greatest version of our
@@ -123,6 +139,4 @@ weeks past the last use.&lt;/p&gt;</description><dc:creator xmlns:dc="http://pur
 &lt;p&gt;Therefore, please remember to identify to services when you connect ( /msg nickserv help identify ) and to use your grouped nicks whilst identified - remember, they all expire separately.  &lt;/p&gt;
 &lt;p&gt;Nicks that are past the expiry threshold of 120 days unidentified on October 2nd will be freed from the database and available for others to register.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mrmist</dc:creator><pubDate>Fri, 18 Sep 2015 08:58:13 +0000</pubDate></item><item><title>Helping GNOME defend its trademark</title><link>https://freenode.net/news/helping-gnome-defend-its-trademark</link><description>&lt;p&gt;The GNOME project will be familiar to the vast majority of our users, what you might not be aware of is that the project is currently facing an expensive trademark battle against Groupon with the latter having allegedly chosen to infringe upon GNOME's trademark by launching a product with the same name (a POS "operating system for merchants to run their entire operation").&lt;/p&gt;
 &lt;p&gt;I am not going to go into the details here, as they have been explained by the GNOME project over at &lt;a href="http://www.gnome.org/groupon/"&gt;http://www.gnome.org/groupon/&lt;/a&gt; and the GNOME folk are in a much better position than me to provide more detailed information on the matter.&lt;/p&gt;
-&lt;p&gt;What I am going to do is appeal for your help. The GNOME project is looking to raise $80,000 to cover the legal costs involved in defending their trademark. At the time of writing this post the freenode network has 89,998 connected users. Users who are passionate about FOSS.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 11 Nov 2014 10:49:11 +0000</pubDate></item><item><title>Atheme 7.2 and freenode</title><link>https://freenode.net/news/atheme-7-2-and-freenode</link><description>&lt;p&gt;Hello!&lt;/p&gt;
-&lt;p&gt;We've begun some testing on Atheme's latest release, 7.2, and we'd like to invite interested users to help with that.&lt;/p&gt;
-&lt;p&gt;Not all changes the Atheme project has included in their new release will be included in our Atheme upgrade, so here's the bulk of the changes that will actually affect our network:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tomaw</dc:creator><pubDate>Sat, 08 Nov 2014 23:18:51 +0000</pubDate></item></channel></rss>
+&lt;p&gt;What I am going to do is appeal for your help. The GNOME project is looking to raise $80,000 to cover the legal costs involved in defending their trademark. At the time of writing this post the freenode network has 89,998 connected users. Users who are passionate about FOSS.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 11 Nov 2014 10:49:11 +0000</pubDate></item></channel></rss>
