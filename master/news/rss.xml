@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sat, 31 Dec 2016 12:34:56 +0000</lastBuildDate><item><title>Happy New Year!</title><link>https://freenode.net/news/2016-is-finally-dead</link><description>&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sat, 31 Dec 2016 09:46:58 +0000</lastBuildDate><item><title>Happy New Year!</title><link>https://freenode.net/news/2016-is-finally-dead</link><description>&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
 of. For many the year has been dominated by uncertainty, by fear, and by
 sadness—a year dominated, in no small part, by the political shift on both
 sides of the Atlantic.&lt;/p&gt;
@@ -15,7 +15,7 @@ distress to the existing communities on the network at the time; freenode
 predominantly caters to free and open source software developers and users and
 we were all somewhat perplexed when our network was overrun by teenagers
 wanting to chat about girls and football. They all seemed to be connecting from
-Syria.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sat, 31 Dec 2016 12:34:56 +0000</pubDate></item><item><title>Celebrating Fedora 25 with freenode</title><link>https://freenode.net/news/celebrating-fedora-freenode</link><description>&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+Syria.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sat, 31 Dec 2016 09:46:58 +0000</pubDate></item><item><title>Celebrating Fedora 25 with freenode</title><link>https://freenode.net/news/celebrating-fedora-freenode</link><description>&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
 &lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
 Project&lt;/a&gt; released Fedora 25,
 the latest and greatest version of our
