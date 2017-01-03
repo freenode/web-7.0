@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 03 Jan 2017 11:33:00 +0100</lastBuildDate><item><title>New Year, New freenode</title><link>https://freenode.net/news/new-year-new-freenode</link><description>&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance and some minor upgrades that could cause some disruption on the freenode network as servers are being brought down for maintenance, etc. &lt;/p&gt;
-&lt;p&gt;We would like to apologise in advance and further updates will be provided by way of global notices and wallops, depending on what we deem necessary for the interventions concerned.&lt;/p&gt;
-&lt;p&gt;Thank you for your patience and understanding while we carry out the maintenance and thank you for using freenode!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 03 Jan 2017 11:33:00 +0100</pubDate></item><item><title>Happy New Year!</title><link>https://freenode.net/news/2016-is-finally-dead</link><description>&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 03 Jan 2017 11:33:00 +0000</lastBuildDate><item><title>New Year, New freenode</title><link>https://freenode.net/news/new-year-new-freenode</link><description>&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 03 Jan 2017 11:33:00 +0000</pubDate></item><item><title>Happy New Year!</title><link>https://freenode.net/news/2016-is-finally-dead</link><description>&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
 of. For many the year has been dominated by uncertainty, by fear, and by
 sadness—a year dominated, in no small part, by the political shift on both
 sides of the Atlantic.&lt;/p&gt;

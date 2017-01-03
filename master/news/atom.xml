@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-01-03T11:33:00+01:00</updated><entry><title>New Year, New freenode</title><link href="https://freenode.net/news/new-year-new-freenode" rel="alternate"></link><published>2017-01-03T11:33:00+01:00</published><updated>2017-01-03T11:33:00+01:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-01-03:/news/new-year-new-freenode</id><summary type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance and some minor upgrades that could cause some disruption on the freenode network as servers are being brought down for maintenance, etc. &lt;/p&gt;
-&lt;p&gt;We would like to apologise in advance and further updates will be provided by way of global notices and wallops, depending on what we deem necessary for the interventions concerned.&lt;/p&gt;
-&lt;p&gt;Thank you for your patience and understanding while we carry out the maintenance and thank you for using freenode!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance and some minor upgrades that could cause some disruption on the freenode network as servers are being brought down for maintenance, etc. &lt;/p&gt;
-&lt;p&gt;We would like to apologise in advance and further updates will be provided by way of global notices and wallops, depending on what we deem necessary for the interventions concerned.&lt;/p&gt;
-&lt;p&gt;Thank you for your patience and understanding while we carry out the maintenance and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Happy New Year!</title><link href="https://freenode.net/news/2016-is-finally-dead" rel="alternate"></link><published>2016-12-31T09:46:58+00:00</published><updated>2016-12-31T09:46:58+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-31:/news/2016-is-finally-dead</id><summary type="html">&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-01-03T11:33:00+00:00</updated><entry><title>New Year, New freenode</title><link href="https://freenode.net/news/new-year-new-freenode" rel="alternate"></link><published>2017-01-03T11:33:00+00:00</published><updated>2017-01-03T11:33:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-01-03:/news/new-year-new-freenode</id><summary type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Happy New Year!</title><link href="https://freenode.net/news/2016-is-finally-dead" rel="alternate"></link><published>2016-12-31T09:46:58+00:00</published><updated>2016-12-31T09:46:58+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-31:/news/2016-is-finally-dead</id><summary type="html">&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
 of. For many the year has been dominated by uncertainty, by fear, and by
 sadness—a year dominated, in no small part, by the political shift on both
 sides of the Atlantic.&lt;/p&gt;
