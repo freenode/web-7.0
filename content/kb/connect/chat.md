@@ -30,11 +30,9 @@ Certificate verification will generally only work when connecting to
 make sure you are connecting to `chat.freenode.net` rather than any other name
 that leads to freenode.
 
- For most clients this should be sufficient. If not, you can download the
- required intermediate cert from
- [Gandi](http://crt.gandi.net/GandiStandardSSLCA.crt) and the root cert from
- [Instant
- SSL](http://www.instantssl.com/ssl-certificate-support/cert_installation/UTN-USERFirst-Hardware.crt).
+For most clients this should be sufficient. If not, you can download the root
+certificate from
+[IdenTrust](https://www.identrust.com/certificates/trustid/root-download-x3.html).
 
 Client SSL certificates are also supported, and may be used for identification
 to services. See [this kb article](kb/using/certfp). If you have connected with
@@ -46,8 +44,8 @@ fingerprint in place of _f1ecf46..._) will appear in WHOIS (a 276 numeric).
 
 freenode is also reachable via [Tor<i class="fa fa-external-link"
 aria-hidden="true"></i>](https://www.torproject.org/), bound to some
-restrictions. You can't directly connect to chat.freenode.net via Tor but
-rather have to use the following hidden service as server address:
+restrictions. You can't directly connect to chat.freenode.net via Tor; use
+the following hidden service as the server address instead:
 
     freenodeok2gncmy.onion
 
@@ -55,7 +53,7 @@ The hidden service requires SASL authentication. In addition, due to the abuse
 that led Tor access to be disabled in the past, we have unfortunately had to
 add another couple of restrictions:
 
-- You must log in using SASL's `EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` (more
+- You must log in using SASL `EXTERNAL` or `ECDSA-NIST256P-CHALLENGE` (more
   below)
 - If you log out while connected via Tor, you will not be able to log in
   without reconnecting.
@@ -63,11 +61,10 @@ add another couple of restrictions:
 If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate and add that to your
 NickServ account. This is documented [in our knowledge base](kb/using/certfp).
-Note that due to the SSL certificates not matching the hidden service, you
-might have to disable the verification in your client.
 
-If your client supports *key* pinning, you can verify our Tor server's public
-key fingerprint:
+Note that due to the SSL certificates not matching the hidden service, you
+might have to disable the verification in your client. If your client supports
+*key* pinning, you can verify our Tor server's public key fingerprint:
 
     E0:1B:31:80:56:D9:78:C4:2B:2D:3F:B2:DB:81:AB:03:15:59:BF:04:7E:31:E8:60:5F:98:07:A1:BB:8F:A3:0D
 
