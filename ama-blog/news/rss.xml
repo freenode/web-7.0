@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 03 Jan 2017 11:33:00 +0000</lastBuildDate><item><title>New Year, New freenode</title><link>https://freenode.net/news/new-year-new-freenode</link><description>&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sat, 21 Jan 2017 15:24:00 +0000</lastBuildDate><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+opportunity to learn about one of our many groups on freenode.
+Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
+his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
+Anything" (AMA) session.&lt;/p&gt;
+&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
+it is an opportunity for you to ask the Fedora project all of those questions
+that you have been wondering. You can ask about the project itself, how they
+utilize freenode, ways to start contributing, or any other topics you might be
+interested in learning more about.&lt;/p&gt;
+&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
+You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nathan Handler (nhandler)</dc:creator><pubDate>Sat, 21 Jan 2017 15:24:00 +0000</pubDate></item><item><title>New Year, New freenode</title><link>https://freenode.net/news/new-year-new-freenode</link><description>&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
 and some minor upgrades that could cause some disruption on the freenode
 network as servers are being brought down for maintenance, etc.&lt;/p&gt;
 &lt;p&gt;We would like to apologise in advance and further updates will be provided by
@@ -142,6 +154,4 @@ account, regardless of the nickname you used to do so. Nicknames which are the
 primary account name only expire when the entire account is expired.&lt;/strong&gt;
 In some cases, such as for very old accounts, we may, at our discretion, extend
 the expiry time of a nickname or account. We will not normally do this beyond 15
-weeks past the last use.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator><pubDate>Fri, 19 Feb 2016 13:11:52 +0000</pubDate></item><item><title>Services database purge</title><link>https://freenode.net/news/services-database-purge</link><description>&lt;p&gt;On or around Friday, October 2nd, we shall be cleaning up the services database.  This involves the bulk removal of expired nicks, channels and accounts.&lt;/p&gt;
-&lt;p&gt;Therefore, please remember to identify to services when you connect ( /msg nickserv help identify ) and to use your grouped nicks whilst identified - remember, they all expire separately.  &lt;/p&gt;
-&lt;p&gt;Nicks that are past the expiry threshold of 120 days unidentified on October 2nd will be freed from the database and available for others to register.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mrmist</dc:creator><pubDate>Fri, 18 Sep 2015 08:58:13 +0000</pubDate></item></channel></rss>
+weeks past the last use.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator><pubDate>Fri, 19 Feb 2016 13:11:52 +0000</pubDate></item></channel></rss>
