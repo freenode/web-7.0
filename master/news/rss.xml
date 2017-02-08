@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sat, 21 Jan 2017 15:24:00 +0000</lastBuildDate><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 08 Feb 2017 20:00:00 +0100</lastBuildDate><item><title>Django and freenode</title><link>https://freenode.net/news/django-and-freenode</link><description>&lt;p&gt;For nearly twelve years, the Django Project has endeavoured to improve "the web framework for perfectionists with deadlines." Django is a high-level Python Web framework that encourage rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation as a fellow, to manage some of the administrative and community management tasks of the Django project to support rapid development of Django itself. The fellowship program has a major positive impact on how Django is developed and maintained, and I’d encourage any large open source project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual conferences and local meetups. Sprints are often held at these events, but Django’s development is mainly coordinated remotely, so good communication tools are important to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tim Graham (timograham)</dc:creator><pubDate>Wed, 08 Feb 2017 20:00:00 +0100</pubDate></item><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
 opportunity to learn about one of our many groups on freenode.
 Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
 his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
@@ -141,17 +143,4 @@ had gone wrong and what we should do about it.&lt;/p&gt;
 the strong idea that the projects and communities which use it should be the
 first, and often the only, priority. We've lost sight of that, and we're sorry.
 We'll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator><pubDate>Fri, 19 Feb 2016 13:11:54 +0000</pubDate></item><item><title>The New Policies</title><link>https://freenode.net/news/the-new-policies</link><description>&lt;p&gt;One of the several problems that's become obvious in recent times is that we  have too many policies, they're often not consistent with each other, and we've spent too much time and effort wondering whether something, which is obviously the right thing to do, fits with our published policy. With that in mind, the following stripped-back set of policies will apply in future, with the intention that we can set out a simple set of baselines and apply common sense on top of them.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nickname ownership&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Nicknames are allocated on a first-come, first-served basis, to the first person
-who registers the name with NickServ. However, we expect users to act in good
-faith and reserve the right to remove a nickname registration where we believe
-that this has not been the case.
-&lt;strong&gt;Nickname and account registrations expire ten weeks after they are last used.
-For nicknames, 'used' means that you were using the nickname while logged in to
-the account which owns it. For accounts, 'used' means that you logged in to the
-account, regardless of the nickname you used to do so. Nicknames which are the
-primary account name only expire when the entire account is expired.&lt;/strong&gt;
-In some cases, such as for very old accounts, we may, at our discretion, extend
-the expiry time of a nickname or account. We will not normally do this beyond 15
-weeks past the last use.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator><pubDate>Fri, 19 Feb 2016 13:11:52 +0000</pubDate></item></channel></rss>
+made freenode such a great place.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator><pubDate>Fri, 19 Feb 2016 13:11:54 +0000</pubDate></item></channel></rss>

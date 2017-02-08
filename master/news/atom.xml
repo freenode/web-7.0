@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-01-21T15:24:00+00:00</updated><entry><title>Fedora AMA</title><link href="https://freenode.net/news/fedora-ama" rel="alternate"></link><published>2017-01-21T15:24:00+00:00</published><updated>2017-01-21T15:24:00+00:00</updated><author><name>Nathan Handler (nhandler)</name></author><id>tag:freenode.net,2017-01-21:/news/fedora-ama</id><summary type="html">&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-02-08T20:00:00+01:00</updated><entry><title>Django and freenode</title><link href="https://freenode.net/news/django-and-freenode" rel="alternate"></link><published>2017-02-08T20:00:00+01:00</published><updated>2017-02-08T20:00:00+01:00</updated><author><name>Tim Graham (timograham)</name></author><id>tag:freenode.net,2017-02-08:/news/django-and-freenode</id><summary type="html">&lt;p&gt;For nearly twelve years, the Django Project has endeavoured to improve "the web framework for perfectionists with deadlines." Django is a high-level Python Web framework that encourage rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation as a fellow, to manage some of the administrative and community management tasks of the Django project to support rapid development of Django itself. The fellowship program has a major positive impact on how Django is developed and maintained, and I’d encourage any large open source project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual conferences and local meetups. Sprints are often held at these events, but Django’s development is mainly coordinated remotely, so good communication tools are important to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;For nearly twelve years, the Django Project has endeavoured to improve "the web framework for perfectionists with deadlines." Django is a high-level Python Web framework that encourage rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation as a fellow, to manage some of the administrative and community management tasks of the Django project to support rapid development of Django itself. The fellowship program has a major positive impact on how Django is developed and maintained, and I’d encourage any large open source project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual conferences and local meetups. Sprints are often held at these events, but Django’s development is mainly coordinated remotely, so good communication tools are important to us.&lt;/p&gt;
+&lt;h2 id="how-django-uses-freenode"&gt;How Django uses freenode&lt;/h2&gt;
+&lt;p&gt;Our community support channels include #django and the django-users mailing list. Discussions about the development of Django itself are held in #django-dev and the django-developers mailing list. #django-sprint provides a chat for sprint participants, including those who want to join remotely.  Finally, private discussions of the Django team are held in the #django-core channel.&lt;/p&gt;
+&lt;p&gt;To keep our community safe and welcoming, Django's Code of Conduct applies to all spaces managed by the Django project or Django Software Foundation (DSF). This includes IRC, the mailing lists, the issue tracker, DSF events, and any other forums created by the project team which the community uses for communication.&lt;/p&gt;
+&lt;h2 id="whats-next-for-django"&gt;What's next for Django?&lt;/h2&gt;
+&lt;p&gt;We're currently working toward releasing Django 1.11, our next long-term support release, in April. This will be the last version of Django to support Python 2.7. Meanwhile, Django's master development branch is targeting Django 2.0 and will support Python 3 only. More details are available on our roadmap.&lt;/p&gt;
+&lt;p&gt;If you’re interested in learning more about Django, try our tutorial. If you’re already a Django user and want to start contributing, our documentation is extensive, including advice for new contributors.&lt;/p&gt;</content></entry><entry><title>Fedora AMA</title><link href="https://freenode.net/news/fedora-ama" rel="alternate"></link><published>2017-01-21T15:24:00+00:00</published><updated>2017-01-21T15:24:00+00:00</updated><author><name>Nathan Handler (nhandler)</name></author><id>tag:freenode.net,2017-01-21:/news/fedora-ama</id><summary type="html">&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
 opportunity to learn about one of our many groups on freenode.
 Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
 his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
@@ -470,61 +480,4 @@ designated lead.&lt;/p&gt;
 &lt;p&gt;These four, together, will take any decisions that affect the future direction
 of freenode. While they each have their own area of focus, feel free to contact
 any of us about any issues you may have -- we try to keep an open (virtual) door
-policy.&lt;/p&gt;</content></entry><entry><title>The New Policies</title><link href="https://freenode.net/news/the-new-policies" rel="alternate"></link><published>2016-02-19T13:11:52+00:00</published><updated>2016-02-19T13:11:52+00:00</updated><author><name>spb</name></author><id>tag:freenode.net,2016-02-19:/news/the-new-policies</id><summary type="html">&lt;p&gt;One of the several problems that's become obvious in recent times is that we  have too many policies, they're often not consistent with each other, and we've spent too much time and effort wondering whether something, which is obviously the right thing to do, fits with our published policy. With that in mind, the following stripped-back set of policies will apply in future, with the intention that we can set out a simple set of baselines and apply common sense on top of them.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nickname ownership&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Nicknames are allocated on a first-come, first-served basis, to the first person
-who registers the name with NickServ. However, we expect users to act in good
-faith and reserve the right to remove a nickname registration where we believe
-that this has not been the case.
-&lt;strong&gt;Nickname and account registrations expire ten weeks after they are last used.
-For nicknames, 'used' means that you were using the nickname while logged in to
-the account which owns it. For accounts, 'used' means that you logged in to the
-account, regardless of the nickname you used to do so. Nicknames which are the
-primary account name only expire when the entire account is expired.&lt;/strong&gt;
-In some cases, such as for very old accounts, we may, at our discretion, extend
-the expiry time of a nickname or account. We will not normally do this beyond 15
-weeks past the last use.&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of the several problems that's become obvious in recent times is that we  have too many policies, they're often not consistent with each other, and we've spent too much time and effort wondering whether something, which is obviously the right thing to do, fits with our published policy. With that in mind, the following stripped-back set of policies will apply in future, with the intention that we can set out a simple set of baselines and apply common sense on top of them.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Nickname ownership&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Nicknames are allocated on a first-come, first-served basis, to the first person
-who registers the name with NickServ. However, we expect users to act in good
-faith and reserve the right to remove a nickname registration where we believe
-that this has not been the case.
-&lt;strong&gt;Nickname and account registrations expire ten weeks after they are last used.
-For nicknames, 'used' means that you were using the nickname while logged in to
-the account which owns it. For accounts, 'used' means that you logged in to the
-account, regardless of the nickname you used to do so. Nicknames which are the
-primary account name only expire when the entire account is expired.&lt;/strong&gt;
-In some cases, such as for very old accounts, we may, at our discretion, extend
-the expiry time of a nickname or account. We will not normally do this beyond 15
-weeks past the last use.&lt;/p&gt;
-&lt;p&gt;Some nicknames and accounts, including but not limited to some of those owned by
-current or former network staff, do not expire at all. These accounts can be
-identified by the 'Hold' flag in their NickServ info output.&lt;/p&gt;
-&lt;p&gt;Nicknames and accounts which are expired will not automatically be dropped.
-Please contact network staff if you would like to take over an expired nickname.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Channel ownership&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Channels on freenode fall into one of two categories. Primary channels, which
-begin with a single # character, are reserved for on-topic projects. If you'd
-like to take over one of these channels, then you'll need to be associated in
-some way with the project in question. Topical, or 'about' channels, begin with
-two # characters, and these are allocated on a first-come, first-served basis to
-the first person who registers it with ChanServ. As with nicknames, however, we
-reserve the right to remove or alter registrations where we believe they have
-not been made in good faith.&lt;/p&gt;
-&lt;p&gt;Primary channels do not expire with inactivity, though they can be claimed at
-any time by a representative of an on-topic project with the appropriate name.
-Topical channels expire after 60 days in which no user on the access list for
-the channel has joined it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;On-topic Use&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;freenode's primary goal is to encourage and foster the development and use of
-free and open source software projects and other peer-directed communities
-producing broadly licensed creative output. Any project falling under this broad
-description is likely to be considered on-topic for the purposes of primary
-channel naming and other project services which we may provide, but individual
-decisions may be made at the discretion of staff.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Off-topic Use&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We expect all users of the network, whether affiliated with a project or not, to
-act in good faith and in accordance with both their local laws and those
-applicable where freenode operates. Use of freenode and its facilities is a
-privilege, not a right, and may be withdrawn where we believe that this has not
-been the case.&lt;/p&gt;</content></entry></feed>
+policy.&lt;/p&gt;</content></entry></feed>
