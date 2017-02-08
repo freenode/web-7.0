@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 08 Feb 2017 20:00:00 +0100</lastBuildDate><item><title>Django and freenode</title><link>https://freenode.net/news/django-and-freenode</link><description>&lt;p&gt;For nearly twelve years, the Django Project has endeavoured to improve "the web framework for perfectionists with deadlines." Django is a high-level Python Web framework that encourage rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. Of course, it's free and open source.&lt;/p&gt;
-&lt;p&gt;I’m contracted full-time by the Django Software Foundation as a fellow, to manage some of the administrative and community management tasks of the Django project to support rapid development of Django itself. The fellowship program has a major positive impact on how Django is developed and maintained, and I’d encourage any large open source project to consider a similar program.&lt;/p&gt;
-&lt;p&gt;The Django community is vibrant across the globe, with many annual conferences and local meetups. Sprints are often held at these events, but Django’s development is mainly coordinated remotely, so good communication tools are important to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tim Graham (timograham)</dc:creator><pubDate>Wed, 08 Feb 2017 20:00:00 +0100</pubDate></item><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 08 Feb 2017 20:00:00 +0100</lastBuildDate><item><title>Django and freenode</title><link>https://freenode.net/news/django-and-freenode</link><description>&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+has endeavoured to improve "the web framework for perfectionists with
+deadlines." Django is a high-level Python Web framework that encourage
+rapid development and clean, pragmatic design. Built by experienced
+developers, it takes care of much of the hassle of Web development,
+so you can focus on writing your app without needing to reinvent the
+wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation
+&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
+to manage some of the administrative and community management tasks of
+the Django project to support rapid development of Django itself. The
+fellowship program has a major positive impact on how Django is
+developed and maintained, and I’d encourage any large open source
+project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual
+conferences and local meetups. Sprints are often held at these events,
+but Django’s development is mainly coordinated remotely, so good
+communication tools are important to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tim Graham (timograham)</dc:creator><pubDate>Wed, 08 Feb 2017 20:00:00 +0100</pubDate></item><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
 opportunity to learn about one of our many groups on freenode.
 Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
 his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
