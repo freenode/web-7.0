@@ -47,15 +47,15 @@
 
 On ^*:LOGON:*: {
   if ($version < 7.42) {
-    debug -ip $iif($debug,$v1,on) SHITTY_SASL
+    .debug -ip $iif($debug,$debug,on) SHITTY_SASL
 } }
 
 ALIAS SHITTY_SASL {
   if ($regex($1-,/^-> \S+ PASS (\S+?):(\S+)$/)) {
     noop $SUPER_SHITTY_SASL_AUTH($regml(1),$regml(2))
-    debug $iif($window($debug),$v1,off)
+    .debug $iif($window($debug),$debug,off)
   }
-  if ($1 == <-) { debug $iif($window($debug),$v1,off) }
+  if ($1 == <-) { .debug $iif($window($debug),$debug,off) }
   return $1-
 }
 
