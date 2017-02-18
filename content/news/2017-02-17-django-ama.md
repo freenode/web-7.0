@@ -5,17 +5,18 @@ Date: 2017-02-17 17:55Z
 Slug: django-ama
 ---
 
-Get your calendars out and start thinking of tricky questions,
-once again [the freenode community team](http://freenode.net/news/community)
-is pleased to announce another AMA, this time [Django](https://www.djangoproject.com)
+Sart thinking of tricky questions!
+Once again [the freenode community team](http://freenode.net/news/community)
+is pleased to announce another AMA, Ask Me Anything. This time [Django](https://www.djangoproject.com)
 will be our guest. Read more about them in the
 [blog post](http://freenode.net/news/django-and-freenode) published last week.
 
-Take the oppurtunity to ask Django all your questions about them,
+This is your chance to ask Django all your questions about them,
 how they utilize freenode, how you can contribute, or anything else you would
 be intrested in learning about them
 
-The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017.
+The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you won't miss it.
 You can watch the AMA in #freenode-ama and participate by asking questions
 in #freenode-ama-questions during the session.
 
