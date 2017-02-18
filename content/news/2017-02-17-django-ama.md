@@ -11,12 +11,12 @@ is pleased to announce another Ask Me Anything (AMA). This time [Django](https:/
 will be our guest. Read more about them in the
 [blog post](http://freenode.net/news/django-and-freenode) published last week.
 
-This is your chance to ask Django all your questions about them,
+This is your chance to ask Django all your questions about them:
 how they utilize freenode, how you can contribute, or anything else you would
-be intrested in learning about them
+be intrested in learning about them!
 
 The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
-so grab your calendar and make sure you won't miss it.
+so grab your calendar and make sure you don't miss it.
 You can watch the AMA in #freenode-ama and participate by asking questions
 in #freenode-ama-questions during the session.
 
