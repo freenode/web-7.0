@@ -7,7 +7,7 @@ Slug: django-ama
 
 Sart thinking of tricky questions!
 Once again [the freenode community team](http://freenode.net/news/community)
-is pleased to announce another AMA, Ask Me Anything. This time [Django](https://www.djangoproject.com)
+is pleased to announce another Ask Me Anything (AMA). This time [Django](https://www.djangoproject.com)
 will be our guest. Read more about them in the
 [blog post](http://freenode.net/news/django-and-freenode) published last week.
 
