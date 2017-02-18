@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-02-08T20:00:00+01:00</updated><entry><title>Django and freenode</title><link href="https://freenode.net/news/django-and-freenode" rel="alternate"></link><published>2017-02-08T20:00:00+01:00</published><updated>2017-02-08T20:00:00+01:00</updated><author><name>Tim Graham (timograham)</name></author><id>tag:freenode.net,2017-02-08:/news/django-and-freenode</id><summary type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-02-17T17:55:00+00:00</updated><entry><title>Django AMA</title><link href="https://freenode.net/news/django-ama" rel="alternate"></link><published>2017-02-17T17:55:00+00:00</published><updated>2017-02-17T17:55:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2017-02-17:/news/django-ama</id><summary type="html">&lt;p&gt;Sart thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them,
+how they utilize freenode, how you can contribute, or anything else you would
+be intrested in learning about them&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you won't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Sart thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them,
+how they utilize freenode, how you can contribute, or anything else you would
+be intrested in learning about them&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you won't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session.&lt;/p&gt;
+&lt;p&gt;We hope to hold more Ask Me Anything sessions in the future.
+If this is something your project would be interested in, please
+reach out to us in #freenode-community or at community@freenode.net.&lt;/p&gt;</content></entry><entry><title>Django and freenode</title><link href="https://freenode.net/news/django-and-freenode" rel="alternate"></link><published>2017-02-08T20:00:00+01:00</published><updated>2017-02-08T20:00:00+01:00</updated><author><name>Tim Graham (timograham)</name></author><id>tag:freenode.net,2017-02-08:/news/django-and-freenode</id><summary type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
 has endeavoured to improve "the web framework for perfectionists with
 deadlines." Django is a high-level Python Web framework that encourage
 rapid development and clean, pragmatic design. Built by experienced
@@ -471,63 +496,4 @@ to close the loopholes are running at &lt;a href="https://www.savenetneutrality.
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
 &lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</content></entry><entry><title>New Website</title><link href="https://freenode.net/news/new-website" rel="alternate"></link><published>2016-03-22T23:25:00+00:00</published><updated>2016-03-22T23:25:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-03-22:/news/new-website</id><summary type="html">&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
 &lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</summary><content type="html">&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
-&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</content></entry><entry><title>Recent Events and Future Changes</title><link href="https://freenode.net/news/recent-events-and-future-changes" rel="alternate"></link><published>2016-02-19T13:11:54+00:00</published><updated>2016-02-19T13:11:54+00:00</updated><author><name>spb</name></author><id>tag:freenode.net,2016-02-19:/news/recent-events-and-future-changes</id><summary type="html">&lt;p&gt;Many of you have been asking questions about the recent rash of high-profile
-staff resignations, and we feel we owe you all both an explanation and an
-apology.&lt;/p&gt;
-&lt;p&gt;First, the explanation: in short, it's become clear over recent months that
-freenode has lost its way somewhat, when compared to the ideals and goals that
-we were created with. A growing sense of disillusionment amongst those of us who
-remember the olden days, when we were far more friendly, approachable and
-engaged in the communities we were set up to serve, has recently come to a head.
-Naturally, when some of these people decided they could no longer continue with
-the way things had become, it was time for us to think long and hard about what
-had gone wrong and what we should do about it.&lt;/p&gt;
-&lt;p&gt;And so, to the apology. We're uncomfortably aware that freenode was set up with
-the strong idea that the projects and communities which use it should be the
-first, and often the only, priority. We've lost sight of that, and we're sorry.
-We'll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Many of you have been asking questions about the recent rash of high-profile
-staff resignations, and we feel we owe you all both an explanation and an
-apology.&lt;/p&gt;
-&lt;p&gt;First, the explanation: in short, it's become clear over recent months that
-freenode has lost its way somewhat, when compared to the ideals and goals that
-we were created with. A growing sense of disillusionment amongst those of us who
-remember the olden days, when we were far more friendly, approachable and
-engaged in the communities we were set up to serve, has recently come to a head.
-Naturally, when some of these people decided they could no longer continue with
-the way things had become, it was time for us to think long and hard about what
-had gone wrong and what we should do about it.&lt;/p&gt;
-&lt;p&gt;And so, to the apology. We're uncomfortably aware that freenode was set up with
-the strong idea that the projects and communities which use it should be the
-first, and often the only, priority. We've lost sight of that, and we're sorry.
-We'll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.&lt;/p&gt;
-&lt;p&gt;This won't be easy for us, as we've got years of bad habits to break, but
-hopefully you should start seeing some improvements in the coming months. If you
-see anything that we're not doing that would help your communities, please tell
-us and we'll try our best to find a way to make it happen. You might see a bit
-of chaos or inconsistency while we try to find our way around again, but please
-try to bear with us and we hope you'll see things get better in time.&lt;/p&gt;
-&lt;p&gt;And finally, because we're conscious that a lack of clarity around our
-leadership structure has not helped matters, we've decided to set out
-unambiguously how the staff management structure will work from now on. Our
-activities and operations will be split roughly into four areas, each with a
-designated lead.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;mist is head of staff, and in charge of day to day network operations and general staff issues.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;kloeri is head of infrastructure, in charge of making sure that the network continues to run in a usable fashion and that we have the right hardware and server platforms in place to provide the services we want to.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;spb is head of development, in charge of the software platforms that we use to run the network.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;christel is head of projects and communities, and also the overall project lead in charge of the other three heads. She'll be trying to make sure that we get back the levels of engagement that we once had with the projects we're here to serve.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These four, together, will take any decisions that affect the future direction
-of freenode. While they each have their own area of focus, feel free to contact
-any of us about any issues you may have -- we try to keep an open (virtual) door
-policy.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</content></entry></feed>

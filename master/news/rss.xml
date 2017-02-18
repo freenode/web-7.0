@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 08 Feb 2017 20:00:00 +0100</lastBuildDate><item><title>Django and freenode</title><link>https://freenode.net/news/django-and-freenode</link><description>&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Fri, 17 Feb 2017 17:55:00 +0000</lastBuildDate><item><title>Django AMA</title><link>https://freenode.net/news/django-ama</link><description>&lt;p&gt;Sart thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them,
+how they utilize freenode, how you can contribute, or anything else you would
+be intrested in learning about them&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you won't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Swant</dc:creator><pubDate>Fri, 17 Feb 2017 17:55:00 +0000</pubDate></item><item><title>Django and freenode</title><link>https://freenode.net/news/django-and-freenode</link><description>&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
 has endeavoured to improve "the web framework for perfectionists with
 deadlines." Django is a high-level Python Web framework that encourage
 rapid development and clean, pragmatic design. Built by experienced
@@ -143,19 +154,4 @@ to close the loopholes are running at &lt;a href="https://www.savenetneutrality.
 &lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Mon, 04 Jul 2016 14:58:00 +0000</pubDate></item><item><title>AFD quiz</title><link>https://freenode.net/news/afd-2016</link><description>&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
 &lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mniip</dc:creator><pubDate>Fri, 01 Apr 2016 12:00:00 +0000</pubDate></item><item><title>New Website</title><link>https://freenode.net/news/new-website</link><description>&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
-&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 22 Mar 2016 23:25:00 +0000</pubDate></item><item><title>Recent Events and Future Changes</title><link>https://freenode.net/news/recent-events-and-future-changes</link><description>&lt;p&gt;Many of you have been asking questions about the recent rash of high-profile
-staff resignations, and we feel we owe you all both an explanation and an
-apology.&lt;/p&gt;
-&lt;p&gt;First, the explanation: in short, it's become clear over recent months that
-freenode has lost its way somewhat, when compared to the ideals and goals that
-we were created with. A growing sense of disillusionment amongst those of us who
-remember the olden days, when we were far more friendly, approachable and
-engaged in the communities we were set up to serve, has recently come to a head.
-Naturally, when some of these people decided they could no longer continue with
-the way things had become, it was time for us to think long and hard about what
-had gone wrong and what we should do about it.&lt;/p&gt;
-&lt;p&gt;And so, to the apology. We're uncomfortably aware that freenode was set up with
-the strong idea that the projects and communities which use it should be the
-first, and often the only, priority. We've lost sight of that, and we're sorry.
-We'll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">spb</dc:creator><pubDate>Fri, 19 Feb 2016 13:11:54 +0000</pubDate></item></channel></rss>
+&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 22 Mar 2016 23:25:00 +0000</pubDate></item></channel></rss>
