@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-02-17T17:55:00+00:00</updated><entry><title>Django AMA</title><link href="https://freenode.net/news/django-ama" rel="alternate"></link><published>2017-02-17T17:55:00+00:00</published><updated>2017-02-17T17:55:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2017-02-17:/news/django-ama</id><summary type="html">&lt;p&gt;Start thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them: 
+How do they utilize freenode? How can you contribute? And just who are these
+Django Girls we've heard so much about? Anything that you would be interested
+in learning about them, here's your opportunity!&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you don't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session. In the meantime be sure to
+visit their channel, #django, and get a head start on everyone else!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Start thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them: 
+How do they utilize freenode? How can you contribute? And just who are these
+Django Girls we've heard so much about? Anything that you would be interested
+in learning about them, here's your opportunity!&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you don't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session. In the meantime be sure to
+visit their channel, #django, and get a head start on everyone else!&lt;/p&gt;
+&lt;p&gt;We hope to hold more Ask Me Anything sessions in the future. If this is
+something your project would be interested in, please reach out to us in&lt;/p&gt;
+&lt;h2 id="freenode-community-or-at-amp99amp111amp109amp109amp117amp110amp105amp116amp121amp64amp102amp114amp101amp101amp110amp111amp100amp101amp46amp110amp101amp116"&gt;freenode-community or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/h2&gt;</content></entry><entry><title>Django and freenode</title><link href="https://freenode.net/news/django-and-freenode" rel="alternate"></link><published>2017-02-08T20:00:00+01:00</published><updated>2017-02-08T20:00:00+01:00</updated><author><name>Tim Graham (timograham)</name></author><id>tag:freenode.net,2017-02-08:/news/django-and-freenode</id><summary type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+has endeavoured to improve "the web framework for perfectionists with
+deadlines." Django is a high-level Python Web framework that encourage
+rapid development and clean, pragmatic design. Built by experienced
+developers, it takes care of much of the hassle of Web development,
+so you can focus on writing your app without needing to reinvent the
+wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation
+&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
+to manage some of the administrative and community management tasks of
+the Django project to support rapid development of Django itself. The
+fellowship program has a major positive impact on how Django is
+developed and maintained, and I’d encourage any large open source
+project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual
+conferences and local meetups. Sprints are often held at these events,
+but Django’s development is mainly coordinated remotely, so good
+communication tools are important to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+has endeavoured to improve "the web framework for perfectionists with
+deadlines." Django is a high-level Python Web framework that encourage
+rapid development and clean, pragmatic design. Built by experienced
+developers, it takes care of much of the hassle of Web development,
+so you can focus on writing your app without needing to reinvent the
+wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation
+&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
+to manage some of the administrative and community management tasks of
+the Django project to support rapid development of Django itself. The
+fellowship program has a major positive impact on how Django is
+developed and maintained, and I’d encourage any large open source
+project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual
+conferences and local meetups. Sprints are often held at these events,
+but Django’s development is mainly coordinated remotely, so good
+communication tools are important to us.&lt;/p&gt;
+&lt;h2 id="how-django-uses-freenode"&gt;How Django uses freenode&lt;/h2&gt;
+&lt;p&gt;Our community support channels include #django and the
+&lt;a href="https://groups.google.com/forum/#!forum/django-users"&gt;django-users mailing list&lt;/a&gt;.
+Discussions about the development of Django itself are held
+in #django-dev and the
+&lt;a href="https://groups.google.com/forum/#!forum/django-developers"&gt;django-developers mailing list&lt;/a&gt;. #django-sprint
+provides a chat for sprint participants, including those who want to
+join remotely. Finally, private discussions of the Django team are held
+in the #django-core channel.&lt;/p&gt;
+&lt;p&gt;To keep our community safe and welcoming, Django's
+&lt;a href="https://www.djangoproject.com/conduct/"&gt;Code of Conduct&lt;/a&gt; applies to
+all spaces managed by the Django project or Django Software Foundation
+(DSF). This includes IRC, the mailing lists, the issue tracker, DSF
+events, and any other forums created by the project team which the
+community uses for communication.&lt;/p&gt;
+&lt;h2 id="whats-next-for-django"&gt;What's next for Django?&lt;/h2&gt;
+&lt;p&gt;We're currently working toward releasing Django 1.11, our next
+long-term support release, in April. This will be the last version of
+Django to support Python 2.7. Meanwhile, Django's master development
+branch is targeting Django 2.0 and will support Python 3 only. More
+details are available on &lt;a href="https://www.djangoproject.com/download/#supported-versions"&gt;our roadmap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you’re interested in learning more about Django,
+&lt;a href="https://docs.djangoproject.com/en/stable/intro/tutorial01/"&gt;try our tutorial&lt;/a&gt;.
+If you’re already a Django user and want to start contributing, our
+documentation is extensive, including
+&lt;a href="https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/"&gt;advice for new contributors&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Fedora AMA</title><link href="https://freenode.net/news/fedora-ama" rel="alternate"></link><published>2017-01-21T15:24:00+00:00</published><updated>2017-01-21T15:24:00+00:00</updated><author><name>Nathan Handler (nhandler)</name></author><id>tag:freenode.net,2017-01-21:/news/fedora-ama</id><summary type="html">&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+opportunity to learn about one of our many groups on freenode.
+Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
+his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
+Anything" (AMA) session.&lt;/p&gt;
+&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
+it is an opportunity for you to ask the Fedora project all of those questions
+that you have been wondering. You can ask about the project itself, how they
+utilize freenode, ways to start contributing, or any other topics you might be
+interested in learning more about.&lt;/p&gt;
+&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
+You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+opportunity to learn about one of our many groups on freenode.
+Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
+his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
+Anything" (AMA) session.&lt;/p&gt;
+&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
+it is an opportunity for you to ask the Fedora project all of those questions
+that you have been wondering. You can ask about the project itself, how they
+utilize freenode, ways to start contributing, or any other topics you might be
+interested in learning more about.&lt;/p&gt;
+&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
+You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;
+&lt;p&gt;We hope to hold more Ask Me Anything sessions in the future. If this is something
+your project would be interested in, please reach out to us in &lt;code&gt;#freenode-community&lt;/code&gt;
+or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>New Year, New freenode</title><link href="https://freenode.net/news/new-year-new-freenode" rel="alternate"></link><published>2017-01-03T11:33:00+00:00</published><updated>2017-01-03T11:33:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-01-03:/news/new-year-new-freenode</id><summary type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Happy New Year!</title><link href="https://freenode.net/news/2016-is-finally-dead" rel="alternate"></link><published>2016-12-31T09:46:58+00:00</published><updated>2016-12-31T09:46:58+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-31:/news/2016-is-finally-dead</id><summary type="html">&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+of. For many the year has been dominated by uncertainty, by fear, and by
+sadness—a year dominated, in no small part, by the political shift on both
+sides of the Atlantic.&lt;/p&gt;
+&lt;p&gt;And a year dominated by death. We have looked on in surprise as icon after icon
+has passed away throughout the course of the year. We have looked on in sadness
+as masses of people have succumbed to terror and war. We have looked on as
+people try to flee, in search of a better life, often not succeeding. And as a
+project based in the UK we look on as the government tries to do its best to
+put an end to our digital rights, to our privacy.&lt;/p&gt;
+&lt;p&gt;Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
+They came out of nowhere and there were lots of them. Their arrival caused some
+distress to the existing communities on the network at the time; freenode
+predominantly caters to free and open source software developers and users and
+we were all somewhat perplexed when our network was overrun by teenagers
+wanting to chat about girls and football. They all seemed to be connecting from
+Syria.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+of. For many the year has been dominated by uncertainty, by fear, and by
+sadness—a year dominated, in no small part, by the political shift on both
+sides of the Atlantic.&lt;/p&gt;
+&lt;p&gt;And a year dominated by death. We have looked on in surprise as icon after icon
+has passed away throughout the course of the year. We have looked on in sadness
+as masses of people have succumbed to terror and war. We have looked on as
+people try to flee, in search of a better life, often not succeeding. And as a
+project based in the UK we look on as the government tries to do its best to
+put an end to our digital rights, to our privacy.&lt;/p&gt;
+&lt;p&gt;Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
+They came out of nowhere and there were lots of them. Their arrival caused some
+distress to the existing communities on the network at the time; freenode
+predominantly caters to free and open source software developers and users and
+we were all somewhat perplexed when our network was overrun by teenagers
+wanting to chat about girls and football. They all seemed to be connecting from
+Syria.&lt;/p&gt;
+&lt;p&gt;When Aleppo comes up in the news, many of us find ourselves thinking about those
+kids and what happened to them. One of our volunteers invested a fair amount of
+time trying to figure out where they ended up. When discussing it recently, he
+shared his experience:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“After a few weeks of surreal crazy chaos we worked out that they were using a
+Java IRC client - and internet café PCs - to connect to our system.  They
+didn't know what it was for or why it existed but they'd found real-time
+online communication for the first time and were enjoying the shit out of it.&lt;/p&gt;
+&lt;p&gt;I first used IRC in the 90s when an IRC client was given to me by a friend not
+very long after it was the medium for some of the first ever real-time citizen
+journalism during the 1991 Gulf War. In much the same way that someone threw
+some software at me in a computing lab in Oxford and showed me how to use it
+to chat, these kids were sharing and collaborating in the streets and using
+new tools to talk to the guy a computer or a block or a neighbourhood over
+with equal ease.&lt;/p&gt;
+&lt;p&gt;While we tried to shepherd a group of unruly teenagers into a corner where
+they would cause less trouble for everyone else, I got to know a couple of the
+better English-speakers quite well; they seemed mostly to be basically decent
+kids growing up much too quickly and experiencing my corner of the internet
+for the first time. They were mostly in Aleppo.&lt;/p&gt;
+&lt;p&gt;As the Arab Spring progressed they grew in number and it was genuinely cool
+watching them discover and explore. But as spring turned to summer and then
+autumn, they gradually dropped in number and started to vanish. After a while
+I realised they'd mostly gone, and I tried to track some of the stragglers
+down to find out what had happened to the ringleader or any of the kids I'd
+gotten to know.&lt;/p&gt;
+&lt;p&gt;The ringleader had been killed in shellfire, was the answer. I found his blog.
+It had been silent for a couple of months. Eventually it fell off the internet
+when the account was suspended.&lt;/p&gt;
+&lt;p&gt;When a year later they all seemed to have gone I made more of an effort to do
+some digital anthropology and figure out just what had happened to them in
+more depth. I talked to a Lebanese peer who ran some adult Arabic language
+discussion spaces and he speculated that by that point hey had all died or
+fled and crossed the border into other countries.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As we reflect on the sobering condition of the world around us, it would be
+easy to forget about the positives.&lt;/p&gt;
+&lt;p&gt;We have the privilege of seeing thousands of people work on thousands of
+projects they love, and it's humbling and exciting to be allowed to play a small
+part in each of them. We're extremely grateful for that: we love learning about
+your projects; we love learning about the different ways in which people
+communicate and collaborate; we love learning about what you produce and why.&lt;/p&gt;
+&lt;p&gt;We have exceptionally generous sponsors who not only provide us with hardware
+and bandwidth but also with their continued time and expertise when required.&lt;/p&gt;
+&lt;p&gt;Thanks to one such sponsor we have also secured the majority of the requisite
+funding to put on a two-day live conference which will take place in the UK in
+August 2017. Further details and a formal announcement will follow early in the
+New Year. We are incredibly excited and hope that you will join us; we'd love
+for your project to exhibit or perhaps you could give a talk? Keep an eye out
+for our announcement!&lt;/p&gt;
+&lt;p&gt;With that, we would like to thank you all for using freenode and wish you the
+very best for 2017!&lt;/p&gt;</content></entry><entry><title>Celebrating Fedora 25 with freenode</title><link href="https://freenode.net/news/celebrating-fedora-freenode" rel="alternate"></link><published>2016-12-21T12:00:00-05:00</published><updated>2016-12-21T12:00:00-05:00</updated><author><name>Justin W. Flory (jflory7)</name></author><id>tag:freenode.net,2016-12-21:/news/celebrating-fedora-freenode</id><summary type="html">&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;
+&lt;h2 id="how-fedora-uses-freenode"&gt;How Fedora uses freenode&lt;/h2&gt;
+&lt;p&gt;As a large open source project, there are many different teams and
+sub-projects in Fedora that help move us toward a new release. Just like
+there are many parts to a car's engine, there are many parts to Fedora's
+engine. Some of these groups are officially recognized sub-projects like
+the &lt;a href="https://fedoraproject.org/wiki/Design"&gt;Design team&lt;/a&gt;, &lt;a href="https://fedoraproject.org/wiki/CommOps"&gt;Community
+Operations&lt;/a&gt;, or &lt;a href="https://fedoraproject.org/wiki/Docs_Project"&gt;Docs
+team&lt;/a&gt;. Other times, they
+are informal &lt;a href="https://fedoraproject.org/wiki/Category:SIGs"&gt;Special Interest
+Groups&lt;/a&gt; (SIGs) that bring
+contributors together to focus on specific topics like programming
+languages or desktop environments, like the &lt;a href="https://fedoraproject.org/wiki/SIGs/Python"&gt;Python
+SIG&lt;/a&gt; or &lt;a href="https://fedoraproject.org/wiki/SIGs/KDE"&gt;KDE
+SIG&lt;/a&gt;. Usually, each of these
+groups or teams will have their own IRC channel to coordinate in. The
+Design team uses &lt;code&gt;#fedora-design&lt;/code&gt;, the Python SIG uses &lt;code&gt;#fedora-python&lt;/code&gt;…
+and so on. In total, Fedora has over 175 registered channels to its
+name. Frequently, teams will hold public meetings in the freenode
+channels to work through tickets, plan ahead on upcoming tasks, or
+discuss important topics for their team. There are a series of special
+meeting channels used for this purpose. Using the
+&lt;a href="http://meetbot.debian.net/Manual.html"&gt;MeetBot&lt;/a&gt; plugin, Fedora uses our
+own &lt;a href="https://github.com/fedora-infra/supybot-fedora"&gt;zodbot&lt;/a&gt; to help run
+meetings, mark up links or important ideas, and create a pretty HTML
+summary at the end of the meeting. All of these summaries and full logs
+are found at
+&lt;a href="https://meetbot.fedoraproject.org/"&gt;meetbot.fedoraproject.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="tips-to-using-irc-effectively"&gt;Tips to using IRC effectively&lt;/h2&gt;
+&lt;p&gt;There are countless different workflows, IRC clients, and handy plugins
+available to customize the IRC experience. In the spirit of the
+&lt;em&gt;Friends&lt;/em&gt; Foundation and the Code of Conduct, Fedora contributors are
+encouraged to &lt;a href="https://getfedora.org/code-of-conduct"&gt;always be excellent to one
+another&lt;/a&gt;. It's important to
+follow good manners in any IRC channel, Fedora or any other. Having good
+manners in IRC are as important as it is in real life. Be courteous to
+others, and if in doubt, it's good to assume the best intentions by
+others. IRC is important for Fedora, and many contributors have put
+together guides of our own as well. You can read more tips from the
+Fedora team in our &lt;a href="https://fedoramagazine.org/beginners-guide-irc/"&gt;IRC Beginner's
+Guide&lt;/a&gt; on the &lt;a href="https://fedoramagazine.org/"&gt;Fedora
+Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="whats-next-for-fedora"&gt;What's next for Fedora?&lt;/h2&gt;
+&lt;p&gt;As 2016 comes to an end, we're wrapping up on our own new release of
+Fedora 25. The Fedora community is looking forward to helping drive open
+source innovation and contributing to the Linux community for many years
+to come. Fedora currently has more than 2,000 contributors, and in the
+tenth percentile of active contributors, 65% of them are from the
+community (&lt;a href="https://mattdm.org/fedora/2016flock/StateofFedoraAugust2016-v160731a.pdf"&gt;State of Fedora, Flock
+2016&lt;/a&gt;).
+The Fedora steam engine is chugging ahead, and we're excited to see
+where it takes us next. We're happy to be able to have shared past,
+current, and future milestones together with the freenode community.
+Keep an eye out for Fedora Ambassadors in Europe during
+&lt;a href="https://devconf.cz/"&gt;DevConf&lt;/a&gt; and &lt;a href="https://fosdem.org/2017/"&gt;FOSDEM&lt;/a&gt;.
+You can also find us in North America at &lt;a href="https://brickhack.io/"&gt;BrickHack
+2017&lt;/a&gt;. And there will be more events all through
+the year you can keep an eye out for us at!&lt;/p&gt;</content></entry><entry><title>A brief security update from the infrastructure team</title><link href="https://freenode.net/news/PSA-brief-update-infra" rel="alternate"></link><published>2016-12-20T05:30:34+00:00</published><updated>2016-12-20T05:30:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-20:/news/PSA-brief-update-infra</id><summary type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
+internal communications).&lt;/p&gt;
+&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
+infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
+was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
+been affected.&lt;/p&gt;
+&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
+suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
+especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
+so that it can be reset!).&lt;/p&gt;</summary><content type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
+internal communications).&lt;/p&gt;
+&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
+infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
+was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
+been affected.&lt;/p&gt;
+&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
+suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
+especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
+so that it can be reset!).&lt;/p&gt;
+&lt;p&gt;We will provide further updates if it becomes appropriate to do so; please rest assured that we take the security and privacy 
+of our users very seriously, and work with industry experts and law enforcement where appropriate to investigate and respond 
+to possible security breaches.&lt;/p&gt;</content></entry><entry><title>freenode Community Team</title><link href="https://freenode.net/news/community" rel="alternate"></link><published>2016-10-18T21:34:00+01:00</published><updated>2016-10-18T21:34:00+01:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2016-10-18:/news/community</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;You might not be aware that freenode has a dedicated community team and that we
+would be delighted to help your projects get the most from freenode. The
+freenode community team consists of christel, edk, JonathanD, mquin, Myrtti,
+nhandler, Swant and tomaw, and we would love to help you spread the word about
+releases and launches, conferences or events and any other project milestones
+that may be of interest to our shared communities. We are happy to make
+announcements on IRC, reshare your social media posts and we would love for you
+to guest author or co-author a blog post for the freenode website.&lt;/p&gt;
+&lt;p&gt;If you think this is something that would be useful for your project, please do
+not hesitate to get in touch with us! You can find us in &lt;code&gt;#freenode-community&lt;/code&gt;
+or drop us a line to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;You might not be aware that freenode has a dedicated community team and that we
+would be delighted to help your projects get the most from freenode. The
+freenode community team consists of christel, edk, JonathanD, mquin, Myrtti,
+nhandler, Swant and tomaw, and we would love to help you spread the word about
+releases and launches, conferences or events and any other project milestones
+that may be of interest to our shared communities. We are happy to make
+announcements on IRC, reshare your social media posts and we would love for you
+to guest author or co-author a blog post for the freenode website.&lt;/p&gt;
+&lt;p&gt;If you think this is something that would be useful for your project, please do
+not hesitate to get in touch with us! You can find us in &lt;code&gt;#freenode-community&lt;/code&gt;
+or drop us a line to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Make sure not to miss any interesting news by setting &lt;code&gt;/umode +w&lt;/code&gt; (or &lt;code&gt;/mode
+yournick +w&lt;/code&gt;).&lt;/p&gt;</content></entry><entry><title>Resurrecting Tor, continued</title><link href="https://freenode.net/news/tor-online" rel="alternate"></link><published>2016-09-18T20:18:00+01:00</published><updated>2016-09-18T20:18:00+01:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-09-18:/news/tor-online</id><summary type="html">&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
+&lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
+service address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
+blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
+&lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
+service address is&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;freenodeok2gncmy.onion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The hidden service requires SASL authentication, as before. In addition, due to
+the abuse that led Tor access to be disabled in the first place, we have
+unfortunately had to add another couple of restrictions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You must log in using SASL's &lt;code&gt;EXTERNAL&lt;/code&gt; or &lt;code&gt;ECDSA-NIST256P-CHALLENGE&lt;/code&gt; (more
+    below)&lt;/li&gt;
+&lt;li&gt;If you log out while connected via Tor, you will not be able to log in without
+    reconnecting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you haven't set up the requisite SASL authentication, we recommend SASL
+EXTERNAL. You'll need to generate a client certificate:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and consult your IRC client's documentation to find out how to use it to
+connect. Connect to freenode over TLS on the plain Internet and &lt;code&gt;/msg NickServ
+CERT ADD&lt;/code&gt; to authorise it to your account.&lt;/p&gt;
+&lt;p&gt;You'll then want to tell your client to try the &lt;code&gt;EXTERNAL&lt;/code&gt; mechanism. We lack
+comprehensive documentation for this, but it's a feature in most modern
+clients—check their docs for instructions for now.&lt;/p&gt;
+&lt;p&gt;It's currently not possible to register an account for use with Tor without
+connecting at least once over the Internet. We're investigating our options, and
+would like to provide a solution to this in the future.&lt;/p&gt;</content></entry><entry><title>Resurrecting tor-sasl</title><link href="https://freenode.net/news/resurrecting-tor" rel="alternate"></link><published>2016-09-05T16:09:00+01:00</published><updated>2016-09-05T16:09:00+01:00</updated><author><name>edk</name></author><id>tag:freenode.net,2016-09-05:/news/resurrecting-tor</id><summary type="html">&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden
+service, providing anonymous access to the network. Unfortunately, this had to
+be disabled due to concerns about abuse.&lt;/p&gt;
+&lt;p&gt;We regret that it has taken some time to resolve this issue but we are now
+almost ready to deploy some software updates that will allow us to re-enable the
+gateway. We've made one important change: password-based SASL authentication is
+disabled over the Tor gateway, so you'll need to generate a client certificate
+and add its fingerprint (&lt;code&gt;/msg NickServ CERT ADD&lt;/code&gt;) over a regular connection
+before connecting.&lt;/p&gt;
+&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://testnet.freenode.net:9003"&gt;our
+testnet&lt;/a&gt;. Further instructions can be found
+in &lt;code&gt;#freenode&lt;/code&gt; there. (if you already have a certificate set, the hidden
+service is at
+&lt;a href="ircs://testnet67chdulhs.onion:6697"&gt;ircs://testnet67chdulhs.onion:6697&lt;/a&gt;)&lt;/p&gt;</summary><content type="html">&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden
+service, providing anonymous access to the network. Unfortunately, this had to
+be disabled due to concerns about abuse.&lt;/p&gt;
+&lt;p&gt;We regret that it has taken some time to resolve this issue but we are now
+almost ready to deploy some software updates that will allow us to re-enable the
+gateway. We've made one important change: password-based SASL authentication is
+disabled over the Tor gateway, so you'll need to generate a client certificate
+and add its fingerprint (&lt;code&gt;/msg NickServ CERT ADD&lt;/code&gt;) over a regular connection
+before connecting.&lt;/p&gt;
+&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://testnet.freenode.net:9003"&gt;our
+testnet&lt;/a&gt;. Further instructions can be found
+in &lt;code&gt;#freenode&lt;/code&gt; there. (if you already have a certificate set, the hidden
+service is at
+&lt;a href="ircs://testnet67chdulhs.onion:6697"&gt;ircs://testnet67chdulhs.onion:6697&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Expect the occasional interruption—even if nothing exciting happens, we still
+have a few configuration things to take care of. The test network may be reset,
+rolled back, or shut down at any time.&lt;/p&gt;
+&lt;p&gt;Thanks for your patience, and thank you in advance for helping to bring Tor
+access back as fast as possible!&lt;/p&gt;</content></entry><entry><title>Happy Birthday to the World Wide Web</title><link href="https://freenode.net/news/www25" rel="alternate"></link><published>2016-08-06T22:06:00+00:00</published><updated>2016-08-06T22:06:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2016-08-06:/news/www25</id><summary type="html">&lt;p&gt;25 years ago—On the 6'th of August 1991—the world's first website went live,
+and it's &lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;still there&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In other words, the world wide web is celebrating silver jubilee today.&lt;/p&gt;
+&lt;p&gt;Imagine where we would've been without it. Would your project exist? Would
+freenode exist?&lt;/p&gt;</summary><content type="html">&lt;p&gt;25 years ago—On the 6'th of August 1991—the world's first website went live,
+and it's &lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;still there&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In other words, the world wide web is celebrating silver jubilee today.&lt;/p&gt;
+&lt;p&gt;Imagine where we would've been without it. Would your project exist? Would
+freenode exist?&lt;/p&gt;
+&lt;p&gt;On behalf of freenode, I'd like to give all our sponsors a big shoutout, for
+making freenode possible—read more about who they are on our &lt;a href="https://freenode.net/acknowledgements"&gt;acknowledgements
+page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And lastly we would like to thank you, the people that use freenode, the people
+who use freenode for your projects, the people that contribute to keeping the
+internet full of Free and Open Source Software. You are a part of what took the
+internet this far and a part of what keep it, and a lot of other tech related
+things, evolving.&lt;/p&gt;
+&lt;p&gt;Stay with us, it's freenode's porcelain jubilee this year, keep chatting, keep
+the internet open.&lt;/p&gt;</content></entry><entry><title>A Reminder</title><link href="https://freenode.net/news/a-reminder" rel="alternate"></link><published>2016-07-18T22:06:00+00:00</published><updated>2016-07-18T22:06:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2016-07-18:/news/a-reminder</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;In the distant past, freenode fairly frequently sent /wallops about news of
+conferences, releases or anything else that might be of interest to the FOSS
+community. We'd quite like to do more of that, so… if you know of anything that
+might fit the bill, please drop the community team a line at
+&lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#103;&amp;#114;&amp;#111;&amp;#117;&amp;#112;&amp;#115;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#103;&amp;#114;&amp;#111;&amp;#117;&amp;#112;&amp;#115;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt; or message me (my nickname is &lt;code&gt;e&lt;/code&gt;) on IRC (even if the
+project in question isn't (yet) registered with freenode).&lt;/p&gt;
+&lt;p&gt;We'd also like to feature a bit more FOSS news on our blog, so if you're itching
+to write a guest post for us, I'd love to hear about that as well.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;In the distant past, freenode fairly frequently sent /wallops about news of
+conferences, releases or anything else that might be of interest to the FOSS
+community. We'd quite like to do more of that, so… if you know of anything that
+might fit the bill, please drop the community team a line at
+&lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#103;&amp;#114;&amp;#111;&amp;#117;&amp;#112;&amp;#115;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#103;&amp;#114;&amp;#111;&amp;#117;&amp;#112;&amp;#115;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt; or message me (my nickname is &lt;code&gt;e&lt;/code&gt;) on IRC (even if the
+project in question isn't (yet) registered with freenode).&lt;/p&gt;
+&lt;p&gt;We'd also like to feature a bit more FOSS news on our blog, so if you're itching
+to write a guest post for us, I'd love to hear about that as well.&lt;/p&gt;
+&lt;p&gt;Thanks for using freenode! :)&lt;/p&gt;</content></entry><entry><title>Help protect net neutrality in the EU</title><link href="https://freenode.net/news/eu-net-neutrality" rel="alternate"></link><published>2016-07-04T14:58:00+00:00</published><updated>2016-07-04T14:58:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2016-07-04:/news/eu-net-neutrality</id><summary type="html">&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+intended to protect
+&lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
+However, it contained
+&lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
+which many people believe will allow European ISPs to prioritise paying
+partners' traffic. Among other things, this is potentially quite scary for
+FOSS projects—most of which don't have the kind of funding necessary to enter
+into such arrangements.&lt;/p&gt;
+&lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
+&lt;a href="https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications"&gt;BEREC&lt;/a&gt;
+to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
+&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;As many of you no doubt know, the European Union passed legislation last year
+intended to protect
+&lt;a href="https://en.wikipedia.org/wiki/Net_neutrality"&gt;net neutrality&lt;/a&gt;.
+However, it contained
+&lt;a href="https://www.theguardian.com/technology/2015/oct/27/eu-net-neutrality-laws-fatally-undermined-by-loopholes-critics-say"&gt;significant loopholes&lt;/a&gt;
+which many people believe will allow European ISPs to prioritise paying
+partners' traffic. Among other things, this is potentially quite scary for
+FOSS projects—most of which don't have the kind of funding necessary to enter
+into such arrangements.&lt;/p&gt;
+&lt;p&gt;If this is something that concerns you, campaigns aimed at convincing
+&lt;a href="https://en.wikipedia.org/wiki/Body_of_European_Regulators_of_Electronic_Communications"&gt;BEREC&lt;/a&gt;
+to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
+&lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>AFD quiz</title><link href="https://freenode.net/news/afd-2016" rel="alternate"></link><published>2016-04-01T12:00:00+00:00</published><updated>2016-04-01T12:00:00+00:00</updated><author><name>mniip</name></author><id>tag:freenode.net,2016-04-01:/news/afd-2016</id><summary type="html">&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
+&lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
+&lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
+&lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
+&lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</content></entry><entry><title>New Website</title><link href="https://freenode.net/news/new-website" rel="alternate"></link><published>2016-03-22T23:25:00+00:00</published><updated>2016-03-22T23:25:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-03-22:/news/new-website</id><summary type="html">&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
+&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</summary><content type="html">&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
+&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</content></entry></feed>
