@@ -11,7 +11,7 @@ is pleased to announce another Ask Me Anything (AMA). This time [Django](https:/
 will be our guest. Read more about them in the
 [blog post](http://freenode.net/news/django-and-freenode) published last week.
 
-This is your chance to ask Django all your questions about them: 
+This is your chance to ask Django all your questions about them:
 How do they utilize freenode? How can you contribute? And just who are these
 Django Girls we've heard so much about? Anything that you would be interested
 in learning about them, here's your opportunity!
@@ -22,6 +22,6 @@ You can watch the AMA in #freenode-ama and participate by asking questions
 in #freenode-ama-questions during the session. In the meantime be sure to
 visit their channel, #django, and get a head start on everyone else!
 
-We hope to hold more Ask Me Anything sessions in the future.
-If this is something your project would be interested in, please
-reach out to us in #freenode-community or at community@freenode.net.
+We hope to hold more Ask Me Anything sessions in the future. If this is
+something your project would be interested in, please reach out to us
+in #freenode-community or at <community@freenode.net>.
