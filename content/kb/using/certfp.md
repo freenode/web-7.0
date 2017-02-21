@@ -58,7 +58,7 @@ weechat
 Move the certificates you created above to ~/.weechat/certs
 
     mkdir ~/.weechat/certs
-    mv nick.pem ~/.weechat/certs
+    mv freenode.pem ~/.weechat/certs
 
 Now disconnect and remove the current freenode server(s). Re-add it with the
 SSL flag, using your newly generated certificate. Note that these commands are
@@ -67,7 +67,7 @@ just examples, you have to adapt them to your current servers.
     /set irc.server.freenode.addresses chat.freenode.net/6697
     /set irc.server.freenode.ssl on
     /set irc.server.freenode.ssl_verify on
-    /set irc.server.freenode.ssl_cert %h/certs/nick.pem
+    /set irc.server.freenode.ssl_cert %h/certs/freenode.pem
     /set irc.server.freenode.sasl_mechanism external
 
 and then reconnect to freenode.
