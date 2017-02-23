@@ -63,3 +63,24 @@ Registered nicknames and accounts will expire if they're not used for a long tim
 While nicknames and accounts do not automatically get deleted when they expire -- only when another user requests to take over the registration -- we do
 occasionally perform clean-up runs on the services database, in which we will automatically drop all registrations which have been idle for a long time. When we
 do this, we set the threshold for deletion considerably higher than the documented expiry time, to ensure that users close to the limit do not lose out.
+
+Forgotten Passwords
+===================
+
+If you have forgotten the password for your NickServ account, you can send a
+password reset mail to the email address you used when you registered your
+account using:
+
+    /msg NickServ SENDPASS youraccountnamehere
+
+You should receive an email at the email address you registered with, containing
+a command with a password reset key, which you can use on IRC to reset your
+password.
+
+If you do not receive the email, please check your spam folders etc.
+
+If you already have an outstanding password reset mail, but need to invalidate
+it and send another, you can invalidate the old one with:
+
+    /msg NickServ SENDPASS youraccountnamehere CLEAR
+
