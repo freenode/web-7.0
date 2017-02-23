@@ -64,21 +64,3 @@ While nicknames and accounts do not automatically get deleted when they expire -
 occasionally perform clean-up runs on the services database, in which we will automatically drop all registrations which have been idle for a long time. When we
 do this, we set the threshold for deletion considerably higher than the documented expiry time, to ensure that users close to the limit do not lose out.
 
-Forgotten Passwords
-===================
-
-If you have forgotten the password for your NickServ account, you can send a
-password reset mail to the email address you used when you registered your
-account using:
-
-    /msg NickServ SENDPASS youraccountnamehere
-
-You should receive an email at the email address you registered with, containing
-a command with a password reset key, which you can use on IRC to reset your
-password.
-
-If you do not receive the email, please check your spam folders etc.
-
-If you already have an outstanding password reset mail, you cannot send another,
-but you can contact freenode staff in #freenode (or find them on /stats p) for
-assistance.
