@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?9cce583" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?9cce583" rel="stylesheet">
-    <link href="../../static/css/style.css?9cce583" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?a738a77" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?a738a77" rel="stylesheet">
+    <link href="../../static/css/style.css?a738a77" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -68,7 +68,7 @@ and hostname should match what you already use).</p>
 <h3 id="weechat">weechat</h3>
 <p>Move the certificates you created above to ~/.weechat/certs</p>
 <pre><code>mkdir ~/.weechat/certs
-mv nick.pem ~/.weechat/certs
+mv freenode.pem ~/.weechat/certs
 </code></pre>
 <p>Now disconnect and remove the current freenode server(s). Re-add it with the
 SSL flag, using your newly generated certificate. Note that these commands are
@@ -76,7 +76,7 @@ just examples, you have to adapt them to your current servers.</p>
 <pre><code>/set irc.server.freenode.addresses chat.freenode.net/6697
 /set irc.server.freenode.ssl on
 /set irc.server.freenode.ssl_verify on
-/set irc.server.freenode.ssl_cert %h/certs/nick.pem
+/set irc.server.freenode.ssl_cert %h/certs/freenode.pem
 /set irc.server.freenode.sasl_mechanism external
 </code></pre>
 <p>and then reconnect to freenode.</p>
