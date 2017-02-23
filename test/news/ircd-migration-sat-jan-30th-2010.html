@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
     <title>ircd Migration Sat Jan 30th 2010 - freenode</title>
-    <link href="../static/css/open-sans.css?0daf3fe" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?0daf3fe" rel="stylesheet">
-    <link href="../static/css/style.css?0daf3fe" rel="stylesheet">
+    <link href="../static/css/open-sans.css?1dee009" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?1dee009" rel="stylesheet">
+    <link href="../static/css/style.css?1dee009" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -23,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -44,36 +44,36 @@
 
     </div>
     <div class="art-body">
-    <p>In the com­ing weeks, we will be mi­grat­ing freen­ode to our new ircd, ir­cd-­sev­en.  Present­ly, freen­ode uses hy­pe­r­i­on and ef­forts have been un­der­way for some time move us off this plat­form for rea­sons of sta­bil­i­ty and func­tion­al­i­ty.  We are now al­most there.</p>
-<p>As users please be aware that dur­ing the mi­gra­tion all clients will be tem­porar­i­ly dis­con­nect­ed and will need to re­con­nect in or­der to move over to the new servers. For most of you this will hap­pen as the old servers are shut down.</p>
-<p><strong>Please Note:</strong> While we will copy over chan­nel modes and top­ics for reg­is­tered chan­nels (there will be no changes to the ser­vices data­base, all nick and chan­nel set­tings with ser­vices will stay the same) we are un­able to do so for chan­nels NOT reg­is­tered with ChanServ. If your project utilis­es non-reg­is­tered chan­nels for what­ev­er rea­son, please make note of the top­ics and modes so you can make a man­u­al trans­fer of these your­selves. For more in­for­ma­tion on reg­is­ter­ing a chan­nel, see this <a href="registering-a-channel-on-freenode">post</a>.</p>
-<p>If you op­er­ate a chan­nel on freen­ode and have any con­cerns, feel free to stop by #freen­ode to dis­cuss any is­sues you might have.  If you run any chan­nel util­i­ty bots, you may want to test them on the cur­rent test­net.  More in­for­ma­tion can be found <a href="testing-the-nets">here</a>.</p>
-<p><strong>Im­por­tant Changes</strong></p>
-<p>There are sev­er­al sig­nif­i­cant changes users should be aware of in ir­cd-­sev­en:</p>
-<p>Chan­nel qui­ets are no longer a mod­i­fied ver­sion of bans but are now on their own list, queried with "mode #chan­nel q", and as such do not ap­pear on the nor­mal ban­list.</p>
-<p>Af­ter the mi­gra­tion, we will have ssl ac­cess avail­able on the pro­duc­tion net­work.</p>
-<p>Iden­ti­fy­ing upon con­nec­tion works as be­fore but there are two new ways to do so: spec­i­fy­ing user­name:pass­word in the serv­er pass­word field will al­low you to lo­gin to a spe­cif­ic ac­count, and SASL au­then­ti­ca­tion is also avail­able.  Us­ing SASL varies by client and is not sup­port­ed in all clients.</p>
-<p>The CAP com­mand:</p>
-<p>A brief sum­ma­ry:</p>
+    <p>In the coming weeks, we will be migrating freenode to our new ircd, ircd-seven.  Presently, freenode uses hyperion and efforts have been underway for some time move us off this platform for reasons of stability and functionality.  We are now almost there.</p>
+<p>As users please be aware that during the migration all clients will be temporarily disconnected and will need to reconnect in order to move over to the new servers. For most of you this will happen as the old servers are shut down.</p>
+<p><strong>Please Note:</strong> While we will copy over channel modes and topics for registered channels (there will be no changes to the services database, all nick and channel settings with services will stay the same) we are unable to do so for channels NOT registered with ChanServ. If your project utilises non-registered channels for whatever reason, please make note of the topics and modes so you can make a manual transfer of these yourselves. For more information on registering a channel, see this <a href="registering-a-channel-on-freenode">post</a>.</p>
+<p>If you operate a channel on freenode and have any concerns, feel free to stop by #freenode to discuss any issues you might have.  If you run any channel utility bots, you may want to test them on the current testnet.  More information can be found <a href="testing-the-nets">here</a>.</p>
+<p><strong>Important Changes</strong></p>
+<p>There are several significant changes users should be aware of in ircd-seven:</p>
+<p>Channel quiets are no longer a modified version of bans but are now on their own list, queried with "mode #channel q", and as such do not appear on the normal banlist.</p>
+<p>After the migration, we will have ssl access available on the production network.</p>
+<p>Identifying upon connection works as before but there are two new ways to do so: specifying username:password in the server password field will allow you to login to a specific account, and SASL authentication is also available.  Using SASL varies by client and is not supported in all clients.</p>
+<p>The CAP command:</p>
+<p>A brief summary:</p>
 <ul>
 <li>
-<p>The CAP LS com­mand will list all client ca­pa­bil­i­ties that are avail­able to the client.</p>
+<p>The CAP LS command will list all client capabilities that are available to the client.</p>
 </li>
 <li>
-<p>The CAP REQ :<cap1></cap1> <cap2></cap2> &lt;...&gt; com­mand can be used to re­quest one or more ca­pa­bil­i­ties. The re­sponse to this will be ei­ther CAP ACK :<cap></cap> &lt;...&gt;, or CAP NAK :<cap></cap> &lt;...&gt;, de­pend­ing on whether the re­quest was suc­cess­ful.</p>
+<p>The CAP REQ :<cap1></cap1> <cap2></cap2> &lt;...&gt; command can be used to request one or more capabilities. The response to this will be either CAP ACK :<cap></cap> &lt;...&gt;, or CAP NAK :<cap></cap> &lt;...&gt;, depending on whether the request was successful.</p>
 </li>
 <li>
-<p>A CAP name to­ken can be pre­fixed by - to dis­able that ca­pa­bil­i­ty. This was not avail­able with hy­pe­r­i­on's CA­PAB com­mand.</p>
+<p>A CAP name token can be prefixed by - to disable that capability. This was not available with hyperion's CAPAB command.</p>
 </li>
 <li>
-<p>CAP ne­go­ti­a­tion can take place ei­ther dur­ing con­nec­tion and reg­is­tra­tion (as is re­quired for SASL), or af­ter­wards, to en­able iden­ti­fy-msg.</p>
+<p>CAP negotiation can take place either during connection and registration (as is required for SASL), or afterwards, to enable identify-msg.</p>
 </li>
 </ul>
-<p>For those im­ple­ment­ing sup­port for it, a full spec­i­fi­ca­tion is at <a href="http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html">http://www.leeh.co.uk/draft-mitchel­l-ir­c-­ca­pa­bil­i­ties-02.html</a>.</p>
-<p>The IDEN­TI­FY-MSG ca­pa­bil­i­ty still ex­ists but there is a new way to ac­ti­vate it.  It is now part of the CAP mech­a­nism.   A script for irssi that un­der­stands both hy­pe­r­i­on's and sev­en's iden­ti­fy-msg ca­pa­bil­i­ty is avail­able at <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">http://adi­pose.at­ten­u­ate.org/~stephen/ir­cd-­sev­en/for­mat_iden­ti­fy.pl</a>.</p>
-<p>The n= and i= pre­fix­es are not used, in­stead ~ is pre­fixed to a non-i­dentd user­name as is com­mon in most oth­er ir­cds.</p>
-<p>For fur­ther in­for­ma­tion on changes that might im­pact you please vis­it <a href="http://freenode.net/seven-for-hyperion-users.html">http://freen­ode.net/sev­en-­for-hy­pe­r­i­on-users.html</a></p>
-<p>As al­ways, thank you for us­ing freen­ode, and see you on the oth­er side!</p>
+<p>For those implementing support for it, a full specification is at <a href="http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html">http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html</a>.</p>
+<p>The IDENTIFY-MSG capability still exists but there is a new way to activate it.  It is now part of the CAP mechanism.   A script for irssi that understands both hyperion's and seven's identify-msg capability is available at <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl</a>.</p>
+<p>The n= and i= prefixes are not used, instead ~ is prefixed to a non-identd username as is common in most other ircds.</p>
+<p>For further information on changes that might impact you please visit <a href="http://freenode.net/seven-for-hyperion-users.html">http://freenode.net/seven-for-hyperion-users.html</a></p>
+<p>As always, thank you for using freenode, and see you on the other side!</p>
     </div>
     
 <div class="art-nav">
@@ -84,7 +84,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -109,6 +109,29 @@
             </li>
             <li>
                 <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
             </li>
         </ul>
     </div>
@@ -147,18 +170,8 @@
             <li>
                 <a href="../support">Supporting the project</a>
             </li>
-        </ul>
-    </div>
-    
-    <div class="footerchild">
-        <h2>Groups</h2>
-        <ul>
-            
             <li>
                 <a href="../groupreg">Group registration</a>
-            </li>
-            <li>
-                <a href="../groupreg">Register as a group</a>
             </li>
             <li>
                 <a href="../groupreg">Existing groups</a>
@@ -172,7 +185,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -182,10 +195,6 @@
             <li>
                 <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
                     <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
-            </li>
-            <li>
-                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
-                <span class="hdn">News Archive</span></a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
@@ -209,15 +218,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

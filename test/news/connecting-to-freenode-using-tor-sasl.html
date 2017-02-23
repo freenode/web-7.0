@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
     <title>Connecting to freenode using Tor: SASL - freenode</title>
-    <link href="../static/css/open-sans.css?0daf3fe" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?0daf3fe" rel="stylesheet">
-    <link href="../static/css/style.css?0daf3fe" rel="stylesheet">
+    <link href="../static/css/open-sans.css?1dee009" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?1dee009" rel="stylesheet">
+    <link href="../static/css/style.css?1dee009" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -23,9 +23,9 @@
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
             <label for="search" class="invisible">Query:</label>
-            <input id="nav-searchbox" type="text" name="q">
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
             <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
-            <input id="nav-submit" type="submit" class="invisible" value="Search">
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
         </form>
     </nav>
     <div class="container">
@@ -44,40 +44,40 @@
 
     </div>
     <div class="art-body">
-    <p>With our change of ircd to the all new <a href="http://www.freenode.net/seven.shtml">ir­cd-­sev­en</a>, we are tri­alling a new method of al­low­ing users to con­nect to the net­work via Tor. This method brings a num­ber of changes:</p>
+    <p>With our change of ircd to the all new <a href="http://www.freenode.net/seven.shtml">ircd-seven</a>, we are trialling a new method of allowing users to connect to the network via Tor. This method brings a number of changes:</p>
 <ul>
 <li>
-<p>The only Tor hid­den ser­vice is: the new <a href="irc://p4fsi4ockecnea7l.onion/">p4f­si4ock­ec­nea7l.onion</a>.</p>
+<p>The only Tor hidden service is: the new <a href="irc://p4fsi4ockecnea7l.onion/">p4fsi4ockecnea7l.onion</a>.</p>
 </li>
 <li>
-<p>You will need to have a reg­is­tered and ver­i­fied Nick­Serv ac­count to con­nect us­ing Tor. Be­yond this, no fur­ther steps are nec­es­sary.</p>
+<p>You will need to have a registered and verified NickServ account to connect using Tor. Beyond this, no further steps are necessary.</p>
 </li>
 <li>
-<p>You will need to use a SASL mech­a­nism to iden­ti­fy to the serv­er.</p>
+<p>You will need to use a SASL mechanism to identify to the server.</p>
 </li>
 </ul>
-<p>We have col­lect­ed to­geth­er scripts for irssi and mirc, while Con­spire sup­ports SASL na­tive­ly. Scripts may be avail­able for oth­er clients in ad­di­tion.</p>
+<p>We have collected together scripts for irssi and mirc, while Conspire supports SASL natively. Scripts may be available for other clients in addition.</p>
 <h2 id="irssi">irssi</h2>
-<p>Down­load and in­stall <a href="http://www.freenode.net/sasl/cap_sasl.pl">this script</a> (cap_sasl.pl) and, af­ter load­ing it, con­fig­ure it us­ing</p>
+<p>Download and install <a href="http://www.freenode.net/sasl/cap_sasl.pl">this script</a> (cap_sasl.pl) and, after loading it, configure it using</p>
 <pre><code>/sasl set &lt;network&gt; &lt;username&gt; &lt;password&gt; &lt;mechanism&gt;
 </code></pre>
-<p>Sup­port­ed mech­a­nisms are PLAIN and DH-BLOW­FISH.</p>
+<p>Supported mechanisms are PLAIN and DH-BLOWFISH.</p>
 <h2 id="mirc">mirc</h2>
-<p>A mirc script is avail­able, tak­en from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">fo­rum post</a> by Kyle Travagli­ni. You can re­trieve the source <a href="http://freenode.net/sasl/sasl-mirc.cpp">here</a>.</p>
-<p>In­struc­tions (adapt­ed from that fo­rum):</p>
+<p>A mirc script is available, taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">forum post</a> by Kyle Travaglini. You can retrieve the source <a href="http://freenode.net/sasl/sasl-mirc.cpp">here</a>.</p>
+<p>Instructions (adapted from that forum):</p>
 <ul>
 <li>
-<p>Place <a href="http://www.freenode.net/sasl/SASL.dll">SASL.dll</a> and <a href="http://www.freenode.net/sasl/sasl.mrc">sasl.mrc</a> into your $mir­cdir.</p>
+<p>Place <a href="http://www.freenode.net/sasl/SASL.dll">SASL.dll</a> and <a href="http://www.freenode.net/sasl/sasl.mrc">sasl.mrc</a> into your $mircdir.</p>
 </li>
 <li>
-<p>Load sasl.mrc into your re­motes.</p>
+<p>Load sasl.mrc into your remotes.</p>
 </li>
 <li>
-<p>Press F2 and con­fig­ure the net­work, be­fore con­nect­ing as usu­al.</p>
+<p>Press F2 and configure the network, before connecting as usual.</p>
 </li>
 </ul>
-<p>If you have any prob­lems, ei­ther pop into #freen­ode from a non-­tori­fied con­nec­tion or drop an email to sup­port AT freen­ode.net.</p>
-<p>This method of con­nect­ing to freen­ode us­ing Tor su­per­sedes all pre­vi­ous meth­ods, in­clud­ing Tor-GPG. We hope that this method of con­nect­ing via Tor will help to make it some­what more ac­ces­si­ble to you!</p>
+<p>If you have any problems, either pop into #freenode from a non-torified connection or drop an email to support AT freenode.net.</p>
+<p>This method of connecting to freenode using Tor supersedes all previous methods, including Tor-GPG. We hope that this method of connecting via Tor will help to make it somewhat more accessible to you!</p>
     </div>
     
 <div class="art-nav">
@@ -88,7 +88,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"></a>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -113,6 +113,29 @@
             </li>
             <li>
                 <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
             </li>
         </ul>
     </div>
@@ -151,18 +174,8 @@
             <li>
                 <a href="../support">Supporting the project</a>
             </li>
-        </ul>
-    </div>
-    
-    <div class="footerchild">
-        <h2>Groups</h2>
-        <ul>
-            
             <li>
                 <a href="../groupreg">Group registration</a>
-            </li>
-            <li>
-                <a href="../groupreg">Register as a group</a>
             </li>
             <li>
                 <a href="../groupreg">Existing groups</a>
@@ -176,7 +189,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -186,10 +199,6 @@
             <li>
                 <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
                     <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
-            </li>
-            <li>
-                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
-                <span class="hdn">News Archive</span></a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
@@ -213,15 +222,5 @@
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
