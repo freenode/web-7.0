@@ -58,7 +58,7 @@ should *not* be relied upon for that purpose, as they are not reliable:
 
  - Connecting before identifying to NickServ (or whilst services are
    unavailable due to a netsplit or maintenance) will show your uncloaked
-   IP/hostname. [Authenticating with SASL](kb/answer/sasl) avoids this if 
+   IP/hostname. [Authenticating with SASL](/kb/using/sasl) avoids this if 
    configured to abort the connection on authentication failure.
  - Connecting via a gateway (for instance, the webchat) will override
    unaffiliated cloaks (see the "gateway cloaks" section above)
