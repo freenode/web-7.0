@@ -79,8 +79,6 @@ password.
 
 If you do not receive the email, please check your spam folders etc.
 
-If you already have an outstanding password reset mail, but need to invalidate
-it and send another, you can invalidate the old one with:
-
-    /msg NickServ SENDPASS youraccountnamehere CLEAR
-
+If you already have an outstanding password reset mail, you cannot send another,
+but you can contact freenode staff in #freenode (or find them on /stats p) for
+assistance.
