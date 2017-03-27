@@ -32,7 +32,7 @@ that leads to freenode.
 
 For most clients this should be sufficient. If not, you can download the root
 certificate from
-[IdenTrust](https://www.identrust.com/certificates/trustid/root-download-x3.html).
+[LetsEncrypt](https://letsencrypt.org/certificates/).
 
 Client SSL certificates are also supported, and may be used for identification
 to services. See [this kb article](kb/using/certfp). If you have connected with
