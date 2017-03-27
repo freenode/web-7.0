@@ -7,7 +7,8 @@ webchat](//webchat.freenode.net) or using an IRC client such as irssi, WeeChat,
 ERC, HexChat, Smuxi, Quassel or mIRC.
 
 You can connect to freenode by pointing your IRC client at `chat.freenode.net`
-on ports 6665-6667 and 8000-8002.
+on ports 6665-6667 and 8000-8002 for plain-text connections, or ports 6697, 7000
+and 7070 for SSL-encrypted connections.
 
 ## Accessing freenode Via SSL
 
