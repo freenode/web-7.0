@@ -9,7 +9,7 @@ time, a good way to search for channels of interest to you is useful.
 
 Enter `alis`, a network service designed for exactly that purpose.
 
-At the most simple, you can use `/msg alis LIST *searchterm* to find channels
+At the most simple, you can use `/msg alis LIST *searchterm*` to find channels
 whose name contains the term in question - for instance, `/msg alis LIST
 *linux*`.
 
@@ -18,22 +18,10 @@ users (to weed out barely-used channels), and use various wildcards to control
 your search - for instance, `/msg alis LIST #freenode* -min 10` would find all
 channels in the freenode namespace with at least 10 users.
 
-For full details on how to use alis, `/msg alis HELP` will send you back the
-following help text::
+For full details on how to use alis, `/msg alis HELP LIST` will send you back
+the following help text:
 
 ```
-***** alis Help *****
-alis allows searching for channels with more
-flexibility than the /list command.
- 
-For more information on a command, type:
-/msg alis help <command>
- 
-The following commands are available:
-HELP            Displays contextual help information.
-LIST            Lists channels matching given parameters.
-***** End of Help *****
-
 ***** alis Help *****
 Help for LIST:
  
