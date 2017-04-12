@@ -1,5 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-02-17T17:55:00+00:00</updated><entry><title>Django AMA</title><link href="https://freenode.net/news/django-ama" rel="alternate"></link><published>2017-02-17T17:55:00+00:00</published><updated>2017-02-17T17:55:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2017-02-17:/news/django-ama</id><summary type="html">&lt;p&gt;Start thinking of tricky questions!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-04-12T20:03:34+00:00</updated><entry><title>PIA and freenode joining forces</title><link href="https://freenode.net/news/pia-fn" rel="alternate"></link><published>2017-04-12T20:03:34+00:00</published><updated>2017-04-12T20:03:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-04-12:/news/pia-fn</id><summary type="html">&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
+For the last few years, Private Internet Access has been a dedicated supporter
+of the freenode project and we are delighted to be able to announce that
+freenode is now officially part of the PIA family.&lt;/p&gt;
+&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
+peer-directed projects and other projects that have a broadly licensed output
+for the past 18 years, and there is a great deal of overlap between the visions
+and missions of the two organisations, as well as the projects and
+organisations the two organisations have supported, albeit in very different
+ways over the years.&lt;/p&gt;
+&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
+and Open Source Software communities, peer-directed projects and others and I
+think he would be proud of the growth we have experienced over the years if he
+were still here to see it.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
+For the last few years, Private Internet Access has been a dedicated supporter
+of the freenode project and we are delighted to be able to announce that
+freenode is now officially part of the PIA family.&lt;/p&gt;
+&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
+peer-directed projects and other projects that have a broadly licensed output
+for the past 18 years, and there is a great deal of overlap between the visions
+and missions of the two organisations, as well as the projects and
+organisations the two organisations have supported, albeit in very different
+ways over the years.&lt;/p&gt;
+&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
+and Open Source Software communities, peer-directed projects and others and I
+think he would be proud of the growth we have experienced over the years if he
+were still here to see it.&lt;/p&gt;
+&lt;p&gt;When I took over freenode following his death, my personal circumstances were
+very different fix what they are now. I had time—oodles of it—and volunteering
+for freenode was very much a pleasure (by all means, it still is! Otherwise I
+wouldn't be here). However, over the years, times changed, the project grew,
+demands grew, my own responsibilities changed, both professionally and
+personally and I, along with several other senior freenode volunteers, found
+that we no longer had quite the same amount of time and energy to dedicate to
+the project.&lt;/p&gt;
+&lt;p&gt;Following discussion and deliberation we have decided to become part of the PIA
+family. While freenode will continue to operate as a not-for-profit entity
+under the same management, this move will provide us with opportunities and
+resources that we could previously only dream of. PIA will provide an operating
+budget, mentorship and support that will allow freenode to implement some of
+the projects and ideas that have previously been on the backburner due to
+constraints in terms of volunteer time and resources.&lt;/p&gt;
+&lt;h2 id="why-what-is-the-incentive-for-pia"&gt;Why? What is the incentive for PIA?&lt;/h2&gt;
+&lt;p&gt;Private Internet Access is committed to bringing the internet back to its
+original state, where being online meant being in your own private world,
+exploring, learning and creating. PIA is serious about supporting organisations
+and individuals that it considers to be in alignment with its mission and
+freenode is one such project.&lt;/p&gt;
+&lt;p&gt;The founders of PIA feel that freenode has helped a number of open source
+projects progress, that freenode helps the community produce the pieces that
+make the internet work smoothly, piece by piece, and that it empowers people.&lt;/p&gt;
+&lt;p&gt;For PIA, this is about giving back, giving back to freenode and to the
+communities that they consider vital to their success and to their mission.&lt;/p&gt;
+&lt;p&gt;The freenode project would be nothing without its communities. All of our
+volunteers come from projects that use freenode, projects we are passionate
+about and projects we want to see continue to succeed.&lt;/p&gt;
+&lt;p&gt;As part of the PIA family, we can guarantee that the freenode project will
+continue to operate and that we will have the support and resources to further
+improve the services that we offer to FOSS communities and others, doing our
+bit to ensure that you can all continue doing what you do best—making the
+internet and the world a better place.&lt;/p&gt;
+&lt;h2 id="what-next"&gt;What next?&lt;/h2&gt;
+&lt;p&gt;There will be few noticeable changes in terms of day-to-day operations, the
+freenode project will continue to operate with much the same structure and
+volunteer base as it does now. We anticipate that group registration will
+become a quicker process and we look forward to implementing and announcing new
+features in the future.&lt;/p&gt;
+&lt;p&gt;On a personal level, I have joined PIA as a full-time employee and I will be
+holding a dual role. I will continue to head up the freenode project and you
+will no doubt see and hear more of me as my availability and involvement
+increases. Some of you might also find yourselves dealing with me in my new
+role as Director of Sponsorship and Events at Private Internet Access, where I
+will be heading up the work we undertake to support organisations, campaigns
+and events globally.&lt;/p&gt;
+&lt;p&gt;This means that you may bump into me at various conferences throughout the
+year, and if you do, please do come have a chat—whether about PIA, freenode or
+the weather!&lt;/p&gt;
+&lt;p&gt;On the subject of conferences, I am also extremely happy to announce that
+freenode #live will be taking place at At-Bristol in Bristol, UK on 28-29th
+October 2017. We will shortly be making a separate announcement as we open up
+registration and call for papers and I look forward to seeing you there.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to drop me a line (&lt;code&gt;/msg christel&lt;/code&gt;) on IRC if you
+have any questions.&lt;/p&gt;
+&lt;p&gt;Do keep an eye out for more exciting news!&lt;/p&gt;</content></entry><entry><title>Django AMA</title><link href="https://freenode.net/news/django-ama" rel="alternate"></link><published>2017-02-17T17:55:00+00:00</published><updated>2017-02-17T17:55:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2017-02-17:/news/django-ama</id><summary type="html">&lt;p&gt;Start thinking of tricky questions!
 Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
 is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
 will be our guest. Read more about them in the
@@ -498,6 +581,4 @@ to close the loopholes are running at &lt;a href="https://www.savenetneutrality.
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
 &lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</summary><content type="html">&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
-&lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</content></entry><entry><title>New Website</title><link href="https://freenode.net/news/new-website" rel="alternate"></link><published>2016-03-22T23:25:00+00:00</published><updated>2016-03-22T23:25:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-03-22:/news/new-website</id><summary type="html">&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
-&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</summary><content type="html">&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
-&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</content></entry></feed>
+&lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</content></entry></feed>

@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Fri, 17 Feb 2017 17:55:00 +0000</lastBuildDate><item><title>Django AMA</title><link>https://freenode.net/news/django-ama</link><description>&lt;p&gt;Start thinking of tricky questions!
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 12 Apr 2017 20:03:34 +0000</lastBuildDate><item><title>PIA and freenode joining forces</title><link>https://freenode.net/news/pia-fn</link><description>&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
+For the last few years, Private Internet Access has been a dedicated supporter
+of the freenode project and we are delighted to be able to announce that
+freenode is now officially part of the PIA family.&lt;/p&gt;
+&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
+peer-directed projects and other projects that have a broadly licensed output
+for the past 18 years, and there is a great deal of overlap between the visions
+and missions of the two organisations, as well as the projects and
+organisations the two organisations have supported, albeit in very different
+ways over the years.&lt;/p&gt;
+&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
+and Open Source Software communities, peer-directed projects and others and I
+think he would be proud of the growth we have experienced over the years if he
+were still here to see it.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Wed, 12 Apr 2017 20:03:34 +0000</pubDate></item><item><title>Django AMA</title><link>https://freenode.net/news/django-ama</link><description>&lt;p&gt;Start thinking of tricky questions!
 Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
 is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
 will be our guest. Read more about them in the
@@ -155,5 +168,4 @@ into such arrangements.&lt;/p&gt;
 to close the loopholes are running at &lt;a href="https://www.savenetneutrality.eu/"&gt;https://www.savenetneutrality.eu/&lt;/a&gt; and
 &lt;a href="https://savetheinternet.eu/en/"&gt;https://savetheinternet.eu/en/&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Mon, 04 Jul 2016 14:58:00 +0000</pubDate></item><item><title>AFD quiz</title><link>https://freenode.net/news/afd-2016</link><description>&lt;p&gt;As a tradition, we would like to invite our users to participate in the annual April Fool's Day quiz. &lt;/p&gt;
 &lt;p&gt;Good luck and have fun! You can join us in #ircpuzzles for casual conversation.&lt;/p&gt;
-&lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mniip</dc:creator><pubDate>Fri, 01 Apr 2016 12:00:00 +0000</pubDate></item><item><title>New Website</title><link>https://freenode.net/news/new-website</link><description>&lt;p&gt;If you are reading this you have most probably already realised that our brand spanking new website is up and running. On behalf of freenode I would like to express heartfelt thanks to dsample, edk, Swant, thefam, emerson and SteinSplitter and boxmein -- not only for the help in designing the new website based on a very fickle and constantly changing spec but also for providing tremendously amusing banter and generally being awesome guys! You did beautifully and it has been an absolute pleasure working with you, I can't wait to do it again sometime (soon!). &lt;/p&gt;
-&lt;p&gt;Oh, and the new website is hosted with &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt;. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 22 Mar 2016 23:25:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;IyMjIyMjQUZEMjAxNlN0YXJ0&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mniip</dc:creator><pubDate>Fri, 01 Apr 2016 12:00:00 +0000</pubDate></item></channel></rss>
