@@ -17,7 +17,7 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [irssi](kb/sasl/irssi)
 * [Konversation <i class="fa fa-external-link" aria-hidden="true"></i>](http://userbase.kde.org/Konversation/Configuring_SASL_authentication)
 * [KVIrc](kb/sasl/kvirc)
-* [mirc](kb/sasl/mirc)
+* [mIRC](kb/sasl/mirc)
 * [Textual](kb/sasl/textual)
 * [Weechat <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication)
 * [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#example)
