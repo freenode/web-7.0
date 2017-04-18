@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+   <channel>
+      <title>{{ config.name }}</title>
+      <link>http://freenode.net/</link>
+      <description>{{ config.DESCRIPTION }}</description>
+      <language>en-us</language>
+      {% for article in get_module("news").articles|reverse %}
+      <item>
+         <title>{{ article.title }}</title>
+         <link>http://freenode.net/{{ article.url }}</link>
+         <guid>http://freenode.net/{{ article.url }}</guid>
+         <pubDate>{{ article.datetime.strftime("%a, %d %b %Y %H:%M:%S %Z") }}</pubDate>
+         <description>{{ article.render()|forceescape }}</description>
+      </item>
+      {% endfor %}
+   </channel>
+</rss>
