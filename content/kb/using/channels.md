@@ -13,7 +13,7 @@ Why can't I join a channel?
 ===========================
 
 There are several things that might prevent you from joining a particular channel. In most cases the server will tell you the reason, but some clients do not
-correcntly display that information to you, so it's useful to be able to check for yourself. Some of the common causes, in no particular order, are:
+correctly display that information to you, so it's useful to be able to check for yourself. Some of the common causes, in no particular order, are:
 
 *  Check that you're logged in with services. You can log in by running `/msg NickServ IDENTIFY YourNickname YourPassword`.
    Some channels use mode `+r`, which prevents unregistered users, or users who aren't logged in, from joining.
