@@ -13,6 +13,7 @@
   },
   "homepage": "http://freenode.net",
   "devDependencies": {
+    "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.6.0",
     "postcss-csso": "^1.1.2"
   }

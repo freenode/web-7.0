@@ -33,7 +33,7 @@ that leads to freenode.
 
 For most clients this should be sufficient. If not, you can download the root
 certificate from
-[IdenTrust](https://www.identrust.com/certificates/trustid/root-download-x3.html).
+[LetsEncrypt](https://letsencrypt.org/certificates/).
 
 Client SSL certificates are also supported, and may be used for identification
 to services. See [this kb article](kb/using/certfp). If you have connected with
@@ -62,6 +62,8 @@ add another couple of restrictions:
 If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate and add that to your
 NickServ account. This is documented [in our knowledge base](kb/using/certfp).
+
+Connecting using SASL EXTERNAL requires that you connect using SSL encryption.
 
 Note that due to the SSL certificates not matching the hidden service, you
 might have to disable the verification in your client. If your client supports
