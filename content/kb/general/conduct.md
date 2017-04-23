@@ -11,5 +11,5 @@ In particular, we would urge all users to keep the following in mind:
   assuming the same of others. Where another user's behaviour admits several
   interpretations, work on the basis of the most charitable one until you have
   strong evidence to the contrary.
-- freenode aims to be welcoming and inclusive, and so we do not accept any form
-  of discrimination based on gender, race, sexuality or beliefs.
+- freenode aims to be welcoming, inclusive, and non-discriminatory and we 
+  encourage everyone to be tolerant and respectful of others.
