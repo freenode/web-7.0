@@ -24,6 +24,7 @@ You can install it from <https://scripts.irssi.org>:
 Now load and configure it inside Irssi:
 
     /script load cap_sasl
+    /network add freenode
     /server add -auto -net freenode -ssl -ssl_verify irc.freenode.net 6697
     /sasl set freenode <login> <password> PLAIN
     /sasl save

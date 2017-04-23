@@ -6,6 +6,8 @@ Slug: certfp
 As an alternative to password-based authentication, you can connect to freenode
 with a TLS certificate and have services recognise it automatically.
 
+For SASL EXTERNAL to work, you must connect over SSL. 
+
 Creating a self-signed certificate
 ==================================
 
@@ -58,7 +60,7 @@ weechat
 Move the certificates you created above to ~/.weechat/certs
 
     mkdir ~/.weechat/certs
-    mv nick.pem ~/.weechat/certs
+    mv freenode.pem ~/.weechat/certs
 
 Now disconnect and remove the current freenode server(s). Re-add it with the
 SSL flag, using your newly generated certificate. Note that these commands are
@@ -67,7 +69,7 @@ just examples, you have to adapt them to your current servers.
     /set irc.server.freenode.addresses chat.freenode.net/6697
     /set irc.server.freenode.ssl on
     /set irc.server.freenode.ssl_verify on
-    /set irc.server.freenode.ssl_cert %h/certs/nick.pem
+    /set irc.server.freenode.ssl_cert %h/certs/freenode.pem
     /set irc.server.freenode.sasl_mechanism external
 
 and then reconnect to freenode.
@@ -87,6 +89,20 @@ that the `certs` directory does not exist by default and you will have to
 create it yourself. Once the file is there, all subsequent SSL connections to
 that network will use the certificate.
 
+Konversation
+------------
+
+Create the pem file as per above, then place it wherever you want. 
+Start Konversation, then open the Identity dialogue by either pressing F8
+or via the Settings menu entry. Choose the identity you use for the 
+freenode network or create a new one. 
+In the part `Auto Identity` you have to choose `SASL External (Cert)`
+as the `Type` for SASL External or `SSL CLient Certificate` for CertFP.
+SASL External requires at least version 1.7 of Konversation. 
+Optionally fill in your account name in the `Account`field. 
+You can then choose the certificate you created with the file picker
+or enter the path manually in the field next to it.
+Once done, apply the configuration and (re)connect to freenode.
 
 Add your fingerprint to NickServ
 ================================
