@@ -18,11 +18,12 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [Konversation <i class="fa fa-external-link" aria-hidden="true"></i>](http://userbase.kde.org/Konversation/Configuring_SASL_authentication)
 * [KVIrc](kb/sasl/kvirc)
 * [mIRC](kb/sasl/mirc)
+* [Quassel](kb/sasl/quassel)
 * [Textual](kb/sasl/textual)
 * [Weechat <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication)
 * [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#example)
 
 If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us on IRC.
 
-Documentation on how to create certificates and add their fingerprints to NickServ for SASL EXTERNAL 
+Documentation on how to create certificates and add their fingerprints to NickServ for SASL EXTERNAL
 can be found in [the article on NickServ and certificates](kb/using/certfp).
