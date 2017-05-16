@@ -9,7 +9,7 @@
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
-    <title>User and project cloaks - freenode</title>
+    <title>Configuring SASL for Quassel - freenode</title>
     <link href="../../static/css/open-sans.css?12a6a2b" rel="stylesheet">
     <link href="../../static/css/font-awesome.css?12a6a2b" rel="stylesheet">
     <link href="../../static/css/style.css?12a6a2b" rel="stylesheet">
@@ -31,78 +31,17 @@
     <div class="container">
         
 <div class="main">
-    <h1>User and project cloaks</h1>
+    <h1>Configuring SASL for Quassel</h1>
     <p class="art-ingress">
-        <p>There are two types of cloak which can be set on accounts on freenode; both
-replace the hostname/IP displayed when you are connected (but only when you're
-identified to NickServ—see below).</p>
-<p>There are also gateway cloaks, which are automatically applied if you're
-connecting from certain providers, gateways or web IRC clients, whether or not
-you are identified to NickServ, and which override unaffiliated cloaks.</p>
-<h2 id="project-cloaks">Project cloaks</h2>
-<p>Project cloaks typically take the form <code>project/role/user</code>, for instance
-<code>freenode/staff/bigpresh</code> (though some take other forms). They are designed to
-demonstrate that the user is connected to a project in some way. Different
-projects use cloaks for various roles—some only use them for their core
-team, some will assign user cloaks as well.</p>
-<p>Project cloaks can only be requested by a registered group contact of an
-already <a href="../../groupreg">registered group</a>—they should contact a member of
-freenode staff to request that a user be given a project cloak.</p>
-<h2 id="unaffiliated-cloaks">Unaffiliated cloaks</h2>
-<p>Unaffiliated cloaks for users take the form <code>unaffiliated/accountname</code>. They
-indicate that you are not affiliated with any specific project on freenode.
-They can also help obscure your IP from casual observers to a certain
-degree—but see the weaknesses section below.</p>
-<p>Bots can also be cloaked to indicate their owner—unaffiliated bot cloaks
-take the form <code>unaffiliated/owneraccountname/bot/botaccountname</code>.</p>
-<h2 id="gateway-cloaks">Gateway cloaks</h2>
-<p>If you are connected via a gateway which sets a gateway cloak (for instance, our
-webchat, or KiwiIRC, or some bouncer/shell providers) you will receive an
-automatic gateway cloak—for instance <code>gateway/web/freenode/ip.1.2.3.4</code>—these
-gateway cloaks override unaffiliated cloaks, but do not override project cloaks.</p>
-<p>There are also gateway cloaks which may denote that the host the user is coming
-from is recognised as a large-scale NAT gateway (where the public IP is being
-shared by many individual customers behind it) or conferences, where many users
-are at one location temporarily.</p>
-<h2 id="cloaks-do-not-effectively-hide-your-ip">Cloaks do not effectively hide your IP</h2>
-<p>Cloaks can help obscure your IP address/hostname from casual observers, but
-should <em>not</em> be relied upon for that purpose, as they are not reliable:</p>
-<ul>
-<li>Connecting before identifying to NickServ (or whilst services are
-   unavailable due to a netsplit or maintenance) will show your uncloaked
-   IP/hostname. <a href="/kb/using/sasl">Authenticating with SASL</a> avoids this if 
-   configured to abort the connection on authentication failure.</li>
-<li>Connecting via a gateway (for instance, the webchat) will override
-   unaffiliated cloaks (see the "gateway cloaks" section above)</li>
-<li>Due to the nature of IRC services, there are some tricks which can cause
-   services to reveal a cloaked user's IP/hostname.</li>
-<li>Accepting a DCC chat/file transfer session, or clicking a link someone sends
-   you could reveal your IP to them</li>
-</ul>
-<p>For these reasons, we advise you to consider cloaks as only very basic
-protection from casual observers, and a way to stop your IP/hostname being
-passively logged in most cases, but caution that they cannot be relied upon to
-hide your IP/hostname robustly—if you want that, you should consider an <a href="https://en.wikipedia.org/wiki/IRC_bouncer">IRC
-bouncer</a>,
-<a href="https://en.wikipedia.org/wiki/Virtual_private_network">VPN</a> or
-<a href="https://www.torproject.org/">Tor</a> (see our blog post on <a href="https://freenode.net/news/tor-online">connecting to
-freenode via Tor</a>).</p>
-<p>Do consider, however, just how much you need to hide your IP address; it's
-disclosed routinely during normal Internet usage—for instance, every website
-you visit will necessarily see your IP address, unless you are using a VPN or
-Tor. Many, many users happily use IRC for decades, never hiding their IP
-address, and do not have any problems.</p>
-<p>To reiterate, the primary purpose of cloaks is to show your project
-affiliation, or lack thereof. Hiding your IP is not their primary purpose, and
-they cannot be fully relied upon to do that.</p>
-<p>Also, even when you are cloaked, you will see your own IP if you /whois
-yourself.</p>
-<h2 id="requesting-a-cloak">Requesting a cloak</h2>
-<p>Once you've read and understood the above, if you would like an unaffiliated
-cloak, please drop in to #freenode or speak to a member of the staff team and
-we'll be happy to set one up for you.</p>
-<p>For project cloaks, a registered GC for the project needs to contact staff to
-request the cloak be added to the desired user.</p>
+        <p>Quassel has SASL support built-in.</p>
+<ol>
+<li>Configure your authentication details and preferred nicks with NickServ - <a href="registration">register your nickname</a></li>
+<li>Navigate to Settings -&gt; "Configure Quassel"</li>
+<li>In the IRC tree, select Networks</li>
+<li>Select Freenode as the network, then select the "Auto Identify" tab below</li>
+<li>Check "Use SASL Authentication" and input your Account and Password as used with NickServ in step 1</li>
+</ol>
+<p>If everything was configured correctly, you should be able disconnect + reconnect with FreeNode, and still be logged in without manually authenticating with NickServ.</p>
     </p>
 </div>
 
