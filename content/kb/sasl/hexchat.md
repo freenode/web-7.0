@@ -2,7 +2,7 @@ Title: Configuring SASL for Hexchat
 ---
 These instructions were originally contributed by BlueShark. Thanks!
 
-HexChat is a fork of XChat has in-built [[SASL]] support. It doesn't require any additional scripts for that purpose. The setup procedure is simple.
+HexChat is a fork of XChat has in-built [SASL](/kb/answer/sasl) support. It doesn't require any additional scripts for that purpose. The setup procedure is simple.
 
 1. Open the Network List (Ctrl + S)
 2. The freenode network may already exist; find it in the list then click on Edit
