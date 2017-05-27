@@ -8,4 +8,4 @@ Quassel has SASL support built-in.
 4. Select Freenode as the network, then select the "Auto Identify" tab below
 5. Check "Use SASL Authentication" and input your Account and Password as used with NickServ in step 1
 
-If everything was configured correctly, you should be able disconnect + reconnect with FreeNode, and still be logged in without manually authenticating with NickServ.
+If everything was configured correctly, you should be able disconnect + reconnect with freenode, and still be logged in without manually authenticating with NickServ.
