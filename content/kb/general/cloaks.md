@@ -72,9 +72,8 @@ protection from casual observers, and a way to stop your IP/hostname being
 passively logged in most cases, but caution that they cannot be relied upon to
 hide your IP/hostname robustly—if you want that, you should consider an [IRC
 bouncer](https://en.wikipedia.org/wiki/IRC_bouncer),
-[VPN](https://en.wikipedia.org/wiki/Virtual_private_network) or
-[Tor](https://www.torproject.org/) (see our blog post on [connecting to
-freenode via Tor](https://freenode.net/news/tor-online)).
+[VPN](https://en.wikipedia.org/wiki/Virtual_private_network) or [our Tor hidden
+service](/kb/answer/chat#accessing-freenode-via-tor)).
 
 Do consider, however, just how much you need to hide your IP address; it's
 disclosed routinely during normal Internet usage—for instance, every website
