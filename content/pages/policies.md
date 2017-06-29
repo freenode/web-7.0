@@ -82,7 +82,7 @@ privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.
 
 Unlawful activities and related support activities are considered off-topic, as are
-inappropriate advertissing, heavy media file trading, proprietary game software modding,
+inappropriate advertising, heavy media file trading, proprietary game software modding,
 warez, porn and various forms of antisocial behaviour, including (but not limited to) 
 political, racial, ethnic, religious or gender-related invective.
 
@@ -110,7 +110,7 @@ Unlawful Activity
 =============
 freenode cannot condone or support behaviour which is clearly unlawful. While we do not have the resources
 to closely monitor the thousands of channels on the network, volunteers are required by policy to pass on credible
-information, provided by you as a user of the freenode prokect, about anay unlawful activities. This is true whether you
+information, provided by you as a user of the freenode project, about any unlawful activities. This is true whether you
 are talking about your own activities or those of someone else. Please be aware that we have this responsibility.
 
 freenode and financial transactions
