@@ -84,7 +84,7 @@ there is a complaint by a user or a question about policy, we will pass it on
 to your group contact.
 
 We aim for a reasonable degree of flexibility where we deal with groups. If you
-mention any particular needs your project might have, we'll try to accomodate
+mention any particular needs your project might have, we'll try to accommodate
 you.
 
 
