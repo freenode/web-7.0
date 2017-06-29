@@ -81,7 +81,7 @@ applicable where freenode operates. Use of freenode and its facilities is a
 privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.
 
-Unlaw activities and related support activities are considered off-topic, as are
+Unlawful activities and related support activities are considered off-topic, as are
 inappropriate advertissing, heavy media file trading, proprietary game software modding,
 warez, porn and various forms of antisocial behaviour, including (but not limited to) 
 political, racial, ethnic, religious or gender-related invective.
