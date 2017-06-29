@@ -93,7 +93,7 @@ as:
 * incitement to religious hatred
 
 or any other behaviour meant to deliberately put upon a person harassment, alarm or distress.
-We do NOT endorse or encourage discrimination on the grounds of race, religion gender or sexual preference and 
+We do NOT endorse or encourage discrimination on the grounds of e.g. race, religion gender or sexual preference and 
 operate with a zero-tolerance policy for libel and defamation.
 
 While we believe in the concept of freedom of thought and freedom of expression, freenode does not
@@ -102,6 +102,7 @@ operate on the basis of absolute freedom of speech, and we impose limitations, e
 We expect all members of the community to be respectful of one another and of the privacy of others, 
 and we reserve the right to terminate anyone's access to our services at our discretion.
 
+Please note that the examples above are examples only and do not constitute an exhaustive list. In line with our policies, philosophies and guidelines we will review each case individually and the response and actions may differ from case to case.
 
 Unlawful Activity
 =============
