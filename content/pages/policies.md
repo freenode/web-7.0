@@ -102,6 +102,8 @@ operate on the basis of absolute freedom of speech, and we impose limitations, e
 We expect all members of the community to be respectful of one another and of the privacy of others, 
 and we reserve the right to terminate anyone's access to our services at our discretion.
 
+While we encourage registered groups (projects) and channel owners to adopt our channel guidelines and catalyst guidelines, projects are free to set their own policies for their namespaces as long as such policies do not contravene network policy, and many projects choose to extend their code of conduct and similar agreements to their presence on freenode. In the event that a project makes the decision to ban a user from their channel(s), we ask that such bans be respected and note that ban evasion may result in a network ban.
+
 Please note that the examples above are examples only and do not constitute an exhaustive list. In line with our policies, philosophies and guidelines we will review each case individually and the response and actions may differ from case to case.
 
 Unlawful Activity
