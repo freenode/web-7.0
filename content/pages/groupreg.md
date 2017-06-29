@@ -107,6 +107,50 @@ with our network staff.
 question about your project or organisational policies as they pertain to
 participation in the network.
 
+## Group Registration and Channel Ownership
+
+Channels on freenode are owned and operated by the groups which register them.
+No minimum level of activity or moderation is expected or required of channel owners.
+The network exists to further on-topic use, as explained in our [policies](http://freenode.net/policies) 
+and channels or groups may be removed from freenode for activity which is considered 
+to be off-topic.
+
+Groups using freenode are strongly encouraged to adopt the [channel guidelines](http://freenode.net/changuide).
+
+Primary channels are reserved based on a formal or informal claim, external to IRC, to a specific project group, or 
+trademarked name. Topical or reference channels are reserved on a first-come, first-served basis by groups wishing to
+discuss a project, group or topic.
+
+
+### Free and Open Source Software (FOSS).
+Project coordination, support, discussion or contact channels associated with software projects which are licensed under terms consistent with the [Debian Free Software Guidelines](http://www.debian.org/social_contract#guidelines), Free Software Foundation's (Free Software Definition](http://www.gnu.org/philosophy/free-sw.html) or the Open Source Initiative's [Open Source Definition](http://www.opensource.org/docs/definition.php) (preferably all three) are considered to be on-topic.
+
+
+### Non-Software-Related Peer-Directed Project.
+Channels which serve projects combining open, informal participation and broadly-licensed, widely-disseminated creative output are considered to be on-topic.  If you believe your non-software project may meet the criteria for a non-software peer-directed project, please consult a staffer or email support at freenode dot net.
+
+### Non-Governmental Organization (NGO).
+Coordination, support, discussion or contact channels run by educational institutions, registered not-for-profit entities and other non-governmental organisations (NGOs) and their related consortia are considered to be on-topic.  Be sure to register your group or organisation.
+
+### Governmental Entity.
+Coordination, support, discussion or contact channels run by local, national or international governmental entities are considered to be on-topic.  Don't forget to register your group.
+
+### News Media.
+Formal news organizations with an interest in our target communities are encouraged to create contact channels on freenode.
+
+### Corporate.
+Contact channels for registered corporate or business entities or consortia with an interest in our target communities are considered to be on-topic.
+
+### Standards.
+Discussion channels associated with official standards committees or with informal standards groups are considered to be on-topic.
+
+### Geographically-Based Interest Group.
+Channels associated with formal or informal geographically-based interest groups are considered to be on-topic.  These include local
+Linux and FreeBSD user groups (LUGs and FUGs) and community wireless groups.  If your group doesn't fall into one of those categories, but you think it might meet the criteria, please consult a staffer or email support at freenode dot net.
+
+### Other groups.
+Other groups not covered by the above examples may be suitable for the network. Please drop an e-mail to groups@freenode.net if you want to find out if your group/project is a good fit for freenode.
+
 
 ## freenode Group Advisory Board
 
