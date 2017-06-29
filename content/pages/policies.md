@@ -93,7 +93,7 @@ as:
 * incitement to religious hatred
 
 or any other behaviour meant to deliberately put upon a person harassment, alarm or distress.
-We do NOT tolerate discrimination on the grounds of race, religion gender or sexual preference and 
+We do NOT endorse or encourage discrimination on the grounds of race, religion gender or sexual preference and 
 operate with a zero-tolerance policy for libel and defamation.
 
 While we believe in the concept of freedom of thought and freedom of expression, freenode does not
