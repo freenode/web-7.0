@@ -132,7 +132,7 @@ Public Logging
 =============
 If you're considering publishing channel logs, think it through. The freenode network is an interactive environment. Even on public channels, most users don't weigh their comments with the idea that they'll be enshrined in perpetuity. For that reason, few participants publish logs.
 
-If you're publishing logs on an ongoing basis, your channel topic should reflect that fact. Be sure to provide a way for users to make comments without logging, and get permission from the channel owners before you start. If you're thinking of "anonymizing" your logs (removing information that identifies the specific users), be aware that it's difficult to do it well—replies and general context often provide identifying information which is hard to filter.
+If you're publishing logs on an ongoing basis, your channel topic should reflect that fact. Consider providing a way for users to make comments without logging, and get permission from the channel owners before you start. If you're thinking of "anonymizing" your logs (removing information that identifies the specific users), be aware that it's difficult to do it well—replies and general context often provide identifying information which is hard to filter.
 
 If you just want to publish a single conversation, be careful to get permission from each participant. Provide as much context as you can. Avoid the temptation to publish or distribute logs without permission in order to portray someone in a bad light. The reputation you save will most likely be your own.
 
