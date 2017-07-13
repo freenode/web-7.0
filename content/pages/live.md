@@ -5,7 +5,7 @@ freenode #live is a community-focused live event designed to **build** and **str
 
 The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will includ talks and workshops, and we look forward to seeing you at this community-focused gathering.
 
-[Tickets are now on sale](http://freenode.live/conference/fn-live17/register/new) and we are taking [submissions for the call for participation](http://freenode.live/conference/fn-live17/program/proposal/new) and look forward to receiving yours.
+[Tickets are now on sale](https://freenode.live/conference/fn-live17/register/new) and we are taking [submissions for the call for participation](https://freenode.live/conference/fn-live17/program/proposal/new) and look forward to receiving yours.
 
 We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our ocmmunity to attend and submit proposals.
 
