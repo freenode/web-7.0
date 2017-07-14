@@ -1,6 +1,6 @@
 name: freenode
 absolute-url: 'https://freenode.net/'
-COPYRIGHT: "&copy; 2017, freenode"
+COPYRIGHT: "&copy; 2016-2017, freenode"
 DESCRIPTION: "freenode IRC network"
 GITHUB_URL: "https://github.com/freenode/web-7.0"
 SOCIAL:
