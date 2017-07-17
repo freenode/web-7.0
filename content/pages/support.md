@@ -19,24 +19,11 @@ Regardless, hosting a server helps the freenode project and the communities and 
 
 The following table lists minimum system requirements, and, where applicable desired specifications.
 
-<table>
-<tr>
-<th>Required</th>
-<th>Desired</th>
-</tr>
-<tr>
-<td>Pentium 4 or better dedicated server</td>
-<td>64-bit multi-core</td>
-</tr>
-<tr>
-<td>2G RAM</td>
-<td>2-3G or more</td>
-</tr>
-<tr>
-<td>Debian stable</td>
-<td></td>
-</tr>
-</table>
+| Required | Desired |
+| ---- | ---- |
+| Pentium 4 or better dedicated server | 64-bit multi-core |
+| 2G RAM | 2-3G or more |
+| Debian stable |  |
 
 
 ### System Software
@@ -51,7 +38,7 @@ While the servers are configured and maintained by the freenode infrastructure t
 * Sponsors communicate reasons for unexpected downtime/maintenance ASAP.
 
 ### Applying to Host a Server
-Before applying to host a server, you may find it helpful to speak with network staff. Feel free to message a freenode staffer with your questions. Regardless, the formal application process begins when you submit an email containing the following information to email address hosting at freenode net:
+Before applying to host a server, you may find it helpful to speak with network staff. Feel free to message a freenode staffer with your questions. Regardless, the formal application process begins when you submit an email containing the following information to email address <hosting@freenode.net>:
 
 * <b>Geographical location of the server</b> &mdash; City, principality and country. Include any "local colour" (nearby landmarks and sites) that seem pertinent.
 * <b>Hosting Entity</b> &mdash; Who should we credit for the server? Provide the name of organisation and URL as appropriate.
