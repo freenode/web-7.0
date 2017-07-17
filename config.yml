@@ -1,7 +1,7 @@
 name: freenode
 absolute-url: 'https://freenode.net/'
-COPYRIGHT: "&copy; 2016, freenode"
-DESCRIPTION: "freenode IRC network"
+COPYRIGHT: "&copy; 2016-2017, freenode"
+DESCRIPTION: "freenode.net - Supporting Free and Open Source Software Communities since 1998"
 GITHUB_URL: "https://github.com/freenode/web-7.0"
 SOCIAL:
   - name: Google+
