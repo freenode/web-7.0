@@ -17,6 +17,19 @@ Children will be welcome at all appropriate conference events including in the a
 
 If you are breastfeeding your baby, you are welcome to feed your baby whenever and wherever you like, including during talks. freenode #live will provide a friendly and welcoming environment for parents and children.
 
+# Code of Conduct
+
+On freenode, we believe that most of our users are intelligent and well-intended and we are loathe to tell people what to do, and just as we have expectations for conduct on the freenode network, we also have expectations for conduct at our live conferences. We will not condone harassment or offensive behaviour, on the freenode network or at our conference venues. 
+
+The focus of freenode is on collaboration and community, and we ask that you help us make the freenode #live conference a place where all participants, regardless of race, gender, gender identity and expression, age, sexual orientation, disability, physical appearance, nationality, ethnicity, political affiliation or religion are feel welcome and included. freenode #live is an extension of the freenode network and we encourage networking and community enrichment and we will not tolerate harassment of any participants in any form - in person or online.
+
+Examples include offensive comments, verbal or written threats or demands, unwanted sexualised behaviour in public or private spaces, intimidation, stalking, harassing photography or recordings, sustained session or event disruption and unwelcome physical contact or sexual attention. 
+
+We expect all participants (attendees, speakers, sponsors and volunteers) to follow this Code of Conduct during the confeerence, including at conference-related social events at off-site venues, online communities and social media. Any participant who is asked to stop behaviour that can be perceived as harassment will be expected to comply immediately and violation may result in the participant being expelled from the conference and/or banned from future events.
+
+On the event that you have any concerns during the conference, please do contact any freenode volunteer or venue staff. Thank you for helping us keep the event welcome and respectful for everyone.
+
+
 # Would you like to exhibit at freenode #live?
 
 If you are interested in exhibiting at freenode #live, or if you want to learn about sponsorship opportunities, please do not hesitate to drop us a line to exhibit@freenode.live, and we will do our best to meet your needs.
