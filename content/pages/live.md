@@ -25,7 +25,7 @@ The focus of freenode is on collaboration and community, and we ask that you hel
 
 Examples include offensive comments, verbal or written threats or demands, unwanted sexualised behaviour in public or private spaces, intimidation, stalking, harassing photography or recordings, sustained session or event disruption and unwelcome physical contact or sexual attention. 
 
-We expect all participants (attendees, speakers, sponsors and volunteers) to follow this Code of Conduct during the confeerence, including at conference-related social events at off-site venues, online communities and social media. Any participant who is asked to stop behaviour that can be perceived as harassment will be expected to comply immediately and violation may result in the participant being expelled from the conference and/or banned from future events.
+We expect all participants (attendees, speakers, sponsors and volunteers) to follow this Code of Conduct during the conference, including at conference-related social events at off-site venues, online communities and social media. Any participant who is asked to stop behaviour that can be perceived as harassment will be expected to comply immediately and violation may result in the participant being expelled from the conference and/or banned from future events.
 
 On the event that you have any concerns during the conference, please do contact any freenode volunteer or venue staff. Thank you for helping us keep the event welcome and respectful for everyone.
 
