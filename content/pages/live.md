@@ -5,6 +5,16 @@ freenode #live is a community-focused live event designed to **build** and **str
 
 The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will include talks and workshops, and we look forward to seeing you at this community-focused gathering.
 
+# Keynote Speakers
+
+![Deb Nicholson Bio Picture](/static/img/FNLIVEKN1-DebNicholson.png)
+
+Deb Nicholson is a free software policy nerd and passionate community advocate. She is the Community Outreach Director for the [Open Invention Network](https://www.openinventionnetwork.com), the largest patent non-aggression community in history which serves Linux, GNU, Android and other key FOSS projects. She’s won the [O’Reilly Open Source Award](https://en.wikipedia.org/wiki/O%27Reilly_Open_Source_Award), one of the most recognized awards in the FOSS world, for her work on GNU [MediaGoblin](https://mediagoblin.org/) and [OpenHatch](https://openhatch.org/). She is a founding organizer of the [Seattle GNU/Linux Conference](https://seagl.org/), an annual event dedicated to surfacing new voices and welcoming new people to the free software community. She also serves on the [Software Freedom Conservancy's](https://sfconservancy.org/) Evaluation Committee, which acts as a curator of new member projects. She lives with her husband and her lucky black cat in Cambridge, Massachusetts.
+
+Keep an eye out as we will shortly be announcing our other keynotes!
+
+# Tickets and CFP
+
 [Tickets are now on sale](https://freenode.live/conference/fn-live17/tickets) and we are taking [submissions for the call for participation](https://freenode.live/conference/fn-live17/program/proposal/new) and look forward to receiving yours.
 
 We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our community to attend and submit proposals.
