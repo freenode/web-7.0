@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-07-24T15:04:39+00:00</updated><entry><title>freenode at DEFCON25</title><link href="https://freenode.net/news/defcon" rel="alternate"></link><published>2017-07-24T15:04:39+00:00</published><updated>2017-07-24T15:04:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/defcon</id><summary type="html"></summary><content type="html">&lt;h2 id="defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you"&gt;DEFCON25 takes place at Caesar's Palace in Las Vegas on 27-30 of this month. freenode will be there—will you?&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-07-24T22:52:39+00:00</updated><entry><title>freenode #live - Opening Keynote</title><link href="https://freenode.net/news/opening-keynote" rel="alternate"></link><published>2017-07-24T22:52:39+00:00</published><updated>2017-07-24T22:52:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/opening-keynote</id><summary type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;
+&lt;p&gt;Deb Nicholson is a free software policy nerd and passionate community advocate. She is the Community Outreach Director for the &lt;a href="https://www.openinventionnetwork.com"&gt;Open Invention Network&lt;/a&gt;, the largest patent non-aggression community in history which serves Linux, GNU, Android and other key FOSS projects. She’s won the &lt;a href="https://en.wikipedia.org/wiki/O%27Reilly_Open_Source_Award"&gt;O’Reilly Open Source Award&lt;/a&gt;, one of the most recognized awards in the FOSS world, for her work on GNU &lt;a href="https://mediagoblin.org/"&gt;MediaGoblin&lt;/a&gt; and &lt;a href="https://openhatch.org/"&gt;OpenHatch&lt;/a&gt;. She is a founding organizer of the &lt;a href="https://seagl.org/"&gt;Seattle GNU/Linux Conference&lt;/a&gt;, an annual event dedicated to surfacing new voices and welcoming new people to the free software community. She also serves on the &lt;a href="https://sfconservancy.org/"&gt;Software Freedom Conservancy's&lt;/a&gt; Evaluation Committee, which acts as a curator of new member projects. She lives with her husband and her lucky black cat in Cambridge, Massachusetts.&lt;/p&gt;
+&lt;p&gt;Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to lock in to the early bird price and ensure that you have the chance to listen to Deb, and the other keynotes and speakers at freenode #live this October.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;P.S. freenode will be at DEFCON25 this weekend (27-30th July 2017), do come find us in the vendor area and say hi, grab some stickers or get your hands on our limited edition freenode t-shirts!&lt;/em&gt;&lt;/p&gt;</content></entry><entry><title>freenode at DEFCON25</title><link href="https://freenode.net/news/defcon" rel="alternate"></link><published>2017-07-24T15:04:39+00:00</published><updated>2017-07-24T15:04:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/defcon</id><summary type="html"></summary><content type="html">&lt;h2 id="defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you"&gt;DEFCON25 takes place at Caesar's Palace in Las Vegas on 27-30 of this month. freenode will be there—will you?&lt;/h2&gt;
 &lt;p&gt;This year, freenode will have a booth in the vendor village—come have a chat with us, grab some stickers or get your hands on a limited edition freenode t-shirt!&lt;/p&gt;
 &lt;h2 id="freenode-live-october-28-29th-2017"&gt;freenode #live - October 28-29th 2017&lt;/h2&gt;
 &lt;p&gt;Only a few more days to lock in to the special early bird ticket price! Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets now&lt;/a&gt;, and don't forget to make a CFP submission if you fancy giving a talk. &lt;/p&gt;
@@ -512,35 +519,4 @@ comprehensive documentation for this, but it's a feature in most modern
 clients—check their docs for instructions for now.&lt;/p&gt;
 &lt;p&gt;It's currently not possible to register an account for use with Tor without
 connecting at least once over the Internet. We're investigating our options, and
-would like to provide a solution to this in the future.&lt;/p&gt;</content></entry><entry><title>Resurrecting tor-sasl</title><link href="https://freenode.net/news/resurrecting-tor" rel="alternate"></link><published>2016-09-05T16:09:00+01:00</published><updated>2016-09-05T16:09:00+01:00</updated><author><name>edk</name></author><id>tag:freenode.net,2016-09-05:/news/resurrecting-tor</id><summary type="html">&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden
-service, providing anonymous access to the network. Unfortunately, this had to
-be disabled due to concerns about abuse.&lt;/p&gt;
-&lt;p&gt;We regret that it has taken some time to resolve this issue but we are now
-almost ready to deploy some software updates that will allow us to re-enable the
-gateway. We've made one important change: password-based SASL authentication is
-disabled over the Tor gateway, so you'll need to generate a client certificate
-and add its fingerprint (&lt;code&gt;/msg NickServ CERT ADD&lt;/code&gt;) over a regular connection
-before connecting.&lt;/p&gt;
-&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://testnet.freenode.net:9003"&gt;our
-testnet&lt;/a&gt;. Further instructions can be found
-in &lt;code&gt;#freenode&lt;/code&gt; there. (if you already have a certificate set, the hidden
-service is at
-&lt;a href="ircs://testnet67chdulhs.onion:6697"&gt;ircs://testnet67chdulhs.onion:6697&lt;/a&gt;)&lt;/p&gt;</summary><content type="html">&lt;p&gt;As many of you will no doubt be aware, freenode used to run a Tor hidden
-service, providing anonymous access to the network. Unfortunately, this had to
-be disabled due to concerns about abuse.&lt;/p&gt;
-&lt;p&gt;We regret that it has taken some time to resolve this issue but we are now
-almost ready to deploy some software updates that will allow us to re-enable the
-gateway. We've made one important change: password-based SASL authentication is
-disabled over the Tor gateway, so you'll need to generate a client certificate
-and add its fingerprint (&lt;code&gt;/msg NickServ CERT ADD&lt;/code&gt;) over a regular connection
-before connecting.&lt;/p&gt;
-&lt;p&gt;We'd appreciate your help testing this setup on &lt;a href="ircs://testnet.freenode.net:9003"&gt;our
-testnet&lt;/a&gt;. Further instructions can be found
-in &lt;code&gt;#freenode&lt;/code&gt; there. (if you already have a certificate set, the hidden
-service is at
-&lt;a href="ircs://testnet67chdulhs.onion:6697"&gt;ircs://testnet67chdulhs.onion:6697&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Expect the occasional interruption—even if nothing exciting happens, we still
-have a few configuration things to take care of. The test network may be reset,
-rolled back, or shut down at any time.&lt;/p&gt;
-&lt;p&gt;Thanks for your patience, and thank you in advance for helping to bring Tor
-access back as fast as possible!&lt;/p&gt;</content></entry></feed>
+would like to provide a solution to this in the future.&lt;/p&gt;</content></entry></feed>
