@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-07-18T09:29:50+00:00</updated><entry><title>Exhibiting at freenode #live</title><link href="https://freenode.net/news/freenode-live-exhibit" rel="alternate"></link><published>2017-07-18T09:29:50+00:00</published><updated>2017-07-18T09:29:50+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-18:/news/freenode-live-exhibit</id><summary type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-07-24T15:04:39+00:00</updated><entry><title>freenode at DEFCON25</title><link href="https://freenode.net/news/defcon" rel="alternate"></link><published>2017-07-24T15:04:39+00:00</published><updated>2017-07-24T15:04:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/defcon</id><summary type="html"></summary><content type="html">&lt;h2 id="defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-there-will-you"&gt;DEFCON25 takes place at Caesar's Palace in Las Vegas on 27-30 of this month, freenode will be there, will you?&lt;/h2&gt;
+&lt;p&gt;This year, freenode will have a booth in the vendor village -- come have a chat with us, grab some stickers or get your hands on a limited edition freenode t-shirt! &lt;/p&gt;
+&lt;h2 id="freenode-live-october-28-29th-2017"&gt;freenode #live - October 28-29th 2017&lt;/h2&gt;
+&lt;p&gt;Only a few more days to lock in to the special early bird ticket price! Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets now&lt;/a&gt;, and don't forget to make a CFP submission if you fancy giving a talk. &lt;/p&gt;
+&lt;p&gt;Stay tuned, we're excited to be announcing the keynote speakers in the next few days!&lt;/p&gt;</content></entry><entry><title>Exhibiting at freenode #live</title><link href="https://freenode.net/news/freenode-live-exhibit" rel="alternate"></link><published>2017-07-18T09:29:50+00:00</published><updated>2017-07-18T09:29:50+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-18:/news/freenode-live-exhibit</id><summary type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
 &lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
 &lt;p&gt;We aim to ensure that the freenode #live conference remains affordable and accessible to the entire community, and to that end there is no exhibition charge for nonprofits and unincorporated FOSS projects. &lt;/p&gt;</summary><content type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
 &lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
@@ -539,22 +543,4 @@ service is at
 have a few configuration things to take care of. The test network may be reset,
 rolled back, or shut down at any time.&lt;/p&gt;
 &lt;p&gt;Thanks for your patience, and thank you in advance for helping to bring Tor
-access back as fast as possible!&lt;/p&gt;</content></entry><entry><title>Happy Birthday to the World Wide Web</title><link href="https://freenode.net/news/www25" rel="alternate"></link><published>2016-08-06T22:06:00+00:00</published><updated>2016-08-06T22:06:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2016-08-06:/news/www25</id><summary type="html">&lt;p&gt;25 years ago—On the 6'th of August 1991—the world's first website went live,
-and it's &lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;still there&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In other words, the world wide web is celebrating silver jubilee today.&lt;/p&gt;
-&lt;p&gt;Imagine where we would've been without it. Would your project exist? Would
-freenode exist?&lt;/p&gt;</summary><content type="html">&lt;p&gt;25 years ago—On the 6'th of August 1991—the world's first website went live,
-and it's &lt;a href="http://info.cern.ch/hypertext/WWW/TheProject.html"&gt;still there&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In other words, the world wide web is celebrating silver jubilee today.&lt;/p&gt;
-&lt;p&gt;Imagine where we would've been without it. Would your project exist? Would
-freenode exist?&lt;/p&gt;
-&lt;p&gt;On behalf of freenode, I'd like to give all our sponsors a big shoutout, for
-making freenode possible—read more about who they are on our &lt;a href="https://freenode.net/acknowledgements"&gt;acknowledgements
-page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;And lastly we would like to thank you, the people that use freenode, the people
-who use freenode for your projects, the people that contribute to keeping the
-internet full of Free and Open Source Software. You are a part of what took the
-internet this far and a part of what keep it, and a lot of other tech related
-things, evolving.&lt;/p&gt;
-&lt;p&gt;Stay with us, it's freenode's porcelain jubilee this year, keep chatting, keep
-the internet open.&lt;/p&gt;</content></entry></feed>
+access back as fast as possible!&lt;/p&gt;</content></entry></feed>
