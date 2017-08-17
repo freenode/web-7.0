@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-07-24T22:52:39+00:00</updated><entry><title>freenode #live - Opening Keynote</title><link href="https://freenode.net/news/opening-keynote" rel="alternate"></link><published>2017-07-24T22:52:39+00:00</published><updated>2017-07-24T22:52:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/opening-keynote</id><summary type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-08-17T10:05:00+00:00</updated><entry><title>Spambot attack</title><link href="https://freenode.net/news/spamwave" rel="alternate"></link><published>2017-08-17T10:05:00+00:00</published><updated>2017-08-17T10:05:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-08-17:/news/spamwave</id><summary type="html">&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;We would also encourage users to /mode yournick +R while the attack is ongoing so as to stop messages from unregistered users.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the automated klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;</summary><content type="html">&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;We would also encourage users to /mode yournick +R while the attack is ongoing so as to stop messages from unregistered users.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the automated klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;
+&lt;p&gt;Again, apologies for the disruption and please be cautious with links from unknown users.&lt;/p&gt;</content></entry><entry><title>freenode #live - Opening Keynote</title><link href="https://freenode.net/news/opening-keynote" rel="alternate"></link><published>2017-07-24T22:52:39+00:00</published><updated>2017-07-24T22:52:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/opening-keynote</id><summary type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
@@ -489,34 +500,4 @@ to guest author or co-author a blog post for the freenode website.&lt;/p&gt;
 not hesitate to get in touch with us! You can find us in &lt;code&gt;#freenode-community&lt;/code&gt;
 or drop us a line to &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Make sure not to miss any interesting news by setting &lt;code&gt;/umode +w&lt;/code&gt; (or &lt;code&gt;/mode
-yournick +w&lt;/code&gt;).&lt;/p&gt;</content></entry><entry><title>Resurrecting Tor, continued</title><link href="https://freenode.net/news/tor-online" rel="alternate"></link><published>2016-09-18T20:18:00+01:00</published><updated>2016-09-18T20:18:00+01:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-09-18:/news/tor-online</id><summary type="html">&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
-blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
-&lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
-service address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Following an embarrassingly long period of no Tor support, we &lt;a href="resurrecting-tor"&gt;recently
-blogged&lt;/a&gt; about resurrecting Tor.&lt;/p&gt;
-&lt;p&gt;As of today, Tor users can once more connect to freenode over Tor; the hidden
-service address is&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;freenodeok2gncmy.onion
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The hidden service requires SASL authentication, as before. In addition, due to
-the abuse that led Tor access to be disabled in the first place, we have
-unfortunately had to add another couple of restrictions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You must log in using SASL's &lt;code&gt;EXTERNAL&lt;/code&gt; or &lt;code&gt;ECDSA-NIST256P-CHALLENGE&lt;/code&gt; (more
-    below)&lt;/li&gt;
-&lt;li&gt;If you log out while connected via Tor, you will not be able to log in without
-    reconnecting.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you haven't set up the requisite SASL authentication, we recommend SASL
-EXTERNAL. You'll need to generate a client certificate:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and consult your IRC client's documentation to find out how to use it to
-connect. Connect to freenode over TLS on the plain Internet and &lt;code&gt;/msg NickServ
-CERT ADD&lt;/code&gt; to authorise it to your account.&lt;/p&gt;
-&lt;p&gt;You'll then want to tell your client to try the &lt;code&gt;EXTERNAL&lt;/code&gt; mechanism. We lack
-comprehensive documentation for this, but it's a feature in most modern
-clients—check their docs for instructions for now.&lt;/p&gt;
-&lt;p&gt;It's currently not possible to register an account for use with Tor without
-connecting at least once over the Internet. We're investigating our options, and
-would like to provide a solution to this in the future.&lt;/p&gt;</content></entry></feed>
+yournick +w&lt;/code&gt;).&lt;/p&gt;</content></entry></feed>
