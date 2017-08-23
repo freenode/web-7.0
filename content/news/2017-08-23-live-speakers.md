@@ -31,6 +31,9 @@ pleased to announce the following confirmed lineup:
 
 - James Wheare (founder of IRCCloud)
 - Christopher Baines (Debian packager, OSM contributor)
+- Kaspar Emanuel (freelance electronic design engineer and software
+  developer working on projects ranging from musical instruments to robots to
+  Braille displays)
 
 ## More to come...
 
