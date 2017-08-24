@@ -34,6 +34,10 @@ pleased to announce the following confirmed lineup:
 - Kaspar Emanuel (freelance electronic design engineer and software
   developer working on projects ranging from musical instruments to robots to
   Braille displays)
+- Nathan Handler (freenode staff member, Ubuntu and Debian GNU/Linux
+  Developer, Site Reliability Engineer at Yelp)
+- Errietta Kostala (Perl developer at FairFX London, keen open source
+  contributor including Mozilla)
 
 ## More to come...
 
