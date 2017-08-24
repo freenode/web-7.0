@@ -9,9 +9,9 @@ category: freenode
 ---
 
 The freenode #live team are excited to announce more confirmed speakers
-for the freenode #live conference taking place at the At-Bristol Science Centre
-in Bristol, UK on 28-29th October this year, with plenty more still to be
-announced.
+for the [freenode #live conference](https://freenode.live/conference/fn-live17)
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.
 
 Of the variety of speakers, talks and workshops we've had submitted, we're
 pleased to announce the following confirmed lineup:
