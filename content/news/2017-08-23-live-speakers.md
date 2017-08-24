@@ -40,6 +40,8 @@ pleased to announce the following confirmed lineup:
   contributor including Mozilla)
 - Maxigas (postdoctoral researcher at the Universitat Oberta de Catalunya and a
   fellow at Central European University)
+- Michael Walker (working on a Ph.D, open source contributor, started Arch Hurd
+  distribution, author of Déjà Fu Haskell concurrent testing library)
 
 ## More to come...
 
