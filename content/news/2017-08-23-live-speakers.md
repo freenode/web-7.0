@@ -38,6 +38,8 @@ pleased to announce the following confirmed lineup:
   Developer, Site Reliability Engineer at Yelp)
 - Errietta Kostala (Perl developer at FairFX London, keen open source
   contributor including Mozilla)
+- Maxigas (postdoctoral researcher at the Universitat Oberta de Catalunya and a
+  fellow at Central European University)
 
 ## More to come...
 
