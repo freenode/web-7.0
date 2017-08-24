@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 23 Aug 2017 22:00:00 +0000</lastBuildDate><item><title>freenode #live - more confirmed speakers</title><link>https://freenode.net/news/freenode-live-speakers</link><description>&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
-for the freenode #live conference taking place at the At-Bristol Science Centre
-in Bristol, UK on 28-29th October this year, with plenty more still to be
-announced.&lt;/p&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.&lt;/p&gt;
 &lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
 pleased to announce the following confirmed lineup:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bigpresh</dc:creator><pubDate>Wed, 23 Aug 2017 22:00:00 +0000</pubDate></item><item><title>Spambot attack</title><link>https://freenode.net/news/spamwave</link><description>&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
 users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
