@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 23 Aug 2017 22:00:00 +0000</lastBuildDate><item><title>freenode #live - more confirmed speakers</title><link>https://freenode.net/news/freenode-live-speakers</link><description>&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Fri, 25 Aug 2017 23:15:00 +0000</lastBuildDate><item><title>freenode #live - even more confirmed speakers</title><link>https://freenode.net/news/freenode-live-more-speakers</link><description>&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bigpresh</dc:creator><pubDate>Fri, 25 Aug 2017 23:15:00 +0000</pubDate></item><item><title>freenode #live - more confirmed speakers</title><link>https://freenode.net/news/freenode-live-speakers</link><description>&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
 for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
 taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
 this year, with plenty more still to be announced.&lt;/p&gt;
@@ -121,14 +125,4 @@ freenode are an important part of how we communicate. Fedora registered
 our first channel on freenode on December 29, 2002. As we celebrate
 thirteen years of open source collaboration and the newest release of
 Fedora 25, the Fedora community wanted to reflect on our longstanding
-relationship with freenode.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Justin W. Flory (jflory7)</dc:creator><pubDate>Wed, 21 Dec 2016 12:00:00 -0500</pubDate></item><item><title>A brief security update from the infrastructure team</title><link>https://freenode.net/news/PSA-brief-update-infra</link><description>&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
-an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
-internal communications).&lt;/p&gt;
-&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
-infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
-was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
-been affected.&lt;/p&gt;
-&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
-suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
-especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
-so that it can be reset!).&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 20 Dec 2016 05:30:34 +0000</pubDate></item></channel></rss>
+relationship with freenode.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Justin W. Flory (jflory7)</dc:creator><pubDate>Wed, 21 Dec 2016 12:00:00 -0500</pubDate></item></channel></rss>

@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-08-23T22:00:00+00:00</updated><entry><title>freenode #live - more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-speakers" rel="alternate"></link><published>2017-08-23T22:00:00+00:00</published><updated>2017-08-23T22:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-23:/news/freenode-live-speakers</id><summary type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-08-25T23:15:00+00:00</updated><entry><title>freenode #live - even more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-more-speakers" rel="alternate"></link><published>2017-08-25T23:15:00+00:00</published><updated>2017-08-25T23:15:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-25:/news/freenode-live-more-speakers</id><summary type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chris Lamb - Currently the Debian Project Leader, Chris is a freelance computer
+  programmer, author of dozens of free projects, and contributor to hundreds of
+  others. Chris has spoken at numerous conferences, including LinuxCon China,
+  HKOSCon, linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
+  Freedom Kosovo, foss-north &amp;amp; FOSS'ASIA.&lt;/li&gt;
+&lt;li&gt;Philipp Krenn - part of the infrastructure team and a Developer Advocate at
+  Elastic, spreading the love and knowledge of full-text search, analytics, and
+  real-time data. He is a frequent speaker at conferences and meetups about all
+  things search &amp;amp; analytics, databases, cloud computing, and devops.&lt;/li&gt;
+&lt;li&gt;Oliver Gorwits - Oliver has a background in computer networks and is a senior
+  IT manager at a major weather forecasting centre in the UK. For over 20 years
+  he's worked with software as a hobby and contributed to open source, mainly in
+  Perl, and now leads the Netdisco project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="still-more-to-come"&gt;Still more to come&lt;/h2&gt;
+&lt;p&gt;With still more speakers to be announced soon, keep your eyes out for more
+announcements coming soon - and get your ticket now to secure your place!&lt;/p&gt;
+&lt;h2 id="get-your-tickets-now"&gt;Get your tickets now!&lt;/h2&gt;
+&lt;p&gt;Want to watch these talented speakers? Get your 
+&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
+have the chance to experience these and the other speakers and workshops to be
+announced soon!&lt;/p&gt;
+&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/h2&gt;
+&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
+FOSS projects exhibit for free, and it's a great way to meet your current users
+and attract others!&lt;/p&gt;
+&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
+packages available providing different exposure levels to a FOSS-centered, 
+technical audience - get a warm fuzzy feeling by supporting the community
+which most likely contributed in no small way to the success of your business!&lt;/p&gt;
+&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
+join us in #live on freenode!&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry><entry><title>freenode #live - more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-speakers" rel="alternate"></link><published>2017-08-23T22:00:00+00:00</published><updated>2017-08-23T22:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-23:/news/freenode-live-speakers</id><summary type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
 for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
 taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
 this year, with plenty more still to be announced.&lt;/p&gt;
@@ -509,27 +551,4 @@ Keep an eye out for Fedora Ambassadors in Europe during
 &lt;a href="https://devconf.cz/"&gt;DevConf&lt;/a&gt; and &lt;a href="https://fosdem.org/2017/"&gt;FOSDEM&lt;/a&gt;.
 You can also find us in North America at &lt;a href="https://brickhack.io/"&gt;BrickHack
 2017&lt;/a&gt;. And there will be more events all through
-the year you can keep an eye out for us at!&lt;/p&gt;</content></entry><entry><title>A brief security update from the infrastructure team</title><link href="https://freenode.net/news/PSA-brief-update-infra" rel="alternate"></link><published>2016-12-20T05:30:34+00:00</published><updated>2016-12-20T05:30:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-20:/news/PSA-brief-update-infra</id><summary type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
-an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
-internal communications).&lt;/p&gt;
-&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
-infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
-was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
-been affected.&lt;/p&gt;
-&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
-suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
-especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
-so that it can be reset!).&lt;/p&gt;</summary><content type="html">&lt;p&gt;A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
-an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
-internal communications).&lt;/p&gt;
-&lt;p&gt;Naturally, we instigated audit procedures immediately so as to ensure the security of the production network and accompanying 
-infrastructure. The investigation is ongoing, but at this time we have no reason to believe that any other unauthorised access 
-was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
-been affected.&lt;/p&gt;
-&lt;p&gt;As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
-suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
-especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
-so that it can be reset!).&lt;/p&gt;
-&lt;p&gt;We will provide further updates if it becomes appropriate to do so; please rest assured that we take the security and privacy 
-of our users very seriously, and work with industry experts and law enforcement where appropriate to investigate and respond 
-to possible security breaches.&lt;/p&gt;</content></entry></feed>
+the year you can keep an eye out for us at!&lt;/p&gt;</content></entry></feed>
