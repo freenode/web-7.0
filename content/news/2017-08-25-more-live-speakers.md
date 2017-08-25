@@ -18,7 +18,7 @@ Today we are happy to announce more speakers:
 - Chris Lamb - Currently the Debian Project Leader, Chris is a freelance computer
   programmer, author of dozens of free projects, and contributor to hundreds of
   others. Chris has spoken at numerous conferences, including LinuxCon China,
-  HKOSCon,linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
+  HKOSCon, linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
   Freedom Kosovo, foss-north & FOSS'ASIA.
 - Philipp Krenn - part of the infrastructure team and a Developer Advocate at
   Elastic, spreading the love and knowledge of full-text search, analytics, and
