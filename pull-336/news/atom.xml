@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-08-25T23:15:00+00:00</updated><entry><title>freenode #live - even more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-more-speakers" rel="alternate"></link><published>2017-08-25T23:15:00+00:00</published><updated>2017-08-25T23:15:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-25:/news/freenode-live-more-speakers</id><summary type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chris Lamb - Currently the Debian Project Leader, Chris is a freelance computer
+  programmer, author of dozens of free projects, and contributor to hundreds of
+  others. Chris has spoken at numerous conferences, including LinuxCon China,
+  HKOSCon, linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
+  Freedom Kosovo, foss-north &amp;amp; FOSS'ASIA.&lt;/li&gt;
+&lt;li&gt;Philipp Krenn - part of the infrastructure team and a Developer Advocate at
+  Elastic, spreading the love and knowledge of full-text search, analytics, and
+  real-time data. He is a frequent speaker at conferences and meetups about all
+  things search &amp;amp; analytics, databases, cloud computing, and devops.&lt;/li&gt;
+&lt;li&gt;Oliver Gorwits - Oliver has a background in computer networks and is a senior
+  IT manager at a major weather forecasting centre in the UK. For over 20 years
+  he's worked with software as a hobby and contributed to open source, mainly in
+  Perl, and now leads the Netdisco project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="still-more-to-come"&gt;Still more to come&lt;/h2&gt;
+&lt;p&gt;With still more speakers to be announced soon, keep your eyes out for more
+announcements coming soon - and get your ticket now to secure your place!&lt;/p&gt;
+&lt;h2 id="get-your-tickets-now"&gt;Get your tickets now!&lt;/h2&gt;
+&lt;p&gt;Want to watch these talented speakers? Get your 
+&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
+have the chance to experience these and the other speakers and workshops to be
+announced soon!&lt;/p&gt;
+&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/h2&gt;
+&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
+FOSS projects exhibit for free, and it's a great way to meet your current users
+and attract others!&lt;/p&gt;
+&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
+packages available providing different exposure levels to a FOSS-centered, 
+technical audience - get a warm fuzzy feeling by supporting the community
+which most likely contributed in no small way to the success of your business!&lt;/p&gt;
+&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
+join us in #live on freenode!&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry><entry><title>freenode #live - more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-speakers" rel="alternate"></link><published>2017-08-23T22:00:00+00:00</published><updated>2017-08-23T22:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-23:/news/freenode-live-speakers</id><summary type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.&lt;/p&gt;
+&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
+pleased to announce the following confirmed lineup:&lt;/p&gt;</summary><content type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.&lt;/p&gt;
+&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
+pleased to announce the following confirmed lineup:&lt;/p&gt;
+&lt;h4 id="keynote-speakers"&gt;Keynote speakers&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Deb Nicholson (Community Outreach Director for the Open Invention Network,
+  winner of several awards including the O'Reilly Open Source Award)&lt;/li&gt;
+&lt;li&gt;Karen Sandler (Executive Director of the Software Freedom Conservancy, former
+  executive director of the GNOME Foundation)&lt;/li&gt;
+&lt;li&gt;Matthew Garrett (technologist, programmer, and free software activist - a 
+  major contributor to various projects including Linux, GNOME, Debian, Ubuntu
+  and Red Hat.  He is a recipient of the Free Software Award from the Free 
+  Software Foundation for his work on Secure Boot, UEFI, and the Linux kernel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="confirmed-talks"&gt;Confirmed talks&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;James Wheare (founder of IRCCloud)&lt;/li&gt;
+&lt;li&gt;Christopher Baines (Debian packager, OSM contributor)&lt;/li&gt;
+&lt;li&gt;Kaspar Emanuel (freelance electronic design engineer and software
+  developer working on projects ranging from musical instruments to robots to
+  Braille displays)&lt;/li&gt;
+&lt;li&gt;Nathan Handler (freenode staff member, Ubuntu and Debian GNU/Linux
+  Developer, Site Reliability Engineer at Yelp)&lt;/li&gt;
+&lt;li&gt;Errietta Kostala (Perl developer at FairFX London, keen open source
+  contributor including Mozilla)&lt;/li&gt;
+&lt;li&gt;Maxigas (postdoctoral researcher at the Universitat Oberta de Catalunya and a
+  fellow at Central European University)&lt;/li&gt;
+&lt;li&gt;Michael Walker (working on a Ph.D, open source contributor, started Arch Hurd
+  distribution, author of Déjà Fu Haskell concurrent testing library)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="more-to-come"&gt;More to come...&lt;/h3&gt;
+&lt;p&gt;Another 12+ talks yet to be confirmed will be announced soon, plus workshops on
+various topics.&lt;/p&gt;
+&lt;h2 id="get-your-tickets-now"&gt;Get your tickets now!&lt;/h2&gt;
+&lt;p&gt;Want to watch these talks and/or take part in these workshops?  Get your
+&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
+have the chance to experience these and the other speakers and workshops to be
+announced soon!&lt;/p&gt;
+&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/h2&gt;
+&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
+FOSS projects exhibit for free, and it's a great way to meet your current users
+and attract others!&lt;/p&gt;
+&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
+packages available providing different exposure levels to a FOSS-centered, 
+technical audience - get a warm fuzzy feeling by supporting the community
+which most likely contributed in no small way to the success of your business!&lt;/p&gt;
+&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
+join us in #live on freenode!&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry><entry><title>Spambot attack</title><link href="https://freenode.net/news/spamwave" rel="alternate"></link><published>2017-08-17T10:05:00+00:00</published><updated>2017-08-17T10:05:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-08-17:/news/spamwave</id><summary type="html">&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;While the attacks are ongoing we have chosen to update the default umodes for users to include +R, please note that this means you will not receive messages from unregistered users and you will need to /mode yournick -R in order to allow those to come through. If you choose to set yourself -R, please be cautious of clicking on any links from unregistered users that you do not know.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;</summary><content type="html">&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;While the attacks are ongoing we have chosen to update the default umodes for users to include +R, please note that this means you will not receive messages from unregistered users and you will need to /mode yournick -R in order to allow those to come through. If you choose to set yourself -R, please be cautious of clicking on any links from unregistered users that you do not know.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;
+&lt;p&gt;Again, apologies for the disruption and please be cautious.&lt;/p&gt;</content></entry><entry><title>freenode #live - Opening Keynote</title><link href="https://freenode.net/news/opening-keynote" rel="alternate"></link><published>2017-07-24T22:52:39+00:00</published><updated>2017-07-24T22:52:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/opening-keynote</id><summary type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;
+&lt;p&gt;Deb Nicholson is a free software policy nerd and passionate community advocate. She is the Community Outreach Director for the &lt;a href="https://www.openinventionnetwork.com"&gt;Open Invention Network&lt;/a&gt;, the largest patent non-aggression community in history which serves Linux, GNU, Android and other key FOSS projects. She’s won the &lt;a href="https://en.wikipedia.org/wiki/O%27Reilly_Open_Source_Award"&gt;O’Reilly Open Source Award&lt;/a&gt;, one of the most recognized awards in the FOSS world, for her work on GNU &lt;a href="https://mediagoblin.org/"&gt;MediaGoblin&lt;/a&gt; and &lt;a href="https://openhatch.org/"&gt;OpenHatch&lt;/a&gt;. She is a founding organizer of the &lt;a href="https://seagl.org/"&gt;Seattle GNU/Linux Conference&lt;/a&gt;, an annual event dedicated to surfacing new voices and welcoming new people to the free software community. She also serves on the &lt;a href="https://sfconservancy.org/"&gt;Software Freedom Conservancy's&lt;/a&gt; Evaluation Committee, which acts as a curator of new member projects. She lives with her husband and her lucky black cat in Cambridge, Massachusetts.&lt;/p&gt;
+&lt;p&gt;Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to lock in to the early bird price and ensure that you have the chance to listen to Deb, and the other keynotes and speakers at freenode #live this October.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;P.S. freenode will be at DEFCON25 this weekend (27-30th July 2017), do come find us in the vendor area and say hi, grab some stickers or get your hands on our limited edition freenode t-shirts!&lt;/em&gt;&lt;/p&gt;</content></entry><entry><title>freenode at DEFCON25</title><link href="https://freenode.net/news/defcon" rel="alternate"></link><published>2017-07-24T15:04:39+00:00</published><updated>2017-07-24T15:04:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/defcon</id><summary type="html"></summary><content type="html">&lt;h2 id="defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you"&gt;DEFCON25 takes place at Caesar's Palace in Las Vegas on 27-30 of this month. freenode will be there—will you?&lt;/h2&gt;
+&lt;p&gt;This year, freenode will have a booth in the vendor village—come have a chat with us, grab some stickers or get your hands on a limited edition freenode t-shirt!&lt;/p&gt;
+&lt;h2 id="freenode-live-october-28-29th-2017"&gt;freenode #live - October 28-29th 2017&lt;/h2&gt;
+&lt;p&gt;Only a few more days to lock in to the special early bird ticket price! Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets now&lt;/a&gt;, and don't forget to make a CFP submission if you fancy giving a talk. &lt;/p&gt;
+&lt;p&gt;Stay tuned, we're excited to be announcing the keynote speakers in the next few days!&lt;/p&gt;</content></entry><entry><title>Exhibiting at freenode #live</title><link href="https://freenode.net/news/freenode-live-exhibit" rel="alternate"></link><published>2017-07-18T09:29:50+00:00</published><updated>2017-07-18T09:29:50+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-18:/news/freenode-live-exhibit</id><summary type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
+&lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
+&lt;p&gt;We aim to ensure that the freenode #live conference remains affordable and accessible to the entire community, and to that end there is no exhibition charge for nonprofits and unincorporated FOSS projects. &lt;/p&gt;</summary><content type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
+&lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
+&lt;p&gt;We aim to ensure that the freenode #live conference remains affordable and accessible to the entire community, and to that end there is no exhibition charge for nonprofits and unincorporated FOSS projects. &lt;/p&gt;
+&lt;p&gt;While we are taking a grassroots approach with our conference, this does not mean that there is no space for corporate exhibitors and we recognise that the conference may provide opportunities for you too, and we would also like to welcome you to drop us a line to find out about our corporate exhibition packages or to tailor one specific to your company. Prices remain low also for corporate entities and we would love to see both types of exhibitor in Bristol on October 28 and 29th.&lt;/p&gt;
+&lt;p&gt;You can register and submit a response to our CFP &lt;a href="https:///freenode.live"&gt;here&lt;/a&gt; and we hope to start announcing keynote speakers and exhibitors soon. Please do keep an eye on the website though, we will also be opening up for nominations shortly as we will be presenting two awards as part of freenode #live, including the Rob Levin Memorial Community Award! Perhaps you know someone who has made great contributions to your community, or even a project that has redefined the community spirit in a positive way? Have a think about who YOU will be nominating! &lt;/p&gt;</content></entry><entry><title>freenode #live - Registration and CFP now open</title><link href="https://freenode.net/news/freenode-live" rel="alternate"></link><published>2017-07-13T19:35:39+00:00</published><updated>2017-07-13T19:35:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-13:/news/freenode-live</id><summary type="html">&lt;p&gt;The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will include talks and workshops, and we look forward to this community-focused gathering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;Tickets are now on sale and there is a special Early Bird price until 31 July&lt;/a&gt; and we are also taking &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submissions&lt;/a&gt; for the call for participation, we have three tracks to choose from (FOSS &amp;amp; Community, Privacy &amp;amp; Security and Making &amp;amp; Remixing) and we look forward to receiving your submission.&lt;/p&gt;
+&lt;p&gt;We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our community to attend and to submit proposals.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will include talks and workshops, and we look forward to this community-focused gathering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;Tickets are now on sale and there is a special Early Bird price until 31 July&lt;/a&gt; and we are also taking &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submissions&lt;/a&gt; for the call for participation, we have three tracks to choose from (FOSS &amp;amp; Community, Privacy &amp;amp; Security and Making &amp;amp; Remixing) and we look forward to receiving your submission.&lt;/p&gt;
+&lt;p&gt;We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our community to attend and to submit proposals.&lt;/p&gt;
+&lt;h2 id="what-are-we-looking-for"&gt;What are we looking for?&lt;/h2&gt;
+&lt;p&gt;We are looking for proposals for talks, workshops and other events and as a community-focused organisation, freenode is committed to ensuring that this conference is open to YOUR ideas! The more varied the programme, the better.&lt;/p&gt;
+&lt;p&gt;Perhaps you have something you would like to share with the community? We welcome proposals on all subjects and at any level of technical expertise, please do not feel constrained by the track subjects. We are keen to hear about your experiments, your discoveries, solutions, achievements and even your failures. We want to hear about “how to get started with X,” “how to use Y,” and “what we learned from working on Z”.&lt;/p&gt;
+&lt;p&gt;We want you to come teach us something new, we want you to make us think and we want you to make us laugh. Go ahead and submit a proposal for a talk, we’d love to hear your ideas.&lt;/p&gt;
+&lt;p&gt;Perhaps you could lead a tutorial on something of relevance to the freenode communities or the FOSS ecosystem? Why not throw your ideas in the hat and submit a proposal to hold a workshop?&lt;/p&gt;
+&lt;p&gt;Have a completely different idea? Is there something you would love to see happen at freenode #live? Let us know! We’re open to all ideas!&lt;/p&gt;
+&lt;p&gt;We want to hear from you, if you are planning to come to the event then you are very much part of the community and as such this is very much your conference. We want to hear from you regardless of whether you are a seasoned speaker or if this is the first time you are considering getting up in front of an audience. The freenode community is friendly and welcoming.&lt;/p&gt;
+&lt;p&gt;The CFP closes on 15 August 2017.&lt;/p&gt;
+&lt;p&gt;Together with our main sponsor and co-host of this year’s event, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, we very much look forward to welcoming you all to Bristol in October!&lt;/p&gt;
+&lt;p&gt;If you have any questions, please do not hesitate to drop us a line to 2017-team@freenode.live or hop into #live and chat with us.&lt;/p&gt;</content></entry><entry><title>Policy Updates</title><link href="https://freenode.net/news/fn-policy" rel="alternate"></link><published>2017-06-29T11:26:04+00:00</published><updated>2017-06-29T11:26:04+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-06-29:/news/fn-policy</id><summary type="html">&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</summary><content type="html">&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</content></entry><entry><title>PIA and freenode joining forces</title><link href="https://freenode.net/news/pia-fn" rel="alternate"></link><published>2017-04-12T20:03:34+00:00</published><updated>2017-04-12T20:03:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-04-12:/news/pia-fn</id><summary type="html">&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
+For the last few years, Private Internet Access has been a dedicated supporter
+of the freenode project and we are delighted to be able to announce that
+freenode is now officially part of the PIA family.&lt;/p&gt;
+&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
+peer-directed projects and other projects that have a broadly licensed output
+for the past 18 years, and there is a great deal of overlap between the visions
+and missions of the two organisations, as well as the projects and
+organisations the two organisations have supported, albeit in very different
+ways over the years.&lt;/p&gt;
+&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
+and Open Source Software communities, peer-directed projects and others and I
+think he would be proud of the growth we have experienced over the years if he
+were still here to see it.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
+For the last few years, Private Internet Access has been a dedicated supporter
+of the freenode project and we are delighted to be able to announce that
+freenode is now officially part of the PIA family.&lt;/p&gt;
+&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
+peer-directed projects and other projects that have a broadly licensed output
+for the past 18 years, and there is a great deal of overlap between the visions
+and missions of the two organisations, as well as the projects and
+organisations the two organisations have supported, albeit in very different
+ways over the years.&lt;/p&gt;
+&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
+and Open Source Software communities, peer-directed projects and others and I
+think he would be proud of the growth we have experienced over the years if he
+were still here to see it.&lt;/p&gt;
+&lt;p&gt;When I took over freenode following his death, my personal circumstances were
+very different from what they are now. I had time—oodles of it—and volunteering
+for freenode was very much a pleasure (by all means, it still is! Otherwise I
+wouldn't be here). However, over the years, times changed, the project grew,
+demands grew, my own responsibilities changed, both professionally and
+personally and I, along with several other senior freenode volunteers, found
+that we no longer had quite the same amount of time and energy to dedicate to
+the project.&lt;/p&gt;
+&lt;p&gt;Following discussion and deliberation we have decided to formally (and
+legally) ally ourselves with PIA. Freenode will continue to operate as a
+not-for-profit entity under the same management, with the same principles,
+but PIA's involvement going forwards will provide us with opportunities and
+resources that we could previously only dream of. PIA will provide an operating
+budget, mentorship and support that will allow freenode to implement some of
+the projects and ideas that have previously been on the backburner due to
+constraints in terms of volunteer time and resources.&lt;/p&gt;
+&lt;h2 id="why-what-is-the-incentive-for-pia"&gt;Why? What is the incentive for PIA?&lt;/h2&gt;
+&lt;p&gt;Private Internet Access is committed to bringing the internet back to its
+original state, where being online meant being in your own private world,
+exploring, learning and creating. PIA is serious about supporting organisations
+and individuals that it considers to be in alignment with its mission and
+freenode is one such project.&lt;/p&gt;
+&lt;p&gt;The founders of PIA feel that freenode has helped a number of open source
+projects progress, that freenode helps the community produce the pieces that
+make the internet work smoothly, piece by piece, and that it empowers people.&lt;/p&gt;
+&lt;p&gt;For PIA, this is about giving back, giving back to freenode and to the
+communities that they consider vital to their success and to their mission.&lt;/p&gt;
+&lt;p&gt;The freenode project would be nothing without its communities. All of our
+volunteers come from projects that use freenode, projects we are passionate
+about and projects we want to see continue to succeed.&lt;/p&gt;
+&lt;p&gt;As part of the PIA family, we can guarantee that the freenode project will
+continue to operate and that we will have the support and resources to further
+improve the services that we offer to FOSS communities and others, doing our
+bit to ensure that you can all continue doing what you do best—making the
+internet and the world a better place.&lt;/p&gt;
+&lt;h2 id="what-next"&gt;What next?&lt;/h2&gt;
+&lt;p&gt;There will be few noticeable changes in terms of day-to-day operations, the
+freenode project will continue to operate with much the same structure and
+volunteer base as it does now. We anticipate that group registration will
+become a quicker process and we look forward to implementing and announcing new
+features in the future.&lt;/p&gt;
+&lt;p&gt;On a personal level, I have joined PIA as a full-time employee and I will be
+holding a dual role. I will continue to head up the freenode project and you
+will no doubt see and hear more of me as my availability and involvement
+increases. Some of you might also find yourselves dealing with me in my new
+role as Director of Sponsorship and Events at Private Internet Access, where I
+will be heading up the work we undertake to support organisations, campaigns
+and events globally.&lt;/p&gt;
+&lt;p&gt;This means that you may bump into me at various conferences throughout the
+year, and if you do, please do come have a chat—whether about PIA, freenode or
+the weather!&lt;/p&gt;
+&lt;p&gt;On the subject of conferences, I am also extremely happy to announce that
+freenode #live will be taking place at At-Bristol in Bristol, UK on 28-29th
+October 2017. We will shortly be making a separate announcement as we open up
+registration and call for papers and I look forward to seeing you there.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to drop me a line (&lt;code&gt;/msg christel&lt;/code&gt;) on IRC if you
+have any questions.&lt;/p&gt;
+&lt;p&gt;Do keep an eye out for more exciting news!&lt;/p&gt;</content></entry><entry><title>Django AMA</title><link href="https://freenode.net/news/django-ama" rel="alternate"></link><published>2017-02-17T17:55:00+00:00</published><updated>2017-02-17T17:55:00+00:00</updated><author><name>Swant</name></author><id>tag:freenode.net,2017-02-17:/news/django-ama</id><summary type="html">&lt;p&gt;Start thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them:
+How do they utilize freenode? How can you contribute? And just who are these
+Django Girls we've heard so much about? Anything that you would be interested
+in learning about them, here's your opportunity!&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you don't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session. In the meantime be sure to
+visit their channel, #django, and get a head start on everyone else!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Start thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them:
+How do they utilize freenode? How can you contribute? And just who are these
+Django Girls we've heard so much about? Anything that you would be interested
+in learning about them, here's your opportunity!&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you don't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session. In the meantime be sure to
+visit their channel, #django, and get a head start on everyone else!&lt;/p&gt;
+&lt;p&gt;We hope to hold more Ask Me Anything sessions in the future. If this is
+something your project would be interested in, please reach out to us
+in #freenode-community or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Django and freenode</title><link href="https://freenode.net/news/django-and-freenode" rel="alternate"></link><published>2017-02-08T20:00:00+01:00</published><updated>2017-02-08T20:00:00+01:00</updated><author><name>Tim Graham (timograham)</name></author><id>tag:freenode.net,2017-02-08:/news/django-and-freenode</id><summary type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+has endeavoured to improve "the web framework for perfectionists with
+deadlines." Django is a high-level Python Web framework that encourage
+rapid development and clean, pragmatic design. Built by experienced
+developers, it takes care of much of the hassle of Web development,
+so you can focus on writing your app without needing to reinvent the
+wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation
+&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
+to manage some of the administrative and community management tasks of
+the Django project to support rapid development of Django itself. The
+fellowship program has a major positive impact on how Django is
+developed and maintained, and I’d encourage any large open source
+project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual
+conferences and local meetups. Sprints are often held at these events,
+but Django’s development is mainly coordinated remotely, so good
+communication tools are important to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+has endeavoured to improve "the web framework for perfectionists with
+deadlines." Django is a high-level Python Web framework that encourage
+rapid development and clean, pragmatic design. Built by experienced
+developers, it takes care of much of the hassle of Web development,
+so you can focus on writing your app without needing to reinvent the
+wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation
+&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
+to manage some of the administrative and community management tasks of
+the Django project to support rapid development of Django itself. The
+fellowship program has a major positive impact on how Django is
+developed and maintained, and I’d encourage any large open source
+project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual
+conferences and local meetups. Sprints are often held at these events,
+but Django’s development is mainly coordinated remotely, so good
+communication tools are important to us.&lt;/p&gt;
+&lt;h2 id="how-django-uses-freenode"&gt;How Django uses freenode&lt;/h2&gt;
+&lt;p&gt;Our community support channels include #django and the
+&lt;a href="https://groups.google.com/forum/#!forum/django-users"&gt;django-users mailing list&lt;/a&gt;.
+Discussions about the development of Django itself are held
+in #django-dev and the
+&lt;a href="https://groups.google.com/forum/#!forum/django-developers"&gt;django-developers mailing list&lt;/a&gt;. #django-sprint
+provides a chat for sprint participants, including those who want to
+join remotely. Finally, private discussions of the Django team are held
+in the #django-core channel.&lt;/p&gt;
+&lt;p&gt;To keep our community safe and welcoming, Django's
+&lt;a href="https://www.djangoproject.com/conduct/"&gt;Code of Conduct&lt;/a&gt; applies to
+all spaces managed by the Django project or Django Software Foundation
+(DSF). This includes IRC, the mailing lists, the issue tracker, DSF
+events, and any other forums created by the project team which the
+community uses for communication.&lt;/p&gt;
+&lt;h2 id="whats-next-for-django"&gt;What's next for Django?&lt;/h2&gt;
+&lt;p&gt;We're currently working toward releasing Django 1.11, our next
+long-term support release, in April. This will be the last version of
+Django to support Python 2.7. Meanwhile, Django's master development
+branch is targeting Django 2.0 and will support Python 3 only. More
+details are available on &lt;a href="https://www.djangoproject.com/download/#supported-versions"&gt;our roadmap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you’re interested in learning more about Django,
+&lt;a href="https://docs.djangoproject.com/en/stable/intro/tutorial01/"&gt;try our tutorial&lt;/a&gt;.
+If you’re already a Django user and want to start contributing, our
+documentation is extensive, including
+&lt;a href="https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/"&gt;advice for new contributors&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Fedora AMA</title><link href="https://freenode.net/news/fedora-ama" rel="alternate"></link><published>2017-01-21T15:24:00+00:00</published><updated>2017-01-21T15:24:00+00:00</updated><author><name>Nathan Handler (nhandler)</name></author><id>tag:freenode.net,2017-01-21:/news/fedora-ama</id><summary type="html">&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+opportunity to learn about one of our many groups on freenode.
+Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
+his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
+Anything" (AMA) session.&lt;/p&gt;
+&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
+it is an opportunity for you to ask the Fedora project all of those questions
+that you have been wondering. You can ask about the project itself, how they
+utilize freenode, ways to start contributing, or any other topics you might be
+interested in learning more about.&lt;/p&gt;
+&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
+You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+opportunity to learn about one of our many groups on freenode.
+Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
+his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
+Anything" (AMA) session.&lt;/p&gt;
+&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
+it is an opportunity for you to ask the Fedora project all of those questions
+that you have been wondering. You can ask about the project itself, how they
+utilize freenode, ways to start contributing, or any other topics you might be
+interested in learning more about.&lt;/p&gt;
+&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
+You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;
+&lt;p&gt;We hope to hold more Ask Me Anything sessions in the future. If this is something
+your project would be interested in, please reach out to us in &lt;code&gt;#freenode-community&lt;/code&gt;
+or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>New Year, New freenode</title><link href="https://freenode.net/news/new-year-new-freenode" rel="alternate"></link><published>2017-01-03T11:33:00+00:00</published><updated>2017-01-03T11:33:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-01-03:/news/new-year-new-freenode</id><summary type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Happy New Year!</title><link href="https://freenode.net/news/2016-is-finally-dead" rel="alternate"></link><published>2016-12-31T09:46:58+00:00</published><updated>2016-12-31T09:46:58+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2016-12-31:/news/2016-is-finally-dead</id><summary type="html">&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+of. For many the year has been dominated by uncertainty, by fear, and by
+sadness—a year dominated, in no small part, by the political shift on both
+sides of the Atlantic.&lt;/p&gt;
+&lt;p&gt;And a year dominated by death. We have looked on in surprise as icon after icon
+has passed away throughout the course of the year. We have looked on in sadness
+as masses of people have succumbed to terror and war. We have looked on as
+people try to flee, in search of a better life, often not succeeding. And as a
+project based in the UK we look on as the government tries to do its best to
+put an end to our digital rights, to our privacy.&lt;/p&gt;
+&lt;p&gt;Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
+They came out of nowhere and there were lots of them. Their arrival caused some
+distress to the existing communities on the network at the time; freenode
+predominantly caters to free and open source software developers and users and
+we were all somewhat perplexed when our network was overrun by teenagers
+wanting to chat about girls and football. They all seemed to be connecting from
+Syria.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
+of. For many the year has been dominated by uncertainty, by fear, and by
+sadness—a year dominated, in no small part, by the political shift on both
+sides of the Atlantic.&lt;/p&gt;
+&lt;p&gt;And a year dominated by death. We have looked on in surprise as icon after icon
+has passed away throughout the course of the year. We have looked on in sadness
+as masses of people have succumbed to terror and war. We have looked on as
+people try to flee, in search of a better life, often not succeeding. And as a
+project based in the UK we look on as the government tries to do its best to
+put an end to our digital rights, to our privacy.&lt;/p&gt;
+&lt;p&gt;Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
+They came out of nowhere and there were lots of them. Their arrival caused some
+distress to the existing communities on the network at the time; freenode
+predominantly caters to free and open source software developers and users and
+we were all somewhat perplexed when our network was overrun by teenagers
+wanting to chat about girls and football. They all seemed to be connecting from
+Syria.&lt;/p&gt;
+&lt;p&gt;When Aleppo comes up in the news, many of us find ourselves thinking about those
+kids and what happened to them. One of our volunteers invested a fair amount of
+time trying to figure out where they ended up. When discussing it recently, he
+shared his experience:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“After a few weeks of surreal crazy chaos we worked out that they were using a
+Java IRC client - and internet café PCs - to connect to our system.  They
+didn't know what it was for or why it existed but they'd found real-time
+online communication for the first time and were enjoying the shit out of it.&lt;/p&gt;
+&lt;p&gt;I first used IRC in the 90s when an IRC client was given to me by a friend not
+very long after it was the medium for some of the first ever real-time citizen
+journalism during the 1991 Gulf War. In much the same way that someone threw
+some software at me in a computing lab in Oxford and showed me how to use it
+to chat, these kids were sharing and collaborating in the streets and using
+new tools to talk to the guy a computer or a block or a neighbourhood over
+with equal ease.&lt;/p&gt;
+&lt;p&gt;While we tried to shepherd a group of unruly teenagers into a corner where
+they would cause less trouble for everyone else, I got to know a couple of the
+better English-speakers quite well; they seemed mostly to be basically decent
+kids growing up much too quickly and experiencing my corner of the internet
+for the first time. They were mostly in Aleppo.&lt;/p&gt;
+&lt;p&gt;As the Arab Spring progressed they grew in number and it was genuinely cool
+watching them discover and explore. But as spring turned to summer and then
+autumn, they gradually dropped in number and started to vanish. After a while
+I realised they'd mostly gone, and I tried to track some of the stragglers
+down to find out what had happened to the ringleader or any of the kids I'd
+gotten to know.&lt;/p&gt;
+&lt;p&gt;The ringleader had been killed in shellfire, was the answer. I found his blog.
+It had been silent for a couple of months. Eventually it fell off the internet
+when the account was suspended.&lt;/p&gt;
+&lt;p&gt;When a year later they all seemed to have gone I made more of an effort to do
+some digital anthropology and figure out just what had happened to them in
+more depth. I talked to a Lebanese peer who ran some adult Arabic language
+discussion spaces and he speculated that by that point hey had all died or
+fled and crossed the border into other countries.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As we reflect on the sobering condition of the world around us, it would be
+easy to forget about the positives.&lt;/p&gt;
+&lt;p&gt;We have the privilege of seeing thousands of people work on thousands of
+projects they love, and it's humbling and exciting to be allowed to play a small
+part in each of them. We're extremely grateful for that: we love learning about
+your projects; we love learning about the different ways in which people
+communicate and collaborate; we love learning about what you produce and why.&lt;/p&gt;
+&lt;p&gt;We have exceptionally generous sponsors who not only provide us with hardware
+and bandwidth but also with their continued time and expertise when required.&lt;/p&gt;
+&lt;p&gt;Thanks to one such sponsor we have also secured the majority of the requisite
+funding to put on a two-day live conference which will take place in the UK in
+August 2017. Further details and a formal announcement will follow early in the
+New Year. We are incredibly excited and hope that you will join us; we'd love
+for your project to exhibit or perhaps you could give a talk? Keep an eye out
+for our announcement!&lt;/p&gt;
+&lt;p&gt;With that, we would like to thank you all for using freenode and wish you the
+very best for 2017!&lt;/p&gt;</content></entry><entry><title>Celebrating Fedora 25 with freenode</title><link href="https://freenode.net/news/celebrating-fedora-freenode" rel="alternate"></link><published>2016-12-21T12:00:00-05:00</published><updated>2016-12-21T12:00:00-05:00</updated><author><name>Justin W. Flory (jflory7)</name></author><id>tag:freenode.net,2016-12-21:/news/celebrating-fedora-freenode</id><summary type="html">&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
+&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
+Project&lt;/a&gt; released Fedora 25,
+the latest and greatest version of our
+&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
+system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
+years&lt;/a&gt;,
+the Fedora community has worked to bring the leading edge of open source
+development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
+Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
+Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
+commitment to championing free and open source software and contributing
+back to upstream projects for the benefit of the open source community.
+&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
+features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
+server&lt;/a&gt;,
+&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
+3&lt;/a&gt;. Perhaps most
+importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
+around the world who help make every release of Fedora possible. Part of
+why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
+communication. Fedora community members come from all over the planet,
+including six out of seven continents. The tools we use to communicate
+help us collaborate, solve problems, and build friendships. IRC and
+freenode are an important part of how we communicate. Fedora registered
+our first channel on freenode on December 29, 2002. As we celebrate
+thirteen years of open source collaboration and the newest release of
+Fedora 25, the Fedora community wanted to reflect on our longstanding
+relationship with freenode.&lt;/p&gt;
+&lt;h2 id="how-fedora-uses-freenode"&gt;How Fedora uses freenode&lt;/h2&gt;
+&lt;p&gt;As a large open source project, there are many different teams and
+sub-projects in Fedora that help move us toward a new release. Just like
+there are many parts to a car's engine, there are many parts to Fedora's
+engine. Some of these groups are officially recognized sub-projects like
+the &lt;a href="https://fedoraproject.org/wiki/Design"&gt;Design team&lt;/a&gt;, &lt;a href="https://fedoraproject.org/wiki/CommOps"&gt;Community
+Operations&lt;/a&gt;, or &lt;a href="https://fedoraproject.org/wiki/Docs_Project"&gt;Docs
+team&lt;/a&gt;. Other times, they
+are informal &lt;a href="https://fedoraproject.org/wiki/Category:SIGs"&gt;Special Interest
+Groups&lt;/a&gt; (SIGs) that bring
+contributors together to focus on specific topics like programming
+languages or desktop environments, like the &lt;a href="https://fedoraproject.org/wiki/SIGs/Python"&gt;Python
+SIG&lt;/a&gt; or &lt;a href="https://fedoraproject.org/wiki/SIGs/KDE"&gt;KDE
+SIG&lt;/a&gt;. Usually, each of these
+groups or teams will have their own IRC channel to coordinate in. The
+Design team uses &lt;code&gt;#fedora-design&lt;/code&gt;, the Python SIG uses &lt;code&gt;#fedora-python&lt;/code&gt;…
+and so on. In total, Fedora has over 175 registered channels to its
+name. Frequently, teams will hold public meetings in the freenode
+channels to work through tickets, plan ahead on upcoming tasks, or
+discuss important topics for their team. There are a series of special
+meeting channels used for this purpose. Using the
+&lt;a href="http://meetbot.debian.net/Manual.html"&gt;MeetBot&lt;/a&gt; plugin, Fedora uses our
+own &lt;a href="https://github.com/fedora-infra/supybot-fedora"&gt;zodbot&lt;/a&gt; to help run
+meetings, mark up links or important ideas, and create a pretty HTML
+summary at the end of the meeting. All of these summaries and full logs
+are found at
+&lt;a href="https://meetbot.fedoraproject.org/"&gt;meetbot.fedoraproject.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="tips-to-using-irc-effectively"&gt;Tips to using IRC effectively&lt;/h2&gt;
+&lt;p&gt;There are countless different workflows, IRC clients, and handy plugins
+available to customize the IRC experience. In the spirit of the
+&lt;em&gt;Friends&lt;/em&gt; Foundation and the Code of Conduct, Fedora contributors are
+encouraged to &lt;a href="https://getfedora.org/code-of-conduct"&gt;always be excellent to one
+another&lt;/a&gt;. It's important to
+follow good manners in any IRC channel, Fedora or any other. Having good
+manners in IRC are as important as it is in real life. Be courteous to
+others, and if in doubt, it's good to assume the best intentions by
+others. IRC is important for Fedora, and many contributors have put
+together guides of our own as well. You can read more tips from the
+Fedora team in our &lt;a href="https://fedoramagazine.org/beginners-guide-irc/"&gt;IRC Beginner's
+Guide&lt;/a&gt; on the &lt;a href="https://fedoramagazine.org/"&gt;Fedora
+Magazine&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="whats-next-for-fedora"&gt;What's next for Fedora?&lt;/h2&gt;
+&lt;p&gt;As 2016 comes to an end, we're wrapping up on our own new release of
+Fedora 25. The Fedora community is looking forward to helping drive open
+source innovation and contributing to the Linux community for many years
+to come. Fedora currently has more than 2,000 contributors, and in the
+tenth percentile of active contributors, 65% of them are from the
+community (&lt;a href="https://mattdm.org/fedora/2016flock/StateofFedoraAugust2016-v160731a.pdf"&gt;State of Fedora, Flock
+2016&lt;/a&gt;).
+The Fedora steam engine is chugging ahead, and we're excited to see
+where it takes us next. We're happy to be able to have shared past,
+current, and future milestones together with the freenode community.
+Keep an eye out for Fedora Ambassadors in Europe during
+&lt;a href="https://devconf.cz/"&gt;DevConf&lt;/a&gt; and &lt;a href="https://fosdem.org/2017/"&gt;FOSDEM&lt;/a&gt;.
+You can also find us in North America at &lt;a href="https://brickhack.io/"&gt;BrickHack
+2017&lt;/a&gt;. And there will be more events all through
+the year you can keep an eye out for us at!&lt;/p&gt;</content></entry></feed>
