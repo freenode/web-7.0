@@ -177,8 +177,8 @@ Thanks in advance for any help you can provide!
 
 ## Group Management & Community Team
 
-The Group Management & Community Team comprises **nhandler**, **e**, **tomaw**
-and **christel**; together they will act as your liaisons during the group
+The Group Management & Community Team comprises **christel**, **e**, **Fuchs**, **kline**, 
+**nhandler** and **tomaw**; together they will act as your liaisons during the group
 registration process and throughout your tenure on the freenode network. If you
 wish to discuss the group registration process, find out if freenode could be a
 good fit for your project or register your project as a group, please feel free
