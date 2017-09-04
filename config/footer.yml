@@ -8,10 +8,19 @@
       link: pages/philosophy
     - name: The policies
       link: pages/policies
-    - name: freenode live!
-      link: pages/live
+    - name: 'freenode #live'
+      link: '//freenode.live'
     - name: Acknowledgements
       link: pages/acknowledgements
+    - 
+       - name: News Archive
+         link: archive
+       - name: '/'
+       - name: RSS
+         link: news/rss
+       - name: '/'
+       - name: Atom
+         link: news/atom
 - heading: Using freenode
   links:
     - name: Webchat
@@ -30,11 +39,7 @@
       link: 'kb/index/all'
     - name: Supporting the project
       link: pages/support
-- heading: Groups
-  links:
     - name: Group registration
       link: pages/groupreg
-    - name: Register as a group
-      link: pages/groupreg #XXX  link to gms
     - name: Existing groups
-      link: pages/groupreg #XXX  gms integration
+      link: pages/groupreg #GMS is dead

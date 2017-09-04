@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-11-20 16:58:58+00:00
 slug: dcc-spam-and-how-to-handle-it

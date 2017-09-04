@@ -1,3 +1,4 @@
+---
 author: mrmist
 date: 2011-12-30 11:50:37+00:00
 slug: focus-on-defocus

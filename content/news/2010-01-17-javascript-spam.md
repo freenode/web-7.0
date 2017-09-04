@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2010-01-17 02:36:04+00:00
 slug: javascript-spam

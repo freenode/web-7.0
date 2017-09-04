@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2010-06-10 18:30:18+00:00
 slug: freenode-webchat-changes

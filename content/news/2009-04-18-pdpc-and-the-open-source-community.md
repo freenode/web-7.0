@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-04-18 10:27:07+00:00
 slug: pdpc-and-the-open-source-community

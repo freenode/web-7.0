@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-03-09 15:32:07+00:00
 slug: 20082009-fundraiser-campaign-update

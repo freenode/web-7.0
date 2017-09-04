@@ -11,6 +11,9 @@
   output: out/static/img
   recursive: True
   pattern: '*.jpg'
+- command: [cat]
+  source: static/files
+  output: out/static/files
 - command: [svgo, -p, '7', -i, -, -o, -]
   source: static/img
   output: out/static/img

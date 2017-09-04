@@ -1,3 +1,4 @@
+---
 author: RichiH
 date: 2011-04-01 00:01:08+00:00
 slug: important-service-announcement-regarding-defocus

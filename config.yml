@@ -1,12 +1,12 @@
 name: freenode
 absolute-url: 'https://freenode.net/'
-COPYRIGHT: "&copy; 2016, freenode"
-DESCRIPTION: "freenode IRC network"
+COPYRIGHT: "&copy; 2016-2017, freenode"
+DESCRIPTION: "freenode.net - Supporting Free and Open Source Software Communities since 1998"
 GITHUB_URL: "https://github.com/freenode/web-7.0"
 SOCIAL:
   - name: Google+
     icon: google-plus
-    link: 'https://plus.google.com/104326727082310562426'
+    link: 'https://google.com/+freenode'
   - name: Twitter
     icon: twitter
     link: 'https://twitter.com/freenodestaff'
@@ -30,7 +30,7 @@ modules:
     source: news
     root: news
   - name: 'feed'
-    title: 'Freenode News'
+    title: 'freenode news'
     description: ''
     module: 'news'
     output: 'news'

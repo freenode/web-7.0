@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2008-10-30 12:40:18+00:00
 slug: fundraising-for-charity-status

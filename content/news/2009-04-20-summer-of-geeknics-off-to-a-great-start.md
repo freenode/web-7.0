@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2009-04-20 10:33:24+00:00
 slug: summer-of-geeknics-off-to-a-great-start

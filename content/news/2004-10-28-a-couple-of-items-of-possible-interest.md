@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2004-10-28 19:58:15+00:00
 slug: a-couple-of-items-of-possible-interest

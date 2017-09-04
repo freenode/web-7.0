@@ -1,3 +1,4 @@
+---
 author: RichiH
 date: 2011-05-28 17:06:53+00:00
 slug: this-is-a-public-service-announcement

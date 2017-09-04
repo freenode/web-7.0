@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2004-07-06 12:32:06+00:00
 slug: fundraising-event

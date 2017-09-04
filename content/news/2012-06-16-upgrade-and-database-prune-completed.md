@@ -1,3 +1,4 @@
+---
 author: mrmist
 date: 2012-06-16 21:35:15+00:00
 slug: upgrade-and-database-prune-completed

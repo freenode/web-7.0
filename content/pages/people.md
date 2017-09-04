@@ -1,3 +1,4 @@
+---
 Title: The People
 ---
 The freenode project is run entirely by volunteers. All of the current volunteers came to the project through involvement with one or more of the projects that use freenode.

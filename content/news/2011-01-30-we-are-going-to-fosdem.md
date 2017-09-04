@@ -1,3 +1,4 @@
+---
 author: RichiH
 date: 2011-01-30 01:24:40+00:00
 slug: we-are-going-to-fosdem

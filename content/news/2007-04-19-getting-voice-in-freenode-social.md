@@ -1,3 +1,4 @@
+---
 author: seanw
 date: 2007-04-19 13:07:23+00:00
 slug: getting-voice-in-freenode-social

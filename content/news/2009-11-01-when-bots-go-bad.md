@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2009-11-01 21:12:26+00:00
 slug: when-bots-go-bad

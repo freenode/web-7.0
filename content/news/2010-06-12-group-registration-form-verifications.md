@@ -1,3 +1,4 @@
+---
 author: Martinp23
 date: 2010-06-12 11:06:26+00:00
 slug: group-registration-form-verifications

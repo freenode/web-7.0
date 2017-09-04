@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2011-08-31 08:46:35+00:00
 slug: fixing-defocus

@@ -1,3 +1,4 @@
+---
 author: denny
 date: 2008-04-22 20:57:29+00:00
 slug: registering-a-channel-on-freenode

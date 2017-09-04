@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2007-02-15 02:12:17+00:00
 slug: bringing-people-together

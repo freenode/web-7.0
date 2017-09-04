@@ -1,3 +1,4 @@
+---
 author: mrmist
 date: 2014-09-13 14:47:51+00:00
 slug: server-issues-2

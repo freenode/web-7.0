@@ -1,4 +1,4 @@
-# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0)
+# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0) [![irc: #freenode-website](https://img.shields.io/badge/irc-%23freenode--website-brightgreen.svg)](https://webchat.freenode.net/?channels=freenode-website)
 
 A shiny replacement for http://freenode.net.
 
@@ -38,6 +38,8 @@ from any directory, you can also use `cms7 -c /path/to/config.yml`.
   instead.
 - Wait for discussion of big changes. Your branches will still be here
   tomorrow.
+
+Please comply with the [contribution guidelines](CONTRIBUTING.md)
 
 Helpful tip for those merging PRs: you can browse the tree a merge would
 result in by navigating to

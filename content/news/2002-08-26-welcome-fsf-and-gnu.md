@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2002-08-26 15:53:48+00:00
 slug: welcome-fsf-and-gnu

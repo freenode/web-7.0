@@ -1,3 +1,4 @@
+---
 author: JonathanD
 date: 2010-01-26 17:40:44+00:00
 slug: migration-to-new-ircd

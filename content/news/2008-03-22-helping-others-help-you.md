@@ -1,3 +1,4 @@
+---
 author: numist
 date: 2008-03-22 17:46:11+00:00
 slug: helping-others-help-you

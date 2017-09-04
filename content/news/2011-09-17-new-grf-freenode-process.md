@@ -1,3 +1,4 @@
+---
 author: Martinp23
 date: 2011-09-17 23:19:47+00:00
 slug: new-grf-freenode-process

@@ -1,3 +1,4 @@
+---
 author: Pricey
 date: 2013-08-09 08:50:14+00:00
 slug: check-your-nickserv-email

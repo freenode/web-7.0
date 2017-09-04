@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2002-08-14 00:00:32+00:00
 slug: open-projects-is-now-freenode

@@ -1,3 +1,4 @@
+---
 author: seanw
 date: 2007-11-18 23:49:19+00:00
 slug: keeping-tabs-on-channel-bans

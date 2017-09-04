@@ -1,3 +1,4 @@
+---
 author: Martinp23
 date: 2012-04-06 20:33:38+00:00
 slug: database-prune

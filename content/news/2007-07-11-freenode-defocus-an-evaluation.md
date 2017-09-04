@@ -1,3 +1,4 @@
+---
 author: seanw
 date: 2007-07-11 17:58:11+00:00
 slug: freenode-defocus-an-evaluation

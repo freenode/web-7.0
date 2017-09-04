@@ -1,3 +1,4 @@
+---
 author: christel
 date: 2010-01-30 08:20:10+00:00
 slug: freenode-is-dead-long-live-freenode
