@@ -24,37 +24,17 @@
         </ul>
     </div>
     {% endfor %}
-    <div></div>
-    <div class="footerchild">
-        <div class="footer-push">
-        <h2>Social Media</h2>
-        <ul>
-            {%- for link in config.SOCIAL %}
-            <li>
-                <a href="{{ link.link }}" target="_blank">
-                    <i class="fa fa-{{ link.icon }} fa-fw"></i> <span class="hdn">{{ link.name }}</span></a>
-            </li>
-            {%- endfor %}
-            <li>
-                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
-                    <img alt="PIA" class="fa-fw" src="{{ url_for("static/img/logos/pia-robot-original.svg") }}">
-                <span class="hdn">Private Internet Access</span></a>
-            </li>
-        </ul>
-        </div>
-    </div>
     </div>
 </footer>
 <footer class="copyright">
+    <div>{{ config.COPYRIGHT|safe }}</div>
     <div>
-    {%- if config.GITHUB_URL is defined %}
-    <a href="{{ config.GITHUB_URL }}"><i class="fa fa-github fa-lg"></i></a>&nbsp;
-    {% endif -%}
-    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
-        <img alt="CC by-nc-sa" src="{{ url_for("static/img/by-nc-sa.svg") }}">
-    </a>
-    </div>
-    <div>
-        {{ config.COPYRIGHT|safe }}
+        {%- if config.GITHUB_URL is defined %}
+        <a href="{{ config.GITHUB_URL }}" target="_blank" alt="Github"><i class="fa fa-github"></i></a>
+        {% endif -%}
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" alt="Creative Commons"><i class="fa fa-creative-commons"></i></a>
+        {%- for link in config.SOCIAL %}
+        <a href="{{ link.link }}" target="_blank" alt="{{ link.name }}"><i class="fa fa-{{ link.icon }}"></i></a>
+        {% endfor %}
     </div>
 </footer>
