@@ -8,7 +8,7 @@
       link: pages/philosophy
     - name: The policies
       link: pages/policies
-    - name: freenode #live
+    - name: 'freenode #live'
       link: '//freenode.live'
     - name: Acknowledgements
       link: pages/acknowledgements
