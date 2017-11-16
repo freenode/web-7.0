@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 15 Nov 2017 23:43:04 +0000</lastBuildDate><item><title>On Shadowbans</title><link>https://freenode.net/news/shadowban-fix</link><description>&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 15 Nov 2017 23:59:04 +0000</lastBuildDate><item><title>On Shadowbans</title><link>https://freenode.net/news/shadowban-fix</link><description>&lt;p&gt;It's recently come to our attention that an unintended effect of combining
 channel modes allowed channel operators to set undetectable bans and quiets on
 users.&lt;/p&gt;
 &lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
 to moderation. While we recognise the challenges of moderating large channels,
 we urge channel operators to be as transparent as possible, and believe that
 users should be aware of moderation action taken against them.&lt;/p&gt;
-&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of today,
-&lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
-effects as an uninvolved user checking its ban list.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Wed, 15 Nov 2017 23:43:04 +0000</pubDate></item><item><title>freenode #live - even more confirmed speakers</title><link>https://freenode.net/news/freenode-live-more-speakers</link><description>&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Wed, 15 Nov 2017 23:59:04 +0000</pubDate></item><item><title>freenode #live - even more confirmed speakers</title><link>https://freenode.net/news/freenode-live-more-speakers</link><description>&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
 for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
 taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
 this year.&lt;/p&gt;

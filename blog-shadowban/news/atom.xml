@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-11-15T23:43:04+00:00</updated><entry><title>On Shadowbans</title><link href="https://freenode.net/news/shadowban-fix" rel="alternate"></link><published>2017-11-15T23:43:04+00:00</published><updated>2017-11-15T23:43:04+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2017-11-15:/news/shadowban-fix</id><summary type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-11-15T23:59:04+00:00</updated><entry><title>On Shadowbans</title><link href="https://freenode.net/news/shadowban-fix" rel="alternate"></link><published>2017-11-15T23:59:04+00:00</published><updated>2017-11-15T23:59:04+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2017-11-15:/news/shadowban-fix</id><summary type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
 channel modes allowed channel operators to set undetectable bans and quiets on
 users.&lt;/p&gt;
 &lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
 to moderation. While we recognise the challenges of moderating large channels,
 we urge channel operators to be as transparent as possible, and believe that
 users should be aware of moderation action taken against them.&lt;/p&gt;
-&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of today,
-&lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
 effects as an uninvolved user checking its ban list.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
 channel modes allowed channel operators to set undetectable bans and quiets on
 users.&lt;/p&gt;
@@ -15,8 +15,8 @@ users.&lt;/p&gt;
 to moderation. While we recognise the challenges of moderating large channels,
 we urge channel operators to be as transparent as possible, and believe that
 users should be aware of moderation action taken against them.&lt;/p&gt;
-&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of today,
-&lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
 effects as an uninvolved user checking its ban list.&lt;/p&gt;
 &lt;p&gt;This was &lt;a href="new-extban-j"&gt;always the intention&lt;/a&gt; in enabling &lt;code&gt;$j&lt;/code&gt;.
 I apologise on behalf of the staff team for any confusion this may have caused.&lt;/p&gt;</content></entry><entry><title>freenode #live - even more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-more-speakers" rel="alternate"></link><published>2017-08-25T23:15:00+00:00</published><updated>2017-08-25T23:15:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-25:/news/freenode-live-more-speakers</id><summary type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
