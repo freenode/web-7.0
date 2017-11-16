@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?a596bea" rel="stylesheet">
-    <link href="static/css/font-awesome.css?a596bea" rel="stylesheet">
-    <link href="static/css/style.css?a596bea" rel="stylesheet">
+    <link href="static/css/open-sans.css?9a8bfe1" rel="stylesheet">
+    <link href="static/css/font-awesome.css?9a8bfe1" rel="stylesheet">
+    <link href="static/css/style.css?9a8bfe1" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,48 +50,21 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/freenode-live-more-speakers"><h1 class="art">freenode #live - even more confirmed speakers</h1></a>
-<span class="art-date">bigpresh on 2017-08-25</span>
+<a href="news/shadowban-fix"><h1 class="art">On Shadowbans</h1></a>
+<span class="art-date">edk on 2017-11-15</span>
 </div>
-    <div class="art-body"><p>Yesterday, we <a href="/news/freenode-live-speakers">announced more confirmed speakers</a>
-for the <a href="https://freenode.live/conference/fn-live17">freenode #live conference</a>
-taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
-this year.</p>
-<p>Today we are happy to announce more speakers:</p>
-<ul>
-<li>Chris Lamb - Currently the Debian Project Leader, Chris is a freelance computer
-  programmer, author of dozens of free projects, and contributor to hundreds of
-  others. Chris has spoken at numerous conferences, including LinuxCon China,
-  HKOSCon, linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
-  Freedom Kosovo, foss-north &amp; FOSS'ASIA.</li>
-<li>Philipp Krenn - part of the infrastructure team and a Developer Advocate at
-  Elastic, spreading the love and knowledge of full-text search, analytics, and
-  real-time data. He is a frequent speaker at conferences and meetups about all
-  things search &amp; analytics, databases, cloud computing, and devops.</li>
-<li>Oliver Gorwits - Oliver has a background in computer networks and is a senior
-  IT manager at a major weather forecasting centre in the UK. For over 20 years
-  he's worked with software as a hobby and contributed to open source, mainly in
-  Perl, and now leads the Netdisco project.</li>
-</ul>
-<h2 id="still-more-to-come">Still more to come</h2>
-<p>With still more speakers to be announced soon, keep your eyes out for more
-announcements coming soon - and get your ticket now to secure your place!</p>
-<h2 id="get-your-tickets-now">Get your tickets now!</h2>
-<p>Want to watch these talented speakers? Get your 
-<a href="https://freenode.live/conference/fn-live17/tickets">tickets</a> now to ensure you
-have the chance to experience these and the other speakers and workshops to be
-announced soon!</p>
-<h2 id="exhibit-your-project-or-sponsor-the-event">Exhibit your project or sponsor the event</h2>
-<p>If you represent a FOSS project and would like to exhibit, please contact us -
-FOSS projects exhibit for free, and it's a great way to meet your current users
-and attract others!</p>
-<p>Corporate sponsors are very much welcomed also, with a variety of sponsorship 
-packages available providing different exposure levels to a FOSS-centered, 
-technical audience - get a warm fuzzy feeling by supporting the community
-which most likely contributed in no small way to the success of your business!</p>
-<p>For any questions, please feel free to email us - 2017-team@freenode.live - or
-join us in #live on freenode!</p>
-<p>We look forward to seeing you there.</p></div>
+    <div class="art-body"><p>It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.</p>
+<p>freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.</p>
+<p>In light of this, we are deploying a change to the <code>$j</code> extban. As of tomorrow
+UTC, <code>$j</code> will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.</p>
+<p>This was <a href="news/new-extban-j">always the intention</a> in enabling <code>$j</code>.
+I apologise on behalf of the staff team for any confusion this may have caused.</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Fri, 25 Aug 2017 23:15:00 +0000</lastBuildDate><item><title>freenode #live - even more confirmed speakers</title><link>https://freenode.net/news/freenode-live-more-speakers</link><description>&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 15 Nov 2017 23:59:04 +0000</lastBuildDate><item><title>On Shadowbans</title><link>https://freenode.net/news/shadowban-fix</link><description>&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.&lt;/p&gt;
+&lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.&lt;/p&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Wed, 15 Nov 2017 23:59:04 +0000</pubDate></item><item><title>freenode #live - even more confirmed speakers</title><link>https://freenode.net/news/freenode-live-more-speakers</link><description>&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
 for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
 taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
 this year.&lt;/p&gt;
@@ -97,32 +106,4 @@ distress to the existing communities on the network at the time; freenode
 predominantly caters to free and open source software developers and users and
 we were all somewhat perplexed when our network was overrun by teenagers
 wanting to chat about girls and football. They all seemed to be connecting from
-Syria.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sat, 31 Dec 2016 09:46:58 +0000</pubDate></item><item><title>Celebrating Fedora 25 with freenode</title><link>https://freenode.net/news/celebrating-fedora-freenode</link><description>&lt;p&gt;&lt;img alt="Celebrating Fedora 25 with freenode" src="../static/img/celebrating-fedora-freenode.png"&gt;&lt;/p&gt;
-&lt;p&gt;On November 22nd, 2016, the &lt;a href="https://fedoraproject.org/wiki/Overview"&gt;Fedora
-Project&lt;/a&gt; released Fedora 25,
-the latest and greatest version of our
-&lt;a href="https://en.wikipedia.org/wiki/Linux_kernel"&gt;Linux-based&lt;/a&gt; operating
-system. For &lt;a href="https://www.redhat.com/archives/fedora-announce-list/2003-November/msg00000.html"&gt;over thirteen
-years&lt;/a&gt;,
-the Fedora community has worked to bring the leading edge of open source
-development to the world. Fedora's focus is guided by its &lt;a href="https://fedoraproject.org/wiki/Foundations"&gt;Four
-Foundations&lt;/a&gt;: &lt;em&gt;Freedom,
-Friends, Features, First&lt;/em&gt;. &lt;em&gt;Freedom&lt;/em&gt; is representative of Fedora's
-commitment to championing free and open source software and contributing
-back to upstream projects for the benefit of the open source community.
-&lt;em&gt;Features&lt;/em&gt; stands for Fedora's commitment to driving some of the newest
-features &lt;em&gt;First&lt;/em&gt;. Some of these examples include the &lt;a href="https://en.wikipedia.org/wiki/Wayland_(display_server_protocol)"&gt;Wayland display
-server&lt;/a&gt;,
-&lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;, and &lt;a href="https://en.wikipedia.org/wiki/GNOME#GNOME_3"&gt;GNOME
-3&lt;/a&gt;. Perhaps most
-importantly, &lt;em&gt;Friends&lt;/em&gt; are for the friendships made by contributors from
-around the world who help make every release of Fedora possible. Part of
-why &lt;em&gt;Friends&lt;/em&gt; is an important part of the Four Foundations is
-communication. Fedora community members come from all over the planet,
-including six out of seven continents. The tools we use to communicate
-help us collaborate, solve problems, and build friendships. IRC and
-freenode are an important part of how we communicate. Fedora registered
-our first channel on freenode on December 29, 2002. As we celebrate
-thirteen years of open source collaboration and the newest release of
-Fedora 25, the Fedora community wanted to reflect on our longstanding
-relationship with freenode.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Justin W. Flory (jflory7)</dc:creator><pubDate>Wed, 21 Dec 2016 12:00:00 -0500</pubDate></item></channel></rss>
+Syria.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sat, 31 Dec 2016 09:46:58 +0000</pubDate></item></channel></rss>
