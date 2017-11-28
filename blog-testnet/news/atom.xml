@@ -12,7 +12,7 @@ enormously helpful if anyone with a bit of spare time could help us test them.&l
 &lt;code&gt;chat.freenode.net:9003&lt;/code&gt; (use TLS) or &lt;code&gt;testnetb64n7zeyi.onion&lt;/code&gt;. Services
 databases are not synced and the network is liable to be shut down, restarted or
 reset at any time.&lt;/p&gt;
-&lt;p&gt;You can find the ircd patches we're testing at any given time on GitHub&lt;a href="https://github.com/freenode/ircd-seven/pulls?q=is%3Apr+is%3Aopen+label%3A%22on+testnet%22"&gt;1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can find the ircd patches we're testing at any given time &lt;a href="https://github.com/freenode/ircd-seven/pulls?q=is%3Apr+is%3Aopen+label%3A%22on+testnet%22"&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks!&lt;/p&gt;</content></entry><entry><title>On Shadowbans</title><link href="https://freenode.net/news/shadowban-fix" rel="alternate"></link><published>2017-11-15T23:59:04+00:00</published><updated>2017-11-15T23:59:04+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2017-11-15:/news/shadowban-fix</id><summary type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
 channel modes allowed channel operators to set undetectable bans and quiets on
 users.&lt;/p&gt;
