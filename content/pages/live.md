@@ -29,7 +29,7 @@ If you are breastfeeding your baby, you are welcome to feed your baby whenever a
 
 # Code of Conduct
 
-On freenode, we believe that most of our users are intelligent and well-intended and we are loathe to tell people what to do, and just as we have expectations for conduct on the freenode network, we also have expectations for conduct at our live conferences. We will not condone harassment or offensive behaviour, on the freenode network or at our conference venues. 
+On freenode, we believe that most of our users are intelligent and well-intended and we are loathe to tell people what to do, but just as we have expectations for conduct on the freenode network, we also have expectations for conduct at our live conferences. We will not condone harassment or offensive behaviour, on the freenode network or at our conference venues. 
 
 The focus of freenode is on collaboration and community, and we ask that you help us make the freenode #live conference a place where all participants, regardless of race, gender, gender identity and expression, age, sexual orientation, disability, physical appearance, nationality, ethnicity, political affiliation or religion are feel welcome and included. freenode #live is an extension of the freenode network and we encourage networking and community enrichment and we will not tolerate harassment of any participants in any form - in person or online.
 
