@@ -93,8 +93,9 @@ Requesting a cloak
 ==================
 
 Once you've read and understood the above, if you would like an unaffiliated
-cloak, please drop in to #freenode or speak to a member of the staff team and
-we'll be happy to set one up for you.
+cloak, please drop in to #freenode or speak to a member of the staff team. Note
+that cloaks are a privilege, and staff have the right to deny that privilege to
+users if they deem necessary.
 
 For project cloaks, a registered GC for the project needs to contact staff to
 request the cloak be added to the desired user.
