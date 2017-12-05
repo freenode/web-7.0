@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Wed, 15 Nov 2017 23:59:04 +0000</lastBuildDate><item><title>On Shadowbans</title><link>https://freenode.net/news/shadowban-fix</link><description>&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 05 Dec 2017 09:00:00 +0000</lastBuildDate><item><title>"Joe-Job" spam on other networks referring to freenode</title><link>https://freenode.net/news/joe-job-spam</link><description>&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+spamming channels with racist messages which suggest that they are promoting a
+channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
+&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
+targetting other networks, but we'd like to clarify that we of course do not
+support any racist or hate-inciting behaviour, which is strictly against our
+&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
+in the spam messages are in no way connected to the spam - rather they are
+innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
+designed to disrupt them as well as freenode.&lt;/p&gt;
+&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
+individual sighting, particularly in #freenode, is of limited value and likely
+to cause more noise than signal, but feel free to message a staffer (use the
+&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
+if you are part of the oper/staff team on another affected network and want to
+talk to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bigpresh</dc:creator><pubDate>Tue, 05 Dec 2017 09:00:00 +0000</pubDate></item><item><title>On Shadowbans</title><link>https://freenode.net/news/shadowban-fix</link><description>&lt;p&gt;It's recently come to our attention that an unintended effect of combining
 channel modes allowed channel operators to set undetectable bans and quiets on
 users.&lt;/p&gt;
 &lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
@@ -90,20 +105,4 @@ network as servers are being brought down for maintenance, etc.&lt;/p&gt;
 way of global notices and wallops, depending on what we deem necessary for the
 interventions concerned.&lt;/p&gt;
 &lt;p&gt;Thank you for your patience and understanding while we carry out the
-maintenance and thank you for using freenode!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 03 Jan 2017 11:33:00 +0000</pubDate></item><item><title>Happy New Year!</title><link>https://freenode.net/news/2016-is-finally-dead</link><description>&lt;p&gt;Another year comes to an end: 2016, a year many will be glad to see the back
-of. For many the year has been dominated by uncertainty, by fear, and by
-sadness—a year dominated, in no small part, by the political shift on both
-sides of the Atlantic.&lt;/p&gt;
-&lt;p&gt;And a year dominated by death. We have looked on in surprise as icon after icon
-has passed away throughout the course of the year. We have looked on in sadness
-as masses of people have succumbed to terror and war. We have looked on as
-people try to flee, in search of a better life, often not succeeding. And as a
-project based in the UK we look on as the government tries to do its best to
-put an end to our digital rights, to our privacy.&lt;/p&gt;
-&lt;p&gt;Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
-They came out of nowhere and there were lots of them. Their arrival caused some
-distress to the existing communities on the network at the time; freenode
-predominantly caters to free and open source software developers and users and
-we were all somewhat perplexed when our network was overrun by teenagers
-wanting to chat about girls and football. They all seemed to be connecting from
-Syria.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Sat, 31 Dec 2016 09:46:58 +0000</pubDate></item></channel></rss>
+maintenance and thank you for using freenode!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 03 Jan 2017 11:33:00 +0000</pubDate></item></channel></rss>
