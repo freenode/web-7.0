@@ -1,6 +1,6 @@
 ---
 author: bigpresh
-date: 2017-12-05 09:66:00+00:00
+date: 2017-12-05 09:00:00+00:00
 slug: joe-job-spam
 title: "Joe-Job" spam on other networks referring to freenode
 category: community
