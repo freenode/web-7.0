@@ -8,7 +8,7 @@ category: general
 category: freenode
 ---
 
-It has come to our attemption that someone is going around other IRC networks,
+It has come to our attention that someone is going around other IRC networks,
 spamming channels with racist messages which suggest that they are promoting a
 channel here on freenode, and that we are aware and supportive of such.
 
