@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 05 Dec 2017 09:00:00 +0000</lastBuildDate><item><title>"Joe-Job" spam on other networks referring to freenode</title><link>https://freenode.net/news/joe-job-spam</link><description>&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+spamming channels with racist messages which suggest that they are promoting a
+channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
+&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
+targetting other networks, but we'd like to clarify that we of course do not
+support any racist or hate-inciting behaviour, which is strictly against our
+&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
+in the spam messages are in no way connected to the spam - rather they are
+innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
+designed to disrupt them as well as freenode.&lt;/p&gt;
+&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
+individual sighting, particularly in #freenode, is of limited value and likely
+to cause more noise than signal, but feel free to message a staffer (use the
+&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
+if you are part of the oper/staff team on another affected network and want to
+talk to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bigpresh</dc:creator><pubDate>Tue, 05 Dec 2017 09:00:00 +0000</pubDate></item><item><title>On Shadowbans</title><link>https://freenode.net/news/shadowban-fix</link><description>&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.&lt;/p&gt;
+&lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.&lt;/p&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">edk</dc:creator><pubDate>Wed, 15 Nov 2017 23:59:04 +0000</pubDate></item><item><title>freenode #live - even more confirmed speakers</title><link>https://freenode.net/news/freenode-live-more-speakers</link><description>&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bigpresh</dc:creator><pubDate>Fri, 25 Aug 2017 23:15:00 +0000</pubDate></item><item><title>freenode #live - more confirmed speakers</title><link>https://freenode.net/news/freenode-live-speakers</link><description>&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.&lt;/p&gt;
+&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
+pleased to announce the following confirmed lineup:&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">bigpresh</dc:creator><pubDate>Wed, 23 Aug 2017 22:00:00 +0000</pubDate></item><item><title>Spambot attack</title><link>https://freenode.net/news/spamwave</link><description>&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;While the attacks are ongoing we have chosen to update the default umodes for users to include +R, please note that this means you will not receive messages from unregistered users and you will need to /mode yournick -R in order to allow those to come through. If you choose to set yourself -R, please be cautious of clicking on any links from unregistered users that you do not know.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Thu, 17 Aug 2017 10:05:00 +0000</pubDate></item><item><title>freenode #live - Opening Keynote</title><link>https://freenode.net/news/opening-keynote</link><description>&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Mon, 24 Jul 2017 22:52:39 +0000</pubDate></item><item><title>freenode at DEFCON25</title><link>https://freenode.net/news/defcon</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Mon, 24 Jul 2017 15:04:39 +0000</pubDate></item><item><title>Exhibiting at freenode #live</title><link>https://freenode.net/news/freenode-live-exhibit</link><description>&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
+&lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
+&lt;p&gt;We aim to ensure that the freenode #live conference remains affordable and accessible to the entire community, and to that end there is no exhibition charge for nonprofits and unincorporated FOSS projects. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 18 Jul 2017 09:29:50 +0000</pubDate></item><item><title>freenode #live - Registration and CFP now open</title><link>https://freenode.net/news/freenode-live</link><description>&lt;p&gt;The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will include talks and workshops, and we look forward to this community-focused gathering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;Tickets are now on sale and there is a special Early Bird price until 31 July&lt;/a&gt; and we are also taking &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submissions&lt;/a&gt; for the call for participation, we have three tracks to choose from (FOSS &amp;amp; Community, Privacy &amp;amp; Security and Making &amp;amp; Remixing) and we look forward to receiving your submission.&lt;/p&gt;
+&lt;p&gt;We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our community to attend and to submit proposals.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Thu, 13 Jul 2017 19:35:39 +0000</pubDate></item><item><title>Policy Updates</title><link>https://freenode.net/news/fn-policy</link><description>&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Thu, 29 Jun 2017 11:26:04 +0000</pubDate></item><item><title>PIA and freenode joining forces</title><link>https://freenode.net/news/pia-fn</link><description>&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
+For the last few years, Private Internet Access has been a dedicated supporter
+of the freenode project and we are delighted to be able to announce that
+freenode is now officially part of the PIA family.&lt;/p&gt;
+&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
+peer-directed projects and other projects that have a broadly licensed output
+for the past 18 years, and there is a great deal of overlap between the visions
+and missions of the two organisations, as well as the projects and
+organisations the two organisations have supported, albeit in very different
+ways over the years.&lt;/p&gt;
+&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
+and Open Source Software communities, peer-directed projects and others and I
+think he would be proud of the growth we have experienced over the years if he
+were still here to see it.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Wed, 12 Apr 2017 20:03:34 +0000</pubDate></item><item><title>Django AMA</title><link>https://freenode.net/news/django-ama</link><description>&lt;p&gt;Start thinking of tricky questions!
+Once again &lt;a href="http://freenode.net/news/community"&gt;the freenode community team&lt;/a&gt;
+is pleased to announce another Ask Me Anything (AMA). This time &lt;a href="https://www.djangoproject.com"&gt;Django&lt;/a&gt;
+will be our guest. Read more about them in the
+&lt;a href="http://freenode.net/news/django-and-freenode"&gt;blog post&lt;/a&gt; published last week.&lt;/p&gt;
+&lt;p&gt;This is your chance to ask Django all your questions about them:
+How do they utilize freenode? How can you contribute? And just who are these
+Django Girls we've heard so much about? Anything that you would be interested
+in learning about them, here's your opportunity!&lt;/p&gt;
+&lt;p&gt;The AMA is scheduled to take place on Wed Feb 22 18:00:00 UTC, 2017,
+so grab your calendar and make sure you don't miss it.
+You can watch the AMA in #freenode-ama and participate by asking questions
+in #freenode-ama-questions during the session. In the meantime be sure to
+visit their channel, #django, and get a head start on everyone else!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Swant</dc:creator><pubDate>Fri, 17 Feb 2017 17:55:00 +0000</pubDate></item><item><title>Django and freenode</title><link>https://freenode.net/news/django-and-freenode</link><description>&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
+has endeavoured to improve "the web framework for perfectionists with
+deadlines." Django is a high-level Python Web framework that encourage
+rapid development and clean, pragmatic design. Built by experienced
+developers, it takes care of much of the hassle of Web development,
+so you can focus on writing your app without needing to reinvent the
+wheel. Of course, it's free and open source.&lt;/p&gt;
+&lt;p&gt;I’m contracted full-time by the Django Software Foundation
+&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
+to manage some of the administrative and community management tasks of
+the Django project to support rapid development of Django itself. The
+fellowship program has a major positive impact on how Django is
+developed and maintained, and I’d encourage any large open source
+project to consider a similar program.&lt;/p&gt;
+&lt;p&gt;The Django community is vibrant across the globe, with many annual
+conferences and local meetups. Sprints are often held at these events,
+but Django’s development is mainly coordinated remotely, so good
+communication tools are important to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tim Graham (timograham)</dc:creator><pubDate>Wed, 08 Feb 2017 20:00:00 +0100</pubDate></item><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
+opportunity to learn about one of our many groups on freenode.
+Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
+his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
+Anything" (AMA) session.&lt;/p&gt;
+&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
+it is an opportunity for you to ask the Fedora project all of those questions
+that you have been wondering. You can ask about the project itself, how they
+utilize freenode, ways to start contributing, or any other topics you might be
+interested in learning more about.&lt;/p&gt;
+&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
+You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nathan Handler (nhandler)</dc:creator><pubDate>Sat, 21 Jan 2017 15:24:00 +0000</pubDate></item><item><title>New Year, New freenode</title><link>https://freenode.net/news/new-year-new-freenode</link><description>&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
+and some minor upgrades that could cause some disruption on the freenode
+network as servers are being brought down for maintenance, etc.&lt;/p&gt;
+&lt;p&gt;We would like to apologise in advance and further updates will be provided by
+way of global notices and wallops, depending on what we deem necessary for the
+interventions concerned.&lt;/p&gt;
+&lt;p&gt;Thank you for your patience and understanding while we carry out the
+maintenance and thank you for using freenode!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 03 Jan 2017 11:33:00 +0000</pubDate></item></channel></rss>
