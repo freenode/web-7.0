@@ -12,9 +12,9 @@ before_install:
 - npm install postcss-cli
 - npm install svgo
 - npm install
-- openssl aes-256-cbc -K $encrypted_a6016b5c6ef3_key -iv $encrypted_a6016b5c6ef3_iv
+- openssl aes-256-cbc -K $encrypted_key1_key -iv $encrypted_key1_iv
   -in deploy/key1.enc -out deploy/key1 -d && chmod go-rwx deploy/key1 || true
--  openssl aes-256-cbc -K $encrypted_a6016b5c6ef3_key -iv $encrypted_a6016b5c6ef3_iv
+-  openssl aes-256-cbc -K $encrypted_key2_key -iv $encrypted_key2_iv
   -in deploy/key2.enc -out deploy/key2 -d && chmod go-rwx deploy/key2 || true
 after_success: ./deploy/deploy.sh
 notifications:
