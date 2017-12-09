@@ -20,3 +20,5 @@ every time you connect—most clients can automate this for you.
 | R<br>(block unidentified) | Ignores private messages from users who are not identified with services. |
 | w<br>(see wallops) | Subscribes you to /wallops messages from freenode staff. Used infrequently to highlight interesting announcements from the FOSS community. You will receive important network announcements irrespective of this setting. |
 | Z<br>(connected securely) | Set automatically by the network when you connect via SSL/TLS. |
+
+By default, user mode +Z (connected securely) is set only if you are using a secure connection, and it may not be unset during the session. Usermode +i (invisible) is also set by default, and may be unset. Other user modes are also settable, but are disabled by default.
