@@ -27,6 +27,8 @@ staff will be happy to discuss it and answer any questions you may have.
     your password. For this reason, you are required to use a real, non-disposable, email address. Upon registering, you will receive an email with a
     verification command that you will need to run to complete the registration process. Failure to verify the account will cause it to be automatically dropped
     after about 24 hours.
+    
+    We do not recommend sharing your NickServ password with anyone else as this could compromise account security and make it harder for you to recover your account in the future.
 
 3.  It's useful, but not required, to have an alternate nick grouped to your account. For example, if your primary nick is foo:
 
