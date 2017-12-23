@@ -21,4 +21,4 @@ every time you connect—most clients can automate this for you.
 | w<br>(see wallops) | Subscribes you to /wallops messages from freenode staff. Used infrequently to highlight interesting announcements from the FOSS community. You will receive important network announcements irrespective of this setting. |
 | Z<br>(connected securely) | Set automatically by the network when you connect via SSL/TLS. |
 
-By default, user mode +Z (connected securely) is set only if you are using a secure connection, and it may not be unset during the session. Usermode +i (invisible) is also set by default, and may be unset. Other user modes are also settable, but are disabled by default.
+By default, user mode +Z (connected securely using TLS) is set only if you are using a secure connection, and it cannot be unset during the session. Usermode +i (invisible) is also set by default, and can be unset. Other user modes can be set, but are disabled by default.
