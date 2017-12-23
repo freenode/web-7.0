@@ -25,7 +25,7 @@ preserve modes.
 | l<br>(join limit) | Takes a positive integer parameter. Limits the number of users who can be in the channel at the same time. |
 | m<br>(moderated) | Only opped and voiced users can send to the channel. This mode does not prevent users from changing nicks. |
 | n<br>(prevent external send) | Users outside the channel may not send messages to it. Keep in mind that bans and quiets will not apply to external users. |
-| p<br>(private) | The KNOCK command cannot be used on the channel, and users will not be shown the channel in whois output unless they share the channel with the requestor. |
+| p<br>(private) | The KNOCK command cannot be used on the channel, and users will not be shown the channel in whois output unless they share the channel with the requestor. The channel will still appear in channel lists and WHO output (set channel mode +s if this is not desired).|
 | q<br>(quiet) | Works like +b (ban user), but allows matching users to join the channel. |
 | Q<br>(block forwarded users) | Users cannot be forwarded (see +f above) to a channel with +Q. |
 | r<br>(block unidentified) | Prevents users who are not identified to services from joining the channel. |
