@@ -590,7 +590,7 @@ blockquote {
 .footerchild {
     margin: 0 2em;
     margin-top: .5em;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 0;
 }
 
@@ -681,20 +681,21 @@ footer a:hover {
 footer.copyright {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     background: var(--copyright-bg);
     min-height: 1.5rem;
     color: var(--copyright-text-color);
-    padding: .1em;
+    padding-left: .5em;
+    padding-right: .5em;
     overflow: hidden;
 }
 
 footer.copyright div {
+    display: flex;
     align-items: center;
     height: 1.6rem;
     line-height: 1.6rem;
     vertical-align: top;
-    margin-right: 6px;
 }
 
 .copyright * {

@@ -5,7 +5,7 @@ DESCRIPTION: "freenode.net - Supporting Free and Open Source Software Communitie
 GITHUB_URL: "https://github.com/freenode/web-7.0"
 SOCIAL:
   - name: Google+
-    icon: google-plus-official
+    icon: google-plus
     link: 'https://google.com/+freenode'
   - name: Twitter
     icon: twitter
