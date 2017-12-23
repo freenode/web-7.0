@@ -145,21 +145,25 @@ If you are asked to provide information when using freenode services, such infor
 freenode collects and uses certain information about users in order to provide services and enable certain functions.
 
 freenode may collect the following information:
-* Nickname/handle on the freenode network
-* E-mail address
-* IP address/hostname
-* Name and project affiliation
+<ul>
+  <li>Nickname/handle on the freenode network</li>
+  <li>E-mail address</li>
+  <li>IP address/hostname</li>
+  <li>Name and project affiliation</li>
+</ul>
 
 Collecting the above data helps freenode deliver its services to you.
 
 Specifically, freenode may use data:
-* To improve the provided services.
-* To enable you to reset your password/recover your account.
-* To contact you in relation to group registrations and associated channel namespace management.
-* To respond to a specific enquiry made via e-mail or the support system.
-* To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the freenode network and freenode #live conference.
+<ul>
+  <li>To improve the provided services.</li>
+<li>To enable you to reset your password/recover your account.</li>
+<li>To contact you in relation to group registrations and associated channel namespace management.</li>
+<li>To respond to a specific enquiry made via e-mail or the support system.</li>
+<li>To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the freenode network and freenode #live conference.</li>
+  </ul>
+  
 
-Any personal information freenode holds about you will be stored and processed under data protection policy, in line with the Data Protection Act 1998.
 
 Please note that the freenode websites and network may contain links to other websites, and freenode has no control of websites outside of the freenode.net and freenode.live domains. If you provide information to a website or service to which freenode links, freenode shall not be responsible for its protection and privacy.
 
