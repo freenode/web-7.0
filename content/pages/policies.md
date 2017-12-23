@@ -136,4 +136,39 @@ If you're publishing logs on an ongoing basis, your channel topic should reflect
 
 If you just want to publish a single conversation, be careful to get permission from each participant. Provide as much context as you can. Avoid the temptation to publish or distribute logs without permission in order to portray someone in a bad light. The reputation you save will most likely be your own.
 
+Privacy Policy and Data Retention
+=============
+This section describes how freenode makes use of the information you provide when you use the freenode network, freenode.net and freenode.live websites (hereinafter collectively referred to as 'freenode services').
+
+If you are asked to provide information when using freenode services, such information will not be used for any purposes other than those described in this section.
+
+freenode collects and uses certain information about users in order to provide services and enable certain functions.
+
+freenode may collect the following information:
+* Nickname/handle on the freenode network
+* E-mail address
+* IP address/hostname
+* Name and project affiliation
+
+Collecting the above data helps freenode deliver its services to you.
+
+Specifically, freenode may use data:
+* To improve the provided services.
+* To enable you to reset your password/recover your account.
+* To contact you in relation to group registrations and associated channel namespace management.
+* To respond to a specific enquiry made via e-mail or the support system.
+* To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the freenode network and freenode #live conference.
+
+Any personal information freenode holds about you will be stored and processed under data protection policy, in line with the Data Protection Act 1998.
+
+Please note that the freenode websites and network may contain links to other websites, and freenode has no control of websites outside of the freenode.net and freenode.live domains. If you provide information to a website or service to which freenode links, freenode shall not be responsible for its protection and privacy.
+
+freenode retains data for the purpose of debugging and restoration for a maximum of 60 days. This means that any data freenode holds, will be purged 60 days after the date at which you last connected to the freenode network or deleted your freenode account.
+
+freenode policies are updated from time to time, and the latest version of policy will be published on this page.
+
+This policy was last updated on: 23 December 2017
+
+If you have any questions about freenode policies, please e-mail policy@freenode.net.
+
 In addition to these policies, you may wish to read our [Catalyst Guidelines](https://freenode.net/catalysts), [Channel Guidelines](https://freenode.net/changuide), [Philosophy](https://freenode.net/philosophy), [Group Registration Information](https://freenode.net/groupreg) and [this KB article on Conduct](https://freenode.net/kb/answer/conduct).
