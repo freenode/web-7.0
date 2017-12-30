@@ -175,7 +175,7 @@ freenode retains data for the purpose of debugging and restoration for a maximum
 
 freenode policies are updated from time to time, and the latest version of policy will be published on this page.
 
-This policy was last updated on: 23 December 2017
+This policy was last updated on: 30 December 2017
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
