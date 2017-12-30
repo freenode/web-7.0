@@ -134,7 +134,7 @@ If you are considering publishing channel logs, think it through. The freenode n
 
 Nevertheless, we understand that projects might find it useful to publish channel logs so that other users may search and find answers to questions that have previously been addressed on the freenode network. Ensure that you notify users (by way of channel topic, channel entry message or similar) that the channel is being publicly logged and consider providing a way for users to make comments without logging. 
 
-If you operate a service that publishes logs, always make sure to obtain permission from the channel owner before you start publishing logs, and ensure that there is an easy way for projects to opt-out later and to request removal of previously published logs.
+If you operate a service that scrapes internal channel content or publishes logs, always make sure to obtain permission from the channel owner or freenode staff before you start publishing logs or other data, and ensure that there is an easy way for projects to opt-out later and to request removal of previously published logs or data. You must respect the opt-out requests in a timely manner. 
 
 If you are thinking of "anonymizing" your logs (removing information that identifies the specific users), be aware that it's difficult to do it well—replies and general context often provide identifying information which is hard to filter.
 
