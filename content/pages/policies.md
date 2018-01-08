@@ -158,6 +158,7 @@ freenode may collect the following information:
 Collecting the above data helps freenode deliver its services to you.
 
 Specifically, freenode may use data:
+
 * To improve the provided services.
 * To enable you to reset your password/recover your account.
 * To contact you in relation to group registrations and associated channel namespace management.
