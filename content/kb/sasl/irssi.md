@@ -37,6 +37,3 @@ Now load and configure it inside Irssi:
     /sasl set freenode <login> <password> PLAIN
     /sasl save
     /save
-
-# Troubleshooting
-
