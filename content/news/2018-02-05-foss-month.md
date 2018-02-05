@@ -28,8 +28,7 @@ song as we came together to sing Happy Birthday to Open Source to mark that it h
 fitting that this should take place not only during FOSDEM, but also during [Free and Open Source Software Month](https://nationaldaycalendar.com/free-and-open-source-month-february/). So once more, Happy Birthday
 Open Source! 
 
-To celebrate Free and Open Source Software Month, [Private Internet Access](https://www.privateinternetaccess.com) is running a promotion this month, offering a 62% discount on 
-annual subscriptions taken out [here](https://www.privateinternetaccess.com/pages/foss-month). 
+To celebrate Free and Open Source Software Month, [Private Internet Access](https://www.privateinternetaccess.com) is running a promotion this month, with savings of up to 62% if you take out an annual subscription [here](https://www.privateinternetaccess.com/pages/foss-month). 
 
 We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrat 
 FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
