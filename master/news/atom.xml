@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2017-12-05T09:00:00+00:00</updated><entry><title>"Joe-Job" spam on other networks referring to freenode</title><link href="https://freenode.net/news/joe-job-spam" rel="alternate"></link><published>2017-12-05T09:00:00+00:00</published><updated>2017-12-05T09:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-12-05:/news/joe-job-spam</id><summary type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-02-05T23:19:48+00:00</updated><entry><title>Celebrating FOSS, and twenty years of Open Source</title><link href="https://freenode.net/news/foss-month" rel="alternate"></link><published>2018-02-05T23:19:48+00:00</published><updated>2018-02-05T23:19:48+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-05:/news/foss-month</id><summary type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;</summary><content type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;
+&lt;p&gt;On Saturday, I joined &lt;a href="https://twitter.com/Czajkowski"&gt;Laura Czajkowski&lt;/a&gt;, &lt;a href="https://twitter.com/lhawthorn"&gt;Leslie Hawthorn&lt;/a&gt;, &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/vmbrasseur"&gt;VM Brasseur&lt;/a&gt; and many others in 
+song as we came together to sing Happy Birthday to Open Source to mark that it had been 20 years since the term was first coined. It felt 
+fitting that this should take place not only during FOSDEM, but also during &lt;a href="https://nationaldaycalendar.com/free-and-open-source-month-february/"&gt;Free and Open Source Software Month&lt;/a&gt;. So once more, Happy Birthday
+Open Source! &lt;/p&gt;
+&lt;p&gt;To celebrate Free and Open Source Software Month, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; is running a promotion this month, offering a 62% discount on 
+annual subscriptions taken out &lt;a href="https://www.privateinternetaccess.com/pages/foss-month"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrat 
+FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
+community!&lt;/p&gt;</content></entry><entry><title>"Joe-Job" spam on other networks referring to freenode</title><link href="https://freenode.net/news/joe-job-spam" rel="alternate"></link><published>2017-12-05T09:00:00+00:00</published><updated>2017-12-05T09:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-12-05:/news/joe-job-spam</id><summary type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
 spamming channels with racist messages which suggest that they are promoting a
 channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
 &lt;p&gt;We are monitoring the situation, but there's little we can do when they're
@@ -389,18 +416,4 @@ You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate 
 &lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;
 &lt;p&gt;We hope to hold more Ask Me Anything sessions in the future. If this is something
 your project would be interested in, please reach out to us in &lt;code&gt;#freenode-community&lt;/code&gt;
-or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>New Year, New freenode</title><link href="https://freenode.net/news/new-year-new-freenode" rel="alternate"></link><published>2017-01-03T11:33:00+00:00</published><updated>2017-01-03T11:33:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-01-03:/news/new-year-new-freenode</id><summary type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
-and some minor upgrades that could cause some disruption on the freenode
-network as servers are being brought down for maintenance, etc.&lt;/p&gt;
-&lt;p&gt;We would like to apologise in advance and further updates will be provided by
-way of global notices and wallops, depending on what we deem necessary for the
-interventions concerned.&lt;/p&gt;
-&lt;p&gt;Thank you for your patience and understanding while we carry out the
-maintenance and thank you for using freenode!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
-and some minor upgrades that could cause some disruption on the freenode
-network as servers are being brought down for maintenance, etc.&lt;/p&gt;
-&lt;p&gt;We would like to apologise in advance and further updates will be provided by
-way of global notices and wallops, depending on what we deem necessary for the
-interventions concerned.&lt;/p&gt;
-&lt;p&gt;Thank you for your patience and understanding while we carry out the
-maintenance and thank you for using freenode!&lt;/p&gt;</content></entry></feed>
+or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>

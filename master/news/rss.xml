@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Tue, 05 Dec 2017 09:00:00 +0000</lastBuildDate><item><title>"Joe-Job" spam on other networks referring to freenode</title><link>https://freenode.net/news/joe-job-spam</link><description>&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 05 Feb 2018 23:19:48 +0000</lastBuildDate><item><title>Celebrating FOSS, and twenty years of Open Source</title><link>https://freenode.net/news/foss-month</link><description>&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Mon, 05 Feb 2018 23:19:48 +0000</pubDate></item><item><title>"Joe-Job" spam on other networks referring to freenode</title><link>https://freenode.net/news/joe-job-spam</link><description>&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
 spamming channels with racist messages which suggest that they are promoting a
 channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
 &lt;p&gt;We are monitoring the situation, but there's little we can do when they're
@@ -98,11 +107,4 @@ utilize freenode, ways to start contributing, or any other topics you might be
 interested in learning more about.&lt;/p&gt;
 &lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
 You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
-&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nathan Handler (nhandler)</dc:creator><pubDate>Sat, 21 Jan 2017 15:24:00 +0000</pubDate></item><item><title>New Year, New freenode</title><link>https://freenode.net/news/new-year-new-freenode</link><description>&lt;p&gt;Well, not entirely new but we are about to embark upon a spot of maintenance
-and some minor upgrades that could cause some disruption on the freenode
-network as servers are being brought down for maintenance, etc.&lt;/p&gt;
-&lt;p&gt;We would like to apologise in advance and further updates will be provided by
-way of global notices and wallops, depending on what we deem necessary for the
-interventions concerned.&lt;/p&gt;
-&lt;p&gt;Thank you for your patience and understanding while we carry out the
-maintenance and thank you for using freenode!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Tue, 03 Jan 2017 11:33:00 +0000</pubDate></item></channel></rss>
+&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nathan Handler (nhandler)</dc:creator><pubDate>Sat, 21 Jan 2017 15:24:00 +0000</pubDate></item></channel></rss>
