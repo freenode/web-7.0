@@ -30,6 +30,6 @@ Open Source!
 
 To celebrate Free and Open Source Software Month, [Private Internet Access](https://www.privateinternetaccess.com) is running a promotion this month, with savings of up to 62% if you take out an annual subscription [here](https://www.privateinternetaccess.com/pages/foss-month). 
 
-We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrat 
+We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrate 
 FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
 community!
