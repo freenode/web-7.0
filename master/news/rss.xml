@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 05 Feb 2018 23:19:48 +0000</lastBuildDate><item><title>Celebrating FOSS, and twenty years of Open Source</title><link>https://freenode.net/news/foss-month</link><description>&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Mon, 26 Feb 2018 20:50:00 +0000</lastBuildDate><item><title>freenode #live 2018 - Call for Proposals now open!</title><link>https://freenode.net/news/live-cfp</link><description>&lt;div style="text-align:center"&gt;&lt;img src="https://github.com/freenode/web-7.0/blob/master/static/img/blackbeltfoss.jpg"&gt;&lt;/div&gt;
+
+&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;&lt;/a&gt;JOG, 6x South Brazil National Champion.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">christel</dc:creator><pubDate>Mon, 26 Feb 2018 20:50:00 +0000</pubDate></item><item><title>Celebrating FOSS, and twenty years of Open Source</title><link>https://freenode.net/news/foss-month</link><description>&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
 freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
 another but also with sponsors, group contacts and others. &lt;/p&gt;
 &lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
@@ -95,16 +97,4 @@ project to consider a similar program.&lt;/p&gt;
 &lt;p&gt;The Django community is vibrant across the globe, with many annual
 conferences and local meetups. Sprints are often held at these events,
 but Django’s development is mainly coordinated remotely, so good
-communication tools are important to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tim Graham (timograham)</dc:creator><pubDate>Wed, 08 Feb 2017 20:00:00 +0100</pubDate></item><item><title>Fedora AMA</title><link>https://freenode.net/news/fedora-ama</link><description>&lt;p&gt;The &lt;a href="community"&gt;freenode Community Team&lt;/a&gt; is pleased to announce a new
-opportunity to learn about one of our many groups on freenode.
-Justin W. Flory (jflory7) from the Fedora project has agreed to follow-up on
-his recent &lt;a href="celebrating-fedora-freenode"&gt;blog post&lt;/a&gt; with an "Ask Me
-Anything" (AMA) session.&lt;/p&gt;
-&lt;p&gt;For those of you who might not be familiar with an AMA, as its name suggests,
-it is an opportunity for you to ask the Fedora project all of those questions
-that you have been wondering. You can ask about the project itself, how they
-utilize freenode, ways to start contributing, or any other topics you might be
-interested in learning more about.&lt;/p&gt;
-&lt;p&gt;The session is scheduled to take place on Wed Jan 25 18:00:00 UTC 2017.
-You can watch the AMA in &lt;code&gt;#freenode-ama&lt;/code&gt; and participate by asking questions in
-&lt;code&gt;#freenode-ama-questions&lt;/code&gt; during the session.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nathan Handler (nhandler)</dc:creator><pubDate>Sat, 21 Jan 2017 15:24:00 +0000</pubDate></item></channel></rss>
+communication tools are important to us.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tim Graham (timograham)</dc:creator><pubDate>Wed, 08 Feb 2017 20:00:00 +0100</pubDate></item></channel></rss>
