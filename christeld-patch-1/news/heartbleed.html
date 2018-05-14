@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Heartbleed - freenode</title>
+    <link href="../static/css/open-sans.css?1ccb0cd" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?1ccb0cd" rel="stylesheet">
+    <link href="../static/css/style.css?1ccb0cd" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="heartbleed"><h1 class="art">Heartbleed</h1></a>
+<span class="art-date">Pricey on 2014-04-15</span>
+
+    </div>
+    <div class="art-body">
+    <p>The recently exposed <a href="http://heartbleed.com/">heartbleed bug</a> in the OpenSSL library has surprised everyone with a <a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">catastrophic</a> vulnerability in many of the world's secure systems.</p>
+<p>In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.</p>
+<p>In an unrelated event, due to service disruption &amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.</p>
+<p>Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.</p>
+<ul>
+<li>
+<p>Though we are not aware of any evidence that we have been targeted, or our private key compromised, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">this is inevitably a possibility</a>. SSL sessions established prior to 2014/04/12 may be vulnerable. If your current connection was established prior to this date via ssl then you should<strong> consider reconnecting to the network.
+</strong></p>
+</li>
+<li>
+<p><strong>We would advise that users reset their password</strong> (after reconnecting) using instructions returned by the following command:</p>
+</li>
+</ul>
+<blockquote>
+<p>/msg nickserv help set password</p>
+</blockquote>
+<p>This should help ensure that if your password was compromised through an exploitation of the Heartbleed vulnerability, the damage is limited.</p>
+<ul>
+<li>
+<p>In line with general best practice, we would always recommend using separate passwords on separate systems - if you shared your freenode services password with other systems, you should <strong>change your password on all of these systems</strong>; preferably into individual ones.</p>
+</li>
+<li>
+<p>If you use CertFP, you should <strong>regenerate your client certificate</strong> (<a href="http://freenode.net/certfp/makecert.shtml">instructions</a>) ****and ensure that you update NickServ with the new certificate hash. You can find out how to do this using the following command:</p>
+</li>
+</ul>
+<blockquote>
+<p>/msg nickserv help cert</p>
+</blockquote>
+<ul>
+<li>
+<p>Having changed passwords and/or certificate hashes, it cannot hurt to <strong>verify your other authentication methods</strong> (such as <a href="http://blog.freenode.net/2013/08/check-your-nickserv-email/">email</a>, ACCESS or CERT). It is possible you have additional access methods configured either from past use or (less likely) due to an account compromise.</p>
+</li>
+<li>
+<p>At the recommendation of the Tor Project, we have regenerated private keys for our hidden services. <a href="http://freenode.net/irc_servers.shtml#tor">The new list of addresses is now available on our website</a>. <strong>Please update your tor configuration!</strong></p>
+</li>
+<li>
+<p>Finally, it is worth noting that although probably the least likely attack vector, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">Heartbleed can also be used as client-side attack</a>, i.e. if you are still running a vulnerable client a server could attack you. This could be a viable attack if, for instance, you connect to a malicious IRC server and freenode at the same time; hypothetically the malicious IRC server could then attack your client and steal your IRC password or other data. If affected, you should<strong> ensure your OpenSSL install is updated and not vulnerable then restart your client</strong>.</p>
+</li>
+</ul>
+<p>As ever, staff are available in #freenode to respond to any questions or concerns.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="googleplusfreenode">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="april-1st-2014-followup">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2018, freenode
+    </div>
+</footer>
+    </div>
+</body>
+</html>
