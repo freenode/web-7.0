@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-02-26T20:50:00+00:00</updated><entry><title>freenode #live 2018 - Call for Proposals now open!</title><link href="https://freenode.net/news/live-cfp" rel="alternate"></link><published>2018-02-26T20:50:00+00:00</published><updated>2018-02-26T20:50:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-26:/news/live-cfp</id><summary type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-05-14T07:26:00+00:00</updated><entry><title>Channel moderation and channel topics</title><link href="https://freenode.net/news/topic-lock" rel="alternate"></link><published>2018-05-14T07:26:00+00:00</published><updated>2018-05-14T07:26:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-14:/news/topic-lock</id><summary type="html">&lt;p&gt;On freenode, we have always tried to minimise the amount of policies we apply across the network to allow projects to run their project channels in ways that complement their wider procedures and code of conducts for the projects both on and outside of IRC.&lt;/p&gt;
+&lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
+&lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;</summary><content type="html">&lt;p&gt;On freenode, we have always tried to minimise the amount of policies we apply across the network to allow projects to run their project channels in ways that complement their wider procedures and code of conducts for the projects both on and outside of IRC.&lt;/p&gt;
+&lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
+&lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;
+&lt;p&gt;In light of the above, we would like to ask that you check the modes and topics of your channel(s), and if appropriate reinstate your previous topic and decide whether or not you may wish to +t, even temporarily, to reduce disruption within your community.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to message a member of freenode staff for assistance! &lt;/p&gt;</content></entry><entry><title>freenode #live 2018 - Call for Proposals now open!</title><link href="https://freenode.net/news/live-cfp" rel="alternate"></link><published>2018-02-26T20:50:00+00:00</published><updated>2018-02-26T20:50:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-26:/news/live-cfp</id><summary type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;
 &lt;h2 id="you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;You do not need to have a black belt in FOSS to come talk at this year's freenode #live conference&lt;/h2&gt;
@@ -336,64 +342,4 @@ in #freenode-ama-questions during the session. In the meantime be sure to
 visit their channel, #django, and get a head start on everyone else!&lt;/p&gt;
 &lt;p&gt;We hope to hold more Ask Me Anything sessions in the future. If this is
 something your project would be interested in, please reach out to us
-in #freenode-community or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Django and freenode</title><link href="https://freenode.net/news/django-and-freenode" rel="alternate"></link><published>2017-02-08T20:00:00+01:00</published><updated>2017-02-08T20:00:00+01:00</updated><author><name>Tim Graham (timograham)</name></author><id>tag:freenode.net,2017-02-08:/news/django-and-freenode</id><summary type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
-has endeavoured to improve "the web framework for perfectionists with
-deadlines." Django is a high-level Python Web framework that encourage
-rapid development and clean, pragmatic design. Built by experienced
-developers, it takes care of much of the hassle of Web development,
-so you can focus on writing your app without needing to reinvent the
-wheel. Of course, it's free and open source.&lt;/p&gt;
-&lt;p&gt;I’m contracted full-time by the Django Software Foundation
-&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
-to manage some of the administrative and community management tasks of
-the Django project to support rapid development of Django itself. The
-fellowship program has a major positive impact on how Django is
-developed and maintained, and I’d encourage any large open source
-project to consider a similar program.&lt;/p&gt;
-&lt;p&gt;The Django community is vibrant across the globe, with many annual
-conferences and local meetups. Sprints are often held at these events,
-but Django’s development is mainly coordinated remotely, so good
-communication tools are important to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;For nearly twelve years, the &lt;a href="https://www.djangoproject.com/"&gt;Django Project&lt;/a&gt;
-has endeavoured to improve "the web framework for perfectionists with
-deadlines." Django is a high-level Python Web framework that encourage
-rapid development and clean, pragmatic design. Built by experienced
-developers, it takes care of much of the hassle of Web development,
-so you can focus on writing your app without needing to reinvent the
-wheel. Of course, it's free and open source.&lt;/p&gt;
-&lt;p&gt;I’m contracted full-time by the Django Software Foundation
-&lt;a href="https://www.djangoproject.com/fundraising/#fellowship-program"&gt;as a fellow&lt;/a&gt;,
-to manage some of the administrative and community management tasks of
-the Django project to support rapid development of Django itself. The
-fellowship program has a major positive impact on how Django is
-developed and maintained, and I’d encourage any large open source
-project to consider a similar program.&lt;/p&gt;
-&lt;p&gt;The Django community is vibrant across the globe, with many annual
-conferences and local meetups. Sprints are often held at these events,
-but Django’s development is mainly coordinated remotely, so good
-communication tools are important to us.&lt;/p&gt;
-&lt;h2 id="how-django-uses-freenode"&gt;How Django uses freenode&lt;/h2&gt;
-&lt;p&gt;Our community support channels include #django and the
-&lt;a href="https://groups.google.com/forum/#!forum/django-users"&gt;django-users mailing list&lt;/a&gt;.
-Discussions about the development of Django itself are held
-in #django-dev and the
-&lt;a href="https://groups.google.com/forum/#!forum/django-developers"&gt;django-developers mailing list&lt;/a&gt;. #django-sprint
-provides a chat for sprint participants, including those who want to
-join remotely. Finally, private discussions of the Django team are held
-in the #django-core channel.&lt;/p&gt;
-&lt;p&gt;To keep our community safe and welcoming, Django's
-&lt;a href="https://www.djangoproject.com/conduct/"&gt;Code of Conduct&lt;/a&gt; applies to
-all spaces managed by the Django project or Django Software Foundation
-(DSF). This includes IRC, the mailing lists, the issue tracker, DSF
-events, and any other forums created by the project team which the
-community uses for communication.&lt;/p&gt;
-&lt;h2 id="whats-next-for-django"&gt;What's next for Django?&lt;/h2&gt;
-&lt;p&gt;We're currently working toward releasing Django 1.11, our next
-long-term support release, in April. This will be the last version of
-Django to support Python 2.7. Meanwhile, Django's master development
-branch is targeting Django 2.0 and will support Python 3 only. More
-details are available on &lt;a href="https://www.djangoproject.com/download/#supported-versions"&gt;our roadmap&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you’re interested in learning more about Django,
-&lt;a href="https://docs.djangoproject.com/en/stable/intro/tutorial01/"&gt;try our tutorial&lt;/a&gt;.
-If you’re already a Django user and want to start contributing, our
-documentation is extensive, including
-&lt;a href="https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/"&gt;advice for new contributors&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>
+in #freenode-community or at &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#99;&amp;#111;&amp;#109;&amp;#109;&amp;#117;&amp;#110;&amp;#105;&amp;#116;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>
