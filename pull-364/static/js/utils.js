@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("copy",function(t){var e=window.getSelection().toString().replace(/\u00AD/g,"");t.clipboardData.setData("text/plain",e),t.clipboardData.setData("text/html",e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")),t.preventDefault()});
