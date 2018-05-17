@@ -21,7 +21,7 @@
   },
   "standard": {
     "ignore": [
-      "static/files/",
+      "static/files/"
     ]
   }
 }
