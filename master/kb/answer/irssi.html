@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Configuring SASL for Irssi - freenode</title>
-    <link href="../../static/css/open-sans.css?e4b1b92" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?e4b1b92" rel="stylesheet">
-    <link href="../../static/css/style.css?e4b1b92" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?98bbf58" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?98bbf58" rel="stylesheet">
+    <link href="../../static/css/style.css?98bbf58" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -35,18 +35,18 @@
     <p class="art-ingress">
         <p>The setup for SASL on Irssi differs depending on the version you have (you can
 find out by running <code>irssi -v</code> in your nearest shell).</p>
-<h2 id="irssi-0818-or-later">Irssi 0.8.18 or later</h2>
+<h2 id="irssi-0818-or-later"><a class="toclink" href="#irssi-0818-or-later">Irssi 0.8.18 or later</a></h2>
 <p>Recent Irssi versions include built-in SASL support via <code>/network</code>:</p>
 <pre><code>/network add -sasl_username &lt;login&gt; -sasl_password &lt;password&gt; -sasl_mechanism PLAIN freenode
 /server add -auto -net freenode -ssl -ssl_verify chat.freenode.net 6697
 /save
 </code></pre>
-<h3 id="troubleshooting">Troubleshooting</h3>
+<h3 id="troubleshooting"><a class="toclink" href="#troubleshooting">Troubleshooting</a></h3>
 <p>To check that the setting was correct, run <code>/network</code> and confirm that the freenode entry looks like this:</p>
 <pre><code>freenode: sasl_mechanism: plain, sasl_username: gryllida, sasl_password: (pass)
 </code></pre>
 <p>All three items (mechanism, username, and password) must be set.</p>
-<h2 id="older-versions">Older versions</h2>
+<h2 id="older-versions"><a class="toclink" href="#older-versions">Older versions</a></h2>
 <p>These versions need a separate script in order to support SASL: <code>cap_sasl.pl</code>.
 You can install it from <a href="https://scripts.irssi.org">https://scripts.irssi.org</a>:</p>
 <pre><code>mkdir -p ~/.irssi/scripts/autorun

@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?e4b1b92" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?e4b1b92" rel="stylesheet">
-    <link href="../../static/css/style.css?e4b1b92" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?98bbf58" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?98bbf58" rel="stylesheet">
+    <link href="../../static/css/style.css?98bbf58" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -36,7 +36,7 @@
         <p>As an alternative to password-based authentication, you can connect to freenode
 with a TLS certificate and have services recognise it automatically.</p>
 <p>For SASL EXTERNAL to work, you must connect over SSL. </p>
-<h2 id="creating-a-self-signed-certificate">Creating a self-signed certificate</h2>
+<h2 id="creating-a-self-signed-certificate"><a class="toclink" href="#creating-a-self-signed-certificate">Creating a self-signed certificate</a></h2>
 <p>In order to follow these instructions, you will need the <code>openssl</code> utility. If
 you are using Windows and do not have a copy, you might consider using Cygwin.</p>
 <p>You can generate a certificate with the following command:</p>
@@ -51,12 +51,12 @@ password does, so take appropriate care in securing it.</p>
 <pre><code>openssl x509 -in freenode.pem -outform der | sha1sum -b | cut -d' ' -f1
 </code></pre>
 <p>will list the certificate fingerprint.</p>
-<h2 id="connecting-to-freenode-with-your-certificate">Connecting to freenode with your certificate</h2>
+<h2 id="connecting-to-freenode-with-your-certificate"><a class="toclink" href="#connecting-to-freenode-with-your-certificate">Connecting to freenode with your certificate</a></h2>
 <p>IRC clients generally differ in where they look for a certificate and how you
 configure them to offer it to the server. If yours is not yet listed here,
 advice in this section is unlikely to apply, but guides may be available
 elsewhere on the web.</p>
-<h3 id="irssi">irssi</h3>
+<h3 id="irssi"><a class="toclink" href="#irssi">irssi</a></h3>
 <p>Move the certificates you created above to ~/.irssi/certs</p>
 <pre><code>mkdir ~/.irssi/certs
 mv freenode.pem ~/.irssi/certs
@@ -66,7 +66,7 @@ may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).</p>
 <pre><code>/server add -auto -ssl -ssl_cert ~/.irssi/certs/freenode.pem -network freenode chat.freenode.net 6697
 </code></pre>
-<h3 id="weechat">weechat</h3>
+<h3 id="weechat"><a class="toclink" href="#weechat">weechat</a></h3>
 <p>Move the certificates you created above to ~/.weechat/certs</p>
 <pre><code>mkdir ~/.weechat/certs
 mv freenode.pem ~/.weechat/certs
@@ -81,16 +81,16 @@ just examples, you have to adapt them to your current servers.</p>
 /set irc.server.freenode.sasl_mechanism external
 </code></pre>
 <p>and then reconnect to freenode.</p>
-<h3 id="znc">znc</h3>
+<h3 id="znc"><a class="toclink" href="#znc">znc</a></h3>
 <p>Refer to znc's <a href="http://wiki.znc.in/Cert">official documentation</a>.</p>
-<h3 id="hexchat">HexChat</h3>
+<h3 id="hexchat"><a class="toclink" href="#hexchat">HexChat</a></h3>
 <p>The pem file should be placed in <code>certs/network name.pem</code> in the HexChat config
 directory (<code>~/.config/hexchat/</code> or <code>%appdata%\HexChat</code>), where <code>network name</code>
 is the name of the network as it appears in the network list (Ctrl-S). Note
 that the <code>certs</code> directory does not exist by default and you will have to
 create it yourself. Once the file is there, all subsequent SSL connections to
 that network will use the certificate.</p>
-<h3 id="konversation">Konversation</h3>
+<h3 id="konversation"><a class="toclink" href="#konversation">Konversation</a></h3>
 <p>Create the pem file as per above, then place it wherever you want. 
 Start Konversation, then open the Identity dialogue by either pressing F8
 or via the Settings menu entry. Choose the identity you use for the 
@@ -102,7 +102,7 @@ Optionally fill in your account name in the <code>Account</code>field.
 You can then choose the certificate you created with the file picker
 or enter the path manually in the field next to it.
 Once done, apply the configuration and (re)connect to freenode.</p>
-<h2 id="add-your-fingerprint-to-nickserv">Add your fingerprint to NickServ</h2>
+<h2 id="add-your-fingerprint-to-nickserv"><a class="toclink" href="#add-your-fingerprint-to-nickserv">Add your fingerprint to NickServ</a></h2>
 <p>You can then check whether you have a fingerprint by using <code>whois</code> on yourself:</p>
 <pre><code>/whois YourOwnNick
 ...
