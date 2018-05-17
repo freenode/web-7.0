@@ -243,32 +243,27 @@ img {
     margin-top: 0;
 }
 
-.main h1 i,
-.main h2 i,
-.main h3 i,
-.main h4 i,
-.main h5 i,
-.main h6 i {
+.toclink,
+.toclink:hover {
+    color: var(--text-color);
+}
+
+.toclink::after {
+    content: ' \f13d';
+    font-family: FontAwesome;
+    color: var(--link-color);
+    font-weight: normal;
     opacity: 0;
     transition: opacity .08s;
 }
 
-.main h1:hover i,
-.main h2:hover i,
-.main h3:hover i,
-.main h4:hover i,
-.main h5:hover i,
-.main h6:hover i {
+.toclink:hover::after {
     opacity: 1;
+    color: var(--link-hover-color);
 }
 
 @media (--max-sm) {
-    .main h1 i,
-    .main h2 i,
-    .main h3 i,
-    .main h4 i,
-    .main h5 i,
-    .main h6 i {
+    .toclink::after {
         opacity: 1;
     }
 }
