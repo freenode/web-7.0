@@ -76,3 +76,7 @@ This does not apply to third party css such as open sans, font awesome and freen
 - No spaces around `=`
 
 A *.footerchild* should contain at least 3 items, it just look silly otherwise.
+
+### JS
+JavaScript should be used sparsely and should not break the usability of the site for browsers without JavaScript
+- For style, follow [JavaScript Standard Style](https://standardjs.com/)
