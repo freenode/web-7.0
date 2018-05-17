@@ -13,3 +13,11 @@ document.addEventListener('copy', function (event) {
   event.clipboardData.setData('text/html', newText.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'))
   event.preventDefault()
 })
+
+/**
+ * Scroll the page to honour the fixed navbar when linked to an anchor
+ * @return {Undefined}
+ */
+function shiftWindow () { if (window.location.hash) window.scrollBy(0, -50) };
+window.addEventListener('hashchange', shiftWindow)
+window.onload = shiftWindow
