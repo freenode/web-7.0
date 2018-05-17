@@ -4,33 +4,41 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="theme-color" content="#292f2f">
-    <meta name="description" content="freenode IRC network">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
     <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>Channel Guidelines - freenode</title>
-    <link href="static/css/open-sans.css?4c011fc" rel="stylesheet">
-    <link href="static/css/font-awesome.css?4c011fc" rel="stylesheet">
-    <link href="static/css/style.css?4c011fc" rel="stylesheet">
+    <link href="static/css/open-sans.css?9748d2b" rel="stylesheet">
+    <link href="static/css/font-awesome.css?9748d2b" rel="stylesheet">
+    <link href="static/css/style.css?9748d2b" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="."><img alt="freenode logo" class="nlogo" src="static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="."><img alt="freenode" class="nlogo" src="static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
     </nav>
     <div class="container">
         
 <div class="main">
     <h1>Channel Guidelines</h1>
-    <h2 id="channel-guidelines">Channel Guidelines</h2>
-<p>IRC is a low-bandwidth method of communication, in comparison with physical presence. Many of the cues of physical communication, tone of voice, facial expression, hand movements, etc., are missing in IRC, since only text is transmitted back and forth.
+    <p>IRC is a low-bandwidth method of communication, in comparison with physical presence. Many of the cues of physical communication, tone of voice, facial expression, hand movements, etc., are missing in IRC, since only text is transmitted back and forth.
 Speakers in physical proximity with each other communicate quite a bit of emotional context via this extra bandwidth. This context enables them to avoid misjudging the intent of their conversational partners. It also functions as an unconscious negative feedback mechanism to reduce the incidence of emotional "firestorms" which tend to disrupt the efficient flow of conversation. Human beings look for this feedback, and indeed they may have evolved to require it. In the low-bandwidth world of IRC, they must instead rely on emotional feedback from the text they receive.</p>
 <p>This process is subject to exaggeration. Small amounts of emotion become magnified in the perception of the observer. So, it is very important to keep channels calm. An informal conceptual measurement of the emotional content of a channel is its "channel temperature."</p>
 <p>Think of a person's emotional state as kinetic energy. Enthusiasm, happiness, anger, frustration all add to the energy level. The more emotion is experienced, the "hotter" the participant. The average emotional state of a channel is its temperature. Emotions in IRC become exaggerated and conveying them directly increases channel temperature. Pent-up frustration, in particular, is often released as a series of inappropriate, "high energy" outbursts. An important objective of the freenode channel guidelines is to avoid "feedback loops" in channel interactions by reducing channel temperature.</p>
 <p>The guidelines which follow are designed with the benefit of years of experience with IRC, beginning during the 1993-1994 period when the design limitations of IRC began to become clear due to the increasing scale of IRC networks. Adopting the guidelines will help improve the overall quality of your channel, and of the discussions that can take place in it.
 We intentionally avoid drawing a distinction between channel operators and users. Everyone is a user, regardless of their privilege level, and each user has the ability to influence the usability of the channel.</p>
-<h3 id="guidelines">Guidelines:</h3>
+<h2 id="guidelines"><a class="toclink" href="#guidelines">Guidelines:</a></h2>
 <ul>
 <li><strong>Polish your catalyst skills.</strong> The catalyst role is crucial to keeping channel interactions friendly and efficient.</li>
 <li><strong>Look for the best in people.</strong> If you assume people have no self-control, they will confirm your belief. If you look for personal responsibility, and ask for personal responsibility, most people will respond well.</li>
@@ -57,7 +65,7 @@ We intentionally avoid drawing a distinction between channel operators and users
 
     </div>
     <div class="footers">
-        <a name="navigation"/>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -78,10 +86,33 @@ We intentionally avoid drawing a distinction between channel operators and users
                 <a href="policies">The policies</a>
             </li>
             <li>
-                <a href="live">freenode live!</a>
+                <a href="//freenode.live">freenode #live</a>
             </li>
             <li>
                 <a href="acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="news/atom.xml">Atom</a>
+                
+                
             </li>
         </ul>
     </div>
@@ -120,21 +151,11 @@ We intentionally avoid drawing a distinction between channel operators and users
             <li>
                 <a href="support">Supporting the project</a>
             </li>
-        </ul>
-    </div>
-    
-    <div class="footerchild">
-        <h2>Groups</h2>
-        <ul>
-            
             <li>
                 <a href="groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
-            </li>
-            <li>
-                <a href="#">Existing groups</a>
+                <a href="groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -145,7 +166,7 @@ We intentionally avoid drawing a distinction between channel operators and users
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -155,10 +176,6 @@ We intentionally avoid drawing a distinction between channel operators and users
             <li>
                 <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
                     <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
-            </li>
-            <li>
-                <a href="archive"><i class="fa fa-rss fa-fw"></i>
-                <span class="hdn">News Archive</span></a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
@@ -178,19 +195,9 @@ We intentionally avoid drawing a distinction between channel operators and users
     </a>
     </div>
     <div>
-        &copy; 2016, freenode
+        &copy; 2016-2018, freenode
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

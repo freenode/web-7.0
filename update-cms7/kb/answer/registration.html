@@ -4,20 +4,29 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="theme-color" content="#292f2f">
-    <meta name="description" content="freenode IRC network">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
     <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Nickname Registration - freenode</title>
-    <link href="../../static/css/open-sans.css?4c011fc" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?4c011fc" rel="stylesheet">
-    <link href="../../static/css/style.css?4c011fc" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?9748d2b" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?9748d2b" rel="stylesheet">
+    <link href="../../static/css/style.css?9748d2b" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="../.."><img alt="freenode logo" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
     </nav>
     <div class="container">
         
@@ -29,7 +38,7 @@ up registering the nick you want. If you register and use the same nick, people 
 <p>If a channel is set to mode +r, you won't be able to join it unless you are registered and identified to NickServ. If you try to join, you might be forwarded to
 a different channel. If a channel is set to quiet unregistered users (mode <code>+q $~a</code>), you won't be able to speak while on that channel unless you are registered
 and identified. Both of these modes are used by some channels to reduce channel harassment and abuse.</p>
-<h2 id="nickname-setup">Nickname Setup</h2>
+<h2 id="nickname-setup"><a class="toclink" href="#nickname-setup">Nickname Setup</a></h2>
 <p>The following steps are the recommended method to register and set up a new freenode account. If you have questions or doubts about the process, a member of
 staff will be happy to discuss it and answer any questions you may have.</p>
 <ol>
@@ -47,6 +56,7 @@ staff will be happy to discuss it and answer any questions you may have.</p>
 your password. For this reason, you are required to use a real, non-disposable, email address. Upon registering, you will receive an email with a
 verification command that you will need to run to complete the registration process. Failure to verify the account will cause it to be automatically dropped
 after about 24 hours.</p>
+<p>We do not recommend sharing your NickServ password with anyone else as this could compromise account security and make it harder for you to recover your account in the future.</p>
 </li>
 <li>
 <p>It's useful, but not required, to have an alternate nick grouped to your account. For example, if your primary nick is foo:</p>
@@ -62,18 +72,14 @@ after about 24 hours.</p>
 gives you the benefit of having all your nicks covered by the same cloak, should you choose to wear a cloak. The exception to this is where you might want to
 run a bot. You should register a separate account for your bot.</p>
 </li>
-<li>
-<p>Configure your client to identify itself to NickServ automatically whenever it connects to freenode so that it's less likely you'll connect to the network
-    without being identified to NickServ. The easiest approach is to specify your NickServ password as a server password.  If your client supports server
-    password, please set this up as accountname:password. Make sure to include the colon. This will allow you to identify to your services account on connect,
-    regardless of the nickname you are using when you connect. For example: /connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p</p>
-</li>
 </ol>
-<h2 id="logging-in">Logging In</h2>
+<h2 id="logging-in"><a class="toclink" href="#logging-in">Logging In</a></h2>
 <p>You'll need to log in to your nickname each time you reconnect to freenode.</p>
-<p>The simplest, and most robust, way to do this is to configure <a href="#XXXkb/using/sasl">SASL</a>, if your client supports it. If not, you can supply your login details, in
-the form <code>&lt;account&gt;:&lt;password&gt;</code>, as a server password and they will be forwarded to NickServ when you finish connecting.</p>
-<h2 id="nickname-expiry">Nickname Expiry</h2>
+<p>The simplest, and most robust, way to do this is to configure <a href="sasl">SASL</a>, if your client supports it. If not, you can supply your login details, in
+the form <code>&lt;account&gt;:&lt;password&gt;</code>, as a server password and they will be forwarded to NickServ when you finish connecting. For example:</p>
+<pre><code>/connect chat.freenode.net 6667 mquin:uwhY8wgzWw22-zXs.M39p
+</code></pre>
+<h2 id="nickname-expiry"><a class="toclink" href="#nickname-expiry">Nickname Expiry</a></h2>
 <p>Registered nicknames and accounts will expire if they're not used for a long time, after which they'll be available for another user to take over. See our
 <a href="../../policies">policies</a> for details of when this occurs.</p>
 <p>While nicknames and accounts do not automatically get deleted when they expire -- only when another user requests to take over the registration -- we do
@@ -84,7 +90,7 @@ do this, we set the threshold for deletion considerably higher than the document
 
     </div>
     <div class="footers">
-        <a name="navigation"/>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -105,10 +111,33 @@ do this, we set the threshold for deletion considerably higher than the document
                 <a href="../../policies">The policies</a>
             </li>
             <li>
-                <a href="../../live">freenode live!</a>
+                <a href="//freenode.live">freenode #live</a>
             </li>
             <li>
                 <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/atom.xml">Atom</a>
+                
+                
             </li>
         </ul>
     </div>
@@ -147,21 +176,11 @@ do this, we set the threshold for deletion considerably higher than the document
             <li>
                 <a href="../../support">Supporting the project</a>
             </li>
-        </ul>
-    </div>
-    
-    <div class="footerchild">
-        <h2>Groups</h2>
-        <ul>
-            
             <li>
                 <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
-            </li>
-            <li>
-                <a href="#">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -172,7 +191,7 @@ do this, we set the threshold for deletion considerably higher than the document
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -182,10 +201,6 @@ do this, we set the threshold for deletion considerably higher than the document
             <li>
                 <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
                     <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
-            </li>
-            <li>
-                <a href="../../archive"><i class="fa fa-rss fa-fw"></i>
-                <span class="hdn">News Archive</span></a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
@@ -205,19 +220,9 @@ do this, we set the threshold for deletion considerably higher than the document
     </a>
     </div>
     <div>
-        &copy; 2016, freenode
+        &copy; 2016-2018, freenode
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>

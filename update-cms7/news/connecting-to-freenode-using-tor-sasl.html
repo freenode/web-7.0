@@ -4,24 +4,39 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="theme-color" content="#292f2f">
-    <meta name="description" content="freenode IRC network">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
     <title>Connecting to freenode using Tor: SASL - freenode</title>
-    <link href="../static/css/open-sans.css?4c011fc" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?4c011fc" rel="stylesheet">
-    <link href="../static/css/style.css?4c011fc" rel="stylesheet">
+    <link href="../static/css/open-sans.css?9748d2b" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?9748d2b" rel="stylesheet">
+    <link href="../static/css/style.css?9748d2b" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href=".."><img alt="freenode logo" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
-        <a class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
     </nav>
     <div class="container">
         
 <div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
     <div class="art-info">
         
 <a href="connecting-to-freenode-using-tor-sasl"><h1 class="art">Connecting to freenode using Tor: SASL</h1></a>
@@ -42,12 +57,12 @@
 </li>
 </ul>
 <p>We have collected together scripts for irssi and mirc, while Conspire supports SASL natively. Scripts may be available for other clients in addition.</p>
-<h2 id="irssi">irssi</h2>
+<h2 id="irssi"><a class="toclink" href="#irssi">irssi</a></h2>
 <p>Download and install <a href="http://www.freenode.net/sasl/cap_sasl.pl">this script</a> (cap_sasl.pl) and, after loading it, configure it using</p>
 <pre><code>/sasl set &lt;network&gt; &lt;username&gt; &lt;password&gt; &lt;mechanism&gt;
 </code></pre>
 <p>Supported mechanisms are PLAIN and DH-BLOWFISH.</p>
-<h2 id="mirc">mirc</h2>
+<h2 id="mirc"><a class="toclink" href="#mirc">mirc</a></h2>
 <p>A mirc script is available, taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">forum post</a> by Kyle Travaglini. You can retrieve the source <a href="http://freenode.net/sasl/sasl-mirc.cpp">here</a>.</p>
 <p>Instructions (adapted from that forum):</p>
 <ul>
@@ -73,7 +88,7 @@
 
     </div>
     <div class="footers">
-        <a name="navigation"/>
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -94,10 +109,33 @@
                 <a href="../policies">The policies</a>
             </li>
             <li>
-                <a href="../live">freenode live!</a>
+                <a href="//freenode.live">freenode #live</a>
             </li>
             <li>
                 <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
             </li>
         </ul>
     </div>
@@ -136,21 +174,11 @@
             <li>
                 <a href="../support">Supporting the project</a>
             </li>
-        </ul>
-    </div>
-    
-    <div class="footerchild">
-        <h2>Groups</h2>
-        <ul>
-            
             <li>
                 <a href="../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="#">Register as a group</a>
-            </li>
-            <li>
-                <a href="#">Existing groups</a>
+                <a href="../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -161,7 +189,7 @@
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
+                <a href="https://google.com/+freenode" target="_blank">
                     <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
@@ -171,10 +199,6 @@
             <li>
                 <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
                     <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
-            </li>
-            <li>
-                <a href="../archive"><i class="fa fa-rss fa-fw"></i>
-                <span class="hdn">News Archive</span></a>
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
@@ -194,19 +218,9 @@
     </a>
     </div>
     <div>
-        &copy; 2016, freenode
+        &copy; 2016-2018, freenode
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
