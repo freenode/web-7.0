@@ -171,7 +171,88 @@ freenode retains data for the purpose of debugging and restoration for a maximum
 
 freenode policies are updated from time to time, and the latest version of policy will be published on this page.
 
-This policy was last updated on: 30 December 2017
+This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limited, Company Limited by Guarantee (collectively, ‘We,’ ‘Us,’ or ‘freenode') wish to define and inform you of any and all of the instances in which your personal data and information may be saved and how it may be used by freenode, how it may be shared, and the level of protection we use to safeguard your personal information. 
+
+### TABLE OF CONTENTS
+
+Personal Information we Collect
+Uses of Personal Information Collected by freenode
+Disclosure of Personal Information
+Data Retention
+CalOPPA Statement
+Maintaining the Security of Your Personal Information
+How We Transfer Personal Information Collected Internationally
+COPPA Disclosure
+How to Access and Control your Personal Information
+Changes to this Privacy Policy
+
+## PERSONAL INFORMATION WE COLLECT
+
+From Clients of our Service
+E-mail Address for the purposes of account management and protection from abuse.
+Internet Protocol (IP) Address for the purposes of account management and protection from abuse.
+Your user ID or “nick” for the purposes of account management and protection from abuse.
+In the case of Group Contact, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
+
+
+## From the Website(s) and Email
+Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy at https://www.cloudflare.com/cookie-policy/, which also outlines how to opt out.
+Google reCaptacha. Google may also store a cookie. You may opt out here with Google's plugin.
+freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found at https://www.tickettailor.com/gdpr. 
+freenode #live CFP submissions are collected using TypeForm (https://www.typeform.com/help/gdpr-compliance/) and managed via Trello (https://trello.com/privacy)
+
+## USES OF PERSONAL INFORMATION COLLECTED BY US
+E-mail address is used to confirm account ownership, and for account management purposes such as password resets.
+Cloudflare analytics data is used to improve our website and delivery of our content.
+Google reCaptcha is used to prevent spam and abuse of the webchat service and to improve delivery of our content.
+Webserver logs are regularly pruned and are created by the webserver. No usernames or passwords are ever logged by the webserver.
+Compliance with valid legal process
+Group Contact affiliation and names are used for verification and abuse prevention purposes.
+Names, e-mail addresses, project affiliation, etc., collected in connection with freenode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
+
+freenode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of freenode.
+
+## DISCLOSURE AND USE OF PERSONAL INFORMATION
+freenode may be required to provide your personal information to law enforcement in the event of a criminal investigation, criminal prosecution, or civil subpoena. freenode will comply with legal instruments that follow proper procedure and are sufficiently narrow in their scope as to not infringe on the civil liberties of others.
+
+## DATA RETENTION
+We retain all account information and data indefinitely unless a user deletes their account (/msg nickserv drop <yournick>), in which case the data is purged from our systems in accordance with our general data retention policy of sixty (60) days. We retain login activity for a period of sixty (60) days after which the data is purged from our system. We do not maintain any logs of user chat activity.
+
+## CalOPPA STATEMENT
+The State of California requires us to post specific language related to our privacy policy. By default, freenode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how freenode does not share our user's personal information with third parties for direct marketing purposes, you may contact: policy@freenode.net.
+
+## MAINTAINING THE SECURITY OF YOUR PERSONAL INFORMATION
+Your personal information is safeguarded by freenode. You may access your personal information maintained by freenode via a services command (/msg nickserv info <yournick>). Personal information stored by freenode can also be made accessible to other third-parties on the freenode network on an opt-in basis only. All personal information maintained by freenode is encrypted and stored on a server located in the European Union. 
+
+## HOW WE TRANSFER PERSONAL INFORMATION COLLECTED INTERNATIONALLY
+We collect information globally and primarily store that information in the European Union.  If we transfer your personal information from the European Union we will request your consent.
+
+## COPPA DISCLOSURE - About Children’s Online Privacy
+The Children’s Online Privacy Protection Act (COPPA) was passed to give parents increased control over what information is collected from their children online and how such information is used. The law applies to websites and services directed to, and which knowingly collect information from, children under the age of 13.  Our online services are not directed to children under the age of 13, nor is information knowingly collected from them.  For additional information on COPPA protections, please see the FTC website at: https://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online
+
+## HOW TO ACCESS AND CONTROL YOUR PERSONAL INFORMATION 
+You may delete your personal information at any time via a services command (/msg nickserv drop <yournick>). You may also change the email address associated with your account via a services command. 
+
+## CHANGES TO THIS PRIVACY POLICY 
+
+BY CONTINUING TO USE THIS WEBSITE AND/OR SERVICES, YOU AGREE THAT YOU CONSENT TO THIS MOST RECENT PRIVACY POLICY. FROM TIME TO TIME, FREENODE WILL MAKE CHANGES TO ITS PRIVACY POLICY AND SUCH CHANGES WILL BE COMMUNICATED VIA MOTD, GLOBAL NOTICE AND THIS WEBSITE. 
+
+freenode will not share user's personal information with third parties for direct marketing purposes. 
+
+For all civil or law enforcement requests, please contact infra@freenode.net. If you have a request that requires mailing or courier, please use the information below: 
+
+freenode Limited
+71-75 Shelton Street
+Covent Garden
+London, WC2H 9JQ
+UK
+
+While freenode agrees to accept service of law enforcement requests based on the above method listed above, freenode does NOT waive any legal rights based on this accommodation.
+
+Last revised May 24, 2018
+
+
+This policy was last updated on: 24 May 2018 
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
