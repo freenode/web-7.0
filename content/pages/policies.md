@@ -196,10 +196,10 @@ In the case of Group Contact, freenode may also collect project/organisational a
 
 
 ### From the Website(s) and Email
-Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy at https://www.cloudflare.com/cookie-policy/, which also outlines how to opt out.
-Google reCaptcha. Google may also store a cookie. You may opt out here with Google's plugin.
-freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found at https://www.tickettailor.com/gdpr. 
-freenode #live CFP submissions are collected using TypeForm (https://www.typeform.com/help/gdpr-compliance/) and managed via Trello (https://trello.com/privacy)
+Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy [here](https://www.cloudflare.com/cookie-policy/), which also outlines how to opt out.
+Google reCaptcha. Google may also store a cookie. You may opt out [here](https://tools.google.com/dlpage/gaoptout).
+freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found [here]( https://www.tickettailor.com/gdpr).
+freenode #live CFP submissions are collected using [TypeForm](https://www.typeform.com/help/gdpr-compliance/) and managed via [Trello](https://trello.com/privacy)
 
 ### USES OF PERSONAL INFORMATION COLLECTED BY US
 E-mail address is used to confirm account ownership, and for account management purposes such as password resets.
