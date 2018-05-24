@@ -175,40 +175,41 @@ This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limi
 
 ## TABLE OF CONTENTS
 
-Personal Information we Collect
-Uses of Personal Information Collected by freenode
-Disclosure of Personal Information
-Data Retention
-CalOPPA Statement
-Maintaining the Security of Your Personal Information
-How We Transfer Personal Information Collected Internationally
-COPPA Disclosure
-How to Access and Control your Personal Information
-Changes to this Privacy Policy
+* Personal Information we Collect
+* Uses of Personal Information Collected by freenode
+* Disclosure of Personal Information
+* Data Retention
+* CalOPPA Statement
+* Maintaining the Security of Your Personal Information
+* How We Transfer Personal Information Collected Internationally
+* COPPA Disclosure
+* How to Access and Control your Personal Information
+* Changes to this Privacy Policy
 
 ### PERSONAL INFORMATION WE COLLECT
 
-From Clients of our Service
-E-mail Address for the purposes of account management and protection from abuse.
-Internet Protocol (IP) Address for the purposes of account management and protection from abuse.
-Your user ID or “nick” for the purposes of account management and protection from abuse.
-In the case of Group Contact, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
+#### From Clients of our Service:
+
+* E-mail Address for the purposes of account management and protection from abuse.
+* Internet Protocol (IP) Address for the purposes of account management and protection from abuse.
+* Your user ID or “nick” for the purposes of account management and protection from abuse.
+* In the case of Group Contact, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
 
 
-### From the Website(s) and Email
-Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy [here](https://www.cloudflare.com/cookie-policy/), which also outlines how to opt out.
-Google reCaptcha. Google may also store a cookie. You may opt out [here](https://tools.google.com/dlpage/gaoptout).
-freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found [here]( https://www.tickettailor.com/gdpr).
-freenode #live CFP submissions are collected using [TypeForm](https://www.typeform.com/help/gdpr-compliance/) and managed via [Trello](https://trello.com/privacy)
+#### From the Website(s) and Email
+* Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy [here](https://www.cloudflare.com/cookie-policy/), which also outlines how to opt out.
+* Google reCaptcha. Google may also store a cookie. You may opt out [here](https://tools.google.com/dlpage/gaoptout).
+* freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found [here]( https://www.tickettailor.com/gdpr).
+* freenode #live CFP submissions are collected using [TypeForm](https://www.typeform.com/help/gdpr-compliance/) and managed via [Trello](https://trello.com/privacy)
 
 ### USES OF PERSONAL INFORMATION COLLECTED BY US
-E-mail address is used to confirm account ownership, and for account management purposes such as password resets.
-Cloudflare analytics data is used to improve our website and delivery of our content.
-Google reCaptcha is used to prevent spam and abuse of the webchat service and to improve delivery of our content.
-Webserver logs are regularly pruned and are created by the webserver. No usernames or passwords are ever logged by the webserver.
-Compliance with valid legal process
-Group Contact affiliation and names are used for verification and abuse prevention purposes.
-Names, e-mail addresses, project affiliation, etc., collected in connection with freenode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
+* E-mail address is used to confirm account ownership, and for account management purposes such as password resets.
+* Cloudflare analytics data is used to improve our website and delivery of our content.
+* Google reCaptcha is used to prevent spam and abuse of the webchat service and to improve delivery of our content.
+* Webserver logs are regularly pruned and are created by the webserver. No usernames or passwords are ever logged by the webserver.
+* Compliance with valid legal process
+* Group Contact affiliation and names are used for verification and abuse prevention purposes.
+* Names, e-mail addresses, project affiliation, etc., collected in connection with freenode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
 
 freenode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of freenode.
 
