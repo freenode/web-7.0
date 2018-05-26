@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?6ac0877" rel="stylesheet">
-    <link href="static/css/font-awesome.css?6ac0877" rel="stylesheet">
-    <link href="static/css/style.css?6ac0877" rel="stylesheet">
+    <link href="static/css/open-sans.css?f9ecc95" rel="stylesheet">
+    <link href="static/css/font-awesome.css?f9ecc95" rel="stylesheet">
+    <link href="static/css/style.css?f9ecc95" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,12 +50,30 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/updated-privacy"><h1 class="art">Updated Privacy Policy</h1></a>
-<span class="art-date">christel on 2018-05-24</span>
+<a href="news/services-maintenance-password-security"><h1 class="art">Services maintenance and password security</h1></a>
+<span class="art-date">ilbelkyr on 2018-05-26</span>
 </div>
-    <div class="art-body"><p>With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.</p>
-<p>In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
-The latest version of our policies can always be found <a href="http://freenode.net/policies">here</a>.</p></div>
+    <div class="art-body"><p>We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.</p>
+<p>During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+<em>youruser</em> dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.</p>
+<p>Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.</p>
+<p>In any case, we do recommend using a unique and secure password not shared with
+other online services. If you wish to change your password, you may do so using
+the command <code>/msg NickServ SET PASSWORD &lt;newpassword&gt;</code> while logged in (replacing
+<code>&lt;newpassword&gt;</code> with the password you wish to set). You might wish to consider
+using a password manager as well, such as <a href="https://keepassxc.org/">KeePassXC</a>.</p>
+<p>We do take security and privacy very seriously. Notifications about any actual
+security breaches would appear on this site, as well as in global notices sent
+out by members of staff (identified by a <code>freenode/staff/</code> cloak).</p>
+<p>Apologies for the confusion and thank you for using freenode!</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>
@@ -200,6 +218,6 @@ The latest version of our policies can always be found <a href="http://freenode.
     </div>
 </footer>
     </div>
-    <script src="static/js/utils.js?6ac0877" type="text/javascript"></script>
+    <script src="static/js/utils.js?f9ecc95" type="text/javascript"></script>
 </body>
 </html>

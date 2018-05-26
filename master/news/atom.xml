@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-05-24T23:58:32+00:00</updated><entry><title>Updated Privacy Policy</title><link href="https://freenode.net/news/updated-privacy" rel="alternate"></link><published>2018-05-24T23:58:32+00:00</published><updated>2018-05-24T23:58:32+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-24:/news/updated-privacy</id><summary type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-05-26T17:12:00+00:00</updated><entry><title>Services maintenance and password security</title><link href="https://freenode.net/news/services-maintenance-password-security" rel="alternate"></link><published>2018-05-26T17:12:00+00:00</published><updated>2018-05-26T17:12:00+00:00</updated><author><name>ilbelkyr</name></author><id>tag:freenode.net,2018-05-26:/news/services-maintenance-password-security</id><summary type="html">&lt;p&gt;We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.&lt;/p&gt;
+&lt;p&gt;During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+&lt;em&gt;youruser&lt;/em&gt; dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.&lt;/p&gt;</summary><content type="html">&lt;p&gt;We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.&lt;/p&gt;
+&lt;p&gt;During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+&lt;em&gt;youruser&lt;/em&gt; dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.&lt;/p&gt;
+&lt;p&gt;In any case, we do recommend using a unique and secure password not shared with
+other online services. If you wish to change your password, you may do so using
+the command &lt;code&gt;/msg NickServ SET PASSWORD &amp;lt;newpassword&amp;gt;&lt;/code&gt; while logged in (replacing
+&lt;code&gt;&amp;lt;newpassword&amp;gt;&lt;/code&gt; with the password you wish to set). You might wish to consider
+using a password manager as well, such as &lt;a href="https://keepassxc.org/"&gt;KeePassXC&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We do take security and privacy very seriously. Notifications about any actual
+security breaches would appear on this site, as well as in global notices sent
+out by members of staff (identified by a &lt;code&gt;freenode/staff/&lt;/code&gt; cloak).&lt;/p&gt;
+&lt;p&gt;Apologies for the confusion and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Updated Privacy Policy</title><link href="https://freenode.net/news/updated-privacy" rel="alternate"></link><published>2018-05-24T23:58:32+00:00</published><updated>2018-05-24T23:58:32+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-24:/news/updated-privacy</id><summary type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
 &lt;p&gt;In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
 The latest version of our policies can always be found &lt;a href="http://freenode.net/policies"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
 &lt;p&gt;In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
@@ -233,88 +264,4 @@ I can only apologise for this and we are looking into what happened. &lt;/p&gt;
 &lt;p&gt;We want to hear from you, if you are planning to come to the event then you are very much part of the community and as such this is very much your conference. We want to hear from you regardless of whether you are a seasoned speaker or if this is the first time you are considering getting up in front of an audience. The freenode community is friendly and welcoming.&lt;/p&gt;
 &lt;p&gt;The CFP closes on 15 August 2017.&lt;/p&gt;
 &lt;p&gt;Together with our main sponsor and co-host of this year’s event, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, we very much look forward to welcoming you all to Bristol in October!&lt;/p&gt;
-&lt;p&gt;If you have any questions, please do not hesitate to drop us a line to 2017-team@freenode.live or hop into #live and chat with us.&lt;/p&gt;</content></entry><entry><title>Policy Updates</title><link href="https://freenode.net/news/fn-policy" rel="alternate"></link><published>2017-06-29T11:26:04+00:00</published><updated>2017-06-29T11:26:04+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-06-29:/news/fn-policy</id><summary type="html">&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</summary><content type="html">&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</content></entry><entry><title>PIA and freenode joining forces</title><link href="https://freenode.net/news/pia-fn" rel="alternate"></link><published>2017-04-12T20:03:34+00:00</published><updated>2017-04-12T20:03:34+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-04-12:/news/pia-fn</id><summary type="html">&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
-For the last few years, Private Internet Access has been a dedicated supporter
-of the freenode project and we are delighted to be able to announce that
-freenode is now officially part of the PIA family.&lt;/p&gt;
-&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
-peer-directed projects and other projects that have a broadly licensed output
-for the past 18 years, and there is a great deal of overlap between the visions
-and missions of the two organisations, as well as the projects and
-organisations the two organisations have supported, albeit in very different
-ways over the years.&lt;/p&gt;
-&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
-and Open Source Software communities, peer-directed projects and others and I
-think he would be proud of the growth we have experienced over the years if he
-were still here to see it.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I am incredibly excited to be able to share some amazing news with you today.
-For the last few years, Private Internet Access has been a dedicated supporter
-of the freenode project and we are delighted to be able to announce that
-freenode is now officially part of the PIA family.&lt;/p&gt;
-&lt;p&gt;freenode has been providing services to Free and Open Source Software projects,
-peer-directed projects and other projects that have a broadly licensed output
-for the past 18 years, and there is a great deal of overlap between the visions
-and missions of the two organisations, as well as the projects and
-organisations the two organisations have supported, albeit in very different
-ways over the years.&lt;/p&gt;
-&lt;p&gt;Rob (lilo) founded freenode with the aim of providing a useful service to Free
-and Open Source Software communities, peer-directed projects and others and I
-think he would be proud of the growth we have experienced over the years if he
-were still here to see it.&lt;/p&gt;
-&lt;p&gt;When I took over freenode following his death, my personal circumstances were
-very different from what they are now. I had time—oodles of it—and volunteering
-for freenode was very much a pleasure (by all means, it still is! Otherwise I
-wouldn't be here). However, over the years, times changed, the project grew,
-demands grew, my own responsibilities changed, both professionally and
-personally and I, along with several other senior freenode volunteers, found
-that we no longer had quite the same amount of time and energy to dedicate to
-the project.&lt;/p&gt;
-&lt;p&gt;Following discussion and deliberation we have decided to formally (and
-legally) ally ourselves with PIA. Freenode will continue to operate as a
-not-for-profit entity under the same management, with the same principles,
-but PIA's involvement going forwards will provide us with opportunities and
-resources that we could previously only dream of. PIA will provide an operating
-budget, mentorship and support that will allow freenode to implement some of
-the projects and ideas that have previously been on the backburner due to
-constraints in terms of volunteer time and resources.&lt;/p&gt;
-&lt;h2 id="why-what-is-the-incentive-for-pia"&gt;&lt;a class="toclink" href="#why-what-is-the-incentive-for-pia"&gt;Why? What is the incentive for PIA?&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Private Internet Access is committed to bringing the internet back to its
-original state, where being online meant being in your own private world,
-exploring, learning and creating. PIA is serious about supporting organisations
-and individuals that it considers to be in alignment with its mission and
-freenode is one such project.&lt;/p&gt;
-&lt;p&gt;The founders of PIA feel that freenode has helped a number of open source
-projects progress, that freenode helps the community produce the pieces that
-make the internet work smoothly, piece by piece, and that it empowers people.&lt;/p&gt;
-&lt;p&gt;For PIA, this is about giving back, giving back to freenode and to the
-communities that they consider vital to their success and to their mission.&lt;/p&gt;
-&lt;p&gt;The freenode project would be nothing without its communities. All of our
-volunteers come from projects that use freenode, projects we are passionate
-about and projects we want to see continue to succeed.&lt;/p&gt;
-&lt;p&gt;As part of the PIA family, we can guarantee that the freenode project will
-continue to operate and that we will have the support and resources to further
-improve the services that we offer to FOSS communities and others, doing our
-bit to ensure that you can all continue doing what you do best—making the
-internet and the world a better place.&lt;/p&gt;
-&lt;h2 id="what-next"&gt;&lt;a class="toclink" href="#what-next"&gt;What next?&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;There will be few noticeable changes in terms of day-to-day operations, the
-freenode project will continue to operate with much the same structure and
-volunteer base as it does now. We anticipate that group registration will
-become a quicker process and we look forward to implementing and announcing new
-features in the future.&lt;/p&gt;
-&lt;p&gt;On a personal level, I have joined PIA as a full-time employee and I will be
-holding a dual role. I will continue to head up the freenode project and you
-will no doubt see and hear more of me as my availability and involvement
-increases. Some of you might also find yourselves dealing with me in my new
-role as Director of Sponsorship and Events at Private Internet Access, where I
-will be heading up the work we undertake to support organisations, campaigns
-and events globally.&lt;/p&gt;
-&lt;p&gt;This means that you may bump into me at various conferences throughout the
-year, and if you do, please do come have a chat—whether about PIA, freenode or
-the weather!&lt;/p&gt;
-&lt;p&gt;On the subject of conferences, I am also extremely happy to announce that
-freenode #live will be taking place at At-Bristol in Bristol, UK on 28-29th
-October 2017. We will shortly be making a separate announcement as we open up
-registration and call for papers and I look forward to seeing you there.&lt;/p&gt;
-&lt;p&gt;Please do not hesitate to drop me a line (&lt;code&gt;/msg christel&lt;/code&gt;) on IRC if you
-have any questions.&lt;/p&gt;
-&lt;p&gt;Do keep an eye out for more exciting news!&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;If you have any questions, please do not hesitate to drop us a line to 2017-team@freenode.live or hop into #live and chat with us.&lt;/p&gt;</content></entry><entry><title>Policy Updates</title><link href="https://freenode.net/news/fn-policy" rel="alternate"></link><published>2017-06-29T11:26:04+00:00</published><updated>2017-06-29T11:26:04+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-06-29:/news/fn-policy</id><summary type="html">&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</summary><content type="html">&lt;p&gt;When the website was redesigned back in 2016, we made the decision to publish very limited policy for a period to allow us a chance to review our policies and guidelines, most of which were written over a decade ago. We have now completed our review and updated the &lt;a href="https://freenode.net/policies"&gt;policies&lt;/a&gt; accordingly. &lt;/p&gt;</content></entry></feed>
