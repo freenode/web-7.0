@@ -10,6 +10,17 @@ You can connect to freenode by pointing your IRC client at `chat.freenode.net`
 on ports 6665-6667 and 8000-8002 for plain-text connections, or ports 6697, 7000
 and 7070 for SSL-encrypted connections.
 
+You can also connect to servers in a specific region, using:
+
+* `chat.eu.freenode.net`
+* `chat.us.freenode.net`
+* `chat.au.freenode.net`
+
+as well as specifically connecting over IPv4/IPv6, using:
+
+* `chat.ipv4.freenode.net`
+* `chat.ipv6.freenode.net`
+
 ## Accessing freenode Via SSL
 
 freenode provides SSL client access on all servers, on ports 6697, 7000 and
@@ -26,10 +37,10 @@ something like ca-certificates. Many systems install these by default, but some
 which will install the appropriate root certificates in
 /usr/local/share/certs/ca-root-nss.crt.
 
-Certificate verification will generally only work when connecting to
-**`freenode.net`**. If your client thinks the server's certificate is invalid,
-make sure you are connecting to `chat.freenode.net` rather than any other name
-that leads to freenode.
+Certificate verification will generally only work when connecting to a hostname
+ending in **`.freenode.net`**. If your client thinks the server's certificate is
+invalid, make sure you are connecting to a hostname ending in
+**`.freenode.net`** rather than any other name that leads to freenode.
 
 For most clients this should be sufficient. If not, you can download the root
 certificate from
