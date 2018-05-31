@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-06-01T00:00:00+00:00</updated><entry><title>Region Specific Rotations</title><link href="https://freenode.net/news/region-specific-rotations" rel="alternate"></link><published>2018-06-01T00:00:00+00:00</published><updated>2018-06-01T00:00:00+00:00</updated><author><name>emerson</name></author><id>tag:freenode.net,2018-06-01:/news/region-specific-rotations</id><summary type="html">&lt;p&gt;Over the years we have had many requests for the ability to connect to servers
+in a specific region of the world, and we are pleased to announce the
+availability of region specific rotations! You can now connect to freenode via:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Over the years we have had many requests for the ability to connect to servers
+in a specific region of the world, and we are pleased to announce the
+availability of region specific rotations! You can now connect to freenode via:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chat.eu.freenode.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chat.us.freenode.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;chat.au.freenode.net&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We also added &lt;code&gt;chat.ipv4.freenode.net&lt;/code&gt; and &lt;code&gt;chat.ipv6.freenode.net&lt;/code&gt; which only
+contain IPv4 and IPv6 addresses, respectively. This was another feature which we
+heard many requests for, since some clients do not have the ability to manually
+choose which IP address to use.&lt;/p&gt;</content></entry><entry><title>Services maintenance and password security</title><link href="https://freenode.net/news/services-maintenance-password-security" rel="alternate"></link><published>2018-05-26T17:12:00+00:00</published><updated>2018-05-26T17:12:00+00:00</updated><author><name>ilbelkyr</name></author><id>tag:freenode.net,2018-05-26:/news/services-maintenance-password-security</id><summary type="html">&lt;p&gt;We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.&lt;/p&gt;
+&lt;p&gt;During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+&lt;em&gt;youruser&lt;/em&gt; dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.&lt;/p&gt;</summary><content type="html">&lt;p&gt;We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.&lt;/p&gt;
+&lt;p&gt;During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+&lt;em&gt;youruser&lt;/em&gt; dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.&lt;/p&gt;
+&lt;p&gt;In any case, we do recommend using a unique and secure password not shared with
+other online services. If you wish to change your password, you may do so using
+the command &lt;code&gt;/msg NickServ SET PASSWORD &amp;lt;newpassword&amp;gt;&lt;/code&gt; while logged in (replacing
+&lt;code&gt;&amp;lt;newpassword&amp;gt;&lt;/code&gt; with the password you wish to set). You might wish to consider
+using a password manager as well, such as &lt;a href="https://keepassxc.org/"&gt;KeePassXC&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We do take security and privacy very seriously. Notifications about any actual
+security breaches would appear on this site, as well as in global notices sent
+out by members of staff (identified by a &lt;code&gt;freenode/staff/&lt;/code&gt; cloak).&lt;/p&gt;
+&lt;p&gt;Apologies for the confusion and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Updated Privacy Policy</title><link href="https://freenode.net/news/updated-privacy" rel="alternate"></link><published>2018-05-24T23:58:32+00:00</published><updated>2018-05-24T23:58:32+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-24:/news/updated-privacy</id><summary type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
+&lt;p&gt;In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
+The latest version of our policies can always be found &lt;a href="http://freenode.net/policies"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
+&lt;p&gt;In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
+The latest version of our policies can always be found &lt;a href="http://freenode.net/policies"&gt;here&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Channel moderation and channel topics</title><link href="https://freenode.net/news/topic-lock" rel="alternate"></link><published>2018-05-14T07:26:00+00:00</published><updated>2018-05-14T07:26:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-14:/news/topic-lock</id><summary type="html">&lt;p&gt;On freenode, we have always tried to minimise the amount of policies we apply across the network to allow projects to run their project channels in ways that complement their wider procedures and code of conducts for the projects both on and outside of IRC.&lt;/p&gt;
+&lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
+&lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;</summary><content type="html">&lt;p&gt;On freenode, we have always tried to minimise the amount of policies we apply across the network to allow projects to run their project channels in ways that complement their wider procedures and code of conducts for the projects both on and outside of IRC.&lt;/p&gt;
+&lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
+&lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;
+&lt;p&gt;In light of the above, we would like to ask that you check the modes and topics of your channel(s), and if appropriate reinstate your previous topic and decide whether or not you may wish to +t, even temporarily, to reduce disruption within your community.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to message a member of freenode staff for assistance! &lt;/p&gt;</content></entry><entry><title>freenode #live 2018 - Call for Proposals now open!</title><link href="https://freenode.net/news/live-cfp" rel="alternate"></link><published>2018-02-26T20:50:00+00:00</published><updated>2018-02-26T20:50:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-26:/news/live-cfp</id><summary type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;
+&lt;h2 id="you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;&lt;a class="toclink" href="#you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;You do not need to have a black belt in FOSS to come talk at this year's freenode #live conference&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;freenode #live returns to We The Curious in Bristol, UK on Saturday 3 and Sunday 4 November 2018. The CFP is now live, and you can submit a talk over at the &lt;a href="https://freenode.live/"&gt;freenode.live&lt;/a&gt; website.&lt;/p&gt;
+&lt;p&gt;The inaugural freenode #live conference last year saw a star-studded speaker line-up including &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/mjg59"&gt;Matthew Garrett&lt;/a&gt;, &lt;a href="https://twitter.com/o0karen0o"&gt;Karen Sandler&lt;/a&gt;, &lt;a href="https://twitter.com/johns_FSF"&gt;John Sullivan&lt;/a&gt;, &lt;a href="https://twitter.com/jvdwaa"&gt;Jelle van der Waa&lt;/a&gt;, &lt;a href="https://twitter.com/lolamby"&gt;Chris Lamb&lt;/a&gt;, &lt;a href="https://twitter.com/nmcgovern"&gt;Neil McGovern&lt;/a&gt;, &lt;a href="https://twitter.com/mattdm"&gt;Matthew Miller&lt;/a&gt; and many, many more. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/standupmaths"&gt;Matt Parker&lt;/a&gt; from &lt;a href="http://standupmaths.com"&gt;Standup Maths&lt;/a&gt; and &lt;a href="http://festivalofthespokennerd.com"&gt;Festival of the Spoken Nerd&lt;/a&gt; provided excellent entertainment on the Saturday evening, and the feedback from attendees, speakers and volunteers alike was overwhelmingly positive. &lt;/p&gt;
+&lt;p&gt;freenode #live 2017 was possible thanks to the generous support of sponsors such as &lt;a href="https://www.bytemark.co.uk"&gt;Bytemark&lt;/a&gt;, &lt;a href="https://falanx.com"&gt;Falanx&lt;/a&gt;, &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;, &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, &lt;a href="https://ubuntu.com"&gt;Ubuntu&lt;/a&gt; and &lt;a href="https://yubico.com"&gt;Yubico&lt;/a&gt;. &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; has already agreed to sponsor the event for another year, and we are currently looking for additional sponsors. Please do not hesitate to get in touch if your company might be interested in supporting freenode #live 2018.&lt;/p&gt;
+&lt;p&gt;We are looking forward to hosting this year's freenode #live conference, and hope that you will join us there.&lt;/p&gt;</content></entry><entry><title>Celebrating FOSS, and twenty years of Open Source</title><link href="https://freenode.net/news/foss-month" rel="alternate"></link><published>2018-02-05T23:19:48+00:00</published><updated>2018-02-05T23:19:48+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-05:/news/foss-month</id><summary type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;</summary><content type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;
+&lt;p&gt;On Saturday, I joined &lt;a href="https://twitter.com/Czajkowski"&gt;Laura Czajkowski&lt;/a&gt;, &lt;a href="https://twitter.com/lhawthorn"&gt;Leslie Hawthorn&lt;/a&gt;, &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/vmbrasseur"&gt;VM Brasseur&lt;/a&gt; and many others in 
+song as we came together to sing Happy Birthday to Open Source to mark that it had been 20 years since the term was first coined. It felt 
+fitting that this should take place not only during FOSDEM, but also during &lt;a href="https://nationaldaycalendar.com/free-and-open-source-month-february/"&gt;Free and Open Source Software Month&lt;/a&gt;. So once more, Happy Birthday
+Open Source! &lt;/p&gt;
+&lt;p&gt;To celebrate Free and Open Source Software Month, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; is running a promotion this month, with savings of up to 62% if you take out an annual subscription &lt;a href="https://www.privateinternetaccess.com/pages/foss-month"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrate 
+FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
+community!&lt;/p&gt;</content></entry><entry><title>"Joe-Job" spam on other networks referring to freenode</title><link href="https://freenode.net/news/joe-job-spam" rel="alternate"></link><published>2017-12-05T09:00:00+00:00</published><updated>2017-12-05T09:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-12-05:/news/joe-job-spam</id><summary type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+spamming channels with racist messages which suggest that they are promoting a
+channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
+&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
+targetting other networks, but we'd like to clarify that we of course do not
+support any racist or hate-inciting behaviour, which is strictly against our
+&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
+in the spam messages are in no way connected to the spam - rather they are
+innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
+designed to disrupt them as well as freenode.&lt;/p&gt;
+&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
+individual sighting, particularly in #freenode, is of limited value and likely
+to cause more noise than signal, but feel free to message a staffer (use the
+&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
+if you are part of the oper/staff team on another affected network and want to
+talk to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+spamming channels with racist messages which suggest that they are promoting a
+channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
+&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
+targetting other networks, but we'd like to clarify that we of course do not
+support any racist or hate-inciting behaviour, which is strictly against our
+&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
+in the spam messages are in no way connected to the spam - rather they are
+innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
+designed to disrupt them as well as freenode.&lt;/p&gt;
+&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
+individual sighting, particularly in #freenode, is of limited value and likely
+to cause more noise than signal, but feel free to message a staffer (use the
+&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
+if you are part of the oper/staff team on another affected network and want to
+talk to us.&lt;/p&gt;</content></entry><entry><title>On Shadowbans</title><link href="https://freenode.net/news/shadowban-fix" rel="alternate"></link><published>2017-11-15T23:59:04+00:00</published><updated>2017-11-15T23:59:04+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2017-11-15:/news/shadowban-fix</id><summary type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.&lt;/p&gt;
+&lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.&lt;/p&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.&lt;/p&gt;
+&lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.&lt;/p&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;
+&lt;p&gt;This was &lt;a href="new-extban-j"&gt;always the intention&lt;/a&gt; in enabling &lt;code&gt;$j&lt;/code&gt;.
+I apologise on behalf of the staff team for any confusion this may have caused.&lt;/p&gt;</content></entry><entry><title>freenode #live - even more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-more-speakers" rel="alternate"></link><published>2017-08-25T23:15:00+00:00</published><updated>2017-08-25T23:15:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-25:/news/freenode-live-more-speakers</id><summary type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chris Lamb - Currently the Debian Project Leader, Chris is a freelance computer
+  programmer, author of dozens of free projects, and contributor to hundreds of
+  others. Chris has spoken at numerous conferences, including LinuxCon China,
+  HKOSCon, linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
+  Freedom Kosovo, foss-north &amp;amp; FOSS'ASIA.&lt;/li&gt;
+&lt;li&gt;Philipp Krenn - part of the infrastructure team and a Developer Advocate at
+  Elastic, spreading the love and knowledge of full-text search, analytics, and
+  real-time data. He is a frequent speaker at conferences and meetups about all
+  things search &amp;amp; analytics, databases, cloud computing, and devops.&lt;/li&gt;
+&lt;li&gt;Oliver Gorwits - Oliver has a background in computer networks and is a senior
+  IT manager at a major weather forecasting centre in the UK. For over 20 years
+  he's worked with software as a hobby and contributed to open source, mainly in
+  Perl, and now leads the Netdisco project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="still-more-to-come"&gt;&lt;a class="toclink" href="#still-more-to-come"&gt;Still more to come&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;With still more speakers to be announced soon, keep your eyes out for more
+announcements coming soon - and get your ticket now to secure your place!&lt;/p&gt;
+&lt;h2 id="get-your-tickets-now"&gt;&lt;a class="toclink" href="#get-your-tickets-now"&gt;Get your tickets now!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Want to watch these talented speakers? Get your 
+&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
+have the chance to experience these and the other speakers and workshops to be
+announced soon!&lt;/p&gt;
+&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;&lt;a class="toclink" href="#exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
+FOSS projects exhibit for free, and it's a great way to meet your current users
+and attract others!&lt;/p&gt;
+&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
+packages available providing different exposure levels to a FOSS-centered, 
+technical audience - get a warm fuzzy feeling by supporting the community
+which most likely contributed in no small way to the success of your business!&lt;/p&gt;
+&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
+join us in #live on freenode!&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry><entry><title>freenode #live - more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-speakers" rel="alternate"></link><published>2017-08-23T22:00:00+00:00</published><updated>2017-08-23T22:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-23:/news/freenode-live-speakers</id><summary type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.&lt;/p&gt;
+&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
+pleased to announce the following confirmed lineup:&lt;/p&gt;</summary><content type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year, with plenty more still to be announced.&lt;/p&gt;
+&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
+pleased to announce the following confirmed lineup:&lt;/p&gt;
+&lt;h4 id="keynote-speakers"&gt;&lt;a class="toclink" href="#keynote-speakers"&gt;Keynote speakers&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Deb Nicholson (Community Outreach Director for the Open Invention Network,
+  winner of several awards including the O'Reilly Open Source Award)&lt;/li&gt;
+&lt;li&gt;Karen Sandler (Executive Director of the Software Freedom Conservancy, former
+  executive director of the GNOME Foundation)&lt;/li&gt;
+&lt;li&gt;Matthew Garrett (technologist, programmer, and free software activist - a 
+  major contributor to various projects including Linux, GNOME, Debian, Ubuntu
+  and Red Hat.  He is a recipient of the Free Software Award from the Free 
+  Software Foundation for his work on Secure Boot, UEFI, and the Linux kernel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="confirmed-talks"&gt;&lt;a class="toclink" href="#confirmed-talks"&gt;Confirmed talks&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;James Wheare (founder of IRCCloud)&lt;/li&gt;
+&lt;li&gt;Christopher Baines (Debian packager, OSM contributor)&lt;/li&gt;
+&lt;li&gt;Kaspar Emanuel (freelance electronic design engineer and software
+  developer working on projects ranging from musical instruments to robots to
+  Braille displays)&lt;/li&gt;
+&lt;li&gt;Nathan Handler (freenode staff member, Ubuntu and Debian GNU/Linux
+  Developer, Site Reliability Engineer at Yelp)&lt;/li&gt;
+&lt;li&gt;Errietta Kostala (Perl developer at FairFX London, keen open source
+  contributor including Mozilla)&lt;/li&gt;
+&lt;li&gt;Maxigas (postdoctoral researcher at the Universitat Oberta de Catalunya and a
+  fellow at Central European University)&lt;/li&gt;
+&lt;li&gt;Michael Walker (working on a Ph.D, open source contributor, started Arch Hurd
+  distribution, author of Déjà Fu Haskell concurrent testing library)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="more-to-come"&gt;&lt;a class="toclink" href="#more-to-come"&gt;More to come...&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Another 12+ talks yet to be confirmed will be announced soon, plus workshops on
+various topics.&lt;/p&gt;
+&lt;h2 id="get-your-tickets-now"&gt;&lt;a class="toclink" href="#get-your-tickets-now"&gt;Get your tickets now!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Want to watch these talks and/or take part in these workshops?  Get your
+&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
+have the chance to experience these and the other speakers and workshops to be
+announced soon!&lt;/p&gt;
+&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;&lt;a class="toclink" href="#exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
+FOSS projects exhibit for free, and it's a great way to meet your current users
+and attract others!&lt;/p&gt;
+&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
+packages available providing different exposure levels to a FOSS-centered, 
+technical audience - get a warm fuzzy feeling by supporting the community
+which most likely contributed in no small way to the success of your business!&lt;/p&gt;
+&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
+join us in #live on freenode!&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry><entry><title>Spambot attack</title><link href="https://freenode.net/news/spamwave" rel="alternate"></link><published>2017-08-17T10:05:00+00:00</published><updated>2017-08-17T10:05:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-08-17:/news/spamwave</id><summary type="html">&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;While the attacks are ongoing we have chosen to update the default umodes for users to include +R, please note that this means you will not receive messages from unregistered users and you will need to /mode yournick -R in order to allow those to come through. If you choose to set yourself -R, please be cautious of clicking on any links from unregistered users that you do not know.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;</summary><content type="html">&lt;p&gt;Earlier this morning, the freenode network was hit by a fairly extensive spambot attack, the spambots were distributing links to images that 
+users have reported as containing child pornography images. Naturally, we are escalating the attack to law enforcement, but we would strongly 
+encourage users to be vigilant and careful not to open links from users you do not know. &lt;/p&gt;
+&lt;p&gt;While the attacks are ongoing we have chosen to update the default umodes for users to include +R, please note that this means you will not receive messages from unregistered users and you will need to /mode yournick -R in order to allow those to come through. If you choose to set yourself -R, please be cautious of clicking on any links from unregistered users that you do not know.&lt;/p&gt;
+&lt;p&gt;At the height of the attack, one of the klines set resulted in a utility bot attempting to ban all users connected to the network, 
+I can only apologise for this and we are looking into what happened. &lt;/p&gt;
+&lt;p&gt;Again, apologies for the disruption and please be cautious.&lt;/p&gt;</content></entry><entry><title>freenode #live - Opening Keynote</title><link href="https://freenode.net/news/opening-keynote" rel="alternate"></link><published>2017-07-24T22:52:39+00:00</published><updated>2017-07-24T22:52:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/opening-keynote</id><summary type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are delighted to announce the first of our keynotes for the freenode #live conference taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October this year. We have more keynotes to announce and these will be announced over the next couple of weeks. We also hope that you will join our brilliant line-up of speakers, and that you are considering &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submitting a talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The opening keynote is a thoroughly inspiring woman with extensive experience of the various aspects of the free software communities, and we are really excited to welcome none other than the glorious Deb Nicholson to Bristol in October. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Deb Nicholson Bio Picture" src="/static/img/FNLIVEKN1-DebNicholson.png"&gt;&lt;/p&gt;
+&lt;p&gt;Deb Nicholson is a free software policy nerd and passionate community advocate. She is the Community Outreach Director for the &lt;a href="https://www.openinventionnetwork.com"&gt;Open Invention Network&lt;/a&gt;, the largest patent non-aggression community in history which serves Linux, GNU, Android and other key FOSS projects. She’s won the &lt;a href="https://en.wikipedia.org/wiki/O%27Reilly_Open_Source_Award"&gt;O’Reilly Open Source Award&lt;/a&gt;, one of the most recognized awards in the FOSS world, for her work on GNU &lt;a href="https://mediagoblin.org/"&gt;MediaGoblin&lt;/a&gt; and &lt;a href="https://openhatch.org/"&gt;OpenHatch&lt;/a&gt;. She is a founding organizer of the &lt;a href="https://seagl.org/"&gt;Seattle GNU/Linux Conference&lt;/a&gt;, an annual event dedicated to surfacing new voices and welcoming new people to the free software community. She also serves on the &lt;a href="https://sfconservancy.org/"&gt;Software Freedom Conservancy's&lt;/a&gt; Evaluation Committee, which acts as a curator of new member projects. She lives with her husband and her lucky black cat in Cambridge, Massachusetts.&lt;/p&gt;
+&lt;p&gt;Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to lock in to the early bird price and ensure that you have the chance to listen to Deb, and the other keynotes and speakers at freenode #live this October.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;P.S. freenode will be at DEFCON25 this weekend (27-30th July 2017), do come find us in the vendor area and say hi, grab some stickers or get your hands on our limited edition freenode t-shirts!&lt;/em&gt;&lt;/p&gt;</content></entry><entry><title>freenode at DEFCON25</title><link href="https://freenode.net/news/defcon" rel="alternate"></link><published>2017-07-24T15:04:39+00:00</published><updated>2017-07-24T15:04:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-24:/news/defcon</id><summary type="html"></summary><content type="html">&lt;h2 id="defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you"&gt;&lt;a class="toclink" href="#defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you"&gt;DEFCON25 takes place at Caesar's Palace in Las Vegas on 27-30 of this month. freenode will be there—will you?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This year, freenode will have a booth in the vendor village—come have a chat with us, grab some stickers or get your hands on a limited edition freenode t-shirt!&lt;/p&gt;
+&lt;h2 id="freenode-live-october-28-29th-2017"&gt;&lt;a class="toclink" href="#freenode-live-october-28-29th-2017"&gt;freenode #live - October 28-29th 2017&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Only a few more days to lock in to the special early bird ticket price! Get your &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets now&lt;/a&gt;, and don't forget to make a CFP submission if you fancy giving a talk. &lt;/p&gt;
+&lt;p&gt;Stay tuned, we're excited to be announcing the keynote speakers in the next few days!&lt;/p&gt;</content></entry><entry><title>Exhibiting at freenode #live</title><link href="https://freenode.net/news/freenode-live-exhibit" rel="alternate"></link><published>2017-07-18T09:29:50+00:00</published><updated>2017-07-18T09:29:50+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-18:/news/freenode-live-exhibit</id><summary type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
+&lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
+&lt;p&gt;We aim to ensure that the freenode #live conference remains affordable and accessible to the entire community, and to that end there is no exhibition charge for nonprofits and unincorporated FOSS projects. &lt;/p&gt;</summary><content type="html">&lt;p&gt;You might have seen our &lt;a href="https://freenode.net/news/freenode-live"&gt;latest blog post&lt;/a&gt;, where we announced the registration and call for participation for the freenode #live conference that takes place at the At-Bristol Science Centre in Bristol, UK on October 28-29th this year.&lt;/p&gt;
+&lt;p&gt;The freenode network plays host to a variety of free and open source software and other peer-directed projects. We would love to see your project come exhibit at freenode #live and we invite you to e-mail us at exhibit@freenode.live if you are interested in coming along to showcase your project and meet like-minded FOSS enthusiasts. &lt;/p&gt;
+&lt;p&gt;We aim to ensure that the freenode #live conference remains affordable and accessible to the entire community, and to that end there is no exhibition charge for nonprofits and unincorporated FOSS projects. &lt;/p&gt;
+&lt;p&gt;While we are taking a grassroots approach with our conference, this does not mean that there is no space for corporate exhibitors and we recognise that the conference may provide opportunities for you too, and we would also like to welcome you to drop us a line to find out about our corporate exhibition packages or to tailor one specific to your company. Prices remain low also for corporate entities and we would love to see both types of exhibitor in Bristol on October 28 and 29th.&lt;/p&gt;
+&lt;p&gt;You can register and submit a response to our CFP &lt;a href="https:///freenode.live"&gt;here&lt;/a&gt; and we hope to start announcing keynote speakers and exhibitors soon. Please do keep an eye on the website though, we will also be opening up for nominations shortly as we will be presenting two awards as part of freenode #live, including the Rob Levin Memorial Community Award! Perhaps you know someone who has made great contributions to your community, or even a project that has redefined the community spirit in a positive way? Have a think about who YOU will be nominating! &lt;/p&gt;</content></entry><entry><title>freenode #live - Registration and CFP now open</title><link href="https://freenode.net/news/freenode-live" rel="alternate"></link><published>2017-07-13T19:35:39+00:00</published><updated>2017-07-13T19:35:39+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2017-07-13:/news/freenode-live</id><summary type="html">&lt;p&gt;The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will include talks and workshops, and we look forward to this community-focused gathering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;Tickets are now on sale and there is a special Early Bird price until 31 July&lt;/a&gt; and we are also taking &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submissions&lt;/a&gt; for the call for participation, we have three tracks to choose from (FOSS &amp;amp; Community, Privacy &amp;amp; Security and Making &amp;amp; Remixing) and we look forward to receiving your submission.&lt;/p&gt;
+&lt;p&gt;We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our community to attend and to submit proposals.&lt;/p&gt;</summary><content type="html">&lt;p&gt;The inaugural freenode #live conference takes place at At-Bristol in Bristol, UK from Saturday 28 to Sunday 29 October 2017. Both days will include talks and workshops, and we look forward to this community-focused gathering.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;Tickets are now on sale and there is a special Early Bird price until 31 July&lt;/a&gt; and we are also taking &lt;a href="https://freenode.live/conference/fn-live17/program/proposal/new"&gt;submissions&lt;/a&gt; for the call for participation, we have three tracks to choose from (FOSS &amp;amp; Community, Privacy &amp;amp; Security and Making &amp;amp; Remixing) and we look forward to receiving your submission.&lt;/p&gt;
+&lt;p&gt;We will be making every effort to ensure that freenode #live is as inclusive an event as is possible and we encourage the minorities within our community to attend and to submit proposals.&lt;/p&gt;
+&lt;h2 id="what-are-we-looking-for"&gt;&lt;a class="toclink" href="#what-are-we-looking-for"&gt;What are we looking for?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We are looking for proposals for talks, workshops and other events and as a community-focused organisation, freenode is committed to ensuring that this conference is open to YOUR ideas! The more varied the programme, the better.&lt;/p&gt;
+&lt;p&gt;Perhaps you have something you would like to share with the community? We welcome proposals on all subjects and at any level of technical expertise, please do not feel constrained by the track subjects. We are keen to hear about your experiments, your discoveries, solutions, achievements and even your failures. We want to hear about “how to get started with X,” “how to use Y,” and “what we learned from working on Z”.&lt;/p&gt;
+&lt;p&gt;We want you to come teach us something new, we want you to make us think and we want you to make us laugh. Go ahead and submit a proposal for a talk, we’d love to hear your ideas.&lt;/p&gt;
+&lt;p&gt;Perhaps you could lead a tutorial on something of relevance to the freenode communities or the FOSS ecosystem? Why not throw your ideas in the hat and submit a proposal to hold a workshop?&lt;/p&gt;
+&lt;p&gt;Have a completely different idea? Is there something you would love to see happen at freenode #live? Let us know! We’re open to all ideas!&lt;/p&gt;
+&lt;p&gt;We want to hear from you, if you are planning to come to the event then you are very much part of the community and as such this is very much your conference. We want to hear from you regardless of whether you are a seasoned speaker or if this is the first time you are considering getting up in front of an audience. The freenode community is friendly and welcoming.&lt;/p&gt;
+&lt;p&gt;The CFP closes on 15 August 2017.&lt;/p&gt;
+&lt;p&gt;Together with our main sponsor and co-host of this year’s event, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, we very much look forward to welcoming you all to Bristol in October!&lt;/p&gt;
+&lt;p&gt;If you have any questions, please do not hesitate to drop us a line to 2017-team@freenode.live or hop into #live and chat with us.&lt;/p&gt;</content></entry></feed>
