@@ -6,7 +6,7 @@ The freenode project is run entirely by volunteers. All of the current volunteer
 The organisational structure of the freenode project can be split roughly into three areas, each with a designated lead.
 
 - **kloeri** is head of infrastructure, in charge of making sure that the network continues to run in a usable fashion and that we have the right hardware and server platforms in place to provide the services we want.
-- **spb** is head of development, in charge of the software platforms that we use to run the network.
+- **ilbelkyr** is head of development, in charge of the software platforms that we use to run the network.
 - **christel** is head of staffing, projects and communities and also the overall project lead in charge of the other heads.
 
 Together, these heads take any decisions that affect the future direction of freenode. The project also benefits greatly from the ongoing support and enthusiasm from its contributors and volunteers, both official and unofficial, and is grateful for the time and efforts invested in the project by past and present volunteers.
