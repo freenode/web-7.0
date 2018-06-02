@@ -243,6 +243,31 @@ img {
     margin-top: 0;
 }
 
+.toclink,
+.toclink:hover {
+    color: var(--text-color);
+}
+
+.toclink::after {
+    content: ' \f13d';
+    font-family: FontAwesome;
+    color: var(--link-color);
+    font-weight: normal;
+    opacity: 0;
+    transition: opacity .08s;
+}
+
+.toclink:hover::after {
+    opacity: 1;
+    color: var(--link-hover-color);
+}
+
+@media (--max-sm) {
+    .toclink::after {
+        opacity: 1;
+    }
+}
+
 ul {
     padding-left: 2em;
     list-style-type: disc;

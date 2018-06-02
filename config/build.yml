@@ -22,3 +22,6 @@
 - command: [postcss, -c, postcss.json]
   source: static/css
   output: out/static/css
+- command: [uglifyjs, -c, -m]
+  source: static/js
+  output: out/static/js

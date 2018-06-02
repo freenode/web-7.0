@@ -15,6 +15,13 @@
   "devDependencies": {
     "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.6.0",
-    "postcss-csso": "^1.1.2"
+    "postcss-csso": "^1.1.2",
+    "standard": "^11.0.1",
+    "uglify-js": "^3.3.25"
+  },
+  "standard": {
+    "ignore": [
+      "static/files/"
+    ]
   }
 }
