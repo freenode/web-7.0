@@ -250,10 +250,10 @@ UK
 
 While freenode agrees to accept service of law enforcement requests based on the above method listed above, freenode does NOT waive any legal rights based on this accommodation.
 
-Last revised May 24, 2018
+Last revised June 2, 2018
 
 
-This policy was last updated on: 24 May 2018 
+This policy was last updated on: 02 June 2018 
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
