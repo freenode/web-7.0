@@ -4,96 +4,68 @@
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="theme-color" content="#292f2f">
-    <meta name="description" content="freenode IRC network">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
     <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css" rel="stylesheet">
-    <link href="static/css/font-awesome.css" rel="stylesheet">
-    <link href="static/css/freenode.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/css/open-sans.css?49e0990" rel="stylesheet">
+    <link href="static/css/font-awesome.css?49e0990" rel="stylesheet">
+    <link href="static/css/style.css?49e0990" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <a href="."><img alt="freenode" class="nlogo" src="static/img/logos/coloured-alphabg.svg "></a>
-        <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="Private internet access" class="nlogo" src="static/img/logos/PIALogo_white.svg"></a>
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="."><img alt="freenode" class="nlogo" src="static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
     </nav>
     <div class="container">
         
-<div class="jumbotron">
-    <h2 class="child">Welcome to freenode&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
+<div class="jumbotron jindex">
+    <h2 class="child">Welcome to <img alt="freenode" class="tlogo" src="static/img/logos/coloured-alphabg.svg">&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
     <div class="box-container">
-        <a class="box" href="kb/chat">
-            <i class="fa fa-comment fa-4x"></i>
+        <a class="box" href="//webchat.freenode.net">
+            <i class="fa fa-comments fa-4x"></i>
             <span>Chat</span>
         </a>
-        <a class="box" href="#">
+        <a class="box" href="groupreg">
             <i class="fa fa-users fa-4x"></i>
             <span>Register a group</span>
         </a>
-        <a class="box" href="kb/tech">
+        <a class="box" href="kb/all">
             <i class="fa fa-question fa-4x"></i>
-            <span>FAQ</span>
+            <span>Knowledge Base</span>
         </a>
     </div>
 </div>
 <div class="main">
     
-    
-<div class="art-info">
-    <a href="news/recent-events-and-future-changes"><h1 class="art">Recent Events and Future Changes</h1></a>
-    <span class="art-date">spb on 2016-02-19</span>
+    <div class="art-info">
+<a href="news/jobs-freenode"><h1 class="art">Announcement: jobs.freenode.net - New Service</h1></a>
+<span class="art-date">christel on 2018-06-02</span>
 </div>
-
-    <div class="art-body"><p>Many of you have been asking questions about the recent rash of high-profile
-staff resignations, and we feel we owe you all both an explanation and an
-apology.</p>
-<p>First, the explanation: in short, it's become clear over recent months that
-freenode has lost its way somewhat, when compared to the ideals and goals that
-we were created with. A growing sense of disillusionment amongst those of us who
-remember the olden days, when we were far more friendly, approachable and
-engaged in the communities we were set up to serve, has recently come to a head.
-Naturally, when some of these people decided they could no longer continue with
-the way things had become, it was time for us to think long and hard about what
-had gone wrong and what we should do about it.</p>
-<p>And so, to the apology. We're uncomfortably aware that freenode was set up with
-the strong idea that the projects and communities which use it should be the
-first, and often the only, priority. We've lost sight of that, and we're sorry.
-We'll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.</p>
-<p>This won't be easy for us, as we've got years of bad habits to break, but
-hopefully you should start seeing some improvements in the coming months. If you
-see anything that we're not doing that would help your communities, please tell
-us and we'll try our best to find a way to make it happen. You might see a bit
-of chaos or inconsistency while we try to find our way around again, but please
-try to bear with us and we hope you'll see things get better in time.</p>
-<p>And finally, because we're conscious that a lack of clarity around our
-leadership structure has not helped matters, we've decided to set out
-unambiguously how the staff management structure will work from now on. Our
-activities and operations will be split roughly into four areas, each with a
-designated lead.</p>
-<ul>
-<li>
-<p>mist is head of staff, and in charge of day to day network operations and general staff issues.</p>
-</li>
-<li>
-<p>kloeri is head of infrastructure, in charge of making sure that the network continues to run in a usable fashion and that we have the right hardware and server platforms in place to provide the services we want to.</p>
-</li>
-<li>
-<p>spb is head of development, in charge of the software platforms that we use to run the network.</p>
-</li>
-<li>
-<p>christel is head of projects and communities, and also the overall project lead in charge of the other three heads. She'll be trying to make sure that we get back the levels of engagement that we once had with the projects we're here to serve.</p>
-</li>
-</ul>
-<p>These four, together, will take any decisions that affect the future direction
-of freenode. While they each have their own area of focus, feel free to contact
-any of us about any issues you may have -- we try to keep an open (virtual) door
-policy.</p></div>
+    <div class="art-body"><p>Over the last two decades, we have found that a variety of freenode community members have reached out to us when they have been involved in the hiring process at their places of work. We have always been keen to support and promote relevant topics within the wider freenode communities, and we are excited to be launching the new <a href="https://jobs.freenode.net">jobs.freenode.net</a> website. Whether you are hiring for a permanent full-time role, looking to fill a temporary contract or looking to attract volunteer contributors for your FOSS project, we very much welcome and encourage you to use the site.</p>
+<p>We hope that the new site will provide a useful addition to the existing freenode projects, such as the IRC network and the <a href="https://freenode.live">#live</a> conference. </p>
+<h2 id="hiring"><a class="toclink" href="#hiring">Hiring?</a></h2>
+<p>Head over to <a href="https://jobs.freenode.net">jobs.freenode.net</a> and add your job openings! The service is free to use, although we would be grateful for a contribution towards the operating costs of freenode services and the #live conference in the event that you successfully match via the website. In the event that you successfully match and wish to make a contribution, please contact us on contribute@freenode.net.</p>
+<h2 id="foss-or-other-peer-directed-project-on-the-hunt-for-volunteers"><a class="toclink" href="#foss-or-other-peer-directed-project-on-the-hunt-for-volunteers">FOSS or other peer-directed project on the hunt for volunteers?</a></h2>
+<p>Why not add a post on the <a href="https://jobs.freenode.net">jobs.freenode.net</a> site to see if you may be able to attract some contributors from the wider freenode and FOSS communities?</p>
+<h2 id="looking-for-a-new-job-or-a-volunteer-role"><a class="toclink" href="#looking-for-a-new-job-or-a-volunteer-role">Looking for a new job or a volunteer role?</a></h2>
+<p>Keep an eye on <a href="https://jobs.freenode.net">jobs.freenode.net</a> to see if something of interest is added. We will utilise wallops on the freenode IRC network to provide a brief summary of available roles periodically, for those wishing to receive these, please set yourself +W (/umode +W or /mode yournick +W). </p>
+<h2 id="feature-requests-suggestions-and-feedback"><a class="toclink" href="#feature-requests-suggestions-and-feedback">Feature requests, suggestions and feedback?</a></h2>
+<p>The github repository can be found <a href="https://github.com/freenode/freenodejobs">here</a>, you can also drop us an e-mail to jobs@freenode.net or find us in #freenode-jobs on the freenode network.</p></div>
     <div class="art-nav">
         <span></span>
-        <a href="archive">all</a>
+        <a href="archive">view archive</a>
         <span></span>
     </div>
     
@@ -101,6 +73,7 @@ policy.</p></div>
 
     </div>
     <div class="footers">
+        <a id="navigation"></a>
         <footer class="footer">
     <div class="footer-container">
     
@@ -111,23 +84,47 @@ policy.</p></div>
             <li>
                 <a href="project">The project</a>
             </li>
-            
             <li>
                 <a href="people">The people</a>
             </li>
-            
             <li>
-                <a href="philosophy">The philosohy</a>
+                <a href="philosophy">The philosophy</a>
             </li>
-            
             <li>
-                <a href="live">freenode live!</a>
+                <a href="policies">The policies</a>
             </li>
-            
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
             <li>
                 <a href="acknowledgements">Acknowledgements</a>
             </li>
-            
+            <li>
+                
+                
+                    <a href="archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="news/atom.xml">Atom</a>
+                
+                
+            </li>
         </ul>
     </div>
     
@@ -136,44 +133,41 @@ policy.</p></div>
         <ul>
             
             <li>
-                <a href="//webchat.freenode.net">Connect (webchat)</a>
+                <a href="//webchat.freenode.net">Webchat</a>
             </li>
-            
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
             <li>
                 <a href="changuide">Channel guidelines</a>
             </li>
-            
             <li>
-                <a href="cataguide">Catalyst guidelines</a>
+                <a href="catalysts">Catalyst guidelines</a>
             </li>
-            
             <li>
-                <a href="#kb/index/kb">Knowledge base</a>
+                <a href="kb/all">Knowledge base</a>
             </li>
-            
             <li>
                 <a href="support">Supporting the project</a>
             </li>
-            
-        </ul>
-    </div>
-    
-    <div class="footerchild">
-        <h2>Groups</h2>
-        <ul>
-            
             <li>
                 <a href="groupreg">Group registration</a>
             </li>
-            
             <li>
-                <a href="#">Register as a group</a>
+                <a href="groupreg">Existing groups</a>
             </li>
-            
-            <li>
-                <a href="#">Existing groups</a>
-            </li>
-            
         </ul>
     </div>
     
@@ -183,25 +177,21 @@ policy.</p></div>
         <h2>Social Media</h2>
         <ul>
             <li>
-                <a href="https://plus.google.com/104326727082310562426" target="_blank">
-                    <i class="fa fa-google-plus fa-fw"></i> Google+</a>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
             </li>
             <li>
                 <a href="https://twitter.com/freenodestaff" target="_blank">
-                    <i class="fa fa-twitter fa-fw"></i> Twitter</a>
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
             </li>
             <li>
                 <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
-                    <i class="fa fa-facebook fa-fw"></i> Facebook</a>
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
             </li>
             <li>
-                <a href="archive"><i class="fa fa-rss fa-fw"></i>
-                News Archive</a>
-            </li>
-            <li>
-                <a href="https://www.privateinternetaccess.com/" target="_blank"><img alt="PIA" height=
-                "14px" class="fa-fw" src="static/img/logos/pia-robot-original.svg">
-                Private Internet Access</a>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
             </li>
         </ul>
         </div>
@@ -216,19 +206,10 @@ policy.</p></div>
     </a>
     </div>
     <div>
-        &copy; 2016, freenode
+        &copy; 2016-2018, freenode
     </div>
 </footer>
     </div>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-646096-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
+    <script src="static/js/utils.js?49e0990" type="text/javascript"></script>
 </body>
 </html>
