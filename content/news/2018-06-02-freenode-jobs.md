@@ -19,7 +19,7 @@ Head over to [jobs.freenode.net](https://jobs.freenode.net) and add your job ope
 Why not add a post on the [jobs.freenode.net](https://jobs.freenode.net) site to see if you may be able to attract some contributors from the wider freenode and FOSS communities?
 
 # Looking for a new job or a volunteer role? 
-Keep an eye on [jobs.freenode.net](https://jobs.freenode.net) to see if something of interest is added. We will utilise wallops on the freenode IRC network to provide a brief summary of available roles periodically, for those wishing to receive these, please set yourself +W (/umode +w or /mode yournick +w). 
+Keep an eye on [jobs.freenode.net](https://jobs.freenode.net) to see if something of interest is added. We will utilise wallops on the freenode IRC network to provide a brief summary of available roles periodically, for those wishing to receive these, please set yourself +w (/umode +w or /mode yournick +w). 
 
 # Feature requests, suggestions and feedback?
 The github repository can be found [here](https://github.com/freenode/freenodejobs), you can also drop us an e-mail to jobs@freenode.net or find us in #freenode-jobs on the freenode network.
