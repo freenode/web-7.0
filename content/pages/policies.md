@@ -142,7 +142,7 @@ If you just want to publish a single conversation, be careful to get permission 
 
 Privacy Policy and Data Retention
 =============
-This section describes how freenode makes use of the information you provide when you use the freenode network, freenode.net and freenode.live websites (hereinafter collectively referred to as 'freenode services').
+This section describes how freenode makes use of the information you provide when you use the freenode network, freenode.net, jobs.freenode.net and freenode.live websites (hereinafter collectively referred to as 'freenode services').
 
 If you are asked to provide information when using freenode services, such information will not be used for any purposes other than those described in this section.
 
