@@ -61,7 +61,7 @@ primary contact.
 
 #### The secondary contact.
 
-Secondary (or approved) contacts are appointed by the primary contact. A
+Secondary (or alternate) contacts are appointed by the primary contact. A
 secondary contact may be assigned limited access and/or privileges. They need
 no special level of authority; delegate whatever level of authority seems
 appropriate. We will not expect them to make policy decisions, just to find out
