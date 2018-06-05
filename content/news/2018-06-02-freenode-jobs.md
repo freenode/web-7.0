@@ -1,6 +1,6 @@
 ---
 author: christel
-date: 2018-06-02 18:28:00+00:00
+date: 2018-06-05 23:33:00+00:00
 slug: jobs-freenode
 title: Announcement: jobs.freenode.net - New Service
 category: general
