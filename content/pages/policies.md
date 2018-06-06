@@ -164,6 +164,7 @@ Specifically, freenode may use data:
 * To contact you in relation to group registrations and associated channel namespace management.
 * To respond to a specific enquiry made via e-mail or the support system.
 * To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the freenode network and freenode #live conference.
+* To communicate with you about the status of job postings on the jobs.freenode.net website.
 
 Please note that the freenode websites and network may contain links to other websites, and freenode has no control of websites outside of the freenode.net and freenode.live domains. If you provide information to a website or service to which freenode links, freenode shall not be responsible for its protection and privacy.
 
@@ -250,10 +251,10 @@ UK
 
 While freenode agrees to accept service of law enforcement requests based on the above method listed above, freenode does NOT waive any legal rights based on this accommodation.
 
-Last revised May 24, 2018
+Last revised June 2, 2018
 
 
-This policy was last updated on: 24 May 2018 
+This policy was last updated on: 02 June 2018 
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
