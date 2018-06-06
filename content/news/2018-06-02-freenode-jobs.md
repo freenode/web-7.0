@@ -1,6 +1,6 @@
 ---
 author: christel
-date: 2018-06-05 23:33:00+00:00
+date: 2018-06-06 09:24:00+00:00
 slug: jobs-freenode
 title: Announcement: jobs.freenode.net - New Service
 category: general
@@ -22,4 +22,4 @@ Why not add a post on the [jobs.freenode.net](https://jobs.freenode.net) site to
 Keep an eye on [jobs.freenode.net](https://jobs.freenode.net) to see if something of interest is added. We will utilise wallops on the freenode IRC network to provide a brief summary of available roles periodically, for those wishing to receive these, please set yourself +w (/umode +w or /mode yournick +w). 
 
 # Feature requests, suggestions and feedback?
-The github repository can be found [here](https://github.com/freenode/freenodejobs), you can also drop us an e-mail to jobs@freenode.net or find us in #freenode-jobs on the freenode network.
+The github repository can be found [here](https://github.com/freenode/freenodejobs), you can also drop us an e-mail to jobs@freenode.net or find us in [#freenode-jobs](https://kiwi.freenode.net/?#freenode-jobs) on the freenode network.
