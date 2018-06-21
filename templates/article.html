@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% import "artinfo.html" as artinfo with context %}
 {% set title=article.title %}
+{% set robots=article.robots %}
 {% block content %}
 <div class="main">
     {%- if article.source.meta.imported is defined %}
