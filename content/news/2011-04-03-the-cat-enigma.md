@@ -4,6 +4,7 @@ date: 2011-04-03 15:38:12+00:00
 slug: the-cat-enigma
 title: The Cat Enigma!
 imported: yes
+robots: noindex
 ---
 Hello! Many of you have joined in with our April Fools' activities, including the two challenges injected into the April 1st blogpost. We had several successful winners of the first competition, and a smaller number of the second, but many determined competitors - thanks to everyone who invested so much time and energy into the challenges!
 

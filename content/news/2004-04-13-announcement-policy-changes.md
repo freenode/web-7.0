@@ -4,6 +4,7 @@ date: 2004-04-13 16:34:53+00:00
 slug: announcement-policy-changes
 title: [Announcement] Policy Changes
 imported: yes
+robots: noindex
 ---
 Hi all.  We've made two changes recently of which you should be aware.
 

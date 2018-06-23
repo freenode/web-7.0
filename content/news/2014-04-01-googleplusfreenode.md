@@ -5,6 +5,7 @@ slug: googleplusfreenode
 title: +freenode
 category: April 1st
 imported: yes
+robots: noindex
 ---
 UPDATE: This was of course an April Fool... you can "/msg nickserv set property GOOGLE+" to remove the property from your account. There might still be other secrets within the message though...
 

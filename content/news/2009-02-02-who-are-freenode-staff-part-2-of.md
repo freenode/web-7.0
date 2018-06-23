@@ -7,6 +7,7 @@ category: community
 category: freenode
 category: social
 imported: yes
+robots: noindex
 ---
 It's been a while since we posted Part 1 of our series on "Who Are freenode Staff?" - which makes it about time to post a bit more.
 

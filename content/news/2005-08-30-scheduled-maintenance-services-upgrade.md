@@ -4,6 +4,7 @@ date: 2005-08-30 20:03:10+00:00
 slug: scheduled-maintenance-services-upgrade
 title: [Scheduled Maintenance] Services Upgrade
 imported: yes
+robots: noindex
 ---
 Yesterday around noon, we ran into such serious problems with hyperion-ircd 1.0.1 that it became necessary to back out the NOIDPRIVMSG feature, which blocks unregistered users from sending private messages. But users responding to requests for feedback on the feature, via global notice and news item, commented very positively, with about 60% favoring the permanent adoption of the feature, and 83% favoring its use in some temporary or permanent form.
 

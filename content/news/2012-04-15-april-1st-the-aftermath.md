@@ -4,6 +4,7 @@ date: 2012-04-15 22:01:21+00:00
 slug: april-1st-the-aftermath
 title: April 1st, the aftermath
 imported: yes
+robots: noindex
 ---
 It's been two weeks since our April Fools quiz; thanks to everybody who participated. Several people managed to complete the quiz; the first eight are:
 

@@ -5,6 +5,7 @@ slug: pdpc-yahoo-acquisition
 title: PDPC Yahoo acquisition 
 category: different
 imported: yes
+robots: noindex
 ---
 It is with great fanfare that we announce the Yahoo acquisition of the PDPC, and by extension, freenode. After much deliberation, we have decided to accept Yahoo's offer to purchase the freenode irc network and associated resources for the amount of  approximately £2,700,000.00 in yahoo shares.  At present it is expected that all current network staff will remain in place while certain yahoo employees will be added to the mix.
 

@@ -4,6 +4,7 @@ date: 2005-12-17 12:18:55+00:00
 slug: good-afternoon-everyone
 title: [Announcement] Temporary DNS Change
 imported: yes
+robots: noindex
 ---
   For the last 18 hours, freenode experienced   a large-scale nuisancebot infestation. We temporarily removed the      [irc.freenode.net](irc://irc.freenode.net) rotation      and replaced it with      [chat.freenode.net](irc://chat.freenode.net/),      in order to try to stem the tide of spambots hitting the network. In the   process of doing so, we discovered a new methodology for analyzing the   spambot net and produced a patched server version to mitigate the effects   of the infestation.  As of a few minutes ago, all freenode servers have   been upgraded to this new code.
 

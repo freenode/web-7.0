@@ -7,5 +7,6 @@ category: community
 category: freenode
 category: philosophy
 imported: yes
+robots: noindex
 ---
 We are still experimenting with this blog and we would really like to get some input on what interests you guys and gals. So please take five minutes, sit down and write a comment to this blog post. Tell us what you feel, what you think, what you love, what you hate, what you always wanted to know about us and anything else you can come up with. Talk to us. I promise we will answer.

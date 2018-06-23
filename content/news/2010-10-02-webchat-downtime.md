@@ -7,6 +7,7 @@ category: freenode
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
 Hi everyone.
 Currently the freenode webchat instance (webchat.freenode.net) is down. This is due to maintenance by the host of the box upon which the service sits, and looks set to continue for up to a further 6 hours.

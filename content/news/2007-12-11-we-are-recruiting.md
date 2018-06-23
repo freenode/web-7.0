@@ -7,6 +7,7 @@ category: community
 category: different
 category: freenode
 imported: yes
+robots: noindex
 ---
 We are currently looking to expand the freenode volunteer staff team – seeking people from across the target communities we serve.
 

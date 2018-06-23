@@ -8,6 +8,7 @@ category: freenode
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
 Hi all,
 

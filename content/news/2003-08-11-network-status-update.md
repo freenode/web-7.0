@@ -4,6 +4,7 @@ date: 2003-08-11 17:47:14+00:00
 slug: network-status-update
 title: Network Status Update
 imported: yes
+robots: noindex
 ---
 Good afternoon to all.  The network is currently experiencing extreme stability problems.  Our lead coder is currently looking over core files is gdb and working on resolving the issue. However, expect the network to be extremely volatile until he has a fix in hand.  Apologies for this inconvenience.  A week after the upgrade, while we've collected a number of noncritical bugs, today's critical problem is our first of the new release.  We'll get the problem resolved as quickly as possible.
 

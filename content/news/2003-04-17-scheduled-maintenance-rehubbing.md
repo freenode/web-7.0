@@ -4,6 +4,7 @@ date: 2003-04-17 04:59:57+00:00
 slug: scheduled-maintenance-rehubbing
 title: [Scheduled Maintenance] Rehubbing
 imported: yes
+robots: noindex
 ---
 Over the course of the next few days, we'll be rehubbing most of the network, in an effort to improve reliability and possibly save some bandwidth costs.  We're not sure how quickly we'll go through the network; if you'd like to keep track of the proceedings, you may want to turn on WALLOPS ("/mode yournick +w" or "/umode +w" on most clients).  We'll try to mention it occasionally on global notice, since most users will be affected by the main rotation part of the rehubbing.  Apologies for the inconvenience, and thanks for your patience.
 

@@ -8,6 +8,7 @@ category: different
 category: freenode
 category: pdpc
 imported: yes
+robots: noindex
 ---
 It's been quiet on the blog front lately, we're mid holiday season so find ourselves somewhat lacking in active staff and this has kept most of those who are around tremendously busy. Both on freenode and with working on new stuff!
 

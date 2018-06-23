@@ -7,6 +7,7 @@ category: infrastructure
 category: technical
 category: webchat
 imported: yes
+robots: noindex
 ---
 We've recently enabled some new functionality in our ircd to further help you manage your channels:
 

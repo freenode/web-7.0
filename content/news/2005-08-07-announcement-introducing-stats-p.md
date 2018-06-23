@@ -4,6 +4,7 @@ date: 2005-08-07 07:11:46+00:00
 slug: announcement-introducing-stats-p
 title: [Announcement] Introducing /stats p
 imported: yes
+robots: noindex
 ---
    Late-scheduled sponsor power outages between 9am and 10am UTC on Monday, 8   August 2005 (a bit over a day from now) will impact network use for most   of our users. We'll take the opportunity at that time to do software   updates on several of our servers, and we'll also schedule a test upgrade   to Hyperion 1.0.  Hyperion is a fork of our current dancer-ircd 1.0 ircd   server software.
 

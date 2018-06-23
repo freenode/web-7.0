@@ -4,6 +4,7 @@ date: 2002-10-01 00:00:11+00:00
 slug: server-issues
 title: Server Issues
 imported: yes
+robots: noindex
 ---
 Good day to all.  Many of you will have noticed that freenode has been experiencing server problems over the last few days.  Problems are likely to continue. The network needs new main rotation hub and leaf servers. If you think you might be interested in hosting a server, please take a look at our  [server hosting](http://freenode.net/hosting_ircd.shtml)  page and email to: staff at freenode dot net.
 

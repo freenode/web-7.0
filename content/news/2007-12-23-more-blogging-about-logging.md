@@ -8,6 +8,7 @@ category: freenode
 category: projects
 category: social
 imported: yes
+robots: noindex
 ---
 I promised you all that I would write an update when we'd had a chance to review things and speak with the IRseeK people. After a bit of discussion, both amongst freenode staff and with the management of the company which provides the IRseeK service, we are happy to announce that there will be a few changes.
 
