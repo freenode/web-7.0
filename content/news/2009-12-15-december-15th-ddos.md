@@ -4,6 +4,7 @@ date: 2009-12-15 19:23:24+00:00
 slug: december-15th-ddos
 title: December 15th DDoS
 imported: yes
+robots: noindex
 ---
 We are currently experiencing heavy DDoS against several locations at which some of our servers are hosted. The attack is ongoing and cause a lot of disruption, both to users of the network and unfortunately to projects/companies/individuals whose infrastructure is hosted at the same locations as us. Our sponsors and our sponsors' upstreams are working hard to try curb the attacks as best they can.
 

@@ -6,6 +6,7 @@ title: [Scheduled Maintenance] IRCD upgrade.
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
 In order to upgrade our ircd code to fix various bugs and security issues, it has become necessary to restart a large  portion of freenode network.
 

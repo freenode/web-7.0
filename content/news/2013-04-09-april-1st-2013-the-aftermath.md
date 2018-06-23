@@ -5,6 +5,7 @@ slug: april-1st-2013-the-aftermath
 title: April 1st 2013, the aftermath
 category: April 1st
 imported: yes
+robots: noindex
 ---
 It’s been a little more than a week since we started our April Fools quiz this year; thanks to everybody who participated.
 

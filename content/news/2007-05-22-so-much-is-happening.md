@@ -8,6 +8,7 @@ category: freenode
 category: pdpc
 category: social
 imported: yes
+robots: noindex
 ---
 
 Today has been an interesting day in 'freenodia', a day of reflection, and a

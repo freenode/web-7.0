@@ -5,6 +5,7 @@ slug: helping-others-help-you
 title: Helping others help you.
 category: philosophy
 imported: yes
+robots: noindex
 ---
 	From _[The Pragmatic Programmer](http://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)_:
 

@@ -4,6 +4,7 @@ date: 2014-11-08 23:18:51+00:00
 slug: atheme-7-2-and-freenode
 title: Atheme 7.2 and freenode
 imported: yes
+robots: noindex
 ---
 Hello!
 

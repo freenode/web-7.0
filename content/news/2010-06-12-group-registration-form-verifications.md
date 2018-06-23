@@ -8,6 +8,7 @@ category: freenode
 category: groups
 category: projects
 imported: yes
+robots: noindex
 ---
 For a long time, freenode has utilised a [Group Registration](http://freenode.net/group_registration.shtml) system to give groups (such as companies and open source projects) the ability to manage channels in the [primary namespace](http://freenode.net/policy.shtml#channelnaming) (ie, channels beginning with a single "#") and to give contributors to their projects [cloaks](http://freenode.net/faq.shtml#cloaks). Perhaps more importantly, the system allows groups to retain control of their identity on freenode. It is because of this aspect of Group Registration that filing a [Group Registration Form (GRF)](http://freenode.net/group_registration_form.php) has been necessary for projects to acquire primary channels which have been already registered. For the same reason, we ask those who register new primary channels to file a form.
 

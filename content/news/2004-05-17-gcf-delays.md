@@ -4,6 +4,7 @@ date: 2004-05-17 14:44:22+00:00
 slug: gcf-delays
 title: GCF Delays
 imported: yes
+robots: noindex
 ---
 Hi all,  To those of you who've submitted  [group contact](http://freenode.net/news-2004-05-17.shtml)  forms and have not yet received replies, please be patient.  With the volume of replies, we've had to work on finishing the database schemas for Registry just to have some way to keep up with them.  So we're backed up, but we'll catch up as soon as we can.
 

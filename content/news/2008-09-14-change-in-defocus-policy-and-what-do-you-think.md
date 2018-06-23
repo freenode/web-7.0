@@ -8,6 +8,7 @@ category: freenode
 category: philosophy
 category: social
 imported: yes
+robots: noindex
 ---
 Since rearchitecting freenode's network help and social channels, we've been considering various ways to improve them for our network users, and recently freenode's steering committee has investigated and considered these issues.
 

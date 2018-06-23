@@ -7,6 +7,7 @@ category: freenode
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
 We have loaded a new module on the network which provides the $j extban type:
 

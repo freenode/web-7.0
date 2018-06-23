@@ -8,6 +8,7 @@ category: free software
 category: open source
 category: technical
 imported: yes
+robots: noindex
 ---
 Short blog post this evening but an important one!
 

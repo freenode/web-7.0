@@ -4,6 +4,7 @@ date: 2012-04-01 00:00:17+00:00
 slug: network-wide-policy-privacy-change
 title: Network wide policy privacy change
 imported: yes
+robots: noindex
 ---
 ![ITucplOwnTShozIfVT1cM2u0VTWyVPZwp3EupaD=](static/img/ITucplOwnTShozIfVT1cM2u0VTWyVPZwp3EupaD.jpg)
 

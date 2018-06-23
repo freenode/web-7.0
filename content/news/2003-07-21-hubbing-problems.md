@@ -4,6 +4,7 @@ date: 2003-07-21 16:48:06+00:00
 slug: hubbing-problems
 title: Hubbing Problems
 imported: yes
+robots: noindex
 ---
 It's been an interesting week or so.  We've lost our best hubbing in EU; the facilities host ran out of money to pay bandwidth and had to dump his free software projects.  We've attempted to fall back to new and old hubs in the US but stability has been unpromising. We suspect that the recently announced  [Cisco problem](http://www.cisco.com/warp/public/707/cisco-sa-20030717-blocked.shtml)  may be affecting us as well, though we can't be sure to what extent, other [oopsie removed --Ed.] than some known Cisco router reboots.  But we are having hubbing problems.  Your editor is writing this in somewhat sleep-deprived mode, having spent a fair amount of time rehubbing earlier in the day.  Expect more rehubbing today, as we do our best to work with what resources we have available.  If you're thinking about hosting a freenode hub or main rotation server,  [now is definitely the time](http://freenode.net/hosting_servers.shtml)  to help us out.  Thanks!
 

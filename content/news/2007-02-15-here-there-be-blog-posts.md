@@ -5,6 +5,7 @@ slug: here-there-be-blog-posts
 title: Here, there be blog posts
 category: freenode
 imported: yes
+robots: noindex
 ---
 If you are reading [christel's blog](http://blog.simplychristel.net/), you will know that we have been mulling over creating a staffblog. It is not meant as an official newsfeed like freenode news, it is our semi-official way to talk about what happens behind the scenes, what makes us happy and what we think needs changing. We really do hope to get this thing flying and are aiming for at least one entry per week. Let us see how good we do once novelty wears off..
 

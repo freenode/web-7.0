@@ -4,6 +4,7 @@ date: 2014-02-03 17:43:16+00:00
 slug: turbulence
 title: Turbulence
 imported: yes
+robots: noindex
 ---
 As many of you will be aware, freenode has been experiencing intermittent instability today, as the network has been under attack. Whilst we have network services back online, the network continues to be a little unreliable and users are continuing to report issues in connecting to the network.
 

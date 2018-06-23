@@ -8,6 +8,7 @@ category: different
 category: free software
 category: projects
 imported: yes
+robots: noindex
 ---
 To mark the 25th "birthday" of the [GNU](http://gnu.org) project the [FSF](http://www.fsf.org) have teamed up with a very special man; [Stephen Fry](http://www.stephenfry.com).
 

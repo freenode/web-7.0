@@ -8,6 +8,7 @@ category: infrastructure
 category: open source
 category: technical
 imported: yes
+robots: noindex
 ---
 We've got some ircd upgrades in the works!
 

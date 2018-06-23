@@ -4,6 +4,7 @@ date: 2014-10-15 21:27:44+00:00
 slug: server-issues-update
 title: Server Issues: Update
 imported: yes
+robots: noindex
 ---
 Following up on our [previous blog post](http://blog.freenode.net/2014/09/server-issues-2/), we have continued to investigate the compromise of freenode infrastructure, aided by our sponsors in addition to experts in the field.
 

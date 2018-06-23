@@ -6,6 +6,7 @@ title: New Services: Nicknames and Accounts
 category: freenode
 category: technical
 imported: yes
+robots: noindex
 ---
 We've noticed a lot of people who are confused (and rightly so!) about the new nickname system - particularly the way that nickname grouping has changed. Hopefully this blog post will clear some of it up.
 

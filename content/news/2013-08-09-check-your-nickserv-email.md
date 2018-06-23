@@ -4,6 +4,7 @@ date: 2013-08-09 08:50:14+00:00
 slug: check-your-nickserv-email
 title: Reminder: Keep your NickServ email up to date.
 imported: yes
+robots: noindex
 ---
 If you've registered with NickServ within the last few years then you'll have used an email address and we'll have sent you a mail to verify it. That will probably be the last time you heard from us...
 

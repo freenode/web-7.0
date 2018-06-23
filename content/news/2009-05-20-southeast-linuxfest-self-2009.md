@@ -5,6 +5,7 @@ slug: southeast-linuxfest-self-2009
 title: SouthEast LinuxFest (SELF) 2009
 category: community
 imported: yes
+robots: noindex
 ---
 The first annual SouthEast LinuxFest is coming up in just a few weeks, on June 13th.  This event is for anyone who wants to learn more about free and open source software, and is a combination educational conference and social gathering, all in one.  It looks to be a very exciting event.  Freenode will have at least one representative at the event and we are already aware of quite a few freenode users who will be there.
 

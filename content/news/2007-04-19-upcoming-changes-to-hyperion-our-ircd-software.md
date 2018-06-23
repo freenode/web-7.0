@@ -6,6 +6,7 @@ title: Upcoming changes to hyperion, our ircd software
 category: freenode
 category: infrastructure
 imported: yes
+robots: noindex
 ---
 We're working on rolling out some new changes to hyperion, our ircd software. If everything goes well, we should be running with these changes in a few weeks. However, you should note that we're releasing these changes as **hyperion 1.0.3**, and we don't particularly encourage any other networks to try to run this code (there are better, more modern ircd software out there). In addition, hyperion 1.0.3 will probably be the last release we make of hyperion. (We are collaborating with Stuart Walsh and TJ Fontaine, the authors of oftc-hybrid which have some great ideas for a next generation ircd tree for freenode!)
 
