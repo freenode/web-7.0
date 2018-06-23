@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>freenode is dead, long live freenode - freenode</title>
+    <link href="../static/css/open-sans.css?fcb9bc5" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?fcb9bc5" rel="stylesheet">
+    <link href="../static/css/style.css?fcb9bc5" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="freenode-is-dead-long-live-freenode"><h1 class="art">freenode is dead, long live freenode</h1></a>
+<span class="art-date">christel on 2010-01-30</span>
+
+    </div>
+    <div class="art-body">
+    <p>After much time in development and testing, the move to ircd-seven is finally complete. The migration took place in the early hours of today, Saturday January 30th 2010.</p>
+<p>I would like to express thanks to everyone who has helped us get here -- those staff and users who have helped find and squash bugs, those who have done extensive load testing and those who have helped finalising documentation in preparation for the migration earlier today.</p>
+<p>In particular I would like to thank the Charybdis development team and the ratbox contributors whose work left us with a brilliant ircd platform to build upon to create the more freenode specific ircd-seven. In no particular order my thanks go to:</p>
+<p>dwr, Valery Yatsko <dwr -at-="" shadowircd.net=""></dwr>
+gxti, Michael Tharp <gxti -at-="" partiallystapled.com=""></gxti>
+jilles, Jilles Tjoelker <jilles -at-="" stack.nl=""></jilles>
+nenolod, William Pitcock <nenolod -at-="" nenolod.net=""></nenolod>
+AndroSyn, Aaron Sethman <androsyn -at-="" ratbox.org=""></androsyn>
+anfl, Lee Hardy <lee -at-="" leeh.co.uk=""></lee>
+beu, Elfyn McBratney <elfyn.mcbratney -at-="" gmail.com=""></elfyn.mcbratney>
+Entrope, Michael Poole <mdpoole -at-="" trolius.org=""></mdpoole>
+ThaPrince, Jon Christopherson <jon -at-="" vile.com=""></jon>
+twincest, River Tarnell <river -at-="" attenuate.org=""></river>
+w00t, Robin Burchell <surreal.w00t -at-="" gmail.com=""></surreal.w00t></p>
+<p>And for leading the development efforts of ircd-seven, for putting up with my many quirky and often unreasonable requests:
+spb, Stephen Bennett <stephen -at-="" freenode.net=""></stephen></p>
+<p>I'd also like to express my gratitude to the following freenode volunteers for the hard work they've put in to make the migration go as smoothly as possible. I've been amazed at the initiative and responsibility shown in this last phase. Your help has been invaluable and I feel privileged to work with you:</p>
+<p>kloeri, Bryan Østergaard
+Lorez, Mike Mattice
+Martinp23, Martin Peeks
+Md, Marco D'Itri</p>
+<p>With the exception of port(s) 7000 and 7070 which are now being used for SSL, all other ports and DNS stay the same as it did prior to migration.</p>
+<p>If you are a regular freenode user you will most likely be aware that there's some user facing changes with the move to ircd-seven (and likely to have been annoyed by my global notices on the subject), you may wish to familiarise yourself with the updated <a href="http://freenode.net/faq.shtml">FAQ</a> and glance at some of these earlier ircd-seven related blog posts:</p>
+<p><a href="http://blog.freenode.net/2010/01/connecting-to-freenode-using-tor-sasl/">http://blog.freenode.net/2010/01/connecting-to-freenode-using-tor-sasl/</a></p>
+<p><a href="http://blog.freenode.net/2008/11/help-us-test-ircd-seven/">http://blog.freenode.net/2008/11/help-us-test-ircd-seven/</a></p>
+<p><a href="http://blog.freenode.net/2010/01/migration-to-new-ircd/">http://blog.freenode.net/2010/01/migration-to-new-ircd/</a></p>
+<p><a href="http://blog.freenode.net/2010/01/ircd-migration-sat-jan-30th-2010/">http://blog.freenode.net/2010/01/ircd-migration…-jan-30th-2010/</a></p>
+<p>Again, thank you for helping out, however small or large your contribution may have been. We are celebrating the migration to ircd-seven with a special fundraiser "Give £7 for seven". This campaign will end on February 7th 2010, until such time you may read more and donate <a href="http://freenode.net/pdpc_seven.shtml">here</a>. Any donation of £21 or any multiple of £7 over £21 will receive a freenode t-shirt.</p>
+<p>To all our users, thank you for using the network, and welcome to seven!</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="connecting-to-freenode-using-tor-sasl">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="yes-we-are-going-to-fosdem">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2018, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?fcb9bc5" type="text/javascript"></script>
+</body>
+</html>
