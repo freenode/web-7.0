@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Connecting to freenode using Tor: SASL - freenode</title>
+    <link href="../static/css/open-sans.css?cbbad84" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?cbbad84" rel="stylesheet">
+    <link href="../static/css/style.css?cbbad84" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="connecting-to-freenode-using-tor-sasl"><h1 class="art">Connecting to freenode using Tor: SASL</h1></a>
+<span class="art-date">Martinp23 on 2010-01-29</span>
+
+    </div>
+    <div class="art-body">
+    <p>With our change of ircd to the all new <a href="http://www.freenode.net/seven.shtml">ircd-seven</a>, we are trialling a new method of allowing users to connect to the network via Tor. This method brings a number of changes:</p>
+<ul>
+<li>
+<p>The only Tor hidden service is: the new <a href="irc://p4fsi4ockecnea7l.onion/">p4fsi4ockecnea7l.onion</a>.</p>
+</li>
+<li>
+<p>You will need to have a registered and verified NickServ account to connect using Tor. Beyond this, no further steps are necessary.</p>
+</li>
+<li>
+<p>You will need to use a SASL mechanism to identify to the server.</p>
+</li>
+</ul>
+<p>We have collected together scripts for irssi and mirc, while Conspire supports SASL natively. Scripts may be available for other clients in addition.</p>
+<h2 id="irssi"><a class="toclink" href="#irssi">irssi</a></h2>
+<p>Download and install <a href="http://www.freenode.net/sasl/cap_sasl.pl">this script</a> (cap_sasl.pl) and, after loading it, configure it using</p>
+<pre><code>/sasl set &lt;network&gt; &lt;username&gt; &lt;password&gt; &lt;mechanism&gt;
+</code></pre>
+<p>Supported mechanisms are PLAIN and DH-BLOWFISH.</p>
+<h2 id="mirc"><a class="toclink" href="#mirc">mirc</a></h2>
+<p>A mirc script is available, taken from a <a href="http://forum.swiftirc.net/viewtopic.php?f=34&amp;t=23101">forum post</a> by Kyle Travaglini. You can retrieve the source <a href="http://freenode.net/sasl/sasl-mirc.cpp">here</a>.</p>
+<p>Instructions (adapted from that forum):</p>
+<ul>
+<li>
+<p>Place <a href="http://www.freenode.net/sasl/SASL.dll">SASL.dll</a> and <a href="http://www.freenode.net/sasl/sasl.mrc">sasl.mrc</a> into your $mircdir.</p>
+</li>
+<li>
+<p>Load sasl.mrc into your remotes.</p>
+</li>
+<li>
+<p>Press F2 and configure the network, before connecting as usual.</p>
+</li>
+</ul>
+<p>If you have any problems, either pop into #freenode from a non-torified connection or drop an email to support AT freenode.net.</p>
+<p>This method of connecting to freenode using Tor supersedes all previous methods, including Tor-GPG. We hope that this method of connecting via Tor will help to make it somewhat more accessible to you!</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="migration-to-new-ircd">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="freenode-is-dead-long-live-freenode">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2018, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?cbbad84" type="text/javascript"></script>
+</body>
+</html>
