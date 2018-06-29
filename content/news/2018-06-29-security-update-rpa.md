@@ -1,6 +1,6 @@
 ---
 author: christel
-date: 2018-06-29 08:08 00+00:00
+date: 2018-06-29 08:08:00+00:00
 slug: security-update-rpa
 title: freenode Security Update: Reused Password Attack
 category: general
@@ -9,6 +9,7 @@ category: community
 category: security
 category: announcements
 ---
+
 In the very early hours of today (Friday 29 June 2018), we became aware of unauthorised attempts to access a substantial number of freenode accounts. This appears to be the result of an attacker using lists of usernames and passwords from other online services that have previously been compromised, and trying these combinations on freenode accounts.
 
 Our investigations commenced immediately and we found that the attacker had been able to log in to a number of freenode accounts.
