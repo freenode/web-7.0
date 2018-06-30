@@ -221,7 +221,7 @@ freenode may be required to provide your personal information to law enforcement
 We retain all account information and data indefinitely unless a user deletes their account (/msg nickserv drop <yournick>), in which case the data is purged from our systems in accordance with our general data retention policy of sixty (60) days. We retain login activity for a period of sixty (60) days after which the data is purged from our system. We do not maintain any logs of user chat activity.
 
 ### CalOPPA STATEMENT
-The State of California requires us to post specific language related to our privacy policy. By default, freenode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how freenode does not share our user's personal information with third parties for direct marketing purposes, you may contact: policy@freenode.net.
+The State of California requires us to post specific language related to our privacy policy. By default, freenode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how freenode does not share our users' personal information with third parties for direct marketing purposes, you may contact: policy@freenode.net.
 
 ### MAINTAINING THE SECURITY OF YOUR PERSONAL INFORMATION
 Your personal information is safeguarded by freenode. You may access your personal information maintained by freenode via a services command (/msg nickserv info <yournick>). Personal information stored by freenode can also be made accessible to other third-parties on the freenode network on an opt-in basis only. All personal information maintained by freenode is encrypted and stored on a server located in the European Union. 
@@ -251,10 +251,10 @@ UK
 
 While freenode agrees to accept service of law enforcement requests based on the above method listed above, freenode does NOT waive any legal rights based on this accommodation.
 
-Last revised June 2, 2018
+Last revised June 30, 2018
 
 
-This policy was last updated on: 02 June 2018 
+This policy was last updated on: 30 June 2018 
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
