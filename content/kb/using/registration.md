@@ -13,7 +13,7 @@ Nickname Setup
 The following steps are the recommended method to register and set up a new freenode account. If you have questions or doubts about the process, a member of
 staff will be happy to discuss it and answer any questions you may have.
 
-1.  Select a permanent, master nickname. If the nickname you want is registered but has expired, just ask a staffer and in most cases, we will be happy to drop
+1.  Select a master, "primary", nickname. If the nickname you want is registered but has expired, just ask a staffer and in most cases, we will be happy to drop
     it for you. Please avoid using the name of a community project or trademarked entity, to avoid conflicts. Write down your password and be sure to keep the
     sheet of paper in a safe place.
 
