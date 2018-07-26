@@ -6,11 +6,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
-    <meta name="robots" content="noindex">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
-    <title>Heartbleed - freenode</title>
+    <title>Current spambot attack on freenode (and elsewhere) - freenode</title>
     <link href="../static/css/open-sans.css?3d34e1d" rel="stylesheet">
     <link href="../static/css/font-awesome.css?3d34e1d" rel="stylesheet">
     <link href="../static/css/style.css?3d34e1d" rel="stylesheet">
@@ -32,63 +31,23 @@
     <div class="container">
         
 <div class="main">
-    <div class="art-warning">
-        This article was imported from freenode's wordpress blog, and is
-        likely out of date. It's preserved here in the interest of
-        history, but please don't treat it as an authoritative source in
-        any context. Links on this page may be out of date and broken.
-    </div>
     <div class="art-info">
         
-<a href="heartbleed"><h1 class="art">Heartbleed</h1></a>
-<span class="art-date">Pricey on 2014-04-15</span>
+<a href="spambot-attack"><h1 class="art">Current spambot attack on freenode (and elsewhere)</h1></a>
+<span class="art-date">christel on 2018-07-27</span>
 
     </div>
     <div class="art-body">
-    <p>The recently exposed <a href="http://heartbleed.com/">heartbleed bug</a> in the OpenSSL library has surprised everyone with a <a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">catastrophic</a> vulnerability in many of the world's secure systems.</p>
-<p>In common with many other SSL-exposed services, some freenode servers were running vulnerable versions of OpenSSL, exposing us to this exploit. Consequently, all of our affected services have been patched to mitigate the vulnerability, and we have also regenerated our private SSL keys and certificates.</p>
-<p>In an unrelated event, due to service disruption &amp; the misconfiguration of a single server on our network, an unauthorised user was allowed to use the 'NickServ' nickname for a short period Sunday morning. Unfortunately there is a possibility that your client sent data (including your freenode services password) to this unauthorised client. Identification via SASL, certfp or server password were not affected, but any password sent directly to the "NickServ" user might have been.</p>
-<p>Because of these two recent issues, we would like to make the following recommendations to all of our users. It would also be good practice to follow them at regular intervals.</p>
-<ul>
-<li>
-<p>Though we are not aware of any evidence that we have been targeted, or our private key compromised, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">this is inevitably a possibility</a>. SSL sessions established prior to 2014/04/12 may be vulnerable. If your current connection was established prior to this date via ssl then you should<strong> consider reconnecting to the network.
-</strong></p>
-</li>
-<li>
-<p><strong>We would advise that users reset their password</strong> (after reconnecting) using instructions returned by the following command:</p>
-</li>
-</ul>
-<blockquote>
-<p>/msg nickserv help set password</p>
-</blockquote>
-<p>This should help ensure that if your password was compromised through an exploitation of the Heartbleed vulnerability, the damage is limited.</p>
-<ul>
-<li>
-<p>In line with general best practice, we would always recommend using separate passwords on separate systems - if you shared your freenode services password with other systems, you should <strong>change your password on all of these systems</strong>; preferably into individual ones.</p>
-</li>
-<li>
-<p>If you use CertFP, you should <strong>regenerate your client certificate</strong> (<a href="http://freenode.net/certfp/makecert.shtml">instructions</a>) ****and ensure that you update NickServ with the new certificate hash. You can find out how to do this using the following command:</p>
-</li>
-</ul>
-<blockquote>
-<p>/msg nickserv help cert</p>
-</blockquote>
-<ul>
-<li>
-<p>Having changed passwords and/or certificate hashes, it cannot hurt to <strong>verify your other authentication methods</strong> (such as <a href="http://blog.freenode.net/2013/08/check-your-nickserv-email/">email</a>, ACCESS or CERT). It is possible you have additional access methods configured either from past use or (less likely) due to an account compromise.</p>
-</li>
-<li>
-<p>At the recommendation of the Tor Project, we have regenerated private keys for our hidden services. <a href="http://freenode.net/irc_servers.shtml#tor">The new list of addresses is now available on our website</a>. <strong>Please update your tor configuration!</strong></p>
-</li>
-<li>
-<p>Finally, it is worth noting that although probably the least likely attack vector, <a href="https://www.eff.org/deeplinks/2014/04/wild-heart-were-intelligence-agencies-using-heartbleed-november-2013">Heartbleed can also be used as client-side attack</a>, i.e. if you are still running a vulnerable client a server could attack you. This could be a viable attack if, for instance, you connect to a malicious IRC server and freenode at the same time; hypothetically the malicious IRC server could then attack your client and steal your IRC password or other data. If affected, you should<strong> ensure your OpenSSL install is updated and not vulnerable then restart your client</strong>.</p>
-</li>
-</ul>
-<p>As ever, staff are available in #freenode to respond to any questions or concerns.</p>
+    <p>Many of you will have noticed that over the last few days there has been an extensive spambot wave on freenode, and on other networks. </p>
+<p>The fairly aggressive spambot attacks link to websites that we believe to have been set up to impersonate freenode volunteers, and that we believe to contain offensive and incorrect information intended to defame and libel members of the freenode volunteer team.</p>
+<p>Naturally, the matter has been escalated to law enforcement and both the project and the individual volunteers concerned have sought legal advice in connection with the current attack. </p>
+<p>Due to the nature of the attack, this is of course causing serious emotional distress on the part of the affected volunteers and their immediate family and social circles, as well as the rest of the volunteer team. </p>
+<p>On behalf of the entire team, I would like to express thanks to those of you who have reached out with words of encouragement and support, and especially those of you from other IRC networks who have invested your time and efforts in trying to help mitigate and support. </p>
+<p>I would also like to apologise to those users and channels (on and off freenode) who are affected by the spam. </p>
     </div>
     
 <div class="art-nav">
-    <span><a href="googleplusfreenode">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="april-1st-2014-followup">next article</a></span>
+    <span><a href="freenode-live-keynotes">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span></span>
 </div>
 
 </div>
