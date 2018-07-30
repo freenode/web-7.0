@@ -194,7 +194,7 @@ This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limi
 * E-mail Address for the purposes of account management and protection from abuse.
 * Internet Protocol (IP) Address for the purposes of account management and protection from abuse.
 * Your user ID or “nick” for the purposes of account management and protection from abuse.
-* In the case of Group Contact, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
+* In the case of Group Contacts, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
 
 
 #### From the Website(s) and Email
@@ -212,13 +212,13 @@ This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limi
 * Group Contact affiliation and names are used for verification and abuse prevention purposes.
 * Names, e-mail addresses, project affiliation, etc., collected in connection with freenode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
 
-freenode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of freenode.
+freenode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of freenode. 
 
 ### DISCLOSURE AND USE OF PERSONAL INFORMATION
 freenode may be required to provide your personal information to law enforcement in the event of a criminal investigation, criminal prosecution, or civil subpoena. freenode will comply with legal instruments that follow proper procedure and are sufficiently narrow in their scope as to not infringe on the civil liberties of others.
 
 ### DATA RETENTION
-We retain all account information and data indefinitely unless a user deletes their account (/msg nickserv drop <yournick>), in which case the data is purged from our systems in accordance with our general data retention policy of sixty (60) days. We retain login activity for a period of sixty (60) days after which the data is purged from our system. We do not maintain any logs of user chat activity.
+We retain all account information and data indefinitely unless a user deletes their account (/msg nickserv drop <yournick>), in which case the data is purged from our systems in accordance with our general data retention policy of thirty (30) days. We retain login activity for a period of thirty (30) days after which the data is purged from our system. We do not maintain any logs of user chat activity.
 
 ### CalOPPA STATEMENT
 The State of California requires us to post specific language related to our privacy policy. By default, freenode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how freenode does not share our users' personal information with third parties for direct marketing purposes, you may contact: policy@freenode.net.
@@ -232,16 +232,20 @@ We collect information globally and primarily store that information in the Euro
 ### COPPA DISCLOSURE - About Children’s Online Privacy
 The Children’s Online Privacy Protection Act (COPPA) was passed to give parents increased control over what information is collected from their children online and how such information is used. The law applies to websites and services directed to, and which knowingly collect information from, children under the age of 13.  Our online services are not directed to children under the age of 13, nor is information knowingly collected from them.  For additional information on COPPA protections, please see the FTC website at: https://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online
 
+Please note that freenode, while providing a service globally, is registered in the UK and complies with the age requirements as set out at: https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/applications/children/
+
 ### HOW TO ACCESS AND CONTROL YOUR PERSONAL INFORMATION 
 You may delete your personal information at any time via a services command (/msg nickserv drop <yournick>). You may also change the email address associated with your account via a services command. 
+  
+For access to information and requests for erasure, please e-mail policy@freenode.net.
 
 ### CHANGES TO THIS PRIVACY POLICY 
 
-BY CONTINUING TO USE THIS WEBSITE AND/OR SERVICES, YOU AGREE THAT YOU CONSENT TO THIS MOST RECENT PRIVACY POLICY. FROM TIME TO TIME, FREENODE WILL MAKE CHANGES TO ITS PRIVACY POLICY AND SUCH CHANGES WILL BE COMMUNICATED VIA MOTD, GLOBAL NOTICE AND THIS WEBSITE. 
+BY CONTINUING TO USE THIS WEBSITE AND/OR SERVICES, YOU AGREE THAT YOU CONSENT TO THIS MOST RECENT PRIVACY POLICY. FROM TIME TO TIME, FREENODE WILL MAKE CHANGES TO ITS PRIVACY POLICY AND SUCH CHANGES WILL BE COMMUNICATED VIA MOTD AND THIS WEBSITE. 
 
 freenode will not share user's personal information with third parties for direct marketing purposes. 
 
-For all civil or law enforcement requests, please contact infra@freenode.net. If you have a request that requires mailing or courier, please use the information below: 
+For all civil or law enforcement requests, please contact policy@freenode.net. If you have a request that requires mailing or courier, please use the information below: 
 
 freenode Limited
 71-75 Shelton Street
@@ -254,7 +258,7 @@ While freenode agrees to accept service of law enforcement requests based on the
 Last revised June 30, 2018
 
 
-This policy was last updated on: 30 June 2018 
+This policy was last updated on: 30 July 2018 
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
