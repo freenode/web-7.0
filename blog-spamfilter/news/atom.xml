@@ -22,25 +22,27 @@ access to much information themselves, to the extent that we believe the
 obvious ways to abuse such a feature are impractical.&lt;/p&gt;
 &lt;p&gt;We've historically been reluctant to take steps like this, and we remain so,
 but we believe the disruption has reached such a level that this is necessary
-to allow the communities using freenode to collaborate effectively. The
-current complement of anti-spam measures represents our preferred approach,
-and we intend to employ this only when, as in this case, they prove
-insufficient to minimize disruption.&lt;/p&gt;
+to allow the communities using freenode to collaborate effectively. The prior
+complement of anti-spam measures represents our preferred approach, and we
+intend to employ this only when, as in this case, they prove insufficient to
+minimize disruption.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Could this be used to spy on users?&lt;/em&gt; Which filter a user matched is not
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to spy on users?&lt;/em&gt; Which filter a user matched is not
   reported to staff, only that one did. This limits the theoretical maximum
   rate of passive monitoring to one bit per message, far less than the
-  information content of conversations.&lt;/li&gt;
-&lt;/ul&gt;
+  information content of conversations.&lt;/p&gt;
 &lt;p&gt;Recipients of private messages are not included in the line that filters
-  match on, so staff cannot use spam filters to see who is talking to whom.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Could this be used to shadowban users?&lt;/em&gt; No. If a filter blocks a message,
-  its sender is either disconnected from the network or sent an error message.&lt;/li&gt;
-&lt;/ul&gt;
+match on, so staff cannot use spam filters to see who is talking to whom.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to shadowban users?&lt;/em&gt; No. If a filter blocks a message,
+  its sender is either disconnected from the network or sent an error message.&lt;/p&gt;
 &lt;p&gt;Currently, the filter system is configured not to use the nick, username, or
-  hostname for filter matching, so it can't discriminate against particular
-  users at all.&lt;/p&gt;
+hostname for filter matching, so it can't discriminate against particular
+users at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;The exact information filters "see" is as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The type of message (PRIVMSG/NOTICE)&lt;/li&gt;
