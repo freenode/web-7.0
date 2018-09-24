@@ -23,10 +23,10 @@ obvious ways to abuse such a feature are impractical.
 
 We've historically been reluctant to take steps like this, and we remain so,
 but we believe the disruption has reached such a level that this is necessary
-to allow the communities using freenode to collaborate effectively. The
-current complement of anti-spam measures represents our preferred approach,
-and we intend to employ this only when, as in this case, they prove
-insufficient to minimize disruption.
+to allow the communities using freenode to collaborate effectively. The prior
+complement of anti-spam measures represents our preferred approach, and we
+intend to employ this only when, as in this case, they prove insufficient to
+minimize disruption.
 
 
 - _Could this be used to spy on users?_ Which filter a user matched is not
@@ -34,15 +34,15 @@ insufficient to minimize disruption.
   rate of passive monitoring to one bit per message, far less than the
   information content of conversations.
 
-  Recipients of private messages are not included in the line that filters
-  match on, so staff cannot use spam filters to see who is talking to whom.
+    Recipients of private messages are not included in the line that filters
+    match on, so staff cannot use spam filters to see who is talking to whom.
 
 - _Could this be used to shadowban users?_ No. If a filter blocks a message,
   its sender is either disconnected from the network or sent an error message.
 
-  Currently, the filter system is configured not to use the nick, username, or
-  hostname for filter matching, so it can't discriminate against particular
-  users at all.
+    Currently, the filter system is configured not to use the nick, username, or
+    hostname for filter matching, so it can't discriminate against particular
+    users at all.
 
 
 The exact information filters "see" is as follows:
