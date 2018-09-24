@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-09-24T17:47:00+00:00</updated><entry><title>Spam filtering</title><link href="https://freenode.net/news/spamfilter" rel="alternate"></link><published>2018-09-24T17:47:00+00:00</published><updated>2018-09-24T17:47:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2018-09-24:/news/spamfilter</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.&lt;/p&gt;
+&lt;p&gt;Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.&lt;/p&gt;
+&lt;p&gt;Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.&lt;/p&gt;
+&lt;p&gt;We've historically been reluctant to take steps like this, and we remain so,
+but we believe the disruption has reached such a level that this is necessary
+to allow the communities using freenode to collaborate effectively. The prior
+complement of anti-spam measures represents our preferred approach, and we
+intend to employ this only when, as in this case, they prove insufficient to
+minimize disruption.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to spy on users?&lt;/em&gt; Which filter a user matched is not
+  reported to staff, only that one did. This limits the theoretical maximum
+  rate of passive monitoring to one bit per message, far less than the
+  information content of conversations.&lt;/p&gt;
+&lt;p&gt;Recipients of private messages are not included in the line that filters
+match on, so staff cannot use spam filters to see who is talking to whom.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to shadowban users?&lt;/em&gt; No. If a filter blocks a message,
+  its sender is either disconnected from the network or sent an error message.&lt;/p&gt;
+&lt;p&gt;Currently, the filter system is configured not to use the nick, username, or
+hostname for filter matching, so it can't discriminate against particular
+users at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The exact information filters "see" is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The type of message (PRIVMSG/NOTICE)&lt;/li&gt;
+&lt;li&gt;The target of the message, if that target is a channel. For private
+  messages, filters can see that they are PMs but not who their target is.&lt;/li&gt;
+&lt;li&gt;Whether or not the sender is identified (but not their account name)&lt;/li&gt;
+&lt;li&gt;The full contents of the message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code can be configured to filter on the &lt;code&gt;nick!user@host&lt;/code&gt; of the sender. We
+haven't enabled this, and have no current plans to, but this is subject to
+change should the nature of the spam demand it.&lt;/p&gt;
+&lt;p&gt;Filtering is always performed on the server originating a message, and inside
+the ircd process. This system will never cause a message to be distributed
+more widely than before.&lt;/p&gt;
+&lt;p&gt;Staff can, as always, answer your questions about this change, and we welcome
+constructive feedback. Private messages to staff are not subject to filtering.&lt;/p&gt;</content></entry><entry><title>Continued and persistent spambot attack and clarification</title><link href="https://freenode.net/news/spam-shake" rel="alternate"></link><published>2018-08-06T06:30:00+00:00</published><updated>2018-08-06T06:30:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-08-06:/news/spam-shake</id><summary type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
+&lt;p&gt;The spam content has changed in the last few days and while I am extremely glad that the attacks appear to no longer focus on members of the volunteer team and no longer involve libellous and false statements relating to these volunteers, we feel we should provide some clarification on some of the claims that are being made in the current spamwave relating to freenode and its involvement in Handshake.&lt;/p&gt;
+&lt;p&gt;The current spambot attacks state that freenode is involved with an 'ICO scam' relating to the &lt;a href="https://handshake.org"&gt;Handshake&lt;/a&gt; project. Most freenode volunteers have involvement with one or several FOSS projects, often projects that use the freenode network as part of their communications toolbox. Handshake is no different in this regard, as it is a project that I have been involved with. I am deeply sorry to those affected by the spam, to freenode and to Handshake that spammers have chosen to use my involvement as a further platform to attack the freenode communities, and now also Handshake. &lt;/p&gt;</summary><content type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
+&lt;p&gt;The spam content has changed in the last few days and while I am extremely glad that the attacks appear to no longer focus on members of the volunteer team and no longer involve libellous and false statements relating to these volunteers, we feel we should provide some clarification on some of the claims that are being made in the current spamwave relating to freenode and its involvement in Handshake.&lt;/p&gt;
+&lt;p&gt;The current spambot attacks state that freenode is involved with an 'ICO scam' relating to the &lt;a href="https://handshake.org"&gt;Handshake&lt;/a&gt; project. Most freenode volunteers have involvement with one or several FOSS projects, often projects that use the freenode network as part of their communications toolbox. Handshake is no different in this regard, as it is a project that I have been involved with. I am deeply sorry to those affected by the spam, to freenode and to Handshake that spammers have chosen to use my involvement as a further platform to attack the freenode communities, and now also Handshake. &lt;/p&gt;
+&lt;p&gt;Prior to announcement, the Handshake project raised USD 10.2 million in funding from project supporters and the project made the decision to not only give a substantial amount of its coin supply to people and projects within the FOSS sphere but to also donate the USD 10.2 million (FIAT) to projects whose work the initial project contributors admire and/or rely upon. Like many projects within the FOSS world, Handshake has extensively used other free and open source software to build its codebase, and FOSS also lies at the foundations of the internet architecture that we rely upon day to day. &lt;/p&gt;
+&lt;p&gt;One of the projects Handshake identified as useful is indeed also freenode, which is on the pledgee list to receive a FIAT donation from the project. This donation will, among other things, contribute towards making the &lt;a href="https://freenode.live"&gt;freenode #live&lt;/a&gt; conference bigger and better, and also to focus on some development work that has otherwise been on the back-burner. freenode is happy to be included as a list of recipients and honoured to be appreciated in this way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Handshake is a FOSS project, and like many FOSS projects it has a channel on the freenode network.&lt;/li&gt;
+&lt;li&gt;Handshake is an experimental peer-to-peer DNS for which one aim is to be more resistant to censorhip than existing systems.&lt;/li&gt;
+&lt;li&gt;Handshake is doing a faucet distribution to a number of FOSS contributors and projects, many of which are freenode users.&lt;/li&gt;
+&lt;li&gt;Handshake is making a fairly hefty (USD 10.2 million) overall financial contribution to projects within the FOSS sphere in addition to its faucet allocation of HNS coins and freenode is one of many projects within the FOSS sphere that is receiving a contribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As such, any link between freenode and Handshake is tenuous at best and the current wave of spam would appear to be designed to do little bar discredit freenode and the Handshake project both.&lt;/p&gt;
+&lt;p&gt;I am sure you will appreciate that the freenode volunteer team is not in a position to answer questions relating to the Handshake project any more than they are in a position to answer questions relating to any other new FOSS project that starts to use the freenode network. &lt;/p&gt;
+&lt;p&gt;But I also understand that some of you may have additional questions relating to Handshake, I am sure you will appreciate that the freenode website is not the platform for such a discussion, and would suggest that you visit the &lt;a href="https://handshake.org"&gt;Handshake website&lt;/a&gt;, &lt;a href="https://github.com/handshake-org"&gt;Handshake Github Repository&lt;/a&gt; and &lt;a href="https://handshake-org.github.io/"&gt;Handshake Documentation&lt;/a&gt; if you are interested in learning more about the project and that you direct any questions to the Handshake project via the appropriate communication channels for the project.&lt;/p&gt;</content></entry><entry><title>Current spambot attack on freenode (and elsewhere)</title><link href="https://freenode.net/news/spambot-attack" rel="alternate"></link><published>2018-07-27T13:20:00+00:00</published><updated>2018-07-27T13:20:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-07-27:/news/spambot-attack</id><summary type="html">&lt;p&gt;Many of you will have noticed that over the last few days there has been an extensive spambot wave on freenode, and on other networks. &lt;/p&gt;
+&lt;p&gt;The fairly aggressive spambot attacks link to websites that we believe to have been set up to impersonate freenode volunteers, and that we believe to contain offensive and incorrect information intended to defame and libel members of the freenode volunteer team.&lt;/p&gt;
+&lt;p&gt;Naturally, the matter has been escalated to law enforcement and both the project and the individual volunteers concerned have sought legal advice in connection with the current attack. &lt;/p&gt;</summary><content type="html">&lt;p&gt;Many of you will have noticed that over the last few days there has been an extensive spambot wave on freenode, and on other networks. &lt;/p&gt;
+&lt;p&gt;The fairly aggressive spambot attacks link to websites that we believe to have been set up to impersonate freenode volunteers, and that we believe to contain offensive and incorrect information intended to defame and libel members of the freenode volunteer team.&lt;/p&gt;
+&lt;p&gt;Naturally, the matter has been escalated to law enforcement and both the project and the individual volunteers concerned have sought legal advice in connection with the current attack. &lt;/p&gt;
+&lt;p&gt;Due to the nature of the attack, this is of course causing serious emotional distress on the part of the affected volunteers and their immediate family and social circles, as well as the rest of the volunteer team. &lt;/p&gt;
+&lt;p&gt;On behalf of the entire team, I would like to express thanks to those of you who have reached out with words of encouragement and support, and especially those of you from other IRC networks who have invested your time and efforts in trying to help mitigate and support. &lt;/p&gt;
+&lt;p&gt;I would also like to apologise to those users and channels (on and off freenode) who are affected by the spam. &lt;/p&gt;</content></entry><entry><title>freenode #live 2018: Welcoming (some of) this year's keynote speakers</title><link href="https://freenode.net/news/freenode-live-keynotes" rel="alternate"></link><published>2018-07-13T13:49:00+00:00</published><updated>2018-07-13T13:49:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-07-13:/news/freenode-live-keynotes</id><summary type="html">&lt;p&gt;It is with a great deal of excitement that I can announce some of this year's keynote speakers for freenode #live. The entire freenode team is excited to be welcoming the following FOSS rockstars to Bristol this November; Bradley Kuhn, Chris Lamb, Kyle Rankin, Leslie Hawthorn and VM Brasseur. &lt;/p&gt;
+&lt;p&gt;We have a few more exciting announcements to make in the lead-up to the conference! You don't want to miss out, and we encourage you to head over to https://freenode.live to get your tickets for this year's event! And if you want to join this year's speaker line-up then you still have some time, the CFP is open and we're looking forward to hearing from you.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It is with a great deal of excitement that I can announce some of this year's keynote speakers for freenode #live. The entire freenode team is excited to be welcoming the following FOSS rockstars to Bristol this November; Bradley Kuhn, Chris Lamb, Kyle Rankin, Leslie Hawthorn and VM Brasseur. &lt;/p&gt;
+&lt;p&gt;We have a few more exciting announcements to make in the lead-up to the conference! You don't want to miss out, and we encourage you to head over to https://freenode.live to get your tickets for this year's event! And if you want to join this year's speaker line-up then you still have some time, the CFP is open and we're looking forward to hearing from you.&lt;/p&gt;
+&lt;h2 id="bradley-m-kuhn"&gt;&lt;a class="toclink" href="#bradley-m-kuhn"&gt;Bradley M. Kuhn&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bradley M. Kuhn is the Distinguished Technologist at &lt;a href="https://sfconservancy.org"&gt;Software Freedom Conservancy&lt;/a&gt;, and editor-in-chief of &lt;a href="https://copyleft.org"&gt;copyleft.org&lt;/a&gt;. Kuhn began his work in the software freedom movement as a volunteer in 1992, as an early adopter of GNU/Linux, and contributor to various Free Software projects. Kuhn's non-profit career began in 2000 at &lt;a href="https://fsf.org"&gt;FSF&lt;/a&gt;. As FSF's Executive Director from 2001-2005, Kuhn led FSF's GPL enforcement, launched its Associate Member program, and invented the Affero GPL. Kuhn was appointed President of Conservancy in April 2006, was Conservancy's primary volunteer from 2006-2010, and has been a full-time staffer since early 2011. Kuhn holds a summa cum laude B.S. in Computer Science from Loyola University in Maryland, and an M.S. in Computer Science from the University of Cincinnati. Kuhn received an O'Reilly Open Source Award, in recognition for his lifelong policy work on copyleft licensing. You can follow him on Twitter &lt;a href="https://twitter.com/bkuhn_ebb_org"&gt;@bkuhn_ebb_org&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="chris-lamb"&gt;&lt;a class="toclink" href="#chris-lamb"&gt;Chris Lamb&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Currently Project Leader of the &lt;a href="https://debian.org"&gt;Debian&lt;/a&gt; GNU/Linux project and a member of Board of Directors for the &lt;a href="https://opensource.org"&gt;Open Source Initiative&lt;/a&gt;, Chris is a freelance computer programmer, author of dozens of free-software projects and contributor to 100s of others.
+He has been official Debian Developer since 2008 and is currently highly active in the Reproducible Builds sub-project for which he has been awarded a grant from the Linux Foundation's Core Infrastructure Initiative. In his spare time he is an avid classical musician and Ironman triathlete.
+Chris has spoken at numerous conferences including LinuxCon China, HKOSCon, linux.conf.au, DjangoCon Europe, LibrePlanet, OSCAL, All Things Open, SCALE, Software Freedom Kosovo, #freenode Live, FOSS'ASIA, and many more. You can follow him on Twitter &lt;a href="https://twitter.com/lolamby"&gt;@lolamby&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="kyle-rankin"&gt;&lt;a class="toclink" href="#kyle-rankin"&gt;Kyle Rankin&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Kyle Rankin is the Chief Security Officer at &lt;a href="https://purism.org"&gt;Purism&lt;/a&gt;, SPC and a Tech Editor and columnist at &lt;a href="https://linuxjournal.org"&gt;Linux Journal&lt;/a&gt;.
+He is the author of Linux Hardening in Hostile Networks, DevOps Troubleshooting, The Official Ubuntu Server Book, Knoppix Hacks, Knoppix Pocket Reference, Linux Multimedia Hacks and Ubuntu Hacks, and also a contributor to a number of other O’Reilly books.
+Rankin speaks frequently on security and free and open source software including at BsidesLV, O’Reilly Security Conference, OSCON, SCALE, CactusCon, OpenWest, Linux World Expo and Penguicon. You can follow him on Twitter &lt;a href="https://twitter.com/kylerankin"&gt;@kylerankin&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="leslie-hawthorn"&gt;&lt;a class="toclink" href="#leslie-hawthorn"&gt;Leslie Hawthorn&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;An internationally known developer relations strategist and community management expert, Leslie Hawthorn has spent the past decade creating, cultivating, and enabling open source communities. She’s best known for creating the world’s first initiative to involve pre-university students in open source software development, launching Google’s #2 developer blog, and receiving an O’Reilly Open Source Award in 2010. Her career has provided her with the opportunity to develop, hone, and share open source expertise spanning enterprise to NGOs, including senior roles at Red Hat, Google, the Open Source Initiative, and Elastic.&lt;/p&gt;
+&lt;p&gt;If you cheer during movies when you hear the words “I fight for the users” or “Get your head out of your cockpit,” the two of you will likely get along famously. Follow her on Twitter &lt;a href="https://twitter.com/lhawthorn"&gt;@lhawthorn&lt;/a&gt; or read her blog at &lt;a href="https://hawthornlandings.org"&gt;https://hawthornlandings.org/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="vm-brasseur"&gt;&lt;a class="toclink" href="#vm-brasseur"&gt;VM Brasseur&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;VM (aka Vicky) spent most of her 20 years in the tech industry leading software development departments and teams, and providing technical management and leadership consulting for small and medium businesses. Now she leverages nearly 30 years of free and open source software experience and a strong business background to &lt;a href="https://vmbrasseur.com/services"&gt;advise companies about free/open source, technology, community, business, and the intersections between them&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;She is the author of &lt;a href="https://fossforge.com"&gt;&lt;em&gt;Forge Your Future with Open Source&lt;/em&gt;&lt;/a&gt;, the first book to detail how to contribute to free and open source software projects. Think of it as the missing manual of open source contributions and community participation. The book is published by &lt;a href="https://pragprog.com/"&gt;The Pragmatic Programmers&lt;/a&gt; and is now available in an &lt;a href="https://fossforge.com"&gt;early release beta version&lt;/a&gt;. It's available at https://fossforge.com.&lt;/p&gt;
+&lt;p&gt;Vicky is the Vice President of the &lt;a href="https://opensource.org"&gt;Open Source Initiative&lt;/a&gt;, a moderator and author for &lt;a href="https://opensource.com"&gt;opensource.com&lt;/a&gt;, an author for &lt;a href="http://linuxjournal.com"&gt;Linux Journal&lt;/a&gt;, and a frequent and popular &lt;a href="http://vmbrasseur.com/presentations/"&gt;speaker&lt;/a&gt; at free/open source conferences and events. She's the proud winner of the Perl White Camel Award (2014) and the O’Reilly Open Source Award (2016).  She blogs about free/open source, business, and technical management at &lt;a href="https://anonymoushash.vmbrasseur.com"&gt;{anonymous =&amp;gt; 'hash'};&lt;/a&gt;. You can follow her on Twitter &lt;a href="https://twitter.com/vmbrasseur"&gt;@VMBrasseur&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>freenode Security Update: Reused Password Attack</title><link href="https://freenode.net/news/security-update-rpa" rel="alternate"></link><published>2018-06-29T08:08:00+00:00</published><updated>2018-06-29T08:08:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-06-29:/news/security-update-rpa</id><summary type="html">&lt;p&gt;In the very early hours of today (Friday 29 June 2018), we became aware of unauthorised attempts to access a substantial number of freenode accounts. This appears to be the result of an attacker using lists of usernames and passwords from other online services that have previously been compromised, and trying these combinations on freenode accounts.&lt;/p&gt;
+&lt;p&gt;Our investigations commenced immediately and we found that the attacker had been able to log in to a number of freenode accounts.&lt;/p&gt;
+&lt;p&gt;freenode has not been hacked or compromised.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the very early hours of today (Friday 29 June 2018), we became aware of unauthorised attempts to access a substantial number of freenode accounts. This appears to be the result of an attacker using lists of usernames and passwords from other online services that have previously been compromised, and trying these combinations on freenode accounts.&lt;/p&gt;
+&lt;p&gt;Our investigations commenced immediately and we found that the attacker had been able to log in to a number of freenode accounts.&lt;/p&gt;
+&lt;p&gt;freenode has not been hacked or compromised.&lt;/p&gt;
+&lt;h2 id="affected-information"&gt;&lt;a class="toclink" href="#affected-information"&gt;Affected information&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For the affected accounts, usernames (nicknames) and passwords are affected. Additionally, for some accounts, other information including channel access and channel lists may be affected.&lt;/p&gt;
+&lt;h2 id="what-we-are-doing"&gt;&lt;a class="toclink" href="#what-we-are-doing"&gt;What we are doing&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We are committed to protecting your data and, as a precaution, we have frozen the affected accounts and are in the process of sending individual notifications to affected users.&lt;/p&gt;
+&lt;h2 id="what-you-can-do"&gt;&lt;a class="toclink" href="#what-you-can-do"&gt;What you can do&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If your account was affected, we are in the process of contacting you directly with information to reset your password and restore access to your account.&lt;/p&gt;
+&lt;p&gt;We encourage all users to practice good password hygiene, even if your account has not been affected at this time.&lt;/p&gt;
+&lt;p&gt;Attacks such as these have a tendency to escalate and cause a domino effect and we will continue to investigate and monitor for new attack vectors. &lt;/p&gt;
+&lt;p&gt;Password reuse means that once one account is compromised, all of the accounts that share that password become compromised.&lt;/p&gt;</content></entry><entry><title>freenode and irc.com</title><link href="https://freenode.net/news/freenode-irccom" rel="alternate"></link><published>2018-06-22T21:20:00+00:00</published><updated>2018-06-22T21:20:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-06-22:/news/freenode-irccom</id><summary type="html">&lt;p&gt;In light of the two ongoing threads on &lt;a href="https://news.ycombinator.com/item?id=17375831"&gt;Hacker News&lt;/a&gt; and &lt;a href="https://www.reddit.com/r/irc/comments/8t2wcq/irccom_acquired_by_london_trust_media_plans_for_a/"&gt;Reddit&lt;/a&gt; concerning LTMH and irc.com, we have had a fair few freenode users contact us with questions as to whether irc.com will replace and/or absorb freenode, and what impact it would have on freenode communities.&lt;/p&gt;
+&lt;p&gt;I wanted to make sure that I addressed these concerns, and I can assure you that there are no plans on the part of freenode or LTM that involve any changes to freenode, freenode is not on the brink of shutdown — if anything, we are excited to be celebrating our 20th anniversary at this year's &lt;a href="https://freenode.live"&gt;freenode #live&lt;/a&gt; event, and we hope to see at least another 20 after that. &lt;/p&gt;
+&lt;p&gt;The freenode project exists to support the development and use of Free and Open Source Software, and to that end it serves a very different purpose to the one that the visionaries behind irc.com have in mind. I fully believe that freenode and irc.com can co-exist, just as we co-exist with the numerous other IRC networks out there, and I would like to hope that irc.com may encourage those of their users who would be a good fit for freenode to come check us out, just as I hope that we may be able to send someone their way should we come across users who have great potential for running a series of training sessions or similar.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In light of the two ongoing threads on &lt;a href="https://news.ycombinator.com/item?id=17375831"&gt;Hacker News&lt;/a&gt; and &lt;a href="https://www.reddit.com/r/irc/comments/8t2wcq/irccom_acquired_by_london_trust_media_plans_for_a/"&gt;Reddit&lt;/a&gt; concerning LTMH and irc.com, we have had a fair few freenode users contact us with questions as to whether irc.com will replace and/or absorb freenode, and what impact it would have on freenode communities.&lt;/p&gt;
+&lt;p&gt;I wanted to make sure that I addressed these concerns, and I can assure you that there are no plans on the part of freenode or LTM that involve any changes to freenode, freenode is not on the brink of shutdown — if anything, we are excited to be celebrating our 20th anniversary at this year's &lt;a href="https://freenode.live"&gt;freenode #live&lt;/a&gt; event, and we hope to see at least another 20 after that. &lt;/p&gt;
+&lt;p&gt;The freenode project exists to support the development and use of Free and Open Source Software, and to that end it serves a very different purpose to the one that the visionaries behind irc.com have in mind. I fully believe that freenode and irc.com can co-exist, just as we co-exist with the numerous other IRC networks out there, and I would like to hope that irc.com may encourage those of their users who would be a good fit for freenode to come check us out, just as I hope that we may be able to send someone their way should we come across users who have great potential for running a series of training sessions or similar.&lt;/p&gt;
+&lt;p&gt;And while LTM has provided freenode with some much needed resources following last year's &lt;a href="https://freenode.net/news/pia-fn"&gt;announcement&lt;/a&gt;, any potential partnership between the two will be limited to the possibility of freenode being represented in the irc.com foundation. It is my understanding that the foundation will operate on a nonprofit basis and will seek to bring together network operators and ircd/services developers to identify irc-related projects that are in need of funding and support, the irc.com team hopes to establish positive working relationships with operators, developers, ircv3 and end users alike, and the foundation, which will be governed by community consensus, will seek to ensure that irc.com and its efforts benefit all, not only those organisations that LTM supports today.&lt;/p&gt;
+&lt;p&gt;With regard to irc.com itself, I am curious and excited to see what's in store in terms of utilising IRC as a platform for delivering training sessions and the idea of a virtual incubator using an IRC backend. There has been some incredible developments on the client-side in recent times, with both &lt;a href="https://irccloud.com"&gt;IRCCloud&lt;/a&gt; and &lt;a href="https://www.kiwiirc.com"&gt;KiwiIRC&lt;/a&gt; continuing to work on features that will soon introduce video and voice calls, file-sharing and a host of other productivity tools that provide the irc.com team with good foundations for success.&lt;/p&gt;
+&lt;p&gt;For the sake of full disclosure: I am an Executive Vice President at LTM, and I work closely with all subsidiaries within the Group, irc.com included.&lt;/p&gt;</content></entry><entry><title>Announcement: jobs.freenode.net - New Service</title><link href="https://freenode.net/news/jobs-freenode" rel="alternate"></link><published>2018-06-06T09:24:00+00:00</published><updated>2018-06-06T09:24:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-06-06:/news/jobs-freenode</id><summary type="html">&lt;p&gt;Over the last two decades, we have found that a variety of freenode community members have reached out to us when they have been involved in the hiring process at their places of work. We have always been keen to support and promote relevant topics within the wider freenode communities, and we are excited to be launching the new &lt;a href="https://jobs.freenode.net"&gt;jobs.freenode.net&lt;/a&gt; website. Whether you are hiring for a permanent full-time role, looking to fill a temporary contract or looking to attract volunteer contributors for your FOSS project, we very much welcome and encourage you to use the site.&lt;/p&gt;
+&lt;p&gt;We hope that the new site will provide a useful addition to the existing freenode projects, such as the IRC network and the &lt;a href="https://freenode.live"&gt;#live&lt;/a&gt; conference. &lt;/p&gt;</summary><content type="html">&lt;p&gt;Over the last two decades, we have found that a variety of freenode community members have reached out to us when they have been involved in the hiring process at their places of work. We have always been keen to support and promote relevant topics within the wider freenode communities, and we are excited to be launching the new &lt;a href="https://jobs.freenode.net"&gt;jobs.freenode.net&lt;/a&gt; website. Whether you are hiring for a permanent full-time role, looking to fill a temporary contract or looking to attract volunteer contributors for your FOSS project, we very much welcome and encourage you to use the site.&lt;/p&gt;
+&lt;p&gt;We hope that the new site will provide a useful addition to the existing freenode projects, such as the IRC network and the &lt;a href="https://freenode.live"&gt;#live&lt;/a&gt; conference. &lt;/p&gt;
+&lt;h2 id="hiring"&gt;&lt;a class="toclink" href="#hiring"&gt;Hiring?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Head over to &lt;a href="https://jobs.freenode.net"&gt;jobs.freenode.net&lt;/a&gt; and add your job openings! The service is free to use, although we would be grateful for a contribution towards the operating costs of freenode services and the #live conference in the event that you successfully match via the website. In the event that you successfully match and wish to make a contribution, please contact us on contribute@freenode.net.&lt;/p&gt;
+&lt;h2 id="foss-or-other-peer-directed-project-on-the-hunt-for-volunteers"&gt;&lt;a class="toclink" href="#foss-or-other-peer-directed-project-on-the-hunt-for-volunteers"&gt;FOSS or other peer-directed project on the hunt for volunteers?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Why not add a post on the &lt;a href="https://jobs.freenode.net"&gt;jobs.freenode.net&lt;/a&gt; site to see if you may be able to attract some contributors from the wider freenode and FOSS communities?&lt;/p&gt;
+&lt;h2 id="looking-for-a-new-job-or-a-volunteer-role"&gt;&lt;a class="toclink" href="#looking-for-a-new-job-or-a-volunteer-role"&gt;Looking for a new job or a volunteer role?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Keep an eye on &lt;a href="https://jobs.freenode.net"&gt;jobs.freenode.net&lt;/a&gt; to see if something of interest is added. We will utilise wallops on the freenode IRC network to provide a brief summary of available roles periodically, for those wishing to receive these, please set yourself +w (/umode +w or /mode yournick +w). &lt;/p&gt;
+&lt;h2 id="feature-requests-suggestions-and-feedback"&gt;&lt;a class="toclink" href="#feature-requests-suggestions-and-feedback"&gt;Feature requests, suggestions and feedback?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The github repository can be found &lt;a href="https://github.com/freenode/freenodejobs"&gt;here&lt;/a&gt;, you can also drop us an e-mail to jobs@freenode.net or find us in &lt;a href="https://kiwi.freenode.net/?#freenode-jobs"&gt;#freenode-jobs&lt;/a&gt; on the freenode network.&lt;/p&gt;</content></entry><entry><title>Services maintenance and password security</title><link href="https://freenode.net/news/services-maintenance-password-security" rel="alternate"></link><published>2018-05-26T17:12:00+00:00</published><updated>2018-05-26T17:12:00+00:00</updated><author><name>ilbelkyr</name></author><id>tag:freenode.net,2018-05-26:/news/services-maintenance-password-security</id><summary type="html">&lt;p&gt;We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.&lt;/p&gt;
+&lt;p&gt;During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+&lt;em&gt;youruser&lt;/em&gt; dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.&lt;/p&gt;</summary><content type="html">&lt;p&gt;We recently took our services (NickServ and friends) offline for maintenance to
+ensure encrypted storage of the services database.&lt;/p&gt;
+&lt;p&gt;During this process, we accidentally started services with an empty database.
+While we quickly realized the mistake, a large number of users were already
+logged out before we stopped the process, receiving a message like "Account
+&lt;em&gt;youruser&lt;/em&gt; dropped, forcing logout". Services were quickly restored to normal
+afterwards and people were able to log in to their accounts as before. We would
+like to apologize for the disruption and confusion this may have caused.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people have used this opportunity to spread some
+misinformation, claiming that "all passwords have been released". This is not
+the case; there has been no threat to account security due to this incident.
+Additionally, we do not store passwords in a recoverable form at all.&lt;/p&gt;
+&lt;p&gt;In any case, we do recommend using a unique and secure password not shared with
+other online services. If you wish to change your password, you may do so using
+the command &lt;code&gt;/msg NickServ SET PASSWORD &amp;lt;newpassword&amp;gt;&lt;/code&gt; while logged in (replacing
+&lt;code&gt;&amp;lt;newpassword&amp;gt;&lt;/code&gt; with the password you wish to set). You might wish to consider
+using a password manager as well, such as &lt;a href="https://keepassxc.org/"&gt;KeePassXC&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We do take security and privacy very seriously. Notifications about any actual
+security breaches would appear on this site, as well as in global notices sent
+out by members of staff (identified by a &lt;code&gt;freenode/staff/&lt;/code&gt; cloak).&lt;/p&gt;
+&lt;p&gt;Apologies for the confusion and thank you for using freenode!&lt;/p&gt;</content></entry><entry><title>Updated Privacy Policy</title><link href="https://freenode.net/news/updated-privacy" rel="alternate"></link><published>2018-05-24T23:58:32+00:00</published><updated>2018-05-24T23:58:32+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-24:/news/updated-privacy</id><summary type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
+&lt;p&gt;In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
+The latest version of our policies can always be found &lt;a href="http://freenode.net/policies"&gt;here&lt;/a&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;With GDPR coming into effect tomorrow, 25 May 2018, freenode has made some amendments to its privacy policy to provide clarification relating to GDPR compliance.&lt;/p&gt;
+&lt;p&gt;In the event that you do not consent to our continued processing of your personal data in order to provide you with access to the service, you may drop your nickserv registration using the drop command (please see '/msg nickserv help drop' for further instructions).
+The latest version of our policies can always be found &lt;a href="http://freenode.net/policies"&gt;here&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Channel moderation and channel topics</title><link href="https://freenode.net/news/topic-lock" rel="alternate"></link><published>2018-05-14T07:26:00+00:00</published><updated>2018-05-14T07:26:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-05-14:/news/topic-lock</id><summary type="html">&lt;p&gt;On freenode, we have always tried to minimise the amount of policies we apply across the network to allow projects to run their project channels in ways that complement their wider procedures and code of conducts for the projects both on and outside of IRC.&lt;/p&gt;
+&lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
+&lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;</summary><content type="html">&lt;p&gt;On freenode, we have always tried to minimise the amount of policies we apply across the network to allow projects to run their project channels in ways that complement their wider procedures and code of conducts for the projects both on and outside of IRC.&lt;/p&gt;
+&lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
+&lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;
+&lt;p&gt;In light of the above, we would like to ask that you check the modes and topics of your channel(s), and if appropriate reinstate your previous topic and decide whether or not you may wish to +t, even temporarily, to reduce disruption within your community.&lt;/p&gt;
+&lt;p&gt;Please do not hesitate to message a member of freenode staff for assistance! &lt;/p&gt;</content></entry><entry><title>freenode #live 2018 - Call for Proposals now open!</title><link href="https://freenode.net/news/live-cfp" rel="alternate"></link><published>2018-02-26T20:50:00+00:00</published><updated>2018-02-26T20:50:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-26:/news/live-cfp</id><summary type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;
+&lt;h2 id="you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;&lt;a class="toclink" href="#you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;You do not need to have a black belt in FOSS to come talk at this year's freenode #live conference&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;freenode #live returns to We The Curious in Bristol, UK on Saturday 3 and Sunday 4 November 2018. The CFP is now live, and you can submit a talk over at the &lt;a href="https://freenode.live/"&gt;freenode.live&lt;/a&gt; website.&lt;/p&gt;
+&lt;p&gt;The inaugural freenode #live conference last year saw a star-studded speaker line-up including &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/mjg59"&gt;Matthew Garrett&lt;/a&gt;, &lt;a href="https://twitter.com/o0karen0o"&gt;Karen Sandler&lt;/a&gt;, &lt;a href="https://twitter.com/johns_FSF"&gt;John Sullivan&lt;/a&gt;, &lt;a href="https://twitter.com/jvdwaa"&gt;Jelle van der Waa&lt;/a&gt;, &lt;a href="https://twitter.com/lolamby"&gt;Chris Lamb&lt;/a&gt;, &lt;a href="https://twitter.com/nmcgovern"&gt;Neil McGovern&lt;/a&gt;, &lt;a href="https://twitter.com/mattdm"&gt;Matthew Miller&lt;/a&gt; and many, many more. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/standupmaths"&gt;Matt Parker&lt;/a&gt; from &lt;a href="http://standupmaths.com"&gt;Standup Maths&lt;/a&gt; and &lt;a href="http://festivalofthespokennerd.com"&gt;Festival of the Spoken Nerd&lt;/a&gt; provided excellent entertainment on the Saturday evening, and the feedback from attendees, speakers and volunteers alike was overwhelmingly positive. &lt;/p&gt;
+&lt;p&gt;freenode #live 2017 was possible thanks to the generous support of sponsors such as &lt;a href="https://www.bytemark.co.uk"&gt;Bytemark&lt;/a&gt;, &lt;a href="https://falanx.com"&gt;Falanx&lt;/a&gt;, &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;, &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, &lt;a href="https://ubuntu.com"&gt;Ubuntu&lt;/a&gt; and &lt;a href="https://yubico.com"&gt;Yubico&lt;/a&gt;. &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; has already agreed to sponsor the event for another year, and we are currently looking for additional sponsors. Please do not hesitate to get in touch if your company might be interested in supporting freenode #live 2018.&lt;/p&gt;
+&lt;p&gt;We are looking forward to hosting this year's freenode #live conference, and hope that you will join us there.&lt;/p&gt;</content></entry><entry><title>Celebrating FOSS, and twenty years of Open Source</title><link href="https://freenode.net/news/foss-month" rel="alternate"></link><published>2018-02-05T23:19:48+00:00</published><updated>2018-02-05T23:19:48+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-05:/news/foss-month</id><summary type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;</summary><content type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
+freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+another but also with sponsors, group contacts and others. &lt;/p&gt;
+&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
+such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
+words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
+&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
+it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
+proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
+also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;
+&lt;p&gt;On Saturday, I joined &lt;a href="https://twitter.com/Czajkowski"&gt;Laura Czajkowski&lt;/a&gt;, &lt;a href="https://twitter.com/lhawthorn"&gt;Leslie Hawthorn&lt;/a&gt;, &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/vmbrasseur"&gt;VM Brasseur&lt;/a&gt; and many others in 
+song as we came together to sing Happy Birthday to Open Source to mark that it had been 20 years since the term was first coined. It felt 
+fitting that this should take place not only during FOSDEM, but also during &lt;a href="https://nationaldaycalendar.com/free-and-open-source-month-february/"&gt;Free and Open Source Software Month&lt;/a&gt;. So once more, Happy Birthday
+Open Source! &lt;/p&gt;
+&lt;p&gt;To celebrate Free and Open Source Software Month, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; is running a promotion this month, with savings of up to 62% if you take out an annual subscription &lt;a href="https://www.privateinternetaccess.com/pages/foss-month"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrate 
+FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
+community!&lt;/p&gt;</content></entry><entry><title>"Joe-Job" spam on other networks referring to freenode</title><link href="https://freenode.net/news/joe-job-spam" rel="alternate"></link><published>2017-12-05T09:00:00+00:00</published><updated>2017-12-05T09:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-12-05:/news/joe-job-spam</id><summary type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+spamming channels with racist messages which suggest that they are promoting a
+channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
+&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
+targetting other networks, but we'd like to clarify that we of course do not
+support any racist or hate-inciting behaviour, which is strictly against our
+&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
+in the spam messages are in no way connected to the spam - rather they are
+innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
+designed to disrupt them as well as freenode.&lt;/p&gt;
+&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
+individual sighting, particularly in #freenode, is of limited value and likely
+to cause more noise than signal, but feel free to message a staffer (use the
+&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
+if you are part of the oper/staff team on another affected network and want to
+talk to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
+spamming channels with racist messages which suggest that they are promoting a
+channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
+&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
+targetting other networks, but we'd like to clarify that we of course do not
+support any racist or hate-inciting behaviour, which is strictly against our
+&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
+in the spam messages are in no way connected to the spam - rather they are
+innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
+designed to disrupt them as well as freenode.&lt;/p&gt;
+&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
+individual sighting, particularly in #freenode, is of limited value and likely
+to cause more noise than signal, but feel free to message a staffer (use the
+&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
+if you are part of the oper/staff team on another affected network and want to
+talk to us.&lt;/p&gt;</content></entry><entry><title>On Shadowbans</title><link href="https://freenode.net/news/shadowban-fix" rel="alternate"></link><published>2017-11-15T23:59:04+00:00</published><updated>2017-11-15T23:59:04+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2017-11-15:/news/shadowban-fix</id><summary type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.&lt;/p&gt;
+&lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.&lt;/p&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's recently come to our attention that an unintended effect of combining
+channel modes allowed channel operators to set undetectable bans and quiets on
+users.&lt;/p&gt;
+&lt;p&gt;freenode considers this to be, in short, antithetical to our values and approach
+to moderation. While we recognise the challenges of moderating large channels,
+we urge channel operators to be as transparent as possible, and believe that
+users should be aware of moderation action taken against them.&lt;/p&gt;
+&lt;p&gt;In light of this, we are deploying a change to the &lt;code&gt;$j&lt;/code&gt; extban. As of tomorrow
+UTC, &lt;code&gt;$j&lt;/code&gt; will ignore ban exceptions set on the target channel, seeing the same
+effects as an uninvolved user checking its ban list.&lt;/p&gt;
+&lt;p&gt;This was &lt;a href="new-extban-j"&gt;always the intention&lt;/a&gt; in enabling &lt;code&gt;$j&lt;/code&gt;.
+I apologise on behalf of the staff team for any confusion this may have caused.&lt;/p&gt;</content></entry><entry><title>freenode #live - even more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-more-speakers" rel="alternate"></link><published>2017-08-25T23:15:00+00:00</published><updated>2017-08-25T23:15:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-25:/news/freenode-live-more-speakers</id><summary type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Yesterday, we &lt;a href="/news/freenode-live-speakers"&gt;announced more confirmed speakers&lt;/a&gt;
+for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
+taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
+this year.&lt;/p&gt;
+&lt;p&gt;Today we are happy to announce more speakers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chris Lamb - Currently the Debian Project Leader, Chris is a freelance computer
+  programmer, author of dozens of free projects, and contributor to hundreds of
+  others. Chris has spoken at numerous conferences, including LinuxCon China,
+  HKOSCon, linux.conf.au, DjangoCon Europe, OSCAL, multiple DebConfs, Software
+  Freedom Kosovo, foss-north &amp;amp; FOSS'ASIA.&lt;/li&gt;
+&lt;li&gt;Philipp Krenn - part of the infrastructure team and a Developer Advocate at
+  Elastic, spreading the love and knowledge of full-text search, analytics, and
+  real-time data. He is a frequent speaker at conferences and meetups about all
+  things search &amp;amp; analytics, databases, cloud computing, and devops.&lt;/li&gt;
+&lt;li&gt;Oliver Gorwits - Oliver has a background in computer networks and is a senior
+  IT manager at a major weather forecasting centre in the UK. For over 20 years
+  he's worked with software as a hobby and contributed to open source, mainly in
+  Perl, and now leads the Netdisco project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="still-more-to-come"&gt;&lt;a class="toclink" href="#still-more-to-come"&gt;Still more to come&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;With still more speakers to be announced soon, keep your eyes out for more
+announcements coming soon - and get your ticket now to secure your place!&lt;/p&gt;
+&lt;h2 id="get-your-tickets-now"&gt;&lt;a class="toclink" href="#get-your-tickets-now"&gt;Get your tickets now!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Want to watch these talented speakers? Get your 
+&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
+have the chance to experience these and the other speakers and workshops to be
+announced soon!&lt;/p&gt;
+&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;&lt;a class="toclink" href="#exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
+FOSS projects exhibit for free, and it's a great way to meet your current users
+and attract others!&lt;/p&gt;
+&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
+packages available providing different exposure levels to a FOSS-centered, 
+technical audience - get a warm fuzzy feeling by supporting the community
+which most likely contributed in no small way to the success of your business!&lt;/p&gt;
+&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
+join us in #live on freenode!&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry></feed>
