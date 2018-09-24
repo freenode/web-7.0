@@ -26,8 +26,8 @@ to allow the communities using freenode to collaborate effectively. The prior
 complement of anti-spam measures represents our preferred approach, and we
 intend to employ this only when, as in this case, they prove insufficient to
 minimize disruption.&lt;/p&gt;
-&lt;p&gt;For the technically inclined, you can view the changes here:
-https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6&lt;/p&gt;
+&lt;p&gt;For the technically inclined, you can view the changes
+&lt;a href="https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;Could this be used to spy on users?&lt;/em&gt; Which filter a user matched is not
