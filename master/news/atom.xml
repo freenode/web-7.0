@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-08-06T06:30:00+00:00</updated><entry><title>Continued and persistent spambot attack and clarification</title><link href="https://freenode.net/news/spam-shake" rel="alternate"></link><published>2018-08-06T06:30:00+00:00</published><updated>2018-08-06T06:30:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-08-06:/news/spam-shake</id><summary type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-09-24T17:47:00+00:00</updated><entry><title>Spam filtering</title><link href="https://freenode.net/news/spamfilter" rel="alternate"></link><published>2018-09-24T17:47:00+00:00</published><updated>2018-09-24T17:47:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2018-09-24:/news/spamfilter</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.&lt;/p&gt;
+&lt;p&gt;Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.&lt;/p&gt;
+&lt;p&gt;Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.&lt;/p&gt;
+&lt;p&gt;We've historically been reluctant to take steps like this, and we remain so,
+but we believe the disruption has reached such a level that this is necessary
+to allow the communities using freenode to collaborate effectively. The prior
+complement of anti-spam measures represents our preferred approach, and we
+intend to employ this only when they prove insufficient to minimize disruption.&lt;/p&gt;
+&lt;p&gt;For the technically inclined, you can view the changes
+&lt;a href="https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to spy on users?&lt;/em&gt; Which filter a user matched is not
+  reported to staff, only that one did. This limits the theoretical maximum
+  rate of passive monitoring to one bit per message, far less than the
+  information content of conversations.&lt;/p&gt;
+&lt;p&gt;Recipients of private messages are not included in the line that filters
+match on, so staff cannot use spam filters to see who is talking to whom.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to shadowban users?&lt;/em&gt; No. If a filter blocks a message,
+  its sender is either disconnected from the network or sent an error message.&lt;/p&gt;
+&lt;p&gt;Currently, the filter system is configured not to use the nick, username, or
+hostname for filter matching, so it can't discriminate against particular
+users at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The exact information filters "see" is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The type of message (PRIVMSG/NOTICE)&lt;/li&gt;
+&lt;li&gt;The target of the message, if that target is a channel. For private
+  messages, filters can see that they are PMs but not who their target is.&lt;/li&gt;
+&lt;li&gt;Whether or not the sender is identified (but not their account name)&lt;/li&gt;
+&lt;li&gt;The full contents of the message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code can be configured to filter on the &lt;code&gt;nick!user@host&lt;/code&gt; of the sender. We
+haven't enabled this, and have no current plans to, but this is subject to
+change should the nature of the spam demand it.&lt;/p&gt;
+&lt;p&gt;Filtering is always performed on the server originating a message, and inside
+the ircd process. This system will never cause a message to be distributed
+more widely than before.&lt;/p&gt;
+&lt;p&gt;Staff can, as always, answer your questions about this change, and we welcome
+constructive feedback. Private messages to staff are not subject to filtering.&lt;/p&gt;</content></entry><entry><title>Continued and persistent spambot attack and clarification</title><link href="https://freenode.net/news/spam-shake" rel="alternate"></link><published>2018-08-06T06:30:00+00:00</published><updated>2018-08-06T06:30:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-08-06:/news/spam-shake</id><summary type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
 &lt;p&gt;The spam content has changed in the last few days and while I am extremely glad that the attacks appear to no longer focus on members of the volunteer team and no longer involve libellous and false statements relating to these volunteers, we feel we should provide some clarification on some of the claims that are being made in the current spamwave relating to freenode and its involvement in Handshake.&lt;/p&gt;
 &lt;p&gt;The current spambot attacks state that freenode is involved with an 'ICO scam' relating to the &lt;a href="https://handshake.org"&gt;Handshake&lt;/a&gt; project. Most freenode volunteers have involvement with one or several FOSS projects, often projects that use the freenode network as part of their communications toolbox. Handshake is no different in this regard, as it is a project that I have been involved with. I am deeply sorry to those affected by the spam, to freenode and to Handshake that spammers have chosen to use my involvement as a further platform to attack the freenode communities, and now also Handshake. &lt;/p&gt;</summary><content type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
 &lt;p&gt;The spam content has changed in the last few days and while I am extremely glad that the attacks appear to no longer focus on members of the volunteer team and no longer involve libellous and false statements relating to these volunteers, we feel we should provide some clarification on some of the claims that are being made in the current spamwave relating to freenode and its involvement in Handshake.&lt;/p&gt;
@@ -224,62 +284,6 @@ this year.&lt;/p&gt;
 announcements coming soon - and get your ticket now to secure your place!&lt;/p&gt;
 &lt;h2 id="get-your-tickets-now"&gt;&lt;a class="toclink" href="#get-your-tickets-now"&gt;Get your tickets now!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Want to watch these talented speakers? Get your 
-&lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
-have the chance to experience these and the other speakers and workshops to be
-announced soon!&lt;/p&gt;
-&lt;h2 id="exhibit-your-project-or-sponsor-the-event"&gt;&lt;a class="toclink" href="#exhibit-your-project-or-sponsor-the-event"&gt;Exhibit your project or sponsor the event&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;If you represent a FOSS project and would like to exhibit, please contact us -
-FOSS projects exhibit for free, and it's a great way to meet your current users
-and attract others!&lt;/p&gt;
-&lt;p&gt;Corporate sponsors are very much welcomed also, with a variety of sponsorship 
-packages available providing different exposure levels to a FOSS-centered, 
-technical audience - get a warm fuzzy feeling by supporting the community
-which most likely contributed in no small way to the success of your business!&lt;/p&gt;
-&lt;p&gt;For any questions, please feel free to email us - 2017-team@freenode.live - or
-join us in #live on freenode!&lt;/p&gt;
-&lt;p&gt;We look forward to seeing you there.&lt;/p&gt;</content></entry><entry><title>freenode #live - more confirmed speakers</title><link href="https://freenode.net/news/freenode-live-speakers" rel="alternate"></link><published>2017-08-23T22:00:00+00:00</published><updated>2017-08-23T22:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-08-23:/news/freenode-live-speakers</id><summary type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
-for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
-taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
-this year, with plenty more still to be announced.&lt;/p&gt;
-&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
-pleased to announce the following confirmed lineup:&lt;/p&gt;</summary><content type="html">&lt;p&gt;The freenode #live team are excited to announce more confirmed speakers
-for the &lt;a href="https://freenode.live/conference/fn-live17"&gt;freenode #live conference&lt;/a&gt;
-taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
-this year, with plenty more still to be announced.&lt;/p&gt;
-&lt;p&gt;Of the variety of speakers, talks and workshops we've had submitted, we're
-pleased to announce the following confirmed lineup:&lt;/p&gt;
-&lt;h4 id="keynote-speakers"&gt;&lt;a class="toclink" href="#keynote-speakers"&gt;Keynote speakers&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Deb Nicholson (Community Outreach Director for the Open Invention Network,
-  winner of several awards including the O'Reilly Open Source Award)&lt;/li&gt;
-&lt;li&gt;Karen Sandler (Executive Director of the Software Freedom Conservancy, former
-  executive director of the GNOME Foundation)&lt;/li&gt;
-&lt;li&gt;Matthew Garrett (technologist, programmer, and free software activist - a 
-  major contributor to various projects including Linux, GNOME, Debian, Ubuntu
-  and Red Hat.  He is a recipient of the Free Software Award from the Free 
-  Software Foundation for his work on Secure Boot, UEFI, and the Linux kernel.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="confirmed-talks"&gt;&lt;a class="toclink" href="#confirmed-talks"&gt;Confirmed talks&lt;/a&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;James Wheare (founder of IRCCloud)&lt;/li&gt;
-&lt;li&gt;Christopher Baines (Debian packager, OSM contributor)&lt;/li&gt;
-&lt;li&gt;Kaspar Emanuel (freelance electronic design engineer and software
-  developer working on projects ranging from musical instruments to robots to
-  Braille displays)&lt;/li&gt;
-&lt;li&gt;Nathan Handler (freenode staff member, Ubuntu and Debian GNU/Linux
-  Developer, Site Reliability Engineer at Yelp)&lt;/li&gt;
-&lt;li&gt;Errietta Kostala (Perl developer at FairFX London, keen open source
-  contributor including Mozilla)&lt;/li&gt;
-&lt;li&gt;Maxigas (postdoctoral researcher at the Universitat Oberta de Catalunya and a
-  fellow at Central European University)&lt;/li&gt;
-&lt;li&gt;Michael Walker (working on a Ph.D, open source contributor, started Arch Hurd
-  distribution, author of Déjà Fu Haskell concurrent testing library)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="more-to-come"&gt;&lt;a class="toclink" href="#more-to-come"&gt;More to come...&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Another 12+ talks yet to be confirmed will be announced soon, plus workshops on
-various topics.&lt;/p&gt;
-&lt;h2 id="get-your-tickets-now"&gt;&lt;a class="toclink" href="#get-your-tickets-now"&gt;Get your tickets now!&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Want to watch these talks and/or take part in these workshops?  Get your
 &lt;a href="https://freenode.live/conference/fn-live17/tickets"&gt;tickets&lt;/a&gt; now to ensure you
 have the chance to experience these and the other speakers and workshops to be
 announced soon!&lt;/p&gt;
