@@ -28,8 +28,8 @@ complement of anti-spam measures represents our preferred approach, and we
 intend to employ this only when, as in this case, they prove insufficient to
 minimize disruption.
 
-For the technically inclined, you can view the changes here:
-https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6
+For the technically inclined, you can view the changes
+[here](https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6).
 
 
 - _Could this be used to spy on users?_ Which filter a user matched is not
