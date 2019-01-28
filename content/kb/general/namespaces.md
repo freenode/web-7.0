@@ -1,10 +1,10 @@
-Title: Channel namespaces
+Title: Channel Namespaces
 ---
 Our [policies](pages/policies) outline that channels on freenode fall into one of two categories.
 Channels that begin with only a single # character are primary channels. Channels that begin with
 two # characters are topical or ‘about’ channels.
 
-Primary channels
+Primary Channels
 ================
 
 Primary channels are reserved for _official_ channels of on-topic projects.
@@ -16,7 +16,7 @@ itself owns the channel ‘#freenode’ and all channels beginning with ‘#free
 Primary channels do not expire. If you represent an on-topic project and would like to take over a
 primary channel for that project, do not hesitate to [contact us](pages/groupreg).
 
-Topical channels
+Topical Channels
 ================
 
 Topical or ‘about’ channels are intended for _unofficial_ channels that are _about_ something that's
