@@ -1,4 +1,4 @@
-Title: Resetting your password
+Title: Resetting your Password
 ---
 
 If you have forgotten the password for your NickServ account, you can send a
