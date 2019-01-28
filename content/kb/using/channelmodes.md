@@ -1,4 +1,4 @@
-Title: Channel modes
+Title: Channel Modes
 ---
 
 Various modes can be set on channels. Use `/mode #channel` to list current
