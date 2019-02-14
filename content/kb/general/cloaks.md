@@ -1,4 +1,4 @@
-Title: User and project cloaks
+Title: User and Project Cloaks
 ---
 
 There are two types of cloak which can be set on accounts on freenode; both

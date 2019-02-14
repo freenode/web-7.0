@@ -1,4 +1,4 @@
-Title: User modes
+Title: User Modes
 ---
 
 Various modes can be set on users. Some of them can be set by the users, others
