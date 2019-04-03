@@ -10,7 +10,6 @@ preserve modes.
 To set a mode, use `/mode #channel +(mode)` replacing `(mode)` with the letter that corresponds to the mode. 
 To unset a mode, use `/mode #channel -(mode)` 
 
-
 # Available channel modes
 | Mode (name) | Description |
 | ----------- | ----------- |
