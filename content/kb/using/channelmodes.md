@@ -36,7 +36,7 @@ preserve modes.
 
 # Restricted channel modes
 The following channel modes can only be added by freenode staff.
-|Mode (name)|Description|
-|-----------|-----------|
-|L (Large Ban List)|Large ban list.  Increase maximum number of +beIq entries.|
-|P (Permanent)|Channel does not disappear when empty.|
+| Mode (Name)        | Description                               |
+|--------------------|-------------------------------------------|
+| L (Large Ban List) | Increase maximum number of +beIq entries. |
+| P (Permanent)      | Channel does not disappear when empty.    |
