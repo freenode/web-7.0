@@ -177,12 +177,14 @@ Thanks in advance for any help you can provide!
 
 ## Group Management & Community Team
 
-The Group Management & Community Team comprises **christel**, **nhandler**,
-**Swant** and **tomaw**; together they will act as your liaisons during the group
+The Group Management & Community Team comprises, among others, **christel**, **e**,
+**Fuchs**, **glguy** and **tomaw**; together they will act as your liaisons during the group
 registration process and throughout your tenure on the freenode network. If you
 wish to discuss the group registration process, find out if freenode could be a
 good fit for your project or register your project as a group, please feel free
 to drop any of the team members a line on IRC.
+If none are online, feel free to reach out to staff in general and they will
+forward your request to the team, which will get back to you as soon as possible.
 
 Once you have discussed your project with a staff member, you'll be asked to
 email <projects@freenode.net> with the details of your request, including any
