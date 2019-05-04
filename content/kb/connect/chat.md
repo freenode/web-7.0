@@ -48,6 +48,11 @@ aria-hidden="true"></i>](https://www.torproject.org/), bound to some
 restrictions. You can't directly connect to chat.freenode.net via Tor; use
 the following hidden service as the server address instead:
 
+    ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+
+If you are using an old version of Tor (before 0.3.5) that does not support
+v3 addresses, you should instead use the following address:
+
     freenodeok2gncmy.onion
 
 The hidden service requires SASL authentication. In addition, due to the abuse
