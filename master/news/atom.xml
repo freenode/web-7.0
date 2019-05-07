@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2018-11-04T22:59:00+00:00</updated><entry><title>freenode #live 2018 is a wrap, thank YOU!</title><link href="https://freenode.net/news/live-2018" rel="alternate"></link><published>2018-11-04T22:59:00+00:00</published><updated>2018-11-04T22:59:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-11-04:/news/live-2018</id><summary type="html">&lt;p&gt;Wow. What an incredible weekend. I want to express my heartfelt thanks to all those who joined us for freenode #live this weekend. Whether you participated in person or tuned into the livestream.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2019-05-04T00:00:00+00:00</updated><entry><title>freenode Next Gen Tor Hidden Service</title><link href="https://freenode.net/news/torv3" rel="alternate"></link><published>2019-05-04T00:00:00+00:00</published><updated>2019-05-04T00:00:00+00:00</updated><author><name>dax</name></author><id>tag:freenode.net,2019-05-04:/news/torv3</id><summary type="html">&lt;p&gt;Over the last few years, the Tor Project has developed a &lt;a href="https://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions"&gt;new Tor Hidden
+Services protocol&lt;/a&gt;.
+It has a few improvements over the previous version, including better
+cryptography using SHA3 and ed25519.&lt;/p&gt;
+&lt;p&gt;We've added a new Tor Hidden Service address to &lt;a href="https://freenode.net/kb/answer/chat#accessing-freenode-via-tor"&gt;our instructions for connecting
+to freenode via Tor&lt;/a&gt;
+that uses the new protocol. The new address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Over the last few years, the Tor Project has developed a &lt;a href="https://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions"&gt;new Tor Hidden
+Services protocol&lt;/a&gt;.
+It has a few improvements over the previous version, including better
+cryptography using SHA3 and ed25519.&lt;/p&gt;
+&lt;p&gt;We've added a new Tor Hidden Service address to &lt;a href="https://freenode.net/kb/answer/chat#accessing-freenode-via-tor"&gt;our instructions for connecting
+to freenode via Tor&lt;/a&gt;
+that uses the new protocol. The new address is&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you're using a recent version of Tor (0.3.5 or newer) to connect to
+freenode, you should be able to use the new service by changing from the old
+address to the new one in your client configuration. The old address will
+continue to work for the forseeable future, but is likely to be deprecated
+eventually as the Tor ecosystem changes.&lt;/p&gt;</content></entry><entry><title>freenode #live 2018 is a wrap, thank YOU!</title><link href="https://freenode.net/news/live-2018" rel="alternate"></link><published>2018-11-04T22:59:00+00:00</published><updated>2018-11-04T22:59:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-11-04:/news/live-2018</id><summary type="html">&lt;p&gt;Wow. What an incredible weekend. I want to express my heartfelt thanks to all those who joined us for freenode #live this weekend. Whether you participated in person or tuned into the livestream.&lt;/p&gt;
 &lt;p&gt;We were fortunate enough to have an exceptionally inspiring and engaging speaker line-up - thank you so much for coming to inspire the community. Thank you also to our supportive sponsors who have enabled us to put this event on again, and of course the freenode volunteer team - both those who detached for a weekend to throw themselves into an entirely different type of volunteering and those who stayed behind to keep the network running and also doubled as livestream monitors, a special thank you to you all for your willingness to adapt and get stuck in. A huge thank you also to the venue staff, and to the AV technicians! &lt;/p&gt;
 &lt;p&gt;YOU are freenode.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Wow. What an incredible weekend. I want to express my heartfelt thanks to all those who joined us for freenode #live this weekend. Whether you participated in person or tuned into the livestream.&lt;/p&gt;
 &lt;p&gt;We were fortunate enough to have an exceptionally inspiring and engaging speaker line-up - thank you so much for coming to inspire the community. Thank you also to our supportive sponsors who have enabled us to put this event on again, and of course the freenode volunteer team - both those who detached for a weekend to throw themselves into an entirely different type of volunteering and those who stayed behind to keep the network running and also doubled as livestream monitors, a special thank you to you all for your willingness to adapt and get stuck in. A huge thank you also to the venue staff, and to the AV technicians! &lt;/p&gt;
@@ -220,34 +239,4 @@ Open Source! &lt;/p&gt;
 &lt;p&gt;To celebrate Free and Open Source Software Month, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; is running a promotion this month, with savings of up to 62% if you take out an annual subscription &lt;a href="https://www.privateinternetaccess.com/pages/foss-month"&gt;here&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrate 
 FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
-community!&lt;/p&gt;</content></entry><entry><title>"Joe-Job" spam on other networks referring to freenode</title><link href="https://freenode.net/news/joe-job-spam" rel="alternate"></link><published>2017-12-05T09:00:00+00:00</published><updated>2017-12-05T09:00:00+00:00</updated><author><name>bigpresh</name></author><id>tag:freenode.net,2017-12-05:/news/joe-job-spam</id><summary type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
-spamming channels with racist messages which suggest that they are promoting a
-channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
-&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
-targetting other networks, but we'd like to clarify that we of course do not
-support any racist or hate-inciting behaviour, which is strictly against our
-&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
-in the spam messages are in no way connected to the spam - rather they are
-innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
-designed to disrupt them as well as freenode.&lt;/p&gt;
-&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
-individual sighting, particularly in #freenode, is of limited value and likely
-to cause more noise than signal, but feel free to message a staffer (use the
-&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
-if you are part of the oper/staff team on another affected network and want to
-talk to us.&lt;/p&gt;</summary><content type="html">&lt;p&gt;It has come to our attention that someone is going around other IRC networks,
-spamming channels with racist messages which suggest that they are promoting a
-channel here on freenode, and that we are aware and supportive of such.&lt;/p&gt;
-&lt;p&gt;We are monitoring the situation, but there's little we can do when they're
-targetting other networks, but we'd like to clarify that we of course do not
-support any racist or hate-inciting behaviour, which is strictly against our
-&lt;a href="http://freenode.net/policies"&gt;terms of use&lt;/a&gt;, and that the channel(s) referenced
-in the spam messages are in no way connected to the spam - rather they are
-innocent victims of a "&lt;a href="https://en.wikipedia.org/wiki/Joe_job"&gt;Joe Job&lt;/a&gt;"
-designed to disrupt them as well as freenode.&lt;/p&gt;
-&lt;p&gt;Since there's little we can do to stop it on other networks, reporting each
-individual sighting, particularly in #freenode, is of limited value and likely
-to cause more noise than signal, but feel free to message a staffer (use the
-&lt;code&gt;/stats p&lt;/code&gt; command to see who's available) if you have concerns, or particularly
-if you are part of the oper/staff team on another affected network and want to
-talk to us.&lt;/p&gt;</content></entry></feed>
+community!&lt;/p&gt;</content></entry></feed>
