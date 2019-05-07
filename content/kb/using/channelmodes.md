@@ -38,6 +38,7 @@ To unset a mode, use `/mode #channel -(mode)`
 
 # Restricted channel modes
 The following channel modes can only be added by freenode staff.
+
 | Mode (Name)        | Description                               |
 |--------------------|-------------------------------------------|
 | L (Large Ban List) | Increase maximum number of +beIq entries. |
