@@ -6,20 +6,19 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
-    <meta name="robots" content="noindex">
-    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
-    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
-    <title>Over 9000 * 10 - freenode</title>
-    <link href="../static/css/open-sans.css?7f46d3e" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?7f46d3e" rel="stylesheet">
-    <link href="../static/css/style.css?7f46d3e" rel="stylesheet">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Configuring SASL for LimeChat on macOS - freenode</title>
+    <link href="../../static/css/open-sans.css?7f46d3e" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?7f46d3e" rel="stylesheet">
+    <link href="../../static/css/style.css?7f46d3e" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
-        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
         <form id="nav-search" action="https://www.google.com/cse">
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
@@ -32,33 +31,22 @@
     <div class="container">
         
 <div class="main">
-    <div class="art-warning">
-        This article was imported from freenode's wordpress blog, and is
-        likely out of date. It's preserved here in the interest of
-        history, but please don't treat it as an authoritative source in
-        any context. Links on this page may be out of date and broken.
-    </div>
-    <div class="art-info">
-        
-<a href="over-9000-10"><h1 class="art">Over 9000 * 10</h1></a>
-<span class="art-date">RichiH on 2013-05-24</span>
-
-    </div>
-    <div class="art-body">
-    <p>freenode has been growing slowly and steadily, breaking the next practically-useless-but-still-kinda-neat barrier of more than 90,000 concurrent connections at the same time. It's very nice, and humbling, to know that we are able to enable so many people to communicate with each other.</p>
-<p>I shouldn't have added a month of leeway at the last second to my <a href="http://blog.freenode.net/2012/04/80k/">last prediction</a> so the scary scary 100,000 is officially targeted for May 2014. Yes, the pace at which freenode is growing seems to be increasing ever so slightly.</p>
-<p>Historic posts for those of you keeping track:</p>
-<p><a href="http://blog.freenode.net/2007/08/freenode-has-reached-40-000-users/">http://blog.freenode.net/2007/08/freenode-has-reached-40-000-users/</a></p>
-<p><a href="http://blog.freenode.net/2008/09/50000-active-users/">http://blog.freenode.net/2008/09/50000-active-users/</a></p>
-<p><a href="http://blog.freenode.net/2009/12/happy-new-year-2010/">http://blog.freenode.net/2009/12/happy-new-year-2010/</a></p>
-<p><a href="http://blog.freenode.net/2011/01/freenode-70k/">http://blog.freenode.net/2011/01/freenode-70k/</a></p>
-<p><a href="http://blog.freenode.net/2012/04/80k/">http://blog.freenode.net/2012/04/80k/</a></p>
-    </div>
-    
-<div class="art-nav">
-    <span><a href="the-good-the-bad-and-the-ugly">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="new-tlsssl-channel-modes-and-webirc">next article</a></span>
-</div>
-
+    <h1>Configuring SASL for LimeChat on macOS</h1>
+    <p class="art-ingress">
+        <p>If you have already added freenode as a network, right-click on the network, select Server Properties or press ⌘U.</p>
+<ol>
+<li>Click on the <em>General</em> tab.</li>
+<li>Set <em>Port</em> to 6697.</li>
+<li>Check <em>SSL Connection</em>.</li>
+<li>Enter your registered nickname under <em>Nickname</em>.</li>
+<li>Enter your registered nickname under <em>Login name</em> (these should match).</li>
+<li>Enter your NickServ password under <em>Nickserv Password</em>.</li>
+<li>Check <em>Use SASL</em>.</li>
+<li>Click OK.</li>
+</ol>
+<p>Due to a bug in LimeChat it is important that Nickname and Login name match!</p>
+<p>If everything was configured correctly, you should see a <code>SASL authentication successful</code> message when you connect. You will already be identified, so you don't need to do this again.</p>
+    </p>
 </div>
 
     </div>
@@ -72,16 +60,16 @@
         <ul>
             
             <li>
-                <a href="../project">The project</a>
+                <a href="../../project">The project</a>
             </li>
             <li>
-                <a href="../people">The people</a>
+                <a href="../../people">The people</a>
             </li>
             <li>
-                <a href="../philosophy">The philosophy</a>
+                <a href="../../philosophy">The philosophy</a>
             </li>
             <li>
-                <a href="../policies">The policies</a>
+                <a href="../../policies">The policies</a>
             </li>
             <li>
                 <a href="//freenode.live">freenode #live</a>
@@ -90,12 +78,12 @@
                 <a href="//jobs.freenode.net">jobs.freenode.net</a>
             </li>
             <li>
-                <a href="../acknowledgements">Acknowledgements</a>
+                <a href="../../acknowledgements">Acknowledgements</a>
             </li>
             <li>
                 
                 
-                    <a href="../archive">News Archive</a>
+                    <a href="../../archive">News Archive</a>
                 
                 
                 
@@ -103,7 +91,7 @@
                 
                 
                 
-                    <a href="rss.xml">RSS</a>
+                    <a href="../../news/rss.xml">RSS</a>
                 
                 
                 
@@ -111,7 +99,7 @@
                 
                 
                 
-                    <a href="atom.xml">Atom</a>
+                    <a href="../../news/atom.xml">Atom</a>
                 
                 
             </li>
@@ -141,22 +129,22 @@
                 
             </li>
             <li>
-                <a href="../changuide">Channel guidelines</a>
+                <a href="../../changuide">Channel guidelines</a>
             </li>
             <li>
-                <a href="../catalysts">Catalyst guidelines</a>
+                <a href="../../catalysts">Catalyst guidelines</a>
             </li>
             <li>
-                <a href="../kb/all">Knowledge base</a>
+                <a href="../all">Knowledge base</a>
             </li>
             <li>
-                <a href="../support">Supporting the project</a>
+                <a href="../../support">Supporting the project</a>
             </li>
             <li>
-                <a href="../groupreg">Group registration</a>
+                <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="../groupreg">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -180,7 +168,7 @@
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
-                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
                 <span class="hdn">Private Internet Access</span></a>
             </li>
         </ul>
@@ -192,7 +180,7 @@
     <div>
     <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
     <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
-        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
     </a>
     </div>
     <div>
@@ -200,6 +188,6 @@
     </div>
 </footer>
     </div>
-    <script src="../static/js/utils.js?7f46d3e" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?7f46d3e" type="text/javascript"></script>
 </body>
 </html>
