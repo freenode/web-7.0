@@ -24,6 +24,6 @@ Method 2
 ---
 
 1. In the channel list, click the settings cog on the server you want to adjust settings for
-2. Click 'Indentify Nickname'
+2. Click 'identify Nickname'
 3. Enter your passowrd in 'Password for [Nick]
-4. Click 'Set Password and indentify'
+4. Click 'Set Password and identify'
