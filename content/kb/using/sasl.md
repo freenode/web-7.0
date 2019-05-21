@@ -13,17 +13,17 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [AndroIRC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.androirc.com/nickserv_sasl)
 * [Chatzilla](kb/sasl/chatzilla)
 * [EPIC5](kb/sasl/epic5)
-* [glirc <i class="fa fa-external-link" aria-hidden="true"></i>](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)
 * [HexChat](kb/sasl/hexchat)
 * [irssi](kb/sasl/irssi)
 * [Konversation <i class="fa fa-external-link" aria-hidden="true"></i>](http://userbase.kde.org/Konversation/Configuring_SASL_authentication)
 * [KVIrc](kb/sasl/kvirc)
-* [LimeChat](kb/sasl/limechat)
 * [mIRC](kb/sasl/mirc)
 * [Quassel](kb/sasl/quassel)
 * [Textual](kb/sasl/textual)
 * [Weechat <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication)
 * [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#example)
+* [glirc <i class="fa fa-external-link" aria-hidden="true"></i>](https://github.com/glguy/irc-core/wiki/Automatically-authenticating-to-NickServ)
+* [IRCCloud <i class="fa fa-external-link" aria-hidden="true"></i>](https://github.com/freenode/web-7.0/tree/master/content/kb/sasl/irccloud.md)
 
 If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us on IRC.
 
