@@ -2,7 +2,10 @@ Title: Configuring SASL for IRCCloud
 ---
 The below instructions were valid as of the web version (irccloud.com) as of May 2019
 
-1. In the channel list, click the settings cog on the server you want to adjust
+---
+Method 1
+---
+1. In the channel list, click the settings cog on the server you want to adjust settings for
 2. Click Edit
 
 OR
@@ -16,3 +19,11 @@ THEN
 4. Click advanced options
 5. Enter your password in the 'NickServ Password' field
 6. Press save
+---
+Method 2
+---
+
+1. In the channel list, click the settings cog on the server you want to adjust settings for
+2. Click 'Indentify Nickname'
+3. Enter your passowrd in 'Password for [Nick]
+4. Click 'Set Password and indentify'
