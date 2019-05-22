@@ -10,7 +10,7 @@ Method 1
 
 OR
 
-1. Click on the server to open the server pannel
+1. Click on the server to open the server panel
 2. Click the blue Edit button at the top right.
 
 THEN
