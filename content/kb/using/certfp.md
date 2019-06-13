@@ -82,12 +82,11 @@ Refer to znc's [official documentation](http://wiki.znc.in/Cert).
 HexChat
 -------
 
-The pem file should be placed in `certs/network name.pem` in the HexChat config
-directory (`~/.config/hexchat/` or `%appdata%\HexChat`), where `network name`
-is the name of the network as it appears in the network list (Ctrl-S). Note
+Place the pem file in `certs/client.pem` in the HexChat config
+directory (`~/.config/hexchat/` or `%appdata%\HexChat`). Note
 that the `certs` directory does not exist by default and you will have to
-create it yourself. Once the file is there, all subsequent SSL connections to
-that network will use the certificate.
+create it yourself. Once the file is there, all subsequent SSL connections
+will use the certificate.
 
 Konversation
 ------------
