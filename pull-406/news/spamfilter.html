@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Spam filtering - freenode</title>
+    <link href="../static/css/open-sans.css?3f609ff" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?3f609ff" rel="stylesheet">
+    <link href="../static/css/style.css?3f609ff" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-info">
+        
+<a href="spamfilter"><h1 class="art">Spam filtering</h1></a>
+<span class="art-date">edk on 2018-09-24</span>
+
+    </div>
+    <div class="art-body">
+    <p>Hi,</p>
+<p>As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.</p>
+<p>Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.</p>
+<p>We've historically been reluctant to take steps like this, and we remain so,
+but we believe the disruption has reached such a level that this is necessary
+to allow the communities using freenode to collaborate effectively. The prior
+complement of anti-spam measures represents our preferred approach, and we
+intend to employ this only when they prove insufficient to minimize disruption.</p>
+<p>For the technically inclined, you can view the changes
+<a href="https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6">here</a>.</p>
+<ul>
+<li>
+<p><em>Could this be used to spy on users?</em> Which filter a user matched is not
+  reported to staff, only that one did. This limits the theoretical maximum
+  rate of passive monitoring to one bit per message, far less than the
+  information content of conversations.</p>
+<p>Recipients of private messages are not included in the line that filters
+match on, so staff cannot use spam filters to see who is talking to whom.</p>
+</li>
+<li>
+<p><em>Could this be used to shadowban users?</em> No. If a filter blocks a message,
+  its sender is either disconnected from the network or sent an error message.</p>
+<p>Currently, the filter system is configured not to use the nick, username, or
+hostname for filter matching, so it can't discriminate against particular
+users at all.</p>
+</li>
+</ul>
+<p>The exact information filters "see" is as follows:</p>
+<ul>
+<li>The type of message (PRIVMSG/NOTICE)</li>
+<li>The target of the message, if that target is a channel. For private
+  messages, filters can see that they are PMs but not who their target is.</li>
+<li>Whether or not the sender is identified (but not their account name)</li>
+<li>The full contents of the message</li>
+</ul>
+<p>The code can be configured to filter on the <code>nick!user@host</code> of the sender. We
+haven't enabled this, and have no current plans to, but this is subject to
+change should the nature of the spam demand it.</p>
+<p>Filtering is always performed on the server originating a message, and inside
+the ircd process. This system will never cause a message to be distributed
+more widely than before.</p>
+<p>Staff can, as always, answer your questions about this change, and we welcome
+constructive feedback. Private messages to staff are not subject to filtering.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="spam-shake">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="live">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2018, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?3f609ff" type="text/javascript"></script>
+</body>
+</html>
