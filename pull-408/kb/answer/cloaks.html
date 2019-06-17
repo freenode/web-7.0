@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>User and Project Cloaks - freenode</title>
+    <link href="../../static/css/open-sans.css?eaeebd6" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?eaeebd6" rel="stylesheet">
+    <link href="../../static/css/style.css?eaeebd6" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>User and Project Cloaks</h1>
+    <p class="art-ingress">
+        <p>There are two types of cloak which can be set on accounts on freenode; both
+replace the hostname/IP displayed when you are connected (but only when you're
+identified to NickServ—see below).</p>
+<p>There are also gateway cloaks, which are automatically applied if you're
+connecting from certain providers, gateways or web IRC clients, whether or not
+you are identified to NickServ, and which override unaffiliated cloaks.</p>
+<h2 id="project-cloaks"><a class="toclink" href="#project-cloaks">Project cloaks</a></h2>
+<p>Project cloaks typically take the form <code>project/role/user</code>, for instance
+<code>freenode/staff/bigpresh</code> (though some take other forms). They are designed to
+demonstrate that the user is connected to a project in some way. Different
+projects use cloaks for various roles—some only use them for their core
+team, some will assign user cloaks as well.</p>
+<p>Project cloaks can only be requested by a registered group contact of an
+already <a href="../../groupreg">registered group</a>—they should contact a member of
+freenode staff to request that a user be given a project cloak.</p>
+<h2 id="unaffiliated-cloaks"><a class="toclink" href="#unaffiliated-cloaks">Unaffiliated cloaks</a></h2>
+<p>Unaffiliated cloaks for users take the form <code>unaffiliated/accountname</code>. They
+indicate that you are not affiliated with any specific project on freenode.
+They can also help obscure your IP from casual observers to a certain
+degree—but see the weaknesses section below.</p>
+<p>Bots can also be cloaked to indicate their owner—unaffiliated bot cloaks
+take the form <code>unaffiliated/owneraccountname/bot/botaccountname</code>.</p>
+<h2 id="gateway-cloaks"><a class="toclink" href="#gateway-cloaks">Gateway cloaks</a></h2>
+<p>If you are connected via a gateway which sets a gateway cloak (for instance, our
+webchat, or KiwiIRC, or some bouncer/shell providers) you will receive an
+automatic gateway cloak—for instance <code>gateway/web/freenode/ip.1.2.3.4</code>—these
+gateway cloaks override unaffiliated cloaks, but do not override project cloaks.</p>
+<p>There are also gateway cloaks which may denote that the host the user is coming
+from is recognised as a large-scale NAT gateway (where the public IP is being
+shared by many individual customers behind it) or conferences, where many users
+are at one location temporarily.</p>
+<h2 id="cloaks-do-not-effectively-hide-your-ip"><a class="toclink" href="#cloaks-do-not-effectively-hide-your-ip">Cloaks do not effectively hide your IP</a></h2>
+<p>Cloaks can help obscure your IP address/hostname from casual observers, but
+should <em>not</em> be relied upon for that purpose, as they are not reliable:</p>
+<ul>
+<li>Connecting before identifying to NickServ (or whilst services are
+   unavailable due to a netsplit or maintenance) will show your uncloaked
+   IP/hostname. <a href="/kb/answer/sasl">Authenticating with SASL</a> avoids this if 
+   configured to abort the connection on authentication failure.</li>
+<li>Connecting via a gateway (for instance, the webchat) will override
+   unaffiliated cloaks (see the "gateway cloaks" section above)</li>
+<li>Due to the nature of IRC services, there are some tricks which can cause
+   services to reveal a cloaked user's IP/hostname.</li>
+<li>Accepting a DCC chat/file transfer session, or clicking a link someone sends
+   you could reveal your IP to them</li>
+</ul>
+<p>For these reasons, we advise you to consider cloaks as only very basic
+protection from casual observers, and a way to stop your IP/hostname being
+passively logged in most cases, but caution that they cannot be relied upon to
+hide your IP/hostname robustly—if you want that, you should consider an <a href="https://en.wikipedia.org/wiki/IRC_bouncer">IRC
+bouncer</a>,
+<a href="https://en.wikipedia.org/wiki/Virtual_private_network">VPN</a> or <a href="/kb/answer/chat#accessing-freenode-via-tor">our Tor hidden
+service</a>).</p>
+<p>Do consider, however, just how much you need to hide your IP address; it's
+disclosed routinely during normal Internet usage—for instance, every website
+you visit will necessarily see your IP address, unless you are using a VPN or
+Tor. Many, many users happily use IRC for decades, never hiding their IP
+address, and do not have any problems.</p>
+<p>To reiterate, the primary purpose of cloaks is to show your project
+affiliation, or lack thereof. Hiding your IP is not their primary purpose, and
+they cannot be fully relied upon to do that.</p>
+<p>Also, even when you are cloaked, you will see your own IP if you /whois
+yourself.</p>
+<h2 id="requesting-a-cloak"><a class="toclink" href="#requesting-a-cloak">Requesting a cloak</a></h2>
+<p>Once you've read and understood the above, if you would like an unaffiliated
+cloak, please drop in to #freenode or speak to a member of the staff team. Note
+that cloaks are a privilege, and staff have the right to deny that privilege to
+users if they deem necessary.</p>
+<p>For project cloaks, a registered GC for the project needs to contact staff to
+request the cloak be added to the desired user.</p>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://google.com/+freenode" target="_blank">
+                    <i class="fa fa-google-plus fa-fw"></i> <span class="hdn">Google+</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2018, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../../static/js/utils.js?eaeebd6" type="text/javascript"></script>
+</body>
+</html>
