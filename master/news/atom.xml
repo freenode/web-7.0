@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2019-05-04T00:00:00+00:00</updated><entry><title>freenode Next Gen Tor Hidden Service</title><link href="https://freenode.net/news/torv3" rel="alternate"></link><published>2019-05-04T00:00:00+00:00</published><updated>2019-05-04T00:00:00+00:00</updated><author><name>dax</name></author><id>tag:freenode.net,2019-05-04:/news/torv3</id><summary type="html">&lt;p&gt;Over the last few years, the Tor Project has developed a &lt;a href="https://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions"&gt;new Tor Hidden
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2019-06-17T10:15:00+00:00</updated><entry><title>ircd-seven 1.1.8</title><link href="https://freenode.net/news/seven-118" rel="alternate"></link><published>2019-06-17T10:15:00+00:00</published><updated>2019-06-17T10:15:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2019-06-17:/news/seven-118</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
+production network over the coming weeks.&lt;/p&gt;
+&lt;p&gt;This release incorporates a number of user-facing changes:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
+production network over the coming weeks.&lt;/p&gt;
+&lt;p&gt;This release incorporates a number of user-facing changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/core/monitor-3.2"&gt;Monitor&lt;/a&gt; is restored to a usable state, and will be re-enabled.&lt;/li&gt;
+&lt;li&gt;Spam filtering can be opted-out of. Setting mode &lt;code&gt;+u&lt;/code&gt; on yourself (
+   &lt;code&gt;/umode +u&lt;/code&gt; or &lt;code&gt;/mode yournick +u&lt;/code&gt;) will disable filtering for messages
+   sent to you. Setting it on a channel will disable filtering for all
+   messages sent to that channel.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/motd&lt;/code&gt; and &lt;code&gt;/stats&lt;/code&gt; are no longer ratelimited unless directed at a
+   specific server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're also introducing support for several IRCv3 features that may improve the
+experience on capable clients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/away-notify-3.1"&gt;Away Notifications&lt;/a&gt; are supported.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/chghost-3.2"&gt;CHGHOST&lt;/a&gt; is supported.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/sts"&gt;Strict Transport Security&lt;/a&gt; and &lt;a href="https://ircv3.net/specs/extensions/tls-3.1"&gt;STARTTLS&lt;/a&gt; are enabled. (We know
+   STARTTLS is deprecated and a bit out of date, but we'd still like to get
+   as many people as possible using TLS one way or another.)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/userhost-in-names-3.2"&gt;Userhosts in NAMES&lt;/a&gt; is supported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There's one more change that is not related to this release, but deserves
+mention: nearly two years ago, we developed an improvement to the &lt;code&gt;+z&lt;/code&gt; channel
+mode, which sends messages that would have been blocked by &lt;code&gt;+q&lt;/code&gt; or &lt;code&gt;+m&lt;/code&gt; to
+channel operators instead. Our new version sends these messages to ops from the
+&lt;code&gt;@&lt;/code&gt;-prefixed version of the channel:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:e!e@freenode/staff/spy.edk PRIVMSG @#test :I'm quieted&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;to make it easier for operators to distinguish between messages everyone can see
+and messages they can see due to &lt;code&gt;+z&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This borrows the syntax from an existing feature, &lt;a href="https://tools.ietf.org/html/draft-hardy-irc-isupport-00#section-4.18"&gt;STATUSMSG&lt;/a&gt;, but
+is easy to tell apart from it, because only ops can send to &lt;code&gt;@channel&lt;/code&gt;
+normally.&lt;/p&gt;
+&lt;p&gt;We gated this behind a feature switch, and we've been waiting, largely
+passively, for client support to increase. It appears that everyone who wants to
+act on warnings has done so, and we'd like to commit to a date to enable it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We'll be enabling this feature on the 31st of July 2019, UTC.&lt;/strong&gt; If you op a
+channel that uses &lt;code&gt;+z&lt;/code&gt;, please make sure your client handles it correctly.
+You can send test messages by using &lt;code&gt;/msg @#channel test&lt;/code&gt; using a second opped
+connection for any channel where you have ops—your client should associate
+this message with &lt;code&gt;#channel&lt;/code&gt;, and preferably distinguish it from normal
+messages in some way.&lt;/p&gt;
+&lt;p&gt;Thanks for using freenode, and I look forward to collaborating with many of
+you via a slightly less-antiquated medium.&lt;/p&gt;</content></entry><entry><title>freenode Next Gen Tor Hidden Service</title><link href="https://freenode.net/news/torv3" rel="alternate"></link><published>2019-05-04T00:00:00+00:00</published><updated>2019-05-04T00:00:00+00:00</updated><author><name>dax</name></author><id>tag:freenode.net,2019-05-04:/news/torv3</id><summary type="html">&lt;p&gt;Over the last few years, the Tor Project has developed a &lt;a href="https://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions"&gt;new Tor Hidden
 Services protocol&lt;/a&gt;.
 It has a few improvements over the previous version, including better
 cryptography using SHA3 and ed25519.&lt;/p&gt;
@@ -213,30 +260,4 @@ The latest version of our policies can always be found &lt;a href="http://freeno
 &lt;p&gt;The inaugural freenode #live conference last year saw a star-studded speaker line-up including &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/mjg59"&gt;Matthew Garrett&lt;/a&gt;, &lt;a href="https://twitter.com/o0karen0o"&gt;Karen Sandler&lt;/a&gt;, &lt;a href="https://twitter.com/johns_FSF"&gt;John Sullivan&lt;/a&gt;, &lt;a href="https://twitter.com/jvdwaa"&gt;Jelle van der Waa&lt;/a&gt;, &lt;a href="https://twitter.com/lolamby"&gt;Chris Lamb&lt;/a&gt;, &lt;a href="https://twitter.com/nmcgovern"&gt;Neil McGovern&lt;/a&gt;, &lt;a href="https://twitter.com/mattdm"&gt;Matthew Miller&lt;/a&gt; and many, many more. &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://twitter.com/standupmaths"&gt;Matt Parker&lt;/a&gt; from &lt;a href="http://standupmaths.com"&gt;Standup Maths&lt;/a&gt; and &lt;a href="http://festivalofthespokennerd.com"&gt;Festival of the Spoken Nerd&lt;/a&gt; provided excellent entertainment on the Saturday evening, and the feedback from attendees, speakers and volunteers alike was overwhelmingly positive. &lt;/p&gt;
 &lt;p&gt;freenode #live 2017 was possible thanks to the generous support of sponsors such as &lt;a href="https://www.bytemark.co.uk"&gt;Bytemark&lt;/a&gt;, &lt;a href="https://falanx.com"&gt;Falanx&lt;/a&gt;, &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;, &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, &lt;a href="https://ubuntu.com"&gt;Ubuntu&lt;/a&gt; and &lt;a href="https://yubico.com"&gt;Yubico&lt;/a&gt;. &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; has already agreed to sponsor the event for another year, and we are currently looking for additional sponsors. Please do not hesitate to get in touch if your company might be interested in supporting freenode #live 2018.&lt;/p&gt;
-&lt;p&gt;We are looking forward to hosting this year's freenode #live conference, and hope that you will join us there.&lt;/p&gt;</content></entry><entry><title>Celebrating FOSS, and twenty years of Open Source</title><link href="https://freenode.net/news/foss-month" rel="alternate"></link><published>2018-02-05T23:19:48+00:00</published><updated>2018-02-05T23:19:48+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-05:/news/foss-month</id><summary type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
-freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
-another but also with sponsors, group contacts and others. &lt;/p&gt;
-&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
-such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
-words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
-&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
-it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
-proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
-also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;</summary><content type="html">&lt;p&gt;For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
-freenode users over at &lt;a href="https://fosdem.org/2018/"&gt;FOSDEM&lt;/a&gt; in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
-another but also with sponsors, group contacts and others. &lt;/p&gt;
-&lt;p&gt;I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
-such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
-words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. &lt;/p&gt;
-&lt;p&gt;We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
-it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
-proportion of our userbase consists of amazing human-beings who collaborate on exciting, important and curious projects. And perhaps we
-also sometimes forget to show our appreciation of the incredible work you all undertake within the FOSS and peer-directed project spaces. &lt;/p&gt;
-&lt;p&gt;On Saturday, I joined &lt;a href="https://twitter.com/Czajkowski"&gt;Laura Czajkowski&lt;/a&gt;, &lt;a href="https://twitter.com/lhawthorn"&gt;Leslie Hawthorn&lt;/a&gt;, &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/vmbrasseur"&gt;VM Brasseur&lt;/a&gt; and many others in 
-song as we came together to sing Happy Birthday to Open Source to mark that it had been 20 years since the term was first coined. It felt 
-fitting that this should take place not only during FOSDEM, but also during &lt;a href="https://nationaldaycalendar.com/free-and-open-source-month-february/"&gt;Free and Open Source Software Month&lt;/a&gt;. So once more, Happy Birthday
-Open Source! &lt;/p&gt;
-&lt;p&gt;To celebrate Free and Open Source Software Month, &lt;a href="https://www.privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; is running a promotion this month, with savings of up to 62% if you take out an annual subscription &lt;a href="https://www.privateinternetaccess.com/pages/foss-month"&gt;here&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrate 
-FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
-community!&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;We are looking forward to hosting this year's freenode #live conference, and hope that you will join us there.&lt;/p&gt;</content></entry></feed>

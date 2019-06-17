@@ -6,11 +6,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
-    <meta name="robots" content="noindex">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
-    <title>We are going to FOSDEM - freenode</title>
+    <title>ircd-seven 1.1.8 - freenode</title>
     <link href="../static/css/open-sans.css?cdda4db" rel="stylesheet">
     <link href="../static/css/font-awesome.css?cdda4db" rel="stylesheet">
     <link href="../static/css/style.css?cdda4db" rel="stylesheet">
@@ -32,26 +31,62 @@
     <div class="container">
         
 <div class="main">
-    <div class="art-warning">
-        This article was imported from freenode's wordpress blog, and is
-        likely out of date. It's preserved here in the interest of
-        history, but please don't treat it as an authoritative source in
-        any context. Links on this page may be out of date and broken.
-    </div>
     <div class="art-info">
         
-<a href="we-are-going-to-fosdem"><h1 class="art">We are going to FOSDEM</h1></a>
-<span class="art-date">RichiH on 2011-01-30</span>
+<a href="seven-118"><h1 class="art">ircd-seven 1.1.8</h1></a>
+<span class="art-date">edk on 2019-06-17</span>
 
     </div>
     <div class="art-body">
-    <p><img alt="going-to-fosdem-2011" src="../static/img/going-to-fosdem-2011.png"></p>
-<p>As every year, some of freenode staff will attend FOSDEM. If you have any concerns, praise, criticism or free beer you want to share with us, you are more than welcome to meat us. The best way to coordinate meatings is to simply join ﻿﻿#freenode-fosdem and poke us.</p>
-<p>As an aside, we are trying to get a general IRC meating going. It's geared towards staff/opers, developers, sponsors and anyone else who has to do with IRC behind the scenes. Tentative planning is for Saturday evening and at this time, we have people from irssi, IRCnet &amp; freenode on board.﻿ There's no fixed agenda and everyone is invited to suggest topics of interest, preferably before the actual meating. We might even update this post with details if there are any :)</p>
+    <p>Hi all,</p>
+<p>We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
+production network over the coming weeks.</p>
+<p>This release incorporates a number of user-facing changes:</p>
+<ul>
+<li><a href="https://ircv3.net/specs/core/monitor-3.2">Monitor</a> is restored to a usable state, and will be re-enabled.</li>
+<li>Spam filtering can be opted-out of. Setting mode <code>+u</code> on yourself (
+   <code>/umode +u</code> or <code>/mode yournick +u</code>) will disable filtering for messages
+   sent to you. Setting it on a channel will disable filtering for all
+   messages sent to that channel.</li>
+<li><code>/motd</code> and <code>/stats</code> are no longer ratelimited unless directed at a
+   specific server.</li>
+</ul>
+<p>We're also introducing support for several IRCv3 features that may improve the
+experience on capable clients:</p>
+<ul>
+<li><a href="https://ircv3.net/specs/extensions/away-notify-3.1">Away Notifications</a> are supported.</li>
+<li><a href="https://ircv3.net/specs/extensions/chghost-3.2">CHGHOST</a> is supported.</li>
+<li><a href="https://ircv3.net/specs/extensions/sts">Strict Transport Security</a> and <a href="https://ircv3.net/specs/extensions/tls-3.1">STARTTLS</a> are enabled. (We know
+   STARTTLS is deprecated and a bit out of date, but we'd still like to get
+   as many people as possible using TLS one way or another.)</li>
+<li><a href="https://ircv3.net/specs/extensions/userhost-in-names-3.2">Userhosts in NAMES</a> is supported.</li>
+</ul>
+<p>There's one more change that is not related to this release, but deserves
+mention: nearly two years ago, we developed an improvement to the <code>+z</code> channel
+mode, which sends messages that would have been blocked by <code>+q</code> or <code>+m</code> to
+channel operators instead. Our new version sends these messages to ops from the
+<code>@</code>-prefixed version of the channel:</p>
+<p><code>:e!e@freenode/staff/spy.edk PRIVMSG @#test :I'm quieted</code></p>
+<p>to make it easier for operators to distinguish between messages everyone can see
+and messages they can see due to <code>+z</code>.</p>
+<p>This borrows the syntax from an existing feature, <a href="https://tools.ietf.org/html/draft-hardy-irc-isupport-00#section-4.18">STATUSMSG</a>, but
+is easy to tell apart from it, because only ops can send to <code>@channel</code>
+normally.</p>
+<p>We gated this behind a feature switch, and we've been waiting, largely
+passively, for client support to increase. It appears that everyone who wants to
+act on warnings has done so, and we'd like to commit to a date to enable it.</p>
+<p><strong>We'll be enabling this feature on the 31st of July 2019, UTC.</strong> If you op a
+channel that uses <code>+z</code>, please make sure your client handles it correctly.
+You can send test messages by using <code>/msg @#channel test</code> using a second opped
+connection for any channel where you have ops—your client should associate
+this message with <code>#channel</code>, and preferably distinguish it from normal
+messages in some way.</p>
+<p>Thanks for using freenode, and I look forward to collaborating with many of
+you via a slightly less-antiquated medium.</p>
     </div>
     
 <div class="art-nav">
-    <span><a href="happy-holidays-2">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="freenode-70k">next article</a></span>
+    <span><a href="torv3">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span></span>
 </div>
 
 </div>
