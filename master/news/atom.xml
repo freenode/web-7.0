@@ -34,8 +34,8 @@ channel operators instead. Our new version sends these messages to ops from the
 &lt;p&gt;to make it easier for operators to distinguish between messages everyone can see
 and messages they can see due to &lt;code&gt;+z&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;This borrows the syntax from an existing feature, &lt;a href="https://tools.ietf.org/html/draft-hardy-irc-isupport-00#section-4.18"&gt;STATUSMSG&lt;/a&gt;, but
-is easy to tell apart from it, because only ops can send to &lt;code&gt;@channel&lt;/code&gt;
-normally.&lt;/p&gt;
+is easy to tell apart from it, because only ops and voiced users can send to
+&lt;code&gt;@channel&lt;/code&gt; normally.&lt;/p&gt;
 &lt;p&gt;We gated this behind a feature switch, and we've been waiting, largely
 passively, for client support to increase. It appears that everyone who wants to
 act on warnings has done so, and we'd like to commit to a date to enable it.&lt;/p&gt;
