@@ -46,8 +46,8 @@ to make it easier for operators to distinguish between messages everyone can see
 and messages they can see due to `+z`.
 
 This borrows the syntax from an existing feature, [STATUSMSG][statusmsg], but
-is easy to tell apart from it, because only ops can send to `@channel`
-normally.
+is easy to tell apart from it, because only ops and voiced users can send to
+`@channel` normally.
 
 We gated this behind a feature switch, and we've been waiting, largely
 passively, for client support to increase. It appears that everyone who wants to
