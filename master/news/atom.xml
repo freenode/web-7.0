@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2019-06-17T10:15:00+00:00</updated><entry><title>ircd-seven 1.1.8</title><link href="https://freenode.net/news/seven-118" rel="alternate"></link><published>2019-06-17T10:15:00+00:00</published><updated>2019-06-17T10:15:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2019-06-17:/news/seven-118</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2019-06-22T20:42:00+00:00</updated><entry><title>Moving webchat to Kiwi IRC</title><link href="https://freenode.net/news/moving-to-kiwiirc" rel="alternate"></link><published>2019-06-22T20:42:00+00:00</published><updated>2019-06-22T20:42:00+00:00</updated><author><name>Fuchs, ilbelkyr</name></author><id>tag:freenode.net,2019-06-22:/news/moving-to-kiwiirc</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;after years of providing our good old &lt;a href="https://qwebirc.org/"&gt;qwebirc&lt;/a&gt; based webchat,
+we are excited to announce that freenode is moving to a new &lt;a href="https://kiwiirc.com/"&gt;Kiwi IRC&lt;/a&gt;
+based solution!&lt;/p&gt;
+&lt;p&gt;The change will occur during this weekend (June 22nd / 23rd).&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;after years of providing our good old &lt;a href="https://qwebirc.org/"&gt;qwebirc&lt;/a&gt; based webchat,
+we are excited to announce that freenode is moving to a new &lt;a href="https://kiwiirc.com/"&gt;Kiwi IRC&lt;/a&gt;
+based solution!&lt;/p&gt;
+&lt;p&gt;The change will occur during this weekend (June 22nd / 23rd).&lt;/p&gt;
+&lt;p&gt;Kiwi IRC is an extensible and modern webchat solution, making IRC a lot easier
+and more comfortable to use for both newcomers and long time users.
+In addition to a clean and friendly UI it supports translations into
+various languages, easier formatting and usage of emoji and advanced
+customization for power users.&lt;/p&gt;
+&lt;p&gt;Most existing links and bookmarks should continue to work, including sites
+embedding the freenode webchat; please do let us know if you are running into issues.&lt;/p&gt;
+&lt;p&gt;We would like to thank everybody who supported us during this migration,
+most of all Kiwi's developer, prawnsalad, who provided a huge amount of code,
+adaptations, options and testing that should ensure a smooth migration.&lt;/p&gt;
+&lt;p&gt;Along with this change, we will no longer apply gateway cloaks to users
+of our webchat, treating them the same as any other client. While channel
+operators will still be able to recognize them via the realname field,
+we strongly suggest that you carefully consider the impact on legitimate
+users and hope that you decide not to ban webchat users as a whole.&lt;/p&gt;
+&lt;p&gt;Please note that the old webchat will no longer be available after this migration.&lt;/p&gt;
+&lt;p&gt;Thank you for using freenode, via our new Kiwi webchat or any other client you prefer!&lt;/p&gt;</content></entry><entry><title>ircd-seven 1.1.8</title><link href="https://freenode.net/news/seven-118" rel="alternate"></link><published>2019-06-17T10:15:00+00:00</published><updated>2019-06-17T10:15:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2019-06-17:/news/seven-118</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
 &lt;p&gt;We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
 production network over the coming weeks.&lt;/p&gt;
 &lt;p&gt;This release incorporates a number of user-facing changes:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
@@ -252,12 +277,4 @@ The latest version of our policies can always be found &lt;a href="http://freeno
 &lt;p&gt;As such, a number of project channels opt to run their channels in a way that allows any user of the channel to modify the topic, and for most this is an approach that works most of the time, and ensures that updates can be announced and communicated effectively without all community members needing to be on the access list for the channel in question.&lt;/p&gt;
 &lt;p&gt;Naturally, the trade-off is that also those outside of the community are able to join and modify topics at will, and we are currently finding that a number of a project channels are having their topics changed to a message encouraging the users of the channel to move to a different channel.&lt;/p&gt;
 &lt;p&gt;In light of the above, we would like to ask that you check the modes and topics of your channel(s), and if appropriate reinstate your previous topic and decide whether or not you may wish to +t, even temporarily, to reduce disruption within your community.&lt;/p&gt;
-&lt;p&gt;Please do not hesitate to message a member of freenode staff for assistance! &lt;/p&gt;</content></entry><entry><title>freenode #live 2018 - Call for Proposals now open!</title><link href="https://freenode.net/news/live-cfp" rel="alternate"></link><published>2018-02-26T20:50:00+00:00</published><updated>2018-02-26T20:50:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-02-26:/news/live-cfp</id><summary type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="black belt" src="../static/img/blackbeltfoss.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;Jorge Oliviera from &lt;a href="https://www.jog.center/"&gt;JOG&lt;/a&gt;, 6x South Brazil National Champion.&lt;/p&gt;
-&lt;h2 id="you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;&lt;a class="toclink" href="#you-do-not-need-to-have-a-black-belt-in-foss-to-come-talk-at-this-years-freenode-live-conference"&gt;You do not need to have a black belt in FOSS to come talk at this year's freenode #live conference&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;freenode #live returns to We The Curious in Bristol, UK on Saturday 3 and Sunday 4 November 2018. The CFP is now live, and you can submit a talk over at the &lt;a href="https://freenode.live/"&gt;freenode.live&lt;/a&gt; website.&lt;/p&gt;
-&lt;p&gt;The inaugural freenode #live conference last year saw a star-studded speaker line-up including &lt;a href="https://twitter.com/baconandcoconut"&gt;Deb Nicholson&lt;/a&gt;, &lt;a href="https://twitter.com/mjg59"&gt;Matthew Garrett&lt;/a&gt;, &lt;a href="https://twitter.com/o0karen0o"&gt;Karen Sandler&lt;/a&gt;, &lt;a href="https://twitter.com/johns_FSF"&gt;John Sullivan&lt;/a&gt;, &lt;a href="https://twitter.com/jvdwaa"&gt;Jelle van der Waa&lt;/a&gt;, &lt;a href="https://twitter.com/lolamby"&gt;Chris Lamb&lt;/a&gt;, &lt;a href="https://twitter.com/nmcgovern"&gt;Neil McGovern&lt;/a&gt;, &lt;a href="https://twitter.com/mattdm"&gt;Matthew Miller&lt;/a&gt; and many, many more. &lt;/p&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/standupmaths"&gt;Matt Parker&lt;/a&gt; from &lt;a href="http://standupmaths.com"&gt;Standup Maths&lt;/a&gt; and &lt;a href="http://festivalofthespokennerd.com"&gt;Festival of the Spoken Nerd&lt;/a&gt; provided excellent entertainment on the Saturday evening, and the feedback from attendees, speakers and volunteers alike was overwhelmingly positive. &lt;/p&gt;
-&lt;p&gt;freenode #live 2017 was possible thanks to the generous support of sponsors such as &lt;a href="https://www.bytemark.co.uk"&gt;Bytemark&lt;/a&gt;, &lt;a href="https://falanx.com"&gt;Falanx&lt;/a&gt;, &lt;a href="https://www.opensuse.org"&gt;openSUSE&lt;/a&gt;, &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt;, &lt;a href="https://ubuntu.com"&gt;Ubuntu&lt;/a&gt; and &lt;a href="https://yubico.com"&gt;Yubico&lt;/a&gt;. &lt;a href="https://privateinternetaccess.com"&gt;Private Internet Access&lt;/a&gt; has already agreed to sponsor the event for another year, and we are currently looking for additional sponsors. Please do not hesitate to get in touch if your company might be interested in supporting freenode #live 2018.&lt;/p&gt;
-&lt;p&gt;We are looking forward to hosting this year's freenode #live conference, and hope that you will join us there.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Please do not hesitate to message a member of freenode staff for assistance! &lt;/p&gt;</content></entry></feed>

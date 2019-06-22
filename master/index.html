@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?9b14299" rel="stylesheet">
-    <link href="static/css/font-awesome.css?9b14299" rel="stylesheet">
-    <link href="static/css/style.css?9b14299" rel="stylesheet">
+    <link href="static/css/open-sans.css?cb21983" rel="stylesheet">
+    <link href="static/css/font-awesome.css?cb21983" rel="stylesheet">
+    <link href="static/css/style.css?cb21983" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,54 +50,31 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/seven-118"><h1 class="art">ircd-seven 1.1.8</h1></a>
-<span class="art-date">edk on 2019-06-17</span>
+<a href="news/moving-to-kiwiirc"><h1 class="art">Moving webchat to Kiwi IRC</h1></a>
+<span class="art-date">Fuchs, ilbelkyr on 2019-06-22</span>
 </div>
     <div class="art-body"><p>Hi all,</p>
-<p>We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
-production network over the coming weeks.</p>
-<p>This release incorporates a number of user-facing changes:</p>
-<ul>
-<li><a href="https://ircv3.net/specs/core/monitor-3.2">Monitor</a> is restored to a usable state, and will be re-enabled.</li>
-<li>Spam filtering can be opted-out of. Setting mode <code>+u</code> on yourself (
-   <code>/umode +u</code> or <code>/mode yournick +u</code>) will disable filtering for messages
-   sent to you. Setting it on a channel will disable filtering for all
-   messages sent to that channel.</li>
-<li><code>/motd</code> and <code>/stats</code> are no longer ratelimited unless directed at a
-   specific server.</li>
-</ul>
-<p>We're also introducing support for several IRCv3 features that may improve the
-experience on capable clients:</p>
-<ul>
-<li><a href="https://ircv3.net/specs/extensions/away-notify-3.1">Away Notifications</a> are supported.</li>
-<li><a href="https://ircv3.net/specs/extensions/chghost-3.2">CHGHOST</a> is supported.</li>
-<li><a href="https://ircv3.net/specs/extensions/sts">Strict Transport Security</a> and <a href="https://ircv3.net/specs/extensions/tls-3.1">STARTTLS</a> are enabled. (We know
-   STARTTLS is deprecated and a bit out of date, but we'd still like to get
-   as many people as possible using TLS one way or another.)</li>
-<li><a href="https://ircv3.net/specs/extensions/userhost-in-names-3.2">Userhosts in NAMES</a> is supported.</li>
-</ul>
-<p>There's one more change that is not related to this release, but deserves
-mention: nearly two years ago, we developed an improvement to the <code>+z</code> channel
-mode, which sends messages that would have been blocked by <code>+q</code> or <code>+m</code> to
-channel operators instead. Our new version sends these messages to ops from the
-<code>@</code>-prefixed version of the channel:</p>
-<p><code>:e!e@freenode/staff/spy.edk PRIVMSG @#test :I'm quieted</code></p>
-<p>to make it easier for operators to distinguish between messages everyone can see
-and messages they can see due to <code>+z</code>.</p>
-<p>This borrows the syntax from an existing feature, <a href="https://tools.ietf.org/html/draft-hardy-irc-isupport-00#section-4.18">STATUSMSG</a>, but
-is easy to tell apart from it, because only ops and voiced users can send to
-<code>@channel</code> normally.</p>
-<p>We gated this behind a feature switch, and we've been waiting, largely
-passively, for client support to increase. It appears that everyone who wants to
-act on warnings has done so, and we'd like to commit to a date to enable it.</p>
-<p><strong>We'll be enabling this feature on the 31st of July 2019, UTC.</strong> If you op a
-channel that uses <code>+z</code>, please make sure your client handles it correctly.
-You can send test messages by using <code>/msg @#channel test</code> using a second opped
-connection for any channel where you have ops—your client should associate
-this message with <code>#channel</code>, and preferably distinguish it from normal
-messages in some way.</p>
-<p>Thanks for using freenode, and I look forward to collaborating with many of
-you via a slightly less-antiquated medium.</p></div>
+<p>after years of providing our good old <a href="https://qwebirc.org/">qwebirc</a> based webchat,
+we are excited to announce that freenode is moving to a new <a href="https://kiwiirc.com/">Kiwi IRC</a>
+based solution!</p>
+<p>The change will occur during this weekend (June 22nd / 23rd).</p>
+<p>Kiwi IRC is an extensible and modern webchat solution, making IRC a lot easier
+and more comfortable to use for both newcomers and long time users.
+In addition to a clean and friendly UI it supports translations into
+various languages, easier formatting and usage of emoji and advanced
+customization for power users.</p>
+<p>Most existing links and bookmarks should continue to work, including sites
+embedding the freenode webchat; please do let us know if you are running into issues.</p>
+<p>We would like to thank everybody who supported us during this migration,
+most of all Kiwi's developer, prawnsalad, who provided a huge amount of code,
+adaptations, options and testing that should ensure a smooth migration.</p>
+<p>Along with this change, we will no longer apply gateway cloaks to users
+of our webchat, treating them the same as any other client. While channel
+operators will still be able to recognize them via the realname field,
+we strongly suggest that you carefully consider the impact on legitimate
+users and hope that you decide not to ban webchat users as a whole.</p>
+<p>Please note that the old webchat will no longer be available after this migration.</p>
+<p>Thank you for using freenode, via our new Kiwi webchat or any other client you prefer!</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>
@@ -245,6 +222,6 @@ you via a slightly less-antiquated medium.</p></div>
     </div>
 </footer>
     </div>
-    <script src="static/js/utils.js?9b14299" type="text/javascript"></script>
+    <script src="static/js/utils.js?cb21983" type="text/javascript"></script>
 </body>
 </html>
