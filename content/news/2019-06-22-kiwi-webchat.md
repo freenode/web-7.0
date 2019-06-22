@@ -13,7 +13,7 @@ after years of providing our good old [qwebirc][qwebirc] based webchat,
 we are excited to announce that freenode is moving to a new [Kiwi IRC][kiwi]
 based solution!
 
-The change will occur during this weekend (June 22nd / 23nd).
+The change will occur during this weekend (June 22nd / 23rd).
 
 Kiwi IRC is an extensible and modern webchat solution, making IRC a lot easier
 and more comfortable to use for both newcomers and long time users.
