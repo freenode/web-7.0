@@ -21,7 +21,7 @@ The following table lists minimum system requirements, and, where applicable des
 
 | Required | Desired |
 | ---- | ---- |
-| Pentium 4 or better dedicated server | 64-bit multi-core |
+| Pentium 4 or better dedicated server with SSSE3 capability | 64-bit multi-core |
 | 2G RAM | 2-3G or more |
 | Debian stable |  |
 
