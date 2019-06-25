@@ -4,9 +4,6 @@ COPYRIGHT: "&copy; 2016-2018, freenode"
 DESCRIPTION: "freenode.net - Supporting Free and Open Source Software Communities since 1998"
 GITHUB_URL: "https://github.com/freenode/web-7.0"
 SOCIAL:
-  - name: Google+
-    icon: google-plus
-    link: 'https://google.com/+freenode'
   - name: Twitter
     icon: twitter
     link: 'https://twitter.com/freenodestaff'
