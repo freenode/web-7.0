@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?578d410" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?578d410" rel="stylesheet">
-    <link href="../../static/css/style.css?578d410" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?8139835" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?8139835" rel="stylesheet">
+    <link href="../../static/css/style.css?8139835" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -84,12 +84,16 @@ just examples, you have to adapt them to your current servers.</p>
 <h3 id="znc"><a class="toclink" href="#znc">znc</a></h3>
 <p>Refer to znc's <a href="http://wiki.znc.in/Cert">official documentation</a>.</p>
 <h3 id="hexchat"><a class="toclink" href="#hexchat">HexChat</a></h3>
-<p>The pem file should be placed in <code>certs/network name.pem</code> in the HexChat config
-directory (<code>~/.config/hexchat/</code> or <code>%appdata%\HexChat</code>), where <code>network name</code>
-is the name of the network as it appears in the network list (Ctrl-S). Note
+<p>Place the pem file in <code>certs/client.pem</code> in the HexChat config
+directory (<code>~/.config/hexchat/</code> or <code>%appdata%\HexChat</code>). Note
 that the <code>certs</code> directory does not exist by default and you will have to
-create it yourself. Once the file is there, all subsequent SSL connections to
-that network will use the certificate.</p>
+create it yourself. Once the file is there, all subsequent SSL connections
+will use the certificate.</p>
+<p>If you connect to multiple IRC networks, you should keep in mind that using the
+filename <code>certs/client.pem</code> will send the same certificate to all networks. If
+you prefer per-network certificates, use the name of the network exactly 
+as it appears in the network list (Ctrl-S), including capitalisation and
+punctuation (e.g. <code>certs/freenode.pem</code> or <code>certs/Example Server.pem</code>).</p>
 <h3 id="konversation"><a class="toclink" href="#konversation">Konversation</a></h3>
 <p>Create the pem file as per above, then place it wherever you want. 
 Start Konversation, then open the Identity dialogue by either pressing F8
@@ -260,6 +264,6 @@ via Tor, you can enable SASL with the <code>EXTERNAL</code> mechanism.</p>
     </div>
 </footer>
     </div>
-    <script src="../../static/js/utils.js?578d410" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?8139835" type="text/javascript"></script>
 </body>
 </html>
