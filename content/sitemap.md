@@ -1,16 +1,4 @@
-<div id="top">
 
-<nav>freenode.net HTML Site Map</nav>
-
-### <span>Last updated: 2019, June 25  
-Total pages: 82</span> [freenode.net Homepage](http://freenode.net)
-
-</div>
-
-<div id="cont">
-
-*   / <span class="lcount">12 pages</span>
-*   [freenode](http://freenode.net/ "freenode")
 *   [freenode](http://freenode.net/. "freenode")
 *   [Group registration - freenode](http://freenode.net/groupreg "Group registration - freenode")
 *   [archive - freenode](http://freenode.net/archive "archive - freenode")
@@ -22,8 +10,7 @@ Total pages: 82</span> [freenode.net Homepage](http://freenode.net)
 *   [Channel Guidelines - freenode](http://freenode.net/changuide "Channel Guidelines - freenode")
 *   [Catalyst Guidelines - freenode](http://freenode.net/catalysts "Catalyst Guidelines - freenode")
 *   [Supporting the project - freenode](http://freenode.net/support "Supporting the project - freenode")
-*   *   kb/ <span class="lcount">1 pages</span>
-    *   [Knowledge Base - freenode](http://freenode.net/kb/all "Knowledge Base - freenode")
+*   *   [Knowledge Base - freenode](http://freenode.net/kb/all "Knowledge Base - freenode")
     *   *   answer/ <span class="lcount">24 pages</span>
         *   [CertFP - freenode](http://freenode.net/kb/answer/certfp "CertFP - freenode")
         *   [Channel Modes - freenode](http://freenode.net/kb/answer/channelmodes "Channel Modes - freenode")
@@ -49,7 +36,7 @@ Total pages: 82</span> [freenode.net Homepage](http://freenode.net)
         *   [Configuring SASL for Textual - freenode](http://freenode.net/kb/answer/textual "Configuring SASL for Textual - freenode")
         *   [Configuring SASL for WeeChat - freenode](http://freenode.net/kb/answer/weechat "Configuring SASL for WeeChat - freenode")
         *   [Configuring SASL for IRCCloud - freenode](http://freenode.net/kb/answer/irccloud "Configuring SASL for IRCCloud - freenode")
-    *   news/ <span class="lcount">45 pages</span>
+*   *   news/ <span class="lcount">45 pages</span>
     *   [Moving webchat to Kiwi IRC - freenode](http://freenode.net/news/moving-to-kiwiirc "Moving webchat to Kiwi IRC - freenode")
     *   [ircd-seven 1.1.8 - freenode](http://freenode.net/news/seven-118 "ircd-seven 1.1.8 - freenode")
     *   [freenode Next Gen Tor Hidden Service - freenode](http://freenode.net/news/torv3 "freenode Next Gen Tor Hidden Service - freenode")
@@ -98,4 +85,4 @@ Total pages: 82</span> [freenode.net Homepage](http://freenode.net)
 
 </div>
 
-<div id="footer">Page created with [Google XML sitemap and html sitemaps generator](https://www.xml-sitemaps.com) | Copyright © 2005-2018 XML-Sitemaps.com</div>
+<div id="footer">List of pages generated with the help of [Google XML sitemap and html sitemaps generator](https://www.xml-sitemaps.com) | Copyright © 2005-2018 XML-Sitemaps.com</div>
