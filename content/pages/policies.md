@@ -27,7 +27,7 @@ Nickname and account registrations expire ten weeks after they are last used.
 For nicknames, ‘used’ means that you were using the nickname while logged in to
 the account which owns it. For accounts, ‘used’ means that you logged in to the
 account, regardless of the nickname you used to do so. Nicknames which are the
-primary account name only expire when the entire account is expired.
+primary account name expire only when the entire account is expired.
 
 In some cases, such as for very old accounts, we may, at our discretion, extend
 the expiry time of a nickname or account. We will not normally do this beyond 15

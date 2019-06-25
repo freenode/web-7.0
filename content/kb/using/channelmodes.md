@@ -7,6 +7,8 @@ channel modes and `/msg chanserv info #channel` to list modes set with MLOCK.
 All channel modes will be lost when a channel becomes empty. Enable GUARD to
 preserve modes.
 
+To set a mode, use `/mode #channel +(mode)` replacing `(mode)` with the letter that corresponds to the mode. 
+To unset a mode, use `/mode #channel -(mode)` 
 
 # Available channel modes
 | Mode (name) | Description |
@@ -33,3 +35,11 @@ preserve modes.
 | S<br>(SSL-only) | Only users connected via SSL may join the channel while this mode is set. Users already in the channel are not affected. Keep in mind that this also blocks all webchat users, as they are not marked as connected via SSL. |
 | t<br>(ops topic) | Only channel operators may set the channel topic. |
 | z<br>(reduced moderation) | The effects of +b, +q, and +m are relaxed. For each message, if that message would normally be blocked by one of these modes, it is instead sent to channel operators (+o). |
+
+# Restricted channel modes
+The following channel modes can only be added by freenode staff.
+
+| Mode (Name)        | Description                               |
+|--------------------|-------------------------------------------|
+| L (Large Ban List) | Increase maximum number of +beIq entries. |
+| P (Permanent)      | Channel does not disappear when empty.    |
