@@ -24,6 +24,7 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [Textual](kb/sasl/textual)
 * [WeeChat](kb/sasl/weechat)
 * [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#example)
+* [IRCCloud](kb/sasl/irccloud)
 
 If you know of any additions or corrections to the lists above, or would like to contribute a script or (better) documentation, contact us on IRC.
 
