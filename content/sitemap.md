@@ -1,17 +1,17 @@
-
+This page lists everything hosted on freenode.net - although we can not guarantee this page is always fully up to date. You therefore should check appropiate pages to determine if the content is listed anywhere else. You can always ask on IRC for help and if you spot anything missing from here - Please let us know.
 *   [freenode](http://freenode.net/. "freenode")
-*   [Group registration - freenode](http://freenode.net/groupreg "Group registration - freenode")
-*   [archive - freenode](http://freenode.net/archive "archive - freenode")
-*   [The Project - freenode](http://freenode.net/project "The Project - freenode")
-*   [The People - freenode](http://freenode.net/people "The People - freenode")
-*   [The Philosophy - freenode](http://freenode.net/philosophy "The Philosophy - freenode")
-*   [The Policies - freenode](http://freenode.net/policies "The Policies - freenode")
-*   [Acknowledgements - freenode](http://freenode.net/acknowledgements "Acknowledgements - freenode")
-*   [Channel Guidelines - freenode](http://freenode.net/changuide "Channel Guidelines - freenode")
-*   [Catalyst Guidelines - freenode](http://freenode.net/catalysts "Catalyst Guidelines - freenode")
-*   [Supporting the project - freenode](http://freenode.net/support "Supporting the project - freenode")
+*   *   Important information
+        *[Group registration - freenode](http://freenode.net/groupreg "Group registration - freenode")
+        *[archive - freenode](http://freenode.net/archive "archive - freenode")
+        *[The Project - freenode](http://freenode.net/project "The Project - freenode")
+        *[The People - freenode](http://freenode.net/people "The People - freenode")
+        *[The Philosophy - freenode](http://freenode.net/philosophy "The Philosophy - freenode")
+        *[The Policies - freenode](http://freenode.net/policies "The Policies - freenode")
+        *[Acknowledgements - freenode](http://freenode.net/acknowledgements "Acknowledgements - freenode")
+        *[Channel Guidelines - freenode](http://freenode.net/changuide "Channel Guidelines - freenode")
+        *[Catalyst Guidelines - freenode](http://freenode.net/catalysts "Catalyst Guidelines - freenode")
+        *[Supporting the project - freenode](http://freenode.net/support "Supporting the project - freenode")
 *   *   [Knowledge Base - freenode](http://freenode.net/kb/all "Knowledge Base - freenode")
-    *   *   answer/ <span class="lcount">24 pages</span>
         *   [CertFP - freenode](http://freenode.net/kb/answer/certfp "CertFP - freenode")
         *   [Channel Modes - freenode](http://freenode.net/kb/answer/channelmodes "Channel Modes - freenode")
         *   [Channel Namespaces - freenode](http://freenode.net/kb/answer/namespaces "Channel Namespaces - freenode")
@@ -36,7 +36,7 @@
         *   [Configuring SASL for Textual - freenode](http://freenode.net/kb/answer/textual "Configuring SASL for Textual - freenode")
         *   [Configuring SASL for WeeChat - freenode](http://freenode.net/kb/answer/weechat "Configuring SASL for WeeChat - freenode")
         *   [Configuring SASL for IRCCloud - freenode](http://freenode.net/kb/answer/irccloud "Configuring SASL for IRCCloud - freenode")
-*   *   news/ <span class="lcount">45 pages</span>
+*   * *   News Articles
     *   [Moving webchat to Kiwi IRC - freenode](http://freenode.net/news/moving-to-kiwiirc "Moving webchat to Kiwi IRC - freenode")
     *   [ircd-seven 1.1.8 - freenode](http://freenode.net/news/seven-118 "ircd-seven 1.1.8 - freenode")
     *   [freenode Next Gen Tor Hidden Service - freenode](http://freenode.net/news/torv3 "freenode Next Gen Tor Hidden Service - freenode")
