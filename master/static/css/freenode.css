@@ -1,1 +1,47 @@
-@font-face{font-family:'freenode';src:url(../fonts/freenode.eot?2vz2mq);src:url(../fonts/freenode.eot?2vz2mq#iefix) format('embedded-opentype'),url(../fonts/freenode.ttf?2vz2mq) format('truetype'),url(../fonts/freenode.woff?2vz2mq) format('woff'),url(../fonts/freenode.svg?2vz2mq#icomoon) format('svg');font-weight:400;font-style:normal}[class*=" fn-"],[class^=fn-]{font-family:'freenode'!important;speak:none;font-style:normal;font-weight:400;-webkit-font-feature-settings:normal;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fn-d:before{content:"\e900"}.fn-e:before{content:"\e901"}.fn-f:before{content:"\e902"}.fn-n:before{content:"\e903"}.fn-o:before{content:"\e904"}.fn-r:before{content:"\e905"}
+@font-face {
+    font-family: 'freenode';
+    src:    url('../fonts/freenode.eot?2vz2mq');
+    src:    url('../fonts/freenode.eot?2vz2mq#iefix') format('embedded-opentype'),
+        url('../fonts/freenode.ttf?2vz2mq') format('truetype'),
+        url('../fonts/freenode.woff?2vz2mq') format('woff'),
+        url('../fonts/freenode.svg?2vz2mq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="fn-"], [class*=" fn-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'freenode' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fn-d:before {
+    content: "\e900";
+}
+.fn-e:before {
+    content: "\e901";
+}
+.fn-f:before {
+    content: "\e902";
+}
+.fn-n:before {
+    content: "\e903";
+}
+.fn-o:before {
+    content: "\e904";
+}
+.fn-r:before {
+    content: "\e905";
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0ZGluIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksdUJBQXVCO0lBQ3ZCLDJDQUEyQztJQUMzQzs7O2lFQUc2RDtJQUM3RCxtQkFBbUI7SUFDbkIsa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksK0VBQStFO0lBQy9FLGtDQUFrQztJQUNsQyxXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLG1CQUFtQjtJQUNuQixvQkFBb0I7SUFDcEIsb0JBQW9CO0lBQ3BCLGNBQWM7O0lBRWQsc0NBQXNDO0lBQ3RDLG1DQUFtQztJQUNuQyxrQ0FBa0M7QUFDdEM7O0FBRUE7SUFDSSxnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUNBO0lBQ0ksZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSxnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUNBO0lBQ0ksZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6InN0ZGluIiwic291cmNlc0NvbnRlbnQiOlsiQGZvbnQtZmFjZSB7XG4gICAgZm9udC1mYW1pbHk6ICdmcmVlbm9kZSc7XG4gICAgc3JjOiAgICB1cmwoJy4uL2ZvbnRzL2ZyZWVub2RlLmVvdD8ydnoybXEnKTtcbiAgICBzcmM6ICAgIHVybCgnLi4vZm9udHMvZnJlZW5vZGUuZW90PzJ2ejJtcSNpZWZpeCcpIGZvcm1hdCgnZW1iZWRkZWQtb3BlbnR5cGUnKSxcbiAgICAgICAgdXJsKCcuLi9mb250cy9mcmVlbm9kZS50dGY/MnZ6Mm1xJykgZm9ybWF0KCd0cnVldHlwZScpLFxuICAgICAgICB1cmwoJy4uL2ZvbnRzL2ZyZWVub2RlLndvZmY/MnZ6Mm1xJykgZm9ybWF0KCd3b2ZmJyksXG4gICAgICAgIHVybCgnLi4vZm9udHMvZnJlZW5vZGUuc3ZnPzJ2ejJtcSNpY29tb29uJykgZm9ybWF0KCdzdmcnKTtcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xuICAgIGZvbnQtc3R5bGU6IG5vcm1hbDtcbn1cblxuW2NsYXNzXj1cImZuLVwiXSwgW2NsYXNzKj1cIiBmbi1cIl0ge1xuICAgIC8qIHVzZSAhaW1wb3J0YW50IHRvIHByZXZlbnQgaXNzdWVzIHdpdGggYnJvd3NlciBleHRlbnNpb25zIHRoYXQgY2hhbmdlIGZvbnRzICovXG4gICAgZm9udC1mYW1pbHk6ICdmcmVlbm9kZScgIWltcG9ydGFudDtcbiAgICBzcGVhazogbm9uZTtcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgICBmb250LXZhcmlhbnQ6IG5vcm1hbDtcbiAgICB0ZXh0LXRyYW5zZm9ybTogbm9uZTtcbiAgICBsaW5lLWhlaWdodDogMTtcblxuICAgIC8qIEJldHRlciBGb250IFJlbmRlcmluZyA9PT09PT09PT09PSAqL1xuICAgIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkO1xuICAgIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7XG59XG5cbi5mbi1kOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcXGU5MDBcIjtcbn1cbi5mbi1lOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcXGU5MDFcIjtcbn1cbi5mbi1mOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcXGU5MDJcIjtcbn1cbi5mbi1uOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcXGU5MDNcIjtcbn1cbi5mbi1vOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcXGU5MDRcIjtcbn1cbi5mbi1yOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcXGU5MDVcIjtcbn1cblxuIl19 */
