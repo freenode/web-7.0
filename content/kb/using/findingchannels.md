@@ -42,7 +42,7 @@ the following help text:
     match the full channel name or a full topic, depending on where it
     is used; the wildcards are important. The pattern is also
     automatically surrounded by * wildcards if
-    a channel name pattern starts with a wildcard or a #, or
+    a channel name pattern does not start with a wildcard or a #, or
     a topic pattern contains no * wildcards.
     
     For example, for channel names, from most to least specific:
