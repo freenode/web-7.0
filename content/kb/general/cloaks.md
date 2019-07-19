@@ -39,9 +39,9 @@ take the form `unaffiliated/owneraccountname/bot/botaccountname`.
 Gateway cloaks
 ==============
 
-If you are connected via a gateway which sets a gateway cloak (for instance, our
-webchat, or KiwiIRC, or some bouncer/shell providers) you will receive an
-automatic gateway cloak—for instance `gateway/web/freenode/ip.1.2.3.4`—these
+If you are connected via a gateway which sets a gateway cloak (for instance,
+some web-based chat interfaces or bouncer/shell providers) you will receive an
+automatic gateway cloak—for instance `gateway/web/foo/ip.1.2.3.4` — these
 gateway cloaks override unaffiliated cloaks, but do not override project cloaks.
 
 There are also gateway cloaks which may denote that the host the user is coming
