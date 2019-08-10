@@ -1,5 +1,8 @@
 Title: Nickname Registration
 ---
+
+<div class="page-variant-registration"></div>
+
 Your nick is how people on freenode know you. If you register it, you'll be able to use the same nick over and over. If you don't register, someone else may end
 up registering the nick you want. If you register and use the same nick, people will begin to know you by reputation.
 
@@ -24,19 +27,11 @@ staff will be happy to discuss it and answer any questions you may have.
 
 2. **Switch** to your desired nickname. This will also be your account name.
 
-    <div class="next-accent">
-
         /nick YourNick
-
-    </div>
 
 3.  **Register** your IRC nick:
 
-    <div class="next-accent">
-
         /msg NickServ REGISTER YourPassword youremail@example.com
-
-    </div>
 
     Replace "YourPassword" with a secure, unguessable password that you keep secret.
 
