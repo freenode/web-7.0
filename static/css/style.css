@@ -4,6 +4,7 @@
     --c-bg-dark:  #3a4346;
     --c-bg-light: #4c5456;
     --c-light:    #ecf7fa;
+    --c-off-white: #f9f9f9;
     --c-hl-dark:  #008499;
     --c-hl-light: #3baec4;
     --c-shadow:   #dae5e2;
@@ -243,20 +244,12 @@ img {
     margin-top: 0;
 }
 
-
-.main pre {
+.main .next-accent + pre {
     padding: .5em .75em;
-    border: 1px solid var(--c-border);
-    overflow-x: auto;
-}
-
-.main :not(pre)>code {
-    padding: 0 0.2em;
-}
-
-.main pre, .main :not(pre)>code {
-    background: var(--c-shadow);
     border-radius: .25em;
+    background: var(--c-off-white);
+    color: var(--c-hl-dark);
+    box-shadow: 0 0 1px  var(--c-bg-light);
 }
 
 .toclink,
