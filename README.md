@@ -8,7 +8,7 @@ A shiny replacement for http://freenode.net.
 You'll need our node.js dependencies:
 
 ```console
-$ sudo npm install -g postcss-cli svgo
+$ sudo npm install -g postcss-cli svgo uglifyjs
 $ npm install
 ```
 
