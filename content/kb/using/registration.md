@@ -1,8 +1,6 @@
 Title: Nickname Registration
 ---
 
-<div class="page-variant-registration"></div>
-
 Your nick is how people on freenode know you. If you register it, you'll be able to use the same nick over and over. If you don't register, someone else may end
 up registering the nick you want. If you register and use the same nick, people will begin to know you by reputation.
 

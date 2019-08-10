@@ -244,12 +244,16 @@ img {
     margin-top: 0;
 }
 
-.main .page-variant-registration ~ pre, .main .page-variant-registration ~ * pre {
+
+.main pre {
     padding: .5em .75em;
-    border-radius: .25em;
+    border: 1px solid var(--border-color);
+    overflow-x: auto;
+}
+
+.main pre, .main :not(pre)>code   {
     background: var(--c-off-white);
-    color: var(--c-hl-dark);
-    box-shadow: 0 0 1px  var(--c-bg-light);
+    border-radius: .25em;
 }
 
 .toclink,
