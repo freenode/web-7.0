@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>CertFP - freenode</title>
+    <link href="../../static/css/open-sans.css?71afe1f" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?71afe1f" rel="stylesheet">
+    <link href="../../static/css/style.css?71afe1f" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>CertFP</h1>
+    <p class="art-ingress">
+        <p>As an alternative to password-based authentication, you can connect to freenode
+with a TLS certificate and have services recognise it automatically.</p>
+<p>For SASL EXTERNAL to work, you must connect over SSL. </p>
+<h2 id="creating-a-self-signed-certificate"><a class="toclink" href="#creating-a-self-signed-certificate">Creating a self-signed certificate</a></h2>
+<p>In order to follow these instructions, you will need the <code>openssl</code> utility. If
+you are using Windows and do not have a copy, you might consider using Cygwin.</p>
+<p>You can generate a certificate with the following command:</p>
+<pre><code>openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
+</code></pre>
+<p>You will be prompted for various pieces of information about the certificate.
+The contents do not matter for our purposes, but <code>openssl</code> needs at least one of
+them to be non-empty.</p>
+<p>The <code>.pem</code> file will have the same access to your NickServ account as your
+password does, so take appropriate care in securing it.</p>
+<p>Under Unix-like environments, the following command:</p>
+<pre><code>openssl x509 -in freenode.pem -outform der | sha1sum -b | cut -d' ' -f1
+</code></pre>
+<p>will list the certificate fingerprint.</p>
+<h2 id="connecting-to-freenode-with-your-certificate"><a class="toclink" href="#connecting-to-freenode-with-your-certificate">Connecting to freenode with your certificate</a></h2>
+<p>IRC clients generally differ in where they look for a certificate and how you
+configure them to offer it to the server. If yours is not yet listed here,
+advice in this section is unlikely to apply, but guides may be available
+elsewhere on the web.</p>
+<h3 id="irssi"><a class="toclink" href="#irssi">irssi</a></h3>
+<p>Move the certificates you created above to ~/.irssi/certs</p>
+<pre><code>mkdir ~/.irssi/certs
+mv freenode.pem ~/.irssi/certs
+</code></pre>
+<p>Now configure your <code>/server</code> entry for freenode to use this certificate. You
+may need to adapt this example for your existing configuration (the network
+and hostname should match what you already use).</p>
+<pre><code>/server add -auto -ssl -ssl_cert ~/.irssi/certs/freenode.pem -network freenode chat.freenode.net 6697
+</code></pre>
+<h3 id="weechat"><a class="toclink" href="#weechat">weechat</a></h3>
+<p>Move the certificates you created above to ~/.weechat/certs</p>
+<pre><code>mkdir ~/.weechat/certs
+mv freenode.pem ~/.weechat/certs
+</code></pre>
+<p>Now disconnect and remove the current freenode server(s). Re-add it with the
+SSL flag, using your newly generated certificate. Note that these commands are
+just examples, you have to adapt them to your current servers.</p>
+<pre><code>/set irc.server.freenode.addresses chat.freenode.net/6697
+/set irc.server.freenode.ssl on
+/set irc.server.freenode.ssl_verify on
+/set irc.server.freenode.ssl_cert %h/certs/freenode.pem
+/set irc.server.freenode.sasl_mechanism external
+</code></pre>
+<p>and then reconnect to freenode.</p>
+<h3 id="znc"><a class="toclink" href="#znc">znc</a></h3>
+<p>Refer to znc's <a href="http://wiki.znc.in/Cert">official documentation</a>.</p>
+<h3 id="hexchat"><a class="toclink" href="#hexchat">HexChat</a></h3>
+<p>Place the pem file in <code>certs/client.pem</code> in the HexChat config
+directory (<code>~/.config/hexchat/</code> or <code>%appdata%\HexChat</code>). Note
+that the <code>certs</code> directory does not exist by default and you will have to
+create it yourself. Once the file is there, all subsequent SSL connections
+will use the certificate.</p>
+<p>If you connect to multiple IRC networks, you should keep in mind that using the
+filename <code>certs/client.pem</code> will send the same certificate to all networks. If
+you prefer per-network certificates, use the name of the network exactly 
+as it appears in the network list (Ctrl-S), including capitalisation and
+punctuation (e.g. <code>certs/freenode.pem</code> or <code>certs/Example Server.pem</code>).</p>
+<h3 id="konversation"><a class="toclink" href="#konversation">Konversation</a></h3>
+<p>Create the pem file as per above, then place it wherever you want. 
+Start Konversation, then open the Identity dialogue by either pressing F8
+or via the Settings menu entry. Choose the identity you use for the 
+freenode network or create a new one. 
+In the part <code>Auto Identity</code> you have to choose <code>SASL External (Cert)</code>
+as the <code>Type</code> for SASL External or <code>SSL CLient Certificate</code> for CertFP.
+SASL External requires at least version 1.7 of Konversation. 
+Optionally fill in your account name in the <code>Account</code>field. 
+You can then choose the certificate you created with the file picker
+or enter the path manually in the field next to it.
+Once done, apply the configuration and (re)connect to freenode.</p>
+<h2 id="add-your-fingerprint-to-nickserv"><a class="toclink" href="#add-your-fingerprint-to-nickserv">Add your fingerprint to NickServ</a></h2>
+<p>You can then check whether you have a fingerprint by using <code>whois</code> on yourself:</p>
+<pre><code>/whois YourOwnNick
+...
+YourOwnNick has client certificate fingerprint f3a1aad46ca88e180c25c9c7021a4b3a
+...
+</code></pre>
+<p>To allow NickServ to recognise you based on your certificate, you need to add
+the fingerprint to your account (you will need to log in by other means in order
+to do so).</p>
+<p>You can then authorise your current certificate fingerprint:</p>
+<pre><code>/msg NickServ CERT ADD
+</code></pre>
+<p>In the future, any connections you make to freenode with your certificate will
+be logged into your account automatically. Optionally, or if you wish to connect
+via Tor, you can enable SASL with the <code>EXTERNAL</code> mechanism.</p>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2019, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../../static/js/utils.js?71afe1f" type="text/javascript"></script>
+</body>
+</html>
