@@ -247,12 +247,16 @@ img {
 
 .main pre {
     padding: .5em .75em;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--c-border);
     overflow-x: auto;
 }
 
-.main pre, .main :not(pre)>code   {
-    background: var(--c-off-white);
+.main :not(pre)>code {
+    padding: 0 0.2em;
+}
+
+.main pre, .main :not(pre)>code {
+    background: var(--c-shadow);
     border-radius: .25em;
 }
 
