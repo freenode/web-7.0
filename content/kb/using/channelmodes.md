@@ -35,7 +35,7 @@ To unset a mode, use `/mode #channel -(mode)`
 | S<br>(SSL-only) | Only users connected via SSL may join the channel while this mode is set. Users already in the channel are not affected. Keep in mind that this also blocks all webchat users, as they are not marked as connected via SSL. |
 | t<br>(ops topic) | Only channel operators may set the channel topic. |
 | z<br>(reduced moderation) | The effects of +b, +q, and +m are relaxed. For each message, if that message would normally be blocked by one of these modes, it is instead sent to channel operators (+o). |
-| u<br>(opt out of spam filter)| The channel is opted out of server side spam filtering |
+| u<br>(opt out of spam filter)| Prevents messages sent to channel from being subject to server side spam filters |
 # Restricted channel modes
 The following channel modes can only be added by freenode staff.
 
