@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>freenode webchat changes - freenode</title>
+    <link href="../static/css/open-sans.css?3ff8393" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?3ff8393" rel="stylesheet">
+    <link href="../static/css/style.css?3ff8393" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="freenode-webchat-changes"><h1 class="art">freenode webchat changes</h1></a>
+<span class="art-date">JonathanD on 2010-06-10</span>
+
+    </div>
+    <div class="art-body">
+    <p>Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.</p>
+<p>To begin with, there needs to be a way for network or channel staff to identify individual connections, as well as where they originated from.  The way this has previously been handled is by encoding the IP of the source (the IP someone uses to connect to the webchat) in hexadecimal form in the ident field of the user.  The webchat users are "cloaked" (that is, their real hostname, which would be that of the webchat server, is replaced) with a unique string identifying the connection.  This method allows channel staff to ban or quiet a webchat user via the unique connection string, or via the ident information.</p>
+<p>While this works, it's confusing to many. The unique connection string changes every time a user makes a new connection through webchat. Therefore, we've changed how we do the cloaking so IPs are shown in cloaks. This makes it much simpler for channel staff to see what is going on, and who is who. For now, this change only applies to those using the freenode webchat at <a href="http://webchat.freenode.net">http://webchat.freenode.net</a>. The effect is to change a cloak of the form "<code>gateway/web/freenode/x-iiqzrxiqfnnglqji</code>" to the form "<code>gateway/web/freenode/ip.171.205.239.16</code>".</p>
+<p>We would like to point out that this does not in any way reduce the privacy of users of webchat: it has always been possible for anyone to directly convert the encoded ident string back to an IP address. In addition, the real hostnames of clients have always been visible unencoded in the "whois" output for the user.</p>
+<p>In addition, we have made a small but potentially significant change to how the "ident" is shown. This has become necessary so that, with future versions of our ircd, we can properly limit connections per IP address via webchat. For a typical freenode webchat user, the full hostmask previously had the form "<code>~abcdef1@gateway/web/freenode/...</code>". Many historical webchat bans and quiets are set as "<code>*!~abcdef1@gateway/web/freenode/*</code>". The change that we are making will break these bans. We have removed the <code>~</code> from the ident for <strong>all</strong> webchat connections (not just freenode's webchat), giving a full mask of the form "<code>abcdef1@gateway/web/freenode/ip.171.205.239.16</code>".</p>
+<p>As such, channel ops are advised to adjust their bans into the form of either "<code>*!abcdef1@gateway/web/freenode/*</code>" or "<code>*!*@gateway/web/freenode/ip.171.205.239.16</code>" as soon as possible.</p>
+<p>A further result of this change is that those hosts from which a large number of legitimate users connect to freenode through the webchat service may suffer refused connections due to breaching the limits. If you find youself faced by an error of the form "Too many connections", please email <em>iline at freenode dot net</em> with details of the IP address affected (which can be obtained from <a href="http://www.whatismyip.org">www.whatismyip.org</a>), the name of the organisation, and the number of connections expected, so that we can place a limit exemption. Please note that if you have a message of the form "Gateway connections are currently blocked" or "Gateway connections are currently being throttled", this is a different matter for which an I:line cannot help.</p>
+<p>We hope that these changes make connections through the freenode webchat easier to manage for channel ops and more transparent for all users.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="groups-advisory-board">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="group-registration-form-verifications">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2019, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?3ff8393" type="text/javascript"></script>
+</body>
+</html>
