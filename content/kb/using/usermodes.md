@@ -18,6 +18,7 @@ every time you connect—most clients can automate this for you.
 | i<br>(invisible) | Hides you from global WHO/WHOIS by normal users, and shows only shared channels in /WHOIS output. |
 | Q<br>(disable forwarding) | Prevents channel forwards from affecting you. If a channel's modes prevent you from joining, you will receive the relevant error message regardless of any forwards. |
 | R<br>(block unidentified) | Ignores private messages from users who are not identified with services. |
+| u<br>(unfiltered) | Receive messages that are filtered server side by freenode based on content, usually spam. Set +u if you want to receive these messages. Also see the corresponding channel mode. |
 | w<br>(see wallops) | Subscribes you to /wallops messages from freenode staff. Used infrequently to highlight interesting announcements from the FOSS community. You will receive important network announcements irrespective of this setting. |
 | Z<br>(connected securely) | Set automatically by the network when you connect via SSL/TLS. |
 
