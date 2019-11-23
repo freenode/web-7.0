@@ -1,6 +1,6 @@
 ---
 author: christel
-date: 2019-23-11 18:50:20+00:00
+date: 2019-11-13 18:50:20+00:00
 slug: freenode-pia-changes
 title: Private Internet Access and the freenode project
 ---
