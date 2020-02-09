@@ -30,3 +30,12 @@ If you know of any additions or corrections to the lists above, or would like to
 
 Documentation on how to create certificates and add their fingerprints to NickServ for SASL EXTERNAL
 can be found in [the article on NickServ and certificates](kb/using/certfp).
+
+SASL access only IP ranges
+==========================
+
+Some IP address ranges are configured to require SASL authentication to an existing NickServ account with a **verified email address**. Connections from these ranges will be refused with the message `SASL access only`. You can follow the instructions above to configure many commonly used clients.
+
+To [create a NickServ account](https://freenode.net/kb/answer/registration) from a restricted IP address, you can first connect to the [freenode webchat](https://webchat.freenode.net). Webchat is not affected by the SASL restriction. Once your NickServ account's email address has been verified you can use that account to satisfy the SASL requirement.
+
+SASL access only restrictions are typically applied to addresses ranges that are the source of frequent policy violations due to providing easy access to dynamic addresses to a wide range of users. These ranges are typically used by VPN, cloud-computing, and mobile network providers. *These restrictions are not targeted at individual users.*
