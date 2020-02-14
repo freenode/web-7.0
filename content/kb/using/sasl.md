@@ -38,4 +38,4 @@ Some IP address ranges are configured to require SASL authentication to an exist
 
 To [create a NickServ account](https://freenode.net/kb/answer/registration) from a restricted IP address, you can first connect to the [freenode webchat](https://webchat.freenode.net). Webchat is not affected by the SASL restriction. Once your NickServ account's email address has been verified you can use that account to satisfy the SASL requirement.
 
-SASL access only restrictions are typically applied to addresses ranges that are the source of frequent policy violations due to providing easy access to dynamic addresses to a wide range of users. These ranges are typically used by VPN, cloud-computing, and mobile network providers. *These restrictions are not targeted at individual users.*
+SASL access only restrictions are typically applied to address ranges that are the source of frequent policy violations due to providing easy access to dynamic addresses to a wide range of users. These ranges are typically used by VPN, cloud-computing, and mobile network providers. *These restrictions are not targeted at individual users.*
