@@ -76,9 +76,9 @@ clients, so please check their docs for instructions for now.
 
 ### Verifying Tor TLS connections
 
-**A Tor hidden service name securely identifies the service you are connecting to. Verifying the TLS server certificate is strickly-speaking unnecessary while using the hidden service.** Nonetheless the following methods can be used to verify the hidden service's TLS server certificate.
+A Tor hidden service name securely identifies the service you are connecting to. Verifying the TLS server certificate is strickly-speaking unnecessary while using the hidden service. Nonetheless the following methods can be used to verify the hidden service's TLS server certificate.
 
-The best way to ensure the TLS server-side certificate successfully validates is to add the following fragment to your `torrc` configuration file and configure your client to connect to `zettel.freenode.net`. The TLS server certificate used by the hidden service will validate using this hostname.
+The best way to ensure the TLS server-side certificate successfully validates is to add the following fragment to your `torrc` configuration file and configure your client to connect to `zettel.freenode.net` via Tor. The TLS server certificate used by the hidden service will validate using this hostname.
 
     # torrc snippet:
     MapAddress zettel.freenode.net ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
