@@ -22,7 +22,7 @@ If you have a nick grouped to your account that you would like to use as your ma
 
 Remember that you can use sendpass to recover lost passwords - see `/msg NickServ HELP SENDPASS`.
 
-If you have any questions, please do not hesitate to ask our volunteers in #freenode or listed on `/stats p`
+If you have any questions, please do not hesitate to ask our volunteers in #freenode or listed on `/stats p`.
 
 Thank you for using freenode, we hope you enjoy the services we provide. 
 
