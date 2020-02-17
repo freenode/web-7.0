@@ -29,7 +29,7 @@
     /* box colors */
     --border-color:    var(--c-dark);
     --box-color:       var(--c-bg-light);
-    --box-hover-color: var(--c-dark);;
+    --box-hover-color: var(--c-dark);
     --box-round:       10px;
 
     /* other */
@@ -241,6 +241,22 @@ img {
 .main h6 + p,
 .main blockquote > p:first-child {
     margin-top: 0;
+}
+
+
+.main pre {
+    padding: .5em .75em;
+    border: 1px solid var(--c-border);
+    overflow-x: auto;
+}
+
+.main :not(pre)>code {
+    padding: 0 0.2em;
+}
+
+.main pre, .main :not(pre)>code {
+    background: var(--c-shadow);
+    border-radius: .25em;
 }
 
 .toclink,
