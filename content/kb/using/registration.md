@@ -31,7 +31,7 @@ staff will be happy to discuss it and answer any questions you may have.
 
         /msg NickServ REGISTER YourPassword youremail@example.com
 
-    Replace "YourPassword" with a secure, unguessable password that you keep secret.
+    Replace "YourPassword" with a secure, unguessable password. You should not share this and are highly discouraged from using any password that you use elsewhere to prevent account compromise.
 
     The email address that you select will not be given out by staff, and is mainly used to allow us to help you recover the account in the event that you forget
     your password. For this reason, you are required to use a real, non-disposable, email address.
@@ -39,7 +39,7 @@ staff will be happy to discuss it and answer any questions you may have.
     Upon registering, you will receive an email with a verification command that you will need to run to complete the registration process. **Failure to verify** the
     account will cause it to be automatically **dropped** after about 24 hours.
 
-    We do not recommend sharing your NickServ password with anyone else as this could compromise account security and make it harder for you to recover your account in the future.
+    It may be harder to recover your account in the future if you do not follow this advice.
 
 4.  It's useful, but not required, to have an alternate nick grouped to your account. For example, if your primary nick is "YourNick":
 
