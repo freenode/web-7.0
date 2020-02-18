@@ -70,12 +70,22 @@ NickServ account. This is documented [in our knowledge base](kb/using/certfp).
 
 Connecting using SASL EXTERNAL requires that you connect using SSL encryption.
 
-Note that due to the SSL certificates not matching the hidden service, you
-might have to disable the verification in your client. If your client supports
-*key* pinning, you can verify our Tor server's public key fingerprint:
-
-    E0:1B:31:80:56:D9:78:C4:2B:2D:3F:B2:DB:81:AB:03:15:59:BF:04:7E:31:E8:60:5F:98:07:A1:BB:8F:A3:0D
-
 You'll then want to tell your client to try the `EXTERNAL` mechanism. We lack
 comprehensive documentation for this, but it's a feature in most modern
 clients, so please check their docs for instructions for now.
+
+### Verifying Tor TLS connections
+
+A Tor hidden service name securely identifies the service you are connecting to. Verifying the TLS server certificate is strickly-speaking unnecessary while using the hidden service. Nonetheless the following methods can be used to verify the hidden service's TLS server certificate.
+
+The best way to ensure the TLS server-side certificate successfully validates is to add the following fragment to your `torrc` configuration file and configure your client to connect to `zettel.freenode.net` via Tor. The TLS server certificate used by the hidden service will validate using this hostname.
+
+    # torrc snippet:
+    MapAddress zettel.freenode.net ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+
+Older clients that don't support SOCKS4a or later will need to use `MapAddress` with an IP address, and the certificate will not validate successfully. In this case validation will need to be disabled.
+
+Note that the hidden service's certificate changes periodically as it is updated. This means that the *certificate fingerprint* can not be reliably pinned. A few clients support *public key pinning*, however. For these clients the following *public key fingerprint* can be pinned:
+
+    # sha256 public key fingerprint
+    E0:1B:31:80:56:D9:78:C4:2B:2D:3F:B2:DB:81:AB:03:15:59:BF:04:7E:31:E8:60:5F:98:07:A1:BB:8F:A3:0D
