@@ -8,7 +8,7 @@ category: technical
 imported: no
 ---
 
-During the Easter weekend (April 12th - 15th) we will be purging the freenode services database. 
+During the Easter weekend (April 12th to 15th) we will be purging the freenode services database. 
 We periodically prune the database to remove expired accounts, nicknames and channels. Just like previous database purges we will be removing any accounts and nicknames that have not been used for 120 days at the time of the purge. 
 
 We appreciate that not everyone remembers to identify to services, and we would urge you to check and, if necessary, ensure that you identify so as to not lose your account/nickname(s) during the purge if you use any that may be approaching the expiration limit (120 days) used in connection with the services purge.
