@@ -5,7 +5,6 @@ slug: scheduled-maintenance-services-database-spring-cleaning
 title: [Scheduled Maintenance] Services database spring cleaning
 category: infrastructure
 category: technical
-imported: no
 ---
 
 During the Easter weekend (April 12th to 15th) we will be purging the freenode services database. 
