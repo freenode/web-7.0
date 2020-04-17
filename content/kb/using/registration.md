@@ -41,7 +41,9 @@ staff will be happy to discuss it and answer any questions you may have.
 
     We do not recommend sharing your NickServ password with anyone else as this could compromise account security and make it harder for you to recover your account in the future.
 
-4.  It's useful, but not required, to have an alternate nick grouped to your account. For example, if your primary nick is "YourNick":
+4.  Under some circumstances, you may wish to use more than one nickname while still being logged in to your NickServ account.
+
+    To **group** the secondary nickname YourNick2 to the primary nickname YourNick:
 
         /nick YourNick2
 
