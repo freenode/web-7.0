@@ -21,6 +21,7 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [LimeChat](kb/sasl/limechat)
 * [mIRC](kb/sasl/mirc)
 * [Quassel](kb/sasl/quassel)
+* [Revolution](kb/sasl/revolution)
 * [Textual](kb/sasl/textual)
 * [WeeChat](kb/sasl/weechat)
 * [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#Example)
