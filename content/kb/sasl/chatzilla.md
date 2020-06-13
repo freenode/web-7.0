@@ -8,4 +8,4 @@ This script is by Gryllida, for the [ChatZilla add-on <i class="fa fa-external-l
 4. Enter `/plugin-pref cz_sasl sasl.password YOUR_PASSWORD` replacing `YOUR_PASSWORD` with your NickServ password
 5. If you want to continue connecting when SASL authentication fails, enter `/plugin-pref cz_sasl sasl.proceed_on_fail true`
 
-If everything has been configured correctly, the next time you connect you should see the message "SASL authentication successful".
+If everything has been configured correctly, the next time you connect you should see the message `SASL authentication successful`.
