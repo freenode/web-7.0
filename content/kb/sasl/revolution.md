@@ -6,7 +6,7 @@ If you have already added freenode as a server, long press on it and select Edit
 1. On the `Manage servers` screen, the main screen, press `+` button on the bottom-right of the screen
 2. Enter a name (perhaps freenode)
 3. Enter `chat.freenode.net` as `Server address`, making sure `Port` is set to `6697` and `Use SSL/TLS` is ticked
-4. Leave `Server password` blank
+4. Make sure `Server password` is blank
 5. Select `Username with password (SASL)` from the `Authentication mode` dropdown list
 6. Enter your freenode account name as `Username`
 7. Enter your freenode account password as `Password`
