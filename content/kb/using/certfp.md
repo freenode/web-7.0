@@ -112,7 +112,7 @@ Once done, apply the configuration and (re)connect to freenode.
 Revolution
 ----------
 
-Create the pem file as per above, transfer it to your Android device, and place
+Create the .pem file as per above, transfer it to your Android device, and place
 it wherever you want (`Downloads` is a common location).
 Start Revolution and navigate to the `Manage servers` screen if you are not
 there already, long-press on the server you wish configure certfp for, and
