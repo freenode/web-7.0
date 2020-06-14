@@ -22,6 +22,7 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [mIRC](kb/sasl/mirc)
 * [Pidgin](kb/sasl/pidgin)
 * [Quassel](kb/sasl/quassel)
+* [Revolution](kb/sasl/revolution)
 * [Textual](kb/sasl/textual)
 * [WeeChat](kb/sasl/weechat)
 * [ZNC <i class="fa fa-external-link" aria-hidden="true"></i>](http://wiki.znc.in/Sasl#Example)
