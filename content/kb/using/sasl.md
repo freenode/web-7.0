@@ -20,6 +20,7 @@ We have instructions on how to configure SASL for some clients, below. If asked 
 * [KVIrc](kb/sasl/kvirc)
 * [LimeChat](kb/sasl/limechat)
 * [mIRC](kb/sasl/mirc)
+* [Pidgin](kb/sasl/pidgin)
 * [Quassel](kb/sasl/quassel)
 * [Revolution](kb/sasl/revolution)
 * [Textual](kb/sasl/textual)
