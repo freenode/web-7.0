@@ -6,19 +6,19 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
-    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
-    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
-    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
-    <title>freenode at DEFCON25 - freenode</title>
-    <link href="../static/css/open-sans.css?cc13900" rel="stylesheet">
-    <link href="../static/css/font-awesome.css?cc13900" rel="stylesheet">
-    <link href="../static/css/style.css?cc13900" rel="stylesheet">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Configuring SASL for Pidgin - freenode</title>
+    <link href="../../static/css/open-sans.css?cc13900" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?cc13900" rel="stylesheet">
+    <link href="../../static/css/style.css?cc13900" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
         <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
-        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
-        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
         <form id="nav-search" action="https://www.google.com/cse">
             <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
             <input type="hidden" name="ie" value="ISO-8859-1">
@@ -31,24 +31,21 @@
     <div class="container">
         
 <div class="main">
-    <div class="art-info">
-        
-<a href="defcon"><h1 class="art">freenode at DEFCON25</h1></a>
-<span class="art-date">christel on 2017-07-24</span>
-
-    </div>
-    <div class="art-body">
-    <h2 id="defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you"><a class="toclink" href="#defcon25-takes-place-at-caesars-palace-in-las-vegas-on-27-30-of-this-month-freenode-will-be-therewill-you">DEFCON25 takes place at Caesar's Palace in Las Vegas on 27-30 of this month. freenode will be there—will you?</a></h2>
-<p>This year, freenode will have a booth in the vendor village—come have a chat with us, grab some stickers or get your hands on a limited edition freenode t-shirt!</p>
-<h2 id="freenode-live-october-28-29th-2017"><a class="toclink" href="#freenode-live-october-28-29th-2017">freenode #live - October 28-29th 2017</a></h2>
-<p>Only a few more days to lock in to the special early bird ticket price! Get your <a href="https://freenode.live/conference/fn-live17/tickets">tickets now</a>, and don't forget to make a CFP submission if you fancy giving a talk. </p>
-<p>Stay tuned, we're excited to be announcing the keynote speakers in the next few days!</p>
-    </div>
-    
-<div class="art-nav">
-    <span><a href="freenode-live-exhibit">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="opening-keynote">next article</a></span>
-</div>
-
+    <h1>Configuring SASL for Pidgin</h1>
+    <p class="art-ingress">
+        <p>If you have already added freenode as an account, skip to step 5.</p>
+<ol>
+<li>Open <code>Manage Accounts</code> (open by default when no accounts are configured, or press CTRL+A)</li>
+<li>Click <code>Add...</code> button</li>
+<li>Select <code>IRC</code> in protocol dropdown, enter <code>chat.freenode.net</code> as <code>Server</code></li>
+<li>Enter your freenode account name as <code>Username</code></li>
+<li>Enter your freenode account password as <code>Password</code> and tick <code>Remember password</code></li>
+<li>Click on to the <code>Advanced</code> tab</li>
+<li>Change <code>Port</code> to <code>6697</code>, tick <code>Use SSL</code> and <code>Authenticate with SASL</code></li>
+<li>If this is a newly created Pidgin account, click <code>Add</code> and pidgin will begin to connect</li>
+<li>If this is an existing account, click <code>Save</code>, then restart Pidgin for the SASL settings to take effect.</li>
+</ol>
+    </p>
 </div>
 
     </div>
@@ -62,16 +59,16 @@
         <ul>
             
             <li>
-                <a href="../project">The project</a>
+                <a href="../../project">The project</a>
             </li>
             <li>
-                <a href="../people">The people</a>
+                <a href="../../people">The people</a>
             </li>
             <li>
-                <a href="../philosophy">The philosophy</a>
+                <a href="../../philosophy">The philosophy</a>
             </li>
             <li>
-                <a href="../policies">The policies</a>
+                <a href="../../policies">The policies</a>
             </li>
             <li>
                 <a href="//freenode.live">freenode #live</a>
@@ -80,12 +77,12 @@
                 <a href="//jobs.freenode.net">jobs.freenode.net</a>
             </li>
             <li>
-                <a href="../acknowledgements">Acknowledgements</a>
+                <a href="../../acknowledgements">Acknowledgements</a>
             </li>
             <li>
                 
                 
-                    <a href="../archive">News Archive</a>
+                    <a href="../../archive">News Archive</a>
                 
                 
                 
@@ -93,7 +90,7 @@
                 
                 
                 
-                    <a href="rss.xml">RSS</a>
+                    <a href="../../news/rss.xml">RSS</a>
                 
                 
                 
@@ -101,7 +98,7 @@
                 
                 
                 
-                    <a href="atom.xml">Atom</a>
+                    <a href="../../news/atom.xml">Atom</a>
                 
                 
             </li>
@@ -131,22 +128,22 @@
                 
             </li>
             <li>
-                <a href="../changuide">Channel guidelines</a>
+                <a href="../../changuide">Channel guidelines</a>
             </li>
             <li>
-                <a href="../catalysts">Catalyst guidelines</a>
+                <a href="../../catalysts">Catalyst guidelines</a>
             </li>
             <li>
-                <a href="../kb/all">Knowledge base</a>
+                <a href="../all">Knowledge base</a>
             </li>
             <li>
-                <a href="../support">Supporting the project</a>
+                <a href="../../support">Supporting the project</a>
             </li>
             <li>
-                <a href="../groupreg">Group registration</a>
+                <a href="../../groupreg">Group registration</a>
             </li>
             <li>
-                <a href="../groupreg">Existing groups</a>
+                <a href="../../groupreg">Existing groups</a>
             </li>
         </ul>
     </div>
@@ -166,7 +163,7 @@
             </li>
             <li>
                 <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
-                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
                 <span class="hdn">Private Internet Access</span></a>
             </li>
         </ul>
@@ -178,7 +175,7 @@
     <div>
     <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
     <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
-        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
     </a>
     </div>
     <div>
@@ -186,6 +183,6 @@
     </div>
 </footer>
     </div>
-    <script src="../static/js/utils.js?cc13900" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?cc13900" type="text/javascript"></script>
 </body>
 </html>
