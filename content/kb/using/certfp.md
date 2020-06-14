@@ -82,7 +82,7 @@ Refer to znc's [official documentation](http://wiki.znc.in/Cert).
 HexChat
 -------
 
-Place the pem file in `certs/client.pem` in the HexChat config
+Place the .pem file in `certs/client.pem` in the HexChat config
 directory (`~/.config/hexchat/` or `%appdata%\HexChat`). Note
 that the `certs` directory does not exist by default and you will have to
 create it yourself. Once the file is there, all subsequent SSL connections
@@ -97,7 +97,7 @@ punctuation (e.g. `certs/freenode.pem` or `certs/Example Server.pem`).
 Konversation
 ------------
 
-Create the pem file as per above, then place it wherever you want. 
+Create the .pem file as per above, then place it wherever you want.
 Start Konversation, then open the Identity dialogue by either pressing F8
 or via the Settings menu entry. Choose the identity you use for the 
 freenode network or create a new one. 
