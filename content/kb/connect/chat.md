@@ -50,11 +50,6 @@ the following hidden service as the server address instead:
 
     ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
 
-If you are using an old version of Tor (before 0.3.5) that does not support
-v3 addresses, you should instead use the following address:
-
-    freenodeok2gncmy.onion
-
 The hidden service requires SASL authentication. In addition, due to the abuse
 that led Tor access to be disabled in the past, we have unfortunately had to
 add another couple of restrictions:
