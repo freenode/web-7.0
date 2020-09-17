@@ -14,9 +14,7 @@ and 7070 for SSL-encrypted connections.
 
 freenode provides SSL client access on all servers, on ports 6697, 7000 and
 7070. Users connecting over SSL will be given user mode +Z, and _is using a
-secure connection_ will appear in WHOIS (a 671 numeric). Webchat users will not
-currently appear with +Z or the 671 numeric, even if they connect to webchat
-via SSL.
+secure connection_ will appear in WHOIS (a 671 numeric).
 
 In order to verify the server certificates on connection, some additional work
 may be required. First, ensure that your system has an up-to-date set of root
