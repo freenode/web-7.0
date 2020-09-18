@@ -6,7 +6,7 @@ Slug: certfp
 As an alternative to password-based authentication, you can connect to freenode
 with a TLS certificate and have services recognise it automatically.
 
-For SASL EXTERNAL to work, you must connect over SSL. 
+For SASL EXTERNAL to work, you must connect over TLS.
 
 Creating a self-signed certificate
 ==================================

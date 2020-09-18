@@ -32,7 +32,7 @@ To unset a mode, use `/mode #channel -(mode)`
 | Q<br>(block forwarded users) | Users cannot be forwarded (see +f above) to a channel with +Q. |
 | r<br>(block unidentified) | Prevents users who are not identified to services from joining the channel. |
 | s<br>(secret) | This channel will not appear on channel lists or WHO or WHOIS output unless you are on it. |
-| S<br>(SSL-only) | Only users connected via SSL may join the channel while this mode is set. Users already in the channel are not affected. Keep in mind that this also blocks all webchat users, as they are not marked as connected via SSL. |
+| S<br>(TLS-only) | Only users connected via TLS may join the channel while this mode is set. Users already in the channel are not affected. Keep in mind that this also blocks all webchat users, as they are not marked as connected via TLS. |
 | t<br>(ops topic) | Only channel operators may set the channel topic. |
 | u<br>(unfiltered) | Receive messages that are filtered server side by freenode based on content, usually spam. Set +u if you want the channel to receive these messages. Also see the corresponding user mode. |
 | z<br>(reduced moderation) | The effects of +b, +q, and +m are relaxed. For each message, if that message would normally be blocked by one of these modes, it is instead sent to channel operators (+o). |
