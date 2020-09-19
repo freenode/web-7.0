@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Connecting to freenode - freenode</title>
-    <link href="../../static/css/open-sans.css?dac9cb2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?dac9cb2" rel="stylesheet">
-    <link href="../../static/css/style.css?dac9cb2" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?3ca3950" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?3ca3950" rel="stylesheet">
+    <link href="../../static/css/style.css?3ca3950" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -38,10 +38,10 @@ webchat</a> or using an IRC client such as irssi, WeeChat,
 ERC, HexChat, Smuxi, Quassel or mIRC.</p>
 <p>You can connect to freenode by pointing your IRC client at <code>chat.freenode.net</code>
 on ports 6665-6667 and 8000-8002 for plain-text connections, or ports 6697, 7000
-and 7070 for SSL-encrypted connections.</p>
-<h2 id="accessing-freenode-via-ssl"><a class="toclink" href="#accessing-freenode-via-ssl">Accessing freenode Via SSL</a></h2>
-<p>freenode provides SSL client access on all servers, on ports 6697, 7000 and
-7070. Users connecting over SSL will be given user mode +Z, and <em>is using a
+and 7070 for TLS-encrypted connections.</p>
+<h2 id="accessing-freenode-via-tls"><a class="toclink" href="#accessing-freenode-via-tls">Accessing freenode Via TLS</a></h2>
+<p>freenode provides TLS client access on all servers, on ports 6697, 7000 and
+7070. Users connecting over TLS will be given user mode +Z, and <em>is using a
 secure connection</em> will appear in WHOIS (a 671 numeric).</p>
 <p>In order to verify the server certificates on connection, some additional work
 may be required. First, ensure that your system has an up-to-date set of root
@@ -57,7 +57,7 @@ that leads to freenode.</p>
 <p>For most clients this should be sufficient. If not, you can download the root
 certificate from
 <a href="https://letsencrypt.org/certificates/">LetsEncrypt</a>.</p>
-<p>Client SSL certificates are also supported, and may be used for identification
+<p>Client TLS certificates are also supported, and may be used for identification
 to services. See <a href="certfp">this kb article</a>. If you have connected with
 a client certificate, <em>has client certificate fingerprint
 f1ecf46714198533cda14cccc76e5d7114be4195</em> (showing your certificate's SHA1
@@ -80,7 +80,7 @@ add another couple of restrictions:</p>
 <p>If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate and add that to your
 NickServ account. This is documented <a href="certfp">in our knowledge base</a>.</p>
-<p>Connecting using SASL EXTERNAL requires that you connect using SSL encryption.</p>
+<p>Connecting using SASL EXTERNAL requires that you connect using TLS encryption.</p>
 <p>You'll then want to tell your client to try the <code>EXTERNAL</code> mechanism. We lack
 comprehensive documentation for this, but it's a feature in most modern
 clients, so please check their docs for instructions for now.</p>
@@ -233,6 +233,6 @@ E0:1B:31:80:56:D9:78:C4:2B:2D:3F:B2:DB:81:AB:03:15:59:BF:04:7E:31:E8:60:5F:98:07
     </div>
 </footer>
     </div>
-    <script src="../../static/js/utils.js?dac9cb2" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?3ca3950" type="text/javascript"></script>
 </body>
 </html>
