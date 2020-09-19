@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Registering a channel on freenode - freenode</title>
+    <link href="../static/css/open-sans.css?2f69186" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?2f69186" rel="stylesheet">
+    <link href="../static/css/style.css?2f69186" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="registering-a-channel-on-freenode"><h1 class="art">Registering a channel on freenode</h1></a>
+<span class="art-date">denny on 2008-04-22</span>
+
+    </div>
+    <div class="art-body">
+    <p>One of the questions we get asked a lot in #freenode is "What's the command to register my channel?"This being the freenode staff blog, I'd like to answer that question the long way around  ;)</p>
+<p><strong>Step 1</strong> - make sure you're in the right place</p>
+<p>The freenode IRC network has some very specific goals and objectives, and it's intended primarily for developers of free and open source software.  Please read these pages and make sure we're the appropriate network for your channel and its users:</p>
+<p><a href="http://freenode.net/philosophy.shtml">http://freenode.net/philosophy.shtml</a></p>
+<p><a href="http://freenode.net/policy.shtml#ontopic">http://freenode.net/policy.shtml#ontopic</a></p>
+<p><a href="http://freenode.net/policy.shtml#offtopic">http://freenode.net/policy.shtml#offtopic</a></p>
+<p><strong>Step 2</strong> - register your nick</p>
+<p>If you're not identified to NickServ as a registered nick, then you can't register a channel.  Instructions for registering a nick can be found here:</p>
+<p><a href="http://freenode.net/faq.shtml#nicksetup">http://freenode.net/faq.shtml#nicksetup</a></p>
+<p><strong>Step 3</strong> - pick a channel name</p>
+<p>Before you choose the name for your channel, you should be aware that freenode uses an unusual naming convention to indicate the difference between official (primary) and unofficial (about or topical) IRC channels.  A primary channel is considered appropriate for a channel operated by a project (The Ubuntu project operates #ubuntu) or a group (The philadelphia linux users group operates #plug).  In these examples, these groups have a valid claim to the channel name.  An about channel or topical channel is a channel for a specific subject or topic, but operated by someone without a claim to the channel name. Please read our channel naming guidelines for more details:</p>
+<p><a href="http://freenode.net/policy.shtml#channelnaming">http://freenode.net/policy.shtml#channelnaming</a></p>
+<p>The short version is that official channels (also known as primary channels) are named starting with one #, unofficial (topical or about channels)  start with ##.  If your channel is not an official one, please use ## at the start of the channel name, or you may be asked to move.  Getting it right at the beginning is a lot easier, for you and for us.  There is more information on this policy <a href="http://freenode.net/policy.shtml#channelnaming">here</a>.</p>
+<p><strong>Step 4</strong> - check your channel is available to register</p>
+<p>To check whether a channel has already been registered, use the command:</p>
+<p>/msg ChanServ info ##channelname</p>
+<p>If the channel is already registered, that will give you some info about it.  If it's not, you'll get a message like this:</p>
+<p>-ChanServ- The channel [##channelname] is not registered</p>
+<p><strong>Step 5</strong> - create your channel</p>
+<p>To create a channel on IRC, you just join it.  If you're the first person to join that channel then you create it (if you're not then you'll join the other people in there, and you won't be able to register it unless someone gives you op status).</p>
+<p>/join ##channelname</p>
+<p><strong>Step 6</strong> - register your channel</p>
+<p>The command to register your channel (once you've joined it and you have op status) is as follows:</p>
+<p>/msg ChanServ register ##channelname</p>
+<p>That's all you need.  The channel will be linked to your nick, and whenever you're identified to your nick, you have full top-level access to your channel's settings.</p>
+<p>Okay, so you've registered a channel now.  That's not the end of this post...  there are a LOT of other things you should do as soon as you've got your channel registered.</p>
+<p><strong>Step 7</strong> - read some useful webpages</p>
+<p><a href="http://freenode.net/channel_guidelines.shtml">http://freenode.net/channel_guidelines.shtml</a> - our Channel Guidelines - useful info on how to run a good channel on freenode.</p>
+<p><a href="http://freenode.net/catalysts.shtml">http://freenode.net/catalysts.shtml</a> - about Catalysts - an incredibly important concept that makes freenode the great network that it is.  Please try to be a catalyst whenever you're on the network, but most importantly when you're running your own channel.</p>
+<p><strong>Step 8</strong> - read the ChanServ help pages</p>
+<p>The ChanServ help pages really are actually helpful.  If you're running your own channel, you probably should have read everything in them - it won't take long, a few hours at most, and then you'll know all the cool things you can do with your channel.</p>
+<p>/msg ChanServ help</p>
+<p><strong>Step 9</strong> - consider registering your group with freenode</p>
+<p>As well as registering your channel with ChanServ, it's possible to gain a more official relationship with freenode, where we have an established contact person that we know is allowed to represent your project to us.  You can read about Group Registration here:</p>
+<p><a href="http://freenode.net/group_registration.shtml">http://freenode.net/group_registration.shtml</a></p>
+<p><strong>Step 10</strong> - if in doubt, ask!</p>
+<p>Finally, if you need help with anything to do with registering or running your channel, remember that the network staff on freenode are friendly and really do want to help you!  You're welcome to /msg us at any time to ask for help.  Even better, come and ask your question in #freenode , where both staff and volunteer helpers hang out being helpful  :)</p>
+<p><a href="http://freenode.net/faq.shtml#helpfromstaff">http://freenode.net/faq.shtml#helpfromstaff</a></p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="helping-others-help-you">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="services-migration">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2020, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?2f69186" type="text/javascript"></script>
+</body>
+</html>
