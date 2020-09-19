@@ -82,7 +82,7 @@ Refer to znc's [official documentation](http://wiki.znc.in/Cert).
 HexChat
 -------
 
-Place the pem file in `certs/client.pem` in the HexChat config
+Place the .pem file in `certs/client.pem` in the HexChat config
 directory (`~/.config/hexchat/` or `%appdata%\HexChat`). Note
 that the `certs` directory does not exist by default and you will have to
 create it yourself. Once the file is there, all subsequent SSL connections
@@ -97,7 +97,7 @@ punctuation (e.g. `certs/freenode.pem` or `certs/Example Server.pem`).
 Konversation
 ------------
 
-Create the pem file as per above, then place it wherever you want. 
+Create the .pem file as per above, then place it wherever you want.
 Start Konversation, then open the Identity dialogue by either pressing F8
 or via the Settings menu entry. Choose the identity you use for the 
 freenode network or create a new one. 
@@ -108,6 +108,24 @@ Optionally fill in your account name in the `Account`field.
 You can then choose the certificate you created with the file picker
 or enter the path manually in the field next to it.
 Once done, apply the configuration and (re)connect to freenode.
+
+Revolution
+----------
+
+Create the .pem file as per above, transfer it to your Android device, and place
+it wherever you want (`Downloads` is a common location).
+Start Revolution and navigate to the `Manage servers` screen if you are not
+there already, long-press on the server you wish configure certfp for, and
+select `Edit`. When presented with the `Edit a server` screen, tap on
+`Authentication mode` and select `Client certificate (CertFP)`, then tap on
+`IMPORT PEM` and navigate to where where you put the pem file and select it.
+Tap the tick symbol on the top right of the `Edit a server` screen to save.
+
+Alternatively, Revolution has the ability to generate a client certificate for you.
+Once you are presented with `IMPORT PEM`, there will also be an option to `CREATE NEW`
+and when you tap this, a certificate will be randomly generated and a certicate
+fingerprint will be displayed. Tap the tick symbol on the top right of the screen
+to save.
 
 Add your fingerprint to NickServ
 ================================
