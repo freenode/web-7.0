@@ -8,7 +8,7 @@ Before you proceed to email us, please make sure you have done the following
 
 * Read about [group registration](/groupreg)
 * Had a look at [freenode's policies](/policies)
-* Discussed your project with a member of the [group management and community team](/groupreg#group-management-community-team), or other member of freenode staff
+* Discussed your project with a member of the group management and community team, or any other member of freenode staff
 
 After you have done so and have been referred to this page, include the following
 details in an email to <projects@freenode.net>.
@@ -16,7 +16,7 @@ details in an email to <projects@freenode.net>.
     # About your project
     Your project name:
     Your project blurb:
-    freenodestaff member you have discussed this registration with:
+    freenode staff member you have discussed this registration with:
     
     Links to places we can find out more about your project:
     
