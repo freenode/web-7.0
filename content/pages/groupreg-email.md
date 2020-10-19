@@ -15,7 +15,7 @@ details in an email to <projects@freenode.net>.
 
     # About your project
     Your project name:
-    Your project blurb:
+    Your project description:
     freenode staff member you have discussed this registration with:
     
     Links to places we can find out more about your project:
