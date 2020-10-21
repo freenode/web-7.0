@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Configuring SASL for Irssi - freenode</title>
-    <link href="../../static/css/open-sans.css?a09a66c" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?a09a66c" rel="stylesheet">
-    <link href="../../static/css/style.css?a09a66c" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?7bbe31e" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?7bbe31e" rel="stylesheet">
+    <link href="../../static/css/style.css?7bbe31e" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,8 +50,9 @@ find out by running <code>irssi -v</code> in your nearest shell).</p>
 <p>These versions need a separate script in order to support SASL: <code>cap_sasl.pl</code>.
 You can install it from <a href="https://scripts.irssi.org">https://scripts.irssi.org</a>:</p>
 <pre><code>mkdir -p ~/.irssi/scripts/autorun
-wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ~/.irssi/scripts/cap_sasl.pl
-ln -sf ../cap_sasl.pl ~/.irssi/scripts/autorun/
+cd ~/.irssi/scripts/autorun
+wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ../cap_sasl.pl
+ln -sf ../cap_sasl.pl .
 </code></pre>
 <p>Now load and configure it inside Irssi:</p>
 <pre><code>/script load cap_sasl
@@ -199,6 +200,6 @@ ln -sf ../cap_sasl.pl ~/.irssi/scripts/autorun/
     </div>
 </footer>
     </div>
-    <script src="../../static/js/utils.js?a09a66c" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?7bbe31e" type="text/javascript"></script>
 </body>
 </html>
