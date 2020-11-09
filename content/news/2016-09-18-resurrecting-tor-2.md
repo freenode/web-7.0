@@ -9,9 +9,9 @@ Following an embarrassingly long period of no Tor support, we [recently
 blogged](news/2016-09-05-tor-sasl) about resurrecting Tor.
 
 As of today, Tor users can once more connect to freenode over Tor; the hidden
-service address is
+service address is (updated Aug 2020, see footnote)
 
-    freenodeok2gncmy.onion
+    ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
 
 The hidden service requires SASL authentication, as before. In addition, due to
 the abuse that led Tor access to be disabled in the first place, we have
@@ -38,3 +38,6 @@ clients—check their docs for instructions for now.
 It's currently not possible to register an account for use with Tor without
 connecting at least once over the Internet. We're investigating our options, and
 would like to provide a solution to this in the future.
+
+(Aug 2020 footnote: the old address was `freenodeok2gncmy.onion`. We have deprecated this following the release of Tor HS
+v3 by upstream Tor, with v2 due to become deprecated in the network. )

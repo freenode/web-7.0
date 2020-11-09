@@ -1,4 +1,0 @@
-{
-	"use": ["postcss-cssnext", "postcss-csso"],
-	"local-plugins": true
-}
