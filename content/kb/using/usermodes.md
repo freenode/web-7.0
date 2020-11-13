@@ -14,7 +14,7 @@ every time you connect—most clients can automate this for you.
 # Available user modes
 | Mode (name) | Description |
 | ----------- | ----------- |
-| g<br>(caller-id) | Ignores private messages from unknown users, instead informing you someone is attempting to message you. You can choose to receive messages with the `/accept` command. Messaging a user automatically accepts them. |
+| g<br>(caller-id) | Ignores private messages from unknown users, instead informing you someone is attempting to message you. You can choose to receive messages with the `/accept` command. Messaging a user automatically accepts them. Messages from unidentified users will still be blocked by +R. |
 | i<br>(invisible) | Hides you from global WHO/WHOIS by normal users, and shows only shared channels in /WHOIS output. |
 | Q<br>(disable forwarding) | Prevents channel forwards from affecting you. If a channel's modes prevent you from joining, you will receive the relevant error message regardless of any forwards. |
 | R<br>(block unidentified) | Ignores private messages from users who are not identified with services. |
