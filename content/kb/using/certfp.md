@@ -21,7 +21,7 @@ You can generate a certificate with the following command:
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one of
 them to be non-empty. This certificate will last about 3 years - you can check the
-expiration date with the following command:
+expiration date with the following command and set a calendar reminder:
 
     cat freenode.pem | openssl x509 -noout -enddate
 
