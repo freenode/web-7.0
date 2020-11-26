@@ -20,8 +20,10 @@ You can generate a certificate with the following command:
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one of
-them to be non-empty. This certificate will last about 3 years - set a calendar
-event now to ensure that you are reminded when you need to generate a new one.
+them to be non-empty. This certificate will last about 3 years - you can check the
+expiration date with the following command and set a calendar reminder:
+
+    openssl x509 -in freenode.pem -noout -enddate
 
 The `.pem` file will have the same access to your NickServ account as your
 password does, so take appropriate care in securing it.
