@@ -6,11 +6,10 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta name="theme-color" content="#292f2f">
     <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
-    <meta name="robots" content="noindex">
     <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
     <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
-    <title>User-enabled sendpass - freenode</title>
+    <title>Changes to ChanServ regarding cloaks - freenode</title>
     <link href="../static/css/open-sans.css?451d772" rel="stylesheet">
     <link href="../static/css/font-awesome.css?451d772" rel="stylesheet">
     <link href="../static/css/style.css?451d772" rel="stylesheet">
@@ -32,31 +31,39 @@
     <div class="container">
         
 <div class="main">
-    <div class="art-warning">
-        This article was imported from freenode's wordpress blog, and is
-        likely out of date. It's preserved here in the interest of
-        history, but please don't treat it as an authoritative source in
-        any context. Links on this page may be out of date and broken.
-    </div>
     <div class="art-info">
         
-<a href="user-enabled-sendpass"><h1 class="art">User-enabled sendpass</h1></a>
-<span class="art-date">njan on 2014-10-29</span>
+<a href="chanserv-cloak-changes"><h1 class="art">Changes to ChanServ regarding cloaks</h1></a>
+<span class="art-date">edk on 2020-11-28</span>
 
     </div>
     <div class="art-body">
-    <p>As a network, we feel it is hugely important to maintain close relationships with our many communities and users. Our interactions with users in #freenode and elsewhere on the network, fielding support requests and assisting users, help build and maintain these relationships.</p>
-<p>But we're constantly looking for things to change and make better, and one of the pieces of feedback we've had is that users would like a little automation - and the ability to be able to resolve some of their own support requests.</p>
-<p>We recognise that allowing users to generate their own password reset e-mails brings us in line with other registration systems online and may provide a higher quality of service.</p>
-<p>So for now, if you are having difficulties accessing your account, you can generate your own password reset e-mail using the following command:</p>
-<pre><code>/msg NickServ SENDPASS &lt;account&gt;
-</code></pre>
-<p>This command will only work with an offline account (i.e. it won't work if a client is logged into your account via NickServ), and should obviously only be used on an account that you believe is yours.</p>
-<p>We will be keeping an eye on how this feature is used, and may retain it permanently if it proves to be helpful and non-harmful!</p>
+    <p>freenode offers <a href="/kb/answer/cloaks">cloaks</a> to our users, which replace one's
+hostname or IP address in various places with a project affiliation or lack
+thereof. Many of you will be aware that cloaks on freenode <a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip">are not offered as a
+security measure</a> and
+that various means are available to third parties to see through them.</p>
+<p>However, many users acquire cloaks for security/privacy reasons anyway, and
+we've taken the decision to close some of the more glaring holes in the
+protection they offer. Please do note that cloaks are still not recommended
+for hiding a user's IP address.</p>
+<p>We have deployed the following changes to ChanServ:</p>
+<ul>
+<li><strong>AKICK DEL</strong> no longer removes bans against the host behind a cloak</li>
+<li><strong>WHY</strong> no longers considers host-based access</li>
+<li><strong>UNQUIET</strong> no longer unquiets nicks that aren't on the target channel</li>
+</ul>
+<p>Empirically, these are corner cases that don't often come into play when
+managing a channel. However, if you need assistance with something that these
+commands used to do, feel free—as always—to contact staff at any time.</p>
+<p>While bans against IP addresses continue to apply to cloaked users, we intend to
+revise this behaviour in the future due to its privacy implications.</p>
+<p>If you have any questions, please don't hesitate to ask either #freenode or any
+available member of staff.</p>
     </div>
     
 <div class="art-nav">
-    <span><a href="server-issues-update">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="atheme-7-2-and-freenode">next article</a></span>
+    <span><a href="scheduled-maintenance-services-database-spring-cleaning">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span></span>
 </div>
 
 </div>
