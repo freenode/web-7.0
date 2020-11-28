@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?3a9eefe" rel="stylesheet">
-    <link href="static/css/font-awesome.css?3a9eefe" rel="stylesheet">
-    <link href="static/css/style.css?3a9eefe" rel="stylesheet">
+    <link href="static/css/open-sans.css?353bfe4" rel="stylesheet">
+    <link href="static/css/font-awesome.css?353bfe4" rel="stylesheet">
+    <link href="static/css/style.css?353bfe4" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,19 +50,31 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/scheduled-maintenance-services-database-spring-cleaning"><h1 class="art">[Scheduled Maintenance] Services database spring cleaning</h1></a>
-<span class="art-date">Fuchs on 2020-02-22</span>
+<a href="news/chanserv-cloak-changes"><h1 class="art">Changes to ChanServ regarding cloaks</h1></a>
+<span class="art-date">edk on 2020-11-28</span>
 </div>
-    <div class="art-body"><p>During the Easter weekend (April 12th to 15th) we will be purging the freenode services database. 
-We periodically prune the database to remove expired accounts, nicknames and channels. Just like previous database purges we will be removing any accounts and nicknames that have not been used for 120 days at the time of the purge. </p>
-<p>We appreciate that not everyone remembers to identify to services, and we would urge you to check and, if necessary, ensure that you identify so as to not lose your account/nickname(s) during the purge if you use any that may be approaching the expiration limit (120 days) used in connection with the services purge.</p>
-<p>Please note that nicknames and accounts expire separately and you will need to identify to all grouped nicks that you wish to keep, and don’t forget to also check any second accounts you may have for bots or similar (for the sake of your fellow community members we would recommend cycling through any nicknames with a client that is not joined to channels so as to minimise disruption).</p>
-<p>Some channels may also be affected by the NickServ purge and <a href="https://freenode.net/kb/answer/namespaces#topical-channels">topical channels</a> may be dropped from the database should the access list become empty. <a href="https://freenode.net/kb/answer/namespaces#primary-channels">Primary channels</a> will remain registered and can be reclaimed by the affected group contact(s).</p>
-<p>If you have a nick grouped to your account that you would like to use as your main nick, you can change your account name; see <code>/msg NickServ HELP SET ACCOUNTNAME</code> for additional information.
-Remember that you can use sendpass to recover lost passwords - see <code>/msg NickServ HELP SENDPASS</code> for details.
-Please also make sure that your account has a valid e-mail address assigned, as this is the only way to regain access to your account should you lose your password. You can check the current address with <code>/msg NickServ INFO</code> while logged in, and set a new one with the SET EMAIL command, see <code>/msg NickServ HELP SET EMAIL</code> for instructions.</p>
-<p>If you have any questions, please do not hesitate to ask our volunteers in #freenode or listed on <code>/stats p</code>.</p>
-<p>Thank you for using freenode. </p></div>
+    <div class="art-body"><p>freenode offers <a href="/kb/answer/cloaks">cloaks</a> to our users, which replace one's
+hostname or IP address in various places with a project affiliation or lack
+thereof. Many of you will be aware that cloaks on freenode <a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip">are not offered as a
+security measure</a> and
+that various means are available to third parties to see through them.</p>
+<p>However, many users acquire cloaks for security/privacy reasons anyway, and
+we've taken the decision to close some of the more glaring holes in the
+protection they offer. Please do note that cloaks are still not recommended
+for hiding a user's IP address.</p>
+<p>We have deployed the following changes to ChanServ:</p>
+<ul>
+<li><strong>AKICK DEL</strong> no longer removes bans against the host behind a cloak</li>
+<li><strong>WHY</strong> no longers considers host-based access</li>
+<li><strong>UNQUIET</strong> no longer unquiets nicks that aren't on the target channel</li>
+</ul>
+<p>Empirically, these are corner cases that don't often come into play when
+managing a channel. However, if you need assistance with something that these
+commands used to do, feel free—as always—to contact staff at any time.</p>
+<p>While bans against IP addresses continue to apply to cloaked users, we intend to
+revise this behaviour in the future due to its privacy implications.</p>
+<p>If you have any questions, please don't hesitate to ask either #freenode or any
+available member of staff.</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>
@@ -206,6 +218,6 @@ Please also make sure that your account has a valid e-mail address assigned, as 
     </div>
 </footer>
     </div>
-    <script src="static/js/utils.js?3a9eefe" type="text/javascript"></script>
+    <script src="static/js/utils.js?353bfe4" type="text/javascript"></script>
 </body>
 </html>
