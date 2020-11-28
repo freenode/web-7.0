@@ -6,7 +6,7 @@ if [ -z "$TRAVIS_BRANCH" ]; then exit; fi
 BRANCH_DIR="$TRAVIS_BRANCH"
 
 if [ "$TRAVIS_PULL_REQUEST" != false ]; then
-    if [ "$TRAVIS_BRANCH" != master ]; then exit; fi
+    if [ "$TRAVIS_BRANCH" != main ]; then exit; fi
 
     BRANCH_DIR="pull-$TRAVIS_PULL_REQUEST"
 fi
@@ -26,7 +26,7 @@ git commit -m "travis: $TRAVIS_COMMIT"
 git push || exit 1
 cd ../..
 
-if [ "$TRAVIS_BRANCH" = master -a "$TRAVIS_PULL_REQUEST" = false ]; then
+if [ "$TRAVIS_BRANCH" = main -a "$TRAVIS_PULL_REQUEST" = false ]; then
     rm -rf .deploy
     export SSH_KEYFILE="$(readlink -f deploy/key2)"
     export GIT_SSH="$(readlink -f deploy/ssh.sh)"
