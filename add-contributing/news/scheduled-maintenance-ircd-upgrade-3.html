@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>[Scheduled Maintenance] IRCD Upgrade - freenode</title>
+    <link href="../static/css/open-sans.css?14cccdd" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?14cccdd" rel="stylesheet">
+    <link href="../static/css/style.css?14cccdd" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="scheduled-maintenance-ircd-upgrade-3"><h1 class="art">[Scheduled Maintenance] IRCD Upgrade</h1></a>
+<span class="art-date">christel on 2003-08-03</span>
+
+    </div>
+    <div class="art-body">
+    <p>Hi, all.  Yesterday at about 10pm UTC we posted a global notice to let people know that we were considering an upgrade this weekend to pre-1.0.32 dancer-ircd.  We continue to experience clonebot attacks, and the additional features in the new release will be helpful. We directed people to channel <strong>#upgrade</strong> and asked for questions and feedback. After answering questions and taking comments for about an hour, it seemed that the response to the idea of trying the upgrade was pretty favorable.</p>
+<p>The release candidate code can be found  <a href="http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/pre/dancer-ircd-1.0.31+pre23.tar.gz">here</a>,  and we provided information on new server features in a  <a href="http://freenode.net/news-2003-05-28.shtml">previous news item</a>.  It seems from our experience in this and other development cycles that the only real way to get production-load testing in dancer-ircd 1.0 is to go ahead and try the conversion, once we're pretty certain we have reliable code.  The code looks fine in the test environment, and delaying will not help us with kiddie attacks.</p>
+<p>The plan is to try today (Sunday in most venues), converting the small European servers and Australia and a couple of small servers in the US, and then the larger servers in the main rotation. The old protocol is not fully-compatible with the new protocol, so servers which have been converted will be connected to other converted servers, but we'll have two networks until the conversion is complete.  It could take a couple of hours if all goes well.</p>
+<p>Obviously, there is no guarantee we'll be successful.  If need be, we'll back up to the 1.0 environment, which should take about a half hour. If we're able to stay up using pre-1.0.32, we'll just do a bit of cleanup next weekend, which may involve restarting the servers one at a time, but should not require a partition of the network.</p>
+<p>It's suggested that you not change nickname and channel configuration in NickServ and ChanServ while the conversion is going on.  Please stay tuned for global and server notices, and we'll probably provide more detail still on wallops (<strong>/mode yournick +w</strong>). Thanks, and thank you for using freenode!</p>
+<p>Edit:</p>
+<p>Hi all.  Update was successful.  One known bug; +q quietly supersedes +b.  We'll get a fix out for that as soon as possible, please bear with us.  Thanks to everyone for their patience and understanding.</p>
+<p>With the usual abominable timing exhibited by the real world, one of our US hubs will need to reboot this morning to patch a security hole. We believe this will occur at about 07:00 UTC this morning.  Apologies for the inconvenience, and thank you again for your patience.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="hubbing-problems">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="network-status-update">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2020, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?14cccdd" type="text/javascript"></script>
+</body>
+</html>
