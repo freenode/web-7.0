@@ -57,8 +57,8 @@ base.
 When contributing to freenode you will get to interact closely with our
 development team which comprises, amongst others:
 
-* **amdj** &mdash; Services developer, IRCd maintainer, WireGuard mailing list
-  moderator & channel operator, networking & crypto nerd.
+* **amdj** &mdash; Services developer, WireGuard mailing list moderator &
+  channel operator, networking & crypto nerd
 * **bigpresh** &mdash; Perl programmer, sysad, dad, man wishing for more time
   and tuits.
 * **e** &mdash; IRCd and kitchen sink developer, drive-by foss contributor,
