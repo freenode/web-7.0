@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Configuring SASL for Epic5 - freenode</title>
+    <link href="../../static/css/open-sans.css?eccf6e2" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?eccf6e2" rel="stylesheet">
+    <link href="../../static/css/style.css?eccf6e2" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-pia" href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank"><img alt="Private Internet Access" class="nlogo" src="../../static/img/logos/PIALogo_white.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>Configuring SASL for Epic5</h1>
+    <p class="art-ingress">
+        <p>EPIC5 has the sasl_auth script built-in. Mikhail contributed this explanation of how to use it.</p>
+<p>Open your EPIC5 configuration file, ~/.epicrc or ~/.ircrc, in your preferred editor.
+Add the following lines:</p>
+<ul>
+<li><code>load builtins</code></li>
+<li><code>load sasl_auth</code></li>
+<li><code>sasl_auth *.freenode.net plain username password</code></li>
+</ul>
+<p>Replace username with your primary nick. The password may be replaced with your password or omitted, in which case EPIC5 will prompt for the password when it connects.
+You may change <code>*.freenode.net</code> to something more specific if desired, but the * means SASL authentication will be attempted for any freenode.net server.
+Only <code>plain</code> is supported as the authentication mechanism. You may want to use SSL to protect your password.</p>
+<p>If everything has been configured correctly, the next time you connect you should see the message:
+  <code>SASL authentication successful</code></p>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Existing groups</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/" target="_blank">
+                    <img alt="PIA" class="fa-fw" src="../../static/img/logos/pia-robot-original.svg">
+                <span class="hdn">Private Internet Access</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../../static/js/utils.js?eccf6e2" type="text/javascript"></script>
+</body>
+</html>
