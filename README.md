@@ -1,4 +1,4 @@
-# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=master)](https://travis-ci.org/freenode/web-7.0) [![irc: #freenode-website](https://img.shields.io/badge/irc-%23freenode--website-brightgreen.svg)](https://webchat.freenode.net/?channels=freenode-website)
+# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=main)](https://travis-ci.org/freenode/web-7.0) [![irc: #freenode-website](https://img.shields.io/badge/irc-%23freenode--website-brightgreen.svg)](https://webchat.freenode.net/?channels=freenode-website)
 
 A shiny replacement for http://freenode.net.
 
@@ -8,7 +8,7 @@ A shiny replacement for http://freenode.net.
 You'll need our node.js dependencies:
 
 ```console
-$ sudo npm install -g postcss-cli svgo uglifyjs
+$ sudo npm install -g postcss-cli@7.1.2 svgo uglifyjs
 $ npm install
 ```
 
@@ -33,7 +33,7 @@ from any directory, you can also use `cms7 -c /path/to/config.yml`.
 
 - Whenever possible, one commit per feature.
 - If feature/pull-request branches have only one developer, please regularly
-  rebase them onto master until they are merged in.
+  rebase them onto main until they are merged in.
 - Don't merge branches with meaningless commit messages; always squash them
   instead.
 - Wait for discussion of big changes. Your branches will still be here

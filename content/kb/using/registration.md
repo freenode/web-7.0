@@ -31,7 +31,7 @@ staff will be happy to discuss it and answer any questions you may have.
 
         /msg NickServ REGISTER YourPassword youremail@example.com
 
-    Replace "YourPassword" with a secure, unguessable password that you keep secret.
+    Replace "YourPassword" with a secure, unguessable, and unique password that you keep secret. Reusing passwords between services can result in [account compromises](/news/security-update-rpa).
 
     The email address that you select will not be given out by staff, and is mainly used to allow us to help you recover the account in the event that you forget
     your password. For this reason, you are required to use a real, non-disposable, email address.

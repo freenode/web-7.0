@@ -16,6 +16,7 @@ If you don't see your name on this page, and you should, please email us at <b>s
 [CloudFlare](https://www.cloudflare.com/),
 [CloudSigma](https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring),
 [Cubecraft Games](https://www.cubecraft.net/),
+[DataPacket](https://www.datapacket.com/),
 [Exoware](http://www.exoware.net/),
 [FreeBSD](http://www.freebsd.org/),
 [Gandi](http://www.gandi.net/),

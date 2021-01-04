@@ -6,7 +6,7 @@ Slug: certfp
 As an alternative to password-based authentication, you can connect to freenode
 with a TLS certificate and have services recognise it automatically.
 
-For SASL EXTERNAL to work, you must connect over SSL. 
+For SASL EXTERNAL to work, you must connect over TLS.
 
 Creating a self-signed certificate
 ==================================
@@ -16,11 +16,14 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 
 You can generate a certificate with the following command:
 
-    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
+    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out freenode.pem -keyout freenode.pem
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one of
-them to be non-empty.
+them to be non-empty. This certificate will last about 3 years - you can check the
+expiration date with the following command and set a calendar reminder:
+
+    openssl x509 -in freenode.pem -noout -enddate
 
 The `.pem` file will have the same access to your NickServ account as your
 password does, so take appropriate care in securing it.
