@@ -9,7 +9,7 @@
     <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
-    <title>The Philosophy - freenode</title>
+    <title>Contributing - freenode</title>
     <link href="static/css/open-sans.css?861b8b2" rel="stylesheet">
     <link href="static/css/font-awesome.css?861b8b2" rel="stylesheet">
     <link href="static/css/style.css?861b8b2" rel="stylesheet">
@@ -30,18 +30,67 @@
     <div class="container">
         
 <div class="main">
-    <h1>The Philosophy</h1>
-    <p>There are several elements to the freenode philosophy. The project was originally founded to provide interactive discussion facilities to <strong>peer-directed project communities</strong>. Peer-directed projects combine open, informal participation with broad licensing and wide dissemination of output.</p>
-<p>Our basic principles are:</p>
+    <h1>Contributing</h1>
+    <p>freenode relies on several interoperating pieces of software to provide
+an open environment for peer-directed projects. In the spirit of
+<a href="https://freenode.net/philosophy">our philosophy</a>, we use free and open source software to do so.</p>
+<p>We collaborate with upstream development teams for the projects powering
+the network to ensure the specific needs of our communities can be met
+appropriately. In addition, there are various custom-developed tools
+and modules that we make available.</p>
+<p>The majority of our software is available on <a href="https://github.com/freenode">our GitHub profile</a>
+and contributions are always welcome. You can find an overview of open
+tasks <a href="https://github.com/orgs/freenode/projects/1">on our projects board</a>.  We encourage you to contact us
+in <code>#freenode-dev</code> if you want to contribute or have any questions.</p>
+<h2 id="the-platform"><a class="toclink" href="#the-platform">The platform</a></h2>
+<h3 id="ircd"><a class="toclink" href="#ircd">IRCd</a></h3>
+<p>We're in the process of migrating to
+<a href="https://github.com/solanum-ircd/solanum">Solanum</a>, a joint
+effort by freenode and OFTC to develop an IRCd tailored to the needs of
+centrally-managed, community-oriented IRC networks. Solanum is a fork
+of Charybdis, once freenode's upstream, but seeks to continue where it
+left off and is managed as an independent project. Users are encouraged
+to submit issues and patches directly.</p>
+<h3 id="services"><a class="toclink" href="#services">Services</a></h3>
+<p>To provide registration of accounts and channels as well as related
+functionality, we run Atheme, an IRC services package. We maintain
+<a href="https://github.com/freenode/atheme">a fork</a> from which to coordinate
+development; you are welcome to submit patches either to upstream
+Atheme, or to our fork if you'd rather leave upstreaming your changes
+to us. There is also a collection of freenode-specific extension modules
+we maintain directly.</p>
+<h3 id="website"><a class="toclink" href="#website">Website</a></h3>
+<p>Our website <a href="https://github.com/freenode/web-7.0">freenode.net</a> is built on the
+idea that freenode is a community plattform that currently uses IRC.
+We prioritise information about freenode, and the policies and philosophy
+that guides us. The website is also home to important documentation on
+the usage of the network. While we want to encourage users to ask questions
+in the <code>#freenode</code> channel, some information is better kept in our knowledge
+base.</p>
+<h2 id="the-development-team"><a class="toclink" href="#the-development-team">The Development Team</a></h2>
+<p>When contributing to freenode you will get to interact closely with our
+development team which comprises, amongst others:</p>
 <ul>
-<li><strong>Community members benefit from better access to each other.</strong> Putting a number of projects in close proximity in an interactive environment creates linkages between developers and projects, and helps community members take better advantage of each other's work.</li>
-<li><strong>Communication and coordination skills are important to community projects.</strong> Peer-directed projects work because the paradigm works. Developers and community members are not unusually gifted at project coordination and communication. But improving those skills can make projects work better.</li>
-<li><strong>Friendly interaction is more efficient than flaming.</strong> Calm, relaxed discourse without angry contention provides for better exchange of information. Flaming produces situations in which the listener must contend with the state of his or her emotions at least as much as with the comprehension of a speaker's comments.</li>
-<li><strong>Project developers are self-driven.</strong> No one guarantees your work will be used, but only you decide whether a project is worth doing. There is no single right approach to any design, implementation or support problem, and friendly competition is a fundamentally good thing.</li>
-<li><strong>Peer-directed project communities need to grow.</strong> Many valuable peer-directed projects chronically lack skilled, motivated developers with time to devote to them. The potential base for peer-directed project communities includes anyone with the skills and interest to participate. These communities must continue to grow.</li>
-<li><strong>Licensing must be free.</strong> For peer-directed projects to succeed, their creative output must be widely available and usable without significant restriction. For software projects, the <a href="http://www.debian.org/social_contract#guidelines">Debian Free Software Guidelines</a>, the Free Software Foundation's <a href="http://www.gnu.org/philosophy/free-sw.html">Free Software Definition</a> and the Open Source Initiative's <a href="http://www.opensource.org/docs/definition.php">Open Source Definition</a> provide guidelines to help ensure that project creative output remains free. For artistic projects and for the printed word, licenses provided by <a href="http://creativecommons.org/licenses/">Creative Commons</a> and efforts such as the <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a> and the <a href="http://www.freebsd.org/copyright/freebsd-doc-license.html">FreeBSD Documentation License</a> help keep creative output free.</li>
+<li><strong>amdj</strong> — Services developer, WireGuard mailing list moderator &amp;
+  channel operator, networking &amp; crypto nerd</li>
+<li><strong>bigpresh</strong> — Perl programmer, sysad, dad, man wishing for more time
+  and tuits.</li>
+<li><strong>e</strong> — IRCd and kitchen sink developer, drive-by foss contributor,
+  everywhere lurker, sysadmin.</li>
+<li><strong>Fuchs</strong> — Helping out in KDE and local Linux Help- and Usergroups,
+  versatile fox-for-everything on freenode.</li>
+<li><strong>glguy</strong> — Programmer, Haskell-community member, focused on helping
+  users use freenode.</li>
+<li><strong>ilbelkyr</strong> — Services maintainer, trying to help make things work as
+  they should.</li>
+<li><strong>jess</strong> — Pythonista, IRC protocol obsessive, robot engineer and fluffy
+  sandcat.</li>
+<li><strong>mniip</strong> — Hacking around a bit with ircd's, services, irc bots,
+  irc clients, and scripts. Programmer/Mathematician in real life.</li>
+<li><strong>Swant</strong> — Trying to bring more unicorns to our websites, doesn't
+  know how to IRC.</li>
+<li><strong>tomaw</strong></li>
 </ul>
-<p>Licensing which preserves the ability of newcomers to contribute, and maintains a low barrier to entry for development, is essential to the health and success of peer-directed projects.</p>
 </div>
 
     </div>
