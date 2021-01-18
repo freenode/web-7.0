@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>ircd-seven 1.1.8 - freenode</title>
+    <link href="../static/css/open-sans.css?d7eeebb" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?d7eeebb" rel="stylesheet">
+    <link href="../static/css/style.css?d7eeebb" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-info">
+        
+<a href="seven-118"><h1 class="art">ircd-seven 1.1.8</h1></a>
+<span class="art-date">edk on 2019-06-17</span>
+
+    </div>
+    <div class="art-body">
+    <p>Hi all,</p>
+<p>We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
+production network over the coming weeks.</p>
+<p>This release incorporates a number of user-facing changes:</p>
+<ul>
+<li><a href="https://ircv3.net/specs/core/monitor-3.2">Monitor</a> is restored to a usable state, and will be re-enabled.</li>
+<li>Spam filtering can be opted-out of. Setting mode <code>+u</code> on yourself (
+   <code>/umode +u</code> or <code>/mode yournick +u</code>) will disable filtering for messages
+   sent to you. Setting it on a channel will disable filtering for all
+   messages sent to that channel.</li>
+<li><code>/motd</code> and <code>/stats</code> are no longer ratelimited unless directed at a
+   specific server.</li>
+</ul>
+<p>We're also introducing support for several IRCv3 features that may improve the
+experience on capable clients:</p>
+<ul>
+<li><a href="https://ircv3.net/specs/extensions/away-notify-3.1">Away Notifications</a> are supported.</li>
+<li><a href="https://ircv3.net/specs/extensions/chghost-3.2">CHGHOST</a> is supported.</li>
+<li><a href="https://ircv3.net/specs/extensions/sts">Strict Transport Security</a> and <a href="https://ircv3.net/specs/extensions/tls-3.1">STARTTLS</a> are enabled. (We know
+   STARTTLS is deprecated and a bit out of date, but we'd still like to get
+   as many people as possible using TLS one way or another.)</li>
+<li><a href="https://ircv3.net/specs/extensions/userhost-in-names-3.2">Userhosts in NAMES</a> is supported.</li>
+</ul>
+<p>There's one more change that is not related to this release, but deserves
+mention: nearly two years ago, we developed an improvement to the <code>+z</code> channel
+mode, which sends messages that would have been blocked by <code>+q</code> or <code>+m</code> to
+channel operators instead. Our new version sends these messages to ops from the
+<code>@</code>-prefixed version of the channel:</p>
+<p><code>:e!e@freenode/staff/spy.edk PRIVMSG @#test :I'm quieted</code></p>
+<p>to make it easier for operators to distinguish between messages everyone can see
+and messages they can see due to <code>+z</code>.</p>
+<p>This borrows the syntax from an existing feature, <a href="https://tools.ietf.org/html/draft-hardy-irc-isupport-00#section-4.18">STATUSMSG</a>, but
+is easy to tell apart from it, because only ops and voiced users can send to
+<code>@channel</code> normally.</p>
+<p>We gated this behind a feature switch, and we've been waiting, largely
+passively, for client support to increase. It appears that everyone who wants to
+act on warnings has done so, and we'd like to commit to a date to enable it.</p>
+<p><strong>We'll be enabling this feature on the 31st of July 2019, UTC.</strong> If you op a
+channel that uses <code>+z</code>, please make sure your client handles it correctly.
+You can send test messages by using <code>/msg @#channel test</code> using a second opped
+connection for any channel where you have ops—your client should associate
+this message with <code>#channel</code>, and preferably distinguish it from normal
+messages in some way.</p>
+<p>Thanks for using freenode, and I look forward to collaborating with many of
+you via a slightly less-antiquated medium.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="torv3">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="moving-to-kiwiirc">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?d7eeebb" type="text/javascript"></script>
+</body>
+</html>
