@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?d7eeebb" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?d7eeebb" rel="stylesheet">
-    <link href="../../static/css/style.css?d7eeebb" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?6a9cf8e" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?6a9cf8e" rel="stylesheet">
+    <link href="../../static/css/style.css?6a9cf8e" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -43,11 +43,12 @@ you are using Windows and do not have a copy, you might consider using Cygwin.</
 </code></pre>
 <p>You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but <code>openssl</code> needs at least one of
-them to be non-empty. This certificate will last about 3 years.</p>
+them to be non-empty. This certificate will last about 3 years, so consider setting
+a calendar reminder.</p>
 <p>The <code>.pem</code> file will have the same access to your NickServ account as your
 password does, so take appropriate care in securing it.</p>
 <h2 id="inspecting-your-certificate"><a class="toclink" href="#inspecting-your-certificate">Inspecting your certificate</a></h2>
-<p>The expiration date can be checked with the following command and set a calendar reminder:</p>
+<p>The expiration date can be checked with the following command:</p>
 <pre><code>openssl x509 -in freenode.pem -noout -enddate
 </code></pre>
 <p>The fingerprint can be checked with the following command:</p>
@@ -271,6 +272,6 @@ via Tor, you can enable SASL with the <code>EXTERNAL</code> mechanism.</p>
     </div>
 </footer>
     </div>
-    <script src="../../static/js/utils.js?d7eeebb" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?6a9cf8e" type="text/javascript"></script>
 </body>
 </html>
