@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>CertFP - freenode</title>
-    <link href="../../static/css/open-sans.css?861b8b2" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?861b8b2" rel="stylesheet">
-    <link href="../../static/css/style.css?861b8b2" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?de46059" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?de46059" rel="stylesheet">
+    <link href="../../static/css/style.css?de46059" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -43,16 +43,17 @@ you are using Windows and do not have a copy, you might consider using Cygwin.</
 </code></pre>
 <p>You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but <code>openssl</code> needs at least one of
-them to be non-empty. This certificate will last about 3 years - you can check the
-expiration date with the following command and set a calendar reminder:</p>
-<pre><code>openssl x509 -in freenode.pem -noout -enddate
-</code></pre>
+them to be non-empty. This certificate will last about 3 years, so consider setting
+a calendar reminder.</p>
 <p>The <code>.pem</code> file will have the same access to your NickServ account as your
 password does, so take appropriate care in securing it.</p>
-<p>Under Unix-like environments, the following command:</p>
+<h2 id="inspecting-your-certificate"><a class="toclink" href="#inspecting-your-certificate">Inspecting your certificate</a></h2>
+<p>The expiration date can be checked with the following command:</p>
+<pre><code>openssl x509 -in freenode.pem -noout -enddate
+</code></pre>
+<p>The fingerprint can be checked with the following command:</p>
 <pre><code>openssl x509 -in freenode.pem -outform der | sha1sum -b | cut -d' ' -f1
 </code></pre>
-<p>will list the certificate fingerprint.</p>
 <h2 id="connecting-to-freenode-with-your-certificate"><a class="toclink" href="#connecting-to-freenode-with-your-certificate">Connecting to freenode with your certificate</a></h2>
 <p>IRC clients generally differ in where they look for a certificate and how you
 configure them to offer it to the server. If yours is not yet listed here,
@@ -271,6 +272,6 @@ via Tor, you can enable SASL with the <code>EXTERNAL</code> mechanism.</p>
     </div>
 </footer>
     </div>
-    <script src="../../static/js/utils.js?861b8b2" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?de46059" type="text/javascript"></script>
 </body>
 </html>
