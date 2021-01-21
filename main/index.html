@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?de46059" rel="stylesheet">
-    <link href="static/css/font-awesome.css?de46059" rel="stylesheet">
-    <link href="static/css/style.css?de46059" rel="stylesheet">
+    <link href="static/css/open-sans.css?47f7578" rel="stylesheet">
+    <link href="static/css/font-awesome.css?47f7578" rel="stylesheet">
+    <link href="static/css/style.css?47f7578" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -49,31 +49,36 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/chanserv-cloak-changes"><h1 class="art">Changes to ChanServ regarding cloaks</h1></a>
-<span class="art-date">edk on 2020-11-28</span>
+<a href="news/matrix-bridge-realname"><h1 class="art">Changes to realnames of matrix.org bridged users</h1></a>
+<span class="art-date">jess on 2021-01-21</span>
 </div>
-    <div class="art-body"><p>freenode offers <a href="/kb/answer/cloaks">cloaks</a> to our users, which replace one's
-hostname or IP address in various places with a project affiliation or lack
-thereof. Many of you will be aware that cloaks on freenode <a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip">are not offered as a
-security measure</a> and
-that various means are available to third parties to see through them.</p>
-<p>However, many users acquire cloaks for security/privacy reasons anyway, and
-we've taken the decision to close some of the more glaring holes in the
-protection they offer. Please do note that cloaks are still not recommended
-for hiding a user's IP address.</p>
-<p>We have deployed the following changes to ChanServ:</p>
-<ul>
-<li><strong>AKICK DEL</strong> no longer removes bans against the host behind a cloak</li>
-<li><strong>WHY</strong> no longers considers host-based access</li>
-<li><strong>UNQUIET</strong> no longer unquiets nicks that aren't on the target channel</li>
-</ul>
-<p>Empirically, these are corner cases that don't often come into play when
-managing a channel. However, if you need assistance with something that these
-commands used to do, feel free—as always—to contact staff at any time.</p>
-<p>While bans against IP addresses continue to apply to cloaked users, we intend to
-revise this behaviour in the future due to its privacy implications.</p>
-<p>If you have any questions, please don't hesitate to ask either #freenode or any
-available member of staff.</p></div>
+    <div class="art-body"><p><a href="https://matrix.org/">matrix.org</a> runs a bridge (matrix-appservice-irc) from
+their Matrix homeserver to freenode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on freenode and
+intermingle with the normal IRC userbase. These users have their Matrix User
+Id (username and homeserver, e.g. <code>@jess:freenode.net</code>) put in the realname
+field of their IRC connection.</p>
+<p>Over time, the need to differentiate users by which homeserver they are using
+has arisen for multiple reasons, and we've worked with the matrix.org bridge
+operators to better format Matrix User Ids to suit the limited space provided
+by IRC realnames.</p>
+<p>Realnames pose a slight problem for this usage; the maximum length for a
+Matrix User Id is 255 characters, whereas the maximum length for an IRC
+realname is 50 characters and things longer than that get truncated, which
+means if people have a Matrix username of 50 characters, it will truncate off
+the entirety of their homeserver.</p>
+<p>The solution we came up with for this has been to reverse the order of
+username and homeserver, and then reverse the order of domain name parts and
+truncate that at 30 characters, which means the most significant parts of a
+homeserver's domain name comes at the start of a realname. For example,
+<code>@jess:freenode.net</code> becomes <code>net.freenode:jess</code>. If a homeserver is truncated
+to 30 characters, a <code>&gt;</code> is appended prior to the <code>:</code> -
+<code>@jess:subdomaaaaaaaaaain.freenode.net</code> would become
+<code>net.freenode.subdomaaaaaaaaaai&gt;:jess</code>.</p>
+<p>We'd like to extend deep gratitude to the operators of the matrix.org bridge
+for handling and implementing our change request quickly to suit a
+contemporary need, and we'd like to remind users that they can message staff
+at any time if they have any questions about the above changes.</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>
@@ -212,6 +217,6 @@ available member of staff.</p></div>
     </div>
 </footer>
     </div>
-    <script src="static/js/utils.js?de46059" type="text/javascript"></script>
+    <script src="static/js/utils.js?47f7578" type="text/javascript"></script>
 </body>
 </html>

@@ -1,5 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2020-11-28T17:00:00+00:00</updated><entry><title>Changes to ChanServ regarding cloaks</title><link href="https://freenode.net/news/chanserv-cloak-changes" rel="alternate"></link><published>2020-11-28T17:00:00+00:00</published><updated>2020-11-28T17:00:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2020-11-28:/news/chanserv-cloak-changes</id><summary type="html">&lt;p&gt;freenode offers &lt;a href="/kb/answer/cloaks"&gt;cloaks&lt;/a&gt; to our users, which replace one's
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2021-01-21T20:00:00+00:00</updated><entry><title>Changes to realnames of matrix.org bridged users</title><link href="https://freenode.net/news/matrix-bridge-realname" rel="alternate"></link><published>2021-01-21T20:00:00+00:00</published><updated>2021-01-21T20:00:00+00:00</updated><author><name>jess</name></author><id>tag:freenode.net,2021-01-21:/news/matrix-bridge-realname</id><summary type="html">&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
+their Matrix homeserver to freenode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on freenode and
+intermingle with the normal IRC userbase. These users have their Matrix User
+Id (username and homeserver, e.g. &lt;code&gt;@jess:freenode.net&lt;/code&gt;) put in the realname
+field of their IRC connection.&lt;/p&gt;
+&lt;p&gt;Over time, the need to differentiate users by which homeserver they are using
+has arisen for multiple reasons, and we've worked with the matrix.org bridge
+operators to better format Matrix User Ids to suit the limited space provided
+by IRC realnames.&lt;/p&gt;
+&lt;p&gt;Realnames pose a slight problem for this usage; the maximum length for a
+Matrix User Id is 255 characters, whereas the maximum length for an IRC
+realname is 50 characters and things longer than that get truncated, which
+means if people have a Matrix username of 50 characters, it will truncate off
+the entirety of their homeserver.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
+their Matrix homeserver to freenode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on freenode and
+intermingle with the normal IRC userbase. These users have their Matrix User
+Id (username and homeserver, e.g. &lt;code&gt;@jess:freenode.net&lt;/code&gt;) put in the realname
+field of their IRC connection.&lt;/p&gt;
+&lt;p&gt;Over time, the need to differentiate users by which homeserver they are using
+has arisen for multiple reasons, and we've worked with the matrix.org bridge
+operators to better format Matrix User Ids to suit the limited space provided
+by IRC realnames.&lt;/p&gt;
+&lt;p&gt;Realnames pose a slight problem for this usage; the maximum length for a
+Matrix User Id is 255 characters, whereas the maximum length for an IRC
+realname is 50 characters and things longer than that get truncated, which
+means if people have a Matrix username of 50 characters, it will truncate off
+the entirety of their homeserver.&lt;/p&gt;
+&lt;p&gt;The solution we came up with for this has been to reverse the order of
+username and homeserver, and then reverse the order of domain name parts and
+truncate that at 30 characters, which means the most significant parts of a
+homeserver's domain name comes at the start of a realname. For example,
+&lt;code&gt;@jess:freenode.net&lt;/code&gt; becomes &lt;code&gt;net.freenode:jess&lt;/code&gt;. If a homeserver is truncated
+to 30 characters, a &lt;code&gt;&amp;gt;&lt;/code&gt; is appended prior to the &lt;code&gt;:&lt;/code&gt; -
+&lt;code&gt;@jess:subdomaaaaaaaaaain.freenode.net&lt;/code&gt; would become
+&lt;code&gt;net.freenode.subdomaaaaaaaaaai&amp;gt;:jess&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We'd like to extend deep gratitude to the operators of the matrix.org bridge
+for handling and implementing our change request quickly to suit a
+contemporary need, and we'd like to remind users that they can message staff
+at any time if they have any questions about the above changes.&lt;/p&gt;</content></entry><entry><title>Changes to ChanServ regarding cloaks</title><link href="https://freenode.net/news/chanserv-cloak-changes" rel="alternate"></link><published>2020-11-28T17:00:00+00:00</published><updated>2020-11-28T17:00:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2020-11-28:/news/chanserv-cloak-changes</id><summary type="html">&lt;p&gt;freenode offers &lt;a href="/kb/answer/cloaks"&gt;cloaks&lt;/a&gt; to our users, which replace one's
 hostname or IP address in various places with a project affiliation or lack
 thereof. Many of you will be aware that cloaks on freenode &lt;a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip"&gt;are not offered as a
 security measure&lt;/a&gt; and
@@ -289,11 +329,4 @@ Rankin speaks frequently on security and free and open source software including
 &lt;p&gt;If your account was affected, we are in the process of contacting you directly with information to reset your password and restore access to your account.&lt;/p&gt;
 &lt;p&gt;We encourage all users to practice good password hygiene, even if your account has not been affected at this time.&lt;/p&gt;
 &lt;p&gt;Attacks such as these have a tendency to escalate and cause a domino effect and we will continue to investigate and monitor for new attack vectors. &lt;/p&gt;
-&lt;p&gt;Password reuse means that once one account is compromised, all of the accounts that share that password become compromised.&lt;/p&gt;</content></entry><entry><title>freenode and irc.com</title><link href="https://freenode.net/news/freenode-irccom" rel="alternate"></link><published>2018-06-22T21:20:00+00:00</published><updated>2018-06-22T21:20:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-06-22:/news/freenode-irccom</id><summary type="html">&lt;p&gt;In light of the two ongoing threads on &lt;a href="https://news.ycombinator.com/item?id=17375831"&gt;Hacker News&lt;/a&gt; and &lt;a href="https://www.reddit.com/r/irc/comments/8t2wcq/irccom_acquired_by_london_trust_media_plans_for_a/"&gt;Reddit&lt;/a&gt; concerning LTMH and irc.com, we have had a fair few freenode users contact us with questions as to whether irc.com will replace and/or absorb freenode, and what impact it would have on freenode communities.&lt;/p&gt;
-&lt;p&gt;I wanted to make sure that I addressed these concerns, and I can assure you that there are no plans on the part of freenode or LTM that involve any changes to freenode, freenode is not on the brink of shutdown — if anything, we are excited to be celebrating our 20th anniversary at this year's &lt;a href="https://freenode.live"&gt;freenode #live&lt;/a&gt; event, and we hope to see at least another 20 after that. &lt;/p&gt;
-&lt;p&gt;The freenode project exists to support the development and use of Free and Open Source Software, and to that end it serves a very different purpose to the one that the visionaries behind irc.com have in mind. I fully believe that freenode and irc.com can co-exist, just as we co-exist with the numerous other IRC networks out there, and I would like to hope that irc.com may encourage those of their users who would be a good fit for freenode to come check us out, just as I hope that we may be able to send someone their way should we come across users who have great potential for running a series of training sessions or similar.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In light of the two ongoing threads on &lt;a href="https://news.ycombinator.com/item?id=17375831"&gt;Hacker News&lt;/a&gt; and &lt;a href="https://www.reddit.com/r/irc/comments/8t2wcq/irccom_acquired_by_london_trust_media_plans_for_a/"&gt;Reddit&lt;/a&gt; concerning LTMH and irc.com, we have had a fair few freenode users contact us with questions as to whether irc.com will replace and/or absorb freenode, and what impact it would have on freenode communities.&lt;/p&gt;
-&lt;p&gt;I wanted to make sure that I addressed these concerns, and I can assure you that there are no plans on the part of freenode or LTM that involve any changes to freenode, freenode is not on the brink of shutdown — if anything, we are excited to be celebrating our 20th anniversary at this year's &lt;a href="https://freenode.live"&gt;freenode #live&lt;/a&gt; event, and we hope to see at least another 20 after that. &lt;/p&gt;
-&lt;p&gt;The freenode project exists to support the development and use of Free and Open Source Software, and to that end it serves a very different purpose to the one that the visionaries behind irc.com have in mind. I fully believe that freenode and irc.com can co-exist, just as we co-exist with the numerous other IRC networks out there, and I would like to hope that irc.com may encourage those of their users who would be a good fit for freenode to come check us out, just as I hope that we may be able to send someone their way should we come across users who have great potential for running a series of training sessions or similar.&lt;/p&gt;
-&lt;p&gt;And while LTM has provided freenode with some much needed resources following last year's &lt;a href="https://freenode.net/news/pia-fn"&gt;announcement&lt;/a&gt;, any potential partnership between the two will be limited to the possibility of freenode being represented in the irc.com foundation. It is my understanding that the foundation will operate on a nonprofit basis and will seek to bring together network operators and ircd/services developers to identify irc-related projects that are in need of funding and support, the irc.com team hopes to establish positive working relationships with operators, developers, ircv3 and end users alike, and the foundation, which will be governed by community consensus, will seek to ensure that irc.com and its efforts benefit all, not only those organisations that LTM supports today.&lt;/p&gt;
-&lt;p&gt;With regard to irc.com itself, I am curious and excited to see what's in store in terms of utilising IRC as a platform for delivering training sessions and the idea of a virtual incubator using an IRC backend. There has been some incredible developments on the client-side in recent times, with both &lt;a href="https://irccloud.com"&gt;IRCCloud&lt;/a&gt; and &lt;a href="https://www.kiwiirc.com"&gt;KiwiIRC&lt;/a&gt; continuing to work on features that will soon introduce video and voice calls, file-sharing and a host of other productivity tools that provide the irc.com team with good foundations for success.&lt;/p&gt;
-&lt;p&gt;For the sake of full disclosure: I am an Executive Vice President at LTM, and I work closely with all subsidiaries within the Group, irc.com included.&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Password reuse means that once one account is compromised, all of the accounts that share that password become compromised.&lt;/p&gt;</content></entry></feed>
