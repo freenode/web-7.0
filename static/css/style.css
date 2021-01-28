@@ -1,12 +1,13 @@
 /* vars */
 :root {
-    --c-dark:     #292f2f;
-    --c-bg-dark:  #3a4346;
-    --c-bg-light: #4c5456;
-    --c-light:    #ecf7fa;
-    --c-hl-dark:  #008499;
-    --c-hl-light: #3baec4;
-    --c-shadow:   #dae5e2;
+    --c-dark:         #292f2f;
+    --c-bg-dark:      #3a4346;
+    --c-bg-light:     #4c5456;
+    --c-light:        #ecf7fa;
+    --c-hl-dark:      #008499;
+    --c-hl-light:     #3baec4;
+    --c-shadow-light: #dae5e2;
+    --c-shadow-dark:  #282a29;
 
     /* backgrounds */
     --navbar-bg:    var(--c-dark);
@@ -20,11 +21,17 @@
     --footer-hover-color: #fff;
 
     /* text colors */
-    --text-color:           var(--c-dark);
+    --text-color-light:     var(--c-dark);
+    --text-color-dark:      var(--c-light);
+
     --footer-text-color:    var(--c-light);
     --copyright-text-color: var(--c-light);
     --jumbotron-text-color: var(--c-light);
     --art-date-color:       color(var(--c-dark) tint(50%));
+
+    /* background colors */
+    --background-color-light: var(--c-light);
+    --background-color-dark:  var(--c-dark);
 
     /* box colors */
     --border-color:    var(--c-dark);
@@ -54,10 +61,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-feature-settings: "lnum";
     font-variant-numeric: lining-nums;
-    color: var(--text-color);
+    color: var(--text-color-light);
+    background-color: var(--background-color-light);
     font-size: 14px;
     min-height: 100vh;
     height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: var(--text-color-dark);
+        background-color: var(--background-color-dark);
+    }
 }
 
 .invisible {
@@ -72,6 +87,17 @@ a {
 a:hover {
     color: var(--link-hover-color);
 }
+
+@media (prefers-color-scheme: dark) {
+    a {
+        color: var(--link-hover-color);
+    }
+
+    a:hover {
+        color: var(--link-color);
+    }
+}
+
 img {
     max-width: 100%;
 }
@@ -261,8 +287,14 @@ img {
 }
 
 .main pre, .main :not(pre)>code {
-    background: var(--c-shadow);
+    background-color: var(--c-shadow-light);
     border-radius: .25em;
+}
+
+@media (prefers-color-scheme: dark) {
+    .main pre, .main :not(pre)>code {
+        background-color: var(--c-shadow-dark);
+    }
 }
 
 .toclink,
@@ -310,6 +342,12 @@ table {
     border-collapse: collapse;
 }
 
+@media (prefers-color-scheme: dark) {
+    table {
+        border: 1px solid var(--c-light);
+    }
+}
+
 th, td {
     margin: .2em;
 }
@@ -328,7 +366,17 @@ td:not(:first-child), th:not(:first-child) {
 }
 
 tr:nth-child(odd) {
-    background-color: var(--c-shadow);
+    background-color: var(--c-shadow-light);
+}
+
+@media (prefers-color-scheme: dark) {
+    td:not(:first-child), th:not(:first-child) {
+        border-left: 1px solid var(--c-light);
+    }
+
+    tr:nth-child(odd) {
+        background-color: var(--c-shadow-dark);
+    }
 }
 
 /* jumbotron */
