@@ -15,10 +15,12 @@
     --copyright-bg: var(--c-dark);
 
     /* link colors */
-    --link-color:         var(--c-hl-dark);
-    --link-hover-color:   var(--c-hl-light);
-    --footer-link-color:  var(--c-light);
-    --footer-hover-color: #fff;
+    --link-color-light:       var(--c-hl-dark);
+    --link-hover-color-light: var(--c-hl-light);
+    --link-color-dark:        #00c8e8;
+    --link-hover-color-dark:  #21a9c1;
+    --footer-link-color:      var(--c-light);
+    --footer-hover-color:     #fff;
 
     /* text colors */
     --text-color-light:     var(--c-dark);
@@ -80,21 +82,21 @@ body {
 }
 
 a {
-    color: var(--link-color);
+    color: var(--link-color-light);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--link-hover-color);
+    color: var(--link-hover-color-light);
 }
 
 @media (prefers-color-scheme: dark) {
     a {
-        color: var(--link-hover-color);
+        color: var(--link-color-dark);
     }
 
     a:hover {
-        color: var(--link-color);
+        color: var(--link-hover-color-dark);
     }
 }
 
