@@ -1,13 +1,12 @@
 /* vars */
 :root {
-    --c-dark:         #292f2f;
-    --c-bg-dark:      #3a4346;
-    --c-bg-light:     #4c5456;
-    --c-light:        #ecf7fa;
-    --c-hl-dark:      #008499;
-    --c-hl-light:     #3baec4;
-    --c-shadow-light: #dae5e2;
-    --c-shadow-dark:  #282a29;
+    --c-dark:     #292f2f;
+    --c-bg-dark:  #3a4346;
+    --c-bg-light: #4c5456;
+    --c-light:    #ecf7fa;
+    --c-hl-dark:  #008499;
+    --c-hl-light: #3baec4;
+    --c-shadow:   #dae5e2;
 
     /* backgrounds */
     --navbar-bg:    var(--c-dark);
@@ -15,25 +14,20 @@
     --copyright-bg: var(--c-dark);
 
     /* link colors */
-    --link-color-light:       var(--c-hl-dark);
-    --link-hover-color-light: var(--c-hl-light);
-    --link-color-dark:        #00c8e8;
-    --link-hover-color-dark:  #21a9c1;
-    --footer-link-color:      var(--c-light);
-    --footer-hover-color:     #fff;
+    --link-color:         var(--c-hl-dark);
+    --link-hover-color:   var(--c-hl-light);
+    --footer-link-color:  var(--c-light);
+    --footer-hover-color: #fff;
 
     /* text colors */
-    --text-color-light:     var(--c-dark);
-    --text-color-dark:      var(--c-light);
-
+    --text-color:           var(--c-dark);
     --footer-text-color:    var(--c-light);
     --copyright-text-color: var(--c-light);
     --jumbotron-text-color: var(--c-light);
     --art-date-color:       color(var(--c-dark) tint(50%));
 
     /* background colors */
-    --background-color-light: var(--c-light);
-    --background-color-dark:  var(--c-dark);
+    --background-color: var(--c-light);
 
     /* box colors */
     --border-color:    var(--c-dark);
@@ -46,6 +40,18 @@
     --max-width-box: 800px;
     --margin-box-fa: 5px;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color:       var(--c-light);
+        --background-color: var(--c-dark);
+        --link-color:       #00c8e8;
+        --link-hover-color: #21a9c1;
+        --c-shadow:         #282a29;
+        --border-color:     var(--c-light);
+    }
+}
+
 @custom-media --max-sm all and (max-width: 600px);
 @custom-media --max-md all and (max-width: 800px);
 @custom-media --max-rem all and (max-width: 60rem);
@@ -63,18 +69,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-feature-settings: "lnum";
     font-variant-numeric: lining-nums;
-    color: var(--text-color-light);
-    background-color: var(--background-color-light);
+    color: var(--text-color);
+    background-color: var(--background-color);
     font-size: 14px;
     min-height: 100vh;
     height: auto;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        color: var(--text-color-dark);
-        background-color: var(--background-color-dark);
-    }
 }
 
 .invisible {
@@ -82,22 +81,12 @@ body {
 }
 
 a {
-    color: var(--link-color-light);
+    color: var(--link-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--link-hover-color-light);
-}
-
-@media (prefers-color-scheme: dark) {
-    a {
-        color: var(--link-color-dark);
-    }
-
-    a:hover {
-        color: var(--link-hover-color-dark);
-    }
+    color: var(--link-hover-color);
 }
 
 img {
@@ -280,7 +269,7 @@ img {
 
 .main pre {
     padding: .5em .75em;
-    border: 1px solid var(--c-border);
+    border: 1px solid var(--border-color);
     overflow-x: auto;
 }
 
@@ -289,14 +278,8 @@ img {
 }
 
 .main pre, .main :not(pre)>code {
-    background-color: var(--c-shadow-light);
+    background: var(--c-shadow);
     border-radius: .25em;
-}
-
-@media (prefers-color-scheme: dark) {
-    .main pre, .main :not(pre)>code {
-        background-color: var(--c-shadow-dark);
-    }
 }
 
 .toclink,
@@ -340,14 +323,8 @@ hr {
 }
 
 table {
-    border: 1px solid var(--c-dark);
+    border: 1px solid var(--border-color);
     border-collapse: collapse;
-}
-
-@media (prefers-color-scheme: dark) {
-    table {
-        border: 1px solid var(--c-light);
-    }
 }
 
 th, td {
@@ -364,21 +341,11 @@ td {
 }
 
 td:not(:first-child), th:not(:first-child) {
-    border-left: 1px solid var(--c-dark);
+    border-left: 1px solid var(--border-color);
 }
 
 tr:nth-child(odd) {
-    background-color: var(--c-shadow-light);
-}
-
-@media (prefers-color-scheme: dark) {
-    td:not(:first-child), th:not(:first-child) {
-        border-left: 1px solid var(--c-light);
-    }
-
-    tr:nth-child(odd) {
-        background-color: var(--c-shadow-dark);
-    }
+    background-color: var(--c-shadow);
 }
 
 /* jumbotron */
