@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
     <title>Channel Modes - freenode</title>
-    <link href="../../static/css/open-sans.css?ddc3c42" rel="stylesheet">
-    <link href="../../static/css/font-awesome.css?ddc3c42" rel="stylesheet">
-    <link href="../../static/css/style.css?ddc3c42" rel="stylesheet">
+    <link href="../../static/css/open-sans.css?cc36f60" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?cc36f60" rel="stylesheet">
+    <link href="../../static/css/style.css?cc36f60" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -65,7 +65,7 @@ To unset a mode, use <code>/mode #channel -(mode)</code> </p>
 </tr>
 <tr>
 <td>f<br>(forward)</td>
-<td>Takes a channel name as a parameter. Users who cannot join the channel (because of +i, +j, +r, see below) are instead sent to the given channel. Clients are notified when the forward takes effect.<br>An operator can set mode +f #channel2 only if they are an op in #channel2 or if #channel2 has mode +F set (see below).<br>Usually you want to set forwards with MLOCK, because the channel will become empty over time and the channel modes are lost. You might also want to set GUARD to prevent the channel from becoming empty. An operator can use MLOCK with +f only if they have access flag +s in both channels, or if the channel to be forwarded to is +F and they have +s in the original channel.</td>
+<td>Takes a channel name as a parameter. Users who cannot join the channel (because of +i, +j, +l, +S, +r, see below) are instead sent to the given channel. Clients are notified when the forward takes effect.<br>An operator can set mode +f #channel2 only if they are an op in #channel2 or if #channel2 has mode +F set (see below).<br>Usually you want to set forwards with MLOCK, because the channel will become empty over time and the channel modes are lost. You might also want to set GUARD to prevent the channel from becoming empty. An operator can use MLOCK with +f only if they have access flag +s in both channels, or if the channel to be forwarded to is +F and they have +s in the original channel.</td>
 </tr>
 <tr>
 <td>F<br>(enable forwarding)</td>
@@ -294,6 +294,6 @@ To unset a mode, use <code>/mode #channel -(mode)</code> </p>
     </div>
 </footer>
     </div>
-    <script src="../../static/js/utils.js?ddc3c42" type="text/javascript"></script>
+    <script src="../../static/js/utils.js?cc36f60" type="text/javascript"></script>
 </body>
 </html>
