@@ -48,7 +48,7 @@
         --background-color:  var(--c-dark);
         --link-color:        #00c8e8;
         --link-hover-color:  #21a9c1;
-        --c-shadow:          #282a29;
+        --c-shadow:          var(--c-bg-light);
         --border-color:      #000000;
         --navbar-border-color: var(--c-dark);
     }
@@ -346,7 +346,7 @@ td:not(:first-child), th:not(:first-child) {
     border-left: 1px solid var(--border-color);
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
     background-color: var(--c-shadow);
 }
 
