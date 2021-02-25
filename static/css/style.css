@@ -35,6 +35,7 @@
     --box-hover-color:     var(--c-dark);
     --box-round:           10px;
     --navbar-border-color: var(--border-color);
+    --footer-shadow-color: rgba(150,150,150,.36);
 
     /* other */
     --max-width:     600px;
@@ -51,6 +52,7 @@
         --c-shadow:          var(--c-bg-light);
         --border-color:      #000000;
         --navbar-border-color: var(--c-dark);
+        --footer-shadow-color: rgba(70, 70, 70, 0.5);
     }
 }
 
@@ -636,7 +638,7 @@ blockquote {
     background: var(--jumbotron-bg);
     color: var(--footer-text-color);
     width: 100%;
-    box-shadow: 0 -3px 5px rgba(150,150,150,.36);
+    box-shadow: 0 -3px 5px var(--footer-shadow-color);
     min-height: 15.4rem;
     padding: 3em 0;
 }
