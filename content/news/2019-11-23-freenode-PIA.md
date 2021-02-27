@@ -9,7 +9,7 @@ This week we learned the news of the proposed merger between Private Internet Ac
 
 freenode is not affected by this merger. Kape has indicated that it will honour Private Internet Access' server sponsorship for the next six months as a minimum, and we hope that the company will continue to support the project also after this time. 
 
-Nevertheless, the freenode project is fortunate to be in a position where it does not rely on a single sponsor and we have a broad and diverse range of supporters; and the freenode project will continue being part of and having access to support from the Imperial Family Companies (formerly London Trust Media Holdings (LTMH). 
+Nevertheless, the freenode project is fortunate to be in a position where it does not rely on a single sponsor and we have a broad and diverse range of supporters; and the freenode project will continue being part of and having access to support from the Imperial Family Companies (formerly London Trust Media Holdings (LTMH)). 
 
 freenode continues to exist to support the development and use of free and open source software, and there will be no changes to the operations, values, mission or direction of the freenode project in connection with the merger of Private Internet Access and Kape Technologies.
 
