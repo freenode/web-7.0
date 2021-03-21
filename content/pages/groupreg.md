@@ -111,13 +111,13 @@ participation in the network.
 
 Channels on freenode are owned and operated by the groups which register them.
 No minimum level of activity or moderation is expected or required of channel owners.
-The network exists to further on-topic use, as explained in our [policies](http://freenode.net/policies) 
-and channels or groups may be removed from freenode for activity which is considered 
+The network exists to further on-topic use, as explained in our [policies](http://freenode.net/policies)
+and channels or groups may be removed from freenode for activity which is considered
 to be off-topic.
 
 Groups using freenode are strongly encouraged to adopt the [channel guidelines](http://freenode.net/changuide).
 
-Primary channels are reserved based on a formal or informal claim, external to IRC, to a specific project group, or 
+Primary channels are reserved based on a formal or informal claim, external to IRC, to a specific project group, or
 trademarked name. Topical or reference channels are reserved on a first-come, first-served basis by groups wishing to
 discuss a project, group or topic.
 
@@ -177,7 +177,7 @@ Thanks in advance for any help you can provide!
 
 ## Group Management & Community Team
 
-The Group Management & Community Team comprises, among others, **christel**, **e**,
+The Group Management & Community Team comprises, among others, **e**,
 **Fuchs**, **glguy**, **Swant** and **tomaw**; together they will act as your
 liaisons during the group registration process and throughout your tenure on the
 freenode network. If you wish to discuss the group registration process, find out
