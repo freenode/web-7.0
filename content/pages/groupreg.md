@@ -61,7 +61,7 @@ primary contact.
 
 #### The secondary contact.
 
-Secondary (or approved) contacts are appointed by the primary contact. A
+Secondary (or alternate) contacts are appointed by the primary contact. A
 secondary contact may be assigned limited access and/or privileges. They need
 no special level of authority; delegate whatever level of authority seems
 appropriate. We will not expect them to make policy decisions, just to find out
@@ -111,19 +111,19 @@ participation in the network.
 
 Channels on freenode are owned and operated by the groups which register them.
 No minimum level of activity or moderation is expected or required of channel owners.
-The network exists to further on-topic use, as explained in our [policies](http://freenode.net/policies) 
-and channels or groups may be removed from freenode for activity which is considered 
+The network exists to further on-topic use, as explained in our [policies](http://freenode.net/policies)
+and channels or groups may be removed from freenode for activity which is considered
 to be off-topic.
 
 Groups using freenode are strongly encouraged to adopt the [channel guidelines](http://freenode.net/changuide).
 
-Primary channels are reserved based on a formal or informal claim, external to IRC, to a specific project group, or 
+Primary channels are reserved based on a formal or informal claim, external to IRC, to a specific project group, or
 trademarked name. Topical or reference channels are reserved on a first-come, first-served basis by groups wishing to
 discuss a project, group or topic.
 
 
 ### Free and Open Source Software (FOSS).
-Project coordination, support, discussion or contact channels associated with software projects which are licensed under terms consistent with the [Debian Free Software Guidelines](http://www.debian.org/social_contract#guidelines), Free Software Foundation's (Free Software Definition](http://www.gnu.org/philosophy/free-sw.html) or the Open Source Initiative's [Open Source Definition](http://www.opensource.org/docs/definition.php) (preferably all three) are considered to be on-topic.
+Project coordination, support, discussion or contact channels associated with software projects which are licensed under terms consistent with the [Debian Free Software Guidelines](http://www.debian.org/social_contract#guidelines), Free Software Foundation's [Free Software Definition](http://www.gnu.org/philosophy/free-sw.html) or the Open Source Initiative's [Open Source Definition](http://www.opensource.org/docs/definition.php) (preferably all three) are considered to be on-topic.
 
 
 ### Non-Software-Related Peer-Directed Project.
@@ -177,12 +177,14 @@ Thanks in advance for any help you can provide!
 
 ## Group Management & Community Team
 
-The Group Management & Community Team comprises **nhandler**, **e**, **tomaw**
-and **christel**; together they will act as your liaisons during the group
-registration process and throughout your tenure on the freenode network. If you
-wish to discuss the group registration process, find out if freenode could be a
-good fit for your project or register your project as a group, please feel free
-to drop any of the team members a line on IRC.
+The Group Management & Community Team comprises, among others, **e**,
+**Fuchs**, **glguy**, **Swant** and **tomaw**; together they will act as your
+liaisons during the group registration process and throughout your tenure on the
+freenode network. If you wish to discuss the group registration process, find out
+if freenode could be a good fit for your project or register your project as
+a group, please feel free to drop any of the team members a line on IRC.
+If none are online, feel free to reach out to staff in general and they will
+forward your request to the team, which will get back to you as soon as possible.
 
 Once you have discussed your project with a staff member, you'll be asked to
 email <projects@freenode.net> with the details of your request, including any

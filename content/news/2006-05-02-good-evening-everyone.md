@@ -7,6 +7,7 @@ category: freenode
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
   We'll be rehubbing our European servers at about 6am UTC tomorrow, in   about 9 hours (11pm US/Pacific, 8am Europe/Paris, 4pm Australia/Sydney).   We're returning our normal hubbing, which was modified several days ago   due to backbone connectivity problems between our US and Europe hubs. This   correction should reduce transatlantic latencies.
 

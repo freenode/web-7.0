@@ -5,6 +5,7 @@ slug: introducing-the-pdpc-board
 title: [Announcement] Introducing the PDPC board
 category: pdpc
 imported: yes
+robots: noindex
 ---
 It is with great pleasure that I can finally introduce the new board of directors for PDPC, the not-for-profit entity that runs freenode.
 

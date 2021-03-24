@@ -5,6 +5,7 @@ EPIC5 has the sasl_auth script built-in. Mikhail contributed this explanation of
 Open your EPIC5 configuration file, ~/.epicrc or ~/.ircrc, in your preferred editor.
 Add the following lines:
 
+ * `load builtins`
  * `load sasl_auth`
  * `sasl_auth *.freenode.net plain username password`
 

@@ -5,6 +5,7 @@ slug: a-short-mention-on-mibbit
 title: A short mention on Mibbit
 category: freenode
 imported: yes
+robots: noindex
 ---
 Hi all.
 

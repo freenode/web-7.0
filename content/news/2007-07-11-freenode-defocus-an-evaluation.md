@@ -7,6 +7,7 @@ category: community
 category: freenode
 category: social
 imported: yes
+robots: noindex
 ---
 Donna [recently posted](http://blog.freenode.net/?p=41) on the move that changed #freenode-social and #tapthru to #defocus and #freenode respectively. This has involved getting the former #tapthru staff on board as our new freenode helpers, and as staff we have found them a great bunch of people to work with - thank you to you all. Yesterday we held an evaluation meeting about how the last two months had gone, with the ups and downs, and to try and set plans for the future. It was a constructive event; what follows us a brief summary of the meeting.<!-- more -->
 

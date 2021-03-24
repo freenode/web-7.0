@@ -12,6 +12,7 @@ category: pdpc
 category: philosophy
 category: social
 imported: yes
+robots: noindex
 ---
 While talking online is great, meeting in person presents brand new opportunities... and we would like to meet you!
 

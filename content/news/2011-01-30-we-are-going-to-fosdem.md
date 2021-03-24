@@ -7,6 +7,7 @@ category: community
 category: different
 category: open source
 imported: yes
+robots: noindex
 ---
 ![going-to-fosdem-2011](static/img/going-to-fosdem-2011.png)
 

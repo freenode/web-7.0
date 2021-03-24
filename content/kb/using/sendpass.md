@@ -1,18 +1,27 @@
-Title: Resetting your password
+Title: Resetting your Password
 ---
 
-If you have forgotten the password for your NickServ account, you can send a
-password reset mail to the email address you used when you registered your
-account using:
+If you have forgotten the password for your NickServ account and are unable to 
+log in to it, you can send a password reset mail to the email address on your
+account with:
 
     /msg NickServ SENDPASS youraccountnamehere
 
-You should receive an email at the email address you registered with, containing
-a command with a password reset key, which you can use on IRC to reset your
-password.
+You should receive an email containing a command with a password reset key,
+which you can use on IRC to reset your password.
 
 If you do not receive the email, please check your spam folders etc.
 
 If you already have an outstanding password reset mail, you cannot send another,
 but you can contact freenode staff in #freenode (or find them on /stats p) for
 assistance.
+
+Password resets do not work if someone is currently logged in to the account.
+If you are logged in to your account already and need to change its password,
+you should instead use the following command:
+
+    /msg NickServ SET PASSWORD newpasswordhere
+
+If your account is compromised and you are unable to change or reset the
+password, please contact freenode staff in #freenode or /stats p as soon as
+possible for assistance.

@@ -7,6 +7,7 @@ category: community
 category: projects
 category: social
 imported: yes
+robots: noindex
 ---
 I, for one, was saddened to hear that my favourite FOSS podcast; Lugradio is coming to an end. If you are in the UK, heck, if you're anywhere and don't mind traveling a bit you may want to catch the grand finale at this years Lugradio Live.
 

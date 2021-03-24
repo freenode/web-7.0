@@ -7,6 +7,7 @@ category: freenode
 category: philosophy
 category: social
 imported: yes
+robots: noindex
 ---
 The channel ban, initiated with a mode change of +b, is perhaps one of the most recognised and well known features of IRC, dating back to the origins of the protocol. freenode has implemented a number of features that extend the basic nick!user@host mask format because we believe that the 'kickban' is outdated and there are better ways of dealing with disruptions to channel activity. On freenode you will find the quiet, where by replacing +b with +q you can stop a user from speaking in a channel but they can still read the contents of it. It has been found that this creates a more positive atmosphere in the channel that means better discussion can take place. There is also the realname ban, used via +d.
 

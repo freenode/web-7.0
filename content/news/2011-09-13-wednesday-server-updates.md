@@ -4,6 +4,7 @@ date: 2011-09-13 06:20:58+00:00
 slug: wednesday-server-updates
 title: Wednesday Server Updates
 imported: yes
+robots: noindex
 ---
 This Wednesday (September 14th, 2011) we will be continuing our server updates as mentioned [here](http://blog.freenode.net/2011/09/ircd-upgrades/).
 

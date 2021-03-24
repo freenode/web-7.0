@@ -9,6 +9,7 @@ category: freenode
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
 Every couple of years, freenode likes to get out the shears and prune the services database. Recently we broke the 80,000 usercount barrier, but the services stats are way ahead:
 

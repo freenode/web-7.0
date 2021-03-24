@@ -4,6 +4,7 @@ date: 2009-04-13 13:32:45+00:00
 slug: free-as-in-node-episode-3-released
 title: Free-as-in-node episode 3 released!
 imported: yes
+robots: noindex
 ---
 The third installment of  free-as-in-node has just been released! Head on over to [http://podcast.freenode.net](http://podcast.freenode.net) to listen or download.
 

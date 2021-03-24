@@ -6,6 +6,7 @@ title: Bye bye PDPC
 category: infrastructure
 category: pdpc
 imported: yes
+robots: noindex
 ---
 Sadly, we were forced to dissolve PDPC, freenode's parent organisation.
 

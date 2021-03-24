@@ -27,7 +27,7 @@ Nickname and account registrations expire ten weeks after they are last used.
 For nicknames, ‘used’ means that you were using the nickname while logged in to
 the account which owns it. For accounts, ‘used’ means that you logged in to the
 account, regardless of the nickname you used to do so. Nicknames which are the
-primary account name only expire when the entire account is expired.
+primary account name expire only when the entire account is expired.
 
 In some cases, such as for very old accounts, we may, at our discretion, extend
 the expiry time of a nickname or account. We will not normally do this beyond 15
@@ -130,10 +130,136 @@ incurred as the result of such transactions.
 
 Public Logging
 =============
-If you're considering publishing channel logs, think it through. The freenode network is an interactive environment. Even on public channels, most users don't weigh their comments with the idea that they'll be enshrined in perpetuity. For that reason, few participants publish logs.
+If you are considering publishing channel logs, think it through. The freenode network is an interactive environment and users may not weigh their comments with the idea that they will be enshrined in perpetuity. 
 
-If you're publishing logs on an ongoing basis, your channel topic should reflect that fact. Consider providing a way for users to make comments without logging, and get permission from the channel owners before you start. If you're thinking of "anonymizing" your logs (removing information that identifies the specific users), be aware that it's difficult to do it well—replies and general context often provide identifying information which is hard to filter.
+Nevertheless, we understand that projects might find it useful to publish channel logs so that other users may search and find answers to questions that have previously been addressed on the freenode network. Ensure that you notify users (by way of channel topic, channel entry message or similar) that the channel is being publicly logged and consider providing a way for users to make comments without logging. 
+
+If you operate a service that scrapes internal channel content or publishes logs, always make sure to obtain permission from the channel owner or freenode staff before you start publishing logs or other data, and ensure that there is an easy way for projects to opt-out later and to request removal of previously published logs or data. You must respect the opt-out requests in a timely manner. 
+
+If you are thinking of "anonymizing" your logs (removing information that identifies the specific users), be aware that it's difficult to do it well—replies and general context often provide identifying information which is hard to filter.
 
 If you just want to publish a single conversation, be careful to get permission from each participant. Provide as much context as you can. Avoid the temptation to publish or distribute logs without permission in order to portray someone in a bad light. The reputation you save will most likely be your own.
+
+Privacy Policy and Data Retention
+=============
+This section describes how freenode makes use of the information you provide when you use the freenode network, freenode.net, jobs.freenode.net and freenode.live websites (hereinafter collectively referred to as 'freenode services').
+
+If you are asked to provide information when using freenode services, such information will not be used for any purposes other than those described in this section.
+
+freenode collects and uses certain information about users in order to provide services and enable certain functions.
+
+freenode may collect the following information:
+
+* Nickname/handle on the freenode network
+* E-mail address
+* IP address/hostname
+* Name and project affiliation
+
+Collecting the above data helps freenode deliver its services to you.
+
+Specifically, freenode may use data:
+
+* To improve the provided services.
+* To enable you to reset your password/recover your account.
+* To contact you in relation to group registrations and associated channel namespace management.
+* To respond to a specific enquiry made via e-mail or the support system.
+* To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the freenode network and freenode #live conference.
+* To communicate with you about the status of job postings on the jobs.freenode.net website.
+
+Please note that the freenode websites and network may contain links to other websites, and freenode has no control of websites outside of the freenode.net and freenode.live domains. If you provide information to a website or service to which freenode links, freenode shall not be responsible for its protection and privacy.
+
+freenode retains data for the purpose of debugging and restoration for a maximum of 60 days. This means that any data freenode holds, will be purged 60 days after the date at which you last connected to the freenode network or deleted your freenode account.
+
+freenode policies are updated from time to time, and the latest version of policy will be published on this page.
+
+This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limited, Company Limited by Guarantee (collectively, ‘We,’ ‘Us,’ or ‘freenode') wish to define and inform you of any and all of the instances in which your personal data and information may be saved and how it may be used by freenode, how it may be shared, and the level of protection we use to safeguard your personal information. 
+
+## TABLE OF CONTENTS
+
+* Personal Information we Collect
+* Uses of Personal Information Collected by freenode
+* Disclosure of Personal Information
+* Data Retention
+* CalOPPA Statement
+* Maintaining the Security of Your Personal Information
+* How We Transfer Personal Information Collected Internationally
+* COPPA Disclosure
+* How to Access and Control your Personal Information
+* Changes to this Privacy Policy
+
+### PERSONAL INFORMATION WE COLLECT
+
+#### From Clients of our Service:
+
+* E-mail Address for the purposes of account management and protection from abuse.
+* Internet Protocol (IP) Address for the purposes of account management and protection from abuse.
+* Your user ID or “nick” for the purposes of account management and protection from abuse.
+* In the case of Group Contacts, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
+
+
+#### From the Website(s) and Email
+* Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy [here](https://www.cloudflare.com/cookie-policy/), which also outlines how to opt out.
+* Google reCaptcha. Google may also store a cookie. You may opt out [here](https://tools.google.com/dlpage/gaoptout).
+* freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found [here]( https://www.tickettailor.com/gdpr).
+* freenode #live CFP submissions are collected using [TypeForm](https://www.typeform.com/help/gdpr-compliance/) and managed via [Trello](https://trello.com/privacy)
+
+### USES OF PERSONAL INFORMATION COLLECTED BY US
+* E-mail address is used to confirm account ownership, and for account management purposes such as password resets.
+* Cloudflare analytics data is used to improve our website and delivery of our content.
+* Google reCaptcha is used to prevent spam and abuse of the webchat service and to improve delivery of our content.
+* Webserver logs are regularly pruned and are created by the webserver. No usernames or passwords are ever logged by the webserver.
+* Compliance with valid legal process
+* Group Contact affiliation and names are used for verification and abuse prevention purposes.
+* Names, e-mail addresses, project affiliation, etc., collected in connection with freenode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
+
+freenode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of freenode. 
+
+### DISCLOSURE AND USE OF PERSONAL INFORMATION
+freenode may be required to provide your personal information to law enforcement in the event of a criminal investigation, criminal prosecution, or civil subpoena. freenode will comply with legal instruments that follow proper procedure and are sufficiently narrow in their scope as to not infringe on the civil liberties of others.
+
+### DATA RETENTION
+We retain all account information and data indefinitely unless a user deletes their account (/msg nickserv drop <yournick>), in which case the data is purged from our systems in accordance with our general data retention policy of thirty (30) days. We retain login activity for a period of thirty (30) days after which the data is purged from our system. We do not maintain any logs of user chat activity.
+
+### CalOPPA STATEMENT
+The State of California requires us to post specific language related to our privacy policy. By default, freenode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how freenode does not share our users' personal information with third parties for direct marketing purposes, you may contact: policy@freenode.net.
+
+### MAINTAINING THE SECURITY OF YOUR PERSONAL INFORMATION
+Your personal information is safeguarded by freenode. You may access your personal information maintained by freenode via a services command (/msg nickserv info <yournick>). Personal information stored by freenode can also be made accessible to other third-parties on the freenode network on an opt-in basis only. All personal information maintained by freenode is encrypted and stored on a server located in the European Union. 
+
+### HOW WE TRANSFER PERSONAL INFORMATION COLLECTED INTERNATIONALLY
+We collect information globally and primarily store that information in the European Union.  If we transfer your personal information from the European Union we will request your consent.
+
+### COPPA DISCLOSURE - About Children’s Online Privacy
+The Children’s Online Privacy Protection Act (COPPA) was passed to give parents increased control over what information is collected from their children online and how such information is used. The law applies to websites and services directed to, and which knowingly collect information from, children under the age of 13.  Our online services are not directed to children under the age of 13, nor is information knowingly collected from them.  For additional information on COPPA protections, please see the FTC website at: https://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online
+
+Please note that freenode, while providing a service globally, is registered in the UK and complies with the age requirements as set out at: https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/applications/children/
+
+### HOW TO ACCESS AND CONTROL YOUR PERSONAL INFORMATION 
+You may delete your personal information at any time via a services command (/msg nickserv drop <yournick>). You may also change the email address associated with your account via a services command. 
+  
+For access to information and requests for erasure, please e-mail policy@freenode.net.
+
+### CHANGES TO THIS PRIVACY POLICY 
+
+BY CONTINUING TO USE THIS WEBSITE AND/OR SERVICES, YOU AGREE THAT YOU CONSENT TO THIS MOST RECENT PRIVACY POLICY. FROM TIME TO TIME, FREENODE WILL MAKE CHANGES TO ITS PRIVACY POLICY AND SUCH CHANGES WILL BE COMMUNICATED VIA MOTD AND THIS WEBSITE. 
+
+freenode will not share user's personal information with third parties for direct marketing purposes. 
+
+For all civil or law enforcement requests, please contact policy@freenode.net. If you have a request that requires mailing or courier, please use the information below: 
+
+freenode Limited
+71-75 Shelton Street
+Covent Garden
+London, WC2H 9JQ
+UK
+
+While freenode agrees to accept service of law enforcement requests based on the above method listed above, freenode does NOT waive any legal rights based on this accommodation.
+
+Last revised July 30, 2018
+
+
+This policy was last updated on: 30 July 2018 
+
+If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
 In addition to these policies, you may wish to read our [Catalyst Guidelines](https://freenode.net/catalysts), [Channel Guidelines](https://freenode.net/changuide), [Philosophy](https://freenode.net/philosophy), [Group Registration Information](https://freenode.net/groupreg) and [this KB article on Conduct](https://freenode.net/kb/answer/conduct).

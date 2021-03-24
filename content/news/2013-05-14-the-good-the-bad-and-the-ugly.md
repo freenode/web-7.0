@@ -4,6 +4,7 @@ date: 2013-05-14 17:33:54+00:00
 slug: the-good-the-bad-and-the-ugly
 title: The good, the bad, and the ugly...
 imported: yes
+robots: noindex
 ---
 Firstly, I would like to apologise for the interruptions the network has experienced in the last week (and continues to experience as we speak). I would also like to thank our incredible server sponsors for the time and dedication they have shown in helping us attempt to deal with the situation.
 

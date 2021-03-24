@@ -6,6 +6,7 @@ title: Sponsorship Roundup
 category: freenode
 category: infrastructure
 imported: yes
+robots: noindex
 ---
 As you may know, the network operations of freenode are fully supported by donations - of hosting and other resources - from both companies and individuals. We acknowledge all sponsors on our [website](http://freenode.net/acknowledgements.shtml), but it is nice from time to time to provide a round-up of recent changes on the sponsorship scene!
 

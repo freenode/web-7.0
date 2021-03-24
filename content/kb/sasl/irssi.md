@@ -26,8 +26,9 @@ These versions need a separate script in order to support SASL: `cap_sasl.pl`.
 You can install it from <https://scripts.irssi.org>:
 
     mkdir -p ~/.irssi/scripts/autorun
-    wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ~/.irssi/scripts/cap_sasl.pl
-    ln -sf ../cap_sasl.pl ~/.irssi/scripts/autorun/
+    cd ~/.irssi/scripts/autorun
+    wget https://scripts.irssi.org/scripts/cap_sasl.pl -O ../cap_sasl.pl
+    ln -sf ../cap_sasl.pl .
 
 Now load and configure it inside Irssi:
 
@@ -37,6 +38,3 @@ Now load and configure it inside Irssi:
     /sasl set freenode <login> <password> PLAIN
     /sasl save
     /save
-
-# Troubleshooting
-

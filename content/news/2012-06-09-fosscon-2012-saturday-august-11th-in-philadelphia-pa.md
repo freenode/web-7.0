@@ -7,6 +7,7 @@ category: community
 category: fosscon
 category: pdpc
 imported: yes
+robots: noindex
 ---
 August 11th, 2012 (All day)
 

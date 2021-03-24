@@ -8,6 +8,7 @@ category: infrastructure
 category: technical
 category: webchat
 imported: yes
+robots: noindex
 ---
 Webchat has always presented an interesting problem, mostly for the staff of various channels as well as the network itself, but indirectly for all our users as well.  All webchat connections come from the IP address of the webchat service.  This results in them having to be handled a little bit differently from other connections.
 

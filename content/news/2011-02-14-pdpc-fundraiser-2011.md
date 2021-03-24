@@ -8,6 +8,7 @@ category: different
 category: free software
 category: pdpc
 imported: yes
+robots: noindex
 ---
 Hello everyone and Happy St Valentine's Day!
 

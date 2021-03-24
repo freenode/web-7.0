@@ -6,6 +6,7 @@ title: [Scheduled Maintenance] Services database clear-out.
 category: infrastructure
 category: technical
 imported: yes
+robots: noindex
 ---
 This is just to let you know that we will soon be performing a fairly substantial cleanup of the NickServ and ChanServ databases.
 

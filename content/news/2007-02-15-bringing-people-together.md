@@ -7,6 +7,7 @@ category: community
 category: fosscon
 category: freenode
 imported: yes
+robots: noindex
 ---
 When I first came on board as [freenode](http://www.freenode.net) staff I had no idea what a incredible experience I was in for.
 

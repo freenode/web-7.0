@@ -3,7 +3,7 @@
 ## Branches and issues
 - Whenever possible, one commit per feature.
 - If feature/pull-request branches have only one developer, please regularly
-  rebase them onto master until they are merged in.
+  rebase them onto main until they are merged in.
 - Don't merge branches with meaningless commit messages; always squash them
   instead.
 - Wait for discussion of big changes. Your branches will still be here
@@ -76,3 +76,8 @@ This does not apply to third party css such as open sans, font awesome and freen
 - No spaces around `=`
 
 A *.footerchild* should contain at least 3 items, it just look silly otherwise.
+
+### JS
+JavaScript should be used sparsely and should not break the usability of the site for browsers without JavaScript
+- For style, follow [JavaScript Standard Style](https://standardjs.com/)
+- Document with [jsdoc](http://usejsdoc.org/) at least to describe what every function does

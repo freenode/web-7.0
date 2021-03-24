@@ -5,6 +5,7 @@ slug: free-as-in-node-episode-5-released
 title: Free-as-in-Node episode 5 released!
 category: community
 imported: yes
+robots: noindex
 ---
 Episode 5 of Free-as-in-Node is now available and ready to abduct even more of your time, now with even more ginger!  Listen in for some details on Ubuntu-1 from Stuart “aquarius” Langridge in Pimp My Project.  Ubuntu-1 sounds like an amazing new project.  Stuart gives us a tip to take a look at Ubuntu-1 without the wait, and gives us a few details on what he is up to and whats going on at Canonical.  He tells us about the[ ayatana mailing list](https://lists.launchpad.net/ayatana), where discussion takes place on the interface and looks of Ubuntu.  We also find out about the new telepathic user interface Stuart is going to deliver to us... personally.
 

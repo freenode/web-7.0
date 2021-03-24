@@ -4,6 +4,7 @@ date: 2002-08-26 15:53:48+00:00
 slug: welcome-fsf-and-gnu
 title: Welcome FSF and GNU!
 imported: yes
+robots: noindex
 ---
 Today freenode welcomes the Free Software Foundation's  [GNU Project](http://www.gnu.org/),  which  [announced today](http://www.fsf.org/press/2002-08-26-freenode.html)  that it has made us its official IRC network. From the press release:
 

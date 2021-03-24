@@ -4,6 +4,7 @@ date: 2009-11-20 16:58:58+00:00
 slug: dcc-spam-and-how-to-handle-it
 title: DCC spam, and how to handle it.
 imported: yes
+robots: noindex
 ---
 We are aware of the recent DCC spam attempts, and we are working on this issue.  In the meantime, please do not paste the full DCC text you recieve in #freenode (or any other channel) as in many cases it can cause you to appear as a problem yourself.
 

@@ -7,6 +7,7 @@ category: community
 category: freenode
 category: social
 imported: yes
+robots: noindex
 ---
 Just a quick note to wish each and every one of our users, sponsors, donors, volunteers and projects for making freenode great.
 

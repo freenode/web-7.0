@@ -21,7 +21,7 @@ The following table lists minimum system requirements, and, where applicable des
 
 | Required | Desired |
 | ---- | ---- |
-| Pentium 4 or better dedicated server | 64-bit multi-core |
+| Pentium 4 or better dedicated server with SSSE3 capability | 64-bit multi-core |
 | 2G RAM | 2-3G or more |
 | Debian stable |  |
 
@@ -51,3 +51,8 @@ Before applying to host a server, you may find it helpful to speak with network 
 freenode's sponsor liaisons try to respond to all server application requests within two weeks. Please allow this time before chasing your application.
 
 All applications will be given the same considerations and we regret that we may not always be able to accept a server offer for whatever reason.
+
+### Infrastructure
+The network infrastructure team can be reached by email at <infra@freenode.net>. Messages can be encrypted to this GPG key:
+
+    8937 A9DD 1321 777B D819  6419 0D52 4809 16EC 8B98

@@ -6,6 +6,7 @@ title: April 1st 2014, Followup
 category: April 1st
 category: freenode
 imported: yes
+robots: noindex
 ---
 It's been almost too long for this blog post to arrive here after the April Fools quiz this year. Thanks to everyone who participated!
   

@@ -4,6 +4,7 @@ date: 2004-03-25 06:01:35+00:00
 slug: customised-project-cloaks
 title: Customised Project Cloaks
 imported: yes
+robots: noindex
 ---
 As of this morning, we've begun providing FOSS projects on freenode with customized cloaks, linking their participants publicly with the projects into which they've put so much time and effort.  We think it's the ultimate community fashion statement. **:)**
 

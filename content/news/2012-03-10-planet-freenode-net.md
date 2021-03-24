@@ -8,6 +8,7 @@ category: freenode
 category: geeknic
 category: social
 imported: yes
+robots: noindex
 ---
 Today, we launched [planet.freenode.net](http://planet.freenode.net).
 

@@ -4,6 +4,7 @@ date: 2009-11-09 18:29:35+00:00
 slug: testing-the-nets
 title: Testing the nets
 imported: yes
+robots: noindex
 ---
 We're in the late stages of testing our new ircd,[ ircd-seven](http://freenode.net/seven.shtml), which is intended to replace our current hyperion ircd, and we need your help!
 

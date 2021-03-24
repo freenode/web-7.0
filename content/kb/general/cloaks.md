@@ -1,4 +1,4 @@
-Title: User and project cloaks
+Title: User and Project Cloaks
 ---
 
 There are two types of cloak which can be set on accounts on freenode; both
@@ -39,9 +39,9 @@ take the form `unaffiliated/owneraccountname/bot/botaccountname`.
 Gateway cloaks
 ==============
 
-If you are connected via a gateway which sets a gateway cloak (for instance, our
-webchat, or KiwiIRC, or some bouncer/shell providers) you will receive an
-automatic gateway cloak—for instance `gateway/web/freenode/ip.1.2.3.4`—these
+If you are connected via a gateway which sets a gateway cloak (for instance,
+some web-based chat interfaces or bouncer/shell providers) you will receive an
+automatic gateway cloak—for instance `gateway/web/foo/ip.1.2.3.4` — these
 gateway cloaks override unaffiliated cloaks, but do not override project cloaks.
 
 There are also gateway cloaks which may denote that the host the user is coming
@@ -60,8 +60,8 @@ should *not* be relied upon for that purpose, as they are not reliable:
    unavailable due to a netsplit or maintenance) will show your uncloaked
    IP/hostname. [Authenticating with SASL](/kb/answer/sasl) avoids this if 
    configured to abort the connection on authentication failure.
- - Connecting via a gateway (for instance, the webchat) will override
-   unaffiliated cloaks (see the "gateway cloaks" section above)
+ - Connecting via a gateway (for instance, most web-based irc clients) will
+   override unaffiliated cloaks (see the "gateway cloaks" section above)
  - Due to the nature of IRC services, there are some tricks which can cause
    services to reveal a cloaked user's IP/hostname.
  - Accepting a DCC chat/file transfer session, or clicking a link someone sends
@@ -93,8 +93,9 @@ Requesting a cloak
 ==================
 
 Once you've read and understood the above, if you would like an unaffiliated
-cloak, please drop in to #freenode or speak to a member of the staff team and
-we'll be happy to set one up for you.
+cloak, please join the #freenode channel or speak to a member of the staff
+team. Note that cloaks are a privilege, and staff have the right to deny that
+privilege to users if they deem necessary.
 
 For project cloaks, a registered GC for the project needs to contact staff to
 request the cloak be added to the desired user.

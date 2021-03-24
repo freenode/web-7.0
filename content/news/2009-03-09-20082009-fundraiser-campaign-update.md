@@ -7,6 +7,7 @@ category: freenode
 category: infrastructure
 category: pdpc
 imported: yes
+robots: noindex
 ---
 **[UPDATE]**
 

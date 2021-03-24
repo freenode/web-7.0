@@ -4,6 +4,7 @@ date: 2005-01-23 23:34:28+00:00
 slug: announcement-pdpc-fundraiser
 title: [Announcement] PDPC Fundraiser
 imported: yes
+robots: noindex
 ---
 
 Good evening to everyone.  Here's hoping  you're having an excellent new year.

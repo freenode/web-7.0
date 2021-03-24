@@ -9,6 +9,7 @@ category: freenode
 category: philosophy
 category: social
 imported: yes
+robots: noindex
 ---
 Most of you are probably familiar with the various freedoms that are frequently stated, such as freedom of speech or expression.  While freenode does exist to promote communication amongst free and open source projects, it is not an open forum for all to use in any way.
 

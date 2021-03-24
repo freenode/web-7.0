@@ -4,6 +4,7 @@ date: 2009-01-29 19:09:00+00:00
 slug: canonical-pledges-matching-funds
 title: Canonical Pledges Matching Funds
 imported: yes
+robots: noindex
 ---
 Thanks to all of you for the donations you have contributed so far towards our fundraising drive. freenode has a few interesting fundraising events and ideas up its sleeves, so hopefully there will be a few more updates to the blog with more details in weeks to come!  Today, freenode and the PDPC announces one of a number of exciting updates to the fundraising process:
 
