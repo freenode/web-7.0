@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>ircd Migration Sat Jan 30th 2010 - freenode</title>
+    <link href="../static/css/open-sans.css?728587f" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?728587f" rel="stylesheet">
+    <link href="../static/css/style.css?728587f" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-shells" href="https://www.shells.com/?_a=TILzLQ" target="_blank" rel="noopener"><img alt="Shells" class="nlogo" src="../static/img/logos/shells-logo.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="ircd-migration-sat-jan-30th-2010"><h1 class="art">ircd Migration Sat Jan 30th 2010</h1></a>
+<span class="art-date">JonathanD on 2010-01-14</span>
+
+    </div>
+    <div class="art-body">
+    <p>In the coming weeks, we will be migrating freenode to our new ircd, ircd-seven.  Presently, freenode uses hyperion and efforts have been underway for some time move us off this platform for reasons of stability and functionality.  We are now almost there.</p>
+<p>As users please be aware that during the migration all clients will be temporarily disconnected and will need to reconnect in order to move over to the new servers. For most of you this will happen as the old servers are shut down.</p>
+<p><strong>Please Note:</strong> While we will copy over channel modes and topics for registered channels (there will be no changes to the services database, all nick and channel settings with services will stay the same) we are unable to do so for channels NOT registered with ChanServ. If your project utilises non-registered channels for whatever reason, please make note of the topics and modes so you can make a manual transfer of these yourselves. For more information on registering a channel, see this <a href="registering-a-channel-on-freenode">post</a>.</p>
+<p>If you operate a channel on freenode and have any concerns, feel free to stop by #freenode to discuss any issues you might have.  If you run any channel utility bots, you may want to test them on the current testnet.  More information can be found <a href="testing-the-nets">here</a>.</p>
+<p><strong>Important Changes</strong></p>
+<p>There are several significant changes users should be aware of in ircd-seven:</p>
+<p>Channel quiets are no longer a modified version of bans but are now on their own list, queried with "mode #channel q", and as such do not appear on the normal banlist.</p>
+<p>After the migration, we will have ssl access available on the production network.</p>
+<p>Identifying upon connection works as before but there are two new ways to do so: specifying username:password in the server password field will allow you to login to a specific account, and SASL authentication is also available.  Using SASL varies by client and is not supported in all clients.</p>
+<p>The CAP command:</p>
+<p>A brief summary:</p>
+<ul>
+<li>
+<p>The CAP LS command will list all client capabilities that are available to the client.</p>
+</li>
+<li>
+<p>The CAP REQ :<cap1></cap1> <cap2></cap2> &lt;...&gt; command can be used to request one or more capabilities. The response to this will be either CAP ACK :<cap></cap> &lt;...&gt;, or CAP NAK :<cap></cap> &lt;...&gt;, depending on whether the request was successful.</p>
+</li>
+<li>
+<p>A CAP name token can be prefixed by - to disable that capability. This was not available with hyperion's CAPAB command.</p>
+</li>
+<li>
+<p>CAP negotiation can take place either during connection and registration (as is required for SASL), or afterwards, to enable identify-msg.</p>
+</li>
+</ul>
+<p>For those implementing support for it, a full specification is at <a href="http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html">http://www.leeh.co.uk/draft-mitchell-irc-capabilities-02.html</a>.</p>
+<p>The IDENTIFY-MSG capability still exists but there is a new way to activate it.  It is now part of the CAP mechanism.   A script for irssi that understands both hyperion's and seven's identify-msg capability is available at <a href="http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl">http://adipose.attenuate.org/~stephen/ircd-seven/format_identify.pl</a>.</p>
+<p>The n= and i= prefixes are not used, instead ~ is prefixed to a non-identd username as is common in most other ircds.</p>
+<p>For further information on changes that might impact you please visit <a href="http://freenode.net/seven-for-hyperion-users.html">http://freenode.net/seven-for-hyperion-users.html</a></p>
+<p>As always, thank you for using freenode, and see you on the other side!</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="happy-new-year-2010">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="javascript-spam">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?728587f" type="text/javascript"></script>
+</body>
+</html>
