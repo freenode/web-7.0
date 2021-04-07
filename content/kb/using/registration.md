@@ -16,7 +16,9 @@ Some terms you should know:
 Registering
 ==============
 
-The following steps are the recommended method to register and set up a new freenode account. If you have questions or run into trouble, join freenode's support channel with `/join #freenode` and we'd be happy to assist.
+The following steps are the recommended method to register and set up a new
+freenode account. If you have questions or run into trouble, join freenode's
+support channel with `/join #freenode` and we'd be happy to assist.
 
 1.  **Select** a master, "primary", nickname. If the nickname you want is registered but has expired, just ask a staffer and in most cases, we will be happy to drop
     it for you. Please avoid using the name of a community project or trademarked entity, to avoid conflicts.
