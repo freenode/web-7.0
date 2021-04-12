@@ -14,8 +14,9 @@ If you don't see your name on this page, and you should, please email us at <b>s
 [Bytemark](http://www.bytemark.co.uk),
 [Choopa](http://www.choopa.com/),
 [CloudFlare](https://www.cloudflare.com/),
-[CloudSigma](https://www.cloudsigma.com/?utm_source=freenode&amp;utm_medium=banner&amp;utm_campaign=sponsoring),
+[CloudSigma](https://www.cloudsigma.com/?utm_source=freenode&utm_medium=banner&utm_campaign=sponsoring),
 [Cubecraft Games](https://www.cubecraft.net/),
+[DataPacket](https://www.datapacket.com/),
 [Exoware](http://www.exoware.net/),
 [FreeBSD](http://www.freebsd.org/),
 [Gandi](http://www.gandi.net/),
@@ -45,4 +46,5 @@ If you don't see your name on this page, and you should, please email us at <b>s
 [Ubuntu](http://www.ubuntu.com/),
 [UK2](http://www.uk2.net/vps-cloud-hosting/),
 [Umeå University ACC](http://www.acc.umu.se/),
+[Ungleich](https://ungleich.ch/),
 [Velocity Networks](http://www.vel.net/)

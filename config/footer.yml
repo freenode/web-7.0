@@ -14,7 +14,7 @@
       link: '//jobs.freenode.net'
     - name: Acknowledgements
       link: pages/acknowledgements
-    - 
+    -
        - name: News Archive
          link: archive
        - name: '/'
@@ -41,7 +41,7 @@
       link: 'kb/index/all'
     - name: Supporting the project
       link: pages/support
+    - name: Contributing
+      link: pages/contributing
     - name: Group registration
       link: pages/groupreg
-    - name: Existing groups
-      link: pages/groupreg #GMS is dead
