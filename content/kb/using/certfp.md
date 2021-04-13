@@ -132,6 +132,18 @@ and when you tap this, a certificate will be randomly generated and a certicate
 fingerprint will be displayed. Tap the tick symbol on the top right of the screen
 to save.
 
+Ambassador
+----------
+
+Refer to Ambassador's FAQ in its wiki on [GitHub](https://github.com/Ascrod/ambassador/wiki/FAQ).
+You have to convert the .pem file you created into .pfx. If you're using Ambassador as an
+[add-on](https://addons.palemoon.org/addon/ambassador/) in Pale Moon 29, you need to update the
+browser to 29.1.1, which fixes a regression preventing certificates from being imported. For
+[Basilisk](https://www.basilisk-browser.org/) and [Interlink](https://binaryoutcast.com/projects/interlink/),
+you have to update to v2021.03.17 and 52.9.7762 respectively, which also fix the same issue.
+
+If you're using the standalone version, then it should be straightforward for you.
+
 Add your fingerprint to NickServ
 ================================
 
