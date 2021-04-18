@@ -10,9 +10,9 @@
     <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
     <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
     <title>freenode</title>
-    <link href="static/css/open-sans.css?4020e3b" rel="stylesheet">
-    <link href="static/css/font-awesome.css?4020e3b" rel="stylesheet">
-    <link href="static/css/style.css?4020e3b" rel="stylesheet">
+    <link href="static/css/open-sans.css?48b5499" rel="stylesheet">
+    <link href="static/css/font-awesome.css?48b5499" rel="stylesheet">
+    <link href="static/css/style.css?48b5499" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
@@ -50,36 +50,14 @@
 <div class="main">
     
     <div class="art-info">
-<a href="news/matrix-bridge-realname"><h1 class="art">Changes to realnames of matrix.org bridged users</h1></a>
-<span class="art-date">jess on 2021-01-21</span>
+<a href="news/freenode-reorg"><h1 class="art">Changes to the organisational structure of freenode</h1></a>
+<span class="art-date">Fuchs on 2021-04-18</span>
 </div>
-    <div class="art-body"><p><a href="https://matrix.org/">matrix.org</a> runs a bridge (matrix-appservice-irc) from
-their Matrix homeserver to freenode that allow Matrix users from any
-homeserver that federates with matrix.org to join channels on freenode and
-intermingle with the normal IRC userbase. These users have their Matrix User
-Id (username and homeserver, e.g. <code>@jess:freenode.net</code>) put in the realname
-field of their IRC connection.</p>
-<p>Over time, the need to differentiate users by which homeserver they are using
-has arisen for multiple reasons, and we've worked with the matrix.org bridge
-operators to better format Matrix User Ids to suit the limited space provided
-by IRC realnames.</p>
-<p>Realnames pose a slight problem for this usage; the maximum length for a
-Matrix User Id is 255 characters, whereas the maximum length for an IRC
-realname is 50 characters and things longer than that get truncated, which
-means if people have a Matrix username of 50 characters, it will truncate off
-the entirety of their homeserver.</p>
-<p>The solution we came up with for this has been to reverse the order of
-username and homeserver, and then reverse the order of domain name parts and
-truncate that at 30 characters, which means the most significant parts of a
-homeserver's domain name comes at the start of a realname. For example,
-<code>@jess:freenode.net</code> becomes <code>net.freenode:jess</code>. If a homeserver is truncated
-to 30 characters, a <code>&gt;</code> is appended prior to the <code>:</code> -
-<code>@jess:subdomaaaaaaaaaain.freenode.net</code> would become
-<code>net.freenode.subdomaaaaaaaaaai&gt;:jess</code>.</p>
-<p>We'd like to extend deep gratitude to the operators of the matrix.org bridge
-for handling and implementing our change request quickly to suit a
-contemporary need, and we'd like to remind users that they can message staff
-at any time if they have any questions about the above changes.</p></div>
+    <div class="art-body"><p>We have changed the organisational structure of freenode a bit. The new structure will be slightly more compact, based on 3 main teams and team internal roles. Decisions affecting all of freenode will be taken by staff as a whole, while specific tasks are mostly taken care of by the corresponding teams and their members. You can find out more about the teams and their area of expertise at https://freenode.net/people</p>
+<p>There are interesting times ahead, collaborating with our colleagues from OFTC https://www.oftc.net/ we will switch to a new, tailored ircd called solanum.</p>
+<p>Detailed information on this and how you can test it and help out will follow in a separate blog post soon.</p>
+<p>Despite the new organisation, our daily operations and goals stay the same. 
+Together we are freenode; a network, a service, a community for free and open source software, peer directed projects and all the people working together for broadly licensed, easy to access code, information and knowledge.</p></div>
     <div class="art-nav">
         <span></span>
         <a href="archive">view archive</a>
@@ -218,6 +196,6 @@ at any time if they have any questions about the above changes.</p></div>
     </div>
 </footer>
     </div>
-    <script src="static/js/utils.js?4020e3b" type="text/javascript"></script>
+    <script src="static/js/utils.js?48b5499" type="text/javascript"></script>
 </body>
 </html>
