@@ -175,9 +175,9 @@ We'd love to hear how you feel we could improve the service for your community.
 Thanks in advance for any help you can provide!
 
 
-## Group Management & Community Team
+## Projects & Community Team
 
-The Group Management & Community Team comprises, among others, **e**,
+The Projects & Community Team comprises, among others, **e**,
 **Fuchs**, **glguy**, **Swant** and **tomaw**; together they will act as your
 liaisons during the group registration process and throughout your tenure on the
 freenode network. If you wish to discuss the group registration process, find out
