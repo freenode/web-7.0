@@ -6,19 +6,18 @@ volunteers came to the project through involvement with one or more of the
 projects that use freenode.
 
 The organisational structure of the freenode project can be split roughly into
-three teams, each with a designated representative or representatives, elected
-by the respective teams. In addition there is a representative of staff, who
-coordinates the project as a whole.
+three teams, each with a designated team lead, elected by the respective teams.
+In addition there is a head of staff, who coordinates the project as a whole.
 
-- **tomaw** is representative of staff.
-- **e** is representative of the development team, coordinating development of
+- **tomaw** is head of staff.
+- **e** is head of the development team, coordinating development of
   the software that we use to run the network, as well as web, tool and bot
   development.
-- **glguy** is representative of the infrastructure team, coordinating the
+- **glguy** is head of the infrastructure team, coordinating the
   technical side of network operations to ensure things continue to run in a
   usable fashion and that we have the right hardware and server platforms in
   place to provide the services we want.
-- **Fuchs** is representative of the projects and community team, coordinating
+- **Fuchs** is head of the projects and community team, coordinating
   group registrations, fostering a good relationship with communities using our
   services and communication via our various public channels.
 
