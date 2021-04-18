@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sun, 18 Apr 2021 16:00:00 +0000</lastBuildDate><item><title>Changes to the organisational structure of freenode</title><link>https://freenode.net/news/freenode-reorg</link><description>&lt;p&gt;We have changed the organisational structure of freenode a bit. The new structure will be slightly more compact, based on 3 main teams and team internal roles. Decisions affecting all of freenode will be taken by staff as a whole, while specific tasks are mostly taken care of by the corresponding teams and their members. You can find out more about the teams and their area of expertise at https://freenode.net/people&lt;/p&gt;
-&lt;p&gt;There are interesting times ahead, collaborating with our colleagues from OFTC https://www.oftc.net/ we will switch to a new, tailored ircd called solanum.&lt;/p&gt;
-&lt;p&gt;Detailed information on this and how you can test it and help out will follow in a separate blog post soon.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fuchs</dc:creator><pubDate>Sun, 18 Apr 2021 16:00:00 +0000</pubDate></item><item><title>Changes to realnames of matrix.org bridged users</title><link>https://freenode.net/news/matrix-bridge-realname</link><description>&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
+<rss version="2.0"><channel><title>freenode news</title><link>https://freenode.net/news/rss.xml</link><description></description><lastBuildDate>Sun, 18 Apr 2021 16:00:00 +0000</lastBuildDate><item><title>Changes to the organisational structure of freenode</title><link>https://freenode.net/news/freenode-reorg</link><description>&lt;p&gt;We have changed the organisational structure of freenode a bit.
+The new structure will be slightly more compact, based on 3 main teams and team
+internal roles. Decisions affecting all of freenode will be taken by staff as a
+whole, while specific tasks are mostly taken care of by the corresponding teams
+and their members. You can find out more about the teams and their area of
+expertise under &lt;a href="/people"&gt;the people&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are interesting times ahead, collaborating with our colleagues from
+&lt;a href="https://www.oftc.net"&gt;OFTC&lt;/a&gt; we will switch to a new, tailored ircd
+called solanum.&lt;/p&gt;
+&lt;p&gt;Detailed information on this and how you can test it and help out will follow in
+a separate blog post soon.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Fuchs</dc:creator><pubDate>Sun, 18 Apr 2021 16:00:00 +0000</pubDate></item><item><title>Changes to realnames of matrix.org bridged users</title><link>https://freenode.net/news/matrix-bridge-realname</link><description>&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
 their Matrix homeserver to freenode that allow Matrix users from any
 homeserver that federates with matrix.org to join channels on freenode and
 intermingle with the normal IRC userbase. These users have their Matrix User
