@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2021-04-18T16:00:00+00:00</updated><entry><title>Changes to the organisational structure of freenode</title><link href="https://freenode.net/news/freenode-reorg" rel="alternate"></link><published>2021-04-18T16:00:00+00:00</published><updated>2021-04-18T16:00:00+00:00</updated><author><name>Fuchs</name></author><id>tag:freenode.net,2021-04-18:/news/freenode-reorg</id><summary type="html">&lt;p&gt;We have changed the organisational structure of freenode a bit.
-The new structure will be slightly more compact, based on 3 main teams and team
-internal roles. Decisions affecting all of freenode will be taken by staff as a
-whole, while specific tasks are mostly taken care of by the corresponding teams
-and their members. You can find out more about the teams and their area of
-expertise under &lt;a href="/people"&gt;the people&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;There are interesting times ahead, collaborating with our colleagues from
-&lt;a href="https://www.oftc.net"&gt;OFTC&lt;/a&gt; we will switch to a new, tailored ircd
-called solanum.&lt;/p&gt;
-&lt;p&gt;Detailed information on this and how you can test it and help out will follow in
-a separate blog post soon.&lt;/p&gt;</summary><content type="html">&lt;p&gt;We have changed the organisational structure of freenode a bit.
-The new structure will be slightly more compact, based on 3 main teams and team
-internal roles. Decisions affecting all of freenode will be taken by staff as a
-whole, while specific tasks are mostly taken care of by the corresponding teams
-and their members. You can find out more about the teams and their area of
-expertise under &lt;a href="/people"&gt;the people&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;There are interesting times ahead, collaborating with our colleagues from
-&lt;a href="https://www.oftc.net"&gt;OFTC&lt;/a&gt; we will switch to a new, tailored ircd
-called solanum.&lt;/p&gt;
-&lt;p&gt;Detailed information on this and how you can test it and help out will follow in
-a separate blog post soon.&lt;/p&gt;
-&lt;p&gt;Despite the new organisation, our daily operations and goals stay the same. 
-Together we are freenode; a network, a service, a community for free and open
-source software, peer directed projects and all the people working together for
-broadly licensed, easy to access code, information and knowledge.&lt;/p&gt;</content></entry><entry><title>Changes to realnames of matrix.org bridged users</title><link href="https://freenode.net/news/matrix-bridge-realname" rel="alternate"></link><published>2021-01-21T20:00:00+00:00</published><updated>2021-01-21T20:00:00+00:00</updated><author><name>jess</name></author><id>tag:freenode.net,2021-01-21:/news/matrix-bridge-realname</id><summary type="html">&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2021-01-21T20:00:00+00:00</updated><entry><title>Changes to realnames of matrix.org bridged users</title><link href="https://freenode.net/news/matrix-bridge-realname" rel="alternate"></link><published>2021-01-21T20:00:00+00:00</published><updated>2021-01-21T20:00:00+00:00</updated><author><name>jess</name></author><id>tag:freenode.net,2021-01-21:/news/matrix-bridge-realname</id><summary type="html">&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
 their Matrix homeserver to freenode that allow Matrix users from any
 homeserver that federates with matrix.org to join channels on freenode and
 intermingle with the normal IRC userbase. These users have their Matrix User
@@ -340,4 +316,17 @@ Rankin speaks frequently on security and free and open source software including
 &lt;h2 id="vm-brasseur"&gt;&lt;a class="toclink" href="#vm-brasseur"&gt;VM Brasseur&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;VM (aka Vicky) spent most of her 20 years in the tech industry leading software development departments and teams, and providing technical management and leadership consulting for small and medium businesses. Now she leverages nearly 30 years of free and open source software experience and a strong business background to &lt;a href="https://vmbrasseur.com/services"&gt;advise companies about free/open source, technology, community, business, and the intersections between them&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;She is the author of &lt;a href="https://fossforge.com"&gt;&lt;em&gt;Forge Your Future with Open Source&lt;/em&gt;&lt;/a&gt;, the first book to detail how to contribute to free and open source software projects. Think of it as the missing manual of open source contributions and community participation. The book is published by &lt;a href="https://pragprog.com/"&gt;The Pragmatic Programmers&lt;/a&gt; and is now available in an &lt;a href="https://fossforge.com"&gt;early release beta version&lt;/a&gt;. It's available at https://fossforge.com.&lt;/p&gt;
-&lt;p&gt;Vicky is the Vice President of the &lt;a href="https://opensource.org"&gt;Open Source Initiative&lt;/a&gt;, a moderator and author for &lt;a href="https://opensource.com"&gt;opensource.com&lt;/a&gt;, an author for &lt;a href="http://linuxjournal.com"&gt;Linux Journal&lt;/a&gt;, and a frequent and popular &lt;a href="http://vmbrasseur.com/presentations/"&gt;speaker&lt;/a&gt; at free/open source conferences and events. She's the proud winner of the Perl White Camel Award (2014) and the O’Reilly Open Source Award (2016).  She blogs about free/open source, business, and technical management at &lt;a href="https://anonymoushash.vmbrasseur.com"&gt;{anonymous =&amp;gt; 'hash'};&lt;/a&gt;. You can follow her on Twitter &lt;a href="https://twitter.com/vmbrasseur"&gt;@VMBrasseur&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;Vicky is the Vice President of the &lt;a href="https://opensource.org"&gt;Open Source Initiative&lt;/a&gt;, a moderator and author for &lt;a href="https://opensource.com"&gt;opensource.com&lt;/a&gt;, an author for &lt;a href="http://linuxjournal.com"&gt;Linux Journal&lt;/a&gt;, and a frequent and popular &lt;a href="http://vmbrasseur.com/presentations/"&gt;speaker&lt;/a&gt; at free/open source conferences and events. She's the proud winner of the Perl White Camel Award (2014) and the O’Reilly Open Source Award (2016).  She blogs about free/open source, business, and technical management at &lt;a href="https://anonymoushash.vmbrasseur.com"&gt;{anonymous =&amp;gt; 'hash'};&lt;/a&gt;. You can follow her on Twitter &lt;a href="https://twitter.com/vmbrasseur"&gt;@VMBrasseur&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>freenode Security Update: Reused Password Attack</title><link href="https://freenode.net/news/security-update-rpa" rel="alternate"></link><published>2018-06-29T08:08:00+00:00</published><updated>2018-06-29T08:08:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-06-29:/news/security-update-rpa</id><summary type="html">&lt;p&gt;In the very early hours of today (Friday 29 June 2018), we became aware of unauthorised attempts to access a substantial number of freenode accounts. This appears to be the result of an attacker using lists of usernames and passwords from other online services that have previously been compromised, and trying these combinations on freenode accounts.&lt;/p&gt;
+&lt;p&gt;Our investigations commenced immediately and we found that the attacker had been able to log in to a number of freenode accounts.&lt;/p&gt;
+&lt;p&gt;freenode has not been hacked or compromised.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In the very early hours of today (Friday 29 June 2018), we became aware of unauthorised attempts to access a substantial number of freenode accounts. This appears to be the result of an attacker using lists of usernames and passwords from other online services that have previously been compromised, and trying these combinations on freenode accounts.&lt;/p&gt;
+&lt;p&gt;Our investigations commenced immediately and we found that the attacker had been able to log in to a number of freenode accounts.&lt;/p&gt;
+&lt;p&gt;freenode has not been hacked or compromised.&lt;/p&gt;
+&lt;h2 id="affected-information"&gt;&lt;a class="toclink" href="#affected-information"&gt;Affected information&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For the affected accounts, usernames (nicknames) and passwords are affected. Additionally, for some accounts, other information including channel access and channel lists may be affected.&lt;/p&gt;
+&lt;h2 id="what-we-are-doing"&gt;&lt;a class="toclink" href="#what-we-are-doing"&gt;What we are doing&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We are committed to protecting your data and, as a precaution, we have frozen the affected accounts and are in the process of sending individual notifications to affected users.&lt;/p&gt;
+&lt;h2 id="what-you-can-do"&gt;&lt;a class="toclink" href="#what-you-can-do"&gt;What you can do&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If your account was affected, we are in the process of contacting you directly with information to reset your password and restore access to your account.&lt;/p&gt;
+&lt;p&gt;We encourage all users to practice good password hygiene, even if your account has not been affected at this time.&lt;/p&gt;
+&lt;p&gt;Attacks such as these have a tendency to escalate and cause a domino effect and we will continue to investigate and monitor for new attack vectors. &lt;/p&gt;
+&lt;p&gt;Password reuse means that once one account is compromised, all of the accounts that share that password become compromised.&lt;/p&gt;</content></entry></feed>
