@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="news/atom.xml" title="news (atom)">
+    <title>freenode</title>
+    <link href="static/css/open-sans.css?092b01c" rel="stylesheet">
+    <link href="static/css/font-awesome.css?092b01c" rel="stylesheet">
+    <link href="static/css/style.css?092b01c" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="."><img alt="freenode" class="nlogo" src="static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-shells" href="https://www.shells.com/?_a=TILzLQ" target="_blank" rel="noopener"><img alt="Shells" class="nlogo" src="static/img/logos/shells-logo.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="jumbotron jindex">
+    <h2 class="child">Welcome to <img alt="freenode" class="tlogo" src="static/img/logos/coloured-alphabg.svg">&thinsp;—&thinsp;supporting free and open source communities since 1998</h2>
+    <div class="box-container">
+        <a class="box" href="//webchat.freenode.net">
+            <i class="fa fa-comments fa-4x"></i>
+            <span>Chat</span>
+        </a>
+        <a class="box" href="groupreg">
+            <i class="fa fa-users fa-4x"></i>
+            <span>Register a group</span>
+        </a>
+        <a class="box" href="kb/all">
+            <i class="fa fa-question fa-4x"></i>
+            <span>Knowledge Base</span>
+        </a>
+    </div>
+</div>
+<div class="main">
+    
+    <div class="art-info">
+<a href="news/matrix-bridge-realname"><h1 class="art">Changes to realnames of matrix.org bridged users</h1></a>
+<span class="art-date">jess on 2021-01-21</span>
+</div>
+    <div class="art-body"><p><a href="https://matrix.org/">matrix.org</a> runs a bridge (matrix-appservice-irc) from
+their Matrix homeserver to freenode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on freenode and
+intermingle with the normal IRC userbase. These users have their Matrix User
+Id (username and homeserver, e.g. <code>@jess:freenode.net</code>) put in the realname
+field of their IRC connection.</p>
+<p>Over time, the need to differentiate users by which homeserver they are using
+has arisen for multiple reasons, and we've worked with the matrix.org bridge
+operators to better format Matrix User Ids to suit the limited space provided
+by IRC realnames.</p>
+<p>Realnames pose a slight problem for this usage; the maximum length for a
+Matrix User Id is 255 characters, whereas the maximum length for an IRC
+realname is 50 characters and things longer than that get truncated, which
+means if people have a Matrix username of 50 characters, it will truncate off
+the entirety of their homeserver.</p>
+<p>The solution we came up with for this has been to reverse the order of
+username and homeserver, and then reverse the order of domain name parts and
+truncate that at 30 characters, which means the most significant parts of a
+homeserver's domain name comes at the start of a realname. For example,
+<code>@jess:freenode.net</code> becomes <code>net.freenode:jess</code>. If a homeserver is truncated
+to 30 characters, a <code>&gt;</code> is appended prior to the <code>:</code> -
+<code>@jess:subdomaaaaaaaaaain.freenode.net</code> would become
+<code>net.freenode.subdomaaaaaaaaaai&gt;:jess</code>.</p>
+<p>We'd like to extend deep gratitude to the operators of the matrix.org bridge
+for handling and implementing our change request quickly to suit a
+contemporary need, and we'd like to remind users that they can message staff
+at any time if they have any questions about the above changes.</p></div>
+    <div class="art-nav">
+        <span></span>
+        <a href="archive">view archive</a>
+        <span></span>
+    </div>
+    
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="project">The project</a>
+            </li>
+            <li>
+                <a href="people">The people</a>
+            </li>
+            <li>
+                <a href="philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="news/atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="groupreg">Group registration</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="static/js/utils.js?092b01c" type="text/javascript"></script>
+</body>
+</html>
