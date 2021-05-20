@@ -10,7 +10,7 @@ Dear freenode,
 
 First and foremost, I want to thank the hard working staff for keeping freenode running during these challenging times.  Without you, this wouldn't be possible.
 
-# On Recent Events
+## On Recent Events
 Since 2013, I have been a major sponsor of freenode providing servers and funding through one of my companies.  I have no intention to stop this in the future.  The rumors of a 'hostile takeover' are simply untrue - I've been the guardian and owner of freenode since 2017, when Christel, the former owner approached me and asked if I was interested in purchasing it, as we had in previous years discussed this.
 
 In April of this year, after Christel had resigned, I was approached by the new Head of Staff, tomaw, who asked if he could have ownership over the domains.  I responded with my wish to decentralize the network.  Subsequently, I learned I was locked out of the account a few days later.  When I asked for access back, I was denied and suddenly a story that I was attempting a hostile takeover began to spread.
@@ -21,13 +21,13 @@ Finally, tomaw voluntarily handed back all of the accesses to freenode limited. 
 
 We're doing this for you, as we have until now and as we will in the future.
 
-# On Decentralization
+## On Decentralization
 We're going to provide more voted representation across all sectors for the freenode userbase and groups that call freenode home.  Additionally, we will be opening up the server-link process to be much more inclusive, albeit, by vote (like some of the other larger networks).  Finally, in order to remove the strong reliance on a centralized network, we are currently reviewing decentralizing policies including potentially revisiting the nomenclature of servers on freenode (end reliance on a single domain name).
 
-# On Sponsorships and Logos
+## On Sponsorships and Logos
 As I have been funding freenode since 2013, there has been a logo of one of my companies or a company I'm involved in on the website.  In general, FOSS projects have historically struggled to obtain funding and often times simply showing sponsors on the website helps to alleviate this to some degree.  This is no different here.  Every company that has appeared on the freenode website has provided financial sponsorship or servers or both to freenode.  I want to send a clear message to those who disagree - you're not helping FOSS, and your behavior of [ritual defamation](http://techrights.org/2021/04/29/ritual-defamation/) is [toxic at best](http://paulgraham.com/fn.html).  We want to encourage sponsors to help open source developers and communities to be sustainable, not the opposite.
 
-# On the Future and Other Communities
+## On the Future and Other Communities
 I encourage the community to reach out and engage in discussion with the staff in #freenode-staff-discussion at anytime in order to provide input on the future of freenode.  For all of the communities who are on the fence about what to do, please rest assured.  Freenode is freenode, and it exists for the sake of the FOSS movement.
 
 
