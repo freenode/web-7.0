@@ -177,8 +177,7 @@ Thanks in advance for any help you can provide!
 
 ## Group Management & Community Team
 
-The Group Management & Community Team comprises, among others, **e**,
-**Fuchs**, **glguy**, **Swant** and **tomaw**; together they will act as your
+The Group Management & Community Team comprises, among others, the freenode staff; together they will act as your
 liaisons during the group registration process and throughout your tenure on the
 freenode network. If you wish to discuss the group registration process, find out
 if freenode could be a good fit for your project or register your project as
