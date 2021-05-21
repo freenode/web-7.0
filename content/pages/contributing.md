@@ -55,24 +55,4 @@ base.
 ## The Development Team
 
 When contributing to freenode you will get to interact closely with our
-development team which comprises, amongst others:
-
-* **amdj** &mdash; Services developer, WireGuard mailing list moderator &
-  channel operator, networking & crypto nerd
-* **bigpresh** &mdash; Perl programmer, sysad, dad, man wishing for more time
-  and tuits.
-* **e** &mdash; IRCd and kitchen sink developer, drive-by foss contributor,
-  everywhere lurker, sysadmin.
-* **Fuchs** &mdash; Helping out in KDE and local Linux Help- and Usergroups,
-  versatile fox-for-everything on freenode.
-* **glguy** &mdash; Programmer, Haskell-community member, focused on helping
-  users use freenode.
-* **ilbelkyr** &mdash; Services maintainer, trying to help make things work as
-  they should.
-* **jess** &mdash; Pythonista, IRC protocol obsessive, robot engineer and fluffy
-  sandcat.
-* **mniip** &mdash; Hacking around a bit with ircd's, services, irc bots,
-  irc clients, and scripts. Programmer/Mathematician in real life.
-* **Swant** &mdash; Trying to bring more unicorns to our websites, doesn't
-  know how to IRC.
-* **tomaw**
+development team.
