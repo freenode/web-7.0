@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>NickServ Is Your Friend - freenode</title>
+    <link href="../static/css/open-sans.css?07f3405" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?07f3405" rel="stylesheet">
+    <link href="../static/css/style.css?07f3405" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-shells" href="https://www.shells.com/?_a=TILzLQ" target="_blank" rel="noopener"><img alt="Shells" class="nlogo" src="../static/img/logos/shells-logo.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-warning">
+        This article was imported from freenode's wordpress blog, and is
+        likely out of date. It's preserved here in the interest of
+        history, but please don't treat it as an authoritative source in
+        any context. Links on this page may be out of date and broken.
+    </div>
+    <div class="art-info">
+        
+<a href="nickserv-is-your-friend"><h1 class="art">NickServ Is Your Friend</h1></a>
+<span class="art-date">SportChick on 2007-03-24</span>
+
+    </div>
+    <div class="art-body">
+    <p><strong>UPDATE: This is outdated. See <a href="http://freenode.net/faq.shtml#nicksetup">here</a> for up-to-date instructions. Note that some commands in this entry have been renamed or have different syntax. If you need help with your NickServ account and can't find information on our website, please ask in #freenode.</strong></p>
+<p>Nickserv, unbeknownst to many, has many useful features. In addition to handling nick registration, it allows you to change your password, hide certain information about your nick and online status, recover your nick from another user who is using it (or a dead computer connection), turn on/off the ability to receive and be notified of new memos.  Here are some of the major features of nickserv.  Don't be afraid to poke around with /msg nickserv help.</p>
+<p><strong>Nick Setup</strong></p>
+<p>Many people on freenode have spent the time to register their nicknames. If you are planning on spending much time at all on freenode, it makes sense. However, it appears that many stop short of the <a href="http://freenode.net/faq.shtml#nicksetup">optimal configuration</a>. It's a little more time-consuming, but not much. It's rather simple and perhaps if we were to explain why we suggest a particular configuration, more people would complete the entire process.</p>
+<p>The most obvious bit, of course, is to register your nick, which is done simply with /msg nickserv register $password (from the nick you want to register, of course). Next, /nick $altnick to another nickname and register this nick as well, again with /msg nickserv register $password. Then, link the two names by doing /msg nickserv link $originalnick $originalnickpassword from the secondary nick. This will document that both nicks are owned by the same person, and will allow services to leave you identified if you switch from your primary nick to your alternate and vice-versa. We encourage you to set your nick up in this fashion because, if configured correctly, it allows you to connect from your secondary nick in the event that you try to connect to freenode when your primary nick is in use. If you generally auto-identify, you will still be able to identify, receive your cloak and other relevant settings.  Traditionally, the secondary nick is master_ (note the trailing underscore), but feel free to use whatever you like.</p>
+<p>Next, freenode recommends setting an email address. First of all, why... No, we are not planning to send you spam or sign you up for spam lists. The email address protects you in the event you lose your password. If you <strong>do not</strong> set an email address and you lose your password, then you'll be unable to retrieve your nick - instead will have to wait until the nickname is <a href="http://freenode.net/faq.shtml#userexpirations">droppable</a>. If you want to to set your email address but not not want it visible to others, then use the /msg nickserv set hidemail on feature.</p>
+<p>The final step in freenode's recommended setup is to set your client to auto-identify to nickserv when you join freenode. The easiest approach is to specify your nickserv password as a server password. It's less likely that you'll connect to the network without being identified to nickserv this way. Additionally, it reduces the chance that you might accidentally type your password where others might see it.</p>
+<p>In the event you want to change the nick you are using as your master nick, rather than changing each link individually, just /nick $desiredmasternick and type /msg nickserv set master $nick $password.  This command will automatically set that as the new master for your entire chain of linked nicks.</p>
+<p><strong>Regaining Control of a Nick</strong></p>
+<p>There are three commands that allow you to regain control of a nick, for whatever reason - ghost, recover and release.  The first, and most commonly used is "ghost".  From time to time, you'll lose your connection to the net and/or freenode, but your nick will remain online as far as the network can tell.  In this case, a ghost command is effective: /msg nickserv ghost $nick $password.  This command will "kill" your nick, allowing you to change to that nick (/nick $nick) and identify to nickserv (/msg nickserv identify $password).</p>
+<p>In the event your nick is being used by another person or from a machine that autoconnects when disconnected, you may need to use the recover command (/msg nickserv recover $nick $password).  Recover performs a nick collide on your nick.  Once this command is employed, the nick will be held until you use the 'release' command or until the release times out.  If you are identified to a linked nickname, you do not need to supply a password. Otherwise, you have to supply the correct password.</p>
+<p>The release command simply allows you to regain control of your nick after performing a recover command.  To release the nick, type /msg nickserv release $nick $password.</p>
+<p><strong>Privacy &amp; Security</strong></p>
+<p>Turning on the "secure" feature (/msg nickserv set secure on) requires anyone using your nick to identify before being able to recover/release your nick, among other things.</p>
+<p>If you have set your nick to "private" (/msg nickserv set private on), then if anyone performs a "list" command, your nick will not be listed.</p>
+<p>There are a number of things you can "hide" relating to your nick and online information.  When you use "hide", others will not be able to see certain information when they do an "info" on your nick.  Hide email was covered earlier.  In addition, you can hide your URL, your last seen address and your last seen quit message.  Alternatively, you can hide everything.  To hide your information, simply type /msg nickserv set hide all|email|url|addr|quit on|off.</p>
+<p><strong>Miscellaneous</strong></p>
+<p>Nickserv will help you find nicks that utilize a certain string.  For example, if you wanted a list of any nicks on freenode that contain "chick", you could type /msg nickserv list <em>chick</em>.  Nickserv would then return a list of all non-private nicks that contain the string "chick".</p>
+<p>You can obtain basic information about a nickname if the owner of the nick has not set the nick to privacy.  By using /msg nickserv info $nick, you can see when a user registered, when he/she last identified to nickserv, what address/hostmask the user last connected from, the user's last quit message and what nickname options the user has set.  If you run the command on your own nick, you'll also see what cloak you have set (if any), any linked nicks you have, a listing of any channels you've registered, and a listing of any channels on which you are on the access list (and your access level for the channel).</p>
+<p>You can reset your password.  However, you must first identify to nickserv using the existing password. Once you have identified, simply type /msg nickserv set password $newpass.</p>
+<p>Finally, freenode has a memo service (through memoserv).  You can set certain things relating to memos through nickserv.  The default settings for each of these options is "on", so unless you wish to turn something off, you need do nothing. To allow yourself to receive (or not receive) memos on a particular nick (or their linked nicks), simply type /msg nickserv set memos on|off.  If someone does send you a memo and you have memos off, they will receive a notification that you are not accepting memos.  If you have memos set to "on", then you must decide whether you want to receive notification that you've received a new memo.  To receive notification when the memo is sent, /msg nickserv set notify on. You will also receive notification about new memos whenever you identify to nickserv.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="pdpc-design-contest">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="building-bridges">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?07f3405" type="text/javascript"></script>
+</body>
+</html>
