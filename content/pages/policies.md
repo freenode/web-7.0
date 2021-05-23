@@ -46,7 +46,10 @@ Channel ownership
 Channels on freenode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. If you’d
 like to take over one of these channels, then you’ll need to be associated in
-some way with the project in question. Topical, or ‘about’ channels, begin with
+some way with the project in question. For abandoned project channels that
+have moved or are no longer available to the public, you may request the
+ownership of the channel be transferred to you. Please make said requests in
+the #freenode IRC channel. Topical, or ‘about’ channels, begin with
 two # characters, and these are allocated on a first-come, first-served basis to
 the first person who registers it with ChanServ. As with nicknames, however, we
 reserve the right to remove or alter registrations where we believe they have
@@ -81,13 +84,18 @@ applicable where freenode operates. Use of freenode and its facilities is a
 privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.
 
-Unlawful activities and related support activities are considered off-topic, as are
-inappropriate advertising, heavy media file trading, proprietary game software modding,
-warez, porn and various forms of antisocial behaviour, including (but not limited to) 
-political, racial, ethnic, religious or gender-related invective.
+Off topic channels are required to act in good faith in accordance to the freenode
+community as a whole.  Unlawful activities and related support activities are
+considered off-topic, as are inappropriate advertising such as unused channels
+for the purpose of polluting the channel list results, transmission of illicit
+content such as warez or illegal content, spam, or squatting a namespace preventing
+others from utilizing it.
+
+Channels found in violation of an infraction will be given a warning. A second
+violation is terms for removal of its channel operators.
 
 In accordance with UK law freenode has no tolerance for any activity that could be construed
-as: 
+as:
 
 * incitement to racial hatred
 * incitement to religious hatred
