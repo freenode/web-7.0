@@ -91,9 +91,6 @@ for the purpose of polluting the channel list results, transmission of illicit
 content such as warez or illegal content, spam, or squatting a namespace preventing
 others from utilizing it.
 
-Channels found in violation of an infraction will be given a warning. A second
-violation is terms for removal of its channel operators.
-
 In accordance with UK law freenode has no tolerance for any activity that could be construed
 as:
 
