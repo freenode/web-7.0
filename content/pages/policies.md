@@ -43,6 +43,8 @@ Please contact network staff if you would like to take over an expired nickname.
 Channel ownership
 =================
 
+*DRAFT*
+
 Channels on freenode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. If you’d
 like to take over one of these channels, then you’ll need to be associated in
@@ -77,6 +79,8 @@ We strongly urge you to adhere to the [channel guidelines](http://freenode.net/c
 
 Off-topic Use
 =============
+
+*DRAFT*
 
 We expect all users of the network, whether affiliated with a project or not, to
 act in good faith and in accordance with both their local laws and those
