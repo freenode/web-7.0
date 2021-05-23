@@ -43,7 +43,8 @@ Please contact network staff if you would like to take over an expired nickname.
 Channel ownership
 =================
 
-*DRAFT*
+*These changes are made on 5/22/21 and are a draft. Please send feedback to
+feedback@freenode.net or the #freenode-policy-feedback*
 
 Channels on freenode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. If you’d
@@ -80,7 +81,8 @@ We strongly urge you to adhere to the [channel guidelines](http://freenode.net/c
 Off-topic Use
 =============
 
-*DRAFT*
+*These changes are made on 5/22/21 and are a draft. Please send feedback to
+feedback@freenode.net or the #freenode-policy-feedback*
 
 We expect all users of the network, whether affiliated with a project or not, to
 act in good faith and in accordance with both their local laws and those
