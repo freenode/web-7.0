@@ -259,7 +259,7 @@ While freenode agrees to accept service of law enforcement requests based on the
 Last revised July 30, 2018
 
 
-This policy was last updated on: 30 July 2018 
+This policy page was last updated on: 25 May 2021
 
 If you have any questions about freenode policies, please e-mail policy@freenode.net.
 
