@@ -4,17 +4,16 @@ Title: The Policies
 
 Purpose
 ==================
-The freenode project exists to help peer-directed project communities flourish.
-Peer-directed projects combine open, informal participation with broad licensing
-and wide dissemination of output.
+The freenode project exists to help all communities.  Its focus is peer-directed projects
+and open innovation communities.  Peer-directed projects combine open, informal participation
+with broad licensing and wide dissemination of output.
 
-freenode provides facilities to peer-directed project communities, including those
-of free and open source software (FOSS). The IRC component of freenode is a
-self-referential medium, existing mainly to service IRC users &mdash; but the network
-was created to serve groups that exist outside of IRC. freenode is designed to encourage
-community members to improve their skills in the areas of cooperative effort, interpersonal 
-communication and project coordination, and to create a real-time bridge to the outside world
-for our target communities.
+freenode provides facilities to peer-directed project communities and the combined efforts
+of open innovations, including those of free and open source software (FOSS). Freenode
+utilizes IRC to service its users &mdash; but the network was created to serve groups that
+exist outside of IRC. freenode is designed to encourage community members to improve their
+skills in the areas of cooperative effort, interpersonal  communication and project
+coordination, and to create a real-time bridge to the outside world for our target communities.
 
 Nickname ownership
 ==================
@@ -44,13 +43,15 @@ Channel ownership
 =================
 
 Channels on freenode fall into one of two categories. Primary channels, which
-begin with a single # character, are reserved for on-topic projects. If you’d
-like to take over one of these channels, then you’ll need to be associated in
-some way with the project in question. Topical, or ‘about’ channels, begin with
-two # characters, and these are allocated on a first-come, first-served basis to
-the first person who registers it with ChanServ. As with nicknames, however, we
-reserve the right to remove or alter registrations where we believe they have
-not been made in good faith.
+begin with a single # character, are reserved for on-topic projects. Primary
+channels are required to stay open.  If a primary channel closes access to its
+users or is in violation of freenode policies, then it will be closed and forwarded
+to a topical channel. If you’d like to take over one of these primary channels, then
+you’ll need to be associated in some way with the project in question. Topical,
+or ‘about’ channels, begin with two # characters, and these are allocated on a
+first-come, first-served basis to the first person who registers it with ChanServ.
+As with nicknames, however, we reserve the right to remove or alter registrations
+where we believe they have not been made in good faith.
 
 Primary channels do not expire with inactivity, though they can be claimed at
 any time by a representative of an on-topic project with the appropriate name.
