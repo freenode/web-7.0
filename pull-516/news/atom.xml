@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>freenode news</title><link href="https://freenode.net/news/atom.xml" rel="alternate"></link><id>https://freenode.net/news/atom.xml</id><updated>2021-05-25T14:00:00+00:00</updated><entry><title>freenode exists for FOSS</title><link href="https://freenode.net/news/for-foss" rel="alternate"></link><published>2021-05-25T14:00:00+00:00</published><updated>2021-05-25T14:00:00+00:00</updated><author><name>rasengan</name></author><id>tag:freenode.net,2021-05-25:/news/for-foss</id><summary type="html">&lt;p&gt;To the FOSS Community,&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Current global users: 68347&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The current global user count of freenode exceeds the user count of the &lt;a href="https://netsplit.de/networks/top10.php"&gt;2nd-6th&lt;/a&gt; largest networks, combined.  I am pleased to announce, the plan to destroy freenode has failed!&lt;/p&gt;</summary><content type="html">&lt;p&gt;To the FOSS Community,&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Current global users: 68347&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The current global user count of freenode exceeds the user count of the &lt;a href="https://netsplit.de/networks/top10.php"&gt;2nd-6th&lt;/a&gt; largest networks, combined.  I am pleased to announce, the plan to destroy freenode has failed!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Fuchs bragging about burning freenode down" src="../static/img/fuchs-freenode-burn.png"&gt;
+(Message from former staffer/team lead, Fuchs)&lt;/p&gt;
+&lt;p&gt;We’re moved by the tens of thousands of messages of love and support we have received, but moreover, we expected no less from the most objective and fair community in the world - the FOSS community.  The silent majority has spoken.&lt;/p&gt;
+&lt;h2 id="to-the-few-projects-leaving-based-on-falsehoods"&gt;&lt;a class="toclink" href="#to-the-few-projects-leaving-based-on-falsehoods"&gt;To the few projects leaving based on falsehoods&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;freenode has been the home for the entire FOSS community for over 20 years.  Fracturing the community only hurts users and FOSS.  Your users don’t wish to migrate.  Stop forcing them.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Wikimedia forcing people to move" src="../static/img/wikimedia-forced-move.png"&gt;
+(This is what is happening in some FOSS project’s channels because users refuse to leave freenode)&lt;/p&gt;
+&lt;p&gt;Freenode is more than just an IRC network.  It is the home for our users.  You came here because of the freenode users, not the other way around, and now you try to destroy it from the inside.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;You’re using your FOSS projects as a trojan horse to pursue a political cause based on falsehoods on IRC.&lt;/strong&gt;  Please stop and reflect on what you’re doing.  If you wish to continue, then it is what it is - an illness.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Wikimedia representatives spreading a false narrative" src="../static/img/wikimedia-decisions-without-facts.png"&gt;
+(A wikipedia representative enters a discussion channel and narrates based off information while admitting not to know facts.  He uses knowledge from &lt;a href="https://www.theguardian.com/technology/blog/2011/jun/28/lulzsec-hacking-analysed-relationships"&gt;joepie91&lt;/a&gt; who does things for the “lulz”)&lt;/p&gt;
+&lt;h2 id="a-note-on-cancel-culture"&gt;&lt;a class="toclink" href="#a-note-on-cancel-culture"&gt;A note on cancel culture&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I have also received hundreds of reports from project leads on freenode that they are being harassed and are at risk of being canceled if they do not leave, to Libera.  &lt;strong&gt;This activity does not belong in FOSS.  Stop it.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="a-moment-of-silence-and-salute-to-prawnsalad"&gt;&lt;a class="toclink" href="#a-moment-of-silence-and-salute-to-prawnsalad"&gt;A moment of silence and salute to prawnsalad&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the casualties that IRC has, unfortunately, suffered yesterday was of &lt;a href="https://gist.github.com/prawnsalad/4ca20da6c2295ddb06c1646791c61953"&gt;prawnsalad&lt;/a&gt;.  We salute his efforts, as without him, webirc and &lt;em&gt;webircv3&lt;/em&gt; wouldn’t be where it is, today.  Most major networks have a web irc platform thanks to prawnsalad, including freenode.&lt;/p&gt;
+&lt;h2 id="freenode"&gt;&lt;a class="toclink" href="#freenode"&gt;freenode&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Freenode is freenode, and freenode is FOSS.  freenode is you.  It’s not a former staff team holding onto a position for 20+ years without any progress other than asking every group to manually go through them to get vhosts, as a gatekeeper.  As such, we will be enabling the features that were built to make freenode better years ago and were simply never implemented.  HostServ is coming!&lt;/p&gt;
+&lt;h2 id="a-word-on-policies"&gt;&lt;a class="toclink" href="#a-word-on-policies"&gt;A word on policies&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To protect the community, we’ve updated our &lt;a href="http://freenode.net/policies"&gt;policies&lt;/a&gt; and are continuing to upgrade our systems to better reflect the state of freenode in 2021.  With our strong &lt;a href="http://freenode.net/people"&gt;team&lt;/a&gt;, we’ll be able to take freenode and IRC further..  It’s a new era for freenode and IRC and a great era for FOSS and open innovations!&lt;/p&gt;
+&lt;p&gt;To the next 20 years.&lt;/p&gt;
+&lt;p&gt;Thanks again for choosing freenode, the home of the FOSS community.&lt;/p&gt;
+&lt;p&gt;On behalf of freenode and the entire freenode team,&lt;/p&gt;
+&lt;p&gt;Andrew Lee (rasengan)&lt;/p&gt;
+&lt;p&gt;President
+freenode limited&lt;/p&gt;</content></entry><entry><title>On freenode and its commitment to FOSS</title><link href="https://freenode.net/news/freenode-is-foss" rel="alternate"></link><published>2021-05-19T20:00:00+00:00</published><updated>2021-05-19T20:00:00+00:00</updated><author><name>rasengan</name></author><id>tag:freenode.net,2021-05-19:/news/freenode-is-foss</id><summary type="html">&lt;p&gt;Dear freenode,&lt;/p&gt;
+&lt;p&gt;First and foremost, I want to thank the hard working staff for keeping freenode running during these challenging times.  Without you, this wouldn't be possible.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Dear freenode,&lt;/p&gt;
+&lt;p&gt;First and foremost, I want to thank the hard working staff for keeping freenode running during these challenging times.  Without you, this wouldn't be possible.&lt;/p&gt;
+&lt;h2 id="on-recent-events"&gt;&lt;a class="toclink" href="#on-recent-events"&gt;On Recent Events&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Since 2013, I have been a major sponsor of freenode providing servers and funding through one of my companies.  I have no intention to stop this in the future.  The rumors of a 'hostile takeover' are simply untrue - I've been the guardian and owner of freenode since 2017, when Christel, the former owner approached me and asked if I was interested in purchasing it, as we had in previous years discussed this.&lt;/p&gt;
+&lt;p&gt;In April of this year, after Christel had resigned, I was approached by the new Head of Staff, tomaw, who asked if he could have ownership over the domains.  I responded with my wish to decentralize the network.  Subsequently, I learned I was locked out of the account a few days later.  When I asked for access back, I was denied and suddenly a story that I was attempting a hostile takeover began to spread.&lt;/p&gt;
+&lt;p&gt;At this point, I became worried about the safety of freenode -- it was odd that freenode limited, represented by me, was locked out of freenode's accounts when I used to have access the whole time.  After subsequent attempts to get access back, I resorted to reaching out through an attorney.&lt;/p&gt;
+&lt;p&gt;Finally, tomaw voluntarily handed back all of the accesses to freenode limited.  This is good news, as freenode will continue to run as it had with the support it has always had.  Furthermore, tomaw and I have engaged in civil discussion as we are both in agreement as it relates to wishing for freenode to continue to be what it has been.  I am optimistic these discussions will end with a positive result for the community -- which is the most important participant here.&lt;/p&gt;
+&lt;p&gt;We're doing this for you, as we have until now and as we will in the future.&lt;/p&gt;
+&lt;h2 id="on-decentralization"&gt;&lt;a class="toclink" href="#on-decentralization"&gt;On Decentralization&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We're going to provide more voted representation across all sectors for the freenode userbase and groups that call freenode home.  Additionally, we will be opening up the server-link process to be much more inclusive, albeit, by vote (like some of the other larger networks).  Finally, in order to remove the strong reliance on a centralized network, we are currently reviewing decentralizing policies including potentially revisiting the nomenclature of servers on freenode (end reliance on a single domain name).&lt;/p&gt;
+&lt;h2 id="on-sponsorships-and-logos"&gt;&lt;a class="toclink" href="#on-sponsorships-and-logos"&gt;On Sponsorships and Logos&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As I have been funding freenode since 2013, there has been a logo of one of my companies or a company I'm involved in on the website.  In general, FOSS projects have historically struggled to obtain funding and often times simply showing sponsors on the website helps to alleviate this to some degree.  This is no different here.  Every company that has appeared on the freenode website has provided financial sponsorship or servers or both to freenode.  I want to send a clear message to those who disagree - you're not helping FOSS, and your behavior of &lt;a href="http://techrights.org/2021/04/29/ritual-defamation/"&gt;ritual defamation&lt;/a&gt; is &lt;a href="http://paulgraham.com/fn.html"&gt;toxic at best&lt;/a&gt;.  We want to encourage sponsors to help open source developers and communities to be sustainable, not the opposite.&lt;/p&gt;
+&lt;h2 id="on-the-future-and-other-communities"&gt;&lt;a class="toclink" href="#on-the-future-and-other-communities"&gt;On the Future and Other Communities&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I encourage the community to reach out and engage in discussion with the staff in #freenode-staff-discussion at anytime in order to provide input on the future of freenode.  For all of the communities who are on the fence about what to do, please rest assured.  Freenode is freenode, and it exists for the sake of the FOSS movement.&lt;/p&gt;
+&lt;p&gt;Yours truly,&lt;/p&gt;
+&lt;p&gt;Andrew Lee (rasengan)
+Chairman, freenode limited&lt;/p&gt;</content></entry><entry><title>Changes to realnames of matrix.org bridged users</title><link href="https://freenode.net/news/matrix-bridge-realname" rel="alternate"></link><published>2021-01-21T20:00:00+00:00</published><updated>2021-01-21T20:00:00+00:00</updated><author><name>jess</name></author><id>tag:freenode.net,2021-01-21:/news/matrix-bridge-realname</id><summary type="html">&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
+their Matrix homeserver to freenode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on freenode and
+intermingle with the normal IRC userbase. These users have their Matrix User
+Id (username and homeserver, e.g. &lt;code&gt;@jess:freenode.net&lt;/code&gt;) put in the realname
+field of their IRC connection.&lt;/p&gt;
+&lt;p&gt;Over time, the need to differentiate users by which homeserver they are using
+has arisen for multiple reasons, and we've worked with the matrix.org bridge
+operators to better format Matrix User Ids to suit the limited space provided
+by IRC realnames.&lt;/p&gt;
+&lt;p&gt;Realnames pose a slight problem for this usage; the maximum length for a
+Matrix User Id is 255 characters, whereas the maximum length for an IRC
+realname is 50 characters and things longer than that get truncated, which
+means if people have a Matrix username of 50 characters, it will truncate off
+the entirety of their homeserver.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://matrix.org/"&gt;matrix.org&lt;/a&gt; runs a bridge (matrix-appservice-irc) from
+their Matrix homeserver to freenode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on freenode and
+intermingle with the normal IRC userbase. These users have their Matrix User
+Id (username and homeserver, e.g. &lt;code&gt;@jess:freenode.net&lt;/code&gt;) put in the realname
+field of their IRC connection.&lt;/p&gt;
+&lt;p&gt;Over time, the need to differentiate users by which homeserver they are using
+has arisen for multiple reasons, and we've worked with the matrix.org bridge
+operators to better format Matrix User Ids to suit the limited space provided
+by IRC realnames.&lt;/p&gt;
+&lt;p&gt;Realnames pose a slight problem for this usage; the maximum length for a
+Matrix User Id is 255 characters, whereas the maximum length for an IRC
+realname is 50 characters and things longer than that get truncated, which
+means if people have a Matrix username of 50 characters, it will truncate off
+the entirety of their homeserver.&lt;/p&gt;
+&lt;p&gt;The solution we came up with for this has been to reverse the order of
+username and homeserver, and then reverse the order of domain name parts and
+truncate that at 30 characters, which means the most significant parts of a
+homeserver's domain name comes at the start of a realname. For example,
+&lt;code&gt;@jess:freenode.net&lt;/code&gt; becomes &lt;code&gt;net.freenode:jess&lt;/code&gt;. If a homeserver is truncated
+to 30 characters, a &lt;code&gt;&amp;gt;&lt;/code&gt; is appended prior to the &lt;code&gt;:&lt;/code&gt; -
+&lt;code&gt;@jess:subdomaaaaaaaaaain.freenode.net&lt;/code&gt; would become
+&lt;code&gt;net.freenode.subdomaaaaaaaaaai&amp;gt;:jess&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We'd like to extend deep gratitude to the operators of the matrix.org bridge
+for handling and implementing our change request quickly to suit a
+contemporary need, and we'd like to remind users that they can message staff
+at any time if they have any questions about the above changes.&lt;/p&gt;</content></entry><entry><title>Changes to ChanServ regarding cloaks</title><link href="https://freenode.net/news/chanserv-cloak-changes" rel="alternate"></link><published>2020-11-28T17:00:00+00:00</published><updated>2020-11-28T17:00:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2020-11-28:/news/chanserv-cloak-changes</id><summary type="html">&lt;p&gt;freenode offers &lt;a href="/kb/answer/cloaks"&gt;cloaks&lt;/a&gt; to our users, which replace one's
+hostname or IP address in various places with a project affiliation or lack
+thereof. Many of you will be aware that cloaks on freenode &lt;a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip"&gt;are not offered as a
+security measure&lt;/a&gt; and
+that various means are available to third parties to see through them.&lt;/p&gt;
+&lt;p&gt;However, many users acquire cloaks for security/privacy reasons anyway, and
+we've taken the decision to close some of the more glaring holes in the
+protection they offer. Please do note that cloaks are still not recommended
+for hiding a user's IP address.&lt;/p&gt;
+&lt;p&gt;We have deployed the following changes to ChanServ:&lt;/p&gt;</summary><content type="html">&lt;p&gt;freenode offers &lt;a href="/kb/answer/cloaks"&gt;cloaks&lt;/a&gt; to our users, which replace one's
+hostname or IP address in various places with a project affiliation or lack
+thereof. Many of you will be aware that cloaks on freenode &lt;a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip"&gt;are not offered as a
+security measure&lt;/a&gt; and
+that various means are available to third parties to see through them.&lt;/p&gt;
+&lt;p&gt;However, many users acquire cloaks for security/privacy reasons anyway, and
+we've taken the decision to close some of the more glaring holes in the
+protection they offer. Please do note that cloaks are still not recommended
+for hiding a user's IP address.&lt;/p&gt;
+&lt;p&gt;We have deployed the following changes to ChanServ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AKICK DEL&lt;/strong&gt; no longer removes bans against the host behind a cloak&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WHY&lt;/strong&gt; no longers considers host-based access&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;UNQUIET&lt;/strong&gt; no longer unquiets nicks that aren't on the target channel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Empirically, these are corner cases that don't often come into play when
+managing a channel. However, if you need assistance with something that these
+commands used to do, feel free—as always—to contact staff at any time.&lt;/p&gt;
+&lt;p&gt;While bans against IP addresses continue to apply to cloaked users, we intend to
+revise this behaviour in the future due to its privacy implications.&lt;/p&gt;
+&lt;p&gt;If you have any questions, please don't hesitate to ask either #freenode or any
+available member of staff.&lt;/p&gt;</content></entry><entry><title>[Scheduled Maintenance] Services database spring cleaning</title><link href="https://freenode.net/news/scheduled-maintenance-services-database-spring-cleaning" rel="alternate"></link><published>2020-02-22T10:42:00+00:00</published><updated>2020-02-22T10:42:00+00:00</updated><author><name>Fuchs</name></author><id>tag:freenode.net,2020-02-22:/news/scheduled-maintenance-services-database-spring-cleaning</id><summary type="html">&lt;p&gt;During the Easter weekend (April 12th to 15th) we will be purging the freenode services database. 
+We periodically prune the database to remove expired accounts, nicknames and channels. Just like previous database purges we will be removing any accounts and nicknames that have not been used for 120 days at the time of the purge. &lt;/p&gt;
+&lt;p&gt;We appreciate that not everyone remembers to identify to services, and we would urge you to check and, if necessary, ensure that you identify so as to not lose your account/nickname(s) during the purge if you use any that may be approaching the expiration limit (120 days) used in connection with the services purge.&lt;/p&gt;
+&lt;p&gt;Please note that nicknames and accounts expire separately and you will need to identify to all grouped nicks that you wish to keep, and don’t forget to also check any second accounts you may have for bots or similar (for the sake of your fellow community members we would recommend cycling through any nicknames with a client that is not joined to channels so as to minimise disruption).&lt;/p&gt;</summary><content type="html">&lt;p&gt;During the Easter weekend (April 12th to 15th) we will be purging the freenode services database. 
+We periodically prune the database to remove expired accounts, nicknames and channels. Just like previous database purges we will be removing any accounts and nicknames that have not been used for 120 days at the time of the purge. &lt;/p&gt;
+&lt;p&gt;We appreciate that not everyone remembers to identify to services, and we would urge you to check and, if necessary, ensure that you identify so as to not lose your account/nickname(s) during the purge if you use any that may be approaching the expiration limit (120 days) used in connection with the services purge.&lt;/p&gt;
+&lt;p&gt;Please note that nicknames and accounts expire separately and you will need to identify to all grouped nicks that you wish to keep, and don’t forget to also check any second accounts you may have for bots or similar (for the sake of your fellow community members we would recommend cycling through any nicknames with a client that is not joined to channels so as to minimise disruption).&lt;/p&gt;
+&lt;p&gt;Some channels may also be affected by the NickServ purge and &lt;a href="https://freenode.net/kb/answer/namespaces#topical-channels"&gt;topical channels&lt;/a&gt; may be dropped from the database should the access list become empty. &lt;a href="https://freenode.net/kb/answer/namespaces#primary-channels"&gt;Primary channels&lt;/a&gt; will remain registered and can be reclaimed by the affected group contact(s).&lt;/p&gt;
+&lt;p&gt;If you have a nick grouped to your account that you would like to use as your main nick, you can change your account name; see &lt;code&gt;/msg NickServ HELP SET ACCOUNTNAME&lt;/code&gt; for additional information.
+Remember that you can use sendpass to recover lost passwords - see &lt;code&gt;/msg NickServ HELP SENDPASS&lt;/code&gt; for details.
+Please also make sure that your account has a valid e-mail address assigned, as this is the only way to regain access to your account should you lose your password. You can check the current address with &lt;code&gt;/msg NickServ INFO&lt;/code&gt; while logged in, and set a new one with the SET EMAIL command, see &lt;code&gt;/msg NickServ HELP SET EMAIL&lt;/code&gt; for instructions.&lt;/p&gt;
+&lt;p&gt;If you have any questions, please do not hesitate to ask our volunteers in #freenode or listed on &lt;code&gt;/stats p&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for using freenode. &lt;/p&gt;</content></entry><entry><title>Private Internet Access and the freenode project</title><link href="https://freenode.net/news/freenode-pia-changes" rel="alternate"></link><published>2019-11-23T18:50:20+00:00</published><updated>2019-11-23T18:50:20+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2019-11-23:/news/freenode-pia-changes</id><summary type="html">&lt;p&gt;This week we learned the news of the proposed merger between Private Internet Access (LTMI) and Kape Technologies. &lt;/p&gt;
+&lt;p&gt;freenode is not affected by this merger. Kape has indicated that it will honour Private Internet Access' server sponsorship for the next six months as a minimum, and we hope that the company will continue to support the project also after this time. &lt;/p&gt;
+&lt;p&gt;Nevertheless, the freenode project is fortunate to be in a position where it does not rely on a single sponsor and we have a broad and diverse range of supporters; and the freenode project will continue being part of and having access to support from the Imperial Family Companies (formerly London Trust Media Holdings (LTMH)). &lt;/p&gt;</summary><content type="html">&lt;p&gt;This week we learned the news of the proposed merger between Private Internet Access (LTMI) and Kape Technologies. &lt;/p&gt;
+&lt;p&gt;freenode is not affected by this merger. Kape has indicated that it will honour Private Internet Access' server sponsorship for the next six months as a minimum, and we hope that the company will continue to support the project also after this time. &lt;/p&gt;
+&lt;p&gt;Nevertheless, the freenode project is fortunate to be in a position where it does not rely on a single sponsor and we have a broad and diverse range of supporters; and the freenode project will continue being part of and having access to support from the Imperial Family Companies (formerly London Trust Media Holdings (LTMH)). &lt;/p&gt;
+&lt;p&gt;freenode continues to exist to support the development and use of free and open source software, and there will be no changes to the operations, values, mission or direction of the freenode project in connection with the merger of Private Internet Access and Kape Technologies.&lt;/p&gt;
+&lt;p&gt;We would like to thank Private Internet Access for the support the company has provided to freenode and numerous other projects within the FOSS space, and we hope to see continued support for FOSS projects also upon conclusion of the merger.&lt;/p&gt;</content></entry><entry><title>Matrix GDPR access request data overshare</title><link href="https://freenode.net/news/matrix-overshare" rel="alternate"></link><published>2019-08-11T18:52:00+00:00</published><updated>2019-08-11T18:52:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2019-08-11:/news/matrix-overshare</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;You may already be aware that in the process of servicing a request for personal
+information under the GDPR, &lt;a href="https://matrix.org"&gt;Matrix.org&lt;/a&gt; provided a user with a data
+dump that mistakenly included events that user had not been a party to. We
+suggest reading Matrix.org's &lt;a href="https://matrix.org/blog/2019/07/24/data-portability-tooling-bug"&gt;writeup&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;On the morning of 2019-08-04 UTC we were notified by the recipient of the dump
+that the errant data included messages from freenode users and, in a spirit of
+transparency, felt it was important to keep you informed of any potential
+security issue concerning you.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;You may already be aware that in the process of servicing a request for personal
+information under the GDPR, &lt;a href="https://matrix.org"&gt;Matrix.org&lt;/a&gt; provided a user with a data
+dump that mistakenly included events that user had not been a party to. We
+suggest reading Matrix.org's &lt;a href="https://matrix.org/blog/2019/07/24/data-portability-tooling-bug"&gt;writeup&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;On the morning of 2019-08-04 UTC we were notified by the recipient of the dump
+that the errant data included messages from freenode users and, in a spirit of
+transparency, felt it was important to keep you informed of any potential
+security issue concerning you.&lt;/p&gt;
+&lt;p&gt;We have reached out to Matrix.org's team in order to understand the impact of
+the issue, and they have assured us that all of these messages were to public
+channels whose administrations chose to make their histories publicly available.&lt;/p&gt;
+&lt;p&gt;If you have any questions, feel free to either track down a staffer in PM or
+email &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#112;&amp;#111;&amp;#108;&amp;#105;&amp;#99;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;"&gt;&amp;#112;&amp;#111;&amp;#108;&amp;#105;&amp;#99;&amp;#121;&amp;#64;&amp;#102;&amp;#114;&amp;#101;&amp;#101;&amp;#110;&amp;#111;&amp;#100;&amp;#101;&amp;#46;&amp;#110;&amp;#101;&amp;#116;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks for using freenode.&lt;/p&gt;</content></entry><entry><title>Moving webchat to Kiwi IRC</title><link href="https://freenode.net/news/moving-to-kiwiirc" rel="alternate"></link><published>2019-06-22T20:42:00+00:00</published><updated>2019-06-22T20:42:00+00:00</updated><author><name>Fuchs, ilbelkyr</name></author><id>tag:freenode.net,2019-06-22:/news/moving-to-kiwiirc</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;after years of providing our good old &lt;a href="https://qwebirc.org/"&gt;qwebirc&lt;/a&gt; based webchat,
+we are excited to announce that freenode is moving to a new &lt;a href="https://kiwiirc.com/"&gt;Kiwi IRC&lt;/a&gt;
+based solution!&lt;/p&gt;
+&lt;p&gt;The change will occur during this weekend (June 22nd / 23rd).&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;after years of providing our good old &lt;a href="https://qwebirc.org/"&gt;qwebirc&lt;/a&gt; based webchat,
+we are excited to announce that freenode is moving to a new &lt;a href="https://kiwiirc.com/"&gt;Kiwi IRC&lt;/a&gt;
+based solution!&lt;/p&gt;
+&lt;p&gt;The change will occur during this weekend (June 22nd / 23rd).&lt;/p&gt;
+&lt;p&gt;Kiwi IRC is an extensible and modern webchat solution, making IRC a lot easier
+and more comfortable to use for both newcomers and long time users.
+In addition to a clean and friendly UI it supports translations into
+various languages, easier formatting and usage of emoji and advanced
+customization for power users.&lt;/p&gt;
+&lt;p&gt;Most existing links and bookmarks should continue to work, including sites
+embedding the freenode webchat; please do let us know if you are running into issues.&lt;/p&gt;
+&lt;p&gt;We would like to thank everybody who supported us during this migration,
+most of all Kiwi's developer, prawnsalad, who provided a huge amount of code,
+adaptations, options and testing that should ensure a smooth migration.&lt;/p&gt;
+&lt;p&gt;Along with this change, we will no longer apply gateway cloaks to users
+of our webchat, treating them the same as any other client. While channel
+operators will still be able to recognize them via the realname field,
+we strongly suggest that you carefully consider the impact on legitimate
+users and hope that you decide not to ban webchat users as a whole.&lt;/p&gt;
+&lt;p&gt;Please note that the old webchat will no longer be available after this migration.&lt;/p&gt;
+&lt;p&gt;Thank you for using freenode, via our new Kiwi webchat or any other client you prefer!&lt;/p&gt;</content></entry><entry><title>ircd-seven 1.1.8</title><link href="https://freenode.net/news/seven-118" rel="alternate"></link><published>2019-06-17T10:15:00+00:00</published><updated>2019-06-17T10:15:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2019-06-17:/news/seven-118</id><summary type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
+production network over the coming weeks.&lt;/p&gt;
+&lt;p&gt;This release incorporates a number of user-facing changes:&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;We're preparing to release version 1.1.8 of ircd-seven and deploy it to the
+production network over the coming weeks.&lt;/p&gt;
+&lt;p&gt;This release incorporates a number of user-facing changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/core/monitor-3.2"&gt;Monitor&lt;/a&gt; is restored to a usable state, and will be re-enabled.&lt;/li&gt;
+&lt;li&gt;Spam filtering can be opted-out of. Setting mode &lt;code&gt;+u&lt;/code&gt; on yourself (
+   &lt;code&gt;/umode +u&lt;/code&gt; or &lt;code&gt;/mode yournick +u&lt;/code&gt;) will disable filtering for messages
+   sent to you. Setting it on a channel will disable filtering for all
+   messages sent to that channel.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/motd&lt;/code&gt; and &lt;code&gt;/stats&lt;/code&gt; are no longer ratelimited unless directed at a
+   specific server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We're also introducing support for several IRCv3 features that may improve the
+experience on capable clients:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/away-notify-3.1"&gt;Away Notifications&lt;/a&gt; are supported.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/chghost-3.2"&gt;CHGHOST&lt;/a&gt; is supported.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/sts"&gt;Strict Transport Security&lt;/a&gt; and &lt;a href="https://ircv3.net/specs/extensions/tls-3.1"&gt;STARTTLS&lt;/a&gt; are enabled. (We know
+   STARTTLS is deprecated and a bit out of date, but we'd still like to get
+   as many people as possible using TLS one way or another.)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ircv3.net/specs/extensions/userhost-in-names-3.2"&gt;Userhosts in NAMES&lt;/a&gt; is supported.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There's one more change that is not related to this release, but deserves
+mention: nearly two years ago, we developed an improvement to the &lt;code&gt;+z&lt;/code&gt; channel
+mode, which sends messages that would have been blocked by &lt;code&gt;+q&lt;/code&gt; or &lt;code&gt;+m&lt;/code&gt; to
+channel operators instead. Our new version sends these messages to ops from the
+&lt;code&gt;@&lt;/code&gt;-prefixed version of the channel:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;:e!e@freenode/staff/spy.edk PRIVMSG @#test :I'm quieted&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;to make it easier for operators to distinguish between messages everyone can see
+and messages they can see due to &lt;code&gt;+z&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This borrows the syntax from an existing feature, &lt;a href="https://tools.ietf.org/html/draft-hardy-irc-isupport-00#section-4.18"&gt;STATUSMSG&lt;/a&gt;, but
+is easy to tell apart from it, because only ops and voiced users can send to
+&lt;code&gt;@channel&lt;/code&gt; normally.&lt;/p&gt;
+&lt;p&gt;We gated this behind a feature switch, and we've been waiting, largely
+passively, for client support to increase. It appears that everyone who wants to
+act on warnings has done so, and we'd like to commit to a date to enable it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We'll be enabling this feature on the 31st of July 2019, UTC.&lt;/strong&gt; If you op a
+channel that uses &lt;code&gt;+z&lt;/code&gt;, please make sure your client handles it correctly.
+You can send test messages by using &lt;code&gt;/msg @#channel test&lt;/code&gt; using a second opped
+connection for any channel where you have ops—your client should associate
+this message with &lt;code&gt;#channel&lt;/code&gt;, and preferably distinguish it from normal
+messages in some way.&lt;/p&gt;
+&lt;p&gt;Thanks for using freenode, and I look forward to collaborating with many of
+you via a slightly less-antiquated medium.&lt;/p&gt;</content></entry><entry><title>freenode Next Gen Tor Hidden Service</title><link href="https://freenode.net/news/torv3" rel="alternate"></link><published>2019-05-04T00:00:00+00:00</published><updated>2019-05-04T00:00:00+00:00</updated><author><name>dax</name></author><id>tag:freenode.net,2019-05-04:/news/torv3</id><summary type="html">&lt;p&gt;Over the last few years, the Tor Project has developed a &lt;a href="https://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions"&gt;new Tor Hidden
+Services protocol&lt;/a&gt;.
+It has a few improvements over the previous version, including better
+cryptography using SHA3 and ed25519.&lt;/p&gt;
+&lt;p&gt;We've added a new Tor Hidden Service address to &lt;a href="https://freenode.net/kb/answer/chat#accessing-freenode-via-tor"&gt;our instructions for connecting
+to freenode via Tor&lt;/a&gt;
+that uses the new protocol. The new address is&lt;/p&gt;</summary><content type="html">&lt;p&gt;Over the last few years, the Tor Project has developed a &lt;a href="https://trac.torproject.org/projects/tor/wiki/doc/NextGenOnions"&gt;new Tor Hidden
+Services protocol&lt;/a&gt;.
+It has a few improvements over the previous version, including better
+cryptography using SHA3 and ed25519.&lt;/p&gt;
+&lt;p&gt;We've added a new Tor Hidden Service address to &lt;a href="https://freenode.net/kb/answer/chat#accessing-freenode-via-tor"&gt;our instructions for connecting
+to freenode via Tor&lt;/a&gt;
+that uses the new protocol. The new address is&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you're using a recent version of Tor (0.3.5 or newer) to connect to
+freenode, you should be able to use the new service by changing from the old
+address to the new one in your client configuration. The old address will
+continue to work for the forseeable future, but is likely to be deprecated
+eventually as the Tor ecosystem changes.&lt;/p&gt;</content></entry><entry><title>freenode #live 2018 is a wrap, thank YOU!</title><link href="https://freenode.net/news/live-2018" rel="alternate"></link><published>2018-11-04T22:59:00+00:00</published><updated>2018-11-04T22:59:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-11-04:/news/live-2018</id><summary type="html">&lt;p&gt;Wow. What an incredible weekend. I want to express my heartfelt thanks to all those who joined us for freenode #live this weekend. Whether you participated in person or tuned into the livestream.&lt;/p&gt;
+&lt;p&gt;We were fortunate enough to have an exceptionally inspiring and engaging speaker line-up - thank you so much for coming to inspire the community. Thank you also to our supportive sponsors who have enabled us to put this event on again, and of course the freenode volunteer team - both those who detached for a weekend to throw themselves into an entirely different type of volunteering and those who stayed behind to keep the network running and also doubled as livestream monitors, a special thank you to you all for your willingness to adapt and get stuck in. A huge thank you also to the venue staff, and to the AV technicians! &lt;/p&gt;
+&lt;p&gt;YOU are freenode.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Wow. What an incredible weekend. I want to express my heartfelt thanks to all those who joined us for freenode #live this weekend. Whether you participated in person or tuned into the livestream.&lt;/p&gt;
+&lt;p&gt;We were fortunate enough to have an exceptionally inspiring and engaging speaker line-up - thank you so much for coming to inspire the community. Thank you also to our supportive sponsors who have enabled us to put this event on again, and of course the freenode volunteer team - both those who detached for a weekend to throw themselves into an entirely different type of volunteering and those who stayed behind to keep the network running and also doubled as livestream monitors, a special thank you to you all for your willingness to adapt and get stuck in. A huge thank you also to the venue staff, and to the AV technicians! &lt;/p&gt;
+&lt;p&gt;YOU are freenode.&lt;/p&gt;
+&lt;p&gt;I hope that the several calls to action in various talks will inspire and encourage as we jump from C (communicate, collaborate and create) to E (engage, educate and empower).&lt;/p&gt;
+&lt;p&gt;I am confident that we will do a more extensive recap when we have started to recover from the weekend, but before I nod off to sleep I want to do a huge shout-out of thanks to those of the freenode #live participants that hailed from underrepresented groups. In a time where the world is oftentimes unjust and outright scary it has been an incredibly inspiring and empowering experience to meet so many of you this weekend. I am under no illusion that there isn't a fight still to be had to ensure full inclusion and equality and I am incredibly happy that you form a growing and significant part of our community. &lt;/p&gt;
+&lt;p&gt;YOU are freenode also. Thank you.&lt;/p&gt;
+&lt;h2 id="lost-property"&gt;&lt;a class="toclink" href="#lost-property"&gt;Lost property?&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Towards the end of day two a pair of glasses were found in the theatre and while a few announcements were made no one came forth to claim the glasses. In the event that you lost yours but would prefer to be able to see properly again, please do get in touch with us via e-mail or IRC and we will arrange for the glasses to be returned to you!&lt;/p&gt;</content></entry><entry><title>Did you hear? freenode #live is coming to town!</title><link href="https://freenode.net/news/live" rel="alternate"></link><published>2018-10-01T16:47:00+00:00</published><updated>2018-10-01T16:47:00+00:00</updated><author><name>mattl from Handshake</name></author><id>tag:freenode.net,2018-10-01:/news/live</id><summary type="html">&lt;p&gt;A little over a month from now, the second freenode #live will take place at We The Curious in Bristol. With talks from many free and open source community leaders such as Leslie Hawthorn, VM Brasseur, Chris Lamb and Bradley Kuhn, freenode #live once again brings an international free software gathering to the South West. &lt;/p&gt;
+&lt;p&gt;Other exhibitors at this year’s event will be the returning main sponsor, &lt;a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/"&gt;Private Internet Access&lt;/a&gt;, as well as the Free Software Foundation, OpenSuSE, Minetest, Linux Journal and the Handshake Project. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://handshake.org"&gt;Handshake&lt;/a&gt; is a new decentralized alternative DNS root, and for a short time before launch freenode users and members of the free and open source community are encouraged to sign up today at Handshake.org and receive free Handshake coins that can be used to purchase domain names when Handshake launches in the near future.&lt;/p&gt;</summary><content type="html">&lt;p&gt;A little over a month from now, the second freenode #live will take place at We The Curious in Bristol. With talks from many free and open source community leaders such as Leslie Hawthorn, VM Brasseur, Chris Lamb and Bradley Kuhn, freenode #live once again brings an international free software gathering to the South West. &lt;/p&gt;
+&lt;p&gt;Other exhibitors at this year’s event will be the returning main sponsor, &lt;a href="https://www.privateinternetaccess.com/pages/buy-vpn/freend/"&gt;Private Internet Access&lt;/a&gt;, as well as the Free Software Foundation, OpenSuSE, Minetest, Linux Journal and the Handshake Project. &lt;/p&gt;
+&lt;p&gt;&lt;a href="http://handshake.org"&gt;Handshake&lt;/a&gt; is a new decentralized alternative DNS root, and for a short time before launch freenode users and members of the free and open source community are encouraged to sign up today at Handshake.org and receive free Handshake coins that can be used to purchase domain names when Handshake launches in the near future.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://freenode.live/tickets"&gt;Tickets for the full event&lt;/a&gt; start at £15 (approximately USD $20, 18 Euro) but there is a free tier for those wanting to catch the talks and exhibition hall only. &lt;a href="https://visitbristol.co.uk/about-bristol/travel-to-bristol"&gt;Bristol is well connected&lt;/a&gt; with Bristol International Airport (BRS) serving many European destinations, and the city is a few hours by train from London and Manchester. &lt;/p&gt;
+&lt;p&gt;Please note: This guest blog entry has been written by our sponsor Handshake.&lt;/p&gt;</content></entry><entry><title>Spam filtering</title><link href="https://freenode.net/news/spamfilter" rel="alternate"></link><published>2018-09-24T17:47:00+00:00</published><updated>2018-09-24T17:47:00+00:00</updated><author><name>edk</name></author><id>tag:freenode.net,2018-09-24:/news/spamfilter</id><summary type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.&lt;/p&gt;
+&lt;p&gt;Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;As most of you are aware, we've been experiencing significant spam over the
+past few weeks. As a result, we have decided to roll out a server-side spam
+filter. Unlike our current spam-mitigating techniques, this system applies to
+private messages and does not let the first matching line get through.&lt;/p&gt;
+&lt;p&gt;Various ethical concerns have been raised over the course of introducing this
+feature. They'll be addressed below. The short version, though, is that the
+system has various limitations built in designed to prevent operator abuse.
+Only a tiny bit of information can get out of the filters, and they do not have
+access to much information themselves, to the extent that we believe the
+obvious ways to abuse such a feature are impractical.&lt;/p&gt;
+&lt;p&gt;We've historically been reluctant to take steps like this, and we remain so,
+but we believe the disruption has reached such a level that this is necessary
+to allow the communities using freenode to collaborate effectively. The prior
+complement of anti-spam measures represents our preferred approach, and we
+intend to employ this only when they prove insufficient to minimize disruption.&lt;/p&gt;
+&lt;p&gt;For the technically inclined, you can view the changes
+&lt;a href="https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to spy on users?&lt;/em&gt; Which filter a user matched is not
+  reported to staff, only that one did. This limits the theoretical maximum
+  rate of passive monitoring to one bit per message, far less than the
+  information content of conversations.&lt;/p&gt;
+&lt;p&gt;Recipients of private messages are not included in the line that filters
+match on, so staff cannot use spam filters to see who is talking to whom.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Could this be used to shadowban users?&lt;/em&gt; No. If a filter blocks a message,
+  its sender is either disconnected from the network or sent an error message.&lt;/p&gt;
+&lt;p&gt;Currently, the filter system is configured not to use the nick, username, or
+hostname for filter matching, so it can't discriminate against particular
+users at all.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The exact information filters "see" is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The type of message (PRIVMSG/NOTICE)&lt;/li&gt;
+&lt;li&gt;The target of the message, if that target is a channel. For private
+  messages, filters can see that they are PMs but not who their target is.&lt;/li&gt;
+&lt;li&gt;Whether or not the sender is identified (but not their account name)&lt;/li&gt;
+&lt;li&gt;The full contents of the message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The code can be configured to filter on the &lt;code&gt;nick!user@host&lt;/code&gt; of the sender. We
+haven't enabled this, and have no current plans to, but this is subject to
+change should the nature of the spam demand it.&lt;/p&gt;
+&lt;p&gt;Filtering is always performed on the server originating a message, and inside
+the ircd process. This system will never cause a message to be distributed
+more widely than before.&lt;/p&gt;
+&lt;p&gt;Staff can, as always, answer your questions about this change, and we welcome
+constructive feedback. Private messages to staff are not subject to filtering.&lt;/p&gt;</content></entry><entry><title>Continued and persistent spambot attack and clarification</title><link href="https://freenode.net/news/spam-shake" rel="alternate"></link><published>2018-08-06T06:30:00+00:00</published><updated>2018-08-06T06:30:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-08-06:/news/spam-shake</id><summary type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
+&lt;p&gt;The spam content has changed in the last few days and while I am extremely glad that the attacks appear to no longer focus on members of the volunteer team and no longer involve libellous and false statements relating to these volunteers, we feel we should provide some clarification on some of the claims that are being made in the current spamwave relating to freenode and its involvement in Handshake.&lt;/p&gt;
+&lt;p&gt;The current spambot attacks state that freenode is involved with an 'ICO scam' relating to the &lt;a href="https://handshake.org"&gt;Handshake&lt;/a&gt; project. Most freenode volunteers have involvement with one or several FOSS projects, often projects that use the freenode network as part of their communications toolbox. Handshake is no different in this regard, as it is a project that I have been involved with. I am deeply sorry to those affected by the spam, to freenode and to Handshake that spammers have chosen to use my involvement as a further platform to attack the freenode communities, and now also Handshake. &lt;/p&gt;</summary><content type="html">&lt;p&gt;As you may be aware there has been a prolonged spambot attack directed at freenode (and other IRC networks) in recent weeks, targeting a number of individuals involved with freenode and the wider IRC communities. The freenode team, and people involved with the wider IRC communities, are working hard to mitigate and reduce the spam that hits your community channels.&lt;/p&gt;
+&lt;p&gt;The spam content has changed in the last few days and while I am extremely glad that the attacks appear to no longer focus on members of the volunteer team and no longer involve libellous and false statements relating to these volunteers, we feel we should provide some clarification on some of the claims that are being made in the current spamwave relating to freenode and its involvement in Handshake.&lt;/p&gt;
+&lt;p&gt;The current spambot attacks state that freenode is involved with an 'ICO scam' relating to the &lt;a href="https://handshake.org"&gt;Handshake&lt;/a&gt; project. Most freenode volunteers have involvement with one or several FOSS projects, often projects that use the freenode network as part of their communications toolbox. Handshake is no different in this regard, as it is a project that I have been involved with. I am deeply sorry to those affected by the spam, to freenode and to Handshake that spammers have chosen to use my involvement as a further platform to attack the freenode communities, and now also Handshake. &lt;/p&gt;
+&lt;p&gt;Prior to announcement, the Handshake project raised USD 10.2 million in funding from project supporters and the project made the decision to not only give a substantial amount of its coin supply to people and projects within the FOSS sphere but to also donate the USD 10.2 million (FIAT) to projects whose work the initial project contributors admire and/or rely upon. Like many projects within the FOSS world, Handshake has extensively used other free and open source software to build its codebase, and FOSS also lies at the foundations of the internet architecture that we rely upon day to day. &lt;/p&gt;
+&lt;p&gt;One of the projects Handshake identified as useful is indeed also freenode, which is on the pledgee list to receive a FIAT donation from the project. This donation will, among other things, contribute towards making the &lt;a href="https://freenode.live"&gt;freenode #live&lt;/a&gt; conference bigger and better, and also to focus on some development work that has otherwise been on the back-burner. freenode is happy to be included as a list of recipients and honoured to be appreciated in this way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Handshake is a FOSS project, and like many FOSS projects it has a channel on the freenode network.&lt;/li&gt;
+&lt;li&gt;Handshake is an experimental peer-to-peer DNS for which one aim is to be more resistant to censorhip than existing systems.&lt;/li&gt;
+&lt;li&gt;Handshake is doing a faucet distribution to a number of FOSS contributors and projects, many of which are freenode users.&lt;/li&gt;
+&lt;li&gt;Handshake is making a fairly hefty (USD 10.2 million) overall financial contribution to projects within the FOSS sphere in addition to its faucet allocation of HNS coins and freenode is one of many projects within the FOSS sphere that is receiving a contribution.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As such, any link between freenode and Handshake is tenuous at best and the current wave of spam would appear to be designed to do little bar discredit freenode and the Handshake project both.&lt;/p&gt;
+&lt;p&gt;I am sure you will appreciate that the freenode volunteer team is not in a position to answer questions relating to the Handshake project any more than they are in a position to answer questions relating to any other new FOSS project that starts to use the freenode network. &lt;/p&gt;
+&lt;p&gt;But I also understand that some of you may have additional questions relating to Handshake, I am sure you will appreciate that the freenode website is not the platform for such a discussion, and would suggest that you visit the &lt;a href="https://handshake.org"&gt;Handshake website&lt;/a&gt;, &lt;a href="https://github.com/handshake-org"&gt;Handshake Github Repository&lt;/a&gt; and &lt;a href="https://handshake-org.github.io/"&gt;Handshake Documentation&lt;/a&gt; if you are interested in learning more about the project and that you direct any questions to the Handshake project via the appropriate communication channels for the project.&lt;/p&gt;</content></entry><entry><title>Current spambot attack on freenode (and elsewhere)</title><link href="https://freenode.net/news/spambot-attack" rel="alternate"></link><published>2018-07-27T13:20:00+00:00</published><updated>2018-07-27T13:20:00+00:00</updated><author><name>christel</name></author><id>tag:freenode.net,2018-07-27:/news/spambot-attack</id><summary type="html">&lt;p&gt;Many of you will have noticed that over the last few days there has been an extensive spambot wave on freenode, and on other networks. &lt;/p&gt;
+&lt;p&gt;The fairly aggressive spambot attacks link to websites that we believe to have been set up to impersonate freenode volunteers, and that we believe to contain offensive and incorrect information intended to defame and libel members of the freenode volunteer team.&lt;/p&gt;
+&lt;p&gt;Naturally, the matter has been escalated to law enforcement and both the project and the individual volunteers concerned have sought legal advice in connection with the current attack. &lt;/p&gt;</summary><content type="html">&lt;p&gt;Many of you will have noticed that over the last few days there has been an extensive spambot wave on freenode, and on other networks. &lt;/p&gt;
+&lt;p&gt;The fairly aggressive spambot attacks link to websites that we believe to have been set up to impersonate freenode volunteers, and that we believe to contain offensive and incorrect information intended to defame and libel members of the freenode volunteer team.&lt;/p&gt;
+&lt;p&gt;Naturally, the matter has been escalated to law enforcement and both the project and the individual volunteers concerned have sought legal advice in connection with the current attack. &lt;/p&gt;
+&lt;p&gt;Due to the nature of the attack, this is of course causing serious emotional distress on the part of the affected volunteers and their immediate family and social circles, as well as the rest of the volunteer team. &lt;/p&gt;
+&lt;p&gt;On behalf of the entire team, I would like to express thanks to those of you who have reached out with words of encouragement and support, and especially those of you from other IRC networks who have invested your time and efforts in trying to help mitigate and support. &lt;/p&gt;
+&lt;p&gt;I would also like to apologise to those users and channels (on and off freenode) who are affected by the spam. &lt;/p&gt;</content></entry></feed>
