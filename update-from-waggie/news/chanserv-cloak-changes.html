@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="news (atom)">
+    <title>Changes to ChanServ regarding cloaks - freenode</title>
+    <link href="../static/css/open-sans.css?8c43dda" rel="stylesheet">
+    <link href="../static/css/font-awesome.css?8c43dda" rel="stylesheet">
+    <link href="../static/css/style.css?8c43dda" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href=".."><img alt="freenode" class="nlogo" src="../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-shells" href="https://www.shells.com/?_a=TILzLQ" target="_blank" rel="noopener"><img alt="Shells" class="nlogo" src="../static/img/logos/shells-logo.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <div class="art-info">
+        
+<a href="chanserv-cloak-changes"><h1 class="art">Changes to ChanServ regarding cloaks</h1></a>
+<span class="art-date">edk on 2020-11-28</span>
+
+    </div>
+    <div class="art-body">
+    <p>freenode offers <a href="/kb/answer/cloaks">cloaks</a> to our users, which replace one's
+hostname or IP address in various places with a project affiliation or lack
+thereof. Many of you will be aware that cloaks on freenode <a href="/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip">are not offered as a
+security measure</a> and
+that various means are available to third parties to see through them.</p>
+<p>However, many users acquire cloaks for security/privacy reasons anyway, and
+we've taken the decision to close some of the more glaring holes in the
+protection they offer. Please do note that cloaks are still not recommended
+for hiding a user's IP address.</p>
+<p>We have deployed the following changes to ChanServ:</p>
+<ul>
+<li><strong>AKICK DEL</strong> no longer removes bans against the host behind a cloak</li>
+<li><strong>WHY</strong> no longers considers host-based access</li>
+<li><strong>UNQUIET</strong> no longer unquiets nicks that aren't on the target channel</li>
+</ul>
+<p>Empirically, these are corner cases that don't often come into play when
+managing a channel. However, if you need assistance with something that these
+commands used to do, feel free—as always—to contact staff at any time.</p>
+<p>While bans against IP addresses continue to apply to cloaked users, we intend to
+revise this behaviour in the future due to its privacy implications.</p>
+<p>If you have any questions, please don't hesitate to ask either #freenode or any
+available member of staff.</p>
+    </div>
+    
+<div class="art-nav">
+    <span><a href="scheduled-maintenance-services-database-spring-cleaning">previous article</a><span class="invisible">, </span></span><span><a href="../archive">all</a></span><span><span class="invisible">, </span><a href="matrix-bridge-realname">next article</a></span>
+</div>
+
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../project">The project</a>
+            </li>
+            <li>
+                <a href="../people">The people</a>
+            </li>
+            <li>
+                <a href="../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../kb/all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="../groupreg">Group registration</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../static/js/utils.js?8c43dda" type="text/javascript"></script>
+</body>
+</html>
