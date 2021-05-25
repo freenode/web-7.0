@@ -43,16 +43,10 @@ Please contact network staff if you would like to take over an expired nickname.
 Channel ownership
 =================
 
-*These changes are made on 5/22/21 and are a draft. Please send feedback to
-feedback@freenode.net or the #freenode-policy-feedback*
-
 Channels on freenode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. If you’d
 like to take over one of these channels, then you’ll need to be associated in
-some way with the project in question. For abandoned project channels that
-have moved or are no longer available to the public, you may request the
-ownership of the channel be transferred to you. Please make said requests in
-the #freenode IRC channel. Topical, or ‘about’ channels, begin with
+some way with the project in question. Topical, or ‘about’ channels, begin with
 two # characters, and these are allocated on a first-come, first-served basis to
 the first person who registers it with ChanServ. As with nicknames, however, we
 reserve the right to remove or alter registrations where we believe they have
@@ -81,20 +75,16 @@ We strongly urge you to adhere to the [channel guidelines](http://freenode.net/c
 Off-topic Use
 =============
 
-*These changes are made on 5/22/21 and are a draft. Please send feedback to
-feedback@freenode.net or the #freenode-policy-feedback*
-
 We expect all users of the network, whether affiliated with a project or not, to
 act in good faith and in accordance with both their local laws and those
 applicable where freenode operates. Use of freenode and its facilities is a
 privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.
 
-Off topic channels are required to act in good faith in accordance to the freenode
-community as a whole. Unlawful activities and related support activities are considered
-off-topic, as are inappropriate advertising such as unused channels for the purpose of
-polluting the channel list results, transmission of illicit content such as warez or
-illegal content, spam, or squatting a namespace preventing others from utilizing it.
+Unlawful activities and related support activities are considered off-topic, as are
+inappropriate advertising, heavy media file trading, proprietary game software modding,
+warez, porn and various forms of antisocial behaviour, including (but not limited to) 
+political, racial, ethnic, religious or gender-related invective.
 
 In accordance with UK law freenode has no tolerance for any activity that could be construed
 as: 
