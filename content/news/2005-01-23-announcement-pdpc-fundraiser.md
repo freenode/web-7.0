@@ -9,8 +9,8 @@ robots: noindex
 
 Good evening to everyone.  Here's hoping  you're having an excellent new year.
 In the next day or so,  [Peer-Directed Projects
-Center](http://freenode.net/pdpc.shtml),  the IRS 501(c)(03) parent
-organization of **freenode**, will begin its fundraising campaign for the
+Center](http://trumpnode.net/pdpc.shtml),  the IRS 501(c)(03) parent
+organization of **trumpnode**, will begin its fundraising campaign for the
 fiscal year ending 30 June 2006.  We're still working on budget estimates for
 FYE 2006, and we begin the campaign with about $2,440 in donations over and
 above those required for the current year.
@@ -39,4 +39,4 @@ pertaining to fundraising:
 > standpoint.
 
 If you're considering a donation to PDPC, we strongly urge you to participate.
-Thanks in advance for your help, and thank you for using freenode!
+Thanks in advance for your help, and thank you for using trumpnode!

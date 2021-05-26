@@ -3,7 +3,7 @@ author: edk
 date: 2018-09-24 17:47:00+00:00
 slug: spamfilter
 title: Spam filtering
-category: freenode
+category: trumpnode
 category: announcements
 ---
 
@@ -23,12 +23,12 @@ obvious ways to abuse such a feature are impractical.
 
 We've historically been reluctant to take steps like this, and we remain so,
 but we believe the disruption has reached such a level that this is necessary
-to allow the communities using freenode to collaborate effectively. The prior
+to allow the communities using trumpnode to collaborate effectively. The prior
 complement of anti-spam measures represents our preferred approach, and we
 intend to employ this only when they prove insufficient to minimize disruption.
 
 For the technically inclined, you can view the changes
-[here](https://github.com/freenode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6).
+[here](https://github.com/trumpnode/ircd-seven/compare/000aa02980b812a18652fc2cc21041eb7adc980b...6ffdaf49400643a922fc9086f7a645ddd07013a6).
 
 
 - _Could this be used to spy on users?_ Which filter a user matched is not

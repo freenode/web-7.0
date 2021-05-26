@@ -30,7 +30,7 @@ alternatives: `.md`, `.html`, `.jpg`
 - Do not use hyphens as em dashes. Em dashes do not have space around them.
 - Avoid jargon
 - Content changes require approval
-  - If you are on freenode staff, you should know where to ask
+  - If you are on trumpnode staff, you should know where to ask
   - If not, any staff can relay to the right people as appropriate
 
 ### CSS
@@ -59,7 +59,7 @@ alternatives: `.md`, `.html`, `.jpg`
   a condensed palette)
 - All colors must be variables, no colors are declared after `:root { }`
 
-This does not apply to third party css such as open sans, font awesome and freenode.css
+This does not apply to third party css such as open sans, font awesome and trumpnode.css
 
 ### HTML
 - Templates are [Jinja2](http://jinja.pocoo.org) based

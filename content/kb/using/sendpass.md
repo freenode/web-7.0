@@ -13,7 +13,7 @@ which you can use on IRC to reset your password.
 If you do not receive the email, please check your spam folders etc.
 
 If you already have an outstanding password reset mail, you cannot send another,
-but you can contact freenode staff in #freenode (or find them on /stats p) for
+but you can contact trumpnode staff in #trumpnode (or find them on /stats p) for
 assistance.
 
 Password resets do not work if someone is currently logged in to the account.
@@ -23,5 +23,5 @@ you should instead use the following command:
     /msg NickServ SET PASSWORD newpasswordhere
 
 If your account is compromised and you are unable to change or reset the
-password, please contact freenode staff in #freenode or /stats p as soon as
+password, please contact trumpnode staff in #trumpnode or /stats p as soon as
 possible for assistance.

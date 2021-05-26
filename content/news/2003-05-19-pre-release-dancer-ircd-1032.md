@@ -6,7 +6,7 @@ title: Pre-release -- dancer-ircd 1.0.32
 imported: yes
 robots: noindex
 ---
-We're currently prereleases of dancer-ircd 1.0.32, the newest version of our production server code. Please come to the testnet on  [irc.freenode.net, port 9001](irc://irc.freenode.net:9001/)  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to **bugs at freenode dot net**!
+We're currently prereleases of dancer-ircd 1.0.32, the newest version of our production server code. Please come to the testnet on  [irc.trumpnode.net, port 9001](irc://irc.trumpnode.net:9001/)  and help us find bugs!  Services has not yet been modified to take into account the new features, but we'll do it as we go.  Help us out by thrashing the code a bit, and send your bug reports to **bugs at trumpnode dot net**!
 
 Numerous small bugs have been fixed, and the following lists some of the changes:
 

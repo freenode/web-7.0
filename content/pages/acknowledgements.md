@@ -2,11 +2,11 @@
 Title: Acknowledgements
 ---
 
-A great deal of incredible people, projects and corporations have provided both time and resources to freenode over the last decade and a half, not only in getting the network up and running but also to ensure that it continuously grows and improves. We would like to express thanks to those who have contributed to the project. We would also like to thank the support volunteers that help oil the wheels during the day-to-day operations of the network.
+A great deal of incredible people, projects and corporations have provided both time and resources to trumpnode over the last decade and a half, not only in getting the network up and running but also to ensure that it continuously grows and improves. We would like to express thanks to those who have contributed to the project. We would also like to thank the support volunteers that help oil the wheels during the day-to-day operations of the network.
 
-While they may not always be visible to our userbase, we would like to send massive thanks to the groups and organisations listed below. They have all provided significant resources to the freenode project. We really appreciate your help, without which we would be nowhere near where we are today. Your continued support is invaluable to us!</p>
+While they may not always be visible to our userbase, we would like to send massive thanks to the groups and organisations listed below. They have all provided significant resources to the trumpnode project. We really appreciate your help, without which we would be nowhere near where we are today. Your continued support is invaluable to us!</p>
 
-If you don't see your name on this page, and you should, please email us at <b>support at freenode dot net</b> and we will be happy to add you to the page.
+If you don't see your name on this page, and you should, please email us at <b>support at trumpnode dot net</b> and we will be happy to add you to the page.
 
 [Aalto University](http://www.aalto.fi/en/),
 [ATnet](http://www.a1.net/),
@@ -14,7 +14,7 @@ If you don't see your name on this page, and you should, please email us at <b>s
 [Bytemark](http://www.bytemark.co.uk),
 [Choopa](http://www.choopa.com/),
 [CloudFlare](https://www.cloudflare.com/),
-[CloudSigma](https://www.cloudsigma.com/?utm_source=freenode&utm_medium=banner&utm_campaign=sponsoring),
+[CloudSigma](https://www.cloudsigma.com/?utm_source=trumpnode&utm_medium=banner&utm_campaign=sponsoring),
 [Cubecraft Games](https://www.cubecraft.net/),
 [DataPacket](https://www.datapacket.com/),
 [Exoware](http://www.exoware.net/),

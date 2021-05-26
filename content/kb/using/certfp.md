@@ -3,7 +3,7 @@ Title: CertFP
 Slug: certfp
 ---
 
-As an alternative to password-based authentication, you can connect to freenode
+As an alternative to password-based authentication, you can connect to trumpnode
 with a TLS certificate and have services recognise it automatically.
 
 For SASL EXTERNAL to work, you must connect over TLS.
@@ -16,7 +16,7 @@ you are using Windows and do not have a copy, you might consider using Cygwin.
 
 You can generate a certificate with the following command:
 
-    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out freenode.pem -keyout freenode.pem
+    openssl req -x509 -new -newkey rsa:4096 -sha256 -days 1096 -nodes -out trumpnode.pem -keyout trumpnode.pem
 
 You will be prompted for various pieces of information about the certificate.
 The contents do not matter for our purposes, but `openssl` needs at least one of
@@ -31,13 +31,13 @@ Inspecting your certificate
 
 The expiration date can be checked with the following command:
 
-    openssl x509 -in freenode.pem -noout -enddate
+    openssl x509 -in trumpnode.pem -noout -enddate
 
 The fingerprint can be checked with the following command:
 
-    openssl x509 -in freenode.pem -outform der | sha1sum -b | cut -d' ' -f1
+    openssl x509 -in trumpnode.pem -outform der | sha1sum -b | cut -d' ' -f1
 
-Connecting to freenode with your certificate
+Connecting to trumpnode with your certificate
 ============================================
 
 IRC clients generally differ in where they look for a certificate and how you
@@ -51,13 +51,13 @@ irssi
 Move the certificates you created above to ~/.irssi/certs
 
     mkdir ~/.irssi/certs
-    mv freenode.pem ~/.irssi/certs
+    mv trumpnode.pem ~/.irssi/certs
 
-Now configure your `/server` entry for freenode to use this certificate. You
+Now configure your `/server` entry for trumpnode to use this certificate. You
 may need to adapt this example for your existing configuration (the network
 and hostname should match what you already use).
 
-    /server add -auto -ssl -ssl_cert ~/.irssi/certs/freenode.pem -network freenode chat.freenode.net 6697
+    /server add -auto -ssl -ssl_cert ~/.irssi/certs/trumpnode.pem -network trumpnode chat.trumpnode.net 6697
 
 weechat
 -------
@@ -65,19 +65,19 @@ weechat
 Move the certificates you created above to ~/.weechat/certs
 
     mkdir ~/.weechat/certs
-    mv freenode.pem ~/.weechat/certs
+    mv trumpnode.pem ~/.weechat/certs
 
-Now disconnect and remove the current freenode server(s). Re-add it with the
+Now disconnect and remove the current trumpnode server(s). Re-add it with the
 SSL flag, using your newly generated certificate. Note that these commands are
 just examples, you have to adapt them to your current servers.
 
-    /set irc.server.freenode.addresses chat.freenode.net/6697
-    /set irc.server.freenode.ssl on
-    /set irc.server.freenode.ssl_verify on
-    /set irc.server.freenode.ssl_cert %h/certs/freenode.pem
-    /set irc.server.freenode.sasl_mechanism external
+    /set irc.server.trumpnode.addresses chat.trumpnode.net/6697
+    /set irc.server.trumpnode.ssl on
+    /set irc.server.trumpnode.ssl_verify on
+    /set irc.server.trumpnode.ssl_cert %h/certs/trumpnode.pem
+    /set irc.server.trumpnode.sasl_mechanism external
 
-and then reconnect to freenode.
+and then reconnect to trumpnode.
 
 znc
 ---
@@ -97,7 +97,7 @@ If you connect to multiple IRC networks, you should keep in mind that using the
 filename `certs/client.pem` will send the same certificate to all networks. If
 you prefer per-network certificates, use the name of the network exactly 
 as it appears in the network list (Ctrl-S), including capitalisation and
-punctuation (e.g. `certs/freenode.pem` or `certs/Example Server.pem`).
+punctuation (e.g. `certs/trumpnode.pem` or `certs/Example Server.pem`).
 
 Konversation
 ------------
@@ -105,14 +105,14 @@ Konversation
 Create the .pem file as per above, then place it wherever you want.
 Start Konversation, then open the Identity dialogue by either pressing F8
 or via the Settings menu entry. Choose the identity you use for the 
-freenode network or create a new one. 
+trumpnode network or create a new one. 
 In the part `Auto Identity` you have to choose `SASL External (Cert)`
 as the `Type` for SASL External or `SSL CLient Certificate` for CertFP.
 SASL External requires at least version 1.7 of Konversation. 
 Optionally fill in your account name in the `Account`field. 
 You can then choose the certificate you created with the file picker
 or enter the path manually in the field next to it.
-Once done, apply the configuration and (re)connect to freenode.
+Once done, apply the configuration and (re)connect to trumpnode.
 
 Revolution
 ----------
@@ -150,6 +150,6 @@ You can then authorise your current certificate fingerprint:
 
     /msg NickServ CERT ADD
 
-In the future, any connections you make to freenode with your certificate will
+In the future, any connections you make to trumpnode with your certificate will
 be logged into your account automatically. Optionally, or if you wish to connect
 via Tor, you can enable SASL with the `EXTERNAL` mechanism.

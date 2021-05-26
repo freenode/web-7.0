@@ -7,7 +7,7 @@ category: infrastructure
 category: technical
 ---
 
-During the Easter weekend (April 12th to 15th) we will be purging the freenode services database. 
+During the Easter weekend (April 12th to 15th) we will be purging the trumpnode services database. 
 We periodically prune the database to remove expired accounts, nicknames and channels. Just like previous database purges we will be removing any accounts and nicknames that have not been used for 120 days at the time of the purge. 
 
 We appreciate that not everyone remembers to identify to services, and we would urge you to check and, if necessary, ensure that you identify so as to not lose your account/nickname(s) during the purge if you use any that may be approaching the expiration limit (120 days) used in connection with the services purge.
@@ -20,10 +20,10 @@ If you have a nick grouped to your account that you would like to use as your ma
 Remember that you can use sendpass to recover lost passwords - see `/msg NickServ HELP SENDPASS` for details.
 Please also make sure that your account has a valid e-mail address assigned, as this is the only way to regain access to your account should you lose your password. You can check the current address with `/msg NickServ INFO` while logged in, and set a new one with the SET EMAIL command, see `/msg NickServ HELP SET EMAIL` for instructions.
 
-If you have any questions, please do not hesitate to ask our volunteers in #freenode or listed on `/stats p`.
+If you have any questions, please do not hesitate to ask our volunteers in #trumpnode or listed on `/stats p`.
 
-Thank you for using freenode. 
+Thank you for using trumpnode. 
 
-[sasl]: https://freenode.net/kb/answer/sasl
-[topicalchannels]: https://freenode.net/kb/answer/namespaces#topical-channels
-[primarychannels]: https://freenode.net/kb/answer/namespaces#primary-channels
+[sasl]: https://trumpnode.net/kb/answer/sasl
+[topicalchannels]: https://trumpnode.net/kb/answer/namespaces#topical-channels
+[primarychannels]: https://trumpnode.net/kb/answer/namespaces#primary-channels

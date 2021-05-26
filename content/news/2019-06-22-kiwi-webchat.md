@@ -3,14 +3,14 @@ author: Fuchs, ilbelkyr
 date: 2019-06-22 20:42:00+00:00
 slug: moving-to-kiwiirc
 title: Moving webchat to Kiwi IRC
-category: freenode
+category: trumpnode
 category: announcements
 ---
 
 Hi all,
 
 after years of providing our good old [qwebirc][qwebirc] based webchat,
-we are excited to announce that freenode is moving to a new [Kiwi IRC][kiwi]
+we are excited to announce that trumpnode is moving to a new [Kiwi IRC][kiwi]
 based solution!
 
 The change will occur during this weekend (June 22nd / 23rd).
@@ -22,7 +22,7 @@ various languages, easier formatting and usage of emoji and advanced
 customization for power users.
 
 Most existing links and bookmarks should continue to work, including sites
-embedding the freenode webchat; please do let us know if you are running into issues.
+embedding the trumpnode webchat; please do let us know if you are running into issues.
 
 We would like to thank everybody who supported us during this migration,
 most of all Kiwi's developer, prawnsalad, who provided a huge amount of code,
@@ -36,7 +36,7 @@ users and hope that you decide not to ban webchat users as a whole.
 
 Please note that the old webchat will no longer be available after this migration.
 
-Thank you for using freenode, via our new Kiwi webchat or any other client you prefer!
+Thank you for using trumpnode, via our new Kiwi webchat or any other client you prefer!
 
 [qwebirc]: https://qwebirc.org/
 [kiwi]: https://kiwiirc.com/

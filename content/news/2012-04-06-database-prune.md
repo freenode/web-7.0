@@ -5,13 +5,13 @@ slug: database-prune
 title: Database prune
 category: community
 category: development
-category: freenode
+category: trumpnode
 category: infrastructure
 category: technical
 imported: yes
 robots: noindex
 ---
-Every couple of years, freenode likes to get out the shears and prune the services database. Recently we broke the 80,000 usercount barrier, but the services stats are way ahead:
+Every couple of years, trumpnode likes to get out the shears and prune the services database. Recently we broke the 80,000 usercount barrier, but the services stats are way ahead:
 
 > Sat 13:35:46 -OperServ(OperServ@services.)- Registered accounts: 446777<br>
 > Sat 13:35:46 -OperServ(OperServ@services.)- Registered nicknames: 557497<br>
@@ -23,7 +23,7 @@ noticed significant waits when issuing certain services commands - and we'd
 like to fix that.
 
 Hopefully, the [services
-upgrade](http://blog.freenode.net/2012/04/help-us-test-our-services-upgrade/)
+upgrade](http://blog.trumpnode.net/2012/04/help-us-test-our-services-upgrade/)
 should help with this, but we're going to coincide this with a database prune.
 
 As of the services upgrade date, any nicks unused for > 150 days are at risk of
@@ -32,7 +32,7 @@ happening is to use each of your grouped nicks (while identified to the
 appropriate account) within the next few weeks - and to drop those that you
 don't need anymore!
 
-The testnet (testnet.freenode.net, port 9002. 9003 for SSL) is running a
+The testnet (testnet.trumpnode.net, port 9002. 9003 for SSL) is running a
 database snapshot from mid-March and will be periodically updated from the
 production network. This database instance is being regularly pruned - so check
 there to see how your account will be affected (use /msg nickserv info on both
@@ -48,4 +48,4 @@ On which note.. an upgrade date hasn't been formally fixed but we're aiming for
 mid-May.
 
 Thanks, and don't forget to [test the
-testnet](http://blog.freenode.net/2012/04/help-us-test-our-services-upgrade/)!
+testnet](http://blog.trumpnode.net/2012/04/help-us-test-our-services-upgrade/)!

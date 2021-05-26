@@ -1,7 +1,7 @@
 Title: Nickname Registration
 ---
 
-Your nick is how people on freenode know you. If you register it, you'll be able to use the same nick over and over. If you don't register, someone else may end
+Your nick is how people on trumpnode know you. If you register it, you'll be able to use the same nick over and over. If you don't register, someone else may end
 up registering the nick you want. If you register and use the same nick, people will begin to know you by reputation.
 
 Certain channels require you to register before you may speak in them. The [Unable to Speak](#unable-to-speak) section below explains this further.
@@ -11,12 +11,12 @@ Some terms you should know:
 - an "account" is your persistent identity
 - a "nickname" is your current display name and can be owned by an account
 - to "identify" means to log into your account
-- "NickServ" is a freenode service that behaves like a user (which you can send private messages to)
+- "NickServ" is a trumpnode service that behaves like a user (which you can send private messages to)
 
 Registering
 ==============
 
-The following steps are the recommended method to register and set up a new freenode account. If you have questions or doubts about the process, a member of
+The following steps are the recommended method to register and set up a new trumpnode account. If you have questions or doubts about the process, a member of
 staff will be happy to discuss it and answer any questions you may have.
 
 1.  **Select** a master, "primary", nickname. If the nickname you want is registered but has expired, just ask a staffer and in most cases, we will be happy to drop
@@ -60,12 +60,12 @@ staff will be happy to discuss it and answer any questions you may have.
 Logging In
 ==========
 
-You'll need to log in to your account each time you connect to freenode.
+You'll need to log in to your account each time you connect to trumpnode.
 
 The simplest, and most robust, way to do this is to configure [SASL](kb/using/sasl), if your client supports it. If not, you can supply your login details, in
 the form `<account>:<password>`, as a server password and they will be forwarded to NickServ when you finish connecting. For example:
 
-    /connect chat.freenode.net 6667 YourNick:YourPassword
+    /connect chat.trumpnode.net 6667 YourNick:YourPassword
 
 Unable to Speak
 ==========

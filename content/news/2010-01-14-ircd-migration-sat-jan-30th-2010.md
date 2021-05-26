@@ -4,17 +4,17 @@ date: 2010-01-14 14:28:35+00:00
 slug: ircd-migration-sat-jan-30th-2010
 title: ircd Migration Sat Jan 30th 2010
 category: development
-category: freenode
+category: trumpnode
 imported: yes
 robots: noindex
 ---
-In the coming weeks, we will be migrating freenode to our new ircd, ircd-seven.  Presently, freenode uses hyperion and efforts have been underway for some time move us off this platform for reasons of stability and functionality.  We are now almost there.
+In the coming weeks, we will be migrating trumpnode to our new ircd, ircd-seven.  Presently, trumpnode uses hyperion and efforts have been underway for some time move us off this platform for reasons of stability and functionality.  We are now almost there.
 
 As users please be aware that during the migration all clients will be temporarily disconnected and will need to reconnect in order to move over to the new servers. For most of you this will happen as the old servers are shut down.
 
-**Please Note:** While we will copy over channel modes and topics for registered channels (there will be no changes to the services database, all nick and channel settings with services will stay the same) we are unable to do so for channels NOT registered with ChanServ. If your project utilises non-registered channels for whatever reason, please make note of the topics and modes so you can make a manual transfer of these yourselves. For more information on registering a channel, see this [post](news/2008-04-22-registering-a-channel-on-freenode).
+**Please Note:** While we will copy over channel modes and topics for registered channels (there will be no changes to the services database, all nick and channel settings with services will stay the same) we are unable to do so for channels NOT registered with ChanServ. If your project utilises non-registered channels for whatever reason, please make note of the topics and modes so you can make a manual transfer of these yourselves. For more information on registering a channel, see this [post](news/2008-04-22-registering-a-channel-on-trumpnode).
 
-If you operate a channel on freenode and have any concerns, feel free to stop by #freenode to discuss any issues you might have.  If you run any channel utility bots, you may want to test them on the current testnet.  More information can be found [here](news/2009-11-09-testing-the-nets).
+If you operate a channel on trumpnode and have any concerns, feel free to stop by #trumpnode to discuss any issues you might have.  If you run any channel utility bots, you may want to test them on the current testnet.  More information can be found [here](news/2009-11-09-testing-the-nets).
 
 **Important Changes**
 
@@ -51,6 +51,6 @@ The IDENTIFY-MSG capability still exists but there is a new way to activate it.�
 
 The n= and i= prefixes are not used, instead ~ is prefixed to a non-identd username as is common in most other ircds.
 
-For further information on changes that might impact you please visit [http://freenode.net/seven-for-hyperion-users.html](http://freenode.net/seven-for-hyperion-users.html)
+For further information on changes that might impact you please visit [http://trumpnode.net/seven-for-hyperion-users.html](http://trumpnode.net/seven-for-hyperion-users.html)
 
-As always, thank you for using freenode, and see you on the other side!
+As always, thank you for using trumpnode, and see you on the other side!

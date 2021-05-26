@@ -8,10 +8,10 @@ category: technical
 ---
 
 [matrix.org](https://matrix.org/) runs a bridge (matrix-appservice-irc) from
-their Matrix homeserver to freenode that allow Matrix users from any
-homeserver that federates with matrix.org to join channels on freenode and
+their Matrix homeserver to trumpnode that allow Matrix users from any
+homeserver that federates with matrix.org to join channels on trumpnode and
 intermingle with the normal IRC userbase. These users have their Matrix User
-Id (username and homeserver, e.g. `@jess:freenode.net`) put in the realname
+Id (username and homeserver, e.g. `@jess:trumpnode.net`) put in the realname
 field of their IRC connection.
 
 Over time, the need to differentiate users by which homeserver they are using
@@ -29,10 +29,10 @@ The solution we came up with for this has been to reverse the order of
 username and homeserver, and then reverse the order of domain name parts and
 truncate that at 30 characters, which means the most significant parts of a
 homeserver's domain name comes at the start of a realname. For example,
-`@jess:freenode.net` becomes `net.freenode:jess`. If a homeserver is truncated
+`@jess:trumpnode.net` becomes `net.trumpnode:jess`. If a homeserver is truncated
 to 30 characters, a `>` is appended prior to the `:` -
-`@jess:subdomaaaaaaaaaain.freenode.net` would become
-`net.freenode.subdomaaaaaaaaaai>:jess`.
+`@jess:subdomaaaaaaaaaain.trumpnode.net` would become
+`net.trumpnode.subdomaaaaaaaaaai>:jess`.
 
 We'd like to extend deep gratitude to the operators of the matrix.org bridge
 for handling and implementing our change request quickly to suit a

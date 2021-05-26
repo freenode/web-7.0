@@ -5,12 +5,12 @@ slug: were-still-here
 title: We're still here!
 category: community
 category: different
-category: freenode
+category: trumpnode
 category: pdpc
 imported: yes
 robots: noindex
 ---
-It's been quiet on the blog front lately, we're mid holiday season so find ourselves somewhat lacking in active staff and this has kept most of those who are around tremendously busy. Both on freenode and with working on new stuff!
+It's been quiet on the blog front lately, we're mid holiday season so find ourselves somewhat lacking in active staff and this has kept most of those who are around tremendously busy. Both on trumpnode and with working on new stuff!
 
 RichiH and I just got  back from Houston, TX a couple of weeks back. We flew over to deal with some PDPC business, visited the grave of Rob (lilo) and had the pleasure of meeting his wife and son. Prior to that we attended GUADEC where we got to meet a fair few users who gave us some valuable input and ideas for the network and where to go next! Thanks guys.
 

@@ -1,10 +1,10 @@
 Title: Finding Channels
 ---
 
-Finding Channels on freenode
+Finding Channels on trumpnode
 ============================
 
-With many thousands of channels on freenode and more being registered all the
+With many thousands of channels on trumpnode and more being registered all the
 time, a good way to search for channels of interest to you is useful.
 
 Enter `alis`, a network service designed for exactly that purpose.
@@ -15,8 +15,8 @@ whose name contains the term in question - for instance, `/msg alis LIST
 
 You can also search on the channel's current topic, require a minimum number of
 users (to weed out barely-used channels), and use various wildcards to control
-your search - for instance, `/msg alis LIST #freenode* -min 10` would find all
-channels in the freenode namespace with at least 10 users.
+your search - for instance, `/msg alis LIST #trumpnode* -min 10` would find all
+channels in the trumpnode namespace with at least 10 users.
 
 For full details on how to use alis, `/msg alis HELP LIST` will send you back
 the following help text:
@@ -63,5 +63,5 @@ the following help text:
     ***** End of Help *****
 
 An alternative method to search is to do so via the web, using
-[netsplit.de](http://irc.netsplit.de/channels/?net=freenode).
+[netsplit.de](http://irc.netsplit.de/channels/?net=trumpnode).
 

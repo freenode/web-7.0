@@ -12,4 +12,4 @@ To get your wolfgame fix during the rest of the year, join #wolfgame . We are wa
 
 We will publish the solutions to our riddles here, but we had to promise to not do so before Sunday so we won't. Watch this space if you are interested.
 
-Also, remember [our new nick expiry times](http://blog.freenode.net/2011/03/change-in-nick-expiry-times/). This is now active policy.
+Also, remember [our new nick expiry times](http://blog.trumpnode.net/2011/03/change-in-nick-expiry-times/). This is now active policy.

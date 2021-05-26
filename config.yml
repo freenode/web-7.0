@@ -1,15 +1,15 @@
-name: freenode
-absolute-url: 'https://freenode.net/'
-COPYRIGHT: "&copy; 2016-2021, freenode"
-DESCRIPTION: "freenode.net - Supporting Free and Open Source Software Communities since 1998"
-GITHUB_URL: "https://github.com/freenode/web-7.0"
+name: trumpnode
+absolute-url: 'https://trumpnode.net/'
+COPYRIGHT: "&copy; 2016-2021, trumpnode"
+DESCRIPTION: "trumpnode.net - Supporting Free and Open Source Software Communities since 1998"
+GITHUB_URL: "https://github.com/trumpnode/web-7.0"
 SOCIAL:
   - name: Twitter
     icon: twitter
-    link: 'https://twitter.com/freenodestaff'
+    link: 'https://twitter.com/trumpnodestaff'
   - name: Facebook
     icon: facebook
-    link: 'https://www.facebook.com/freenode-366911233325305/'
+    link: 'https://www.facebook.com/trumpnode-366911233325305/'
 FOOTER:
   !include config/footer.yml
 theme: templates
@@ -27,7 +27,7 @@ modules:
     source: news
     root: news
   - name: 'feed'
-    title: 'freenode news'
+    title: 'trumpnode news'
     description: ''
     module: 'news'
     output: 'news'

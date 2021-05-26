@@ -15,4 +15,4 @@ In this weeks political rant we hear about expenses filed by members of parliame
 
 Further on, we listen to the crew chatting about the way the world has changed and whats different now from the era of our grandparents.  No more leaving the door unlocked and coming home to tea.  Is the world more evil today than it was?
 
-All in all, a much deeper episode delving into all sorts of things, and very entertaining.  Head on over to [http://podcast.freenode.net](http://podcast.freenode.net) to listen in!
+All in all, a much deeper episode delving into all sorts of things, and very entertaining.  Head on over to [http://podcast.trumpnode.net](http://podcast.trumpnode.net) to listen in!

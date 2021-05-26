@@ -41,6 +41,6 @@ To avoid misunderstanding others:
   * look at the context.  By looking at the channel you are in, or the topic that was discussed when the other person started speaking, you might be able to glean what the person intended.
 
 
-Finally, there are a lot of resources on freenode - many people are more than willing to translate when necessary.  Ask what language the person speaks, and then try to find another who speaks the language.  If all else fails, come to #freenode and ask for help or message a staffer ("/stats p" lists all staffers on duty).
+Finally, there are a lot of resources on trumpnode - many people are more than willing to translate when necessary.  Ask what language the person speaks, and then try to find another who speaks the language.  If all else fails, come to #trumpnode and ask for help or message a staffer ("/stats p" lists all staffers on duty).
 
 The fact is, irc is a fantastic way to get to know other people and to learn more about other cultures - and at a great price!  I challenge and encourage each of you to up your level of communication.

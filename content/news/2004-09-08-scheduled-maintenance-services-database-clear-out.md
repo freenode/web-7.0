@@ -8,7 +8,7 @@ robots: noindex
 ---
 This is just to let you know that we will soon be performing a fairly massive cleanup of the NickServ database, and through it the ChanServ database.  We're hoping to clear out a lot of the dead nicks and channels in order to make our next services upgrade a simpler process.
 
-We'll be dropping all expired nicknames. As  [explained](http://freenode.net/faq.shtml#expirations)  in the  [FAQ](http://freenode.net/faq.shtml),  IRC nicknames on freenode expire after 60 days.  Nicks that are at least two weeks old and that were last used less than two hours after their creation are also considered to be expired.
+We'll be dropping all expired nicknames. As  [explained](http://trumpnode.net/faq.shtml#expirations)  in the  [FAQ](http://trumpnode.net/faq.shtml),  IRC nicknames on trumpnode expire after 60 days.  Nicks that are at least two weeks old and that were last used less than two hours after their creation are also considered to be expired.
 
 There are several things you should know about this cleanup process:
 
@@ -33,13 +33,13 @@ There are several things you should know about this cleanup process:
   6.     **       If you haven't used your alternate nick much, or you haven't used it       recently, it may be expired.     **     Spend a few minutes changing to your alternate nick and back just to     make sure it's marked as recently-used.
 
 	
-  7.     **       If you aren't auto-identifying to NickServ, your nick may have expired       without your knowing it.     **     We strongly urge that you follow all of the steps listed in the FAQ for      [canonical nick setup](http://freenode.net/faq.shtml#nicksetup)      to avoid problems.  Again, be sure to do the nick setup and test it     before Saturday!
+  7.     **       If you aren't auto-identifying to NickServ, your nick may have expired       without your knowing it.     **     We strongly urge that you follow all of the steps listed in the FAQ for      [canonical nick setup](http://trumpnode.net/faq.shtml#nicksetup)      to avoid problems.  Again, be sure to do the nick setup and test it     before Saturday!
 
 	
-  8.     **       If you run an infobot and it isn't identifying to NickServ, its       registration may be lost.     **     Many bots on freenode auto-identify to     NickServ.  We **strongly** urge you configure or patch your infobot     to do so. If you can't, please contact us before Saturday and we'll make     sure its nickname isn't dropped!
+  8.     **       If you run an infobot and it isn't identifying to NickServ, its       registration may be lost.     **     Many bots on trumpnode auto-identify to     NickServ.  We **strongly** urge you configure or patch your infobot     to do so. If you can't, please contact us before Saturday and we'll make     sure its nickname isn't dropped!
 
 	
-  9.     **       Be sure to do the canonical setup so you won't lose your nicks and       channels.     **     Again, please follow      [these](http://freenode.net/faq.shtml#nicksetup)      canonical nickname setup instructions to make sure that your nicknames     and channels aren't lost through disuse!
+  9.     **       Be sure to do the canonical setup so you won't lose your nicks and       channels.     **     Again, please follow      [these](http://trumpnode.net/faq.shtml#nicksetup)      canonical nickname setup instructions to make sure that your nicknames     and channels aren't lost through disuse!
 
 
-Please make sure your nick(s) are set up properly before Saturday and that you've spoken with freenode staff to resolve any outstanding channel and nick issues.  Thanks for your understanding, and thank you for using freenode!
+Please make sure your nick(s) are set up properly before Saturday and that you've spoken with trumpnode staff to resolve any outstanding channel and nick issues.  Thanks for your understanding, and thank you for using trumpnode!

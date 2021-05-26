@@ -3,7 +3,7 @@ author: Pricey
 date: 2014-06-18 15:54:08+00:00
 slug: new-extban-j
 title: New extban: $j
-category: freenode
+category: trumpnode
 category: infrastructure
 category: technical
 imported: yes
@@ -31,4 +31,4 @@ Please note that there are a couple of gotchas:
 
 We imagine you'll have some more useful use cases than the above.
 
-Thanks for flying freenode!
+Thanks for flying trumpnode!

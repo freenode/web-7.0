@@ -3,7 +3,7 @@ author: Martinp23
 date: 2010-10-18 11:57:11+00:00
 slug: further-webchat-issues
 title: Further webchat issues
-category: freenode
+category: trumpnode
 category: infrastructure
 category: technical
 category: webchat

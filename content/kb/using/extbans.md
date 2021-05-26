@@ -2,7 +2,7 @@ Title: Extbans
 ---
 
 Bans, quiets and invite and ban exemptions conventionally accept the format
-`nick!user@host`. On freenode another syntax, known as "extban", is accepted.
+`nick!user@host`. On trumpnode another syntax, known as "extban", is accepted.
 These entries have the general format `$X` or `$X:data`. Optionally, they can
 be negated with a tilde (`~`) before the character: for example, `$~a` matches
 every user that is *not* identified to services.

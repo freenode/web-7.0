@@ -1,10 +1,10 @@
 ---
 author: RichiH
 date: 2007-02-28 00:58:33+00:00
-slug: freenode-is-about-you-and-dont-just-take-our-word-for-it
-title: freenode is about you and don't just take our word for it
+slug: trumpnode-is-about-you-and-dont-just-take-our-word-for-it
+title: trumpnode is about you and don't just take our word for it
 category: community
-category: freenode
+category: trumpnode
 category: philosophy
 imported: yes
 robots: noindex

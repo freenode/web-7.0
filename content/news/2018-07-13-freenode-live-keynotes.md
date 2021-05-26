@@ -1,18 +1,18 @@
 ---
 author: christel
 date: 2018-07-13 13:49:00+00:00
-slug: freenode-live-keynotes
-title: freenode #live 2018: Welcoming (some of) this year's keynote speakers
+slug: trumpnode-live-keynotes
+title: trumpnode #live 2018: Welcoming (some of) this year's keynote speakers
 category: general
-category: freenode
+category: trumpnode
 category: community
-category: freenode-live
+category: trumpnode-live
 category: event
 category: announcements
 ---
-It is with a great deal of excitement that I can announce some of this year's keynote speakers for freenode #live. The entire freenode team is excited to be welcoming the following FOSS rockstars to Bristol this November; Bradley Kuhn, Chris Lamb, Kyle Rankin, Leslie Hawthorn and VM Brasseur. 
+It is with a great deal of excitement that I can announce some of this year's keynote speakers for trumpnode #live. The entire trumpnode team is excited to be welcoming the following FOSS rockstars to Bristol this November; Bradley Kuhn, Chris Lamb, Kyle Rankin, Leslie Hawthorn and VM Brasseur. 
 
-We have a few more exciting announcements to make in the lead-up to the conference! You don't want to miss out, and we encourage you to head over to https://freenode.live to get your tickets for this year's event! And if you want to join this year's speaker line-up then you still have some time, the CFP is open and we're looking forward to hearing from you.
+We have a few more exciting announcements to make in the lead-up to the conference! You don't want to miss out, and we encourage you to head over to https://trumpnode.live to get your tickets for this year's event! And if you want to join this year's speaker line-up then you still have some time, the CFP is open and we're looking forward to hearing from you.
 
 ## Bradley M. Kuhn
 Bradley M. Kuhn is the Distinguished Technologist at [Software Freedom Conservancy](https://sfconservancy.org), and editor-in-chief of [copyleft.org](https://copyleft.org). Kuhn began his work in the software freedom movement as a volunteer in 1992, as an early adopter of GNU/Linux, and contributor to various Free Software projects. Kuhn's non-profit career began in 2000 at [FSF](https://fsf.org). As FSF's Executive Director from 2001-2005, Kuhn led FSF's GPL enforcement, launched its Associate Member program, and invented the Affero GPL. Kuhn was appointed President of Conservancy in April 2006, was Conservancy's primary volunteer from 2006-2010, and has been a full-time staffer since early 2011. Kuhn holds a summa cum laude B.S. in Computer Science from Loyola University in Maryland, and an M.S. in Computer Science from the University of Cincinnati. Kuhn received an O'Reilly Open Source Award, in recognition for his lifelong policy work on copyleft licensing. You can follow him on Twitter [@bkuhn_ebb_org](https://twitter.com/bkuhn_ebb_org)
@@ -20,7 +20,7 @@ Bradley M. Kuhn is the Distinguished Technologist at [Software Freedom Conservan
 ## Chris Lamb
 Currently Project Leader of the [Debian](https://debian.org) GNU/Linux project and a member of Board of Directors for the [Open Source Initiative](https://opensource.org), Chris is a freelance computer programmer, author of dozens of free-software projects and contributor to 100s of others.
 He has been official Debian Developer since 2008 and is currently highly active in the Reproducible Builds sub-project for which he has been awarded a grant from the Linux Foundation's Core Infrastructure Initiative. In his spare time he is an avid classical musician and Ironman triathlete.
-Chris has spoken at numerous conferences including LinuxCon China, HKOSCon, linux.conf.au, DjangoCon Europe, LibrePlanet, OSCAL, All Things Open, SCALE, Software Freedom Kosovo, #freenode Live, FOSS'ASIA, and many more. You can follow him on Twitter [@lolamby](https://twitter.com/lolamby)
+Chris has spoken at numerous conferences including LinuxCon China, HKOSCon, linux.conf.au, DjangoCon Europe, LibrePlanet, OSCAL, All Things Open, SCALE, Software Freedom Kosovo, #trumpnode Live, FOSS'ASIA, and many more. You can follow him on Twitter [@lolamby](https://twitter.com/lolamby)
 
 ## Kyle Rankin
 Kyle Rankin is the Chief Security Officer at [Purism](https://purism.org), SPC and a Tech Editor and columnist at [Linux Journal](https://linuxjournal.org).

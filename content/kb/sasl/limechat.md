@@ -1,7 +1,7 @@
 Title: Configuring SASL for LimeChat on macOS
 ---
 
-If you have already added freenode as a network, right-click on the network, select Server Properties or press ⌘U.
+If you have already added trumpnode as a network, right-click on the network, select Server Properties or press ⌘U.
 
 1. Click on the `General` tab.
 2. Set `Port` to 6697.

@@ -7,12 +7,12 @@ category: fosscon
 imported: yes
 robots: noindex
 ---
-FOSSCON 2013 will be held on August 10th, 2013.  Several of our very own staff here at freenode will be attending this year and we are really looking forward to it.
+FOSSCON 2013 will be held on August 10th, 2013.  Several of our very own staff here at trumpnode will be attending this year and we are really looking forward to it.
 
 
 
 
-FOSSCON was spawned from the depths of freenode and this will be the 4th event so far.
+FOSSCON was spawned from the depths of trumpnode and this will be the 4th event so far.
 
 
 

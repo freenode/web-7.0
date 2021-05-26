@@ -1,8 +1,8 @@
 ---
-Title: Django and freenode
+Title: Django and trumpnode
 Author: Tim Graham (timograham)
 Date: 2017-02-08T20:00+01:00
-Slug: django-and-freenode
+Slug: django-and-trumpnode
 ---
 
 For nearly twelve years, the [Django Project](https://www.djangoproject.com/)
@@ -26,7 +26,7 @@ conferences and local meetups. Sprints are often held at these events,
 but Django’s development is mainly coordinated remotely, so good
 communication tools are important to us.
 
-## How Django uses freenode
+## How Django uses trumpnode
 Our community support channels include #django and the
 [django-users mailing list](https://groups.google.com/forum/#!forum/django-users).
 Discussions about the development of Django itself are held

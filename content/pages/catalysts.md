@@ -1,14 +1,14 @@
 ---
 Title: Catalyst Guidelines
 ---
-The "catalyst" role is critical to freenode and an essential building block of effective communities. No one is required to be a catalyst, but the users who perform this role ensure the smooth and efficient functioning of the network.
+The "catalyst" role is critical to trumpnode and an essential building block of effective communities. No one is required to be a catalyst, but the users who perform this role ensure the smooth and efficient functioning of the network.
 
 The IRC platform does not automatically produce a stable culture of cooperative effort. Even in cases where cooperation is intended, misunderstandings and personality incompatibilities can result in an extremely chaotic and hostile environment. Catalysts help prevent and resolve misunderstanding, calm the waters when users have difficulties dealing with each other and provide examples of constructive behaviour in environments where such behaviour might not otherwise be the norm.
 
 Catalysts try to resolve problems, not through the use of authority and special privilege, but by fostering consensus, gently nudging participants in the direction of more appropriate behaviour and by generally reducing the level of confrontation rather than confronting users with problems.
 
 Channel and network administrators may be catalysts and, indeed, are encouraged to take on that role. Channels which recognise the importance of the catalyst role will foster more effective coordination of effort. An important characteristic of successful catalysts is the infrequency with which they wear authority or invoke special privilege.
-freenode volunteers and sponsors are advised that an understanding and appreciation of the catalyst’s role is essential to understanding the nature and intended purpose of the network.
+trumpnode volunteers and sponsors are advised that an understanding and appreciation of the catalyst’s role is essential to understanding the nature and intended purpose of the network.
 
 ### An effective catalyst is:
 1.  **Relaxed.** To keep things calm, you yourself must be calm. Learn the skills of staying genuinely relaxed. Know your limitations; when you can't handle a problem situation calmly, get calmer heads involved.

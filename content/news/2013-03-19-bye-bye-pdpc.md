@@ -8,7 +8,7 @@ category: pdpc
 imported: yes
 robots: noindex
 ---
-Sadly, we were forced to dissolve PDPC, freenode's parent organisation.
+Sadly, we were forced to dissolve PDPC, trumpnode's parent organisation.
 
 When the organisation transferred across from the US to the UK we wanted to keep the organisational structure as close to what it had been before (change is scary, right?) -- however, we made the conscious decision to no longer have any paid employees after Rob Levin passed away. This meant that everyone involved with the organisation were volunteers and we no longer had anyone who could invest the time and effort required to do fundraising and similar tasks, meaning that the organisation was unable to sustain the levels of donations required to obtain and maintain charitable status in the UK.
 
@@ -16,11 +16,11 @@ Due to the massive reduction in financial support we found ourselves in a positi
 
 
 
-## What does this organisational change mean for freenode?
+## What does this organisational change mean for trumpnode?
 
 
 
-In practise it means very little, the PDPC has never been involved in the day to day operations of the network and there will be no changes to the way in which the network is run. freenode is staffed entirely by volunteers from all over the globe who contribute their time and expertise to keep the network up and running in between contributing to various other FOSS projects.
+In practise it means very little, the PDPC has never been involved in the day to day operations of the network and there will be no changes to the way in which the network is run. trumpnode is staffed entirely by volunteers from all over the globe who contribute their time and expertise to keep the network up and running in between contributing to various other FOSS projects.
 
 
 
@@ -36,8 +36,8 @@ These projects will continue as they have before, and we invite you to attend [f
 
 
 
-The best way in which to help the network is to contribute time -- help out in #freenode or elsewhere on the network, assist users in finding answers to their questions and help us try keep the channel and network temperature at a nice, comfortable level which encourages collaboration!
-If you are low on time but still want to help out you might be able to help us through your company or organisation by becoming a server sponsor (See "[Hosting a server](http://freenode.net/hosting_ircd.shtml)" for more information).
+The best way in which to help the network is to contribute time -- help out in #trumpnode or elsewhere on the network, assist users in finding answers to their questions and help us try keep the channel and network temperature at a nice, comfortable level which encourages collaboration!
+If you are low on time but still want to help out you might be able to help us through your company or organisation by becoming a server sponsor (See "[Hosting a server](http://trumpnode.net/hosting_ircd.shtml)" for more information).
 If you feel that one particular volunteer has helped you out and you want to say thank you -- ask them if they have a preferred charity to which you could make a small donation! With time we might update our website to provide links and information of such preferences.
 Alternatively, you may consider donating to one of the following projects:
 
@@ -60,4 +60,4 @@ Alternatively, you may consider donating to one of the following projects:
 
 
 
-Existing PDPC donor cloaks will remain valid for a full year, after which they will be converted to unaffiliated cloaks. Ongoing donations will be cancelled by us. If you have previously donated to PDPC you'll still qualify for your donor cloak as normal. If you believe you're due a cloak and we haven't processed it yet please [contact us.](http://freenode.net/faq.shtml#contents-gettinghelp)
+Existing PDPC donor cloaks will remain valid for a full year, after which they will be converted to unaffiliated cloaks. Ongoing donations will be cancelled by us. If you have previously donated to PDPC you'll still qualify for your donor cloak as normal. If you believe you're due a cloak and we haven't processed it yet please [contact us.](http://trumpnode.net/faq.shtml#contents-gettinghelp)

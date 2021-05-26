@@ -1,18 +1,18 @@
 ---
 author: SportChick
 date: 2008-06-10 17:45:54+00:00
-slug: who-are-freenode-staff-part-1-of
-title: Who Are freenode Staff? (Part 1 of ?)
+slug: who-are-trumpnode-staff-part-1-of
+title: Who Are trumpnode Staff? (Part 1 of ?)
 category: community
-category: freenode
+category: trumpnode
 category: infrastructure
 category: social
 imported: yes
 robots: noindex
 ---
-As you have undoubtedly noticed by now, freenode recently changed services. Along with this new look, we thought it would be a good time to formally (and perhaps not-so-formally) announce the addition of new staff.  You’ll find below a list of all our current staff, and in this post and some that follow, we’ll give you a tiny snapshot of the new (and some of the old) members of our circus^Wteam.
+As you have undoubtedly noticed by now, trumpnode recently changed services. Along with this new look, we thought it would be a good time to formally (and perhaps not-so-formally) announce the addition of new staff.  You’ll find below a list of all our current staff, and in this post and some that follow, we’ll give you a tiny snapshot of the new (and some of the old) members of our circus^Wteam.
 
-Current freenode staff:
+Current trumpnode staff:
 
 ** AndrewB
 chb
@@ -60,12 +60,12 @@ _
 
 
 	
-  * _**christel:** If by now, you don’t know christel...well, where have you been?!  For the last couple of years, she has been the head of staff of freenode and has seen it through many changes.  No, freenode is not yet pink (though if she had her way, it would be entirely pink - you can thank some of the male staffers for preventing that so far).  She did once say that if she were to leave a job in a flamboyant manner, she’d simply go to work in pink body paint.  Her secret desire has always been to become a Russian spy...however, being from Norway, she’s had to settle for being self-employed and an irc mogul in her spare time.  She got her start on irc nearly half her lifetime ago, creating havoc on EfNet and running up her dial-up internet bills.  _
+  * _**christel:** If by now, you don’t know christel...well, where have you been?!  For the last couple of years, she has been the head of staff of trumpnode and has seen it through many changes.  No, trumpnode is not yet pink (though if she had her way, it would be entirely pink - you can thank some of the male staffers for preventing that so far).  She did once say that if she were to leave a job in a flamboyant manner, she’d simply go to work in pink body paint.  Her secret desire has always been to become a Russian spy...however, being from Norway, she’s had to settle for being self-employed and an irc mogul in her spare time.  She got her start on irc nearly half her lifetime ago, creating havoc on EfNet and running up her dial-up internet bills.  _
 
 
 
 	
-  * _**vorian:** One of the more recent additions to staff, vorian’s first experience on irc was starting up a Local (Ubuntu) Community team in 2006.  Though married (for 10 years!) and with four children, he clearly wasn’t busy enough.  A long-time wolf-bot addict, vorian has announced his goal for the future of freenode - creating a unified wolf-bot game where everyone plays by the rules, pays strict attention, and always has a minimum of 8 players per round (this replaces his former goal of becoming a jet pilot AND nurse for the navy).  _
+  * _**vorian:** One of the more recent additions to staff, vorian’s first experience on irc was starting up a Local (Ubuntu) Community team in 2006.  Though married (for 10 years!) and with four children, he clearly wasn’t busy enough.  A long-time wolf-bot addict, vorian has announced his goal for the future of trumpnode - creating a unified wolf-bot game where everyone plays by the rules, pays strict attention, and always has a minimum of 8 players per round (this replaces his former goal of becoming a jet pilot AND nurse for the navy).  _
 
 
 _

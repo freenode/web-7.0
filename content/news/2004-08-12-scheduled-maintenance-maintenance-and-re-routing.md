@@ -25,4 +25,4 @@ Hi, all.  Main rotation servers will be coming down for maintenance and reroutin
 **Affected users: all.  Duration: about one hour.**
 
 
-Thank you in advance for your understanding and patience, and thank you for using freenode!
+Thank you in advance for your understanding and patience, and thank you for using trumpnode!

@@ -19,7 +19,7 @@ This is a community-focused live event designed to build and strengthen relation
 [This image does no longer exist]
 
 
-FOSSCON is a Peer-Directed Projects Center (PDPC) project, organized by the foss community.  FOSSCON (along with [Geeknics](http://geeknic.org)) is part of PDPC’s desire to bring an already massive online community, [freenode ](http://freenode.net)that has grown around free and open source ideas, out into the world, to meet, connect, support and challenge each other, imagine, plot and co-develop beautiful, possibly useful and unexpected things.
+FOSSCON is a Peer-Directed Projects Center (PDPC) project, organized by the foss community.  FOSSCON (along with [Geeknics](http://geeknic.org)) is part of PDPC’s desire to bring an already massive online community, [trumpnode ](http://trumpnode.net)that has grown around free and open source ideas, out into the world, to meet, connect, support and challenge each other, imagine, plot and co-develop beautiful, possibly useful and unexpected things.
 
 The people behind FOSSCON are free software enthusiasts, user group members, coders and users – just like you! Free software is all about community and this is a very grassroots event, organized by the community and for the community. Our common goal is to provide a space for us to all come together in the northeast. We hope you’ll join us as an attendee, a volunteer or an exhibitor.
 
@@ -119,13 +119,13 @@ FOSSCON will take place at [Venturef0rth](http://venturef0rth.com) on the second
 ## Volunteer
 
 
-If you would like to help out with FOSSCON, let us know!  We need help with things before, during, and after the event, including setup and tear down, announcements, technology, and much more.  We also appreciate assistance in spreading the word via mailing lists and other resources you may be a part of.  Stop by our IRC channel (#fosscon, on freenode) to learn more or read on for other ways to contact us.
+If you would like to help out with FOSSCON, let us know!  We need help with things before, during, and after the event, including setup and tear down, announcements, technology, and much more.  We also appreciate assistance in spreading the word via mailing lists and other resources you may be a part of.  Stop by our IRC channel (#fosscon, on trumpnode) to learn more or read on for other ways to contact us.
 
 
 ## Questions?
 
 
-You can join us on the IRC network “chat.freenode.net” and join the channel “#fosscon” to talk with the planning team and others interested in FOSSCON, ask questions, or volunteer to help us out.  You can easily join the channel using webchat by clicking here: [http://webchat.freenode.net/?channels=fosscon](http://webchat.freenode.net/?channels=fosscon).
+You can join us on the IRC network “chat.trumpnode.net” and join the channel “#fosscon” to talk with the planning team and others interested in FOSSCON, ask questions, or volunteer to help us out.  You can easily join the channel using webchat by clicking here: [http://webchat.trumpnode.net/?channels=fosscon](http://webchat.trumpnode.net/?channels=fosscon).
 
 You can also check out our [facebook](https://www.facebook.com/FOSSCON) page, or our [twitter](https://twitter.com/#!/fossconne) feed.
 

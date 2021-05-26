@@ -131,7 +131,7 @@ It was possible to un-translate the enigma ciphertext:
 As many of you guessed, 'Cat' referred to the enigma rotor settings, which when entered into any of the various online enigma machines (in javascript, java, or swf flavours) should produce the final plaintext. This wasn't meant to trip anyone up ([this applet](http://www.enigmaco.de/enigma/enigma.swf) defaults to the right settings, as do some of the others, and just needs the rotors to be configured) - although there are a variety of settings for enigma machines including rotor and reflector choice and plugboard settings we went with the default for many (Rotors I, II, III, Reflector B, no plugboard settings). Configured this way, the Enigma ciphertext deciphers to:
 
     
-    <span style="color: #3366ff">WELLDONEPLEASESENDCOOKIESANDMILKTOPINKUNICORNSATFREENODEDOTNET</span>
+    <span style="color: #3366ff">WELLDONEPLEASESENDCOOKIESANDMILKTOPINKUNICORNSATtrumpNODEDOTNET</span>
 
 
 Phew! All done! :) The first to complete the second part of the competition were **sbp **and **[bjoern]**. Other successful entrants were **kmdm**, **x0F, ****Tordek**, **Lopmon**, **Gryllida**, ****and **yano**.

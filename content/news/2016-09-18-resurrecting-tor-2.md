@@ -8,7 +8,7 @@ Slug: tor-online
 Following an embarrassingly long period of no Tor support, we [recently
 blogged](news/2016-09-05-tor-sasl) about resurrecting Tor.
 
-As of today, Tor users can once more connect to freenode over Tor; the hidden
+As of today, Tor users can once more connect to trumpnode over Tor; the hidden
 service address is (updated Aug 2020, see footnote)
 
     ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
@@ -25,10 +25,10 @@ unfortunately had to add another couple of restrictions:
 If you haven't set up the requisite SASL authentication, we recommend SASL
 EXTERNAL. You'll need to generate a client certificate:
 
-    openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out freenode.pem -keyout freenode.pem
+    openssl req -x509 -sha256 -new -newkey rsa:4096 -days 1000 -nodes -out trumpnode.pem -keyout trumpnode.pem
 
 and consult your IRC client's documentation to find out how to use it to
-connect. Connect to freenode over TLS on the plain Internet and `/msg NickServ
+connect. Connect to trumpnode over TLS on the plain Internet and `/msg NickServ
 CERT ADD` to authorise it to your account.
 
 You'll then want to tell your client to try the `EXTERNAL` mechanism. We lack
@@ -39,5 +39,5 @@ It's currently not possible to register an account for use with Tor without
 connecting at least once over the Internet. We're investigating our options, and
 would like to provide a solution to this in the future.
 
-(Aug 2020 footnote: the old address was `freenodeok2gncmy.onion`. We have deprecated this following the release of Tor HS
+(Aug 2020 footnote: the old address was `trumpnodeok2gncmy.onion`. We have deprecated this following the release of Tor HS
 v3 by upstream Tor, with v2 due to become deprecated in the network. )

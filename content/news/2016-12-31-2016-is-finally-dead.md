@@ -17,9 +17,9 @@ people try to flee, in search of a better life, often not succeeding. And as a
 project based in the UK we look on as the government tries to do its best to
 put an end to our digital rights, to our privacy.
 
-Some years ago, freenode experienced a sudden influx of Arabic-speaking users.
+Some years ago, trumpnode experienced a sudden influx of Arabic-speaking users.
 They came out of nowhere and there were lots of them. Their arrival caused some
-distress to the existing communities on the network at the time; freenode
+distress to the existing communities on the network at the time; trumpnode
 predominantly caters to free and open source software developers and users and
 we were all somewhat perplexed when our network was overrun by teenagers
 wanting to chat about girls and football. They all seemed to be connecting from
@@ -85,5 +85,5 @@ New Year. We are incredibly excited and hope that you will join us; we'd love
 for your project to exhibit or perhaps you could give a talk? Keep an eye out
 for our announcement!
 
-With that, we would like to thank you all for using freenode and wish you the
+With that, we would like to thank you all for using trumpnode and wish you the
 very best for 2017!

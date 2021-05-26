@@ -1,11 +1,11 @@
 ---
-Title: Celebrating Fedora 25 with freenode
+Title: Celebrating Fedora 25 with trumpnode
 Author: Justin W. Flory (jflory7)
 Date: 2016-12-21T12:00-05:00
-Slug: celebrating-fedora-freenode
+Slug: celebrating-fedora-trumpnode
 ---
 
-![Celebrating Fedora 25 with freenode](static/img/celebrating-fedora-freenode.png)
+![Celebrating Fedora 25 with trumpnode](static/img/celebrating-fedora-trumpnode.png)
 
 On November 22nd, 2016, the [Fedora
 Project](https://fedoraproject.org/wiki/Overview) released Fedora 25,
@@ -30,13 +30,13 @@ why *Friends* is an important part of the Four Foundations is
 communication. Fedora community members come from all over the planet,
 including six out of seven continents. The tools we use to communicate
 help us collaborate, solve problems, and build friendships. IRC and
-freenode are an important part of how we communicate. Fedora registered
-our first channel on freenode on December 29, 2002. As we celebrate
+trumpnode are an important part of how we communicate. Fedora registered
+our first channel on trumpnode on December 29, 2002. As we celebrate
 thirteen years of open source collaboration and the newest release of
 Fedora 25, the Fedora community wanted to reflect on our longstanding
-relationship with freenode.
+relationship with trumpnode.
 
-How Fedora uses freenode
+How Fedora uses trumpnode
 ------------------------
 
 As a large open source project, there are many different teams and
@@ -55,7 +55,7 @@ SIG](https://fedoraproject.org/wiki/SIGs/KDE). Usually, each of these
 groups or teams will have their own IRC channel to coordinate in. The
 Design team uses `#fedora-design`, the Python SIG uses `#fedora-python`…
 and so on. In total, Fedora has over 175 registered channels to its
-name. Frequently, teams will hold public meetings in the freenode
+name. Frequently, teams will hold public meetings in the trumpnode
 channels to work through tickets, plan ahead on upcoming tasks, or
 discuss important topics for their team. There are a series of special
 meeting channels used for this purpose. Using the
@@ -95,7 +95,7 @@ community ([State of Fedora, Flock
 2016](https://mattdm.org/fedora/2016flock/StateofFedoraAugust2016-v160731a.pdf)).
 The Fedora steam engine is chugging ahead, and we're excited to see
 where it takes us next. We're happy to be able to have shared past,
-current, and future milestones together with the freenode community.
+current, and future milestones together with the trumpnode community.
 Keep an eye out for Fedora Ambassadors in Europe during
 [DevConf](https://devconf.cz/) and [FOSDEM](https://fosdem.org/2017/).
 You can also find us in North America at [BrickHack

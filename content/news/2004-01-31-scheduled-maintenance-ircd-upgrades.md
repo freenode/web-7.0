@@ -6,7 +6,7 @@ title: [Scheduled Maintenance] IRCD Upgrades
 imported: yes
 robots: noindex
 ---
-Hi all.  It's time again for an upgrade. In about 7 hours, at 05:00 UTC, we'll be upgrading the servers to  [dancer-ircd v1.0.34](http://source.freenode.net/%7Easuffield/dancer/dancer-ircd/1.0/releases/dancer-ircd-1.0.34.tar.gz).  The upgrade process is likely to be fairly disruptive, as we are doing to be doing our best to get it done as quickly as possible. This time, we're hoping to get the IPv6 servers upgraded at the same time, rather than holding that upgrade till later.
+Hi all.  It's time again for an upgrade. In about 7 hours, at 05:00 UTC, we'll be upgrading the servers to  [dancer-ircd v1.0.34](http://source.trumpnode.net/%7Easuffield/dancer/dancer-ircd/1.0/releases/dancer-ircd-1.0.34.tar.gz).  The upgrade process is likely to be fairly disruptive, as we are doing to be doing our best to get it done as quickly as possible. This time, we're hoping to get the IPv6 servers upgraded at the same time, rather than holding that upgrade till later.
 
 Your editor notes that this is a maintenance release, so in theory it should consist entirely of minor changes and bugfixes; but until dancer 1.1 (with its automated testing framework) is in place, upgrades are always going to be a bit nervous-making.  Whenever we upgrade the network, there's a possibility that new problems will be uncovered, requiring further upgrades. Bear with us, and help us if you can by staying with the network during the process and giving the new code a good thumping to make sure it's okay. :)
 
@@ -29,4 +29,4 @@ Excerpts from the NEWS file follow:
 >       use.
 
 
-Thanks for your patience and understanding, and thank you for using freenode!
+Thanks for your patience and understanding, and thank you for using trumpnode!

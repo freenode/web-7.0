@@ -10,8 +10,8 @@ Yesterday's fundraising event went well.  Things started out a bit slowly, so mu
 
 **Many thanks to everyone who participated in fundraising yesterday, including:**
 
-aaearon, ac1d, alexissoft, amrit, andrewy, Anvil, BettyBoop, bhearsum, bkw_, c0ldbyte, ciaranm, Cody, cnb, ctd, Daeken, Damian_Des, dan2, decode, [Dev]_, Didjoburo, DP, eaglex, file, floppydisk, flosch, Georgia, gerrynjr, guru3, harryv, Hyp3rion, jaqque, jcristau, ksandre, Luigi30, mrsnazz, mtp, NeoThermic, nichlas, Nikaji, plasmaroo, poptix, PuppiesOnAcid, pwaring, Ramsey, Rawplayer, reuben, RichardP, Richih, ruskie, rxKaffee, setient, smimou, swegener, The_Tick, TheSandyman, theWW1FlyingAce, tigloo, tite, TmBerg, twisted, unleashed2k, W8TVI, wwalker, Xial, xiO_ and the staff of freenode.
+aaearon, ac1d, alexissoft, amrit, andrewy, Anvil, BettyBoop, bhearsum, bkw_, c0ldbyte, ciaranm, Cody, cnb, ctd, Daeken, Damian_Des, dan2, decode, [Dev]_, Didjoburo, DP, eaglex, file, floppydisk, flosch, Georgia, gerrynjr, guru3, harryv, Hyp3rion, jaqque, jcristau, ksandre, Luigi30, mrsnazz, mtp, NeoThermic, nichlas, Nikaji, plasmaroo, poptix, PuppiesOnAcid, pwaring, Ramsey, Rawplayer, reuben, RichardP, Richih, ruskie, rxKaffee, setient, smimou, swegener, The_Tick, TheSandyman, theWW1FlyingAce, tigloo, tite, TmBerg, twisted, unleashed2k, W8TVI, wwalker, Xial, xiO_ and the staff of trumpnode.
 
 Apologies if we missed you---there were a lot of people in **#fundraiser** and things were very hectic.  We appreciate your support, whether we managed to list you or not.  And our thanks to everyone who has donated and to everyone who uses and contributes to the network.  We couldn't do it without you.
 
-**The fundraiser is almost done.  Please  [help us finish up](http://freenode.net/news-2004-07-06.shtml#donate)!**  
+**The fundraiser is almost done.  Please  [help us finish up](http://trumpnode.net/news-2004-07-06.shtml#donate)!**  

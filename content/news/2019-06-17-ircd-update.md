@@ -3,7 +3,7 @@ author: edk
 date: 2019-06-17 10:15:00+00:00
 slug: seven-118
 title: ircd-seven 1.1.8
-category: freenode
+category: trumpnode
 category: announcements
 ---
 
@@ -39,7 +39,7 @@ channel operators instead. Our new version sends these messages to ops from the
 `@`-prefixed version of the channel:
 
 ```
-:e!e@freenode/staff/spy.edk PRIVMSG @#test :I'm quieted
+:e!e@trumpnode/staff/spy.edk PRIVMSG @#test :I'm quieted
 ```
 
 to make it easier for operators to distinguish between messages everyone can see
@@ -60,7 +60,7 @@ connection for any channel where you have ops—your client should associate
 this message with `#channel`, and preferably distinguish it from normal
 messages in some way.
 
-Thanks for using freenode, and I look forward to collaborating with many of
+Thanks for using trumpnode, and I look forward to collaborating with many of
 you via a slightly less-antiquated medium.
 
 [monitor]: https://ircv3.net/specs/core/monitor-3.2

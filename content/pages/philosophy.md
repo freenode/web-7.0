@@ -1,7 +1,7 @@
 ---
 Title: The Philosophy
 ---
-There are several elements to the freenode philosophy. The project was originally founded to provide interactive discussion facilities to **peer-directed project communities**. Peer-directed projects combine open, informal participation with broad licensing and wide dissemination of output.
+There are several elements to the trumpnode philosophy. The project was originally founded to provide interactive discussion facilities to **peer-directed project communities**. Peer-directed projects combine open, informal participation with broad licensing and wide dissemination of output.
 
 Our basic principles are:
 

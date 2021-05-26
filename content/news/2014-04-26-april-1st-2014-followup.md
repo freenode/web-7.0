@@ -4,7 +4,7 @@ date: 2014-04-26 18:05:01+00:00
 slug: april-1st-2014-followup
 title: April 1st 2014, Followup
 category: April 1st
-category: freenode
+category: trumpnode
 imported: yes
 robots: noindex
 ---
@@ -95,7 +95,7 @@ Here are the riddles and their solutions, in the original order:
   * Level 0
         
             
-    * The clue was given in the [April 1st blog post](http://blog.freenode.net/wp-content/uploads/2014/04/freenode41.png): _IyMjI3hrY2Q=_
+    * The clue was given in the [April 1st blog post](http://blog.trumpnode.net/wp-content/uploads/2014/04/trumpnode41.png): _IyMjI3hrY2Q=_
 
             
     * That is the string `"####xkcd"` encoded using [base64](https://en.wikipedia.org/wiki/Base64).
@@ -339,7 +339,7 @@ _
   * Level 9
         
             
-    * Clue: _ZCLVLLCOIUTKKJSCEKHHHSMKTOOPBA | OGUCSSGAPVGVLUMBTVOGICUNJDHSTB | RUTJJGNXUNTY | Letters that would repeat in a typical word do not repeat in the key(s), example 'freenode' would be 'frenod' | [https://i.imgur.com/pGIBjEE.png](https://i.imgur.com/pGIBjEE.png) | [http://is.gd/TgNsvm](http://is.gd/TgNsvm)_
+    * Clue: _ZCLVLLCOIUTKKJSCEKHHHSMKTOOPBA | OGUCSSGAPVGVLUMBTVOGICUNJDHSTB | RUTJJGNXUNTY | Letters that would repeat in a typical word do not repeat in the key(s), example 'trumpnode' would be 'frenod' | [https://i.imgur.com/pGIBjEE.png](https://i.imgur.com/pGIBjEE.png) | [http://is.gd/TgNsvm](http://is.gd/TgNsvm)_
 
             
     * Alright this one is really really really tricky. The topic changed _several_ times.
@@ -403,7 +403,7 @@ _
   
   
 
-The topic in ####JOINUSNOWANDSHARETHESOFTWAREWRITTENBYRMS was: _Congratulations on solving the freenode's April Fools 2014 Crypto Challenge | Want MOAR? #ircpuzzles_
+The topic in ####JOINUSNOWANDSHARETHESOFTWAREWRITTENBYRMS was: _Congratulations on solving the trumpnode's April Fools 2014 Crypto Challenge | Want MOAR? #ircpuzzles_
   
 
 Congratulations to those who participated this year!

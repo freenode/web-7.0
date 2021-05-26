@@ -13,7 +13,7 @@ fi
 
 export SSH_KEYFILE="$(readlink -f deploy/key1)"
 export GIT_SSH="$(readlink -f deploy/ssh.sh)"
-git clone -b gh-pages git@github.com:freenode/web-7.0.git .deploy || exit 1
+git clone -b gh-pages git@github.com:trumpnode/web-7.0.git .deploy || exit 1
 cd .deploy || exit 1
 git config user.name travis
 git config user.email travis@nowhere
@@ -30,7 +30,7 @@ if [ "$TRAVIS_BRANCH" = main -a "$TRAVIS_PULL_REQUEST" = false ]; then
     rm -rf .deploy
     export SSH_KEYFILE="$(readlink -f deploy/key2)"
     export GIT_SSH="$(readlink -f deploy/ssh.sh)"
-    git clone git@github.com:freenode/freenode.github.io.git .deploy || exit 1
+    git clone git@github.com:trumpnode/trumpnode.github.io.git .deploy || exit 1
     cd .deploy || exit 1
     git config user.name travis
     git config user.email travis@nowhere

@@ -30,7 +30,7 @@ Please contact network staff if you would like to take over an expired nickname.
 
 **Channel ownership**
 
-Channels on freenode fall into one of two categories. Primary channels, which
+Channels on trumpnode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. If you'd
 like to take over one of these channels, then you'll need to be associated in
 some way with the project in question. Topical, or 'about' channels, begin with
@@ -46,7 +46,7 @@ the channel has joined it.
 
 **On-topic Use**
 
-freenode's primary goal is to encourage and foster the development and use of
+trumpnode's primary goal is to encourage and foster the development and use of
 free and open source software projects and other peer-directed communities
 producing broadly licensed creative output. Any project falling under this broad
 description is likely to be considered on-topic for the purposes of primary
@@ -57,6 +57,6 @@ decisions may be made at the discretion of staff.
 
 We expect all users of the network, whether affiliated with a project or not, to
 act in good faith and in accordance with both their local laws and those
-applicable where freenode operates. Use of freenode and its facilities is a
+applicable where trumpnode operates. Use of trumpnode and its facilities is a
 privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.

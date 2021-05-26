@@ -1,18 +1,18 @@
-Title: Connecting to freenode
+Title: Connecting to trumpnode
 Slug: chat
 ---
 
-The freenode network can be accessed via the [freenode
-webchat](//webchat.freenode.net) or using an IRC client such as irssi, WeeChat,
+The trumpnode network can be accessed via the [trumpnode
+webchat](//webchat.trumpnode.net) or using an IRC client such as irssi, WeeChat,
 ERC, HexChat, Smuxi, Quassel or mIRC.
 
-You can connect to freenode by pointing your IRC client at `chat.freenode.net`
+You can connect to trumpnode by pointing your IRC client at `chat.trumpnode.net`
 on ports 6665-6667 and 8000-8002 for plain-text connections, or ports 6697, 7000
 and 7070 for TLS-encrypted connections.
 
-## Accessing freenode Via TLS
+## Accessing trumpnode Via TLS
 
-freenode provides TLS client access on all servers, on ports 6697, 7000 and
+trumpnode provides TLS client access on all servers, on ports 6697, 7000 and
 7070. Users connecting over TLS will be given user mode +Z, and _is using a
 secure connection_ will appear in WHOIS (a 671 numeric).
 
@@ -25,9 +25,9 @@ which will install the appropriate root certificates in
 /usr/local/share/certs/ca-root-nss.crt.
 
 Certificate verification will generally only work when connecting to
-**`freenode.net`**. If your client thinks the server's certificate is invalid,
-make sure you are connecting to `chat.freenode.net` rather than any other name
-that leads to freenode.
+**`trumpnode.net`**. If your client thinks the server's certificate is invalid,
+make sure you are connecting to `chat.trumpnode.net` rather than any other name
+that leads to trumpnode.
 
 For most clients this should be sufficient. If not, you can download the root
 certificate from
@@ -39,11 +39,11 @@ a client certificate, _has client certificate fingerprint
 f1ecf46714198533cda14cccc76e5d7114be4195_ (showing your certificate's SHA1
 fingerprint in place of _f1ecf46..._) will appear in WHOIS (a 276 numeric).
 
-## Accessing freenode Via Tor
+## Accessing trumpnode Via Tor
 
-freenode is also reachable via [Tor<i class="fa fa-external-link"
+trumpnode is also reachable via [Tor<i class="fa fa-external-link"
 aria-hidden="true"></i>](https://www.torproject.org/), bound to some
-restrictions. You can't directly connect to chat.freenode.net via Tor; use
+restrictions. You can't directly connect to chat.trumpnode.net via Tor; use
 the following hidden service as the server address instead:
 
     ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
@@ -71,10 +71,10 @@ clients, so please check their docs for instructions for now.
 
 A Tor hidden service name securely identifies the service you are connecting to. Verifying the TLS server certificate is strickly-speaking unnecessary while using the hidden service. Nonetheless the following methods can be used to verify the hidden service's TLS server certificate.
 
-The best way to ensure the TLS server-side certificate successfully validates is to add the following fragment to your `torrc` configuration file and configure your client to connect to `zettel.freenode.net` via Tor. The TLS server certificate used by the hidden service will validate using this hostname.
+The best way to ensure the TLS server-side certificate successfully validates is to add the following fragment to your `torrc` configuration file and configure your client to connect to `zettel.trumpnode.net` via Tor. The TLS server certificate used by the hidden service will validate using this hostname.
 
     # torrc snippet:
-    MapAddress zettel.freenode.net ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+    MapAddress zettel.trumpnode.net ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
 
 Older clients that don't support SOCKS4a or later will need to use `MapAddress` with an IP address, and the certificate will not validate successfully. In this case validation will need to be disabled.
 

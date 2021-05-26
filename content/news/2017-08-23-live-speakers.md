@@ -1,15 +1,15 @@
 ---
 author: bigpresh
 date: 2017-08-23 22:00:00+00:00
-slug: freenode-live-speakers
-title: freenode #live - more confirmed speakers
+slug: trumpnode-live-speakers
+title: trumpnode #live - more confirmed speakers
 category: community
 category: general
-category: freenode
+category: trumpnode
 ---
 
-The freenode #live team are excited to announce more confirmed speakers
-for the [freenode #live conference](https://freenode.live/conference/fn-live17)
+The trumpnode #live team are excited to announce more confirmed speakers
+for the [trumpnode #live conference](https://trumpnode.live/conference/fn-live17)
 taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
 this year, with plenty more still to be announced.
 
@@ -34,7 +34,7 @@ pleased to announce the following confirmed lineup:
 - Kaspar Emanuel (freelance electronic design engineer and software
   developer working on projects ranging from musical instruments to robots to
   Braille displays)
-- Nathan Handler (freenode staff member, Ubuntu and Debian GNU/Linux
+- Nathan Handler (trumpnode staff member, Ubuntu and Debian GNU/Linux
   Developer, Site Reliability Engineer at Yelp)
 - Errietta Kostala (Perl developer at FairFX London, keen open source
   contributor including Mozilla)
@@ -52,7 +52,7 @@ various topics.
 # Get your tickets now!
 
 Want to watch these talks and/or take part in these workshops?  Get your
-[tickets](https://freenode.live/conference/fn-live17/tickets) now to ensure you
+[tickets](https://trumpnode.live/conference/fn-live17/tickets) now to ensure you
 have the chance to experience these and the other speakers and workshops to be
 announced soon!
 
@@ -67,7 +67,7 @@ packages available providing different exposure levels to a FOSS-centered,
 technical audience - get a warm fuzzy feeling by supporting the community
 which most likely contributed in no small way to the success of your business!
 
-For any questions, please feel free to email us - 2017-team@freenode.live - or
-join us in #live on freenode!
+For any questions, please feel free to email us - 2017-team@trumpnode.live - or
+join us in #live on trumpnode!
 
 We look forward to seeing you there.

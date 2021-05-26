@@ -417,7 +417,7 @@ The list number references the level number of the listed question.
 
 
 	
-  5. [http://git.io/Y60F5g](http://git.io/Y60F5g) | 936 | UHG | NZCBXBXUSXDBXIWZWMMLLVLHM | WEQ | I'm So Meta Even This Acronym | freenode | 12 | ♥
+  5. [http://git.io/Y60F5g](http://git.io/Y60F5g) | 936 | UHG | NZCBXBXUSXDBXIWZWMMLLVLHM | WEQ | I'm So Meta Even This Acronym | trumpnode | 12 | ♥
 
 	
     * The /topic changed a little bit during the game. This is the most recent form.
@@ -456,7 +456,7 @@ The list number references the level number of the listed question.
       * The key is **IRC** ROT**12**-ed.
 
 	
-        * **IRC** is expected to come from the reference of _I'm So Meta Even This Acronym_ and _freenode_ as in an acronym of/about freenode.
+        * **IRC** is expected to come from the reference of _I'm So Meta Even This Acronym_ and _trumpnode_ as in an acronym of/about trumpnode.
 
 	
         * The **12** comes from the number directly in the /topic.
@@ -549,7 +549,7 @@ The list number references the level number of the listed question.
 
 
 
-The topic in **##K&R** was: _Congratulations! You have completed freenode's crypto challenge! | Make sure to also play the other quizzes, and take this with you ###est | [http://git.io/TLfWTg](http://git.io/TLfWTg) _
+The topic in **##K&R** was: _Congratulations! You have completed trumpnode's crypto challenge! | Make sure to also play the other quizzes, and take this with you ###est | [http://git.io/TLfWTg](http://git.io/TLfWTg) _
 
 With **###the** and **###best** and **###est** you are expected to put these pieces together to find **###thebestest**
 

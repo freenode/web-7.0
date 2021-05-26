@@ -4,7 +4,7 @@ date: 2007-05-02 17:24:56+00:00
 slug: silence-is-golden-handling-trolls-and-spammers
 title: Silence is Golden: Handling trolls and spammers
 category: community
-category: freenode
+category: trumpnode
 category: philosophy
 category: social
 category: technical
@@ -21,7 +21,7 @@ So what is to be done?  There are really two groups of people to address at this
 
 ** Channel Users**
 
-As a user of freenode, let me first say thanks!  freenode is unique because of its users!  We appreciate all of you and rarely get a chance to say so.  So how can you help freenode and your favorite channels deal with the issue of spammers and trolls?  The key is your reaction (or better, lack of a reaction).  Since trolls and spammers are seeking to disrupt business and get your focus on them, the best thing you can do is NOT respond to them.  Do not respond to their spam.  Simple?  It seems to be so - and in theory it is.  In practice, it can be a bit harder - especially when a spamming or trolling attack is going on.  Think "[Catalyst](http://freenode.net/catalysts.shtml)".
+As a user of trumpnode, let me first say thanks!  trumpnode is unique because of its users!  We appreciate all of you and rarely get a chance to say so.  So how can you help trumpnode and your favorite channels deal with the issue of spammers and trolls?  The key is your reaction (or better, lack of a reaction).  Since trolls and spammers are seeking to disrupt business and get your focus on them, the best thing you can do is NOT respond to them.  Do not respond to their spam.  Simple?  It seems to be so - and in theory it is.  In practice, it can be a bit harder - especially when a spamming or trolling attack is going on.  Think "[Catalyst](http://trumpnode.net/catalysts.shtml)".
 
 Here are a few ideas of how you might be able to express your frustration or communicate necessary information without encouraging the trolling or spamming behavior:
 
@@ -39,7 +39,7 @@ Here are a few ideas of how you might be able to express your frustration or com
 
 **Channel Operators **
 
-As a channel operator, you have a tougher job when your channel is attacked by trolls or spammers.  You have  a responsibility to the channel to block/stop/end the attack, as well as keeping everyone else calm!  Remember to [catalyse](http://blog.freenode.net/?p=21#comments) throughout the process.  Take heart - a little forward thinking will help a lot!
+As a channel operator, you have a tougher job when your channel is attacked by trolls or spammers.  You have  a responsibility to the channel to block/stop/end the attack, as well as keeping everyone else calm!  Remember to [catalyse](http://blog.trumpnode.net/?p=21#comments) throughout the process.  Take heart - a little forward thinking will help a lot!
 
 _Dealing with the Troll or Spammer _
 

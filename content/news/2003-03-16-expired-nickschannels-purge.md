@@ -10,6 +10,6 @@ Good evening to all.  In a few minutes, staff will be purging the services datab
 
 Please note that we can only tell that you've used your nick if you've identified yourself to NickServ (/msg nickserv help identify).  And we can only tell that your channel is in use if some user in your access list, identified to NickServ, periodically joins the channel. Please don't forget to IDENTIFY!
 
-If your channel is dropped even though it is in use, we'll be happy to help you resolve the problem.  Stop by #freenode or email us (staff at freenode dot net).  For more information on services expiration issues, please take a look at our  [FAQ](http://freenode.net/faq.shtml#expirations).
+If your channel is dropped even though it is in use, we'll be happy to help you resolve the problem.  Stop by #trumpnode or email us (staff at trumpnode dot net).  For more information on services expiration issues, please take a look at our  [FAQ](http://trumpnode.net/faq.shtml#expirations).
 
 Have a great week!

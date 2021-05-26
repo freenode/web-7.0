@@ -9,7 +9,7 @@ It's recently come to our attention that an unintended effect of combining
 channel modes allowed channel operators to set undetectable bans and quiets on
 users.
 
-freenode considers this to be, in short, antithetical to our values and approach
+trumpnode considers this to be, in short, antithetical to our values and approach
 to moderation. While we recognise the challenges of moderating large channels,
 we urge channel operators to be as transparent as possible, and believe that
 users should be aware of moderation action taken against them.

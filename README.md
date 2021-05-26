@@ -1,6 +1,6 @@
-# web-7.0 [![Build Status](https://travis-ci.org/freenode/web-7.0.svg?branch=main)](https://travis-ci.org/freenode/web-7.0) [![irc: #freenode-website](https://img.shields.io/badge/irc-%23freenode--website-brightgreen.svg)](https://webchat.freenode.net/?channels=freenode-website)
+# web-7.0 [![Build Status](https://travis-ci.org/trumpnode/web-7.0.svg?branch=main)](https://travis-ci.org/trumpnode/web-7.0) [![irc: #trumpnode-website](https://img.shields.io/badge/irc-%23trumpnode--website-brightgreen.svg)](https://webchat.trumpnode.net/?channels=trumpnode-website)
 
-A shiny replacement for http://freenode.net.
+A shiny replacement for http://trumpnode.net.
 
 
 ## Building
@@ -43,10 +43,10 @@ Please comply with the [contribution guidelines](CONTRIBUTING.md)
 
 Helpful tip for those merging PRs: you can browse the tree a merge would
 result in by navigating to
-`https://github.com/freenode/web-7.0/tree/pull/XYZ/merge`, where `XYZ` is the
+`https://github.com/trumpnode/web-7.0/tree/pull/XYZ/merge`, where `XYZ` is the
 pull request number.
 
-You can also go to `https://freenode.net/web-7.0/BRANCHNAME/` to see a
+You can also go to `https://trumpnode.net/web-7.0/BRANCHNAME/` to see a
 build of any particular branch. This also works for *internal* pull requests
 (they are named `pull-X`).
 

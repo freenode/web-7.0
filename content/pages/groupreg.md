@@ -2,21 +2,21 @@
 Title: Group registration
 ---
 
-This page describes group registration and the use of the freenode group
+This page describes group registration and the use of the trumpnode group
 contact. Group registration allows your project or organisation to maintain
-unambiguous contact with the freenode project volunteers and group registration
-represents an official relationship with freenode.
+unambiguous contact with the trumpnode project volunteers and group registration
+represents an official relationship with trumpnode.
 
 ### On-topic groups
 
-Groups considered to be on-topic for freenode are primarily free and open-source
+Groups considered to be on-topic for trumpnode are primarily free and open-source
 software projects, and other peer-directed projects, for instance Linux User
 Groups (LUGs), student societies, and other collaborative efforts, or projects/companies
 of general interest to our user base.
 
 ### Group registration:
 
-**Represents an official relationship between freenode and your project or
+**Represents an official relationship between trumpnode and your project or
 organisation.**
 
 > By registering your group, you are indicating that you are maintaining an
@@ -37,12 +37,12 @@ organisation.**
 > need.
 
 
-### Two types of group contacts exist for freenode:
+### Two types of group contacts exist for trumpnode:
 
 #### The primary contact.
 
 This contact registers to establish that your group intends to create a
-relationship with freenode. The primary contact should have the authority to
+relationship with trumpnode. The primary contact should have the authority to
 make the determination that your group intends to register, with the specifics
 depending on the type of group:
 
@@ -109,13 +109,13 @@ participation in the network.
 
 ## Group Registration and Channel Ownership
 
-Channels on freenode are owned and operated by the groups which register them.
+Channels on trumpnode are owned and operated by the groups which register them.
 No minimum level of activity or moderation is expected or required of channel owners.
-The network exists to further on-topic use, as explained in our [policies](http://freenode.net/policies)
-and channels or groups may be removed from freenode for activity which is considered
+The network exists to further on-topic use, as explained in our [policies](http://trumpnode.net/policies)
+and channels or groups may be removed from trumpnode for activity which is considered
 to be off-topic.
 
-Groups using freenode are strongly encouraged to adopt the [channel guidelines](http://freenode.net/changuide).
+Groups using trumpnode are strongly encouraged to adopt the [channel guidelines](http://trumpnode.net/changuide).
 
 Primary channels are reserved based on a formal or informal claim, external to IRC, to a specific project group, or
 trademarked name. Topical or reference channels are reserved on a first-come, first-served basis by groups wishing to
@@ -127,7 +127,7 @@ Project coordination, support, discussion or contact channels associated with so
 
 
 ### Non-Software-Related Peer-Directed Project.
-Channels which serve projects combining open, informal participation and broadly-licensed, widely-disseminated creative output are considered to be on-topic.  If you believe your non-software project may meet the criteria for a non-software peer-directed project, please consult a staffer or email support at freenode dot net.
+Channels which serve projects combining open, informal participation and broadly-licensed, widely-disseminated creative output are considered to be on-topic.  If you believe your non-software project may meet the criteria for a non-software peer-directed project, please consult a staffer or email support at trumpnode dot net.
 
 ### Non-Governmental Organization (NGO).
 Coordination, support, discussion or contact channels run by educational institutions, registered not-for-profit entities and other non-governmental organisations (NGOs) and their related consortia are considered to be on-topic.  Be sure to register your group or organisation.
@@ -136,7 +136,7 @@ Coordination, support, discussion or contact channels run by educational institu
 Coordination, support, discussion or contact channels run by local, national or international governmental entities are considered to be on-topic.  Don't forget to register your group.
 
 ### News Media.
-Formal news organizations with an interest in our target communities are encouraged to create contact channels on freenode.
+Formal news organizations with an interest in our target communities are encouraged to create contact channels on trumpnode.
 
 ### Corporate.
 Contact channels for registered corporate or business entities or consortia with an interest in our target communities are considered to be on-topic.
@@ -146,29 +146,29 @@ Discussion channels associated with official standards committees or with inform
 
 ### Geographically-Based Interest Group.
 Channels associated with formal or informal geographically-based interest groups are considered to be on-topic.  These include local
-Linux and FreeBSD user groups (LUGs and FUGs) and community wireless groups.  If your group doesn't fall into one of those categories, but you think it might meet the criteria, please consult a staffer or email support at freenode dot net.
+Linux and FreeBSD user groups (LUGs and FUGs) and community wireless groups.  If your group doesn't fall into one of those categories, but you think it might meet the criteria, please consult a staffer or email support at trumpnode dot net.
 
 ### Other groups.
-Other groups not covered by the above examples may be suitable for the network. Please drop an e-mail to groups@freenode.net if you want to find out if your group/project is a good fit for freenode.
+Other groups not covered by the above examples may be suitable for the network. Please drop an e-mail to groups@trumpnode.net if you want to find out if your group/project is a good fit for trumpnode.
 
 
-## freenode Group Advisory Board
+## trumpnode Group Advisory Board
 
-In order for freenode to provide the best possible service to the communities
+In order for trumpnode to provide the best possible service to the communities
 we serve, it is important for us to receive feedback from the projects with
 which we have relationships.
 
-We invite all current (and future) Group Contacts to join GAB, the freenode
+We invite all current (and future) Group Contacts to join GAB, the trumpnode
 Group Advisory Board. While we hope to see many Group Contacts involved with
 GAB in an advisory capacity, GAB membership is of course optional.
 
-freenode will consult the GAB on matters relating to services given to
+trumpnode will consult the GAB on matters relating to services given to
 groups/projects, any addition to, or change of, group specific policy and other
 relevant issues.
 
 If you are a current Group Contact and wish to get involved with GAB, please
-contact staff on IRC or email groups at freenode dot net for instructions on
-how to subscribe to the freenode-groups mailing list. If you're considering
+contact staff on IRC or email groups at trumpnode dot net for instructions on
+how to subscribe to the trumpnode-groups mailing list. If you're considering
 becoming one, just let us know your email address when registering.
 
 We'd love to hear how you feel we could improve the service for your community.
@@ -177,16 +177,16 @@ Thanks in advance for any help you can provide!
 
 ## Group Management & Community Team
 
-The Group Management & Community Team comprises, among others, the freenode staff; together they will act as your
+The Group Management & Community Team comprises, among others, the trumpnode staff; together they will act as your
 liaisons during the group registration process and throughout your tenure on the
-freenode network. If you wish to discuss the group registration process, find out
-if freenode could be a good fit for your project or register your project as
+trumpnode network. If you wish to discuss the group registration process, find out
+if trumpnode could be a good fit for your project or register your project as
 a group, please feel free to drop any of the team members a line on IRC.
 If none are online, feel free to reach out to staff in general and they will
 forward your request to the team, which will get back to you as soon as possible.
 
 Once you have discussed your project with a staff member, you'll be asked to
-email <projects@freenode.net> with the details of your request, including any
+email <projects@trumpnode.net> with the details of your request, including any
 formal verification information that might be required. If you're a PGP user,
 feel free to encrypt to:
 

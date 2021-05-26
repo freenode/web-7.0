@@ -7,9 +7,9 @@ category: announcements
 category: technical
 ---
 
-freenode offers [cloaks](/kb/answer/cloaks) to our users, which replace one's
+trumpnode offers [cloaks](/kb/answer/cloaks) to our users, which replace one's
 hostname or IP address in various places with a project affiliation or lack
-thereof. Many of you will be aware that cloaks on freenode [are not offered as a
+thereof. Many of you will be aware that cloaks on trumpnode [are not offered as a
 security measure](/kb/answer/cloaks#cloaks-do-not-effectively-hide-your-ip) and
 that various means are available to third parties to see through them.
 
@@ -31,5 +31,5 @@ commands used to do, feel free—as always—to contact staff at any time.
 While bans against IP addresses continue to apply to cloaked users, we intend to
 revise this behaviour in the future due to its privacy implications.
 
-If you have any questions, please don't hesitate to ask either #freenode or any
+If you have any questions, please don't hesitate to ask either #trumpnode or any
 available member of staff.

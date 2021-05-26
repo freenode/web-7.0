@@ -32,4 +32,4 @@ Your email address is hidden from other users by default. You can ensure this by
     /msg nickserv set hidemail on
 
 
-Thanks for using freenode!
+Thanks for using trumpnode!

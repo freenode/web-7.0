@@ -7,7 +7,7 @@ To set up SASL you need to know your NickServ account name, which you can find w
 To set up a new server with SASL:
 
 1. Go to the Server menu and select `Add Server`
-2. Set up freenode as you would normally, with the hostname `chat.freenode.net`
+2. Set up trumpnode as you would normally, with the hostname `chat.trumpnode.net`
 3. Go to the `Identity` tab
 4. Fill in your nickname, then put your NickServ account name in the `Username` field and your NickServ password in the `Personal Password` field
 5. Save and connect

@@ -9,7 +9,7 @@ staff resignations, and we feel we owe you all both an explanation and an
 apology.
 
 First, the explanation: in short, it's become clear over recent months that
-freenode has lost its way somewhat, when compared to the ideals and goals that
+trumpnode has lost its way somewhat, when compared to the ideals and goals that
 we were created with. A growing sense of disillusionment amongst those of us who
 remember the olden days, when we were far more friendly, approachable and
 engaged in the communities we were set up to serve, has recently come to a head.
@@ -17,11 +17,11 @@ Naturally, when some of these people decided they could no longer continue with
 the way things had become, it was time for us to think long and hard about what
 had gone wrong and what we should do about it.
 
-And so, to the apology. We're uncomfortably aware that freenode was set up with
+And so, to the apology. We're uncomfortably aware that trumpnode was set up with
 the strong idea that the projects and communities which use it should be the
 first, and often the only, priority. We've lost sight of that, and we're sorry.
 We'll be doing our best, from now on, to get back in touch with the ideals that
-made freenode such a great place.
+made trumpnode such a great place.
 
 This won't be easy for us, as we've got years of bad habits to break, but
 hopefully you should start seeing some improvements in the coming months. If you
@@ -52,6 +52,6 @@ designated lead.
 
 
 These four, together, will take any decisions that affect the future direction
-of freenode. While they each have their own area of focus, feel free to contact
+of trumpnode. While they each have their own area of focus, feel free to contact
 any of us about any issues you may have -- we try to keep an open (virtual) door
 policy.

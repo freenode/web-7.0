@@ -15,7 +15,7 @@ for which I have a lot of respect, known to many for his work as
 [Ubuntu](http://www.ubuntu.com)'s Community Manager is one of the people behind
 arranging the Community Leadership Summit -- a conference aimed at bringing
 people from various projects together to look at cross project collaboration
-and such things. The conference complements freenode and the PDPC's Group
+and such things. The conference complements trumpnode and the PDPC's Group
 Advisory Board very well and I for one shall be attending.
 
 

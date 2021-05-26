@@ -3,7 +3,7 @@ author: mrmist
 date: 2015-09-18 08:58:13+00:00
 slug: services-database-purge
 title: Services database purge
-category: freenode
+category: trumpnode
 category: infrastructure
 tag: expiry
 tag: nicks

@@ -7,8 +7,8 @@ category: community
 imported: yes
 robots: noindex
 ---
-The first annual SouthEast LinuxFest is coming up in just a few weeks, on June 13th.  This event is for anyone who wants to learn more about free and open source software, and is a combination educational conference and social gathering, all in one.  It looks to be a very exciting event.  Freenode will have at least one representative at the event and we are already aware of quite a few freenode users who will be there.
+The first annual SouthEast LinuxFest is coming up in just a few weeks, on June 13th.  This event is for anyone who wants to learn more about free and open source software, and is a combination educational conference and social gathering, all in one.  It looks to be a very exciting event.  trumpnode will have at least one representative at the event and we are already aware of quite a few trumpnode users who will be there.
 
-The event website is [http://southeastlinuxfest.org](http://southeastlinuxfest.org), and you can also hop on irc.freenode.net and visit #southeastlinuxfest.
+The event website is [http://southeastlinuxfest.org](http://southeastlinuxfest.org), and you can also hop on irc.trumpnode.net and visit #southeastlinuxfest.
 
 We really hope a few of you can make it in.  It really looks like it's going to be a wonderful event. If you would like to join in, be sure to register on the site.  Hope to see you there!

@@ -1,7 +1,7 @@
 Title: User and Project Cloaks
 ---
 
-There are two types of cloak which can be set on accounts on freenode; both
+There are two types of cloak which can be set on accounts on trumpnode; both
 replace the hostname/IP displayed when you are connected (but only when you're
 identified to NickServ—see below).
 
@@ -14,21 +14,21 @@ Project cloaks
 ==============
 
 Project cloaks typically take the form `project/role/user`, for instance
-`freenode/staff/bigpresh` (though some take other forms). They are designed to
+`trumpnode/staff/bigpresh` (though some take other forms). They are designed to
 demonstrate that the user is connected to a project in some way. Different
 projects use cloaks for various roles—some only use them for their core
 team, some will assign user cloaks as well.
 
 Project cloaks can only be requested by a registered group contact of an
 already [registered group](pages/groupreg)—they should contact a member of
-freenode staff to request that a user be given a project cloak.
+trumpnode staff to request that a user be given a project cloak.
 
 
 Unaffiliated cloaks
 ===================
 
 Unaffiliated cloaks for users take the form `unaffiliated/accountname`. They
-indicate that you are not affiliated with any specific project on freenode.
+indicate that you are not affiliated with any specific project on trumpnode.
 They can also help obscure your IP from casual observers to a certain
 degree—but see the weaknesses section below.
 
@@ -73,7 +73,7 @@ passively logged in most cases, but caution that they cannot be relied upon to
 hide your IP/hostname robustly—if you want that, you should consider an [IRC
 bouncer](https://en.wikipedia.org/wiki/IRC_bouncer),
 [VPN](https://en.wikipedia.org/wiki/Virtual_private_network) or [our Tor hidden
-service](/kb/answer/chat#accessing-freenode-via-tor).
+service](/kb/answer/chat#accessing-trumpnode-via-tor).
 
 Do consider, however, just how much you need to hide your IP address; it's
 disclosed routinely during normal Internet usage—for instance, every website
@@ -93,7 +93,7 @@ Requesting a cloak
 ==================
 
 Once you've read and understood the above, if you would like an unaffiliated
-cloak, please join the #freenode channel or speak to a member of the staff
+cloak, please join the #trumpnode channel or speak to a member of the staff
 team. Note that cloaks are a privilege, and staff have the right to deny that
 privilege to users if they deem necessary.
 

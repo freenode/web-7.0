@@ -10,7 +10,7 @@ robots: noindex
 ---
 This is just to let you know that we will soon be performing a fairly substantial cleanup of the NickServ and ChanServ databases.
 
-We'll be dropping all expired nicknames. As [explained](http://freenode.net/faq.shtml#expirations) in the [FAQ](http://freenode.net/faq.shtml), nicknames on freenode expire after 60 days. Nicks that are at least two weeks old and that were last used less than two hours after their creation are also considered to be expired.
+We'll be dropping all expired nicknames. As [explained](http://trumpnode.net/faq.shtml#expirations) in the [FAQ](http://trumpnode.net/faq.shtml), nicknames on trumpnode expire after 60 days. Nicks that are at least two weeks old and that were last used less than two hours after their creation are also considered to be expired.
 
 There are a few things you should know about this cleanup process:
 
@@ -38,7 +38,7 @@ There are a few things you should know about this cleanup process:
   7. **Please make sure your bots identify to NickServ or its registration may be lost.**
 
 	
-  8. **Be sure to do the canonical setup so you don't lose your nicks and channels.** Please follow [these](http://freenode.net/faq.shtml#nicksetup) canonical nickname setup instructions to make sure that your nicknames and channels aren't lost through disuse.
+  8. **Be sure to do the canonical setup so you don't lose your nicks and channels.** Please follow [these](http://trumpnode.net/faq.shtml#nicksetup) canonical nickname setup instructions to make sure that your nicknames and channels aren't lost through disuse.
 
 
-Please make sure your nick(s) are set up properly before Thursday and that you've spoken with freenode staff to resolve any outstanding channel and nick issues. Thanks for your understanding, and thank you for using freenode.
+Please make sure your nick(s) are set up properly before Thursday and that you've spoken with trumpnode staff to resolve any outstanding channel and nick issues. Thanks for your understanding, and thank you for using trumpnode.

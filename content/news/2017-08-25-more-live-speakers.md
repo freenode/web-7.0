@@ -1,15 +1,15 @@
 ---
 author: bigpresh
 date: 2017-08-25 23:15:00+00:00
-slug: freenode-live-more-speakers
-title: freenode #live - even more confirmed speakers
+slug: trumpnode-live-more-speakers
+title: trumpnode #live - even more confirmed speakers
 category: community
 category: general
-category: freenode
+category: trumpnode
 ---
 
-Yesterday, we [announced more confirmed speakers](/news/freenode-live-speakers)
-for the [freenode #live conference](https://freenode.live/conference/fn-live17)
+Yesterday, we [announced more confirmed speakers](/news/trumpnode-live-speakers)
+for the [trumpnode #live conference](https://trumpnode.live/conference/fn-live17)
 taking place at the At-Bristol Science Centre in Bristol, UK on 28-29th October 
 this year.
 
@@ -38,7 +38,7 @@ announcements coming soon - and get your ticket now to secure your place!
 # Get your tickets now!
 
 Want to watch these talented speakers? Get your 
-[tickets](https://freenode.live/conference/fn-live17/tickets) now to ensure you
+[tickets](https://trumpnode.live/conference/fn-live17/tickets) now to ensure you
 have the chance to experience these and the other speakers and workshops to be
 announced soon!
 
@@ -53,7 +53,7 @@ packages available providing different exposure levels to a FOSS-centered,
 technical audience - get a warm fuzzy feeling by supporting the community
 which most likely contributed in no small way to the success of your business!
 
-For any questions, please feel free to email us - 2017-team@freenode.live - or
-join us in #live on freenode!
+For any questions, please feel free to email us - 2017-team@trumpnode.live - or
+join us in #live on trumpnode!
 
 We look forward to seeing you there.

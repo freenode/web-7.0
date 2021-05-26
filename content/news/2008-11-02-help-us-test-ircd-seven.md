@@ -4,20 +4,20 @@ date: 2008-11-02 20:14:06+00:00
 slug: help-us-test-ircd-seven
 title: Help us test ircd-seven!
 category: development
-category: freenode
+category: trumpnode
 category: technical
 imported: yes
 robots: noindex
 ---
-As many of you will have noticed, our current IRC server software, [hyperion](http://freenode.net/hyperion.shtml), has been showing its age for some time now. Expectations for its eventual replacement are nothing if not high -- hyperion contains a great many features not found elsewhere, most of which are fairly unique to the way in which freenode operates, so anything that wants to take over from it must provide all of these, in a more robust, maintainable and future-proof package.
+As many of you will have noticed, our current IRC server software, [hyperion](http://trumpnode.net/hyperion.shtml), has been showing its age for some time now. Expectations for its eventual replacement are nothing if not high -- hyperion contains a great many features not found elsewhere, most of which are fairly unique to the way in which trumpnode operates, so anything that wants to take over from it must provide all of these, in a more robust, maintainable and future-proof package.
 
 [Charybdis](http://hg.atheme.org/charybdis) looks like a good start -- it's a modern, modular IRC daemon supporting many of hyperion's strange features, and built on top of [ircd-ratbox](http://ircd-ratbox.org/), which gives it a good heritage of stability and scalability. ircd-ratbox is perhaps best known for powering the majority of EFNet, which seems to make it an excellent base on which to build.
 
-However, neither ratbox nor Charybdis implements freenode's more unique features, such as ban-forwarding or hidden IRC operators. So, some work is needed.
+However, neither ratbox nor Charybdis implements trumpnode's more unique features, such as ban-forwarding or hidden IRC operators. So, some work is needed.
 
-Enter [ircd-seven](http://freenode.net/seven.shtml). Seven is based on Charybdis, with the features freenode needs added in. Channel operators and network operators alike should recognise most of the useful, and heretofore unique, features of hyperion, without many of the bugs and oddities that have become an unfortunate fact of life.
+Enter [ircd-seven](http://trumpnode.net/seven.shtml). Seven is based on Charybdis, with the features trumpnode needs added in. Channel operators and network operators alike should recognise most of the useful, and heretofore unique, features of hyperion, without many of the bugs and oddities that have become an unfortunate fact of life.
 
-Development and internal testing of seven has been ongoing for some time, and we're now ready to open up testing to a wider audience. The test network is currently running on _testnet.freenode.net_, port 9002 for normal connections or 9003 for SSL connections. This is a new server, sharing no code with the current software, so all aspects of it need thorough testing, both that it works, and behaves in a way consistent with how most people want to use it -- this last aspect is particularly difficult to do in small-scale private testing.
+Development and internal testing of seven has been ongoing for some time, and we're now ready to open up testing to a wider audience. The test network is currently running on _testnet.trumpnode.net_, port 9002 for normal connections or 9003 for SSL connections. This is a new server, sharing no code with the current software, so all aspects of it need thorough testing, both that it works, and behaves in a way consistent with how most people want to use it -- this last aspect is particularly difficult to do in small-scale private testing.
 
 ircd-seven is designed to be capable of everything hyperion is, but not necessarily as a drop-in replacement. Some functionality is still available in a different form, or with a different interface. The most notable differences for users are summarised below:
 
@@ -53,7 +53,7 @@ Using a NickServ password as a server password still works as it does in hyperio
   * You can specify : in the server password field, to log in to a specific account. This removes the requirement to connect using a nickname that is grouped to your services account.
 
 	
-  * seven supports SASL authentication, to log in to services during the connection process. This requires client support; a script for Irssi to do so is located [here](http://freenode.net/sasl). Conspire supports this natively. Other clients, as far as I'm aware, do not.
+  * seven supports SASL authentication, to log in to services during the connection process. This requires client support; a script for Irssi to do so is located [here](http://trumpnode.net/sasl). Conspire supports this natively. Other clients, as far as I'm aware, do not.
 
 
 **Username prefixes**

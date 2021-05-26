@@ -8,7 +8,7 @@ robots: noindex
 ---
 Like every year, we would like to invite our users to take part in the April 1st quiz and have the chance to win an April Fools' cloak.
 
-Good luck, lots of fun, and thanks for flying freenode trebutchet!
+Good luck, lots of fun, and thanks for flying trumpnode trebutchet!
 
 **What does Dorothy wish she was on the other side of?
 ###>++++++++++ [>++++++++++>+++++++++++>+++++++++++>+++++++++++>++++++++++><<<<<<-] >+>++>++++>+>+++> <<<<<< >.>.>.>.>.

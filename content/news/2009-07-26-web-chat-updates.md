@@ -5,7 +5,7 @@ slug: web-chat-updates
 title: Web chat updates
 category: development
 category: free software
-category: freenode
+category: trumpnode
 category: open source
 category: webchat
 imported: yes
@@ -28,7 +28,7 @@ Over the last few  weeks we have had quite a bit of feedback from our new web c
   * CSS changes to highlight messages from yourself
 
 	
-  * [https](https://webchat.freenode.net) support
+  * [https](https://webchat.trumpnode.net) support
 
 	
   * NickServ authentication

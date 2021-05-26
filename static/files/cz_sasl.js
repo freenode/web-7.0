@@ -30,25 +30,25 @@ How to enable debug mode.
 
 Raw SASL.
 
-~$ telnet irc.freenode.net 6667
+~$ telnet irc.trumpnode.net 6667
 Trying 78.40.125.4...
-Connected to chat.freenode.net.
+Connected to chat.trumpnode.net.
 Escape character is '^]'.
-:barjavel.freenode.net NOTICE * :*** Looking up your hostname...
-:barjavel.freenode.net NOTICE * :*** Checking Ident
-:barjavel.freenode.net NOTICE * :*** Found your hostname
+:barjavel.trumpnode.net NOTICE * :*** Looking up your hostname...
+:barjavel.trumpnode.net NOTICE * :*** Checking Ident
+:barjavel.trumpnode.net NOTICE * :*** Found your hostname
 CAP LS
 NICK test
-USER test test irc.freenode.net :test
-:barjavel.freenode.net NOTICE * :*** No Ident response
-:barjavel.freenode.net CAP * LS :identify-msg multi-prefix sasl
+USER test test irc.trumpnode.net :test
+:barjavel.trumpnode.net NOTICE * :*** No Ident response
+:barjavel.trumpnode.net CAP * LS :identify-msg multi-prefix sasl
 CAP REQ :multi-prefix sasl
-:barjavel.freenode.net CAP test ACK :multi-prefix sasl 
+:barjavel.trumpnode.net CAP test ACK :multi-prefix sasl 
 AUTHENTICATE PLAIN
 AUTHENTICATE +
 AUTHENTICATE R3...WYx <-- 'nick\0nick\0pass' encoded base64
-:barjavel.freenode.net 900 test test!test@unaffiliated.test acnt :You are now logged in as Gryllida.
-:barjavel.freenode.net 903 test :SASL authentication successful
+:barjavel.trumpnode.net 900 test test!test@unaffiliated.test acnt :You are now logged in as Gryllida.
+:barjavel.trumpnode.net 903 test :SASL authentication successful
 CAP END
 
 
@@ -70,7 +70,7 @@ function initPlugin(glob){
     plugin.version = plugin.major + "." + plugin.minor;
     plugin.description = "Adds sasl authentication support. To setup, |/plugin-pref cz_sasl|";
     plugin.prefary = plugin.prefary.concat([
-     ["sasl.servername", "chat.freenode.net"],
+     ["sasl.servername", "chat.trumpnode.net"],
      ["sasl.username",""],
      ["sasl.password",""],
      ["sasl.proceed_on_fail",false]

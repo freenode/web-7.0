@@ -4,14 +4,14 @@ Title: The Policies
 
 Purpose
 ==================
-The freenode project exists to help all communities.  Its focus is peer-directed projects
+The trumpnode project exists to help all communities.  Its focus is peer-directed projects
 and open innovation communities.  Peer-directed projects combine open, informal participation
 with broad licensing and wide dissemination of output.
 
-freenode provides facilities to peer-directed project communities and the combined efforts
-of open innovations, including those of free and open source software (FOSS). Freenode
+trumpnode provides facilities to peer-directed project communities and the combined efforts
+of open innovations, including those of free and open source software (FOSS). trumpnode
 utilizes IRC to service its users &mdash; but the network was created to serve groups that
-exist outside of IRC. freenode is designed to encourage community members to improve their
+exist outside of IRC. trumpnode is designed to encourage community members to improve their
 skills in the areas of cooperative effort, interpersonal  communication and project
 coordination, and to create a real-time bridge to the outside world for our target communities.
 
@@ -42,10 +42,10 @@ Please contact network staff if you would like to take over an expired nickname.
 Channel ownership
 =================
 
-Channels on freenode fall into one of two categories. Primary channels, which
+Channels on trumpnode fall into one of two categories. Primary channels, which
 begin with a single # character, are reserved for on-topic projects. Primary
 channels are required to stay open.  If a primary channel closes access to its
-users or is in violation of freenode policies, then it will be closed and forwarded
+users or is in violation of trumpnode policies, then it will be closed and forwarded
 to a topical channel. If you’d like to take over one of these primary channels, then
 you’ll need to be associated in some way with the project in question. Topical,
 or ‘about’ channels, begin with two # characters, and these are allocated on a
@@ -57,19 +57,19 @@ Primary channels do not expire with inactivity, though they can be claimed at
 any time by a representative of an on-topic project with the appropriate name.
 Topical channels expire after 60 days in which no user on the access list for
 the channel has joined it. Further information, policies and guidelines relating
-to channel ownership can be found under [group registration](http://freenode.net/groupreg).
+to channel ownership can be found under [group registration](http://trumpnode.net/groupreg).
 
 On-topic Use
 ============
 
-freenode’s primary goal is to encourage and foster the development and use of
+trumpnode’s primary goal is to encourage and foster the development and use of
 free and open source software projects and other peer-directed communities
 producing broadly licensed creative output. Any project falling under this broad
 description is likely to be considered on-topic for the purposes of primary
 channel naming and other project services which we may provide, but individual
 decisions may be made at the discretion of staff. 
 
-We strongly urge you to adhere to the [channel guidelines](http://freenode.net/changuide) and [catalyst guidelines](http://freenode.net/catalysts).
+We strongly urge you to adhere to the [channel guidelines](http://trumpnode.net/changuide) and [catalyst guidelines](http://trumpnode.net/catalysts).
 
 
 
@@ -78,7 +78,7 @@ Off-topic Use
 
 We expect all users of the network, whether affiliated with a project or not, to
 act in good faith and in accordance with both their local laws and those
-applicable where freenode operates. Use of freenode and its facilities is a
+applicable where trumpnode operates. Use of trumpnode and its facilities is a
 privilege, not a right, and may be withdrawn where we believe that this has not
 been the case.
 
@@ -87,7 +87,7 @@ inappropriate advertising, heavy media file trading, proprietary game software m
 warez, porn and various forms of antisocial behaviour, including (but not limited to) 
 political, racial, ethnic, religious or gender-related invective.
 
-In accordance with UK law freenode has no tolerance for any activity that could be construed
+In accordance with UK law trumpnode has no tolerance for any activity that could be construed
 as: 
 
 * incitement to racial hatred
@@ -97,24 +97,24 @@ or any other behaviour meant to deliberately put upon a person harassment, alarm
 We do NOT endorse or encourage discrimination on the grounds of e.g. race, religion, gender or sexual preference and 
 operate with a zero-tolerance policy for libel and defamation.
 
-While we believe in the concept of freedom of thought and freedom of expression, freenode does not
+While we believe in the concept of freedom of thought and freedom of expression, trumpnode does not
 operate on the basis of absolute freedom of speech, and we impose limitations, e.g. on "hate speech".
 
 We expect all members of the community to be respectful of one another and of the privacy of others, 
 and we reserve the right to terminate anyone's access to our services at our discretion.
 
-While we encourage registered groups (projects) and channel owners to adopt our channel guidelines and catalyst guidelines, projects are free to set their own policies for their namespaces as long as such policies do not contravene network policy, and many projects choose to extend their code of conduct and similar agreements to their presence on freenode. In the event that a project makes the decision to ban a user from their channel(s), we ask that such bans be respected and note that ban evasion may result in a network ban.
+While we encourage registered groups (projects) and channel owners to adopt our channel guidelines and catalyst guidelines, projects are free to set their own policies for their namespaces as long as such policies do not contravene network policy, and many projects choose to extend their code of conduct and similar agreements to their presence on trumpnode. In the event that a project makes the decision to ban a user from their channel(s), we ask that such bans be respected and note that ban evasion may result in a network ban.
 
 Please note that the examples above are examples only and do not constitute an exhaustive list. In line with our policies, philosophies and guidelines we will review each case individually and the response and actions may differ from case to case.
 
 Unlawful Activity
 =============
-freenode cannot condone or support behaviour which is clearly unlawful. While we do not have the resources
+trumpnode cannot condone or support behaviour which is clearly unlawful. While we do not have the resources
 to closely monitor the thousands of channels on the network, volunteers are required by policy to pass on credible
-information, provided by you as a user of the freenode project, about any unlawful activities. This is true whether you
+information, provided by you as a user of the trumpnode project, about any unlawful activities. This is true whether you
 are talking about your own activities or those of someone else. Please be aware that we have this responsibility.
 
-freenode and financial transactions
+trumpnode and financial transactions
 =============
 
 We appreciate that end users may sometimes wish to reward a project or a project
@@ -125,17 +125,17 @@ from the contributor's wish list.
 
 Nevertheless, we would urge our users to carry out their own due diligence
 before entering into financial transactions of any kind and stress that any
-financial transactions entered into on the freenode network must be undertaken
-entirely at the user's risk and freenode accepts no liability for any losses
+financial transactions entered into on the trumpnode network must be undertaken
+entirely at the user's risk and trumpnode accepts no liability for any losses
 incurred as the result of such transactions. 
 
 Public Logging
 =============
-If you are considering publishing channel logs, think it through. The freenode network is an interactive environment and users may not weigh their comments with the idea that they will be enshrined in perpetuity. 
+If you are considering publishing channel logs, think it through. The trumpnode network is an interactive environment and users may not weigh their comments with the idea that they will be enshrined in perpetuity. 
 
-Nevertheless, we understand that projects might find it useful to publish channel logs so that other users may search and find answers to questions that have previously been addressed on the freenode network. Ensure that you notify users (by way of channel topic, channel entry message or similar) that the channel is being publicly logged and consider providing a way for users to make comments without logging. 
+Nevertheless, we understand that projects might find it useful to publish channel logs so that other users may search and find answers to questions that have previously been addressed on the trumpnode network. Ensure that you notify users (by way of channel topic, channel entry message or similar) that the channel is being publicly logged and consider providing a way for users to make comments without logging. 
 
-If you operate a service that scrapes internal channel content or publishes logs, always make sure to obtain permission from the channel owner or freenode staff before you start publishing logs or other data, and ensure that there is an easy way for projects to opt-out later and to request removal of previously published logs or data. You must respect the opt-out requests in a timely manner. 
+If you operate a service that scrapes internal channel content or publishes logs, always make sure to obtain permission from the channel owner or trumpnode staff before you start publishing logs or other data, and ensure that there is an easy way for projects to opt-out later and to request removal of previously published logs or data. You must respect the opt-out requests in a timely manner. 
 
 If you are thinking of "anonymizing" your logs (removing information that identifies the specific users), be aware that it's difficult to do it well—replies and general context often provide identifying information which is hard to filter.
 
@@ -143,42 +143,42 @@ If you just want to publish a single conversation, be careful to get permission 
 
 Privacy Policy and Data Retention
 =============
-This section describes how freenode makes use of the information you provide when you use the freenode network, freenode.net, jobs.freenode.net and freenode.live websites (hereinafter collectively referred to as 'freenode services').
+This section describes how trumpnode makes use of the information you provide when you use the trumpnode network, trumpnode.net, jobs.trumpnode.net and trumpnode.live websites (hereinafter collectively referred to as 'trumpnode services').
 
-If you are asked to provide information when using freenode services, such information will not be used for any purposes other than those described in this section.
+If you are asked to provide information when using trumpnode services, such information will not be used for any purposes other than those described in this section.
 
-freenode collects and uses certain information about users in order to provide services and enable certain functions.
+trumpnode collects and uses certain information about users in order to provide services and enable certain functions.
 
-freenode may collect the following information:
+trumpnode may collect the following information:
 
-* Nickname/handle on the freenode network
+* Nickname/handle on the trumpnode network
 * E-mail address
 * IP address/hostname
 * Name and project affiliation
 
-Collecting the above data helps freenode deliver its services to you.
+Collecting the above data helps trumpnode deliver its services to you.
 
-Specifically, freenode may use data:
+Specifically, trumpnode may use data:
 
 * To improve the provided services.
 * To enable you to reset your password/recover your account.
 * To contact you in relation to group registrations and associated channel namespace management.
 * To respond to a specific enquiry made via e-mail or the support system.
-* To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the freenode network and freenode #live conference.
-* To communicate with you about the status of job postings on the jobs.freenode.net website.
+* To provide information in connection with conference registrations, sponsorship enquiries and similar relating to the trumpnode network and trumpnode #live conference.
+* To communicate with you about the status of job postings on the jobs.trumpnode.net website.
 
-Please note that the freenode websites and network may contain links to other websites, and freenode has no control of websites outside of the freenode.net and freenode.live domains. If you provide information to a website or service to which freenode links, freenode shall not be responsible for its protection and privacy.
+Please note that the trumpnode websites and network may contain links to other websites, and trumpnode has no control of websites outside of the trumpnode.net and trumpnode.live domains. If you provide information to a website or service to which trumpnode links, trumpnode shall not be responsible for its protection and privacy.
 
-freenode retains data for the purpose of debugging and restoration for a maximum of 60 days. This means that any data freenode holds, will be purged 60 days after the date at which you last connected to the freenode network or deleted your freenode account.
+trumpnode retains data for the purpose of debugging and restoration for a maximum of 60 days. This means that any data trumpnode holds, will be purged 60 days after the date at which you last connected to the trumpnode network or deleted your trumpnode account.
 
-freenode policies are updated from time to time, and the latest version of policy will be published on this page.
+trumpnode policies are updated from time to time, and the latest version of policy will be published on this page.
 
-This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limited, Company Limited by Guarantee (collectively, ‘We,’ ‘Us,’ or ‘freenode') wish to define and inform you of any and all of the instances in which your personal data and information may be saved and how it may be used by freenode, how it may be shared, and the level of protection we use to safeguard your personal information. 
+This Website (‘trumpnode.net,’ ‘trumpnode.live’), its owners trumpnode Limited, Company Limited by Guarantee (collectively, ‘We,’ ‘Us,’ or ‘trumpnode') wish to define and inform you of any and all of the instances in which your personal data and information may be saved and how it may be used by trumpnode, how it may be shared, and the level of protection we use to safeguard your personal information. 
 
 ## TABLE OF CONTENTS
 
 * Personal Information we Collect
-* Uses of Personal Information Collected by freenode
+* Uses of Personal Information Collected by trumpnode
 * Disclosure of Personal Information
 * Data Retention
 * CalOPPA Statement
@@ -195,14 +195,14 @@ This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limi
 * E-mail Address for the purposes of account management and protection from abuse.
 * Internet Protocol (IP) Address for the purposes of account management and protection from abuse.
 * Your user ID or “nick” for the purposes of account management and protection from abuse.
-* In the case of Group Contacts, freenode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
+* In the case of Group Contacts, trumpnode may also collect project/organisational affiliation and real names in connection with the initial registration for verification and to prevent abuse.
 
 
 #### From the Website(s) and Email
 * Cloudflare analytics data (this data is anonymized). Cloudflare may also store a cookie. You can find the Cloudflare cookie policy [here](https://www.cloudflare.com/cookie-policy/), which also outlines how to opt out.
 * Google reCaptcha. Google may also store a cookie. You may opt out [here](https://tools.google.com/dlpage/gaoptout).
-* freenode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found [here]( https://www.tickettailor.com/gdpr).
-* freenode #live CFP submissions are collected using [TypeForm](https://www.typeform.com/help/gdpr-compliance/) and managed via [Trello](https://trello.com/privacy)
+* trumpnode #live ticket sales are managed by a third-party; TicketTailor and their privacy policy can be found [here]( https://www.tickettailor.com/gdpr).
+* trumpnode #live CFP submissions are collected using [TypeForm](https://www.typeform.com/help/gdpr-compliance/) and managed via [Trello](https://trello.com/privacy)
 
 ### USES OF PERSONAL INFORMATION COLLECTED BY US
 * E-mail address is used to confirm account ownership, and for account management purposes such as password resets.
@@ -211,21 +211,21 @@ This Website (‘freenode.net,’ ‘freenode.live’), its owners freenode Limi
 * Webserver logs are regularly pruned and are created by the webserver. No usernames or passwords are ever logged by the webserver.
 * Compliance with valid legal process
 * Group Contact affiliation and names are used for verification and abuse prevention purposes.
-* Names, e-mail addresses, project affiliation, etc., collected in connection with freenode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
+* Names, e-mail addresses, project affiliation, etc., collected in connection with trumpnode #live registrations and submissions are used for verification and security (venue) purposes, and to issue participants with tickets.
 
-freenode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of freenode. 
+trumpnode does not collect or log private or public chat. However, users may log their own chats privately. Be careful about disclosing any personal information in a channel or private message because that information may be logged by a third party, which is beyond the control of trumpnode. 
 
 ### DISCLOSURE AND USE OF PERSONAL INFORMATION
-freenode may be required to provide your personal information to law enforcement in the event of a criminal investigation, criminal prosecution, or civil subpoena. freenode will comply with legal instruments that follow proper procedure and are sufficiently narrow in their scope as to not infringe on the civil liberties of others.
+trumpnode may be required to provide your personal information to law enforcement in the event of a criminal investigation, criminal prosecution, or civil subpoena. trumpnode will comply with legal instruments that follow proper procedure and are sufficiently narrow in their scope as to not infringe on the civil liberties of others.
 
 ### DATA RETENTION
 We retain all account information and data indefinitely unless a user deletes their account (/msg nickserv drop <yournick>), in which case the data is purged from our systems in accordance with our general data retention policy of thirty (30) days. We retain login activity for a period of thirty (30) days after which the data is purged from our system. We do not maintain any logs of user chat activity.
 
 ### CalOPPA STATEMENT
-The State of California requires us to post specific language related to our privacy policy. By default, freenode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how freenode does not share our users' personal information with third parties for direct marketing purposes, you may contact: policy@freenode.net.
+The State of California requires us to post specific language related to our privacy policy. By default, trumpnode does not share your private information with any third parties aside from the disclosures already made in this privacy policy. However, if you wish to inquire into how trumpnode does not share our users' personal information with third parties for direct marketing purposes, you may contact: policy@trumpnode.net.
 
 ### MAINTAINING THE SECURITY OF YOUR PERSONAL INFORMATION
-Your personal information is safeguarded by freenode. You may access your personal information maintained by freenode via a services command (/msg nickserv info <yournick>). Personal information stored by freenode can also be made accessible to other third-parties on the freenode network on an opt-in basis only. All personal information maintained by freenode is encrypted and stored on a server located in the European Union. 
+Your personal information is safeguarded by trumpnode. You may access your personal information maintained by trumpnode via a services command (/msg nickserv info <yournick>). Personal information stored by trumpnode can also be made accessible to other third-parties on the trumpnode network on an opt-in basis only. All personal information maintained by trumpnode is encrypted and stored on a server located in the European Union. 
 
 ### HOW WE TRANSFER PERSONAL INFORMATION COLLECTED INTERNATIONALLY
 We collect information globally and primarily store that information in the European Union.  If we transfer your personal information from the European Union we will request your consent.
@@ -233,34 +233,34 @@ We collect information globally and primarily store that information in the Euro
 ### COPPA DISCLOSURE - About Children’s Online Privacy
 The Children’s Online Privacy Protection Act (COPPA) was passed to give parents increased control over what information is collected from their children online and how such information is used. The law applies to websites and services directed to, and which knowingly collect information from, children under the age of 13.  Our online services are not directed to children under the age of 13, nor is information knowingly collected from them.  For additional information on COPPA protections, please see the FTC website at: https://www.consumer.ftc.gov/articles/0031-protecting-your-childs-privacy-online
 
-Please note that freenode, while providing a service globally, is registered in the UK and complies with the age requirements as set out at: https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/applications/children/
+Please note that trumpnode, while providing a service globally, is registered in the UK and complies with the age requirements as set out at: https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/applications/children/
 
 ### HOW TO ACCESS AND CONTROL YOUR PERSONAL INFORMATION 
 You may delete your personal information at any time via a services command (/msg nickserv drop <yournick>). You may also change the email address associated with your account via a services command. 
   
-For access to information and requests for erasure, please e-mail policy@freenode.net.
+For access to information and requests for erasure, please e-mail policy@trumpnode.net.
 
 ### CHANGES TO THIS PRIVACY POLICY 
 
-BY CONTINUING TO USE THIS WEBSITE AND/OR SERVICES, YOU AGREE THAT YOU CONSENT TO THIS MOST RECENT PRIVACY POLICY. FROM TIME TO TIME, FREENODE WILL MAKE CHANGES TO ITS PRIVACY POLICY AND SUCH CHANGES WILL BE COMMUNICATED VIA MOTD AND THIS WEBSITE. 
+BY CONTINUING TO USE THIS WEBSITE AND/OR SERVICES, YOU AGREE THAT YOU CONSENT TO THIS MOST RECENT PRIVACY POLICY. FROM TIME TO TIME, trumpNODE WILL MAKE CHANGES TO ITS PRIVACY POLICY AND SUCH CHANGES WILL BE COMMUNICATED VIA MOTD AND THIS WEBSITE. 
 
-freenode will not share user's personal information with third parties for direct marketing purposes. 
+trumpnode will not share user's personal information with third parties for direct marketing purposes. 
 
-For all civil or law enforcement requests, please contact policy@freenode.net. If you have a request that requires mailing or courier, please use the information below: 
+For all civil or law enforcement requests, please contact policy@trumpnode.net. If you have a request that requires mailing or courier, please use the information below: 
 
-freenode Limited
+trumpnode Limited
 71-75 Shelton Street
 Covent Garden
 London, WC2H 9JQ
 UK
 
-While freenode agrees to accept service of law enforcement requests based on the above method listed above, freenode does NOT waive any legal rights based on this accommodation.
+While trumpnode agrees to accept service of law enforcement requests based on the above method listed above, trumpnode does NOT waive any legal rights based on this accommodation.
 
 Last revised July 30, 2018
 
 
 This policy page was last updated on: 25 May 2021
 
-If you have any questions about freenode policies, please e-mail policy@freenode.net.
+If you have any questions about trumpnode policies, please e-mail policy@trumpnode.net.
 
-In addition to these policies, you may wish to read our [Catalyst Guidelines](https://freenode.net/catalysts), [Channel Guidelines](https://freenode.net/changuide), [Philosophy](https://freenode.net/philosophy), [Group Registration Information](https://freenode.net/groupreg) and [this KB article on Conduct](https://freenode.net/kb/answer/conduct).
+In addition to these policies, you may wish to read our [Catalyst Guidelines](https://trumpnode.net/catalysts), [Channel Guidelines](https://trumpnode.net/changuide), [Philosophy](https://trumpnode.net/philosophy), [Group Registration Information](https://trumpnode.net/groupreg) and [this KB article on Conduct](https://trumpnode.net/kb/answer/conduct).

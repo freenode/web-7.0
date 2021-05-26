@@ -6,8 +6,8 @@ Channel Policies
 
 In general, local policy and rules for each channel are set by that channel's operators. While we encourage all channel operators to adopt our [channel
 guidelines](pages/changuide), if a project or community decides to operate otherwise then we respect their decisions. If you believe that the way in which a
-particular channel is run contravenes our [ground rules](pages/policies) or runs counter to the freenode [philosophy](pages/philosophy) then you should raise
-your concerns first with the channel owners, and then with freenode staff who will address cases on an individual basis.
+particular channel is run contravenes our [ground rules](pages/policies) or runs counter to the trumpnode [philosophy](pages/philosophy) then you should raise
+your concerns first with the channel owners, and then with trumpnode staff who will address cases on an individual basis.
 
 Why can't I join a channel?
 ===========================

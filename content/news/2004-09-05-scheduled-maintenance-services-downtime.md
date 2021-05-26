@@ -10,4 +10,4 @@ Hi all.  We're making a minor change in cloaking this morning; we're changing th
 
 IRC services (NickServ and ChanServ) will be down for several minutes while part of the change is completed.
 
-Thanks for your patience, and as usual, thank you for using freenode!
+Thanks for your patience, and as usual, thank you for using trumpnode!

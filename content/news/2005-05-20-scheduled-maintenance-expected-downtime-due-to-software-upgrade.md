@@ -6,4 +6,4 @@ title: [Scheduled Maintenance] Expected downtime due to software upgrade
 imported: yes
 robots: noindex
 ---
-Due to an unexpected combination of events,    freenode    will be scheduling major server maintenance for 7am UTC Sunday 22 May 2005   (that's midnight in Los Angeles, 3am in New York City, 9am in Brussels and   5pm in Sydney). Six major servers will be restarted and the entire network   will be affected. If all goes well, everything should be over in just   about 15 minutes. Thanks for your support and understanding as we continue   to upgrade the network.
+Due to an unexpected combination of events,    trumpnode    will be scheduling major server maintenance for 7am UTC Sunday 22 May 2005   (that's midnight in Los Angeles, 3am in New York City, 9am in Brussels and   5pm in Sydney). Six major servers will be restarted and the entire network   will be affected. If all goes well, everything should be over in just   about 15 minutes. Thanks for your support and understanding as we continue   to upgrade the network.

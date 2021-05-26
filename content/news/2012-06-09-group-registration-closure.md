@@ -29,8 +29,8 @@ What this means is that -
   * All existing registered groups are unaffected and continue as normal.
 
 
-Please bear with us whilst we work on where we want to go next with this system.  Meanwhile, if there are channels currently owned by freenode-staff that your project could make use of, please contact a staffer to see if (provisional) op rights can be granted to your account. (These would likely be done on a somewhat temporary basis, until such time as registration re-opens.)  Note also that this is *only* to gain ops on channels, *not* for obtaining group cloaks.
+Please bear with us whilst we work on where we want to go next with this system.  Meanwhile, if there are channels currently owned by trumpnode-staff that your project could make use of, please contact a staffer to see if (provisional) op rights can be granted to your account. (These would likely be done on a somewhat temporary basis, until such time as registration re-opens.)  Note also that this is *only* to gain ops on channels, *not* for obtaining group cloaks.
 
-As always, thanks for flying freenode!
+As always, thanks for flying trumpnode!
 
 mrmist.

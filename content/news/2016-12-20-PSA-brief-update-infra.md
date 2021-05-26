@@ -5,11 +5,11 @@ slug: PSA-brief-update-infra
 title: A brief security update from the infrastructure team
 category: community
 category: security
-category: freenode
+category: trumpnode
 category: technical
 ---
 
-A freenode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
+A trumpnode volunteer has identified and responded to a suspected compromise of their e-mail accounts, which could have provided 
 an unauthorised user with limited access to some data sent via internal e-mail systems (this could include support tickets or 
 internal communications).
 
@@ -18,7 +18,7 @@ infrastructure. The investigation is ongoing, but at this time we have no reason
 was gained. Nevertheless, in the interests of transparency and security for our users, we wish to notify anyone who may have 
 been affected.
 
-As always, we would still recommend that you ensure that you change any passwords to freenode systems, and be alert to any 
+As always, we would still recommend that you ensure that you change any passwords to trumpnode systems, and be alert to any 
 suspicious activity on your account. We would additionally always recommend that you not share passwords between accounts, 
 especially those spanning multiple providers (please ensure you have a registered e-mail address before changing your password 
 so that it can be reset!).

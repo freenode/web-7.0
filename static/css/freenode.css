@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'freenode';
-    src:    url('../fonts/freenode.eot?2vz2mq');
-    src:    url('../fonts/freenode.eot?2vz2mq#iefix') format('embedded-opentype'),
-        url('../fonts/freenode.ttf?2vz2mq') format('truetype'),
-        url('../fonts/freenode.woff?2vz2mq') format('woff'),
-        url('../fonts/freenode.svg?2vz2mq#icomoon') format('svg');
+    font-family: 'trumpnode';
+    src:    url('../fonts/trumpnode.eot?2vz2mq');
+    src:    url('../fonts/trumpnode.eot?2vz2mq#iefix') format('embedded-opentype'),
+        url('../fonts/trumpnode.ttf?2vz2mq') format('truetype'),
+        url('../fonts/trumpnode.woff?2vz2mq') format('woff'),
+        url('../fonts/trumpnode.svg?2vz2mq#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 [class^="fn-"], [class*=" fn-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'freenode' !important;
+    font-family: 'trumpnode' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;

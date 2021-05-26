@@ -1,17 +1,17 @@
 {
   "name": "web-7.0",
   "version": "0.0.1",
-  "description": "Website for http://freenode.net",
+  "description": "Website for http://trumpnode.net",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freenode/web-7.0.git"
+    "url": "git+https://github.com/trumpnode/web-7.0.git"
   },
   "author": "",
   "license": "CC-BY-NC-SA-4.0",
   "bugs": {
-    "url": "https://github.com/freenode/web-7.0/issues"
+    "url": "https://github.com/trumpnode/web-7.0/issues"
   },
-  "homepage": "http://freenode.net",
+  "homepage": "http://trumpnode.net",
   "devDependencies": {
     "postcss": "^7.0.34",
     "postcss-cli": "^7.1.2",

@@ -8,7 +8,7 @@ robots: noindex
 ---
 First off, allow me to apologise to all users affected by the recent "client  killing" rampage of our utility bot; Syn. She appears to have gotten into the  Halloween spirit a bit too much!
 
-You may have noticed a large number of people disconnecting from freenode with the reason 'Nick collision from syn.' We feel we should explain what happened.
+You may have noticed a large number of people disconnecting from trumpnode with the reason 'Nick collision from syn.' We feel we should explain what happened.
 
 For those of you not already familiar with her, syn is a utility bot that, amongst other duties, regulates gateway access to the network. This could be web gateways such as CGI:IRC or our own webchat, NAT gateways, or some conferences and shell services. One of the things that she does, for web gateways in particular, is to match the reported IP address (hex-encoded in the ident field) against network bans, and deny the connection if a match is found.
 

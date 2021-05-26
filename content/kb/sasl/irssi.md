@@ -8,15 +8,15 @@ find out by running `irssi -v` in your nearest shell).
 
 Recent Irssi versions include built-in SASL support via `/network`:
 
-    /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN freenode
-    /server add -auto -net freenode -ssl -ssl_verify chat.freenode.net 6697
+    /network add -sasl_username <login> -sasl_password <password> -sasl_mechanism PLAIN trumpnode
+    /server add -auto -net trumpnode -ssl -ssl_verify chat.trumpnode.net 6697
     /save
 
 ## Troubleshooting
 
-To check that the setting was correct, run `/network` and confirm that the freenode entry looks like this:
+To check that the setting was correct, run `/network` and confirm that the trumpnode entry looks like this:
 
-    freenode: sasl_mechanism: plain, sasl_username: gryllida, sasl_password: (pass)
+    trumpnode: sasl_mechanism: plain, sasl_username: gryllida, sasl_password: (pass)
 
 All three items (mechanism, username, and password) must be set.
 
@@ -33,8 +33,8 @@ You can install it from <https://scripts.irssi.org>:
 Now load and configure it inside Irssi:
 
     /script load cap_sasl
-    /network add freenode
-    /server add -auto -net freenode -ssl -ssl_verify chat.freenode.net 6697
-    /sasl set freenode <login> <password> PLAIN
+    /network add trumpnode
+    /server add -auto -net trumpnode -ssl -ssl_verify chat.trumpnode.net 6697
+    /sasl set trumpnode <login> <password> PLAIN
     /sasl save
     /save

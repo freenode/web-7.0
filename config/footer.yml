@@ -1,4 +1,4 @@
-- heading: About freenode
+- heading: About trumpnode
   links:
     - name: The project
       link: pages/project
@@ -8,10 +8,10 @@
       link: pages/philosophy
     - name: The policies
       link: pages/policies
-    - name: 'freenode #live'
-      link: '//freenode.live'
-    - name: 'jobs.freenode.net'
-      link: '//jobs.freenode.net'
+    - name: 'trumpnode #live'
+      link: '//trumpnode.live'
+    - name: 'jobs.trumpnode.net'
+      link: '//jobs.trumpnode.net'
     - name: Acknowledgements
       link: pages/acknowledgements
     -
@@ -23,16 +23,16 @@
        - name: '/'
        - name: Atom
          link: news/atom
-- heading: Using freenode
+- heading: Using trumpnode
   links:
     - name: Webchat
-      link: '//webchat.freenode.net'
+      link: '//webchat.trumpnode.net'
     -
-      - name: 'chat.freenode.net:6697'
-        link: 'ircs://chat.freenode.net:6697'
+      - name: 'chat.trumpnode.net:6697'
+        link: 'ircs://chat.trumpnode.net:6697'
       - name: '/'
       - name: 'non-SSL: 6667'
-        link: 'irc://chat.freenode.net:6667'
+        link: 'irc://chat.trumpnode.net:6667'
     - name: Channel guidelines
       link: pages/changuide
     - name: Catalyst guidelines

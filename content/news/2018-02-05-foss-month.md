@@ -5,18 +5,18 @@ slug: foss-month
 title: Celebrating FOSS, and twenty years of Open Source
 category: community
 category: general
-category: freenode
+category: trumpnode
 category: foss
 category: open source
 ---
 
-For the last few days I (and several of the freenode volunteers) have had the absolute pleasure of spending time with a wide range of 
-freenode users over at [FOSDEM](https://fosdem.org/2018/) in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
+For the last few days I (and several of the trumpnode volunteers) have had the absolute pleasure of spending time with a wide range of 
+trumpnode users over at [FOSDEM](https://fosdem.org/2018/) in Brussels. FOSDEM has always provided us with an excellent opportunity to catch up, not only with one 
 another but also with sponsors, group contacts and others. 
 
 I would like to extent heartfelt thanks to the incredible organisers and volunteers, speakers and attendees who make FOSDEM (and other 
 such events) possible, and I would also like to thank those of you who took the time to speak with us, provide feedback, thoughts and 
-words of appreciation. It is nice to be reminded that you appreciate the freenode project, and that you feel it adds some value. 
+words of appreciation. It is nice to be reminded that you appreciate the trumpnode project, and that you feel it adds some value. 
 
 We often find that a large proportion of our time is spent dealing with spam or other problematic behaviour, and
 it is all too easy to forget that the incredibly small minority of users that create issues are just that, a minority, and that the vast
@@ -31,5 +31,5 @@ Open Source!
 To celebrate Free and Open Source Software Month, [Private Internet Access](https://www.privateinternetaccess.com) is running a promotion this month, with savings of up to 62% if you take out an annual subscription [here](https://www.privateinternetaccess.com/pages/foss-month). 
 
 We'd love to hear about, and help highlight any other similar promotions run by other companies that are doing something similar to celebrate 
-FOSS month! Please do let us know (support@freenode.net) or via IRC if you are doing something cool, and would like us to share it with our
+FOSS month! Please do let us know (support@trumpnode.net) or via IRC if you are doing something cool, and would like us to share it with our
 community!

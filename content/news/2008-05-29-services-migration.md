@@ -3,13 +3,13 @@ author: Martinp23
 date: 2008-05-29 15:06:27+00:00
 slug: services-migration
 title: Services Migration
-category: freenode
+category: trumpnode
 category: projects
 category: technical
 imported: yes
 robots: noindex
 ---
-The time has come for freenode to migrate from our old, legacy services 		package to a much newer, actively maintained package known as 		[Atheme](http://www.atheme.net/), developed by the  		[Atheme Project](http://www.atheme.org/).  Although we,  		with the help of the Atheme developers, have tried to make the 		migration process as painless as possible, there are still a 		few interface differences that you will need to be aware of. 		This guide, prepared by tomaw, will attempt to walk you through the main changes, grouped by service.
+The time has come for trumpnode to migrate from our old, legacy services 		package to a much newer, actively maintained package known as 		[Atheme](http://www.atheme.net/), developed by the  		[Atheme Project](http://www.atheme.org/).  Although we,  		with the help of the Atheme developers, have tried to make the 		migration process as painless as possible, there are still a 		few interface differences that you will need to be aware of. 		This guide, prepared by tomaw, will attempt to walk you through the main changes, grouped by service.
 
 
 ## NickServ
@@ -143,7 +143,7 @@ Note that viewing FLAGS 			requires you to have flag +A on the channel in 			que
   * ALIS provides a more useful channel list facility than what 		was previously available.  It will list matching channels, but 		will filter out channels that are not currently in use.  Its 		use is similar to the functionality that was previously built 		into ChanServ:
 
     
-    /msg ALIS LIST #freenode-*
+    /msg ALIS LIST #trumpnode-*
 
 
 
@@ -170,4 +170,4 @@ Note that viewing FLAGS 			requires you to have flag +A on the channel in 			que
 
 
 
-Hopefully that covers most of the differences that you will 		come across during day to day life on freenode.  Of course, if 		you have any questions, suggestions or comments, please feel 		free to drop by [#freenode](irc://irc.freenode.net/freenode), email support (at) freenode (dot) net  		or message a member of staff.
+Hopefully that covers most of the differences that you will 		come across during day to day life on trumpnode.  Of course, if 		you have any questions, suggestions or comments, please feel 		free to drop by [#trumpnode](irc://irc.trumpnode.net/trumpnode), email support (at) trumpnode (dot) net  		or message a member of staff.

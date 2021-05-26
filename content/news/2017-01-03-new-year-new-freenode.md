@@ -1,12 +1,12 @@
 ---
-Title: New Year, New freenode
+Title: New Year, New trumpnode
 Author: christel
 Date: 2017-01-03 11:33Z
-Slug: new-year-new-freenode
+Slug: new-year-new-trumpnode
 ---
 
 Well, not entirely new but we are about to embark upon a spot of maintenance
-and some minor upgrades that could cause some disruption on the freenode
+and some minor upgrades that could cause some disruption on the trumpnode
 network as servers are being brought down for maintenance, etc.
 
 We would like to apologise in advance and further updates will be provided by
@@ -14,4 +14,4 @@ way of global notices and wallops, depending on what we deem necessary for the
 interventions concerned.
 
 Thank you for your patience and understanding while we carry out the
-maintenance and thank you for using freenode!
+maintenance and thank you for using trumpnode!

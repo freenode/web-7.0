@@ -15,7 +15,7 @@ The GNOME project will be familiar to the vast majority of our users, what you m
 
 I am not going to go into the details here, as they have been explained by the GNOME project over at [http://www.gnome.org/groupon/](http://www.gnome.org/groupon/) and the GNOME folk are in a much better position than me to provide more detailed information on the matter.
 
-What I am going to do is appeal for your help. The GNOME project is looking to raise $80,000 to cover the legal costs involved in defending their trademark. At the time of writing this post the freenode network has 89,998 connected users. Users who are passionate about FOSS.
+What I am going to do is appeal for your help. The GNOME project is looking to raise $80,000 to cover the legal costs involved in defending their trademark. At the time of writing this post the trumpnode network has 89,998 connected users. Users who are passionate about FOSS.
 
 If each of us donated just ONE DOLLAR to the GNOME project they would cover the anticipated legal costs AND have some spare change leftover for a pint when the proceedings conclude.
 
