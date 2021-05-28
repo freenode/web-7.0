@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="theme-color" content="#292f2f">
+    <meta name="description" content="freenode.net - Supporting Free and Open Source Software Communities since 1998">
+    <link rel="icon" href="../../static/img/logos/coloured-alphabg-sq-120.png">
+    <link rel="alternate" type="application/rss+xml" href="../../news/rss.xml" title="news (rss)">
+    <link rel="alternate" type="application/atom+xml" href="../../news/atom.xml" title="news (atom)">
+    <title>Connecting to freenode - freenode</title>
+    <link href="../../static/css/open-sans.css?3aa9ce3" rel="stylesheet">
+    <link href="../../static/css/font-awesome.css?3aa9ce3" rel="stylesheet">
+    <link href="../../static/css/style.css?3aa9ce3" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a id="nav-jump" class="invisible" href="#navigation">Jump to navigation</a>
+        <a id="nav-logo" href="../.."><img alt="freenode" class="nlogo" src="../../static/img/logos/coloured-alphabg.svg "></a>
+        <a id="nav-shells" href="https://www.shells.com/?_a=TILzLQ" target="_blank" rel="noopener"><img alt="Shells" class="nlogo" src="../../static/img/logos/shells-logo.svg"></a>
+        <form id="nav-search" action="https://www.google.com/cse">
+            <input type="hidden" name="cx" value="partner-pub-3720690829065633:9p8fr4-u91g">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <label for="search" class="invisible">Query:</label>
+            <input id="nav-searchbox" type="text" name="q" placeholder="Search using Google">
+            <label id="nav-label" for="nav-searchbox"><i class="fa fa-search fa-lg"></i></label>
+            <input id="nav-submit" type="submit" class="invisible" value="Search using Google">
+        </form>
+    </nav>
+    <div class="container">
+        
+<div class="main">
+    <h1>Connecting to freenode</h1>
+    <p class="art-ingress">
+        <p>The freenode network can be accessed via the <a href="//webchat.freenode.net">freenode
+webchat</a> or using an IRC client such as irssi, WeeChat,
+ERC, HexChat, Smuxi, Quassel or mIRC.</p>
+<p>You can connect to freenode by pointing your IRC client at <code>chat.freenode.net</code>
+on ports 6665-6667 and 8000-8002 for plain-text connections, or ports 6697, 7000
+and 7070 for TLS-encrypted connections.</p>
+<h2 id="accessing-freenode-via-tls"><a class="toclink" href="#accessing-freenode-via-tls">Accessing freenode Via TLS</a></h2>
+<p>freenode provides TLS client access on all servers, on ports 6697, 7000 and
+7070. Users connecting over TLS will be given user mode +Z, and <em>is using a
+secure connection</em> will appear in WHOIS (a 671 numeric).</p>
+<p>In order to verify the server certificates on connection, some additional work
+may be required. First, ensure that your system has an up-to-date set of root
+CA certificates. On most linux distributions this will be in a package named
+something like ca-certificates. Many systems install these by default, but some
+(such as FreeBSD) do not.  For FreeBSD, the package is named ca_root_nss,
+which will install the appropriate root certificates in
+/usr/local/share/certs/ca-root-nss.crt.</p>
+<p>Certificate verification will generally only work when connecting to
+<strong><code>freenode.net</code></strong>. If your client thinks the server's certificate is invalid,
+make sure you are connecting to <code>chat.freenode.net</code> rather than any other name
+that leads to freenode.</p>
+<p>For most clients this should be sufficient. If not, you can download the root
+certificate from
+<a href="https://letsencrypt.org/certificates/">LetsEncrypt</a>.</p>
+<p>Client TLS certificates are also supported, and may be used for identification
+to services. See <a href="certfp">this kb article</a>. If you have connected with
+a client certificate, <em>has client certificate fingerprint
+f1ecf46714198533cda14cccc76e5d7114be4195</em> (showing your certificate's SHA1
+fingerprint in place of <em>f1ecf46...</em>) will appear in WHOIS (a 276 numeric).</p>
+<h2 id="accessing-freenode-via-tor"><a class="toclink" href="#accessing-freenode-via-tor">Accessing freenode Via Tor</a></h2>
+<p>freenode is also reachable via <a href="https://www.torproject.org/">Tor<i aria-hidden="true" class="fa fa-external-link"></i></a>, bound to some
+restrictions. You can't directly connect to chat.freenode.net via Tor; use
+the following hidden service as the server address instead:</p>
+<pre><code>ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+</code></pre>
+<p>The hidden service requires SASL authentication. In addition, due to the abuse
+that led Tor access to be disabled in the past, we have unfortunately had to
+add another couple of restrictions:</p>
+<ul>
+<li>You must log in using SASL <code>EXTERNAL</code> or <code>ECDSA-NIST256P-CHALLENGE</code> (more
+  below)</li>
+<li>If you log out while connected via Tor, you will not be able to log in
+  without reconnecting.</li>
+</ul>
+<p>If you haven't set up the requisite SASL authentication, we recommend SASL
+EXTERNAL. You'll need to generate a client certificate and add that to your
+NickServ account. This is documented <a href="certfp">in our knowledge base</a>.</p>
+<p>Connecting using SASL EXTERNAL requires that you connect using TLS encryption.</p>
+<p>You'll then want to tell your client to try the <code>EXTERNAL</code> mechanism. We lack
+comprehensive documentation for this, but it's a feature in most modern
+clients, so please check their docs for instructions for now.</p>
+<h3 id="verifying-tor-tls-connections"><a class="toclink" href="#verifying-tor-tls-connections">Verifying Tor TLS connections</a></h3>
+<p>A Tor hidden service name securely identifies the service you are connecting to. Verifying the TLS server certificate is strickly-speaking unnecessary while using the hidden service. Nonetheless the following methods can be used to verify the hidden service's TLS server certificate.</p>
+<p>The best way to ensure the TLS server-side certificate successfully validates is to add the following fragment to your <code>torrc</code> configuration file and configure your client to connect to <code>zettel.freenode.net</code> via Tor. The TLS server certificate used by the hidden service will validate using this hostname.</p>
+<pre><code># torrc snippet:
+MapAddress zettel.freenode.net ajnvpgl6prmkb7yktvue6im5wiedlz2w32uhcwaamdiecdrfpwwgnlqd.onion
+</code></pre>
+<p>Older clients that don't support SOCKS4a or later will need to use <code>MapAddress</code> with an IP address, and the certificate will not validate successfully. In this case validation will need to be disabled.</p>
+<p>Note that the hidden service's certificate changes periodically as it is updated. This means that the <em>certificate fingerprint</em> can not be reliably pinned. A few clients support <em>public key pinning</em>, however. For these clients the following <em>public key fingerprint</em> can be pinned:</p>
+<pre><code># sha256 public key fingerprint
+E0:1B:31:80:56:D9:78:C4:2B:2D:3F:B2:DB:81:AB:03:15:59:BF:04:7E:31:E8:60:5F:98:07:A1:BB:8F:A3:0D
+</code></pre>
+    </p>
+</div>
+
+    </div>
+    <div class="footers">
+        <a id="navigation"></a>
+        <footer class="footer">
+    <div class="footer-container">
+    
+    <div class="footerchild">
+        <h2>About freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="../../project">The project</a>
+            </li>
+            <li>
+                <a href="../../people">The people</a>
+            </li>
+            <li>
+                <a href="../../philosophy">The philosophy</a>
+            </li>
+            <li>
+                <a href="../../policies">The policies</a>
+            </li>
+            <li>
+                <a href="//freenode.live">freenode #live</a>
+            </li>
+            <li>
+                <a href="//jobs.freenode.net">jobs.freenode.net</a>
+            </li>
+            <li>
+                <a href="../../acknowledgements">Acknowledgements</a>
+            </li>
+            <li>
+                
+                
+                    <a href="../../archive">News Archive</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/rss.xml">RSS</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="../../news/atom.xml">Atom</a>
+                
+                
+            </li>
+        </ul>
+    </div>
+    
+    <div class="footerchild">
+        <h2>Using freenode</h2>
+        <ul>
+            
+            <li>
+                <a href="//webchat.freenode.net">Webchat</a>
+            </li>
+            <li>
+                
+                
+                    <a href="ircs://chat.freenode.net:6697">chat.freenode.net:6697</a>
+                
+                
+                
+                    /
+                
+                
+                
+                    <a href="irc://chat.freenode.net:6667">non-SSL: 6667</a>
+                
+                
+            </li>
+            <li>
+                <a href="../../changuide">Channel guidelines</a>
+            </li>
+            <li>
+                <a href="../../catalysts">Catalyst guidelines</a>
+            </li>
+            <li>
+                <a href="../all">Knowledge base</a>
+            </li>
+            <li>
+                <a href="../../support">Supporting the project</a>
+            </li>
+            <li>
+                <a href="../../contributing">Contributing</a>
+            </li>
+            <li>
+                <a href="../../groupreg">Group registration</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div></div>
+    <div class="footerchild">
+        <div class="footer-push">
+        <h2>Social Media</h2>
+        <ul>
+            <li>
+                <a href="https://twitter.com/freenodestaff" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i> <span class="hdn">Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/freenode-366911233325305/" target="_blank">
+                    <i class="fa fa-facebook fa-fw"></i> <span class="hdn">Facebook</span></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</footer>
+<footer class="copyright">
+    <div>
+    <a href="https://github.com/freenode/web-7.0"><i class="fa fa-github fa-lg"></i></a>&nbsp;
+    <a class="copyright" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target= "_blank">
+        <img alt="CC by-nc-sa" src="../../static/img/by-nc-sa.svg">
+    </a>
+    </div>
+    <div>
+        &copy; 2016-2021, freenode
+    </div>
+</footer>
+    </div>
+    <script src="../../static/js/utils.js?3aa9ce3" type="text/javascript"></script>
+</body>
+</html>
