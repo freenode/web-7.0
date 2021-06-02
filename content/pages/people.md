@@ -1,7 +1,7 @@
 ---
 Title: The People
 ---
-The freenode project mostly run by volunteers. Most of the current volunteers came to the project through involvement with one or more of the projects that use freenode or other networks and have deep experience running IRC networks.
+The freenode project is mostly run by volunteers. Most of the current volunteers came to the project through involvement with one or more of the projects that use freenode or other networks and have deep experience running IRC networks.
 
 The following people help to keep freenode running:
 
