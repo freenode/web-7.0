@@ -132,7 +132,6 @@ img {
  * pia = Private Internet access
  */
 #nav-logo { order: 10; }
-#nav-shells  { order: 30; }
 
 #nav-jump { order: 1000; }
 
@@ -162,10 +161,6 @@ img {
     #nav-search {
         order: 100;
         margin: 0 .5em;
-    }
-
-    #nav-shells {
-        margin-left: auto;
     }
 
     #nav-label {
