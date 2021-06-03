@@ -6,7 +6,6 @@ The freenode project is run entirely by volunteers. All of the current volunteer
 The following people help to keep freenode running:
 
 ###  Leadership
-####
 - **rasengan** is Head of the Leadership
 - **v8** is the Deputy Head of the Leadership
 - **poison**
