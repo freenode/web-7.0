@@ -5,8 +5,8 @@ The freenode project is run entirely by volunteers. All of the current volunteer
 
 The following people help to keep freenode running:
 
-###  Leadership
-####
+##  Leadership
+
 - **rasengan** is Head of the Leadership
 - **v8** is the Deputy Head of the Leadership
 - **poison**
@@ -14,19 +14,24 @@ The following people help to keep freenode running:
 - **taw**
 - **tjr**
 
-### Advisory
+## Advisory
+
 - **b3nw**
 
-### Infrastructure
-#### The infrastructure team keeps freenode and its services running smoothly.  Along with team heads and deputy heads, the infrastructure team comprises the senior staff.
+## Infrastructure
+
+The infrastructure team keeps freenode and its services running smoothly.  Along with team heads and deputy heads, the infrastructure team comprises the senior staff.
+
 - **poison** is Head of Infrastructure
 - **taw** is Lead Network Administrator
 - **tjr** is Lead Server Manager
 - **rails** is an Infrastructure Manager and Kline Liaison
 - **realwof** is an Infrastructure Manager
 
-### Community
-#### The community team keeps in contact with the overall FOSS community and provides support whenever possible.
+## Community
+
+The community team keeps in contact with the overall FOSS community and provides support whenever possible.
+
 - **v8** is Head of Community
 - **eth01** is a Deputy Head of Community
 - **bagira** is a Deputy Head of Community
@@ -34,27 +39,31 @@ The following people help to keep freenode running:
 - **dbo**
 - **nikola**
 
-### Development
-#### The development team works on the software that keeps freenode running, from the web to IRC.
+## Development
+
+The development team works on the software that keeps freenode running, from the web to IRC.
+
 - **rasengan** is Head of Development
 - **v8** is Deputy Head of Development
 - **eskimo**
 - **jhill**
 - **taw**
 
-### Klines
+## Klines
+
 - **rails** is the Head of Klines
 - **tjr** is Deputy Head of Klines
 - **Ragnar**
 		
-### Staff
+## Staff
+
 - **sorcerer** is the Head of Help and Documentation
 - **Foxy** is the Head of Training
 - **ARI3L**
 - **cheater**
 - **Friet**
 - **MillerBoss**
-- **proto\**
+- **proto\\**
 - **Ragnar**
 - **rails**
 - **Ritche**
