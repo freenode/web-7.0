@@ -19,4 +19,11 @@ Now, configure SASL:
     /set irc.server.freenode.sasl_password <password>
     /save
 
+It is recommended to store the password as secured data (skip setting
+passphrase if already set):
+
+    /secure passphrase <passphrase>
+    /secure set freenode_password <password>
+    /set irc.server.freenode.sasl_password "${sec.data.freenode_password}"
+
 For more complete instructions, including non-password-based mechanisms, see the [official Weechat documentation <i class="fa fa-external-link" aria-hidden="true"></i>](https://www.weechat.org/files/doc/stable/weechat_user.en.html#irc_sasl_authentication).
