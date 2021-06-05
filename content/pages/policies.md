@@ -43,9 +43,9 @@ Channel ownership
 =================
 
 Channels on freenode fall into one of two categories. Primary channels, which
-begin with a single # character, are reserved for on-topic projects. Primary
-channels are required to stay open.  If a primary channel closes access to its
-users or is in violation of freenode policies, then it will be closed and forwarded
+begin with a single # character, are reserved for on-topic projects. Projects are
+required to keep at least one primary channel open. If a project closes access to its
+users or is in violation of freenode policies, then its channels will be closed and forwarded
 to a topical channel. If you’d like to take over one of these primary channels, then
 you’ll need to be associated in some way with the project in question. Topical,
 or ‘about’ channels, begin with two # characters, and these are allocated on a
